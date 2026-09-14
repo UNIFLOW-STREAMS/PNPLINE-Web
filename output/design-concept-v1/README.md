@@ -13,6 +13,58 @@
 
 [index.html](index.html)을 열면 6개 시안을 순서대로 확인할 수 있습니다. 각 이미지는 독립된 가로형 섹션입니다. 실제 웹사이트 구현이나 폼 제출 기능은 포함하지 않습니다.
 
+## 디자인 시스템 V1 시각 검수 페이지
+
+[design-system-preview.html](design-system-preview.html)은 [`docs/wayfinder/design-system-v1.md`](../../docs/wayfinder/design-system-v1.md)와 [design-tokens.css](design-tokens.css)를 실제 브라우저에서 비교하기 위한 개발 전달용 프리뷰입니다. 새로운 디자인 제안이나 운영 웹사이트가 아니며, 프리뷰 구현 완료는 디자인 승인을 뜻하지 않습니다.
+
+저장소 루트에서 다음 명령으로 로컬 정적 서버를 실행합니다.
+
+```powershell
+python -m http.server 8000
+```
+
+브라우저에서 `http://127.0.0.1:8000/output/design-concept-v1/design-system-preview.html`을 엽니다. 외부 폰트 CDN, 외부 API, 분석 스크립트를 사용하지 않으므로 기본 검수에는 외부 네트워크 연결이 필요하지 않습니다. 파일을 직접 열 수도 있지만 브라우저의 로컬 파일 CSSOM 보안 정책에 따라 토큰 선언값 읽기가 제한될 수 있으므로 HTTP 서버 실행을 권장합니다.
+
+검수 범위는 다음과 같습니다.
+
+- Primitive·Semantic 색상, 선언값·계산값·역할, 텍스트/배경 대비
+- 문서에 정의된 Display, H1, H2, H3, Body, Small, Label
+- 전체 `--space-*`, radius, panel/focus shadow, Component 토큰의 반응형 계산값
+- Primary·Secondary·Text 버튼과 입력·선택·체크박스의 주요 상태
+- Evidence Badge, 다중 열림 FAQ, 정적 Header + Hero, 서비스 선택, 견적 폼 UI 데모
+- 견적 폼의 입력 중·제출 중·접수 완료·제출 실패 재현. 실제 전송이나 개인정보 저장은 수행하지 않음
+
+### 명세 공백과 임시 해석
+
+- 타이포그래피 크기·행간·굵기는 문서에만 있고 CSS 토큰에는 없습니다. 프리뷰 전용 스타일로 구현하고 각 견본에 `문서 기반 구현 / CSS 토큰 미정의`를 표시했습니다.
+- 버튼과 폼의 반경, disabled·error 세부 색상, 체크박스 크기, Evidence Badge 색상 매핑은 문서나 토큰에 구체값이 없어 기존 팔레트로 최소한의 프리뷰용 임시 해석을 적용했습니다.
+- 문서는 Primary의 Hover/Focus를 모두 잉크 배경으로 설명하지만 CSS에는 `--action-primary-hover`만 있고 Focus 전용 배경 토큰은 없습니다. 프리뷰는 같은 hover 토큰과 `--shadow-focus`를 함께 사용합니다.
+- 데스크톱 40px·모바일 16px 좌우 여백은 문서에만 있고 전용 CSS 토큰이 없습니다.
+- CSS의 글꼴 이름은 실제 폰트 파일 로딩을 보장하지 않습니다. 외부 CDN을 추가하지 않았으므로 설치되지 않은 환경에서는 대체 폰트로 표시될 수 있습니다.
+- 버튼·입력·배지의 component token, active 상태, 어두운 배경의 focus 표시 방식, 실제 서비스별 Evidence Badge 상태는 디자인 승인 전에 결정해야 합니다.
+
+### 2026-09-14 브라우저 검증 기록
+
+로컬 HTTP 서버와 설치된 Chrome 153 headless를 사용해 실제 렌더링과 입력을 검증했습니다.
+
+- 360, 390, 767, 768, 1200, 1440px에서 페이지 가로 넘침, 주요 영역 경계 이탈, 중국어 텍스트·버튼 잘림이 발견되지 않았습니다.
+- 767px에서는 `--header-height: 60px`, `--panel-padding: 16px`, 768px에서는 각각 `72px`, `24px`로 계산되어 토큰 경계가 적용됐습니다.
+- 표시된 버튼, 입력, 선택, 체크박스 라벨, FAQ 질문 행의 최소 상호작용 높이는 44px였습니다.
+- 실제 hover 색상은 `#12232d`, 키보드 focus-visible은 3px `--shadow-focus`로 계산됐습니다. FAQ 두 항목을 동시에 열고 한 항목만 다시 닫는 동작을 확인했습니다.
+- 견적 폼은 키보드로 값을 입력하고 제출 중 → 완료를 재현했으며, 실패 재현 뒤에도 서비스·채널·물량·이메일·동의 값이 유지됐습니다.
+- `prefers-reduced-motion: reduce`에서 문서 스크롤은 `auto`, 버튼 transition은 `0.01ms`로 계산됐습니다.
+- 로드된 리소스는 같은 origin의 `design-tokens.css`, 프리뷰 CSS, 프리뷰 JS뿐이었고, 콘솔 오류·파일 로딩 실패·외부 네트워크 요청은 없었습니다.
+
+실사용·비교 견본의 계산 대비는 기본 본문/흰색 14.40:1, 보조 본문/흰색 7.94:1, 본문/tinted 13.03:1, Primary 버튼 4.91:1, Primary hover 16.10:1, inverse 본문 14.40:1입니다. 흰색과 `--color-brand-green-600` 조합은 2.92:1로 AA 기준에 미달하므로, 브랜드 녹색을 텍스트나 텍스트 배경으로 사용할 때의 역할과 대체 조합을 승인 전에 결정해야 합니다.
+
+스크린샷은 [qa-screenshots](qa-screenshots/)에 저장했습니다.
+
+- [390px 모바일](qa-screenshots/preview-mobile-390.png)
+- [1440px 데스크톱](qa-screenshots/preview-desktop-1440.png)
+- [1200px 버튼 상태](qa-screenshots/preview-components-1200.png)
+- [1200px 폼 완료](qa-screenshots/preview-form-success-1200.png)
+- [1200px 폼 실패와 입력 보존](qa-screenshots/preview-form-failure-1200.png)
+
 ## 참조와 콘텐츠 범위
 
 - 시각 참조: [ShipMonk](https://www.shipmonk.com/). 2026-09-09 직접 열어 흰 배경, 네이비/초록색, 둥근 사진 컨테이너, 카드 및 CTA 구성을 확인했습니다.
