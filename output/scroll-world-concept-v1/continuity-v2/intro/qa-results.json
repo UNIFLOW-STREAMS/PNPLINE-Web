@@ -1,0 +1,181 @@
+{
+  "results": [
+    {
+      "name": "desktop assets decode",
+      "pass": true
+    },
+    {
+      "name": "desktop starts with intro",
+      "pass": true
+    },
+    {
+      "name": "desktop three review keyframes",
+      "pass": true
+    },
+    {
+      "name": "desktop duration includes intro",
+      "pass": true
+    },
+    {
+      "name": "desktop mask grows on scrub",
+      "pass": true
+    },
+    {
+      "name": "desktop intro hands off to S01",
+      "pass": true
+    },
+    {
+      "name": "desktop intro removed after handoff",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 1 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 2 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 3 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 4 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 5 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop scene 6 seek",
+      "pass": true
+    },
+    {
+      "name": "desktop copy toggle off",
+      "pass": true
+    },
+    {
+      "name": "desktop logo guides on",
+      "pass": true
+    },
+    {
+      "name": "desktop intro playback advances",
+      "pass": true
+    },
+    {
+      "name": "desktop hidden basic pauses",
+      "pass": true
+    },
+    {
+      "name": "desktop keyframe navigates to intro",
+      "pass": true
+    },
+    {
+      "name": "desktop reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "desktop reduced motion has no zoom",
+      "pass": true
+    },
+    {
+      "name": "desktop reduced motion can skip intro",
+      "pass": true
+    },
+    {
+      "name": "desktop no page overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile assets decode",
+      "pass": true
+    },
+    {
+      "name": "mobile starts with intro",
+      "pass": true
+    },
+    {
+      "name": "mobile three review keyframes",
+      "pass": true
+    },
+    {
+      "name": "mobile duration includes intro",
+      "pass": true
+    },
+    {
+      "name": "mobile mask grows on scrub",
+      "pass": true
+    },
+    {
+      "name": "mobile intro hands off to S01",
+      "pass": true
+    },
+    {
+      "name": "mobile intro removed after handoff",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 1 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 2 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 3 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 4 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 5 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile scene 6 seek",
+      "pass": true
+    },
+    {
+      "name": "mobile copy toggle off",
+      "pass": true
+    },
+    {
+      "name": "mobile logo guides on",
+      "pass": true
+    },
+    {
+      "name": "mobile intro playback advances",
+      "pass": true
+    },
+    {
+      "name": "mobile hidden basic pauses",
+      "pass": true
+    },
+    {
+      "name": "mobile keyframe navigates to intro",
+      "pass": true
+    },
+    {
+      "name": "mobile reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "mobile reduced motion has no zoom",
+      "pass": true
+    },
+    {
+      "name": "mobile reduced motion can skip intro",
+      "pass": true
+    },
+    {
+      "name": "mobile no page overflow",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,94 @@
+{
+  "coordinate_system": "normalized_top_left",
+  "bounds": [
+    0,
+    1
+  ],
+  "basis": "review_layout_measured_against_export",
+  "reference_size": [
+    1600,
+    900
+  ],
+  "regions": [
+    {
+      "id": "title",
+      "role": "text_allowed",
+      "rect": [
+        0.055,
+        0.14,
+        0.28,
+        0.18
+      ]
+    },
+    {
+      "id": "body",
+      "role": "text_allowed",
+      "rect": [
+        0.055,
+        0.35,
+        0.28,
+        0.13
+      ]
+    },
+    {
+      "id": "cta",
+      "role": "text_allowed",
+      "rect": [
+        0.055,
+        0.51,
+        0.2,
+        0.12
+      ]
+    },
+    {
+      "id": "process",
+      "role": "protect_object",
+      "rect": [
+        0.35,
+        0.01,
+        0.62,
+        0.9
+      ]
+    },
+    {
+      "id": "logo",
+      "role": "protect_logo",
+      "rect": [
+        0.75,
+        0.078,
+        0.17500000000000004,
+        0.12100000000000001
+      ]
+    },
+    {
+      "id": "route",
+      "role": "protect_route",
+      "rect": [
+        0.52,
+        0.62,
+        0.19,
+        0.38
+      ]
+    },
+    {
+      "id": "header",
+      "role": "ui_interference",
+      "rect": [
+        0,
+        0,
+        1,
+        0.085
+      ]
+    },
+    {
+      "id": "bottom",
+      "role": "ui_interference",
+      "rect": [
+        0,
+        0.94,
+        1,
+        0.06
+      ]
+    }
+  ]
+}

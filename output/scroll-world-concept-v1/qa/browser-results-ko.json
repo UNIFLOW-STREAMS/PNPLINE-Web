@@ -1,0 +1,407 @@
+{
+  "started": "2026-09-14T14:47:47.435Z",
+  "url": "http://127.0.0.1:8761/output/scroll-world-concept-v1/ko.html",
+  "browser": "Chrome via installed Playwright",
+  "checks": [
+    {
+      "name": "1440: Korean document language",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: six scenes",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: Korean scene names",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: no Chinese UI residue",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: Korean CTA",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: Korean status",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: default orientation",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S01 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S01 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S02 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S02 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S03 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S03 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S04 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S04 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S05 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S05 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S06 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: S06 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: copy toggle",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: orientation change",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: Korean transition",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: reduced motion",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "1440: no JavaScript errors",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "390: Korean document language",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: six scenes",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: Korean scene names",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: no Chinese UI residue",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: Korean CTA",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: Korean status",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: default orientation",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S01 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S01 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S02 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S02 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S03 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S03 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S04 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S04 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S05 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S05 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S06 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: S06 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: copy toggle",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: orientation change",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: Korean transition",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: reduced motion",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "390: no JavaScript errors",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "360: Korean document language",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: no horizontal overflow",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: six scenes",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: Korean scene names",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: no Chinese UI residue",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: Korean CTA",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: Korean status",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: default orientation",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S01 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S01 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S02 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S02 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S03 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S03 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S04 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S04 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S05 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S05 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S06 image decoded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: S06 copy bounded",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: copy toggle",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: orientation change",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: Korean transition",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: reduced motion",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "360: no JavaScript errors",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "failed image has Korean explanation",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "JavaScript-disabled Korean fallback",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "language switch opens Chinese page",
+      "pass": true,
+      "detail": {}
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "browser_version": "153.0.8010.36",
+  "finished": "2026-09-14T14:47:56.544Z"
+}

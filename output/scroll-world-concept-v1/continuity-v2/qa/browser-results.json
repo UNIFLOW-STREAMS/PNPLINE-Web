@@ -1,0 +1,484 @@
+{
+  "checks": [
+    {
+      "name": "ko 1440 http no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "ko 1440 http six static scenes",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http independent orientations",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http all images decode",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http desktop six",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http mobile six",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http static copy hidden",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http logo masks",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S01 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S01 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S02 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S02 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S03 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S03 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S04 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S04 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S05 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S05 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S06 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http S06 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http shot navigation",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http animatic image-only",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http keyboard End",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http playback timing",
+      "pass": true,
+      "detail": {
+        "progress": 31,
+        "expected": 32
+      }
+    },
+    {
+      "name": "ko 1440 http pause holds",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "ko 1440 http reduced motion no camera move",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "ko 390 http six static scenes",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http independent orientations",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http all images decode",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http desktop six",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http mobile six",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http static copy hidden",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http logo masks",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S01 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S01 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S02 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S02 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S03 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S03 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S04 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S04 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S05 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S05 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S06 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http S06 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http shot navigation",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http animatic image-only",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http keyboard End",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http playback timing",
+      "pass": true,
+      "detail": {
+        "progress": 31,
+        "expected": 32
+      }
+    },
+    {
+      "name": "ko 390 http pause holds",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "ko 390 http reduced motion no camera move",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "ko 360 file six static scenes",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file independent orientations",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file all images decode",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file desktop six",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file mobile six",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file static copy hidden",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file logo masks",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S01 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S01 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S02 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S02 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S03 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S03 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S04 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S04 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S05 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S05 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S06 geography",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file S06 single active frame",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file shot navigation",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file animatic image-only",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file keyboard End",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file playback timing",
+      "pass": true,
+      "detail": {
+        "progress": 31,
+        "expected": 32
+      }
+    },
+    {
+      "name": "ko 360 file pause holds",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "ko 360 file reduced motion no camera move",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index 1440 file six static scenes",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file independent orientations",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file all images decode",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file desktop six",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file mobile six",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file static copy hidden",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file logo masks",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S01 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S01 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S02 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S02 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S03 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S03 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S04 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S04 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S05 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S05 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S06 geography",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file S06 single active frame",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file shot navigation",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file animatic image-only",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file keyboard End",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file playback timing",
+      "pass": true,
+      "detail": {
+        "progress": 31,
+        "expected": 32
+      }
+    },
+    {
+      "name": "index 1440 file pause holds",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file reduced motion disables playback",
+      "pass": true
+    },
+    {
+      "name": "index 1440 file reduced motion no camera move",
+      "pass": true
+    },
+    {
+      "name": "failed image readable Korean context",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript six new image links",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "passed": 114,
+  "total": 114,
+  "date": "2026-09-14T19:42:44.663Z"
+}

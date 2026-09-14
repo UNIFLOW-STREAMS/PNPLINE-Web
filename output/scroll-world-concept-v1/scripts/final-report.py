@@ -1,0 +1,62 @@
+from pathlib import Path
+import json,hashlib,datetime
+p=Path(__file__).resolve().parents[1];root=p.parents[1]
+a=json.loads((p/'data/assets.json').read_text(encoding='utf-8'));tech=json.loads((p/'qa/technical-results.json').read_text(encoding='utf-8'));browser=json.loads((p/'qa/browser-results.json').read_text(encoding='utf-8'))
+count=a['counts'];checks=len(browser['checks']);failed=sum(not c['pass'] for c in browser['checks'])
+report=f'''# #61 검증 기록
+
+상태: **ready_for_review / 미술 충족 일부 검토 필요**. 필수 파일과 검토 기능은 준비됐지만 개별 이미지의 시각 승인·운영 공개 승인은 받지 않았다. AC-2의 완전한 미니어처 축척·카메라 일관성은 부분 충족이다. 기술 검사를 미술 승인으로 대신하지 않는다.
+
+## 실제 제작
+
+- 고유 생성 정지 이미지: {count['generated_unique']}장. 수정·미선택 시안도 포함하며 SHA-256으로 동일 파일 복사본을 중복 제거했다.
+- 제출 합성본: desktop {count['desktop_clean']}장 + mobile {count['mobile_clean']}장, S01 비교안 {count['styleframes']}장.
+- 비교안 A는 desktop S01과 같은 이미지이므로 새 생성으로 세지 않는다. 최종 선택된 독립 base는 14장이다.
+- 12개 JSON 안전 영역과 12개 SVG 표시 마스크, 실제 원근 좌표 14개, 원본 대비 로고 확대 14개, 6장면 contact sheet 2개, 자체 생성 소재 연구 1개.
+- Built-in image_gen.imagegen, Pillow 11.1.0, NumPy 2.2.4, 기존 Playwright/Chrome를 사용했다. 추론 모델은 GPT-6 계열이며 정확한 런타임 ID는 미노출이다. 이미지 생성 모델 ID·seed·비용도 도구에서 확인할 수 없어 unknown/not_available로 기록했다.
+- 실제 생성 prompt/실패/수정 기록은 prompts/execution-*.json에 있다. S02의 이미지 참조 읽기 실패는 생성 이미지로 세지 않는다. 사용자 참고 이미지의 고수준 시각 검토를 프롬프트로 반영했으며 생성 호출에 원본 이미지 바이트를 전달했다고 주장하지 않는다.
+- 실제 영상 생성 호출 0회. 러프 animatic은 HTML 정지 프레임과 불투명 가림 레이어이다. MP4는 선택 항목으로 제작하지 않았다.
+
+## 수용 기준
+
+| ID | 기술·제작 판정 | 시각·승인 판정과 증거 |
+|---|---|---|
+| AC-1 | 통과 | 원본 두 파일 직접 열람, 크기·RGBA·해시 확인, 원본 불변. sources.json |
+| AC-2 | 부분 충족 | 선택된 낮·산업 재질·공식 블루·브랜딩은 적용. 일부 장면은 실물 규모의 산업 CGI처럼 보이며 카메라 고도와 S01의 페더링 차이가 남음. contact sheets와 visual-decisions.json |
+| AC-3 | 자산 준비 통과 / 비교 통제 부분 | 3안, 독립 desktop6/mobile6, A 재사용 기록, 가로/세로 비율·실제 파일 확인. B/C는 독립 생성으로 동일 지오메트리의 조명·카메라만 바꾼 엄밀한 비교는 아님. 사람의 최종 승인 대기 |
+| AC-4 | 기술 통과 / 시각 검토 | 원본 알파·글자 픽셀, 투명 여백 crop, 단일 homography, 실제 합성 좌표와 확대본 확인. 조명·재질 반응은 단순화됐으며 B 저녁 표면과 작은 표식은 추가 시각 검토 |
+| AC-5 | 통과 | 12개 마스크와 같은 JSON으로 UI 표시. 세 뷰포트 카피 영역 높이·가로 넘침·보호영역 비충돌 검사. 실제 캡처 검토 |
+| AC-6 | 통과(러프 의도) | 6장면/5경계/키보드/포커스/자연 휠/정적 대체/오류 안내. 실제 3D 연속성·영상 시킹 검증은 아님 |
+| AC-7 | 통과 | 실행 prompt·원본/합성 관계·해시·허용/금지·출처·권한 미확인·비용 미노출 기록. 원본 참고 이미지를 공개용 출력에 복제하지 않음 |
+| AC-8 | 통과(준비) | 사용자 변경과 이전 #61 차이, 미게시 정합성 초안, #24 2장면 판정표와 #62 미확정 규격. 게시/배포/이슈 종료 없음 |
+
+## 실행 검사
+
+- Python 파일·JSON·이미지 크기·비율·원본 해시·투명도·정확한 crop·합성좌표·마스크 충돌·프롬프트 연결·타임라인 검사: {tech['passed']}/{len(tech['checks'])} 통과. 실패 {len(tech['failed'])}개.
+- 실제 Chrome {browser['browser_version']}, Playwright: {checks-failed}/{checks} 검사 통과. JS 예외·예상하지 않은 콘솔 오류는 최종 정상 경로에서 없음.
+- 뷰포트: 1440×900, 390×844, 360×800. 화면 배율 1. 정적 전체 6장면, 화면비/카피/마스크 전환, slider End/Home/ArrowRight, 5경계 앞뒤, reduced-motion 실시간 변경, 실제 이미지 네트워크 실패를 검사했다.
+- 첫 검사에서 전경 가림 레이어가 화면 밖으로 넘쳐 가로 스크롤이 생겼다. motion-stage clipping으로 수정하고 전체 검사를 다시 통과했다. 경계 검사는 화면 크기와 관계없는 픽셀 수가 아니라 실제 가림 면적 비율(해당 경계 샘플에서 75% 이상)을 확인한다. 이는 preview의 검사 기준이며 영상 승인 임계값이 아니다.
+- 이미지 오류 테스트는 요청을 의도적으로 차단해 실행했다. 정상 경로의 깨진 이미지로 집계하지 않는다.
+- node --check: review.js, scripts/browser-qa.cjs 통과. git diff --check 실행. 저장소에 package.json/기존 lint·build·test 스크립트가 없어 명령을 추측하지 않았다. 새 미추적 텍스트는 별도 whitespace 검사로 확인한다.
+
+실행 근거: technical-results.json, browser-results.json, screenshots/, contact-desktop.jpg, contact-mobile.jpg, logo-comparisons/. 최종 파일 해시는 result-snapshot.json에 기록한다. 기준 HEAD는 89f99568d3216814d1b57334bf467a3fdca8ddca이며 변경사항은 커밋하지 않았다.
+
+## 미검증·품질 한계
+
+- 실제 iOS/Android 실기기, 실제 영상·시킹 지연·fps·첫 표시·프리로드·메모리·네트워크·생성 비용은 검증하지 않았다.
+- 수정 시안의 미니어처 느낌이 개선돼도 공정이 불명확하면 기각했다. S05 모바일 v2는 작업자/테이블 접점이 모호해 원본 v1을 유지한다. 개별 선택 이력은 visual-decisions.json을 따른다.
+- 미세한 포장·장비 표식은 실제 운영 문자나 공식 로고로 인정하지 않는다. 사람의 세부 시각 검수 및 영상 파일럿에서 재확인이 필요하다.
+- 흰색 배경 여백, 일부 원근 차이, 단순화한 로고 광원 반응은 검토해야 한다. 6장면을 하나의 정확한 3D 공간이나 일정 속도 카메라로 렌더링한 것이 아니다.
+- 현재 중국어는 승인된 운영 약속을 포함하지 않는 임시 검토 문구다. 참고 원본과 로고의 외부 재배포 권한은 미확인이다.
+
+#24에는 S01+S02의 양 화면비 원본·합성본·로고 소스/좌표·프롬프트·마스크·연결 의도와 pilot-checklist.md를 전달한다. #62의 실제 전달 구조·해상도·fps·코덱·용량·스크롤/시간·poster/fallback 계약은 파일럿 실측 이후 결정한다.
+'''
+(p/'qa/validation.md').write_text(report,encoding='utf-8')
+files=list(p.rglob('*'))+[root/'docs/wayfinder/scroll-world-concept-v1.md'];records=[];whitespace=[]
+for f in files:
+ if not f.is_file() or f.name=='result-snapshot.json':continue
+ if f.suffix in ['.md','.html','.css','.js','.cjs','.json','.py','.svg']:
+  text=f.read_text(encoding='utf-8-sig');whitespace.extend([str(f.relative_to(root))+':'+str(i) for i,line in enumerate(text.splitlines(),1) if line.rstrip()!=line])
+ records.append({'path':str(f.relative_to(root)).replace('\\','/'),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
+(p/'qa/result-snapshot.json').write_text(json.dumps({'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'head':'89f99568d3216814d1b57334bf467a3fdca8ddca','whitespace_errors':whitespace,'files':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'status':a['status'],'generated_unique':count['generated_unique'],'technical_passed':tech['passed'],'browser_passed':checks-failed,'whitespace_errors':whitespace,'files':len(records)},ensure_ascii=False,indent=2))

@@ -1,0 +1,32 @@
+{
+  "scene_id": "S03",
+  "orientation": "desktop",
+  "path": "continuity-v2/base/S03-desktop.png",
+  "width": 1672,
+  "height": 941,
+  "tool": "built-in image_gen",
+  "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a0a06d-ef42-7b02-82ce-8d5d4c39c047/exec-7bf37c03-0680-4021-8036-734e1494caf7.png",
+  "prompt": "Use case: stylized-concept. Asset S03 desktop keyframe, wide landscape 16:9, exactly one image. Image 1 is style and continuity reference, not an edit target. Match its premium convincing 1:120 physical logistics scale model: tiny painted PPE figurines, delicate fabricated steel crane structure, subtly beveled model base visible along front edge, poured resin sea, macro tiltshift modest depth falloff, bright diffuse daylight, whitegray/navy/cyan/kraft. More visibly miniature than architectural visualization, tactile tiny rails and model vehicles, grounded real scale proportions. New scene: unmistakable USA West Coast maritime arrival without naming any real port/city or landmarks. A realistic American flag on a prominent slender pole at center-right; low-rise industrial hinterland, broad inland road, long-hood American semi tractor with chrome grille. Camera views from landward port quarter diagonally FROM ocean LEFT TOWARD warehouse RIGHT; keep readable coherent left-to-right movement across full width. The same navy cargo ship with white aft superstructure is visible in left resin ocean, docked at left quay. A delicate quay gantry crane unloads the same hero CYAN corrugated container with black castings onto a long-hood American tractor trailer at center foreground, the tractor pointing RIGHT toward a distinctive white fulfillment warehouse with NAVY upright portal frame and THREE visible receiving bays in right background, yellow safety bollards. Hero cyan container foreground has a clean ivory BLANK rectangular long-side panel facing camera, approximately 5.4:1 panel shape, physical sign attached to container, unobstructed for later original logo compositing. The logo panel is not a billboard; container and actual arrival action remain legible. Tiny painted workers supervise unloading. Ship, quay, crane, inland road, warehouse must all be visible. NO generated words, numbers, logos, pseudo lettering, watermarks or overlay graphics; USA flag is allowed. Full-width narrative composition, no blank left area. Do not copy China flag, high-rise Chinese skyline, cabover tractor from reference. Country and camera angle must clearly change while container/materials maintain identity.",
+  "reference_delivery": "Anchor preview 960x540 JPEG delivered via image(), num_last_images_to_include:1",
+  "logo_quad": [
+    [
+      0.379785,
+      0.593
+    ],
+    [
+      0.508971,
+      0.623804
+    ],
+    [
+      0.508971,
+      0.666313
+    ],
+    [
+      0.379785,
+      0.635494
+    ]
+  ],
+  "logo_quad_order": "TL TR BR BL, normalized image coordinates",
+  "visual_findings": "Recognizable American flag, long-hood tractor, ship left and warehouse right. Center crane unloads cyan container. Clear blank panel; chosen logo quad occupies central inner strip to preserve logo aspect. Tiny ship hull markings are generated details, no meaningful brand text.",
+  "attempts": 1
+}

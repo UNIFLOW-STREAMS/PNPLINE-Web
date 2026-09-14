@@ -1,0 +1,54 @@
+# Authoring sources and superseded revisions
+/animatic/
+/base-scenes/
+/branding/
+/data/
+/keyframes/
+/masks/
+/prompts/
+/scripts/
+/styleframes/
+/index-v1.html
+/ko-v1.html
+/review.js
+
+# Local QA artifacts
+/concept-hub-*.jpg
+/concept-hub-qa.cjs
+/tabs-*.jpg
+/tabs-qa.cjs
+/tabs-qa-results.json
+/qa/*
+!/qa/pilot-checklist.md
+!/qa/decision-sync-draft.md
+
+# Continuity build sources and screenshots
+/continuity-v2/base/
+/continuity-v2/receipts/
+/continuity-v2/__pycache__/
+/continuity-v2/build.py
+/continuity-v2/install.py
+/continuity-v2/qa.cjs
+/continuity-v2/toggle-repro.cjs
+/continuity-v2/qa/*
+!/continuity-v2/qa/S01-desktop-logo.jpg
+!/continuity-v2/qa/browser-results.json
+/continuity-v2/intro/*
+!/continuity-v2/intro/china-harbor.png
+
+# Cinema and high-angle QA captures
+/cinema/*.png
+/cinema/*.jpg
+/cinema/qa.cjs
+/cinema/qa-results.json
+/high-angle-c/*.jpg
+/high-angle-c/camera-*.png
+/high-angle-c/overview-*.png
+/high-angle-c/*qa.cjs
+/high-angle-c/*qa-results.json
+/high-angle-c/prompt.txt
+
+# Original full-page PNGs are retained locally; deployment uses WebP copies
+/concepts/a/pnpline-cn-home-full-1920.png
+/concepts/b/00-fullpage.png
+/concepts/d/pnpline-cn-home-concept-1920-grid-spacing32.png

@@ -1,0 +1,832 @@
+{
+  "generated_at": "2026-09-14T14:29:08.501308+00:00",
+  "head": "89f99568d3216814d1b57334bf467a3fdca8ddca",
+  "whitespace_errors": [],
+  "files": [
+    {
+      "path": "output/scroll-world-concept-v1/index.html",
+      "bytes": 7712,
+      "sha256": "5b841d8660571d1f5b0ff2495cc371a75c8a89cbcc34b6bd8f06b5de3afad7e4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/README.md",
+      "bytes": 3348,
+      "sha256": "12adc3a81256fd8447ccc239447924a3284f2738f8afecfdb6a83088bb5e64ef"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/review.css",
+      "bytes": 7413,
+      "sha256": "65dcb4910d8b0e14b9e8d716a1a45e792721e1d7a269f6a952c471fbe14412bb"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/review.js",
+      "bytes": 7405,
+      "sha256": "0658b3409dedef60b63db7147c4a328e89e1a5b544cfb7e362b75c4082cbd016"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-A-v2.png",
+      "bytes": 2330719,
+      "sha256": "c5dbfc3e1b314c971b0cb6a2c7d0059d9b4c84c2814358730ea9272be02d2471"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-A.png",
+      "bytes": 2009162,
+      "sha256": "f14fb9218dd9a6b20f0fe029b5bdd684fa2a52e0dbb9e37291b7e734438676a2"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-B-desktop-base.png",
+      "bytes": 2063419,
+      "sha256": "d4b9b0ffbc78493ca4a5d8705bee9a932312d1149cdad1d43dcceffe1b101ada"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-C-desktop-base.png",
+      "bytes": 2178102,
+      "sha256": "2e45b7c4ffe815b48b3aca88e9d8019ee0918a570ccf6f83e2e2071154d7bebc"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-mobile-v2.png",
+      "bytes": 2119494,
+      "sha256": "39d29755246d7905b1d3ffef01416be5294b5d55915a2e83caba030c0c0f4168"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S01-mobile.png",
+      "bytes": 1832239,
+      "sha256": "b6e7140ce86f3a38e217ab2ce784d64f231e9dd02033560f810f8d271a42dcb9"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S02-A.png",
+      "bytes": 2233124,
+      "sha256": "0364ca0d0b6e6df39498e2dbec37b732c223b32bc22426ae33520d59c94b624f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S02-mobile.png",
+      "bytes": 2020142,
+      "sha256": "fa7933a2c4a6f55191c33728060d318919dded3b8077afc3d6194730d4288b3b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S03-A-v2.png",
+      "bytes": 2240336,
+      "sha256": "fb870f96dd889bc6db2e5790fb84c6ae4461cbf80d96f494490827a19a7ca2f0"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S03-A.png",
+      "bytes": 1873900,
+      "sha256": "e0d0e30665e36998720542c770bc32a5e569d74e8f43e89c487f473f300081dd"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S03-mobile-v2.png",
+      "bytes": 2115639,
+      "sha256": "408ea2a78c22f885ac1940a6a0d6ea53ef4f646f9e8fd3495c521b07c7d966bf"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S03-mobile.png",
+      "bytes": 1769538,
+      "sha256": "330df168946f489be5b6672adb8bcd6aa78cfc2bedd417097784d55bc9e229cc"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S04-A-v2.png",
+      "bytes": 2371923,
+      "sha256": "5d8b59363bf18b3837462fda39b7fa5dff4b435765486f82b91310e90223dadc"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S04-A.png",
+      "bytes": 2049417,
+      "sha256": "25f97f0bb13cb096c2c01274d12004e1e262654f9b11df81da34665279cce126"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S04-mobile-v1.png",
+      "bytes": 2057159,
+      "sha256": "d135b51a4f51da269cf74f85c7d753430371c290a1ca6452eef6f522e0690711"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S04-mobile-v2.png",
+      "bytes": 1928532,
+      "sha256": "d91e31b420701e591a458f538e5c4185692d0c76970eb1a1fe8f3fe7dcf06fb3"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S04-mobile.png",
+      "bytes": 2057159,
+      "sha256": "d135b51a4f51da269cf74f85c7d753430371c290a1ca6452eef6f522e0690711"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S05-A-v2.png",
+      "bytes": 2347285,
+      "sha256": "1e4c88a1ee6b6ac6a7fecd23ee33025caf6b1416b93daf46fdc7020dde906c0e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S05-A.png",
+      "bytes": 2053409,
+      "sha256": "56959d3adecce80f5c74e02f0dd1c0d81f706c16da4b21037c58de2c64428c60"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S05-mobile-v1.png",
+      "bytes": 1787828,
+      "sha256": "63ae379b774c987f68a45da69ccdd092f4f9f9c96183bfbda83f566156b9494e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S05-mobile-v2.png",
+      "bytes": 2118666,
+      "sha256": "401845bbe9147d41728fa75d3d65b66023314200eb6609e91374189ad0997b33"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S05-mobile.png",
+      "bytes": 1787828,
+      "sha256": "63ae379b774c987f68a45da69ccdd092f4f9f9c96183bfbda83f566156b9494e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S06-A-v2.png",
+      "bytes": 2108733,
+      "sha256": "419bdc7eb9b2853c989cd98c24bfda906c9d569bcc1044a4cfa97679a208c39e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S06-A.png",
+      "bytes": 2135657,
+      "sha256": "f1eb0b1159a31b89767cf4471bcbbe2eec2fa6d1782ead585b4ca3ca539c7db8"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/base-scenes/S06-mobile.png",
+      "bytes": 1893569,
+      "sha256": "9066679f5ec05a0ec03d6285883448efbc5b1d0d4ba525cade327a332751f6c8"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/branding/logo-placement-guide.md",
+      "bytes": 2821,
+      "sha256": "aa45db905ac470c8c8a828218890b59339ae0b6e390c1f29b917e2178b46ddd0"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/assets.json",
+      "bytes": 43362,
+      "sha256": "3e7bfe1c4b50e7b38f0392ddcce8879332028aa9f79acd473f1124ea5bce18d4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/issue-snapshot.json",
+      "bytes": 28453,
+      "sha256": "40736c301bbf79129d55bf47c2ebb9cf5d956993d5fd8b50e0a9cb1edf6f4113"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/logo-placements.json",
+      "bytes": 37970,
+      "sha256": "97c761cbd7eab36bf008ecefb7b58e257f361e1e33e4482c5d04a9b7bab2a1ee"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/sources.json",
+      "bytes": 3855,
+      "sha256": "a8e3c85ebeab67c4bda82fd7666ea125b40d3af6df21d2b35aa251d6b49a158d"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/storyboard.json",
+      "bytes": 11346,
+      "sha256": "2922f390d3af6462a5e283e2bb74047d2740ca862d24bd1038fd9ca8d18d54fb"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/data/timeline.json",
+      "bytes": 4262,
+      "sha256": "a5a07001d25b96afe16907d0ba1e0c4f8f585e610b20965a2a4ac7841e3f60f9"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/moodboard/material-study.jpg",
+      "bytes": 182384,
+      "sha256": "74a7269f3850f0fc94b20c976c1ec63c696cee6da5bc0627a69d9bad2aca6fbd"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/moodboard/README.md",
+      "bytes": 1699,
+      "sha256": "5b66a210c8ecb530780d1439d37a75042a491a5d8b929eac1af8b61a44870fa1"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/constants.json",
+      "bytes": 774,
+      "sha256": "f9f3e75fd77dfd202498ba58e316ef3c6d3a368ff48e1d01b5e91338fe2860f3"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S01-A.json",
+      "bytes": 9203,
+      "sha256": "08901e1e62125f5cb10e4543843e4c944bb75c5df872060dde22841d03fb7101"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S01-B.json",
+      "bytes": 4133,
+      "sha256": "c0252bba14a3ed2823f909d856134874a1fe3f70a4f926375840e7691b575e29"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S01-C.json",
+      "bytes": 4284,
+      "sha256": "8dd3144d8faa12a611c490d7827da8db489e300d9766dbd1a4cc7420d4d26aee"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S01-mobile-v2.json",
+      "bytes": 4227,
+      "sha256": "9ec282848ae56f047119b48ea23afbb7d274d121b66e37c5e88edcfe19ef6044"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S01-mobile.json",
+      "bytes": 3381,
+      "sha256": "b16ecb9da2a3cef07834650af842ae94c9ddf85cabcd08e7ffd862a88672c329"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S02-desktop.json",
+      "bytes": 4173,
+      "sha256": "3c19f4ecbf4259e7d2e318e44c49fbda65094d3ff1eca87fcba36d746b815f73"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S02-mobile.json",
+      "bytes": 3543,
+      "sha256": "7399881e52e43867e9c75c00f404e96969960ae49c3aece4d72244e884443198"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S03-desktop.json",
+      "bytes": 7031,
+      "sha256": "097167b3921fab22715a57f80de2af7d81bb643bd4dc2ce3b8b4d205c77357f1"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S03-mobile-v2.json",
+      "bytes": 4464,
+      "sha256": "0353311bfe2758dbb99b29511a0a6ed9562dd3310b83928bbd74b80608b93239"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S03-mobile.json",
+      "bytes": 3765,
+      "sha256": "f88cc1e18d02eccc24d4f1c9845dce5f024abfe44d6e54413c529333ce865c9d"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S04-desktop.json",
+      "bytes": 6833,
+      "sha256": "952ba88587b1a305218c27ac00e15f663c766bc4009567bd19e6d1742774d17a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S04-mobile-v1.json",
+      "bytes": 4157,
+      "sha256": "aa88a328617259e7656875bd6afe3d6b3d79f662bcee8224c3c29e25325ee69f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S04-mobile-v2.json",
+      "bytes": 4295,
+      "sha256": "454abb9c0858f30dcffabfe76044e2b4a7927a23f11b8cfc1911243c6d6edfa6"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S04-mobile.json",
+      "bytes": 4157,
+      "sha256": "aa88a328617259e7656875bd6afe3d6b3d79f662bcee8224c3c29e25325ee69f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S05-desktop.json",
+      "bytes": 7105,
+      "sha256": "3c86f2794ba073ddd8b73b4daedef38c2bf73200670a241bf07efad5dc04d448"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S05-mobile-v1.json",
+      "bytes": 4273,
+      "sha256": "7734c1be23b51c22347d4db5a119cde9f0eb618e15b0bb489c6e102b6d2af56b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S05-mobile-v2.json",
+      "bytes": 4332,
+      "sha256": "ecfad279084c733c87e0d015e7ae81e2c491be2c941b6a77e13a0297d0c37ee0"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S05-mobile.json",
+      "bytes": 4273,
+      "sha256": "7734c1be23b51c22347d4db5a119cde9f0eb618e15b0bb489c6e102b6d2af56b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S06-desktop.json",
+      "bytes": 8185,
+      "sha256": "48ffeb1ba86d1263254cda001111639738487d7797e7af12da5b16fbcc984525"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/execution-S06-mobile.json",
+      "bytes": 4378,
+      "sha256": "33641e815db0e04709d50e523e713cc543978ce1eee3552d20bfceaa6cb8068f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/master.md",
+      "bytes": 1112,
+      "sha256": "c0e1bf3d53ee39c92e8a34f4f0c872926c878ceb9f4ac6524d03c784109c1cff"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/negative.md",
+      "bytes": 794,
+      "sha256": "d00c058a7dc18d7bfcc9f3033266c359263e73337c6ef9536d6ac61bee048b32"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S01.md",
+      "bytes": 703,
+      "sha256": "2df3b608882e08c5550310c50e98c68e6a3391516d0ff61b60b483a94c0eea2b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S02.md",
+      "bytes": 778,
+      "sha256": "3f065ebba2b616349aa23e860c6f5d79f708645ffbaa3b4782e4a2b93b7bdc69"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S03.md",
+      "bytes": 698,
+      "sha256": "de6d2b219ec8720ca988d59ce2ab974b9e8b66d3d2bae5141fb1fb7150f95a3f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S04.md",
+      "bytes": 703,
+      "sha256": "c79851b8e64bb27e5b12d2a565415ded10009f3be39a6ce1e37aac407cfa1c09"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S05.md",
+      "bytes": 699,
+      "sha256": "a1296f6bda3c08e8dce4c9d2eaf4d3ee98d328cdd7c3535f8ad90c151ce7a061"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/prompts/S06.md",
+      "bytes": 739,
+      "sha256": "fb9bbb5f8a4b729e833cceec84b98f68704d1af8f72d8aece3116a8e25b7b659"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/browser-inventory.md",
+      "bytes": 1120,
+      "sha256": "84e554103404984703a19a6297b13ca3d06f5c18c4f74c543e3070415227cdb7"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/browser-results.json",
+      "bytes": 13787,
+      "sha256": "82edd04ffc5d368c62cf6e048ec808bbe55bd2db4ebb4d2d24d0ca88936a6364"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/contact-desktop.jpg",
+      "bytes": 402076,
+      "sha256": "bdd508c76de31f222f77dff269c6855f9cb0a1ef8cf09e6c331100e492946773"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/contact-mobile.jpg",
+      "bytes": 223714,
+      "sha256": "ab8bff145cd8f36d3649449d420a1f5864fc1b015c701041df47446931e95478"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/decision-sync-draft.md",
+      "bytes": 2923,
+      "sha256": "91f01dbe8cb14e172f87f31ffa757db305876fc153c37a7962ac6dc9a43c968b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/pilot-checklist.md",
+      "bytes": 3971,
+      "sha256": "67682ff5f72f350fb6ac9a38b85a2d589dc07341035ca22932bf264e4b676ff7"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/technical-results.json",
+      "bytes": 59594,
+      "sha256": "f29e8db51bac532ca96d26b5785c14deb4ef4d382f43b11519cadbd48d9c3bfc"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/validation.md",
+      "bytes": 6487,
+      "sha256": "70edf25343f27b18d21f0181da6c26759f45d0cf4aea52b17698ed8c534a0f67"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/visual-decisions.json",
+      "bytes": 2938,
+      "sha256": "06f11eb3d9b8d470e99b2adc93b08f4a9f0b05ab2bdaa2cf7b52a62793faf175"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/browser-qa.cjs",
+      "bytes": 8040,
+      "sha256": "69c7ac5016be1d6f6c9ce56bf47c60bfa915d53a86188185c042d0c1d576c838"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/build-package.py",
+      "bytes": 12115,
+      "sha256": "405f968e92aee1aca17f931fa32922f0c7b4079db2979bab909226b4669dbc0f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/composite.py",
+      "bytes": 8030,
+      "sha256": "87f2db21da2871dd4a1a858cc4e88c985109e8638ddc35d3ee993b843d2da540"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/contact-sheet.py",
+      "bytes": 657,
+      "sha256": "6e02316894ce20e37234be7bf3c7a27cc871563ddef9148e1a8c295d13a80af9"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/final-report.py",
+      "bytes": 8254,
+      "sha256": "07d69353ec3d64bb890c3c29662a6b4a704c00553c3d2de6a201ca46607263ee"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/scripts/validate.py",
+      "bytes": 4558,
+      "sha256": "009d1dd6d5651f6d354b3943f01852325eaa3193c6b0ee744ff5da7cd4dcc5de"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/styleframes/S01-A.jpg",
+      "bytes": 331616,
+      "sha256": "a10a56e0733a2dbd18015cdf0aea590abd481f3185d358c21361d2e9387ca28f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/styleframes/S01-B.jpg",
+      "bytes": 588480,
+      "sha256": "681ab1ff70fe6daa92b54b2e85a56a596e2919361482c4753bf61e6f5dbad36a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/styleframes/S01-C.jpg",
+      "bytes": 566365,
+      "sha256": "f9ef337de0b0a31ec72944c7205e9e8d7adfff0509977edc9d18a1876a305d0f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S01-desktop.jpg",
+      "bytes": 31006,
+      "sha256": "017f99258eabeadbaa0593b18663e8390e8e8810a59a5177a49da4f03da1d650"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S01-mobile.jpg",
+      "bytes": 46647,
+      "sha256": "a2d22a7ffed8b3365555cbc6f6fd07d2ad422d90564cee06ba4f16bcedec44da"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S02-desktop.jpg",
+      "bytes": 31393,
+      "sha256": "822f4f9ff880ea883323f16f2ee00f149fe93635b394d8216e6429ad0417e1e1"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S02-mobile.jpg",
+      "bytes": 32478,
+      "sha256": "7ced2bc155765bb6aa26e7e1288e8ae344bf72c9507c00d7e311ec671cce168c"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S03-desktop.jpg",
+      "bytes": 47699,
+      "sha256": "a620ce2682b788de4abce51f79186ed61becf544468f8b7da221687ba0f529a5"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S03-mobile.jpg",
+      "bytes": 47091,
+      "sha256": "cd9ba89474c384f4f80cdd061f4e0ef5d4d3cb73dfc4e0cfcc97b6886891b554"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S04-desktop.jpg",
+      "bytes": 36073,
+      "sha256": "8f71c2495235009aaf4545cbab35f8af68e472f7ac5696cdaaeb3514f0b91e1c"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S04-mobile.jpg",
+      "bytes": 48790,
+      "sha256": "a7a3ed5d42822a53878618d7effcc3d679dd318c9ceb10e4681dd4ef396b37e7"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S05-desktop.jpg",
+      "bytes": 35198,
+      "sha256": "301cd22cf589540fb895838fc0659601c101507f7c5cfd3d4f63a1f9fc75cb5c"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S05-mobile.jpg",
+      "bytes": 43160,
+      "sha256": "85bc6f14d1051fbcf3e578e06a6eb9fce3d5de77dcb216d7e9b3e6e681326111"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S06-desktop.jpg",
+      "bytes": 40025,
+      "sha256": "98debf85d16d664dcb766b0820c48d51735ea35c6c9640b577bff4b7887aa895"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/S06-mobile.jpg",
+      "bytes": 31555,
+      "sha256": "830efc5109ad55dccaa3a40478cc33b14a7da0892b35216981c20b9212ca640a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/styleframe-B.jpg",
+      "bytes": 27188,
+      "sha256": "beabaaf6a7a40a1be9c431fa602199cde07b2cc4f8b57fac16b1261cf501e5ef"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/logo-comparisons/styleframe-C.jpg",
+      "bytes": 31110,
+      "sha256": "5138afaefb5067593ac55f5387f44a9175eba5a58fb2a0f791053ab025aded4d"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-animatic.png",
+      "bytes": 926435,
+      "sha256": "701c3fd527abff0bc361a4a1bad03e66b602f2409dc965fe4338184f73767f82"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-overview.png",
+      "bytes": 129001,
+      "sha256": "a24c21149b9eed5d4e1f0891e782cfbf1e98e334575a13638b86007d4567da78"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-reduced-motion.png",
+      "bytes": 1071002,
+      "sha256": "3d6736dd6ee878c71aa4735edfa8eead9e9df448fa0fc15b7f0393edcb972f74"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-S01-overlay-mask.png",
+      "bytes": 672468,
+      "sha256": "aeda0909dcae5b3542c21e7fd985f0a56bc9d2a380651bdb2515db98aa81efd0"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-S04-overlay-mask.png",
+      "bytes": 1033497,
+      "sha256": "6301ee3348c369d68205882c2913ccc46e31ce290403d4d4d0bb6bc3ccdf2e15"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-S05-overlay-mask.png",
+      "bytes": 1025318,
+      "sha256": "1942b42138f337d9b85b3918a5470836a898d08f09381877c17ffe80a9084609"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/1440x900-S06-overlay-mask.png",
+      "bytes": 940463,
+      "sha256": "251da7bf6be47b56d4b8e994c6dd5f9e23f303bffbcb5efd39379eb0c3759523"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-animatic.png",
+      "bytes": 264167,
+      "sha256": "c331a2593fc9ee5b5aa0b0dd629e2f8780b00c0db46588263aa91c57d0f0b8f8"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-overview.png",
+      "bytes": 63760,
+      "sha256": "9d536894c83d3f692e126d84bf0025b5e84edd01eaa36216b553953bea313f41"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-reduced-motion.png",
+      "bytes": 266964,
+      "sha256": "8011d95ea1c20475587e818c4d224e3e420ec113a55dd62876914c16d5ab9ea3"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-S01-overlay-mask.png",
+      "bytes": 302098,
+      "sha256": "67115503bf7154197cf45eb16dc2507b8caac5add41cbd080c8876c06774626f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-S04-overlay-mask.png",
+      "bytes": 279462,
+      "sha256": "e3e22bef3d70c9f189adc4f6c97b245e6498b9c3aae3ac2fa543dc7b040bf999"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-S05-overlay-mask.png",
+      "bytes": 276814,
+      "sha256": "33c8fcc891604d1c62e1b0974d825ce54971c3d07b7e487aa0260b2a48314b4a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/360x800-S06-overlay-mask.png",
+      "bytes": 280640,
+      "sha256": "6e362d7d42839a439f61ad4c99815f300cffa6202c4fa896a2b1c633d4d0f76f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-animatic.png",
+      "bytes": 309925,
+      "sha256": "8cd4847fad46a5c6401e6ec95d380ee820b893649fa5d7fdaf354fc8b2c105ae"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-image-error.png",
+      "bytes": 27708,
+      "sha256": "052832ce0e4846f5055e02e97d738ed3dc3f077d6f970daff0eb590095d7e2e6"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-no-javascript.png",
+      "bytes": 79612,
+      "sha256": "06f3b6cf7cc5e625cd20d2082187443dcee21a018eccd000c795b815e81569ad"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-overview.png",
+      "bytes": 63883,
+      "sha256": "90445a7ec97b816cfd8a448385d961c7f9d00c3e8c66cd94055364e1420ca823"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-reduced-motion.png",
+      "bytes": 307585,
+      "sha256": "03abd5d23442d4206f2b9366480eddeb66d8d10ed746bfad20eca964f496879e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-S01-overlay-mask.png",
+      "bytes": 349758,
+      "sha256": "3de1b507e3e844502af8769cf89e5aa13b3b8c4ad987ab0dd425da14608e5a63"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-S04-overlay-mask.png",
+      "bytes": 322953,
+      "sha256": "a16ef0de2d8c0a7733cdf43427e754cbcb29d3533daaf9af3671d58322390f21"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-S05-overlay-mask.png",
+      "bytes": 317630,
+      "sha256": "994dcbec6c8319cfa8295da81b0fb9b32d6b0e0e2d015424ae8c476fce0a28ba"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/390x844-S06-overlay-mask.png",
+      "bytes": 323618,
+      "sha256": "3f2163af8bb18bc2247e2ab776541629a71fb478d5a1ab34691cd4d39aa24e43"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/desktop-boundary-1.png",
+      "bytes": 239073,
+      "sha256": "d26fd00be8c58d897721c50e33a24c3372eeab4a2d2fb8fb83be103ca5239cb4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/desktop-boundary-2.png",
+      "bytes": 197441,
+      "sha256": "46f568d530f13b156f5ef7613487f0db5f583be44703fd42244e5987ad21c59f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/desktop-boundary-3.png",
+      "bytes": 196712,
+      "sha256": "dc9545c0cf1d737236d7d696e8303cad36cbf93033ca825644841d55b9dc6c29"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/desktop-boundary-4.png",
+      "bytes": 242576,
+      "sha256": "ae545a818c6f8ce3bf410218467a0674af99530354486cdbf54d092864e13868"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/qa/screenshots/desktop-boundary-5.png",
+      "bytes": 185217,
+      "sha256": "47074fc4dad49e5f2bcb7f7cfd038c632eea92f5a92d8d22294d5ba2610aecb4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S01.json",
+      "bytes": 1463,
+      "sha256": "a00945466524dc65fdb1ccfb77b3f798db9871a3d1a38bc584521b14dea8d316"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S01.svg",
+      "bytes": 1096,
+      "sha256": "f431c9bfd83f01d012e23eda5ee6bb0ca8da80ec0dc8b18e39ae6c0addb2b9a0"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S02.json",
+      "bytes": 1476,
+      "sha256": "da0b1572de0e30bd929acadc79ce5c0fb68a27fb0b0f715d30d8e42ea21f2f61"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S02.svg",
+      "bytes": 1107,
+      "sha256": "841ee054fcd2eda9f703a4b8ba9b4fb39873f82108f01e0426aedce566ba2ed9"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S03.json",
+      "bytes": 1478,
+      "sha256": "6e5d1d296dcb9c5e5270ebd53827ffa4aef8fc038b27299fdc3a965b5ecdda09"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S03.svg",
+      "bytes": 1108,
+      "sha256": "580c1e3436d2c8da36c0acf0dc41c63a63072cc6f79a000120306336a38bc41a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S04.json",
+      "bytes": 1462,
+      "sha256": "ff727ad41ee4c637b650c418a40fdb90c4a5280af1a10d7e90191647854ed17c"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S04.svg",
+      "bytes": 1094,
+      "sha256": "907b27f965789a76dbcc83be686ecc3e07e71681b66b202e5855885090849e57"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S05.json",
+      "bytes": 1462,
+      "sha256": "b575cc9d840cd17a643445de7217a4e44fa230afca9b8958fcbcb0820b8d9a38"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S05.svg",
+      "bytes": 1094,
+      "sha256": "8f4d8a7a0d885163f730451c7def41ba7ee45a85595cee5c0fa814ff763c7ad6"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S06.json",
+      "bytes": 1434,
+      "sha256": "b0a36e14c19d6ff69b5628796ae4904d0a07981e8a5dac06e4b729c0816a3fad"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/desktop/S06.svg",
+      "bytes": 1069,
+      "sha256": "e3786756d7ed2e35e31334d9c10d6932c1f7c2d613b5f7efce5c50c10730fb84"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S01.json",
+      "bytes": 1477,
+      "sha256": "190526cd854197b210f892ca8593954152b7b18b7d71674b95cd8f63e05217aa"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S01.svg",
+      "bytes": 1103,
+      "sha256": "04e908042018712af84a7796662e8dd137f7f8479f17f2eec9fc980edba0125f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S02.json",
+      "bytes": 1452,
+      "sha256": "d08035ac5a5bad3f254e4c2ebf6bc45231bbb5375987e93d16fe9315afac45a4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S02.svg",
+      "bytes": 1076,
+      "sha256": "90364c7887be1bc5e86a6d6779f9850579e9cd8f2f61be652c63e007609e8672"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S03.json",
+      "bytes": 1448,
+      "sha256": "b62e24bb3b159cd9d671ea69a46e4227bec722af3261c179233a699567722288"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S03.svg",
+      "bytes": 1077,
+      "sha256": "7d41cc3ee1758e3f9e81ed87a82c56d7fe482b69f686cf103fce8332761cb48d"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S04.json",
+      "bytes": 1478,
+      "sha256": "805e2ede832c5cdcc36867288a4b62b6ec8fc7c9b22b40472086cdb8577d3031"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S04.svg",
+      "bytes": 1103,
+      "sha256": "85bd110d7afe5533e6f721e8a2b4d365970d871a606eee692d77cefe03d3a65a"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S05.json",
+      "bytes": 1451,
+      "sha256": "e29eba2e6b5cf778af1f2d3e224b322d952f7cee4ceeb9025f07c36dbceb07f4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S05.svg",
+      "bytes": 1078,
+      "sha256": "bf7a0ec30abf11acf4598be6bb3841f98d960eadcbad5640873a25bb6994cc81"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S06.json",
+      "bytes": 1445,
+      "sha256": "f0c9a95eb34e4e73aa41902bef65053eb5b0510bdd8184a5130ae1d257774777"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/masks/mobile/S06.svg",
+      "bytes": 1077,
+      "sha256": "610b0d17f75521b51e68a8044cf1a86c53e99a5c676303812eb1518422471811"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S01.jpg",
+      "bytes": 331616,
+      "sha256": "a10a56e0733a2dbd18015cdf0aea590abd481f3185d358c21361d2e9387ca28f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S02.jpg",
+      "bytes": 615274,
+      "sha256": "077d9131d1e8cb74860934ee8b41aeec7d09a0d044e0062223fec4d1840980a1"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S03.jpg",
+      "bytes": 507600,
+      "sha256": "3a7bc1b0c2c0704f37e67f1122f7bd0b1f5f7c124de136ff22882b240f6ab39f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S04.jpg",
+      "bytes": 593747,
+      "sha256": "0cc6852e84818e8d542275aa1b89094d0489ac047755c7581c11d854147bf965"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S05.jpg",
+      "bytes": 580350,
+      "sha256": "33569cfa331825acaf2b62d4a81f813c5e544dd9daaa993b85c3276bfae69157"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/desktop/S06.jpg",
+      "bytes": 511586,
+      "sha256": "4bf69cb3d3fb31bd8f3fd2c9c52a9c7350fba06e191f70e6eda4a29c5e9c2ec4"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S01.jpg",
+      "bytes": 548837,
+      "sha256": "c8cd64c6190bf4fbac65eddafdf5dd32033247b289060e5b84b8720be4684d03"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S02.jpg",
+      "bytes": 525064,
+      "sha256": "3d52b423bf7079edc57a8c6ea763f36265f8592e9b5e18ec5641a077e94e7f4f"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S03.jpg",
+      "bytes": 479306,
+      "sha256": "73188133e5912b6d915f88b8a4e0cba980117a31ee9b94c11a805ade32b041a1"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S04.jpg",
+      "bytes": 487656,
+      "sha256": "52858beaa174c333721e3eacf9208a5fcdf7425262dc24f4d7815a8282ad695b"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S05.jpg",
+      "bytes": 441975,
+      "sha256": "fb9174eba564b46c1bc9dce1d4476bd2a2a6917cf8438fc99e1e37fbafa5039e"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/keyframes/mobile/S06.jpg",
+      "bytes": 456728,
+      "sha256": "10e0395054dafe3da8f990dcd0d49d44a9e754202248e10d98ae39ff9b67c0bb"
+    },
+    {
+      "path": "output/scroll-world-concept-v1/branding/derived/PNP-LINE-trimmed.png",
+      "bytes": 13103,
+      "sha256": "ced7627b48420ba0138709f195d6198af1160a5311c046b3473b4ea8e949b7da"
+    },
+    {
+      "path": "docs/wayfinder/scroll-world-concept-v1.md",
+      "bytes": 10957,
+      "sha256": "ab18a991f605ce4942171cb5a012e1e955e153d0da7632d69b2a646e46dba22b"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "direction_approval": "D61-ART-BRAND-20260914",
+  "individual_asset_approval": "not_approved",
+  "review_status": "pending_human_visual_review",
+  "decisions": [
+    {
+      "asset": "S01-A-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "elevated camera improves miniature impression; generated alpha is flattened on recorded neutral background; heavy left feathering remains a limitation"
+    },
+    {
+      "asset": "S06-A-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "removes badge-like truck grille emblem and improves elevated viewpoint"
+    },
+    {
+      "asset": "S05-mobile-v2.png",
+      "decision": "not_selected",
+      "reason": "stronger miniature scale, but worker appears partially embedded in workbench; functional plausibility takes precedence. Original S05-mobile.png retained."
+    },
+    {
+      "asset": "S01-mobile-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Elevated compact yard with smaller people improves miniature scale, retains visible pallet transfer and wide container logo surface."
+    },
+    {
+      "asset": "S03-mobile-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Elevated open architectural miniature with tiny PPE figures, readable intake/inspection action and wide physical sign."
+    },
+    {
+      "asset": "S04-mobile-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Elevated open architectural miniature with tiny PPE figures, readable intake/inspection action and wide physical sign."
+    },
+    {
+      "asset": "S03-A-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Elevated compact dock, smaller workers and inspection-ready pallet rows improve miniature scale without losing process."
+    },
+    {
+      "asset": "S04-A-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Coordinator viewed generated output before workspace copy: compact elevated cutaway, tiny people, legible highbay storage and intake forklift."
+    },
+    {
+      "asset": "S05-A-v2.png",
+      "decision": "selected_for_composite",
+      "reason": "Elevated architectural miniature, grounded small worker at packing bench and conveyor; improves scale without mobile-v2 tabletop ambiguity."
+    }
+  ],
+  "remaining_visual_issues": [
+    "Some selected scenes read closer to full-scale architectural CGI than precision miniature.",
+    "Camera elevation and background treatment vary; not validated as one continuous 3D world.",
+    "Small incidental package/equipment marks need scrutiny before video production; none are credited as official wordmarks.",
+    "Original logo is exactly sourced but scene lighting/material response is simplified; especially comparison B.",
+    "Concept does not establish facility/fleet ownership, customs success, warehouse scale or operational performance."
+  ]
+}

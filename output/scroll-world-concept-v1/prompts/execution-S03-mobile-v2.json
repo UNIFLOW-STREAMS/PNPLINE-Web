@@ -1,0 +1,27 @@
+{
+  "asset_id": "S03-mobile-v2-base",
+  "scene_id": "S03",
+  "orientation": "mobile",
+  "tool": "image_gen",
+  "model": "not_exposed_by_tool",
+  "actual_dimensions": [
+    941,
+    1672
+  ],
+  "attempt_count": 2,
+  "revision_attempt_count": 1,
+  "seed": "not_available",
+  "cost": "unknown",
+  "prompt": "Create ONE standalone full opaque 9:16 portrait image, independently designed for mobile. A premium precision ARCHITECTURAL INDUSTRIAL MINIATURE of an invented private freight arrival inspection-ready dock, 1:100 scale impression. Strongly elevated camera tilted downward 40 degrees, three-quarter wide overview looking into a compact ROOFLESS ARCHITECTURAL CUTAWAY MODEL; NO eye-level view, NO horizon, no full-scale facility photograph. The compact dock, open interior storage, waiting pallet lane and curved route together appear as a precise small-scale whole surrounded by pale neutral ground. Tiny anonymous PPE figures are mere scale indicators, each less than 4 percent of image height. No dominant foreground person, no close-up human, no visible faces. Subtle macro scale depth cue but all core work and sign panel sharply legible. TOP32% of canvas is completely quiet blank pale light gray environment. Arrange whole compact industrial work area in LOWER65% with visible concrete and space around it: near foreground three shrink-wrapped kraft-carton pallets in orderly waiting inspection lane, one manual pallet jack properly inserted into closest pallet openings and ONE tiny worker safely standing on ground beside jack. Midground small private freight dock has an open bay showing staged cartons and two tiny navy metal storage racks. Expose enough roofless interior to read architectural miniature. A LARGE LIGHT NEUTRAL EMPTY rectangular panel naturally attached to the dock FRONT FASCIA faces camera around lower-middle image, for exact official logo compositing later. Keep this sign clearly visible and unobstructed; real solid surface. Blue #00ABE1 physical route curves along RIGHT edge of waiting lane toward dock; route clear of pallets. Materials: convincing micro-detailed painted steel, semi-matte white metal, navy frame, light concrete, kraft cartons, rubber jack wheels, translucent wrapping; palette white/lightgray/navy/kraft with restrained cyan #00ABE1 route and selected panels. Bright diffuse overcast daylight, natural soft shadows, precise functional architecture model atmosphere. This MUST read miniature industrial architecture, not a photograph of full-scale workers. Never toy plastic, clay, handcrafted rough foam, low-poly, glossy playset, dolls, giant foreground person, cartoon. No words, numbers, logos, labels, symbols, arrows, text, flags, watermarks, captions, badges, seals, customs officer, certification or approval marks anywhere. No clearance success indication; this is a private dock with pallets WAITING for checking. Blank packaging and empty panels. No actual facility reconstruction or identifying address, no third-party brands, no green brand paint, no crowds, no unsafe action, no floating components, no holograms or neon. Entire canvas opaque full bleed without border. Text-only generation no image reference supplied.",
+  "reference_images": [],
+  "source_output": "Generated images are saved to C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a024-8d82-7262-94dc-63028b7c5c82 as C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a024-8d82-7262-94dc-63028b7c5c82\\exec-f78e0772-f6e3-416f-80fd-fae157ca37c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "previous_version": "base-scenes/S03-mobile.png",
+  "previous_receipt": "prompts/execution-S03-mobile.json",
+  "status": "generated_visually_inspected_pending_human_review",
+  "visual_review": "Elevated roofless architectural miniature clear, foreground pallet queue/jack and right curved blue route, unobstructed light fascia; top32% quiet. One worker stands properly on ground. Packaging has unreadable small texture marks, not claims or official labels. No customs seal/flag.",
+  "width": 941,
+  "height": 1672,
+  "bytes": 2115639,
+  "sha256": "408ea2a78c22f885ac1940a6a0d6ea53ef4f646f9e8fd3495c521b07c7d966bf",
+  "image_mode": "RGB"
+}
