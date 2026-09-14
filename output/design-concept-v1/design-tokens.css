@@ -7,11 +7,12 @@
   --color-ink-200: #d8e1de;
   --color-ink-100: #e8efec;
   --color-white: #ffffff;
-  --color-brand-green-700: #12823a;
-  --color-brand-green-600: #19ae49;
-  --color-brand-green-100: #e6f4e9;
-  --color-sage-100: #eff5f1;
-  --color-sage-50: #f7faf8;
+  --color-brand-blue-700: #007fa8;
+  --color-brand-blue-600: #00abe1;
+  --color-brand-blue-100: #dff6fd;
+  --color-brand-blue-50: #f3fbfe;
+  --color-signal-green: #1a7f4b;
+  --color-signal-green-100: #e7f4ec;
   --color-signal-amber: #bf6f1d;
   --color-signal-red: #b83a36;
   --color-signal-blue: #236c91;
@@ -36,22 +37,25 @@
   --radius-sm: 4px;
   --radius-md: 8px;
   --shadow-panel: 0 12px 32px rgb(18 35 45 / 10%);
-  --shadow-focus: 0 0 0 3px rgb(25 174 73 / 28%);
+  --shadow-focus: 0 0 0 3px var(--color-brand-blue-700);
 
   /* Semantic tokens */
   --surface-page: var(--color-white);
-  --surface-subtle: var(--color-sage-50);
-  --surface-tinted: var(--color-sage-100);
+  --surface-subtle: var(--color-brand-blue-50);
+  --surface-tinted: var(--color-brand-blue-100);
   --surface-inverse: var(--color-ink-900);
   --text-primary: var(--color-ink-900);
   --text-secondary: var(--color-ink-700);
   --text-muted: var(--color-ink-500);
   --text-inverse: var(--color-white);
   --border-subtle: var(--color-ink-200);
-  --action-primary: var(--color-brand-green-700);
+  --brand-primary: var(--color-brand-blue-600);
+  --action-primary: var(--color-brand-blue-700);
   --action-primary-hover: var(--color-ink-950);
   --action-secondary: var(--color-ink-900);
-  --focus-ring: var(--color-brand-green-600);
+  --focus-ring: var(--color-brand-blue-700);
+  --status-success: var(--color-signal-green);
+  --status-success-surface: var(--color-signal-green-100);
 
   /* Component tokens */
   --header-height: 72px;
