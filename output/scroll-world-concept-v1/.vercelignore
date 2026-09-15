@@ -51,4 +51,5 @@
 # Original full-page PNGs are retained locally; deployment uses WebP copies
 /concepts/a/pnpline-cn-home-full-1920.png
 /concepts/b/00-fullpage.png
+/concepts/c/*.png
 /concepts/d/pnpline-cn-home-concept-1920-grid-spacing32.png

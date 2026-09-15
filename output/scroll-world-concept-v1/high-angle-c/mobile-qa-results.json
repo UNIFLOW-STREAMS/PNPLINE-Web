@@ -1,19 +1,19 @@
 {
   "checks": [
     {
-      "name": "source preserved us-arrival-mobile",
+      "name": "WebP asset exists us-arrival-mobile",
       "pass": true
     },
     {
-      "name": "source preserved us-receiving-mobile",
+      "name": "WebP asset exists us-receiving-mobile",
       "pass": true
     },
     {
-      "name": "source preserved us-packing-mobile",
+      "name": "WebP asset exists us-packing-mobile",
       "pass": true
     },
     {
-      "name": "source preserved us-dispatch-mobile",
+      "name": "WebP asset exists us-dispatch-mobile",
       "pass": true
     },
     {
