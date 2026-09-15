@@ -1,0 +1,114 @@
+{
+  "tool": "Playwright with installed Chrome",
+  "checks": [
+    {
+      "name": "desktop-a-overlay",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "scrollWidth": 1440,
+        "scrollHeight": 923,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "a",
+        "mode": "overlay",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    },
+    {
+      "name": "desktop-b-overlay",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "scrollWidth": 1440,
+        "scrollHeight": 923,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "b",
+        "mode": "overlay",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    },
+    {
+      "name": "desktop-c-overlay",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "scrollWidth": 1440,
+        "scrollHeight": 923,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "c",
+        "mode": "overlay",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    },
+    {
+      "name": "desktop-a-mask",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "scrollWidth": 1440,
+        "scrollHeight": 923,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "a",
+        "mode": "mask",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    },
+    {
+      "name": "control-round-trip",
+      "pass": true
+    },
+    {
+      "name": "mobile-a-overlay",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "a",
+        "mode": "overlay",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    },
+    {
+      "name": "mobile-c-mask-exploratory",
+      "pass": true,
+      "metrics": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "overflow": false,
+        "bodyOverflowFlag": "false",
+        "variant": "c",
+        "mode": "mask",
+        "title": "PNPLINE #61 Scene 01 Review",
+        "chineseGlyphsPresent": true
+      }
+    }
+  ],
+  "screenshots": [
+    "desktop-a-overlay-1440x900.png",
+    "desktop-b-overlay-1440x900.png",
+    "desktop-c-overlay-1440x900.png",
+    "desktop-a-mask-1440x900.png",
+    "mobile-a-overlay-390x844.png"
+  ],
+  "consoleErrors": [],
+  "pass": true
+}

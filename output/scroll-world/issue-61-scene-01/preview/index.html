@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PNPLINE #61 Scene 01 Review</title>
+  <link rel="stylesheet" href="../../../design-concept-v1/design-tokens.css">
+  <style>
+    * { box-sizing: border-box; }
+    html { background: #0d1920; color: white; font-family: var(--font-sans-sc); }
+    body { margin: 0; min-width: 320px; background: #0d1920; }
+    button, a { font: inherit; }
+    .review-shell { min-height: 100vh; padding: 20px; }
+    .review-head { max-width: 1440px; margin: 0 auto 16px; display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; }
+    .review-head p { margin: 4px 0 0; color: #9fb0b8; font-size: 13px; }
+    h1 { margin: 0; font: 700 20px/1.3 var(--font-sans-latin); letter-spacing: .04em; }
+    .controls { display: flex; flex-wrap: wrap; gap: 8px; }
+    .controls button { min-height: 38px; padding: 7px 12px; border: 1px solid #546874; border-radius: 4px; color: white; background: #182c39; cursor: pointer; }
+    .controls button[aria-pressed="true"] { border-color: var(--brand-primary); background: #163d4b; color: #bceeff; }
+    .stage { position: relative; max-width: 1440px; aspect-ratio: 16 / 9; margin: auto; overflow: hidden; border-radius: var(--media-radius); background: #182c39; box-shadow: 0 24px 80px rgb(0 0 0 / 36%); }
+    .stage > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .shade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgb(244 249 250 / 82%) 0%, rgb(244 249 250 / 48%) 25%, transparent 47%); opacity: 0; }
+    .ui-layer { position: absolute; inset: 0; color: var(--text-primary); opacity: 0; }
+    .hero-copy { position: absolute; left: 3.515625%; top: 20.833333%; width: 35.15625%; }
+    .eyebrow { margin: 0 0 12px; color: var(--action-primary); font-size: clamp(11px, 1vw, 14px); font-weight: 700; letter-spacing: .08em; }
+    .hero-copy h2 { margin: 0; max-width: 13em; font-size: clamp(25px, 3.1vw, 48px); line-height: 1.16; letter-spacing: -.035em; }
+    .hero-copy .body { max-width: 29em; margin: 18px 0 0; color: var(--text-secondary); font-size: clamp(12px, 1.15vw, 17px); line-height: 1.65; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .cta { min-height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border: 1px solid var(--action-primary); border-radius: 4px; text-decoration: none; font-size: 14px; font-weight: 700; }
+    .cta.primary { background: var(--action-primary); color: white; }
+    .cta.secondary { background: rgb(255 255 255 / 76%); color: var(--text-primary); }
+    .step { position: absolute; left: 3.515625%; bottom: 11.458333%; width: 29.296875%; display: flex; align-items: center; gap: 12px; color: var(--text-primary); font-size: 12px; font-weight: 700; }
+    .step::before { content: ""; width: 42px; height: 3px; background: var(--brand-primary); }
+    .mask-layer { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; }
+    .caption { max-width: 1440px; margin: 12px auto 0; display: flex; justify-content: space-between; gap: 18px; color: #aebcc3; font-size: 12px; line-height: 1.5; }
+    .caption strong { color: white; }
+    body[data-mode="overlay"] .shade, body[data-mode="overlay"] .ui-layer { opacity: 1; }
+    body[data-mode="mask"] .mask-layer { opacity: 1; }
+    body[data-mode="mask"] .shade { opacity: .35; }
+    @media (max-width: 700px) {
+      .review-shell { padding: 12px; }
+      .review-head { align-items: flex-start; flex-direction: column; }
+      .review-head h1 { max-width: 100%; font-size: 16px; overflow-wrap: anywhere; }
+      .review-head p { max-width: 100%; }
+      .controls { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+      .controls button { min-width: 0; padding-inline: 6px; overflow: hidden; font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+      .stage { aspect-ratio: 4 / 3; }
+      .hero-copy { width: 42%; top: 15%; }
+      .hero-copy h2 { font-size: clamp(16px, 5.1vw, 24px); }
+      .hero-copy .body { display: none; }
+      .actions { margin-top: 12px; }
+      .cta { min-height: 36px; padding: 0 10px; font-size: 11px; }
+      .cta.secondary { display: none; }
+      .step { bottom: 7%; font-size: 10px; }
+      .caption { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body data-variant="a" data-mode="overlay">
+  <main class="review-shell">
+    <header class="review-head">
+      <div>
+        <h1>ISSUE 61 / SCENE 01 STYLEFRAME REVIEW</h1>
+        <p>Generated concept visual. This page does not claim an actual PNPLINE facility.</p>
+      </div>
+      <div class="controls" aria-label="Review controls">
+        <button type="button" data-variant="a" aria-pressed="true">A 日间物流</button>
+        <button type="button" data-variant="b" aria-pressed="false">B 黄昏电影感</button>
+        <button type="button" data-variant="c" aria-pressed="false">C 高位技术视角</button>
+        <button type="button" data-mode="clean" aria-pressed="false">Clean</button>
+        <button type="button" data-mode="overlay" aria-pressed="true">UI</button>
+        <button type="button" data-mode="mask" aria-pressed="false">Safe area</button>
+      </div>
+    </header>
+    <section class="stage" aria-label="Scene 1 styleframe with review overlay">
+      <img id="frame" src="../scene-01-a-daylight.png" alt="概念示意：中国发运集装箱堆场的精密工业微缩场景">
+      <div class="shade"></div>
+      <div class="ui-layer">
+        <div class="hero-copy">
+          <p class="eyebrow">第 01 段 · 中国发运</p>
+          <h2>美国自营海外仓：从中国工厂到美国消费者，一家公司全包</h2>
+          <p class="body">从中国发运开始，衔接头程运输、清关与美国仓配。</p>
+          <div class="actions">
+            <a class="cta primary" href="#">免费获取报价</a>
+            <a class="cta secondary" href="#">查看美国自营仓库</a>
+          </div>
+        </div>
+        <div class="step">中国发运 · 01 / 06</div>
+      </div>
+      <img id="mask" class="mask-layer" src="../masks/scene-01-a-safe-area.svg" alt="">
+    </section>
+    <footer class="caption">
+      <span><strong id="variant-label">A · daylight logistics</strong> · <span id="status-label">review_pending</span></span>
+      <span>概念示意 · 审阅用暂定文案 · 非 PNPLINE 实景资料</span>
+    </footer>
+  </main>
+  <script>
+    const variants = {
+      a: { image: "../scene-01-a-daylight.png", mask: "../masks/scene-01-a-safe-area.svg", label: "A · daylight logistics", status: "review_pending" },
+      b: { image: "../scene-01-b-dusk.png", mask: "../masks/scene-01-b-safe-area.svg", label: "B · dusk cinematic", status: "comparison_only" },
+      c: { image: "../scene-01-c-topdown.png", mask: "../masks/scene-01-c-safe-area.svg", label: "C · top-down technical", status: "comparison_only" }
+    };
+    const params = new URLSearchParams(location.search);
+    const initialVariant = variants[params.get("variant")] ? params.get("variant") : "a";
+    const initialMode = ["clean", "overlay", "mask"].includes(params.get("mode")) ? params.get("mode") : "overlay";
+    function selectVariant(key) {
+      const item = variants[key];
+      document.body.dataset.variant = key;
+      document.querySelector("#frame").src = item.image;
+      document.querySelector("#mask").src = item.mask;
+      document.querySelector("#variant-label").textContent = item.label;
+      document.querySelector("#status-label").textContent = item.status;
+      document.querySelectorAll("button[data-variant]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.variant === key)));
+    }
+    function selectMode(mode) {
+      document.body.dataset.mode = mode;
+      document.querySelectorAll("button[data-mode]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+    }
+    document.querySelectorAll("button[data-variant]").forEach(button => button.addEventListener("click", () => selectVariant(button.dataset.variant)));
+    document.querySelectorAll("button[data-mode]").forEach(button => button.addEventListener("click", () => selectMode(button.dataset.mode)));
+    selectVariant(initialVariant);
+    selectMode(initialMode);
+    document.body.dataset.horizontalOverflow = String(document.documentElement.scrollWidth > document.documentElement.clientWidth);
+  </script>
+</body>
+</html>

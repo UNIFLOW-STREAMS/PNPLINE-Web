@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "board": "moodboard.png",
+  "accessed_at": "2026-09-14",
+  "publication_status": "internal_review_only",
+  "publication_note": "Recheck attribution and share-alike obligations before any public distribution. The board is a property reference, not a source for direct visual copying.",
+  "tile_order": "left-to-right, top row then bottom row",
+  "references": [
+    {
+      "reference_id": "ref-01",
+      "title": "Lyttelton Port In Miniature (118098565)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lyttelton_Port_In_Miniature_(118098565).jpeg",
+      "creator": "Martin Savenije",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "included_file": "references/ref-01-lyttelton-miniature.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Port scale, miniature/tilt-shift perception",
+      "do_not_copy": "Recognizable port layout, vessels, cranes or trade dress"
+    },
+    {
+      "reference_id": "ref-02",
+      "title": "Freight train (like a diorama) - panoramio",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Freight_train_(like_a_diorama)_-_panoramio.jpg",
+      "creator": "Ryuetsu Kato",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "included_file": "references/ref-02-freight-train-diorama.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Tilt-shift depth rhythm and readable transport route",
+      "do_not_copy": "Rail location, vehicles or exact composition"
+    },
+    {
+      "reference_id": "ref-03",
+      "title": "Container-Terminal Bremerhaven 02",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Container-Terminal_Bremerhaven_02.jpg",
+      "creator": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "included_file": "references/ref-03-bremerhaven-terminal.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Crane silhouettes, muted industrial palette and port density",
+      "do_not_copy": "Terminal identity, crane arrangement or company markings"
+    },
+    {
+      "reference_id": "ref-04",
+      "title": "Port Chalmers Container Terminal Panorama",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Port_Chalmers_Container_Terminal_Panorama.jpg",
+      "creator": "Alistair Paterson",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "included_file": "references/ref-04-port-chalmers-panorama.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Dusk exception, practical port lighting and water reflection",
+      "do_not_copy": "Port identity, vessels, logos or exact lighting pattern"
+    },
+    {
+      "reference_id": "ref-05",
+      "title": "Container loading with forklift at warehouse in Thailand",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Container_loading_with_forklift_at_warehouse_in_Thailand.jpg",
+      "creator": "Goterrestrial",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "included_file": "references/ref-05-container-loading-forklift.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Forklift clearance, loading contact and warehouse threshold",
+      "do_not_copy": "Facility identity, worker identity, markings or exact loading setup"
+    },
+    {
+      "reference_id": "ref-06",
+      "title": "Modern warehouse with pallet rack storage system",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Modern_warehouse_with_pallet_rack_storage_system.jpg",
+      "creator": "Axisadman",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "included_file": "references/ref-06-modern-warehouse-racks.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Steel-rack material, carton scale and neutral warehouse light",
+      "do_not_copy": "Rack layout, labels, packaging or facility identity"
+    },
+    {
+      "reference_id": "ref-07",
+      "title": "Intermodal (48250806881)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Intermodal_(48250806881).jpg",
+      "creator": "Sam LaRussa",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "included_file": "references/ref-07-intermodal-aerial.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Top-down container rhythm and circulation hierarchy",
+      "do_not_copy": "Real yard arrangement, rail pattern or container markings"
+    },
+    {
+      "reference_id": "ref-08",
+      "title": "FEMA - 37688 - Pallets of disaster supplies in a warehouse in Louisiana",
+      "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_37688_-_Pallets_of_disaster_suppllies_in_a_warehouse_in_Louisiana.jpg",
+      "creator": "Jacinta Quesada / FEMA",
+      "license": "Public domain (US Government)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+      "included_file": "references/ref-08-fema-pallets.jpg",
+      "inclusion": "Reduced-resolution board tile; existing visible markings retained",
+      "reference_property": "Stretch-wrap translucency and palletized carton texture",
+      "do_not_copy": "Printed packaging, labels, text or emergency-response context"
+    },
+    {
+      "reference_id": "ref-09",
+      "title": "Hong Kong tilt-shift (4483340709)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_tilt-shift_(4483340709).jpg",
+      "creator": "Andy Mitchell",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "included_file": "references/ref-09-hong-kong-tilt-shift.jpg",
+      "inclusion": "Reduced-resolution board tile",
+      "reference_property": "Macro-scale cue and restrained depth falloff",
+      "do_not_copy": "City identity, skyline, buildings or color grade"
+    },
+    {
+      "reference_id": "ref-10",
+      "title": "Aerial views of a container terminal at the Port of Cork",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_views_of_a_container_terminal_at_the_Port_of_Cork,_Cork,_Ireland.webm",
+      "creator": "FILMING CORK",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "included_file": "references/ref-10-cork-terminal-aerial.jpg",
+      "inclusion": "Wikimedia-generated reduced-resolution thumbnail from the licensed video",
+      "reference_property": "High-oblique route legibility and container-yard zoning",
+      "do_not_copy": "Terminal identity, text, logos or exact arrangement"
+    }
+  ]
+}

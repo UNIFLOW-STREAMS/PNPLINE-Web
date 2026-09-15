@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "issue": {
+    "repository": "UNIFLOW-STREAMS/PNPLINE-Web",
+    "number": 61,
+    "url": "https://github.com/UNIFLOW-STREAMS/PNPLINE-Web/issues/61",
+    "delivery_status": "partial_deliverable",
+    "issue_closed": false
+  },
+  "repository": {
+    "branch": "main",
+    "head": "89f99568d3216814d1b57334bf467a3fdca8ddca",
+    "agents_md": "not_found_in_F:/pnpline-landing_or_F:/",
+    "initial_worktree_note": "Existing untracked user files were present and preserved."
+  },
+  "orchestration": {
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "high",
+    "actual_session_identity": "Codex GPT-5-based session",
+    "exact_model_variant": "not_exposed",
+    "actual_reasoning_effort": "not_exposed",
+    "claim_of_setting_change": false
+  },
+  "skills_and_tools": [
+    {
+      "name": "imagegen",
+      "use": "three successful clean styleframe generations",
+      "status": "used"
+    },
+    {
+      "name": "creative-director",
+      "use": "brief compliance and A/B/C comparative critique",
+      "status": "used",
+      "attribution": "Serge Shima; CC BY 4.0"
+    },
+    {
+      "name": "fluent-korean",
+      "use": "Korean documentation and reporting",
+      "status": "used"
+    },
+    {
+      "name": "playwright-interactive",
+      "use": "guidance inspected; required js_repl unavailable",
+      "status": "not_directly_runnable"
+    },
+    {
+      "name": "bundled Playwright + installed Chrome",
+      "use": "functional QA, exact viewports and screenshots",
+      "status": "used",
+      "versions": {
+        "playwright": "1.62.1",
+        "chrome": "153.0.8010.36"
+      }
+    },
+    {
+      "name": "view_image",
+      "use": "local image inspection",
+      "status": "unavailable_due_windows_sandbox_helper_error"
+    },
+    {
+      "name": "FFmpeg/FFprobe",
+      "use": "derivatives, composites, thumbnail inspection and dimensions",
+      "status": "used",
+      "version": "7.1"
+    }
+  ],
+  "generation": {
+    "provider_tool": "built-in imagegen",
+    "exposed_model_id": "not_exposed",
+    "exposed_seed": "not_exposed",
+    "confirmed_cost": "unknown",
+    "successful_generations": 3,
+    "total_generation_or_edit_invocations": 4,
+    "blocked_before_generation": 1,
+    "blocked_detail": "B reference-image edit could not read the local A file because the Windows sandbox helper failed. B was independently generated with the same explicit constants.",
+    "revision_generations": 0,
+    "max_allowed_invocations": 6
+  },
+  "approvals": {
+    "direction": "A daylight logistics remains selected",
+    "generated_a_asset": "review_pending",
+    "b_asset": "comparison_only",
+    "c_asset": "comparison_only",
+    "latest_decision_record": "https://github.com/UNIFLOW-STREAMS/PNPLINE-Web/issues/61#issuecomment-5662675845"
+  },
+  "ui_overlay": {
+    "copy_status": "temporary_for_layout_review",
+    "evidence_label": "概念示意",
+    "brand_primary": "#00ABE1",
+    "action_primary": "#007FA8",
+    "font_stack": [
+      "Noto Sans SC",
+      "PingFang SC",
+      "Microsoft YaHei",
+      "sans-serif"
+    ],
+    "safe_area_contract": "safe-areas.json"
+  },
+  "explicit_non_validation": [
+    "mobile keyframe",
+    "camera continuity",
+    "scene transition",
+    "scroll seeking",
+    "video performance",
+    "reduced-motion switching",
+    "issue #24 pilot",
+    "issue #62 delivery contract"
+  ],
+  "files": [
+    {
+      "path": "comparison.png",
+      "purpose": "three_variant_comparison",
+      "variant": "shared",
+      "original": false,
+      "pixels": "2048x768",
+      "bytes": 1678947,
+      "sha256": "8b7cacded51fb06e31c2e3025d628e98aa0c74934c7cb0fb19486c25fad0d711",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "masks/scene-01-a-safe-area.svg",
+      "purpose": "safe_area_mask",
+      "variant": "A",
+      "original": false,
+      "pixels": null,
+      "bytes": 572,
+      "sha256": "04cf029418592182b88ce1e869b0861893e386cc8059c3c420c4806300a4e04e",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "masks/scene-01-b-safe-area.svg",
+      "purpose": "safe_area_mask",
+      "variant": "B",
+      "original": false,
+      "pixels": null,
+      "bytes": 568,
+      "sha256": "31679c2e01e17fd4feb33e891f25a72225e640e6bbb5751c54e4dd030bc40390",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-b-dusk.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "masks/scene-01-c-safe-area.svg",
+      "purpose": "safe_area_mask",
+      "variant": "C",
+      "original": false,
+      "pixels": null,
+      "bytes": 572,
+      "sha256": "7798417d33b826b050ae97682d43f580504c8f374da246a08871bd434d38151a",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-c-topdown.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "moodboard-sources.json",
+      "purpose": "reference_rights_and_attribution",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 6925,
+      "sha256": "b494cbe3a4d4d6b067d5b8272ac4ece3b650eb1d21c68f22021bbd729cbb9453",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "moodboard.png",
+      "purpose": "rights_tracked_visual_reference_board",
+      "variant": "shared",
+      "original": false,
+      "pixels": "2048x1152",
+      "bytes": 3903831,
+      "sha256": "226716d9704a2350d3a2d14b278c6910ffc347717a4b4b917e9e4a356c72802e",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "internal_review"
+    },
+    {
+      "path": "originals/comparison-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "shared",
+      "original": false,
+      "pixels": "1024x384",
+      "bytes": 48893,
+      "sha256": "c71c4b51a7579d67611a89b0470f23ebff85bc1ba1695c487432cf8e9d38a146",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/desktop-a-mask-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "A",
+      "original": false,
+      "pixels": "720x450",
+      "bytes": 62788,
+      "sha256": "9aa8d2600ff54323b68e889a2f5864b095a3f15f548e9c92fa27fe18cca56a33",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/desktop-a-overlay-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "A",
+      "original": false,
+      "pixels": "720x450",
+      "bytes": 59987,
+      "sha256": "bcff10caaea9ea184b3fff2e745192a0d28cca1506c48579c124c593fc03becd",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/desktop-c-overlay-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "C",
+      "original": false,
+      "pixels": "720x450",
+      "bytes": 66477,
+      "sha256": "694ec8351fd299402cb28a7cbbfd3f853ca96ffe51437bc43beecc2969588b7f",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/mobile-a-overlay-preview-v2.jpg",
+      "purpose": "supporting_artifact",
+      "variant": "A",
+      "original": false,
+      "pixels": "390x844",
+      "bytes": 56657,
+      "sha256": "5f0e69d0567577c0b3aa8140833ccc0234125ddf642395f03692b1ae685754fb",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/mobile-a-overlay-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "A",
+      "original": false,
+      "pixels": "390x844",
+      "bytes": 55281,
+      "sha256": "8b00b3885ad8b21d572a2dd30adc4a92bbe223c49c69e30823acae71206a6d79",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/mobile-a-playwright-preview-final.jpg",
+      "purpose": "supporting_artifact",
+      "variant": "A",
+      "original": false,
+      "pixels": "390x844",
+      "bytes": 59336,
+      "sha256": "393f9cdddd5b6e4c9e6cbb843c4346b5374f6b0f606656b145d034941a9fc1ed",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/mobile-a-playwright-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "A",
+      "original": false,
+      "pixels": "390x844",
+      "bytes": 58093,
+      "sha256": "882a495af2d00c755801578603a7826dac046ca5daa39e3d5ec864651b3814d6",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/moodboard-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "shared",
+      "original": false,
+      "pixels": "1024x576",
+      "bytes": 143905,
+      "sha256": "ec4d18b2a64cfb8cd2e0f6d60692ed21ba4542aae04974f661fb2be1c861ec5d",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "originals/scene-01-a-daylight-original.png",
+      "purpose": "imagegen_original",
+      "variant": "A",
+      "original": true,
+      "pixels": "1672x941",
+      "bytes": 1978722,
+      "sha256": "f18caa7f69665884b2e8942c00f6f411037623c69e5d12594a478ca277c53d4b",
+      "tool": "built-in imagegen",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ],
+      "model_id": "not_exposed",
+      "seed": "not_exposed",
+      "cost": "unknown",
+      "input_images": [],
+      "generation_count": 1
+    },
+    {
+      "path": "originals/scene-01-a-daylight-preview.jpg",
+      "purpose": "internal_visual_inspection_thumbnail",
+      "variant": "A",
+      "original": false,
+      "pixels": "840x472",
+      "bytes": 53704,
+      "sha256": "bc3da7633cbab09bc1983a5d4aa1830433d7228285baebe86f18465329ddf6b9",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "originals/scene-01-b-dusk-original.png",
+      "purpose": "imagegen_original",
+      "variant": "B",
+      "original": true,
+      "pixels": "1672x941",
+      "bytes": 1832925,
+      "sha256": "0f5ca88988bbdd4c3cc0622bd7869c06d4a9650396d900aa2961e065220f748c",
+      "tool": "built-in imagegen",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-b-dusk.md",
+        "prompts/negative.md"
+      ],
+      "model_id": "not_exposed",
+      "seed": "not_exposed",
+      "cost": "unknown",
+      "input_images": [],
+      "generation_count": 1
+    },
+    {
+      "path": "originals/scene-01-c-topdown-original.png",
+      "purpose": "imagegen_original",
+      "variant": "C",
+      "original": true,
+      "pixels": "1672x941",
+      "bytes": 2654831,
+      "sha256": "4c6a1f057e06c5b6090866682a499d283a93fdfc6e24cb70de39b31dcc046128",
+      "tool": "built-in imagegen",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-c-topdown.md",
+        "prompts/negative.md"
+      ],
+      "model_id": "not_exposed",
+      "seed": "not_exposed",
+      "cost": "unknown",
+      "input_images": [],
+      "generation_count": 1
+    },
+    {
+      "path": "preview/index.html",
+      "purpose": "interactive_review_page",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 8623,
+      "sha256": "4a302447531953344d667fb6557f5e21be241707aa8eb4b82575c0be3958715e",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/master.md",
+      "purpose": "prompt_package",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 1128,
+      "sha256": "897cb5a710b833d7bf66573372dba263b45544564ba0170ae5628642da958134",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/negative.md",
+      "purpose": "prompt_package",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 731,
+      "sha256": "460764d4fcf12450cbc1acf2a92de3279a1ad60e1ace5b83bbbdb2e0f5eb60ff",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/scene-01.md",
+      "purpose": "prompt_package",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 729,
+      "sha256": "a780566530ae46fed202f67ed9bb8f6c05f17dc5f66e4e47db0adfd36211f597",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/variant-a-daylight.md",
+      "purpose": "prompt_package",
+      "variant": "A",
+      "original": false,
+      "pixels": null,
+      "bytes": 524,
+      "sha256": "b907f53eb4423a2a357b96faade415dfcc92a346a86a76ea28388f9fc901e7f8",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/variant-b-dusk.md",
+      "purpose": "prompt_package",
+      "variant": "B",
+      "original": false,
+      "pixels": null,
+      "bytes": 633,
+      "sha256": "caab5e6de4e2fbe7aeea8a8a8af63abe6b05a976dc2a43390df3277cd4d2fd70",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "prompts/variant-c-topdown.md",
+      "purpose": "prompt_package",
+      "variant": "C",
+      "original": false,
+      "pixels": null,
+      "bytes": 551,
+      "sha256": "69f73aab75dbec46cc8272f66ad351d5ddc6db600f43acab7d69632b0190d24d",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "qa.md",
+      "purpose": "qualitative_and_browser_qa",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 4790,
+      "sha256": "3803a81a686f344dbe1e437e64024405f66feb0a11426a4ef748c2449c1458f1",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "README.md",
+      "purpose": "review_handoff",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 3297,
+      "sha256": "6461cca37501d3e735fb99d037e633990b7fefca527a99b74eaf19f68250340a",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "references/ref-01-lyttelton-miniature.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x640",
+      "bytes": 161572,
+      "sha256": "c39cd61996a802f09d235b710fa3d500eafa26aca7bd95684e210f51fc4942e0",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-02-freight-train-diorama.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "816x612",
+      "bytes": 200022,
+      "sha256": "12b7ca6c320874cbc1e47c956be3646a99618eeab7d1109638191bd70d09ad02",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-03-bremerhaven-terminal.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x798",
+      "bytes": 180480,
+      "sha256": "493f2394740f9b62fb33042b9d5e5839761287c4038b06d5abb9ae98ca1662e8",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-04-port-chalmers-panorama.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "912x466",
+      "bytes": 115330,
+      "sha256": "4a084e80676b61ccb6885399f93e9559b9deec2f382c573fd5e7e96269246bb8",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-05-container-loading-forklift.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x1280",
+      "bytes": 341868,
+      "sha256": "5399f0b34bf6ea9833f2b911e0eb9216476e37a2709d02d4bd8eb79263b3e8e8",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-06-modern-warehouse-racks.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x748",
+      "bytes": 304922,
+      "sha256": "9d2c4733f49265df2766c2b74b33456ff9ea0dd21e03a5fb07840e34895b7d06",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-07-intermodal-aerial.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x639",
+      "bytes": 314959,
+      "sha256": "2c431c5e002d18d9a1bbd3087c91da21567435b1d27082154fc135105094dfdb",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-08-fema-pallets.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x1440",
+      "bytes": 417192,
+      "sha256": "21cecef480fb8c88d5cf600a17b3458605228c64bb4016b20265b57500511f7d",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-09-hong-kong-tilt-shift.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x640",
+      "bytes": 110251,
+      "sha256": "3f13b78b89bca4d9ed67fc9d53f4e724a13197782a60fa6cf2cbe8d20439f93b",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "references/ref-10-cork-terminal-aerial.jpg",
+      "purpose": "licensed_moodboard_reference",
+      "variant": "shared",
+      "original": false,
+      "pixels": "960x540",
+      "bytes": 116899,
+      "sha256": "74a7da5aeb44c3f6c29a1c8252b12050f9ff2f9377e8353e271aec41c732f11e",
+      "tool": "Wikimedia Commons download",
+      "approval_status": "source_reference"
+    },
+    {
+      "path": "safe-areas.json",
+      "purpose": "normalized_safe_area_contract",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 2183,
+      "sha256": "f284a68aaace3207ef3b45813bbf56fb373f64004215fe80424a3e505899727f",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "scene-01-a-daylight.png",
+      "purpose": "2048x1152_review_derivative",
+      "variant": "A",
+      "original": false,
+      "pixels": "2048x1152",
+      "bytes": 4634764,
+      "sha256": "46cbca7b771024c09538251d98bc4792672c112b2d1815e2c979287c05e4267b",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ],
+      "postprocess": "crop bottom 1 px from 1672x941 to exact 16:9, then Lanczos upscale to 2048x1152; not native 2048x1152"
+    },
+    {
+      "path": "scene-01-b-dusk.png",
+      "purpose": "2048x1152_review_derivative",
+      "variant": "B",
+      "original": false,
+      "pixels": "2048x1152",
+      "bytes": 4544408,
+      "sha256": "36db0c8a8880c01b97a23f8dca4d2dbd8b30ac2c4c0b233dd699c5d36f3cce38",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-b-dusk.md",
+        "prompts/negative.md"
+      ],
+      "postprocess": "crop bottom 1 px from 1672x941 to exact 16:9, then Lanczos upscale to 2048x1152; not native 2048x1152"
+    },
+    {
+      "path": "scene-01-c-topdown.png",
+      "purpose": "2048x1152_review_derivative",
+      "variant": "C",
+      "original": false,
+      "pixels": "2048x1152",
+      "bytes": 5624034,
+      "sha256": "4e170ae184bcff2487210a0ee7bb7f84a085ffba42974a5d6b7635337f94ab8a",
+      "tool": "FFmpeg 7.1 derivative/composite",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-c-topdown.md",
+        "prompts/negative.md"
+      ],
+      "postprocess": "crop bottom 1 px from 1672x941 to exact 16:9, then Lanczos upscale to 2048x1152; not native 2048x1152"
+    },
+    {
+      "path": "screenshots/browser-qa-results.json",
+      "purpose": "browser_qa_machine_record",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 2830,
+      "sha256": "765f07fa77de1cd095cbba8df1c8b962d47d96fffda4ad6896b678519d48a6b8",
+      "tool": "Playwright QA script",
+      "approval_status": "not_applicable"
+    },
+    {
+      "path": "screenshots/desktop-a-mask-1440x900.png",
+      "purpose": "browser_capture",
+      "variant": "A",
+      "original": false,
+      "pixels": "1440x900",
+      "bytes": 1481406,
+      "sha256": "01d3dd1742cd18a31a478e8a0d03fbe6a8d63d7239aee3e2658ed27bf4ad796c",
+      "tool": "Playwright + installed Chrome",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "screenshots/desktop-a-overlay-1440x900.png",
+      "purpose": "browser_capture",
+      "variant": "A",
+      "original": false,
+      "pixels": "1440x900",
+      "bytes": 1457402,
+      "sha256": "be5b7a63bd331da0af8a3df47b43abf54c7ba62d218394c97361a82561834d52",
+      "tool": "Playwright + installed Chrome",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "screenshots/desktop-b-overlay-1440x900.png",
+      "purpose": "browser_capture",
+      "variant": "B",
+      "original": false,
+      "pixels": "1440x900",
+      "bytes": 1346084,
+      "sha256": "81b375b75e964e8bbe44461a2e0260928b395ef2cb47826c3487c8a6755590dd",
+      "tool": "Playwright + installed Chrome",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-b-dusk.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "screenshots/desktop-c-overlay-1440x900.png",
+      "purpose": "browser_capture",
+      "variant": "C",
+      "original": false,
+      "pixels": "1440x900",
+      "bytes": 1776348,
+      "sha256": "a28061073b67e4a4c8d478847652703b99c1817e9661bd5f9c709d6c0698fdf4",
+      "tool": "Playwright + installed Chrome",
+      "approval_status": "comparison_only",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-c-topdown.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "screenshots/mobile-a-overlay-390x844.png",
+      "purpose": "browser_capture",
+      "variant": "A",
+      "original": false,
+      "pixels": "390x844",
+      "bytes": 213721,
+      "sha256": "ea88c4608689ce70ca0758f967718945956b7df6d7d874cdc172177c0b9d0325",
+      "tool": "Playwright + installed Chrome",
+      "approval_status": "review_pending",
+      "prompt_files": [
+        "prompts/master.md",
+        "prompts/scene-01.md",
+        "prompts/variant-a-daylight.md",
+        "prompts/negative.md"
+      ]
+    },
+    {
+      "path": "scripts/browser-qa.cjs",
+      "purpose": "reproducible_browser_qa_script",
+      "variant": "shared",
+      "original": false,
+      "pixels": null,
+      "bytes": 5258,
+      "sha256": "bb80184bbc6e54e9570acdb5ddf8de0d9875b0025d08fcdb8f735777cf8282da",
+      "tool": "Codex-authored project artifact",
+      "approval_status": "not_applicable"
+    }
+  ]
+}

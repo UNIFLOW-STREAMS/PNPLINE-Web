@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "coordinate_space": "normalized_0_to_1_relative_to_2048x1152",
+  "viewbox": [0, 0, 2048, 1152],
+  "shared_overlay_copy": {
+    "status": "temporary_for_layout_review",
+    "eyebrow": "第 01 段 · 中国发运",
+    "headline": "美国自营海外仓：从中国工厂到美国消费者，一家公司全包",
+    "body": "从中国发运开始，衔接头程运输、清关与美国仓配。",
+    "primary_cta": "免费获取报价",
+    "secondary_cta": "查看美国自营仓库",
+    "evidence_label": "概念示意"
+  },
+  "variants": {
+    "a": {
+      "image": "scene-01-a-daylight.png",
+      "mask": "masks/scene-01-a-safe-area.svg",
+      "areas": {
+        "header": { "x": 0.01953125, "y": 0.02083333, "width": 0.9609375, "height": 0.0625 },
+        "hero_copy": { "x": 0.03515625, "y": 0.20833333, "width": 0.3515625, "height": 0.48611111 },
+        "step_caption": { "x": 0.03515625, "y": 0.78125, "width": 0.29296875, "height": 0.10416667 }
+      }
+    },
+    "b": {
+      "image": "scene-01-b-dusk.png",
+      "mask": "masks/scene-01-b-safe-area.svg",
+      "areas": {
+        "header": { "x": 0.01953125, "y": 0.02083333, "width": 0.9609375, "height": 0.0625 },
+        "hero_copy": { "x": 0.03515625, "y": 0.20833333, "width": 0.3515625, "height": 0.48611111 },
+        "step_caption": { "x": 0.03515625, "y": 0.78125, "width": 0.29296875, "height": 0.10416667 }
+      }
+    },
+    "c": {
+      "image": "scene-01-c-topdown.png",
+      "mask": "masks/scene-01-c-safe-area.svg",
+      "areas": {
+        "header": { "x": 0.01953125, "y": 0.02083333, "width": 0.9609375, "height": 0.0625 },
+        "hero_copy": { "x": 0.03515625, "y": 0.20833333, "width": 0.3515625, "height": 0.48611111 },
+        "step_caption": { "x": 0.03515625, "y": 0.78125, "width": 0.29296875, "height": 0.10416667 }
+      }
+    }
+  },
+  "mobile_composition_principle": "Create a separate portrait composition. Move the hero pallet and blue route into the lower-center vertical journey, keep the warehouse/transport hint in the upper third, and reserve the upper-left/top 35–40% for UI. Do not use a center crop of the desktop frame as the mobile keyframe."
+}

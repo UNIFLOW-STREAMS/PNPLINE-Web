@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1152" width="2048" height="1152" role="img" aria-labelledby="title desc">
+  <title id="title">Scene 01 B safe-area mask</title>
+  <desc id="desc">Header, hero copy and step caption safe areas over the dusk frame.</desc>
+  <g fill="#00ABE1" fill-opacity="0.12" stroke="#00ABE1" stroke-width="4" stroke-dasharray="14 10">
+    <rect x="40" y="24" width="1968" height="72" rx="4"/>
+    <rect x="72" y="240" width="720" height="560" rx="8"/>
+    <rect x="72" y="900" width="600" height="120" rx="8"/>
+  </g>
+</svg>

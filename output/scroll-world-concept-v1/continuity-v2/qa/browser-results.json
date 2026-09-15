@@ -1,9 +1,0 @@
-{
-  "checks": [],
-  "issues": [
-    "TimeoutError: page.waitForFunction: Timeout 30000ms exceeded."
-  ],
-  "passed": 0,
-  "total": 0,
-  "date": "2026-09-15T00:35:48.995Z"
-}
