@@ -7,7 +7,7 @@
 /masks/
 /prompts/
 /scripts/
-/styleframes/
+# styleframes/ is deployed because keyframes.html renders its three comparison frames.
 /index-v1.html
 /ko-v1.html
 /review.js
@@ -35,6 +35,7 @@
 !/continuity-v2/qa/browser-results.json
 /continuity-v2/intro/*
 !/continuity-v2/intro/china-harbor.png
+!/continuity-v2/intro/china-harbor.webp
 
 # Cinema and high-angle QA captures
 /cinema/*.png
