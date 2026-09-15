@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,"><title>PNPLINE · C 하이 앵글</title>
+<link rel="stylesheet" href="high-angle-c/study.css?revision=5">
+<link rel="stylesheet" href="continuity-v2/intro.css?revision=1">
+<script src="cinema/cinema.js?revision=1" defer></script><script src="continuity-v2/intro.js?revision=2" defer></script>
+<script src="high-angle-c/study.js?revision=10" defer></script>
+<link rel="stylesheet" href="cinema/cinema.css?revision=1"></head>
+<body>
+<header class="mast"><a href="index.html#a-keyframes" aria-label="통합 데모 페이지"><img src="assets/logo/PNP-LINE.webp" alt="PNPLINE"></a><span>C / HIGH ANGLE</span><a id="back" href="index.html#a-keyframes">통합 데모로 돌아가기 ↗</a></header>
+<main>
+<section class="intro"><p class="eyebrow">CAMERA STUDY / C2</p><h1>바다를 따라,<br>창고 안으로.</h1><p id="intro-copy">중국에서 미국까지는 위에서 따라갑니다.<br>미국에 도착하면 시점을 낮춰 입고, 포장, 배송으로 이어갑니다.</p></section>
+<section id="animatic" aria-label="C 하이 앵글 애니매틱">
+<div class="heading"><div><p class="eyebrow">01 / FOLLOW & ARRIVE</p><h2>C2 · 하이 앵글에서 창고로</h2></div><span id="media-note">로고 인트로 + 추적 카메라 + 첨부 키프레임 · 34.5초</span></div>
+<div class="toolbar">
+<div class="segmented" role="group" aria-label="화면 비율"><button id="desktop" aria-pressed="true">데스크톱 16:9</button><button id="mobile" aria-pressed="false">모바일 9:16</button></div>
+<button id="overview" aria-pressed="false">전체 지도</button>
+<label><input id="copy" type="checkbox" checked> <span id="copy-label">문구 표시</span></label>
+<label><input id="route" type="checkbox" checked> <span id="route-label">이동 경로</span></label>
+<label><input id="mask" type="checkbox"> <span id="mask-label">로고 보호 영역</span></label>
+</div>
+<div class="geography" aria-label="국가별 구간"><span data-region="CN">CN <b>중국 출발</b></span><span data-region="PACIFIC">PACIFIC <b>태평양 횡단</b></span><span data-region="US">US <b>미국 도착 · 출고</b></span></div>
+<div class="stage-wrap">
+<div id="stage" class="stage">
+<div id="world" class="world">
+<img id="world-image" class="world-image" src="high-angle-c/world.webp" alt="왼쪽 중국 항만, 중앙 태평양과 선박, 오른쪽 미국 항만부터 창고와 출고장까지 연결된 하이 앵글 미니어처">
+<img class="brand brand-cn" src="assets/logo/PNP-LINE.webp" alt="중국 창고 PNPLINE">
+<img class="brand brand-us" src="assets/logo/PNP-LINE.webp" alt="미국 창고 PNPLINE">
+<svg id="route-map" viewBox="0 0 1000 333.333" aria-hidden="true"><path class="route-shadow" d="M 115 190 C 180 205 245 195 320 175 S 418 175 460 135 S 553 100 595 148"/><path id="route-path" d="M 115 190 C 180 205 245 195 320 175 S 418 175 460 135 S 553 100 595 148"/><circle id="cargo" r="4.5" cx="115" cy="190"/></svg>
+</div>
+<aside id="caption" class="caption"><span id="scene-kicker"></span><h3 id="scene-title"></h3><p id="scene-body"></p></aside>
+<span id="mask-note" class="mask-note" hidden>로고 보호 영역 표시 중</span>
+<p id="image-error" role="alert" hidden>전경 이미지를 불러오지 못했습니다. 새로고침해 주세요.</p>
+</div>
+</div>
+<div class="play-row"><button id="play">인트로부터 재생</button><div class="scrub"><label for="progress" id="progress-label">여정 위치</label><input id="progress" type="range" min="0" max="1000" step="1" value="0"><output id="time" for="progress">00.0 / 34.5s</output></div></div>
+<p id="camera-note" class="camera-note"></p>
+<p id="reduced-note" class="note" hidden>동작 줄이기 설정이 켜져 있습니다. 구간 버튼이나 슬라이더로 장면을 선택하세요.</p>
+<nav id="shots" class="shots" aria-label="인트로와 여섯 구간 바로 보기"></nav>
+<p id="study-note" class="note">4.5초 로고 인트로 뒤에 기존 30초 여정이 이어집니다. 데스크톱은 여정 15초부터 입고·포장·출고 가로 이미지로, 모바일은 여정 10초의 미국 도착부터 항만·입고·포장·배송 세로 이미지 네 장으로 전환됩니다.</p>
+</section>
+<section class="comparison"><div><p class="eyebrow">02 / CAMERA LANGUAGE</p><h2 id="comparison-title">운송은 넓게,<br>작업은 가까이.</h2></div><div id="comparison-copy"><p>중국 부두에서 선박과 미국 항만을 따라 카메라가 이동하고 확대됩니다. 미국에 도착하면 창고로 접근한 뒤 낮은 사선 시점의 입고 장면으로 전환합니다.</p><p>이후에는 첨부한 세 이미지가 순서대로 이어집니다. 컨테이너와 보관 랙, 포장 작업대와 컨베이어, 배송 차량을 따라 시선을 옮깁니다.</p></div></section>
+<footer><a href="high-angle-c/README.md">제작 기록 ↗</a><span>PNPLINE / C · 내부 콘셉트 검토</span></footer>
+</main>
+</body></html>

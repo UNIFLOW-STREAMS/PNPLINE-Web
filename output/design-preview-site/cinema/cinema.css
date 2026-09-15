@@ -1,0 +1,25 @@
+/* Applied only to journey artwork. No selector targets .brand-intro or UI text. */
+:root{--cinema-filter:brightness(.88) saturate(.96);--cinema-blur:clamp(1.6px,.22vw,3.2px)}
+html.cinema-ready{--cinema-filter:url(#cinema-agx)}
+.scene-image,.world-image,.world>.brand,.us-pixels>img,.cinema-thumbnail>img{filter:var(--cinema-filter)}
+.cinema-surface{position:relative;isolation:isolate}
+.cinema-fx{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none;isolation:isolate}
+.cinema-fx>div{position:absolute;inset:0;pointer-events:none}
+.cinema-dof{backdrop-filter:blur(var(--cinema-blur));-webkit-backdrop-filter:blur(var(--cinema-blur));mask-image:linear-gradient(to bottom,#000 0%,#0009 12%,transparent 30%,transparent 74%,#0005 86%,#000 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#0009 12%,transparent 30%,transparent 74%,#0005 86%,#000 100%)}
+.cinema-vignette{background:radial-gradient(ellipse at 50% 53%,transparent 22%,rgba(4,12,23,.12)49%,rgba(3,9,19,.4)77%,rgba(2,6,15,.76)100%),linear-gradient(to bottom,rgba(8,22,39,.05),transparent 35%,transparent 70%,rgba(4,13,27,.13))}
+.cinema-grain{opacity:.13;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Cpath fill='%23808080' filter='url(%23g)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");background-size:180px 180px}
+.motion-stage[data-playing=true] .v2-frame:not([hidden]) .cinema-grain,.stage[data-playing=true]:not([data-mode=intro])>.cinema-fx>.cinema-grain{animation:cinema-grain-drift .65s steps(3,end) infinite}
+@keyframes cinema-grain-drift{0%{background-position:0 0}33%{background-position:47px -31px}66%{background-position:-19px 73px}100%{background-position:71px 17px}}
+.stage>.cinema-fx{z-index:7}
+.motion-stage[data-phase=INTRO] .scene-image,.stage[data-mode=intro] .world-image,.stage[data-mode=intro] .world>.brand,.stage[data-mode=intro] .us-pixels>img{filter:none}
+.motion-stage[data-phase=INTRO] .cinema-fx,.stage[data-mode=intro]>.cinema-fx{display:none}
+.cinema-thumbnail{position:relative;overflow:hidden}
+.cinema-thumbnail .cinema-dof{display:none}
+.cinema-thumbnail .cinema-grain{opacity:.09}
+.cinema-thumbnail>img{display:block;width:100%}
+.portrait-shots .cinema-thumbnail>img{aspect-ratio:9/16}
+/* Dev-only comparison hook used by screenshot QA. */
+html.cinema-bypass .scene-image,html.cinema-bypass .world-image,html.cinema-bypass .world>.brand,html.cinema-bypass .us-pixels>img,html.cinema-bypass .cinema-thumbnail>img{filter:none}
+html.cinema-bypass .cinema-fx{display:none}
+@media(prefers-reduced-motion:reduce){.cinema-grain{animation:none!important}}
+@media(max-width:767px){:root{--cinema-blur:1.8px}.shots{grid-template-columns:repeat(3,minmax(0,1fr))}}

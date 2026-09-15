@@ -1,0 +1,38 @@
+{
+  "scene_id": "S02",
+  "orientation": "desktop",
+  "width": 1672,
+  "height": 941,
+  "logo_quad": [
+    [
+      0.479,
+      0.509
+    ],
+    [
+      0.588,
+      0.478
+    ],
+    [
+      0.588,
+      0.515
+    ],
+    [
+      0.479,
+      0.548
+    ]
+  ],
+  "source_image_path": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a0a06d-9ddd-7662-a22e-b37a8fde4d4c/exec-4e7e29db-74a8-48a8-8ea7-ffeab5117fee.png",
+  "references": [
+    "F:/pnpline-landing/output/scroll-world-concept-v1/continuity-v2/base/S01-desktop.png"
+  ],
+  "reference_delivery": "Inline displayed reference used because referenced_image_paths sandbox helper failed before generation.",
+  "tool": "built-in image_gen",
+  "attempts": 1,
+  "prompt": "Use case: stylized-concept. Produce ONE 16:9 landscape keyframe for a continuous logistics voyage animation, no layout or collage.\nInput image 1 is continuity reference for craft, palette and the exact navy-hull cargo ship with white aft superstructure and cyan corrugated hero container with black corner fittings and a large blank ivory side panel.\nScene S02 THE PACIFIC CROSSING. The ship has DEPARTED from China, now alone crossing a huge open blue Pacific ocean. A very small hazy trace of China's dense coastal skyline is receding at the extreme far LEFT horizon only. No destination coast is visible. No harbor, no cranes, no airport, no warehouse. Broad open ocean and an unmistakable long white wake communicate distance and travel.\nCamera: follows behind and slightly to the PORT side of the ship, raised rear-quarter macro camera. Stern sits left/lower-left, bow points RIGHT/up-right, motion is left to right. Track alongside same cargo, do not reverse the vessel. Entire full width image is authored, do not reserve a blank left column. The cyan hero container is on the nearest port-side upper deck, visually clear, with its large ivory side panel facing camera at mild perspective and unobstructed, ready for a real logo later.\nStrong physical miniature appearance: a premium 1:87 tabletop scale model, tiny hand-painted crew, subtly molded rigid resin ocean waves, carefully painted hull, discrete model base edge at nearest bottom, macro tilt-shift focus across the vessel with natural near/far softness. Consistent bright sunlight from upper left, navy/cyan/kraft/ivory palette. Rich but orderly detail. The ocean remains realistic enough to read as a voyage while clearly a carefully crafted miniature.\nNo lettering, no invented logo, no PNPLINE text, no road lines on water, no map arrows, no callout graphics, no split screen. Keep identity and quality matching reference.",
+  "visual_inspection": {
+    "geography": "Open Pacific, China recedes only far left; no destination visible.",
+    "camera": "Raised rear port quarter, stern left and bow right, wake trails left.",
+    "miniature": "Painted crew and macro selective focus strongly read as model.",
+    "panel": "Unobstructed ivory panel on cyan container; quad inset."
+  }
+}

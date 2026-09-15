@@ -1,0 +1,52 @@
+{
+  "scene_id": "S04",
+  "orientation": "mobile",
+  "path": "continuity-v2/base/S04-mobile.png",
+  "width": 941,
+  "height": 1672,
+  "tool": "built-in image_gen",
+  "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a0a06d-ef42-7b02-82ce-8d5d4c39c047/exec-49c9dd9d-1fdd-4d8b-b28d-98549428226f.png",
+  "prompt": "Use case: stylized-concept. Create exactly ONE portrait 9:16 mobile keyframe S04 USA warehouse intake, independently arranged tall composition, NOT cropped. Reference image 1 is S04 desktop warehouse, image 2 is S03 portrait port arrival. Preserve same premium physical 1:120 miniature world, white/navy THREE-bay receiving warehouse and cargo identity. Camera has followed cyan container trailer inward: look diagonally through a cutaway receiving bay from bottom/front LEFT into high storage racks at TOP/right, clear camera advance from outside port into warehouse. Low oblique macro view around 25 degrees above model plane. Foreground bottom left: same navy American long-hood tractor and cyan corrugated container trailer at receiving bay, a cropped but recognizable truck; side panel ivory and BLANK. Rear container doors open where tiny painted PPE warehouse workers and cyan forklift move kraft carton pallet with CYAN straps across threshold inward and diagonally back/top right. Same American flag on slender pole visible outside left through dock opening, navy harbor crane and a little resin sea softly visible far outside. Inside upper two-thirds: same white wall, navy steel portal uprights and rafters, yellow bollards and organized navy/orange steel storage racks with kraft cartons and cyan straps. Keep warehouse geometry coherent, three receiving openings hinted along left facade, main operation centered. Provide one unobstructed clean ivory BLANK 5.4:1 physical logo plaque on NAVY receiving portal fascia facing camera in middle upper area, medium size integrated in warehouse structure, not a billboard. Tiny painted model workers, miniature seam texture, delicate railings, subtle beveled white model base visible near bottom edge, tactile molded vehicles, macro tiltshift modest background depth falloff. Bright diffuse daylight whitegray/navy/cyan/kraft palette, clearer MINIATURE look than photoreal full-scale architecture. Compose full frame with dock-to-storage visual depth and same container as S03, no reserved copy area. No words, logos, numbers, pseudotype, watermarks, overlay arrows or graphics; only real American flag permitted. Maintain all critical objects fully readable, especially blank plaque and inward pallet movement.",
+  "reference_delivery": "Generated S04 desktop then S03 mobile visible images, num_last_images_to_include:2",
+  "logo_quad": [
+    [
+      0.24229543039319873,
+      0.2799043062200957
+    ],
+    [
+      0.6014877789585548,
+      0.26674641148325356
+    ],
+    [
+      0.6014877789585548,
+      0.3038277511961722
+    ],
+    [
+      0.24229543039319873,
+      0.31698564593301437
+    ]
+  ],
+  "logo_quad_order": "TL TR BR BL, normalized image coordinates",
+  "visual_findings": "Independent tall receiving-to-racks depth. Same American flag, three-bay navy/white warehouse and cyan container, navy long-hood tractor foreground, cyan forklift receives strapped kraft cartons. Physical base and painted figurines clearly miniature. Clear blank warehouse fascia plaque. Minor generic tiny carton safety stamps remain, no coherent brand text.",
+  "attempts": 1,
+  "secondary_logo_quads": [
+    [
+      [
+        0.29330499468650373,
+        0.5532296650717703
+      ],
+      [
+        0.4357066950053135,
+        0.541267942583732
+      ],
+      [
+        0.4357066950053135,
+        0.55622009569378
+      ],
+      [
+        0.29330499468650373,
+        0.5681818181818182
+      ]
+    ]
+  ]
+}

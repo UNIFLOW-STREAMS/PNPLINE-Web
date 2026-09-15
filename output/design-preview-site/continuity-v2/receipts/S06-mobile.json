@@ -1,0 +1,37 @@
+{
+  "scene_id": "S06",
+  "orientation": "mobile",
+  "engine": "built-in image_gen",
+  "generation_attempts": 1,
+  "source_path": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a06e-38dc-7c70-9719-843db7553fc8\\exec-4e9e9309-9215-4dfa-a7a3-48a086515d34.png",
+  "output_path": "output/scroll-world-concept-v1/continuity-v2/base/S06-mobile.png",
+  "width": 941,
+  "height": 1672,
+  "logo_quad": [
+    [
+      0.329437,
+      0.562201
+    ],
+    [
+      0.626993,
+      0.585526
+    ],
+    [
+      0.624867,
+      0.616627
+    ],
+    [
+      0.327311,
+      0.5939
+    ]
+  ],
+  "logo_quad_order": "TL, TR, BR, BL",
+  "logo_artwork_aspect": 5.4,
+  "prompt": "Use case: stylized-concept. Create ONE independent 9:16 PORTRAIT keyframe for the final scene 06 of this exact miniature USA dispatch world. Previous image is the style and identity reference; recompose independently for tall mobile, not a crop. SAME premium tangible 1:120 scale miniature craftsmanship, tiny painted figurines, white wall warehouse/navy three portal bays, same cyan delivery van with completely blank ivory broadside panel, same navy US long-hood truck, identical kraft cartons with cyan straps, bright diffuse daylight, delicate realistic steel/concrete model textures.\n\nCAMERA: 35deg elevated macro. One connected journey in depth from warehouse at LEFT/BACK toward departing vehicles at RIGHT/FRONT. In the lower/front half show a large CYAN parcel delivery van side broadside, facing RIGHT and slightly toward foreground, completely plain grille without logo. Physical IVORY rectangle on its unobstructed side approximately 5.4:1 width-height, blank for later brand overlay. Tiny workers load cyan-strapped cartons via rear at left. Across center/back is pallet transport: navy American long-hood tractor at RIGHT attached to a long pale trailer whose rear is to LEFT near loading dock. No open trailer wall adjacent to cab, must be mechanically correct. Include pallets near dock; packing conveyor can be glimpsed through open warehouse door at upper left. Clear AMERICAN FLAG near top-left/center and broad US suburban road with lowrise neighborhood running into top background. The scene unmistakably means cargo finishing USA fulfillment and leaving warehouse, vehicles point away from doors. Avoid putting van nose toward building. Make small figurines and bevel of model-base edge visible to emphasize miniature scale. Foreground extreme edge and distant background soft macro tiltshift, primary cargo and vehicles sharp. No written words, numbers, captions, arrows, maps, carrier or carmaker logos, badges, pseudotype, watermark, or diagram. Single coherent photographed model world, not collage or fullsize warehouse photograph.",
+  "source_references": [
+    "S06-desktop corrected image via num_last_images_to_include:1"
+  ],
+  "visual_findings": "Independent portrait composition; warehouse upper-left, USA flag prominent, truck center and van foreground rightward; road toward neighborhood at back. Blank van panel clear.",
+  "status": "concept-review-ready",
+  "reference_transport_note": "Local file reference failed sandbox helper; inline images used for image_gen context."
+}

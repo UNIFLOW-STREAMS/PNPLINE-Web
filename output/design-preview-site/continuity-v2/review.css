@@ -1,0 +1,49 @@
+.revision-note{display:flex;justify-content:space-between;gap:20px;padding:18px 22px;margin-top:30px;background:#e9f2f4;border-left:3px solid #00abe1;font-size:13px}.revision-note a{white-space:nowrap}
+.continuity-v2 .section-head{max-width:880px}
+.continuity-v2 .motion-stage{max-width:100%;overflow:visible}
+.continuity-v2 .motion-stage.mobile{max-width:390px}
+.continuity-v2 .frame.v2-frame{aspect-ratio:auto;background:transparent;overflow:visible;isolation:auto}
+.continuity-v2 .v2-frame[hidden],.continuity-v2 [hidden]{display:none!important}
+.image-surface{position:relative;aspect-ratio:16/9;overflow:hidden;background:#e4eced}
+.mobile .image-surface{aspect-ratio:9/16}
+.shot-pixels{position:absolute;inset:0;transform-origin:50% 50%;will-change:transform}
+.shot-pixels>.scene-image{width:100%;height:100%;object-fit:contain;display:block}
+.shot-pixels>.frame-mask{position:absolute;inset:0;width:100%;height:100%;z-index:2}
+.v2-frame .overlay-layer.v2-copybar{position:absolute;left:clamp(12px,2vw,28px);right:auto;bottom:clamp(12px,2vw,28px);top:auto;z-index:4;display:flex;gap:8px 16px;align-items:baseline;flex-wrap:wrap;width:min(460px,calc(100% - 24px));padding:16px 18px;border:1px solid rgba(255,255,255,.72);border-left:4px solid var(--v2-cyan);border-radius:12px;background:rgba(247,248,245,.94);box-shadow:0 12px 34px rgba(5,24,42,.24);backdrop-filter:blur(10px);pointer-events:none}
+.v2-copybar .copy-part{position:static;overflow:visible;font:inherit;width:auto;height:auto;color:#182c39;line-height:1.6}
+.v2-copybar .copy-part.title{font-size:19px}
+.v2-copybar .copy-part.body{font-size:14px;margin:0}
+.mobile .v2-copybar{display:block}
+.continuity-v2 .image-surface.has-error .error-note{display:block;inset:30% 7% auto}
+.continuity-v2 .image-surface.has-error .scene-image{visibility:hidden}
+.camera-note{border-left:2px solid #00abe1;padding-left:12px;font-weight:700}
+.geo-track{display:grid;grid-template-columns:1fr 1fr 2fr;margin:20px 0 0;gap:3px}
+.geo-stop{padding:14px 18px;background:#e7ece9;border-bottom:3px solid #c6d4d6;display:flex;align-items:center;gap:14px;color:#53656e;font-size:14px}
+.geo-stop.current{background:#e2f2f7;border-color:#00abe1;color:#102c3d}
+.geo-code{font-size:11px;letter-spacing:.07em;font-weight:700}
+.direction-caption{margin:12px 0 18px;font-size:13px;color:#3e5965}
+.playback-controls{display:flex;align-items:center;gap:20px;margin-top:20px}
+.play-button{flex-shrink:0;background:#182c39;color:white;border-color:#182c39;min-width:150px}
+.play-button:disabled{opacity:.45;cursor:default}
+.shot-strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:24px}
+.shot-button{padding:0;text-align:left;border:2px solid transparent;min-width:0;background:#edf0ed;display:block}
+.shot-button[aria-pressed=true]{background:#e2f2f7;color:#102c3d;border-color:#0083a9}
+.shot-button img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.shot-button span{display:block;font-size:11px;padding:9px 8px;line-height:1.5;white-space:normal}
+.continuity-v2 .scrub{grid-template-columns:100px 1fr 220px}
+@media(max-width:767px){
+ .revision-note{display:block;padding:14px;margin-top:24px}.revision-note a{display:block;margin-top:10px}
+ .geo-track{grid-template-columns:1fr 1fr 1.4fr}.geo-stop{padding:11px 8px;gap:4px;display:block;font-size:11px}.geo-code{display:block;font-size:9px;margin-bottom:3px}
+ .direction-caption{font-size:12px}.playback-controls{align-items:flex-start;flex-direction:column;gap:6px}
+ .shot-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.shot-button span{padding:7px 5px;font-size:10px}
+ .continuity-v2 .scrub{grid-template-columns:1fr}
+ .v2-copybar .copy-part.title{font-size:18px}.v2-copybar .copy-part.body{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.shot-pixels{transform:none!important;will-change:auto}}
+.continuity-v2 .v2-frame{position:relative;overflow:hidden}
+.continuity-v2 .shot-pixels:has(>.frame-mask[style*="display: block"])::after{content:"Logo safe area visible";position:absolute;top:14px;right:14px;z-index:5;padding:8px 12px;border-radius:999px;background:#6f42c1;color:#fff;font-size:12px;font-weight:800;letter-spacing:.02em;box-shadow:0 6px 18px rgba(52,24,100,.3);pointer-events:none}
+html[lang="ko"] .continuity-v2 .shot-pixels:has(>.frame-mask[style*="display: block"])::after{content:"로고 보호 영역 표시 중"}
+.continuity-v2 .shot-pixels>.frame-mask[style*="display: block"]{filter:drop-shadow(0 0 8px rgba(111,66,193,.62))}
+.continuity-v2 .shot-pixels>.frame-mask rect{fill:#7b4dd0;fill-opacity:.26;stroke:#f4ecff;stroke-width:6;vector-effect:non-scaling-stroke}
+.continuity-v2 label:has(#animatic-copy:checked),.continuity-v2 label:has(#animatic-mask:checked),.continuity-v2 label:has(#overlay-toggle:checked),.continuity-v2 label:has(#mask-toggle:checked){background:rgba(0,169,214,.12);box-shadow:inset 0 0 0 1px rgba(0,169,214,.28)}
+@media(max-width:640px){.continuity-v2 .v2-frame .overlay-layer.v2-copybar{width:calc(100% - 24px);padding:12px 14px}.continuity-v2 .v2-copybar .copy-part.body{display:none}.continuity-v2 .shot-pixels:has(>.frame-mask[style*="display: block"])::after{top:8px;right:8px;padding:6px 9px;font-size:10px}}

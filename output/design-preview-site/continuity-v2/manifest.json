@@ -1,0 +1,817 @@
+{
+  "revision": 2,
+  "purpose": "still-frame-camera-study",
+  "duration": 30,
+  "video_generation_calls": 0,
+  "scenes": [
+    {
+      "id": "S01",
+      "phase": "CN",
+      "ko": {
+        "place": "중국 · 출항 부두",
+        "title": "중국에서 출발",
+        "body": "같은 파란 컨테이너를 선박에 싣습니다.",
+        "camera": "육지에서 바다로",
+        "flow": "왼쪽 집하장 → 중앙 컨테이너 → 오른쪽 선박",
+        "proof": "중국 국기 · 밀집한 항만 배후 도시 · 선적 크레인",
+        "mobileFlow": "가까운 화물 → 뒤쪽 선적 크레인과 바다"
+      },
+      "zh": {
+        "place": "中国 · 出发港",
+        "title": "从中国出发",
+        "body": "同一蓝色集装箱装上货船。",
+        "camera": "陆地 → 海洋",
+        "flow": "左侧集货区 → 中部集装箱 → 右侧货船",
+        "proof": "中国国旗 · 密集港区城市 · 装船起重机",
+        "mobileFlow": "近处货物 → 后方装船起重机与海面"
+      }
+    },
+    {
+      "id": "S02",
+      "phase": "PACIFIC",
+      "ko": {
+        "place": "태평양 · 해상 운송",
+        "title": "태평양을 건너",
+        "body": "출발 항만을 뒤로 두고 미국으로 향합니다.",
+        "camera": "선미에서 선수로",
+        "flow": "선미의 항적 → 파란 컨테이너 → 오른쪽 선수와 수평선",
+        "proof": "넓은 해면 · 뒤로 멀어지는 육지 · 전진하는 동일 선박",
+        "mobileFlow": "아래쪽 선미와 항적 → 위쪽 선수와 수평선"
+      },
+      "zh": {
+        "place": "太平洋 · 海运",
+        "title": "跨越太平洋",
+        "body": "驶离出发港，向美国前进。",
+        "camera": "船尾 → 船首",
+        "flow": "船尾航迹 → 蓝色集装箱 → 右侧船首与地平线",
+        "proof": "开阔海面 · 逐渐远去的陆地 · 同一艘船",
+        "mobileFlow": "下方船尾航迹 → 上方船首与地平线"
+      }
+    },
+    {
+      "id": "S03",
+      "phase": "US",
+      "ko": {
+        "place": "미국 · 도착 항만",
+        "title": "미국 항만에 도착",
+        "body": "내린 컨테이너가 미국 내륙 창고로 이동합니다.",
+        "camera": "바다에서 내륙으로",
+        "flow": "왼쪽 선박 → 하역된 컨테이너 → 오른쪽 미국 트럭과 창고",
+        "proof": "미국 국기 · 긴 보닛 트럭 · 저층 산업지와 넓은 도로",
+        "mobileFlow": "가까운 하역 화물 → 트럭 → 뒤쪽 미국 창고"
+      },
+      "zh": {
+        "place": "美国 · 到达港",
+        "title": "抵达美国港口",
+        "body": "卸船后的集装箱转往美国内陆仓库。",
+        "camera": "海洋 → 内陆",
+        "flow": "左侧货船 → 卸下的集装箱 → 右侧美式卡车与仓库",
+        "proof": "美国国旗 · 长头卡车 · 低层工业区与宽阔道路",
+        "mobileFlow": "近处卸货区 → 卡车 → 后方美国仓库"
+      }
+    },
+    {
+      "id": "S04",
+      "phase": "US",
+      "ko": {
+        "place": "미국 · 입고 및 보관",
+        "title": "도크에서 보관 랙으로",
+        "body": "도착한 화물을 창고 안으로 옮겨 보관합니다.",
+        "camera": "밖에서 안으로",
+        "flow": "왼쪽 입고 도크 → 지게차 → 오른쪽 보관 랙",
+        "proof": "같은 미국 창고 · 남색 프레임 · 도크 밖 파란 컨테이너",
+        "mobileFlow": "아래쪽 입고 도크 → 안쪽 깊은 랙 통로"
+      },
+      "zh": {
+        "place": "美国 · 入库与保管",
+        "title": "从月台进入货架",
+        "body": "将到达的货物移入仓库并上架。",
+        "camera": "室外 → 室内",
+        "flow": "左侧入库月台 → 叉车 → 右侧货架",
+        "proof": "同一美国仓库 · 海军蓝框架 · 月台外蓝色集装箱",
+        "mobileFlow": "下方入库月台 → 内部纵深货架通道"
+      }
+    },
+    {
+      "id": "S05",
+      "phase": "US",
+      "ko": {
+        "place": "미국 · 피킹 및 포장",
+        "title": "보관에서 출고 준비로",
+        "body": "파란 띠의 상자가 피킹과 포장을 거칩니다.",
+        "camera": "랙에서 출고문으로",
+        "flow": "왼쪽 랙 → 중앙 포장 작업 → 오른쪽 출고문",
+        "proof": "같은 창고 내부 · 반복되는 파란 띠 화물 · 바깥의 미국 풍경",
+        "mobileFlow": "가까운 포장 작업 → 컨베이어 → 뒤쪽 열린 출고문"
+      },
+      "zh": {
+        "place": "美国 · 拣选与包装",
+        "title": "从保管到出库准备",
+        "body": "带蓝色束带的纸箱经过拣选与包装。",
+        "camera": "货架 → 出库门",
+        "flow": "左侧货架 → 中部包装工位 → 右侧出库门",
+        "proof": "同一仓库内部 · 蓝色束带货物 · 门外美国环境",
+        "mobileFlow": "近处包装工作 → 输送线 → 后方敞开的出库门"
+      }
+    },
+    {
+      "id": "S06",
+      "phase": "US",
+      "ko": {
+        "place": "미국 · 분기 출고",
+        "title": "미국 배송으로 이어집니다",
+        "body": "팔레트 운송 또는 택배 배송으로 나뉩니다.",
+        "camera": "창고에서 배송 도로로",
+        "flow": "왼쪽 출고 도크 → 운송 차량 → 오른쪽 미국 배송 도로",
+        "proof": "미국 국기 · 미국식 트랙터 · 저층 주거지와 배송 도로",
+        "mobileFlow": "가까운 출고 화물 → 분기 차량 → 멀어지는 배송 도로"
+      },
+      "zh": {
+        "place": "美国 · 分流出库",
+        "title": "进入美国配送",
+        "body": "分为托盘运输或包裹配送。",
+        "camera": "仓库 → 配送道路",
+        "flow": "左侧出库月台 → 运输车辆 → 右侧美国配送道路",
+        "proof": "美国国旗 · 美式牵引车 · 低层住宅与配送道路",
+        "mobileFlow": "近处出库货物 → 分流车辆 → 远方配送道路"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "S01-desktop",
+      "scene": "S01",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S01-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.430622009569378,
+          0.7233655332878625
+        ],
+        [
+          0.6160287081339713,
+          0.6967980518850995
+        ],
+        [
+          0.6160287081339713,
+          0.7378459438641036
+        ],
+        [
+          0.430622009569378,
+          0.7644134252668665
+        ]
+      ],
+      "protect_logo": [
+        0.420622009569378,
+        0.6867980518850995,
+        0.20540669856459326,
+        0.08761537338176706
+      ],
+      "bytes": 243114,
+      "sha256": "d5faa68f3651a8209a8d9eeadde469bc985522e4baf772f9db12e30f2c7d9cb4",
+      "source_sha256": "60f1f72f715b9cafa8c6496dd46dce7e5e79acdfe93d028d3718fcb47efadfee",
+      "receipt": "continuity-v2/receipts/S01-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.420622009569378,
+          0.6867980518850995,
+          0.20540669856459326,
+          0.08761537338176706
+        ]
+      ]
+    },
+    {
+      "id": "S01-mobile",
+      "scene": "S01",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S01-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.45099999999999996,
+          0.6427212265932439
+        ],
+        [
+          0.742,
+          0.618721226593244
+        ],
+        [
+          0.742,
+          0.639278773406756
+        ],
+        [
+          0.451,
+          0.6632787734067559
+        ]
+      ],
+      "protect_logo": [
+        0.44099999999999995,
+        0.608721226593244,
+        0.31100000000000005,
+        0.06455754681351189
+      ],
+      "bytes": 213172,
+      "sha256": "ece6e52986655f4a133227eb1fb51d96307f8b8cc7ac0f6dfd9f68d5d9ea8489",
+      "source_sha256": "fdcabf4f51f3129d702451400e0a4263c5f224676366c4951f72c027daf07589",
+      "receipt": "continuity-v2/receipts/S01-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.44099999999999995,
+          0.608721226593244,
+          0.31100000000000005,
+          0.06455754681351189
+        ]
+      ]
+    },
+    {
+      "id": "S02-desktop",
+      "scene": "S02",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S02-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.4789999999999999,
+          0.5159890788941943
+        ],
+        [
+          0.588,
+          0.484630664591928
+        ],
+        [
+          0.588,
+          0.508369335408072
+        ],
+        [
+          0.4789999999999999,
+          0.5410109211058056
+        ]
+      ],
+      "protect_logo": [
+        0.4689999999999999,
+        0.474630664591928,
+        0.12900000000000006,
+        0.07638025651387764
+      ],
+      "bytes": 216390,
+      "sha256": "ac75332564d3f5e2ee648423335d16d713876fb9f953ee6a6f88407779081347",
+      "source_sha256": "587643491a156a0c9be9e987c40224210c5630969b748f8bba3249eb8921c51e",
+      "receipt": "continuity-v2/receipts/S02-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.4689999999999999,
+          0.474630664591928,
+          0.12900000000000006,
+          0.07638025651387764
+        ]
+      ]
+    },
+    {
+      "id": "S02-mobile",
+      "scene": "S02",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S02-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.5290000000000001,
+          0.47627523725429705
+        ],
+        [
+          0.644,
+          0.4362752372542971
+        ],
+        [
+          0.644,
+          0.445724762745703
+        ],
+        [
+          0.5290000000000001,
+          0.4857247627457029
+        ]
+      ],
+      "protect_logo": [
+        0.5190000000000001,
+        0.4262752372542971,
+        0.1349999999999999,
+        0.06944952549140582
+      ],
+      "bytes": 251572,
+      "sha256": "55b668dd16b12240ad2e3e7b61645e454da8bc0fb35b20bf45edb32be64acaf4",
+      "source_sha256": "0239f0b87e013c6f611cc3c9a341948a7b906207b07d2c8f530ae4cdbeaf181e",
+      "receipt": "continuity-v2/receipts/S02-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.5190000000000001,
+          0.4262752372542971,
+          0.1349999999999999,
+          0.06944952549140582
+        ]
+      ]
+    },
+    {
+      "id": "S03-desktop",
+      "scene": "S03",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S03-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.379785,
+          0.5998674843546247
+        ],
+        [
+          0.508971,
+          0.6306739085148668
+        ],
+        [
+          0.508971,
+          0.6594430914851332
+        ],
+        [
+          0.379785,
+          0.6286265156453752
+        ]
+      ],
+      "protect_logo": [
+        0.369785,
+        0.5898674843546247,
+        0.14918599999999999,
+        0.0795756071305086
+      ],
+      "bytes": 254690,
+      "sha256": "16262bcb78b6949c8f1ef16d9cbe699a5da6d9ae9ea4828d24f3f1bdd707102c",
+      "source_sha256": "580cd2217c7234c4e39106ff8a7b3f7e533a8c58f325ffc08c15c206a2e7789d",
+      "receipt": "continuity-v2/receipts/S03-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.369785,
+          0.5898674843546247,
+          0.14918599999999999,
+          0.0795756071305086
+        ]
+      ]
+    },
+    {
+      "id": "S03-mobile",
+      "scene": "S03",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S03-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.3294367693942614,
+          0.5305547837944807
+        ],
+        [
+          0.5345377258235919,
+          0.5616552622633803
+        ],
+        [
+          0.5345377258235919,
+          0.5765026324734619
+        ],
+        [
+          0.3294367693942614,
+          0.5454021540045623
+        ]
+      ],
+      "protect_logo": [
+        0.3194367693942614,
+        0.5205547837944807,
+        0.22510095642933053,
+        0.06594784867898118
+      ],
+      "bytes": 241016,
+      "sha256": "270a68c8afce6a73ac89adbce8ac44bde5e82aa0af02d055c4ae2f84a119e557",
+      "source_sha256": "9bfc13efcecb7a57d797a28520bdb2d01aeb42e3ff5ffc2a06e426e4a0af6b47",
+      "receipt": "continuity-v2/receipts/S03-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.3194367693942614,
+          0.5205547837944807,
+          0.22510095642933053,
+          0.06594784867898118
+        ]
+      ]
+    },
+    {
+      "id": "S04-desktop",
+      "scene": "S04",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S04-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.20813399999999999,
+          0.2625540148803314
+        ],
+        [
+          0.366029,
+          0.24236301488033143
+        ],
+        [
+          0.366029,
+          0.27729698511966855
+        ],
+        [
+          0.20813400000000004,
+          0.29748798511966856
+        ]
+      ],
+      "protect_logo": [
+        0.19813399999999998,
+        0.23236301488033143,
+        0.17789500000000003,
+        0.07512497023933715
+      ],
+      "bytes": 202164,
+      "sha256": "a37de0faba96b44fddb68e5af7ef37220525f36a5135daac7609092f43aca198",
+      "source_sha256": "7d4537f886fdb25a6edbef4454062506cda71a8aa4ffee920f093b88647dbc24",
+      "receipt": "continuity-v2/receipts/S04-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [
+        [
+          [
+            0.16267942583732056,
+            0.5374070542293918
+          ],
+          [
+            0.2565789473684211,
+            0.5544102423271602
+          ],
+          [
+            0.2565789473684211,
+            0.5752390669183233
+          ],
+          [
+            0.16267942583732056,
+            0.558235878820555
+          ]
+        ]
+      ],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.19813399999999998,
+          0.23236301488033143,
+          0.17789500000000003,
+          0.07512497023933715
+        ],
+        [
+          0.15767942583732056,
+          0.5324070542293918,
+          0.1038995215311005,
+          0.04783201268893144
+        ]
+      ]
+    },
+    {
+      "id": "S04-mobile",
+      "scene": "S04",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S04-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.24229543039319873,
+          0.2858650075191275
+        ],
+        [
+          0.6014877789585548,
+          0.2727071127822854
+        ],
+        [
+          0.6014877789585548,
+          0.29786704989714036
+        ],
+        [
+          0.24229543039319873,
+          0.3110249446339825
+        ]
+      ],
+      "protect_logo": [
+        0.23229543039319872,
+        0.26270711278228537,
+        0.37919234856535605,
+        0.058317831851697144
+      ],
+      "bytes": 177048,
+      "sha256": "ede793b68c781009665727ba82db21610517b8514bf2e283905d5a90340ccd8e",
+      "source_sha256": "5f148abe70b2bc2e5f869f9c6cd751141739162ce3916713e6c266d0b8b9a0a5",
+      "receipt": "continuity-v2/receipts/S04-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [
+        [
+          [
+            0.29330499468650373,
+            0.5556738199944801
+          ],
+          [
+            0.4357066950053135,
+            0.5437120975064419
+          ],
+          [
+            0.4357066950053135,
+            0.5537759407710702
+          ],
+          [
+            0.29330499468650373,
+            0.5657376632591085
+          ]
+        ]
+      ],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.23229543039319872,
+          0.26270711278228537,
+          0.37919234856535605,
+          0.058317831851697144
+        ],
+        [
+          0.2883049946865037,
+          0.5387120975064419,
+          0.15240170031880979,
+          0.03202556575266657
+        ]
+      ]
+    },
+    {
+      "id": "S05-desktop",
+      "scene": "S05",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S05-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.361842,
+          0.6617479805446267
+        ],
+        [
+          0.5933009999999999,
+          0.6275894177069588
+        ],
+        [
+          0.593301,
+          0.6784675822930412
+        ],
+        [
+          0.361842,
+          0.7133850194553734
+        ]
+      ],
+      "protect_logo": [
+        0.351842,
+        0.6175894177069587,
+        0.251459,
+        0.10579560174841462
+      ],
+      "bytes": 186738,
+      "sha256": "6f65e4832bc0ba769a238b34d1a6b4564488e9c5b45b7cbe480936a1b64f6297",
+      "source_sha256": "b3d90949ce86eaa7d2a48d1be88e420c0a819894929c4dc0c066ad282ffded52",
+      "receipt": "continuity-v2/receipts/S05-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.351842,
+          0.6175894177069587,
+          0.251459,
+          0.10579560174841462
+        ]
+      ]
+    },
+    {
+      "id": "S05-mobile",
+      "scene": "S05",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S05-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.344315,
+          0.6759579136684704
+        ],
+        [
+          0.755579,
+          0.6036863271689367
+        ],
+        [
+          0.755579,
+          0.6325576728310633
+        ],
+        [
+          0.344315,
+          0.7074150863315295
+        ]
+      ],
+      "protect_logo": [
+        0.334315,
+        0.5936863271689367,
+        0.43126400000000004,
+        0.12372875916259285
+      ],
+      "bytes": 184970,
+      "sha256": "d208e8445c8bdf1304b56720fdbc84bb8c4f086e5fe74b58c7f56c4341e85995",
+      "source_sha256": "ec6def3de5b892db6eed4af8aa07b8c745527cd6119edda47c043feb3ae7bc1c",
+      "receipt": "continuity-v2/receipts/S05-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.334315,
+          0.5936863271689367,
+          0.43126400000000004,
+          0.12372875916259285
+        ]
+      ]
+    },
+    {
+      "id": "S06-desktop",
+      "scene": "S06",
+      "orientation": "desktop",
+      "path": "continuity-v2/keyframes/S06-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "logo_quad": [
+        [
+          0.47936422083863095,
+          0.6034920238047884
+        ],
+        [
+          0.648622220838631,
+          0.6300590238047883
+        ],
+        [
+          0.647429779161369,
+          0.6674959761952116
+        ],
+        [
+          0.47817177916136905,
+          0.6409289761952116
+        ]
+      ],
+      "protect_logo": [
+        0.46817177916136904,
+        0.5934920238047884,
+        0.19045044167726194,
+        0.08400395239042324
+      ],
+      "bytes": 190804,
+      "sha256": "490c40f0558c230596e32f35efc1f026835b153c78fc512d2aeb13fae426875a",
+      "source_sha256": "e77ca0fc6174c27b88306fa581a3a4c02ae1b420b3f8763cf70a34c6a96b5b33",
+      "receipt": "continuity-v2/receipts/S06-desktop.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.46817177916136904,
+          0.5934920238047884,
+          0.19045044167726194,
+          0.08400395239042324
+        ]
+      ]
+    },
+    {
+      "id": "S06-mobile",
+      "scene": "S06",
+      "orientation": "mobile",
+      "path": "continuity-v2/keyframes/S06-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "logo_quad": [
+        [
+          0.3290842142019457,
+          0.5674610926681665
+        ],
+        [
+          0.6266402142019457,
+          0.5906868612912913
+        ],
+        [
+          0.6252197857980543,
+          0.6114661387087087
+        ],
+        [
+          0.3276637857980543,
+          0.5886399073318335
+        ]
+      ],
+      "protect_logo": [
+        0.31766378579805427,
+        0.5574610926681665,
+        0.31897642840389145,
+        0.06400504604054225
+      ],
+      "bytes": 177514,
+      "sha256": "0eb8f4e1d95d87b13a8c96527b3a668b2308d27d1be42f8fa7c085033799ea88",
+      "source_sha256": "7c0e45ca68120a6b1ec4496b96d2e117b0711f1a3027852d731ee01dc923f6d7",
+      "receipt": "continuity-v2/receipts/S06-mobile.json",
+      "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+      "approval_status": "pending_user_visual_review",
+      "secondary_logo_quads": [],
+      "logo_source_trimmed_size": [
+        1401,
+        174
+      ],
+      "logo_fit": "aspect-contained within measured panel before perspective",
+      "protect_logos": [
+        [
+          0.31766378579805427,
+          0.5574610926681665,
+          0.31897642840389145,
+          0.06400504604054225
+        ]
+      ]
+    }
+  ],
+  "generated_unique": 12
+}
