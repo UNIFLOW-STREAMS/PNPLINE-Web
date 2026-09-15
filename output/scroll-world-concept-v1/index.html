@@ -21,8 +21,8 @@
   </header>
   <nav class="concept-nav" aria-label="홈페이지 시안 선택">
     <div class="concept-nav__track" role="tablist" aria-label="구축 계획과 시안 A, B, C, D">
-      <button class="concept-tab" id="tab-plan" type="button" role="tab" aria-selected="false" aria-controls="panel-plan" data-concept="plan" tabindex="-1"><span class="concept-tab__code">00</span><span><strong>구축 계획</strong><small>사이트맵 · 32개 페이지 · 인프라</small></span></button>
-      <button class="concept-tab" id="tab-a" type="button" role="tab" aria-selected="true" aria-controls="panel-a" data-concept="a"><span class="concept-tab__code">A</span><span><strong>시안 A</strong><small>영상 기반 홈 · 키프레임</small></span></button>
+      <button class="concept-tab" id="tab-plan" type="button" role="tab" aria-selected="true" aria-controls="panel-plan" data-concept="plan"><span class="concept-tab__code">00</span><span><strong>구축 계획</strong><small>사이트맵 · 32개 페이지 · 인프라</small></span></button>
+      <button class="concept-tab" id="tab-a" type="button" role="tab" aria-selected="false" aria-controls="panel-a" data-concept="a" tabindex="-1"><span class="concept-tab__code">A</span><span><strong>시안 A</strong><small>영상 기반 홈 · 키프레임</small></span></button>
       <button class="concept-tab" id="tab-b" type="button" role="tab" aria-selected="false" aria-controls="panel-b" data-concept="b" tabindex="-1"><span class="concept-tab__code">B</span><span><strong>시안 B</strong><small>#63 시안 A</small></span></button>
       <button class="concept-tab" id="tab-c" type="button" role="tab" aria-selected="false" aria-controls="panel-c" data-concept="c" tabindex="-1"><span class="concept-tab__code">C</span><span><strong>시안 C</strong><small>블루 시스템 홈</small></span></button>
       <button class="concept-tab" id="tab-d" type="button" role="tab" aria-selected="false" aria-controls="panel-d" data-concept="d" tabindex="-1"><span class="concept-tab__code">D</span><span><strong>시안 D</strong><small>32px 그리드 시안</small></span></button>
@@ -39,8 +39,8 @@
     </nav>
   </div>
   <main id="demo-content" class="demo-content" tabindex="-1">
-    <section id="panel-plan" class="concept-panel" role="tabpanel" aria-labelledby="tab-plan" hidden><iframe title="PNPLINE 중국어 사이트 구축 계획" data-src="planning.html?revision=1" loading="lazy"></iframe></section>
-    <section id="panel-a" class="concept-panel" role="tabpanel" aria-labelledby="tab-a">
+    <section id="panel-plan" class="concept-panel" role="tabpanel" aria-labelledby="tab-plan"><iframe title="PNPLINE 중국어 사이트 구축 계획" data-src="planning.html?revision=2" loading="eager"></iframe></section>
+    <section id="panel-a" class="concept-panel" role="tabpanel" aria-labelledby="tab-a" hidden>
       <div id="view-a-site" class="concept-view" role="tabpanel" aria-labelledby="tab-a-site"><iframe title="시안 A 홈페이지" data-src="concepts/a/index.html" loading="eager"></iframe></div>
       <div id="view-a-keyframes" class="concept-view" role="tabpanel" aria-labelledby="tab-a-keyframes" hidden><iframe title="시안 A 히어로 키프레임 데모" data-src="keyframes.html?revision=14" loading="lazy"></iframe></div>
     </section>
