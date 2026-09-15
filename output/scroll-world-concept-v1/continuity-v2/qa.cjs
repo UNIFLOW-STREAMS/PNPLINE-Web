@@ -57,7 +57,7 @@ function check(name,pass,detail){checks.push({name,pass:!!pass,detail});if(!pass
    await context.close();
   }
   const context=await browser.newContext({viewport:{width:390,height:844}}),page=await context.newPage();
-  await page.route('**/continuity-v2/keyframes/S01-mobile.jpg',route=>route.abort());
+  await page.route('**/continuity-v2/keyframes/S01-mobile.webp',route=>route.abort());
   await page.goto('http://127.0.0.1:8761/output/scroll-world-concept-v1/ko.html',{waitUntil:'networkidle'});
   await page.waitForFunction(()=>window.reviewQA);
   check('failed image readable Korean context',await page.locator('#scene-S01 .error-note').isVisible());

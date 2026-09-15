@@ -3,20 +3,20 @@
  document.documentElement.classList.toggle('embedded',new URLSearchParams(location.search).has('embedded'));
  const $=s=>document.querySelector(s),reduced=matchMedia('(prefers-reduced-motion: reduce)');
  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),lerp=(a,b,t)=>a+(b-a)*t;
- const intro=window.BRAND_INTRO,introDuration=intro?.duration||0,totalDuration=30+introDuration,introImage='high-angle-c/intro-harbor.png';
+ const intro=window.BRAND_INTRO,introDuration=intro?.duration||0,totalDuration=30+introDuration,introImage='high-angle-c/intro-harbor.webp';
  const scenes=[
   {place:'중국 · 출항 부두',title:'중국에서 출발',body:'카메라가 붉은 크레인에서 선박을 향해 전진합니다.',x:.115,region:'CN',camera:'하이 앵글 · 부두에서 선박으로 이동'},
   {place:'태평양 · 해상 운송',title:'선박을 따라 태평양 횡단',body:'선박과 함께 이동하며 오른쪽의 미국 항만을 드러냅니다.',x:.32,region:'PACIFIC',camera:'하이 앵글 · 선박 추적과 항만 접근'},
   {place:'미국 · 도착 항만',title:'미국 도착, 창고로 접근',body:'미국 항만에 도착한 뒤 창고를 향해 카메라를 좁힙니다.',x:.46,region:'US',camera:'하이 앵글 접근 → 창고의 낮은 시점으로 전환'},
-  {place:'미국 · 입고 및 보관',title:'컨테이너에서 창고 안으로',body:'도착한 화물을 내리고 지게차와 보관 랙을 따라 들어갑니다.',region:'US',camera:'낮은 사선 시점 · 컨테이너에서 보관 랙으로',file:'us-receiving.png',focus:[.32,.61],masks:[[.198,.222,.183,.093],[.15,.51,.116,.104]]},
-  {place:'미국 · 피킹 및 포장',title:'포장 작업대에서 출고 도어로',body:'주문별 상자를 포장한 뒤 컨베이어를 따라 트럭으로 연결합니다.',region:'US',camera:'작업대 높이 · 컨베이어를 따라 오른쪽으로',file:'us-packing.png',focus:[.43,.65],masks:[[.341,.601,.274,.145]]},
-  {place:'미국 · 출고 및 배송',title:'창고를 나서 미국 내 배송으로',body:'출고 도어에서 배송 차량과 미국 내 도로로 시선을 옮깁니다.',region:'US',camera:'출고장 사선 시점 · 배송 차량으로 이동',file:'us-dispatch.png',focus:[.53,.73],masks:[[.458,.572,.219,.133]]}
+  {place:'미국 · 입고 및 보관',title:'컨테이너에서 창고 안으로',body:'도착한 화물을 내리고 지게차와 보관 랙을 따라 들어갑니다.',region:'US',camera:'낮은 사선 시점 · 컨테이너에서 보관 랙으로',file:'us-receiving.webp',focus:[.32,.61],masks:[[.198,.222,.183,.093],[.15,.51,.116,.104]]},
+  {place:'미국 · 피킹 및 포장',title:'포장 작업대에서 출고 도어로',body:'주문별 상자를 포장한 뒤 컨베이어를 따라 트럭으로 연결합니다.',region:'US',camera:'작업대 높이 · 컨베이어를 따라 오른쪽으로',file:'us-packing.webp',focus:[.43,.65],masks:[[.341,.601,.274,.145]]},
+  {place:'미국 · 출고 및 배송',title:'창고를 나서 미국 내 배송으로',body:'출고 도어에서 배송 차량과 미국 내 도로로 시선을 옮깁니다.',region:'US',camera:'출고장 사선 시점 · 배송 차량으로 이동',file:'us-dispatch.webp',focus:[.53,.73],masks:[[.458,.572,.219,.133]]}
  ];
  const mobileAssets={
-  2:{file:'us-arrival-mobile.png',masks:[[.30,.517,.26,.075]]},
-  3:{file:'us-receiving-mobile.png',masks:[[.218,.257,.41,.063],[.28,.531,.17,.06]]},
-  4:{file:'us-packing-mobile.png',masks:[[.30,.568,.5,.163]]},
-  5:{file:'us-dispatch-mobile.png',masks:[[.30,.553,.377,.083]]}
+  2:{file:'us-arrival-mobile.webp',masks:[[.30,.517,.26,.075]]},
+  3:{file:'us-receiving-mobile.webp',masks:[[.218,.257,.41,.063],[.28,.531,.17,.06]]},
+  4:{file:'us-packing-mobile.webp',masks:[[.30,.568,.5,.163]]},
+  5:{file:'us-dispatch-mobile.webp',masks:[[.30,.553,.377,.083]]}
  };
  const cameraKeys=[
   {x:.105,y:.52,z:1.9},{x:.285,y:.50,z:1.55},

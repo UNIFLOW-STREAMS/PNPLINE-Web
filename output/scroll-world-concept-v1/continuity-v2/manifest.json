@@ -142,7 +142,7 @@
       "id": "S01-desktop",
       "scene": "S01",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S01-desktop.jpg",
+      "path": "continuity-v2/keyframes/S01-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -169,8 +169,8 @@
         0.20540669856459326,
         0.08761537338176706
       ],
-      "bytes": 690212,
-      "sha256": "a9da29c977e1fbc91fefd82852f175f06ab6d968092f0829dfbc60d863e39017",
+      "bytes": 243114,
+      "sha256": "d5faa68f3651a8209a8d9eeadde469bc985522e4baf772f9db12e30f2c7d9cb4",
       "source_sha256": "60f1f72f715b9cafa8c6496dd46dce7e5e79acdfe93d028d3718fcb47efadfee",
       "receipt": "continuity-v2/receipts/S01-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -194,7 +194,7 @@
       "id": "S01-mobile",
       "scene": "S01",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S01-mobile.jpg",
+      "path": "continuity-v2/keyframes/S01-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -221,8 +221,8 @@
         0.31100000000000005,
         0.06455754681351189
       ],
-      "bytes": 642176,
-      "sha256": "212b4b6ab85a9ec65260967f068a1a7e1fcd8a7b1b016e0c4829b42e602a7713",
+      "bytes": 213172,
+      "sha256": "ece6e52986655f4a133227eb1fb51d96307f8b8cc7ac0f6dfd9f68d5d9ea8489",
       "source_sha256": "fdcabf4f51f3129d702451400e0a4263c5f224676366c4951f72c027daf07589",
       "receipt": "continuity-v2/receipts/S01-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -246,7 +246,7 @@
       "id": "S02-desktop",
       "scene": "S02",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S02-desktop.jpg",
+      "path": "continuity-v2/keyframes/S02-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -273,8 +273,8 @@
         0.12900000000000006,
         0.07638025651387764
       ],
-      "bytes": 619463,
-      "sha256": "547c80d0b41c3fd87faa516a8bb8b9819b27b8274705cbcd379fc110bc7816aa",
+      "bytes": 216390,
+      "sha256": "ac75332564d3f5e2ee648423335d16d713876fb9f953ee6a6f88407779081347",
       "source_sha256": "587643491a156a0c9be9e987c40224210c5630969b748f8bba3249eb8921c51e",
       "receipt": "continuity-v2/receipts/S02-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -298,7 +298,7 @@
       "id": "S02-mobile",
       "scene": "S02",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S02-mobile.jpg",
+      "path": "continuity-v2/keyframes/S02-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -325,8 +325,8 @@
         0.1349999999999999,
         0.06944952549140582
       ],
-      "bytes": 707162,
-      "sha256": "c7bbf68446864b510132d4d16bd137666420c875103c05974cbf5c3c766619ff",
+      "bytes": 251572,
+      "sha256": "55b668dd16b12240ad2e3e7b61645e454da8bc0fb35b20bf45edb32be64acaf4",
       "source_sha256": "0239f0b87e013c6f611cc3c9a341948a7b906207b07d2c8f530ae4cdbeaf181e",
       "receipt": "continuity-v2/receipts/S02-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -350,7 +350,7 @@
       "id": "S03-desktop",
       "scene": "S03",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S03-desktop.jpg",
+      "path": "continuity-v2/keyframes/S03-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -377,8 +377,8 @@
         0.14918599999999999,
         0.0795756071305086
       ],
-      "bytes": 716313,
-      "sha256": "afb859a758ef5dfb5879ec483868ef33e628957c164370f6d7678e3751be3489",
+      "bytes": 254690,
+      "sha256": "16262bcb78b6949c8f1ef16d9cbe699a5da6d9ae9ea4828d24f3f1bdd707102c",
       "source_sha256": "580cd2217c7234c4e39106ff8a7b3f7e533a8c58f325ffc08c15c206a2e7789d",
       "receipt": "continuity-v2/receipts/S03-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -402,7 +402,7 @@
       "id": "S03-mobile",
       "scene": "S03",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S03-mobile.jpg",
+      "path": "continuity-v2/keyframes/S03-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -429,8 +429,8 @@
         0.22510095642933053,
         0.06594784867898118
       ],
-      "bytes": 704905,
-      "sha256": "a517be5dd1891a4bad68d2637eb66fb9fe82ccab098615fe7b71c7522e5b4b5d",
+      "bytes": 241016,
+      "sha256": "270a68c8afce6a73ac89adbce8ac44bde5e82aa0af02d055c4ae2f84a119e557",
       "source_sha256": "9bfc13efcecb7a57d797a28520bdb2d01aeb42e3ff5ffc2a06e426e4a0af6b47",
       "receipt": "continuity-v2/receipts/S03-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -454,7 +454,7 @@
       "id": "S04-desktop",
       "scene": "S04",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S04-desktop.jpg",
+      "path": "continuity-v2/keyframes/S04-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -481,8 +481,8 @@
         0.17789500000000003,
         0.07512497023933715
       ],
-      "bytes": 636340,
-      "sha256": "bce2e8098bd13575cf149a7ea115353971eb52577f135566f7714da938a00f8c",
+      "bytes": 202164,
+      "sha256": "a37de0faba96b44fddb68e5af7ef37220525f36a5135daac7609092f43aca198",
       "source_sha256": "7d4537f886fdb25a6edbef4454062506cda71a8aa4ffee920f093b88647dbc24",
       "receipt": "continuity-v2/receipts/S04-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -531,7 +531,7 @@
       "id": "S04-mobile",
       "scene": "S04",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S04-mobile.jpg",
+      "path": "continuity-v2/keyframes/S04-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -558,8 +558,8 @@
         0.37919234856535605,
         0.058317831851697144
       ],
-      "bytes": 587377,
-      "sha256": "c71f86bc278221e88d449a063caf54376afb2f07307c62e456f2d575ebe4fab6",
+      "bytes": 177048,
+      "sha256": "ede793b68c781009665727ba82db21610517b8514bf2e283905d5a90340ccd8e",
       "source_sha256": "5f148abe70b2bc2e5f869f9c6cd751141739162ce3916713e6c266d0b8b9a0a5",
       "receipt": "continuity-v2/receipts/S04-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -608,7 +608,7 @@
       "id": "S05-desktop",
       "scene": "S05",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S05-desktop.jpg",
+      "path": "continuity-v2/keyframes/S05-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -635,8 +635,8 @@
         0.251459,
         0.10579560174841462
       ],
-      "bytes": 578227,
-      "sha256": "5025d3edc6f22d7ab146f4160891a68b3db3d1ebdcd59de551ce59471521e74c",
+      "bytes": 186738,
+      "sha256": "6f65e4832bc0ba769a238b34d1a6b4564488e9c5b45b7cbe480936a1b64f6297",
       "source_sha256": "b3d90949ce86eaa7d2a48d1be88e420c0a819894929c4dc0c066ad282ffded52",
       "receipt": "continuity-v2/receipts/S05-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -660,7 +660,7 @@
       "id": "S05-mobile",
       "scene": "S05",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S05-mobile.jpg",
+      "path": "continuity-v2/keyframes/S05-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -687,8 +687,8 @@
         0.43126400000000004,
         0.12372875916259285
       ],
-      "bytes": 577268,
-      "sha256": "ae6954bf2e423f27f337632280c000aa47b2448c63d8b402095a5abb927c7372",
+      "bytes": 184970,
+      "sha256": "d208e8445c8bdf1304b56720fdbc84bb8c4f086e5fe74b58c7f56c4341e85995",
       "source_sha256": "ec6def3de5b892db6eed4af8aa07b8c745527cd6119edda47c043feb3ae7bc1c",
       "receipt": "continuity-v2/receipts/S05-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -712,7 +712,7 @@
       "id": "S06-desktop",
       "scene": "S06",
       "orientation": "desktop",
-      "path": "continuity-v2/keyframes/S06-desktop.jpg",
+      "path": "continuity-v2/keyframes/S06-desktop.webp",
       "width": 1672,
       "height": 941,
       "logo_quad": [
@@ -739,8 +739,8 @@
         0.19045044167726194,
         0.08400395239042324
       ],
-      "bytes": 594218,
-      "sha256": "606cb77bb999b830f1971b29231699b1665636de7e2a1fc52aa823477116360d",
+      "bytes": 190804,
+      "sha256": "490c40f0558c230596e32f35efc1f026835b153c78fc512d2aeb13fae426875a",
       "source_sha256": "e77ca0fc6174c27b88306fa581a3a4c02ae1b420b3f8763cf70a34c6a96b5b33",
       "receipt": "continuity-v2/receipts/S06-desktop.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
@@ -764,7 +764,7 @@
       "id": "S06-mobile",
       "scene": "S06",
       "orientation": "mobile",
-      "path": "continuity-v2/keyframes/S06-mobile.jpg",
+      "path": "continuity-v2/keyframes/S06-mobile.webp",
       "width": 941,
       "height": 1672,
       "logo_quad": [
@@ -791,8 +791,8 @@
         0.31897642840389145,
         0.06400504604054225
       ],
-      "bytes": 572913,
-      "sha256": "4da87501ccf0e04997be900364084a661d2160812bb5725706f1974b21f4dd70",
+      "bytes": 177514,
+      "sha256": "0eb8f4e1d95d87b13a8c96527b3a668b2308d27d1be42f8fa7c085033799ea88",
       "source_sha256": "7c0e45ca68120a6b1ec4496b96d2e117b0711f1a3027852d731ee01dc923f6d7",
       "receipt": "continuity-v2/receipts/S06-mobile.json",
       "logo_source_sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",

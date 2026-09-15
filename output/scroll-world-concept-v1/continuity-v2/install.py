@@ -45,6 +45,6 @@ for name in ['ko','index']:
  for old,new in {'qa/validation.md':'continuity-v2/qa/browser-results.json','data/assets.json':'continuity-v2/manifest.json','data/storyboard.json':'continuity-v2/manifest.json','data/timeline.json':'continuity-v2/manifest.json','prompts/master.md':'continuity-v2/prompts.md','branding/logo-placement-guide.md':'continuity-v2/README.md'}.items():
   html=html.replace('href="'+old+'"','href="'+new+'"')
  for i in range(1,7):
-  html=html.replace(f'href="keyframes/mobile/S{i:02d}.jpg"',f'href="continuity-v2/keyframes/S{i:02d}-mobile.jpg"')
+  html=html.replace(f'href="keyframes/mobile/S{i:02d}.jpg"',f'href="continuity-v2/keyframes/S{i:02d}-mobile.webp"')
  target.write_text(html,encoding='utf-8')
 print('Installed V2 in ko.html and index.html. V1 archives preserved.')

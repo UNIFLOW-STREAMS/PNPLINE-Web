@@ -15,8 +15,8 @@ const fs=require('node:fs'),path=require('node:path');
    check(await page.locator('#shots>.shot').count()===7,orientation+' intro and six scene buttons');
    check(await page.locator('#stage').getAttribute('data-mode')==='intro',orientation+' starts with intro');
    check(await page.locator('#stage>.brand-intro:not([hidden])').count()===1,orientation+' single orientation intro');
-   check(await page.locator('#stage>.brand-intro:not([hidden]) .brand-intro-photo').getAttribute('src')==='high-angle-c/intro-harbor.png',orientation+' high-angle first frame used in intro');
-   check(await page.locator('.intro-keyframe').first().locator('.brand-intro-photo').getAttribute('src')==='high-angle-c/intro-harbor.png',orientation+' high-angle first frame used in review keyframes');
+   check(await page.locator('#stage>.brand-intro:not([hidden]) .brand-intro-photo').getAttribute('src')==='high-angle-c/intro-harbor.webp',orientation+' high-angle first frame used in intro');
+   check(await page.locator('.intro-keyframe').first().locator('.brand-intro-photo').getAttribute('src')==='high-angle-c/intro-harbor.webp',orientation+' high-angle first frame used in review keyframes');
    const initialZoom=Number(await page.locator('#stage>.brand-intro:not([hidden])').getAttribute('data-zoom'));
    for(const [name,seconds] of [['logo',0],['expansion',1.9],['harbor',3.9],['handoff',4.6]]){
     await seek(seconds);await page.locator('#stage').screenshot({path:path.join(root,'intro-'+orientation+'-'+name+'.jpg'),type:'jpeg',quality:84});

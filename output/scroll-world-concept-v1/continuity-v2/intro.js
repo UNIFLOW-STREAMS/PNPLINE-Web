@@ -1,6 +1,6 @@
 'use strict';
 (()=>{
- const ns='http://www.w3.org/2000/svg', logo='assets/logo/PNP-LINE.webp', image='continuity-v2/intro/china-harbor.png';
+ const ns='http://www.w3.org/2000/svg', logo='assets/logo/PNP-LINE.webp', image='continuity-v2/intro/china-harbor.webp';
  const ko=document.documentElement.lang.startsWith('ko');
  let serial=0;
  const clamp=x=>Math.max(0,Math.min(1,x)),ease=x=>{x=clamp(x);return x*x*(3-2*x);};

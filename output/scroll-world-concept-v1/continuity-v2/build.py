@@ -59,11 +59,11 @@ for row in scenes:
    sec_coefficients=np.linalg.solve(np.asarray(sec_A),np.asarray(sec_B))
    base.alpha_composite(logo.transform((W,H),Image.Transform.PERSPECTIVE,sec_coefficients,Image.Resampling.BICUBIC))
   (HERE/'keyframes').mkdir(exist_ok=True)
-  target=HERE/f'keyframes/{name}.jpg'
-  base.convert('RGB').save(target,quality=94,subsampling=0)
+  target=HERE/f'keyframes/{name}.webp'
+  base.convert('RGB').save(target,format='WEBP',quality=85,method=6)
   xs=[p[0] for p in quad];ys=[p[1] for p in quad]
   rect=[max(0,min(xs)-.01),max(0,min(ys)-.01),min(1,max(xs)+.01)-max(0,min(xs)-.01),min(1,max(ys)+.01)-max(0,min(ys)-.01)]
-  data['assets'].append({'id':name,'scene':sid,'orientation':orientation,'path':f'continuity-v2/keyframes/{name}.jpg','width':W,'height':H,'logo_quad':quad,'protect_logo':rect,'bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'source_sha256':hashlib.sha256(source_path.read_bytes()).hexdigest(),'receipt':f'continuity-v2/receipts/{name}.json','logo_source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'approval_status':'pending_user_visual_review'})
+  data['assets'].append({'id':name,'scene':sid,'orientation':orientation,'path':f'continuity-v2/keyframes/{name}.webp','width':W,'height':H,'logo_quad':quad,'protect_logo':rect,'bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'source_sha256':hashlib.sha256(source_path.read_bytes()).hexdigest(),'receipt':f'continuity-v2/receipts/{name}.json','logo_source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'approval_status':'pending_user_visual_review'})
   data['assets'][-1]['secondary_logo_quads']=secondary_quads
   data['assets'][-1]['logo_source_trimmed_size']=list(logo.size)
   data['assets'][-1]['logo_fit']='aspect-contained within measured panel before perspective'
@@ -87,7 +87,7 @@ for orientation in ['desktop','mobile']:
  board=Image.new('RGB',(tile[0]*3,tile[1]*2+64),(247,248,245));draw=ImageDraw.Draw(board)
  for index in range(6):
   sid=f'S{index+1:02d}'
-  source=Image.open(HERE/f'keyframes/{sid}-{orientation}.jpg')
+  source=Image.open(HERE/f'keyframes/{sid}-{orientation}.webp')
   thumb=ImageOps.fit(source,tile)
   x=(index%3)*tile[0];y=(index//3)*(tile[1]+32)
   draw.text((x+10,y+8),f'{sid} / '+['CHINA','PACIFIC','USA ARRIVAL','USA STORAGE','USA PACKING','USA OUTBOUND'][index],fill='#182c39')
