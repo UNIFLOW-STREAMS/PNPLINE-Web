@@ -1,0 +1,71 @@
+{
+  "prompt": "Edit ONLY the colors of the attached Chinese PNPLINE website section. Replace EVERY acid lime / yellow-green / chartreuse accent (approximately #B7F90A or #BCFF00) with the official PNPLINE brand cyan #00ABE1, RGB(0,171,225). This includes graphic ribbons, panels, CTA fills, thin rules, arrows, selected controls, numbers, accent text, forklift paint or packing tape when green. Very pale lime surfaces must become very pale cyan. Preserve realistic shading on 3D colored objects. Keep ALL existing typography, exact Chinese copy, layout, shapes, object positions, neutral ivory and charcoal background, black/white text, silver metal, brown cardboard, photo detail and logo geometry IDENTICAL. Existing cyan/gray PNPLINE logos must remain untouched. Do not redesign, reflow, crop, add, remove or translate anything. No lime or green branding should remain. Output the same aspect ratio and dimensions as the input. This is a precise color replacement of an existing design, not a new design.",
+  "layout": {
+    "hero": 1920,
+    "body": 1440,
+    "gutter": 240,
+    "brand": "#00ABE1"
+  },
+  "manifest": [
+    {
+      "id": "01-hero",
+      "label": "히어로",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-382140ca-1ff8-47be-9b0d-ff794040d291.png",
+      "file": "01-hero-blue.png"
+    },
+    {
+      "id": "02-logistics-flow",
+      "label": "전체 물류 흐름",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-842fe6dd-ed00-4f45-bf8f-3c96f21f1b94.png",
+      "file": "02-logistics-flow-blue.png"
+    },
+    {
+      "id": "03-customer-types",
+      "label": "고객 유형별 선택",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-96acef4d-b1ad-490a-b6ab-8505539df5c0.png",
+      "file": "03-customer-types-blue.png"
+    },
+    {
+      "id": "04-services",
+      "label": "핵심 서비스",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-58f479b5-a393-4ee3-af24-363f0a944977.png",
+      "file": "04-services-blue.png"
+    },
+    {
+      "id": "05-operations-system",
+      "label": "직영창고·책임·시스템",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-98e313b2-c64b-4bb8-b8bc-8c1175ab0cbc.png",
+      "file": "05-operations-system-blue.png"
+    },
+    {
+      "id": "06-customs",
+      "label": "통관 안내",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-50eb687b-6431-4e99-bef6-4460345da98f.png",
+      "file": "06-customs-blue.png"
+    },
+    {
+      "id": "07-costs",
+      "label": "비용 구성",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-52c0ed63-4889-4b19-a062-937a1dee2e09.png",
+      "file": "07-costs-blue.png"
+    },
+    {
+      "id": "08-faq",
+      "label": "FAQ",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-d4fada70-1250-4de5-b67a-ebd050befbcc.png",
+      "file": "08-faq-blue.png"
+    },
+    {
+      "id": "09-inquiry",
+      "label": "견적 문의",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-e7d4c60f-f9e3-462b-93b5-02cfd24e1c0f.png",
+      "file": "09-inquiry-blue.png"
+    },
+    {
+      "id": "10-footer",
+      "label": "푸터",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-cfe49fd0-c03a-4f26-8bef-e684957d77f6.png",
+      "file": "10-footer-blue.png"
+    }
+  ]
+}

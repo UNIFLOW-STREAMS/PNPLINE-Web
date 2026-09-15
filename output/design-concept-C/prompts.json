@@ -1,0 +1,108 @@
+{
+  "manifest": [
+    {
+      "id": "01-hero",
+      "label": "히어로",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-41fb06a4-bc47-4046-bc5c-3a9214c10d51.png",
+      "file": "01-hero.png"
+    },
+    {
+      "id": "02-logistics-flow",
+      "label": "전체 물류 흐름",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-2c7a1a2f-c87a-4dcc-b519-f98c8cbcde6f.png",
+      "file": "02-logistics-flow.png"
+    },
+    {
+      "id": "03-customer-types",
+      "label": "고객 유형별 선택",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-d642bfb7-2aac-48ee-8123-115422e6881d.png",
+      "file": "03-customer-types.png"
+    },
+    {
+      "id": "04-services",
+      "label": "핵심 서비스",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-ee19f9e4-2076-4b69-8281-cdd054db1896.png",
+      "file": "04-services.png"
+    },
+    {
+      "id": "05-operations-system",
+      "label": "직영창고·책임·시스템",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-0e5daa59-587c-4429-8fad-5565e0350182.png",
+      "file": "05-operations-system.png"
+    },
+    {
+      "id": "06-customs",
+      "label": "통관 안내",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-ccf0d89e-dbe1-4d4b-b76e-3f9208f976d2.png",
+      "file": "06-customs.png"
+    },
+    {
+      "id": "07-costs",
+      "label": "비용 구성",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-1a978e92-9aac-4167-90d2-2d215c07d928.png",
+      "file": "07-costs.png"
+    },
+    {
+      "id": "08-faq",
+      "label": "FAQ",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-fed4de14-6821-4f13-8b94-417b8ff7b238.png",
+      "file": "08-faq.png"
+    },
+    {
+      "id": "09-inquiry",
+      "label": "견적 문의",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-5127bc15-40d2-40a1-a9e0-991ad35b3f10.png",
+      "file": "09-inquiry.png"
+    },
+    {
+      "id": "10-footer",
+      "label": "푸터",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a16c-60e4-7b11-949c-ae717980fa45\\exec-39749e18-06b9-4859-8a60-91c93c37df7a.png",
+      "file": "10-footer.png"
+    }
+  ],
+  "base": "Use case: ui-mockup. Produce ONE polished horizontal desktop website section for PNPLINE Chinese logistics home, part of a coherent 10-section concept. Not a poster, not a device mockup, no surrounding presentation labels. EXACT CANVAS 1920 x 1080 pixels. Content strictly between x=240 and x=1680, giving 240px empty side gutters and a 1440px content area. Background color may fill gutters but all graphics, text, links stay inside. At least 140px top/bottom breathing room except header. Premium industrial editorial aesthetic derived from attached lime/charcoal container ads and video: photoreal steel cargo objects over flat geometric lime directional ribbons with rounded diagonal notches, huge intentional Chinese typography and spacious precise editorial layout. Palette consistent: warm ivory #F7F9F2, charcoal #191B1A, acid lime #BCFF00, steel gray. Existing logo is cyan #00ABE1 and gray; retain those original logo colors, use cyan nowhere else. Simplified Chinese sans akin Source Han Sans/Noto Sans SC, strong size hierarchy: H1 88-96px heavy, H2 58-64px bold, item titles 28-32px semibold, body 22-24px regular generous 1.6 leading, captions 18px minimum. Compact small labels only in restrained amounts. Do not fill empty space with tiny copy. 40-64px internal group gaps, 32px element gaps, fine rules, modest 20-28px corners. No gradients, no UI glass, no fake statistics, no invented client logos or badges, no lorem ipsum or random English. Copy below is exact or faithfully shorten only descriptive text if needed; retain ALL required items. Generated logistical illustration must be explicitly captioned 概念示意; never imply it proves real PNPLINE facilities. Separate section only, do not render other page sections. Reference jpgs are STYLE references only, never copy their text, watermarks or logos. Supplied PNP-LINE.webp is the actual logo insert, reproduce accurately only if section calls for logo.",
+  "sections": [
+    {
+      "id": "01-hero",
+      "detail": "SECTION 1 HERO with integrated site header. Ivory background. Header at y=44 to120, actual supplied PNPLINE logo x240 width210, navigation in one line: 美国海外仓 / 头程运输 / 清关与合规 / 平台方案 / 系统 / 关于我们 / 资讯, rightmost charcoal button 免费获取报价. Use 18px nav spacing, preserve legibility within grid. Main hero is an editorial image-as-canvas composition; NOT standard left text right image. Large two-line headline at x240 y235: 美国自营海外仓 / 与订单履约. First line charcoal, second charcoal. Thin eyebrow PNPLINE · 跨境物流服务 above. A realistic silver freight container hangs on crane cables, low 3/4 view, occupies central-lower-right x860..1640 y360..800. Behind it a sculptural flat huge lime bent directional ribbon/notched block, with subtle realistic ground shadow; reference image composition. Nothing overlaps headline glyphs. Lower-left block at x240 y585 width550: 从中国出货，衔接美国自营仓与配送 as 30px semibold, then 24px body: 依托PNPLINE美国自营仓，围绕一件代发、FBA中转补货、头程运输与进口清关咨询，梳理适合您的物流方案。 Below charcoal filled CTA 免费获取报价 ↗ and secondary text 查看美国自营仓库 ↗. Small underlined 了解服务 ↓ at y955. Small 概念示意 beneath container. Airy, ambitious campaign visual, clear Chinese copy, exact 240px margins."
+    },
+    {
+      "id": "02-logistics-flow",
+      "detail": "SECTION 2 LOGISTICS FLOW only. Ivory spacious section, NO header or logo. STRICT EMPTY LEFT AND RIGHT GUTTERS each 12.5% of canvas; entire section graphic and text inside middle 75%. No full bleed of lime ribbon. H2 at x240 y160 two lines 看清货物从中国到美国的每一步. Body 从出货资料到美国境内配送，先确认各阶段需要衔接的工作。 A wide horizontal editorial sequence of 5 realistic miniature matte silver cargo objects at y400..620: factory with cartons; container ship; plain paper manifest/folder no certification seals; warehouse bay and lime forklift; delivery truck. Use a thin black directional route threading all five, nodes numbered 01..05. Node 04 is strongest with lime notched backdrop. Five aligned columns below imagery at y700, each max250px wide; exact headings 01 中国工厂, 02 头程运输, 03 美国清关, 04 美国自营海外仓, 05 美国境内配送. Descriptions respectively 整理商品、包装与出货资料。 / 评估整柜、拼箱或空运。 / 核对申报资料、IOR需求与各方责任。 / 衔接入库验收、库存管理与出库作业。 / 对接FBA补货、订单配送或B2B交付。 Footnote 具体路线、服务范围与时效，以确认后的物流方案为准。 and 概念示意. Calm informative diagram, generous negative space, avoid map or geographic claims. Same material and type as previous hero, but radically different layout."
+    },
+    {
+      "id": "03-customer-types",
+      "detail": "SECTION 3 CUSTOMER TYPES. Warm ivory outside with three spacious editorial vertical panels arranged horizontally INSIDE 1440px centered container. STRICT 240px blank side margins, top/bottom 150px empty. Heading 先找到适合您业务的物流方案, body 从销售渠道与交付方式出发，了解需要的仓储、运输与清关服务。 Header no navigation. Below, three distinct comparison columns 440px each with 56px gutters. Left charcoal panel, white text, lime oversized 01, realistic isolated silver stacked boxes and barcode label 概念示意; heading 亚马逊FBA / FBM卖家; body FBA中转、分批补货与FBM订单出库，衔接仓储与退货处理。 link 了解亚马逊方案 ↗. Middle lime panel with charcoal text, black 02, photoreal kraft parcel with lime packing tape; heading 独立站与TikTok Shop卖家; body 美国本地订单出库，衔接库存、拣货包装与尾程配送。 TWO separate underline links 查看Shopify方案 ↗ and 查看TikTok Shop方案 ↗. Third ivory panel with thin charcoal top/bottom rules, 03, small silver container forklift visual; heading 工厂与贸易商; body 整柜运输、进口清关、批量出库与美国B2B配送。 link 了解B2B配送 ↗. No platform logos no certification, only text platform names. Rounded diagonal notches are consistent restrained panel corners. All three headings equally important 30px semibold, body24px. Not giant type consuming whole image. Lots of breathing room."
+    },
+    {
+      "id": "04-services",
+      "detail": "SECTION 4 CORE SERVICES. Charcoal #191B1A full background, white readable Chinese type, lime restrained active line and directional arrows. NOT a card grid. Spacious four horizontal editorial service rows in centered 1440px content, all within x240..1680. Top heading 按任务选择需要的服务, 64px at y135. Subtitle 已明确需要哪一环节？从具体服务开始，了解作业内容与适用条件。 Four rows height135px separated by fine gray rules, y300..850. Each row small realistic isolated silver/lime object at left x260..400; title and tiny process labels x440..810; explanatory body x870..1380; arrow link right x1440..1660. Row1 carton: 一件代发 / 拣货 · 包装 · 出库 / 从PNPLINE美国自营仓按订单拣货、包装并安排出库。 / 了解一件代发 ↗. Row2 pallet with barcode: FBA中转与补货 / 验收 · 贴标 · 补货 / 衔接入库验收、暂存、标签处理与分批出库。 / 了解FBA中转 ↗. Row3 ship: 头程运输 / FCL整柜 · LCL拼箱 · 空运 / 对接中国至美国运输需求，确认清关与入库条件。 / 了解头程运输 ↗. Row4 plain folder no badge: IOR与进口清关咨询 / 需求确认 · 文件准备 · 责任说明 / 根据商品与运输资料，确认IOR需求、文件与责任边界。 / 了解IOR服务 ↗. Bottom row secondary underlined links 仓储与库存 ↗ / 退货换标与检品 ↗ / 美国B2B配送 ↗ / 其他物流需求 ↗. Small caption 概念示意 next to objects. 160px major-section breathing room. Text24 minimum, titles30, heading64. No huge heading."
+    },
+    {
+      "id": "05-operations-system",
+      "detail": "SECTION 5 OPERATION AND SYSTEM TRUST. Return to airy ivory background. Heading at top x240 y145 width1440: 选择之前，先了解 / 自营仓库、责任与系统. 60px weight700, subtitle 了解实际作业场地、服务责任与库存管理方式，再评估适合您的合作方案。 Large asymmetric editorial lower composition: left 720px width conceptual WMS interface on charcoal flat panel, NOT laptop, not skewed, small clear caption 概念示意 · 非实际系统截图. WMS interface is structural labeled workflow with NO fictional data, no metrics: 库存查询 / 入库记录 / 出库指令 / 订单与作业状态 / 出库历史. Thin connector lines and lime active selection, charcoal/ivory, no charts, no numbers, no fake orders. Caption below 从库存查询到出库指令 and body 了解库存、入库记录、订单状态与出库进度的管理方式。 links 了解WMS功能 ↗ and 查看API与ERP对接范围 ↗. Right 610px editorial text column with two stacked text blocks separated by rule: 美国自营仓与作业范围; PNPLINE直接运营美国仓库。了解仓内作业内容、受理条件与可核验的运营资料。 link 了解仓储服务 ↗. second IOR、Bond与服务责任; 确认进口过程中各方承担的工作、所需文件与服务边界。 link 了解IOR服务范围 ↗. Small bottom note 可用功能、账号权限和数据更新方式，以实际系统为准。 NO warehouse photo, NO certificate badge, NO fabricated operational proof, NO place names. Consistent lime notched corner once on WMS panel, ample breathing space."
+    },
+    {
+      "id": "06-customs",
+      "detail": "SECTION 6 CUSTOMS INFORMATION, MINI MINIMALIST quiet interlude. Only one short section. Outer background ivory. Centered 1440px wide low banner y230..820, flat acid lime panel with rounded diagonal notch on upper right, generous inner padding90. All foreground must remain inside x240..1680. Small eyebrow 发货前的准备. Headline 先了解进口清关的服务范围, split naturally in 2 lines, 68px bold left within panel. Supporting body 28px regular width820: 围绕商品资料、IOR需求与责任边界，准备需要在咨询中确认的问题。 Below three simply separated text terms 商品资料 / IOR需求 / 责任边界, with small understated thin black divider lines. ONE charcoal rectangular CTA with 20px radius 了解清关与合规 ↗ beneath. Right side one large white folded shipping manifest with plain black lines, photoreal material, no text data, no stamps, no badge. Tiny 概念示意 below paper. Balance lots of lime empty space and big typography, no article cards, no law claims, no dates, no prices. Thin light gray section rules outside banner optional. No header/footer or other sections."
+    },
+    {
+      "id": "07-costs",
+      "detail": "SECTION 7 COST EXPLANATION. Ivory background, editorial typography and ruled rows. Large heading top-left 先看费用构成， / 再确认适合您的报价, 60px semibold, generous blank top margin. Supporting copy 费用与商品、运输方式、货量、目的地及作业要求有关。请同时确认计费单位、包含项目与附加费用。 Main content below has LEFT width800 five airy ruled rows with numbered small 01..05 and headings 头程运输费 / 清关与合规相关费用 / 仓储费 / 仓内操作费 / 美国境内配送费, each corresponding description 根据运输方式、货量与起运和到达条件确认。 / 根据申报资料与IOR需求确认，区分服务费用与适用税费。 / 根据存储方式、占用空间与存储周期确认。 / 根据验收、拣货、包装、贴标等作业确认。 / 根据目的地、货物形态与配送方式确认。 RIGHT width550 two charcoal example panels vertically with 32px gap and lime small labels 询价场景 01 and 询价场景 02. First 亚马逊FBA and 20 CBM large but not gigantic; body 头程运输、清关、入库暂存、贴标与分批补货。 Second 独立站 and 每月500单; body 库存占用、订单拣配、包装与美国境内配送。 Under both examples legible small caption 询价场景示意，非实际客户案例或价格承诺。 At bottom left 22px 请同时确认最低收费、长期仓储与特殊包装等计费条件。 At bottom right ONE lime button 查看费用说明并获取报价 ↗. NO invented amounts, no dollars, no savings percentages. Strict central1440 grid on1920 canvas, 240px blank sides."
+    },
+    {
+      "id": "08-faq",
+      "detail": "SECTION 8 FAQ ONLY. Minimalist calm ivory section. Absolutely NO logo, NO navigation, NO footer, NO photo, NO box graphics, NO cards, no invented content. This is one FAQ website section. 1920x1080 landscape; center1440px content with blank240 sides. Small left column 360px has FAQ label and large heading 咨询前， / 您可能 / 想先了解, weight700 64px, a small lime bent arrow below leading eye into right column. Right column 1000px has all EIGHT numbered accordion rows, hairline gray dividers, 26px questions regular-medium. First row open, pale lime background subtle or thin lime rule; answer24px and line height1.6. Questions exact: 01 获取报价前，需要准备哪些信息？ [open minus]; answer 请准备商品类目、发货方式、预计月货量、目的地与IOR需求，并留下可联系的方式。尚未明确的事项可以标注，便于后续进一步确认。 Then 02 货量尚未确定，可以先咨询吗？ [plus]; 03 一件代发与FBA中转补货如何选择？ [plus]; 04 可以把中国发货、美国清关和海外仓入库一起咨询吗？ [plus]; 05 报价是否包含清关、税费和其他附加费用？ [plus]; 06 不清楚是否需要IOR服务，怎么办？ [plus]; 07 美国仓库是自营的吗？如何了解实际作业情况？ [plus]; 08 如何查询库存与出库进度？ [plus]. First answer row220px tall, remaining rows80px, vertical group within y130..970. Long questions may wrap naturally max2lines, never cut glyphs. Use proper Chinese punctuation. Much smaller title than hero."
+    },
+    {
+      "id": "09-inquiry",
+      "detail": "SECTION 9 QUOTE INQUIRY only. Ivory canvas, no logo no header no footer. Wide flat charcoal notched panel inside x240..1680, y140..950. Left narrow 460px column has lime eyebrow 联系PNPLINE, white heading 告诉我们 / 您的物流需求, 64px, 24px body 提供商品、出货计划与目的地信息，便于进一步确认所需服务。尚未明确的项目可标注“未定”或“不清楚”。 Lower left three vertical simple steps separated by line with small lime numbers 01 提交需求 / 02 核对资料与服务范围 / 03 沟通报价与执行条件. A single lime rounded diagonal corner large accent bottom left but no extra image. Right 800px form zone uses SIX roomy offwhite input boxes arranged2columns x3rows, labels above clearly visible in white24px, placeholders darkgray22px. Row1 产品类目 placeholder 商品名称或所属类目 ; 发货方式 placeholder 请选择发货方式 with caret. Row2 月出货量 placeholder 预计货量与单位，也可填“未定” ; 目的地 placeholder 请选择目的地 with caret. Row3 是否需要IOR服务 placeholder 需要 / 不需要 / 不清楚 shown as three selectable pill segments within field, no selection ; 联系邮箱 placeholder 请输入联系邮箱. Under fields empty square checkbox and text 我已阅读并同意《隐私政策》。 Smaller18px privacy note 请勿提交身份证件、支付信息或其他与咨询无关的敏感资料。 Then fullwidth lime button 提交需求 ↗. Maintain generous field paddings, minimum64px tall inputs, 36px row gaps. No success state, no pretend submission, no invented contacts, no fake delivery speed. Precise B2B form hierarchy, calmer than hero."
+    },
+    {
+      "id": "10-footer",
+      "detail": "SECTION 10 FOOTER only. Last attached image is the OFFICIAL logo insert. Preserve EXACT shapes and colors, do not retype or italicize logo. Wide horizontal understated footer, dark charcoal #191B1A, one thin lime line at top and small lime rounded notch bottom right. Large EMPTY space above/below content, center1440px with blank240 sides on1920 canvas. At left x240 top220 place official cyan-gray logo width350 and under it 28px white brand sentence 美国自营海外仓 / 与跨境物流服务. No marketing slogan. To right 4 clean evenly spaced link columns, headings semibold28px, links22px regular pale gray with generous36px line gaps: 服务: 美国海外仓 / 头程运输 / 清关与合规. 了解PNPLINE: 关于我们 / 自营仓库资料 / 资质与合规. 报价与联系: 价格与报价 / 联系我们 / 合作伙伴. 政策: 隐私政策. Lower separator line y730. Lower-left plain PNPLINE text, lower-right language selection 简体中文 / 한국어 / English with active lime underline for 简体中文. Far bottom-right small outlined circular arrow ↑ back-to-top inside grid. No fabricated email, phone, address, QR code, registration number, certification, copyright year. No 3D media at all, no hero, no form. Refined mini typographic closing chapter."
+    }
+  ],
+  "costEdit": "Remove unrequested logo and Amazon carton marks; keep layout and copy."
+}

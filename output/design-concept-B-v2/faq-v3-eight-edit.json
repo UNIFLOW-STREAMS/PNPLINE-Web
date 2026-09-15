@@ -1,0 +1,109 @@
+{
+  "created": "2026-09-15",
+  "request": "FAQ 6개를 v3 기준 8개로 확장하고 기존 답변과 관련 링크를 교체",
+  "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-ce2f6d10-7807-4cf7-a854-666df2656e83.png",
+  "output": "07-faq.png",
+  "backup": "review/07-faq-before-v3-eight.png",
+  "brief": "docs/pnpline-china-source-content/pnpline-home-a-content-brief-v3.md:407",
+  "linkDecisions": {
+    "q7": "/contact/ — 시설 자료 미준비 조건 적용",
+    "q6": "/customs/ior/ only — 검수된 IOR 기사 미확인"
+  },
+  "prompts": {
+    "initial": "Edit the supplied current PNPLINE FAQ website section into ONE complete standalone horizontal 4:3 section image at 1448×1086. Expand it from 6 FAQs to exactly 8 FAQs and replace every old question and answer with the exact v3 content below.\n\nDESIGN:\n- Preserve the current PNPLINE visual world: pristine pale ice-blue background, deep navy Chinese sans typography, PNPLINE blue #00ABE1, CTA/link blue #007FA8, cool-gray hairlines.\n- Keep the eyebrow 常见问题 and H2 咨询前，您可能想先了解.\n- Use a spacious two-column FAQ layout with four items per column.\n- Do not use eight bulky cards. Use clean editorial accordion rows separated by fine horizontal rules, with generous vertical rhythm.\n- Each item must show: blue number, question, full answer, and related text links where specified.\n- Make question text medium-weight, answers smaller regular cool-gray/navy, related links compact and blue with arrows.\n- Use smaller text and increased line-height so all 8 full answers remain readable without feeling crowded.\n- The first FAQ may receive a very subtle pale-blue active background or minus indicator. Keep all eight answers visibly readable in this static design so content can be reviewed.\n- Use minus/plus indicators sparingly and consistently. Do not imply unrelated functionality.\n- No images, icons, logos, gradients, shadows, glass effects, decorative statistics, or invented copy.\n- Remove the old bottom line \"还有其他问题？提交您的需求 ↗\".\n- Do not show raw URLs in the visual design; show the human-readable link labels below.\n- Increase the canvas height as needed within 4:3; do not crop any answer or link.\n\nEXACT FAQ CONTENT:\n\n01\nQ: 获取报价前，需要准备哪些信息？\nA: 请准备商品类目、发货方式、预计月货量、目的地与IOR需求，并留下可联系的方式。尚未明确的事项可以标注，便于后续进一步确认。\nLinks: none\n\n02\nQ: 货量尚未确定，可以先咨询吗？\nA: 可以先说明商品类型、销售计划和预计发货节奏。暂未确定的项目可选择“未定”或“不清楚”，具体受理条件和费用需进一步确认。\nLinks: none\n\n03\nQ: 一件代发与FBA中转补货如何选择？\nA: 一件代发面向从美国仓库逐单发往买家的订单；FBA中转补货面向先入中转仓，再按计划发往亚马逊仓库的货物。混合运营时，可分别说明两类需求。\nLinks: 了解一件代发 ↗   了解FBA中转补货 ↗\n\n04\nQ: 可以把中国发货、美国清关和海外仓入库一起咨询吗？\nA: 可以围绕中国出货、头程运输、美国清关、仓储与尾程配送提交需求。具体承接的环节、路线与各方责任，需要在方案确认时明确。\nLinks: 了解头程运输 ↗   了解IOR服务 ↗\n\n05\nQ: 报价是否包含清关、税费和其他附加费用？\nA: 是否包含应以具体报价清单为准。请重点核对清关与合规相关费用、适用税费、最低收费、长期仓储和特殊操作等项目，并确认费用的发生条件。\nLinks: 查看费用与报价 ↗\n\n06\nQ: 不清楚是否需要IOR服务，怎么办？\nA: 可选择“不清楚”，并提供商品与交易的基本情况，以便进一步确认服务需求和责任范围。网站说明不能代替对具体货物和交易的核实。\nLinks: 了解IOR服务 ↗\n\n07\nQ: 美国仓库是自营的吗？如何了解实际作业情况？\nA: 是的，PNPLINE直接运营美国仓库。可通过仓库资料了解经确认的场地、照片与作业范围。未公开或与您的货物有关的条件，可在咨询时提出。\nLinks: 提交咨询 ↗\n\n08\nQ: 如何查询库存与出库进度？\nA: 可先了解WMS的库存、订单与出库相关功能。实际可用功能、账号权限、数据更新方式及系统对接范围，需要结合使用方案确认。\nLinks: 了解WMS功能 ↗   查看API对接 ↗\n\nEnsure every Chinese character and all eight numbers are exact and legible. Output only the complete redesigned FAQ section image.",
+    "q7LinkCorrection": "Edit this exact 8-item PNPLINE FAQ section. Preserve the complete composition, title, all eight questions, every answer, existing links, colors, typography, two-column four-row layout, separators, and background.\n\nMake only one content correction:\n- In FAQ 07, below its answer, add the compact blue underlined related link \"提交咨询 ↗\", matching the exact style, size, baseline, and spacing used for the links in FAQ 05 and FAQ 06.\n- Keep FAQ 07's full answer unchanged.\n- If necessary, move the FAQ 07 and FAQ 08 content slightly upward or reduce their internal vertical spacing by a few pixels so the new FAQ 07 link has comfortable bottom margin and nothing is cropped.\n- Preserve FAQ 08's two links \"了解WMS功能 ↗\" and \"查看API对接 ↗\".\n- Do not add, remove, rewrite, or alter any other text.\n- Do not introduce raw URLs, logos, images, icons, extra buttons, or decoration.\nOutput only the corrected complete FAQ section image."
+  },
+  "faqs": [
+    {
+      "n": 1,
+      "q": "获取报价前，需要准备哪些信息？",
+      "a": "请准备商品类目、发货方式、预计月货量、目的地与IOR需求，并留下可联系的方式。尚未明确的事项可以标注，便于后续进一步确认。",
+      "links": []
+    },
+    {
+      "n": 2,
+      "q": "货量尚未确定，可以先咨询吗？",
+      "a": "可以先说明商品类型、销售计划和预计发货节奏。暂未确定的项目可选择“未定”或“不清楚”，具体受理条件和费用需进一步确认。",
+      "links": []
+    },
+    {
+      "n": 3,
+      "q": "一件代发与FBA中转补货如何选择？",
+      "a": "一件代发面向从美国仓库逐单发往买家的订单；FBA中转补货面向先入中转仓，再按计划发往亚马逊仓库的货物。混合运营时，可分别说明两类需求。",
+      "links": [
+        {
+          "label": "了解一件代发",
+          "path": "/warehouse/dropship/"
+        },
+        {
+          "label": "了解FBA中转补货",
+          "path": "/warehouse/fba/"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "q": "可以把中国发货、美国清关和海外仓入库一起咨询吗？",
+      "a": "可以围绕中国出货、头程运输、美国清关、仓储与尾程配送提交需求。具体承接的环节、路线与各方责任，需要在方案确认时明确。",
+      "links": [
+        {
+          "label": "了解头程运输",
+          "path": "/freight/"
+        },
+        {
+          "label": "了解IOR服务",
+          "path": "/customs/ior/"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "q": "报价是否包含清关、税费和其他附加费用？",
+      "a": "是否包含应以具体报价清单为准。请重点核对清关与合规相关费用、适用税费、最低收费、长期仓储和特殊操作等项目，并确认费用的发生条件。",
+      "links": [
+        {
+          "label": "查看费用与报价",
+          "path": "/pricing/"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "q": "不清楚是否需要IOR服务，怎么办？",
+      "a": "可选择“不清楚”，并提供商品与交易的基本情况，以便进一步确认服务需求和责任范围。网站说明不能代替对具体货物和交易的核实。",
+      "links": [
+        {
+          "label": "了解IOR服务",
+          "path": "/customs/ior/"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "q": "美国仓库是自营的吗？如何了解实际作业情况？",
+      "a": "是的，PNPLINE直接运营美国仓库。可通过仓库资料了解经确认的场地、照片与作业范围。未公开或与您的货物有关的条件，可在咨询时提出。",
+      "links": [
+        {
+          "label": "提交咨询",
+          "path": "/contact/"
+        }
+      ],
+      "note": "시설 자료 미준비 조건에 따른 v3 대체 경로"
+    },
+    {
+      "n": 8,
+      "q": "如何查询库存与出库进度？",
+      "a": "可先了解WMS的库存、订单与出库相关功能。实际可用功能、账号权限、数据更新方式及系统对接范围，需要结合使用方案确认。",
+      "links": [
+        {
+          "label": "了解WMS功能",
+          "path": "/system/wms/"
+        },
+        {
+          "label": "查看API对接",
+          "path": "/system/api/"
+        }
+      ]
+    }
+  ]
+}

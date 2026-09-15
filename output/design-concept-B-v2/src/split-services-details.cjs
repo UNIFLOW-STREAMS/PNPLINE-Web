@@ -1,0 +1,33 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const record = JSON.parse(fs.readFileSync(path.join(root, 'services-details-split-edit.json'), 'utf8'));
+const backup = path.join(root, 'review/02-services-before-detail-split.png');
+if (!fs.existsSync(backup)) fs.copyFileSync(path.join(root, '02-services.png'), backup);
+const dimensions = {};
+for (const item of record.outputs) {
+  const bytes = fs.readFileSync(item.source);
+  dimensions[item.output] = { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) };
+  fs.writeFileSync(path.join(root, item.output), bytes);
+}
+let index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+index = index.replace(/<section id="service-details"[\s\S]*?<\/section>\s*/, '');
+const top = dimensions['02-services.png'], detail = dimensions['02-services-details.png'];
+if (!index.includes('<section id="services"')) throw new Error('Missing services section');
+index = index.replace(/<section id="services"[\s\S]*?<\/section>/, `<section id="services" class="scene" aria-label="按任务选择四项核心服务"><img class="scene-image" src="02-services.png" width="${top.width}" height="${top.height}" alt="四项核心服务的照片手风琴概念：一件代发、FBA中转与补货、头程运输、IOR与进口清关咨询。"></section>\n<section id="service-details" class="scene" aria-label="服务内容与适用需求"><img class="scene-image" src="02-services-details.png" width="${detail.width}" height="${detail.height}" alt="四张无图片服务卡片，分别包含服务说明、适合对象、作业内容与咨询入口；下方为四项更多服务链接和仓内作业流程。完整文案见 services-complete-content.zh-CN.md。"></section>`);
+fs.writeFileSync(path.join(root, 'index.html'), index);
+let review = fs.readFileSync(path.join(root, 'review.html'), 'utf8');
+review = review.replace(/<figure><a href="02-services-details.png"[\s\S]*?<\/figure>\s*/, '');
+review = review.replace(/<figure><a href="02-services.png"[\s\S]*?<\/figure>/, '<figure><a href="02-services.png"><img src="02-services.png" alt="02-A · S4 사진 아코디언"><figcaption>02-A · S4 사진 아코디언</figcaption></a></figure>\n<figure><a href="02-services-details.png"><img src="02-services-details.png" alt="02-B · S4 서비스 상세 — 이미지 없는 2×2 카드"><figcaption>02-B · S4 서비스 상세 — 이미지 없는 2×2 카드</figcaption></a></figure>');
+fs.writeFileSync(path.join(root, 'review.html'), review);
+let capture = fs.readFileSync(path.join(root, 'src/capture.cjs'), 'utf8');
+capture = capture.replace('report.layout.scenes!==10', 'report.layout.scenes!==11');
+if (!capture.includes("'#service-details'")) capture = capture.replace("await shot('review/services-1440.png','#services');", "await shot('review/services-1440.png','#services');await shot('review/service-details-1440.png','#service-details');");
+fs.writeFileSync(path.join(root, 'src/capture.cjs'), capture);
+let readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+readme = readme.replaceAll('10개', '11개').replace('## S4 아코디언 복원과 높이 확장', '## 이전 수정 기록 — S4 아코디언 복원과 높이 확장');
+readme = readme.replace('| 02-services.png | 핵심 서비스 4개 전체 정보 / 보조 서비스 링크 4개 / 창고 작업 절차 |', '| 02-services.png | 첫 카드가 펼쳐진 사진 아코디언 / 핵심 서비스 4개 |\n| 02-services-details.png | 이미지 없는 2×2 상세 카드 / 보조 링크 4개 / 창고 작업 절차 |');
+const heading = '## S4 사진 아코디언과 상세 카드 분리';
+if (!readme.includes(heading)) readme += '\n\n' + heading + '\n\n사진 아코디언을 독립된 이미지로 유지하고, 상세 정보를 이미지 없는 2×2 카드 섹션으로 분리했습니다. 카드의 큰 서비스명, 본문, 파란 필드명(적합 대상·작업 내용), CTA 순서로 글자 크기와 간격을 구분했습니다. 카드별로 설명·대상·작업·CTA를 유지했고 하단에는 보조 링크 4개와 창고 작업 절차를 배치했습니다.\n\n- 사진 아코디언: [02-services.png](02-services.png)\n- 상세 카드: [02-services-details.png](02-services-details.png)\n- 분리 전 보존본: [review/02-services-before-detail-split.png](review/02-services-before-detail-split.png)\n- 원고: [services-complete-content.zh-CN.md](services-complete-content.zh-CN.md)\n- 생성 기록: [services-details-split-edit.json](services-details-split-edit.json)\n\n두 이미지는 전체 페이지에서 연속 배치합니다. 정적 이미지 시안이며 아코디언이나 카드 CTA의 실제 인터랙션은 구현하지 않았습니다.\n';
+fs.writeFileSync(path.join(root, 'README.md'), readme);
+console.log(JSON.stringify({ dimensions, scenes: (index.match(/<section[^>]+class="scene/g) || []).length }, null, 2));

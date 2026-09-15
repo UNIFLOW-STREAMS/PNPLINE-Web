@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "tool": "image_gen.imagegen",
+  "reference": "https://www.shipmonk.com/",
+  "hero": "Unchanged V1 hero; excluded from generation and redesign.",
+  "commonPrompt": "Use case ui-mockup. Render ONE horizontal PNPLINE website SECTION, NOT entire website or slide. 1920px canvas, exactly1440px centered content (240px margins). UI redesign directly inspired by the inspected SHIPMONK homepage: clean white compact navigation, 40-48px radii major media panels, 24px radius white cards with generouspadding and lightshadow, thick white inner frames on subtle cyan-tinted pale backgrounds, 8px radius rectangular CTA with restrained cyan-to-teal gradient, readable compact information density, disciplined enterprise-SaaS spacing. Bold geometric Montserrat-like headings paired with humanist OpenSans-like body; use NotoSansSC-like SimplifiedChinese to match these sans fonts. Hero70px, section headings44-48px, cardtitles25px, body20px, darknavy text. BRAND COLORS LOCKED: PNPLINE cyan #00ABE1, action #007FA8, navy #122C3D, white #FFFFFF, paper #F5F6F2; pale backgrounds are ONLY low-opacity versions of PNPLINE cyan. Absolutely NO green/mint brand hues fromShipMonk. Do NOT use ShipMonklogo, people, claims, copy, ratings, metrics. Preserve PNPLINE's tangible 1:87 miniature diorama illustration world: painted diecast trucks, cyan corrugated containers, tiny humanworkers, concrete, cardboard, warehouse steel, shallow DOF and crisp selectivefocus. Use miniature photography within refined rounded UI framing rather than giant scenes consuming everysection. One consistentmodernbrand across10sections, sparsecopy and meaningfuldiagrams. No fakeprices/statistics/certification/addresses/partnerlogos. UI copy exactly asprovided; no fillerparagraphs. Clearly miniature, not clayplasticcartoon or flatvectorisometric. No dimensionannotations or browserchrome.",
+  "sections": [
+    {
+      "slug": "02-journey",
+      "prompt": "LOGISTICS FLOW only1920x960. Pale barelycyan background. Top-leftmedium48pxboldheading“从中国到美国，每一步都清楚”, top-rightsoftcyanroundedbutton“了解运输方案 →”. Large white32pxroundedpanel centerwidth1440, with subtle cyanoutlined edge and24pxpadding. Inside a continuous left-to-rightphysicalminiature panorama: Chinafactory +Chinaflag, oceanvessel, USdocumentcheckpoint, Americanwarehouse+USflag, lastmilevanandhouse. Connect5stops via thinbrandcyanroute. Beneath insidepanel5captions“01 中国工厂”,“02 头程运输”,“03 美国清关”,“04 美国自营海外仓”,“05 美国配送”. Keep large whitebreathingroom, highqualitysmallcraftedminiatures notflaticons. Bottomsmallnote“路线与服务范围，以确认方案为准”. Noheader.",
+      "file": "studies/02-journey.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-bfdaed2a-919a-4483-8f5f-5e3fcfc305d8.png"
+    },
+    {
+      "slug": "03-customers",
+      "prompt": "CUSTOMER ROUTING only1920x920. WHITEbackground; leftaligned48pxheading“找到适合您业务的方案”. THREE equalwhitecards24pxradius with thinpalecyanborder, subtlewhiteframes, amplegap24. Eachcardtop hasroundedwide miniaturephoto vignette; lowercardtitle25px, oneshortline20px, tealtextarrowlink. Card1 miniaturewarehousepalletsforAmazon: “Amazon卖家” / “FBA补货 · FBM出库” / “查看方案 →”. Card2 miniaturepackingbenchanddeliveryvan: “独立站 / TikTok Shop” / “本地订单配送” / “Shopify →   TikTok Shop →”. Card3 miniaturefactoryfreightdock: “工厂与贸易商” / “整柜运输 · B2B交付” / “了解B2B配送 →”. Containedphoto+textcards likeShipMonksolutioncards. Nofloatingbranchdiagram, no repeatedbrandmarquee, noexcessparagraph. All3cardsequalclearhierarchy.",
+      "file": "studies/03-customers.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-a953b241-70a9-4d5c-8ff7-b0e22f900842.png"
+    },
+    {
+      "slug": "04-services",
+      "prompt": "FOUR CORE SERVICES only1920x1040. Verypalecyan tonalsurface. Top-left48pxheading“按任务，选择需要的服务”. FOUR whitecards arranged2x2 with24pxradius, thickwhiteedge andsoftshadows. Eachcard HORIZONTAL: leftsmallroundedminiaturephoto around45%, rightshorttitle/body/tealarrow. Card1 packingconveyor tinyworkers “一件代发” / “拣货 · 包装 · 出库 →”. Card2 palletslabelprinter “FBA中转补货” / “验收 · 贴标 · 补货 →”. Card3 cargoshipandtinyairplane “头程运输” / “FCL · LCL · 空运 →”. Card4 shippingpapersandneutralroles “IOR与清关咨询” / “资料 · 角色 · 责任 →”. Atbottomwidth1440 horizontalNAVYroundedCTAband “从您的需求开始。” left;tealbutton “咨询物流方案 →”right. Avoid previousfullnavy4photoeditorialgrid; thisis cleanwhite productcards.",
+      "file": "studies/04-services.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-c42bba13-6bbd-4bd3-bee7-d5c9fe5e133d.png"
+    },
+    {
+      "slug": "05-operations",
+      "prompt": "OPERATIONS / WMS only1920x1040. White-toverypalecyanbackdrop. Leftaligned48pxheading“自营仓库，清晰管理”. Mainleft900px withincontent a32pxroundedwhiteborder imagepanel of miniature Americanwarehousecutaway withsmallUSflag, racks, forklifts, packingtables, cyantruck. Labeltiny“作业模型 · 概念示意”. Right460px verticalstackof3 white24pxroundedfeaturebars, each cyanlineiconinsoftcyanroundedtile and shorttitles“入库记录”,“库存查询”,“出库指令”; tinycaption“系统概念示意”. Beneathbotha widewhite roundedCTA/info band insidepalecyanthickframe: left “PNPLINE直接运营美国仓库”, righttwo concise links“了解WMS →”“确认服务责任 →”. No fakeUIcharts, data or certifications. Clearlight enterprisewebstyle asShipMonktechnologyarea, bluebrandonly.",
+      "file": "studies/05-operations.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-6f40023e-5bb4-4715-997a-d796f159642d.png"
+    },
+    {
+      "slug": "06-customs",
+      "prompt": "CUSTOMS PREPARATION only1920x800. Calmwhitepage. ONE wide32pxroundedpaleCYANpanel within1440. Left55% darknavy48pxheading“发货前，先确认清楚”. Beneath3smallwhite roundediconchips “商品资料”,“IOR需求”,“责任范围”. Teal8pxroundedbutton “了解清关与合规 →”. Right45% contained miniaturecarton withoversizedpaperchecklisttabs and tinyworker; softDOF, carefullylitmacro, nofakebadgeseal. Strongtextgraphicbalance andbigwhitebreathingroom. ShipMonk whiteinsetroundedbanner treatment, nogreen. Onecalmminisection.",
+      "file": "studies/06-customs.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-3dcfd06f-8c74-47bb-9f2a-dec653f1e2be.png"
+    },
+    {
+      "slug": "07-costs",
+      "prompt": "COST STRUCTURE only1920x960. Lightgray-whitebackground. Leftaligned48pxheading“费用透明，从构成开始”. A singlelargewhite32pxroundedpanel with5smallphoto-styleminiatures alongthin cyanline: ship / neutralcustomsdocs / rack / packingbench / van. Five concise titlesbelow “头程运输”,“清关与合规”,“仓储”,“仓内操作”,“美国配送”. BelowTWO sidebysidelowwhite24pxrounded scenariocards withcyaniconinpalecyantile: “FBA · 20 CBM” / “运输、清关、暂存与补货”; “独立站 · 每月500单” / “库存、拣配与美国配送”. Smallfootnote“询价场景示意，不代表价格承诺”. Rightbottomtealbutton “获取报价 →”. No inventedpricespercentages orcertification.",
+      "file": "studies/07-costs.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-74b8c3fc-7c71-4410-b94c-2c744d70bba3.png"
+    },
+    {
+      "slug": "08-faq",
+      "prompt": "FAQ only1920x1040. WHITEbackground. Left430px smalllabelFAQ and48pxboldnavyheading“咨询前，先了解”. Underheading a rounded24px cyancontainer macro miniaturephoto withtinyworker, belowtextlink“联系我们 →”. RIGHT930px a singlewhite rounded24px accordionlist onverypalecyanshadowbackplate. Exactly8questions atreadable22px; firstexpandedsoftcyanrowanswer20px; restthinborderswithsmallplusicons. Questions“报价前，需要准备什么？”;“货量未定，可以咨询吗？”;“一件代发与FBA补货有何区别？”;“运输、清关与入仓能一起咨询吗？”;“报价包含税费与附加费用吗？”;“不清楚是否需要IOR怎么办？”;“美国仓库是自营的吗？”;“如何查询库存与出库进度？”. Onlyfirstanswer“商品、发货方式、月货量、目的地、IOR需求及联系方式。” No moreparagraphs. Clean geometricheadings humanistbody.",
+      "file": "studies/08-faq.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-bc3e305d-d065-42ff-9190-82ba82527ac1.png"
+    },
+    {
+      "slug": "09-inquiry",
+      "prompt": "QUOTE FORM only1920x1000. ShipMonkstyle large40pxrounded PALECYAN outerframe withwhiteinsetpanel aboutwidth1390; allwithin1440. WHITEpagebackground. Insideleft35%heading48px“让我们了解您的需求”; threesmalliconlabels“提交需求”,“确认范围”,“沟通报价”; bottomleftsmallroundedminiaturevanandparcelphoto. Right60% precise6fieldform2columns3rows withrounded8pxthinborder inputs: 产品类目 (商品名称或类目), 发货方式 (未定), 月出货量 (预计货量及单位), 目的地 (PNPLINE美国自营仓), 是否需要IOR服务 (不清楚), 联系邮箱 (请输入联系邮箱). Uncheckedcheckbox“我已阅读并同意《隐私政策》”. Tealrounded8pxfullwidthbutton“提交需求 →”. Tinynote“尚未确定的内容，可填写「未定」”. No fakecontact/metrics/responsetime. Softhighendlighttreatment NOT fulldarksection.",
+      "file": "studies/09-inquiry.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-4e242aa0-e1b2-46c6-a7c5-d4593af43fa4.png"
+    },
+    {
+      "slug": "10-footer",
+      "prompt": "FOOTER only1920x640. CompactWHITEsurface. Topslimcyanrule and generousspace. Exact PNPLINElogo cyan/grayleft plus smallshorttagline“美国自营海外仓与跨境物流”, smallminiaturevan/cartonphotobelow. Four cleannavcolumns right. “服务”:美国海外仓 / 头程运输 / 清关与合规. “了解PNPLINE”:关于我们 / 自营仓库资料 / 资质与合规. “报价与联系”:价格与报价 / 联系我们 / 合作伙伴. “语言”:简体中文 / 한국어 / English. Darknavygeometricheadings24px humanistsanslinks20px. Bottomthinrule then“隐私政策”. One compactteal8pxroundedbutton“免费获取报价 →” nearbrandblock. No inventedcopyrightyear,address,phone, QR. OfficialPNPLINEbrandingnotShipMonk. Fullimageopaque.",
+      "file": "studies/10-footer.png",
+      "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-883099ad-89ab-4f7c-9c9a-190acd1bf738.png"
+    }
+  ]
+}

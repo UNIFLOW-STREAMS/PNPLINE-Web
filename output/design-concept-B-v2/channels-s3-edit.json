@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-15",
+  "scope": "Replace the four sales-channel cards with the three S3 customer-type choices from the approved content brief.",
+  "input": "04-channels.png via the most recent conversation image",
+  "generatedSource": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-17f3025b-5e62-4cd8-b6e5-b587fdc1c2e6.png",
+  "output": "04-channels.png",
+  "namedCopy": [
+    "亚马逊FBA / FBM卖家",
+    "独立站与TikTok Shop卖家",
+    "工厂与贸易商"
+  ],
+  "composition": "Asymmetric three-card editorial layout with Amazon first and dominant, independent-site/TikTok combined, and B2B visible as the third full customer entry.",
+  "constraints": [
+    "No platform logos or official partnership/certification claims",
+    "No fourth partner-recruitment card",
+    "No invented metrics, delivery times, prices, facilities, or guarantees",
+    "Concept-photo disclosure remains visible"
+  ]
+}

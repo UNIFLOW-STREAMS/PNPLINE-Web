@@ -1,0 +1,20 @@
+{
+  "created": "2026-09-15",
+  "request": "S4 상세 카드의 카드 간격과 내부 패딩을 늘리고 텍스트 크기와 시각적 밀도를 낮춘다.",
+  "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-f3fd510a-2518-4d51-9ba0-99a1a9d5323d.png",
+  "output": "02-services-details.png",
+  "backup": "review/02-services-details-before-airy-spacing.png",
+  "design": {
+    "layout": "image-free 2x2 card grid",
+    "cardGap": "increased",
+    "cardPadding": "increased",
+    "typography": "smaller service titles, body, labels, values, and CTA text",
+    "surface": "white, hairline border, no shadow",
+    "palette": {
+      "brand": "#00ABE1",
+      "cta": "#007FA8"
+    }
+  },
+  "contentSource": "services-complete-content.zh-CN.md",
+  "prompt": "Edit the attached PNPLINE Chinese service-details web section only. Keep it as ONE standalone horizontal 4:3 website section, 1448×1086, with NO photos, illustrations, icons, logos, or decorative imagery.\n\nPreserve the exact Chinese content, four-service order, 2×2 card structure, \"更多服务\" row, and \"仓内作业流程\" row. Do not omit, rewrite, or add information.\n\nRedesign for much lower visual density and a contemporary premium Swiss editorial feel:\n- Increase the outer page margins and whitespace around the centered heading.\n- Make the gap between the two columns and between the two rows clearly larger, approximately 32–40 px visually.\n- Increase each card's internal padding to approximately 42–48 px on every side.\n- Reduce all text sizes inside cards. Service titles should remain the strongest card element but become clearly smaller and lighter than the current oversized bold titles. Body copy, blue field labels, values, and CTA text should all be smaller with comfortable line-height.\n- Add more vertical spacing between service title, description, 适合对象, 作业内容, and CTA. Establish a calm hierarchy through spacing instead of heavy bold type.\n- Use medium weight for titles, regular weight for body and values, semibold only for small blue field labels.\n- Replace the large glossy gradient CTA pills with compact, flat, refined CTA controls in #007FA8, either a small subtle rounded rectangle or restrained inline-link treatment. No glow, no gradient, no shadow.\n- Use pure white cards on a very pale ice-blue background. Add only a hairline cool-gray border. No card shadows.\n- Slightly reduce corner radius for a cleaner professional look.\n- Give the bottom \"更多服务\" and \"仓内作业流程\" bands more top/bottom padding and separation from the cards. Keep their text smaller and aligned to the same grid.\n- Palette: PNPLINE blue #00ABE1, CTA #007FA8, deep navy text, white, pale ice-blue.\n- Keep the section airy, restrained, codeable, crisp, and professional. Avoid bulky typography, crowded cards, thick buttons, gradients, glass effects, and dated corporate styling.\n\nExact content to preserve:\n标题: 服务内容与适用需求\n01 一件代发\n从PNPLINE美国自营仓按订单拣货、包装并安排出库，衔接配送状态管理。\n适合对象: 独立站、TikTok Shop与Amazon FBM订单\n作业内容: 拣货 · 包装 · 出库\nCTA: 了解一件代发 ↗\n\n02 FBA中转与补货\n围绕FBA补货计划，衔接入库验收、暂存、标签处理与分批出库。\n适合对象: FBA中转、贴标与分批补货需求\n作业内容: 验收 · 贴标 · 补货\nCTA: 了解FBA中转 ↗\n\n03 头程运输\n对接中国至美国的海运整柜、拼箱及空运需求，并确认清关与海外仓入库条件。\n适合对象: 中国出货至美国的运输需求\n作业内容: FCL整柜 · LCL拼箱 · 空运\nCTA: 了解头程运输 ↗\n\n04 IOR与进口清关咨询\n根据商品、交易与运输资料，确认IOR需求、清关文件与各方责任边界。\n适合对象: 需要确认进口角色、资料与责任的发货方\n作业内容: 需求确认 · 文件准备 · 责任说明\nCTA: 了解IOR服务 ↗\n\n更多服务: 仓储与库存 ↗ | 退货换标与检品 ↗ | 美国B2B配送 ↗ | 其他物流需求 ↗\n仓内作业流程: 入库验收 → 上架与库存管理 → 订单拣选与包装 → 出库配送或FBA补货\nNote: 具体服务范围与适用条件需进一步确认。\n\nOutput only the redesigned standalone section image."
+}

@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PNPLINE 中国官网首页概念设计</title>
+  <style>
+    :root {
+      --cyan: #00abe1;
+      --teal: #007fa8;
+      --ink: #182c39;
+      --ink-2: #40545d;
+      --muted: #6d7c83;
+      --line: #d8e1de;
+      --pale: #f3fbfe;
+      --pale-2: #dff6fd;
+      --white: #ffffff;
+      --shell: 1440px;
+      --side: 240px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #fff; color: var(--ink); }
+    body {
+      width: 1920px;
+      font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.68;
+      letter-spacing: -0.015em;
+      text-rendering: geometricPrecision;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    .shell { width: var(--shell); margin: 0 auto; }
+    .section { position: relative; overflow: hidden; }
+    .hero-original-wrap { width: 1920px; overflow: hidden; background: #fff; }
+    .hero-original-wrap img { display: block; width: 1920px; height: auto; max-width: none; }
+    .section-gap { height: 64px; background: #fff; }
+    .section-pad { padding: 150px 0; }
+    .section-pad-tight { padding: 128px 0; }
+
+    .eyebrow {
+      margin: 0 0 28px;
+      color: var(--teal);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .display {
+      margin: 0;
+      font-size: 96px;
+      font-weight: 600;
+      line-height: 1.02;
+      letter-spacing: -0.055em;
+    }
+    h2 {
+      margin: 0;
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 1.12;
+      letter-spacing: -0.042em;
+    }
+    h3 {
+      margin: 0;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1.3;
+      letter-spacing: -0.025em;
+    }
+    .lead {
+      max-width: 780px;
+      margin: 34px 0 0;
+      color: var(--ink-2);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.72;
+      letter-spacing: -0.018em;
+    }
+    .micro {
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      letter-spacing: 0;
+    }
+    .arrow-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+      padding: 10px 0 8px;
+      border-bottom: 2px solid var(--cyan);
+      color: var(--teal);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .btn {
+      display: inline-flex;
+      min-height: 58px;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      padding: 0 30px;
+      border: 1px solid var(--teal);
+      border-radius: 4px;
+      background: var(--teal);
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+    .btn.secondary { background: transparent; border-color: rgba(255,255,255,.7); color: #fff; }
+
+    header { height: 112px; background: #fff; }
+    header .shell { height: 100%; display: flex; align-items: center; gap: 48px; }
+    .brand { width: 260px; flex: 0 0 auto; }
+    .brand img { width: 100%; }
+    nav { display: flex; align-items: center; gap: 33px; margin-left: auto; }
+    nav a { font-size: 17px; font-weight: 500; white-space: nowrap; }
+    .nav-cta { margin-left: 6px; min-height: 48px; padding: 0 22px; font-size: 17px; }
+
+    .hero { min-height: 820px; background: var(--ink); color: #fff; }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 75% 45%, rgba(0,171,225,.12), transparent 34%);
+      pointer-events: none;
+    }
+    .hero .shell {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 760px 600px;
+      gap: 80px;
+      align-items: center;
+      min-height: 820px;
+      padding: 96px 0 112px;
+    }
+    .hero .eyebrow { color: #8eddf4; }
+    .hero .display span { display: block; color: var(--cyan); }
+    .hero .lead { color: #d7e5ea; max-width: 700px; }
+    .hero-actions { display: flex; gap: 18px; margin-top: 52px; }
+    .hero-visual {
+      position: relative;
+      height: 610px;
+      overflow: hidden;
+      border-radius: 8px;
+      background: #0d202b;
+    }
+    .hero-visual img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-visual::after {
+      content: "概念示意";
+      position: absolute;
+      right: 24px;
+      bottom: 18px;
+      color: rgba(255,255,255,.76);
+      font-size: 15px;
+      letter-spacing: .08em;
+    }
+
+    .journey { background: #fff; }
+    .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 90px; margin-bottom: 72px; }
+    .section-head .lead { max-width: 560px; margin: 0; }
+    .journey-photo { height: 300px; overflow: hidden; border-radius: 8px; }
+    .journey-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .journey-steps { display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 68px; border-top: 2px solid var(--cyan); }
+    .journey-step { position: relative; padding: 42px 28px 0 0; }
+    .journey-step::before { content:""; position:absolute; top:-9px; left:0; width:16px; height:16px; border-radius:50%; background:var(--cyan); border:4px solid #fff; }
+    .step-no { color: var(--cyan); font-size: 18px; font-weight: 800; letter-spacing: .08em; }
+    .journey-step h3 { margin-top: 12px; font-size: 26px; }
+    .journey-step p { margin: 18px 0 0; color: var(--ink-2); font-size: 18px; line-height: 1.65; }
+
+    .audiences { background: var(--pale); }
+    .audiences .section-title { text-align: center; max-width: 980px; margin: 0 auto 72px; }
+    .audiences .lead { margin-left: auto; margin-right: auto; }
+    .audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+    .audience-card { overflow: hidden; min-height: 610px; background: #fff; border: 1px solid #d5edf5; border-radius: 8px; }
+    .audience-card img { width: 100%; height: 260px; object-fit: cover; }
+    .audience-body { display: flex; min-height: 420px; flex-direction: column; padding: 44px 42px 40px; }
+    .audience-body p { margin: 24px 0 42px; color: var(--ink-2); font-size: 19px; line-height: 1.72; }
+    .audience-body .arrow-link { margin-top: auto; align-self: flex-start; }
+
+    .services { background: #fff; }
+    .services .section-title { text-align: center; margin-bottom: 64px; }
+    .services .lead { margin-left: auto; margin-right: auto; }
+    .tabs { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid var(--line); margin-bottom: 72px; }
+    .tab { position: relative; padding: 24px 28px 30px; text-align: center; color: var(--muted); font-size: 21px; font-weight: 600; }
+    .tab small { display: block; margin-top: 12px; font-size: 15px; font-weight: 500; letter-spacing: .03em; }
+    .tab.active { color: var(--teal); }
+    .tab.active::after { content:""; position:absolute; left:0; right:0; bottom:-2px; height:4px; background:var(--cyan); }
+    .service-feature { display: grid; grid-template-columns: 720px 1fr; gap: 92px; align-items: center; }
+    .service-feature img { width: 720px; height: 500px; object-fit: cover; border-radius: 8px; }
+    .service-copy .eyebrow { margin-bottom: 20px; }
+    .service-copy h3 { font-size: 46px; line-height: 1.2; }
+    .service-copy p { margin: 30px 0 0; color: var(--ink-2); font-size: 21px; line-height: 1.75; }
+    .service-copy .arrow-link { margin-top: 42px; }
+    .service-links { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 94px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .service-links a { padding: 28px 20px; color: var(--teal); text-align: center; font-size: 18px; font-weight: 700; border-right: 1px solid var(--line); }
+    .service-links a:last-child { border-right: 0; }
+
+    .operations { background: var(--ink); color: #fff; }
+    .operations.section-pad { padding: 72px 0; }
+    .operations-original { display: block; width: 1440px; height: auto; }
+    .operations .section-head .lead { color: #bfd1d8; }
+    .ops-grid { display: grid; grid-template-columns: 1.18fr .82fr; gap: 32px; }
+    .ops-main, .ops-panel { border: 1px solid rgba(142,221,244,.28); border-radius: 8px; background: rgba(255,255,255,.025); }
+    .ops-main { padding: 58px; }
+    .ops-main h3 { margin-top: 20px; font-size: 42px; }
+    .ops-main > p { color: #c1d2d8; font-size: 21px; }
+    .ops-photo { height: 270px; margin: 48px 0; overflow: hidden; border-radius: 6px; }
+    .ops-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .ops-flow { display: grid; grid-template-columns: repeat(4,1fr); gap: 22px; }
+    .ops-flow div { padding-top: 18px; border-top: 3px solid var(--cyan); color: #e8f4f7; font-size: 17px; font-weight: 600; }
+    .ops-side { display: grid; grid-template-rows: 1fr 1fr; gap: 32px; }
+    .ops-panel { padding: 48px; }
+    .ops-panel p { color: #bed0d7; font-size: 19px; line-height: 1.72; }
+    .ops-panel .arrow-link { margin-top: 26px; color: #8eddf4; }
+    .system-lines { margin: 30px 0; border-top: 1px solid rgba(255,255,255,.18); }
+    .system-lines div { display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid rgba(255,255,255,.18); color:#d7e7eb; font-size:17px; }
+
+    .customs { background: #fff; }
+    .customs-grid { display: grid; grid-template-columns: 690px 1fr; gap: 112px; align-items: center; }
+    .customs-image { height: 720px; overflow: hidden; border-radius: 8px; }
+    .customs-image img { width: 100%; height: 100%; object-fit: cover; }
+    .customs-copy h2 { max-width: 610px; }
+    .customs-copy .lead { max-width: 590px; }
+    .info-rows { margin: 52px 0 42px; border-top: 1px solid var(--line); }
+    .info-row { display:flex; justify-content:space-between; padding:25px 0; border-bottom:1px solid var(--line); font-size:21px; font-weight:600; }
+    .info-row span:last-child { color:var(--cyan); }
+
+    .costs { background: var(--pale); }
+    .cost-grid { display: grid; grid-template-columns: 820px 1fr; gap: 78px; align-items: start; }
+    .cost-list { margin-top: 72px; border-top: 1px solid var(--line); }
+    .cost-row { display: grid; grid-template-columns: 68px 240px 1fr; gap: 24px; align-items: start; padding: 30px 0; border-bottom: 1px solid var(--line); }
+    .cost-row strong:first-child { color: var(--cyan); font-size: 22px; }
+    .cost-row strong { font-size: 21px; font-weight: 700; }
+    .cost-row span { color: var(--ink-2); font-size: 18px; }
+    .scenario-stack { display: grid; gap: 28px; }
+    .scenario { overflow: hidden; background: #fff; border: 1px solid #d5edf5; border-radius: 8px; }
+    .scenario img { width: 100%; height: 245px; object-fit: cover; }
+    .scenario-copy { padding: 36px; }
+    .scenario-copy p { margin: 18px 0 0; color: var(--ink-2); font-size: 18px; line-height: 1.65; }
+    .cost-action { display:flex; align-items:center; justify-content:space-between; gap:50px; margin-top:62px; padding-top:36px; border-top:1px solid var(--line); }
+
+    .faq { background: #fff; }
+    .faq-grid { display: grid; grid-template-columns: 430px 1fr; gap: 118px; align-items: start; }
+    .faq-intro { position: sticky; top: 80px; }
+    .faq-intro h2 { max-width: 420px; }
+    .faq-intro .lead { font-size: 21px; }
+    .accordion { border-top: 1px solid var(--line); }
+    .faq-item { padding: 30px 34px; border-bottom: 1px solid var(--line); }
+    .faq-item.open { padding: 38px 40px; background: var(--pale); border-radius: 8px; border-bottom: 0; margin-bottom: 8px; }
+    .faq-q { display:flex; justify-content:space-between; gap:30px; color:var(--ink); font-size:21px; font-weight:650; line-height:1.45; }
+    .faq-q span:last-child { color:var(--cyan); font-size:28px; font-weight:400; }
+    .faq-a { max-width: 780px; margin: 20px 0 0; color: var(--ink-2); font-size: 18px; line-height: 1.72; }
+
+    .inquiry { background: var(--pale-2); }
+    .inquiry-grid { display:grid; grid-template-columns:480px 1fr; gap:110px; }
+    .inquiry-intro h2 { font-size: 70px; }
+    .inquiry-intro .lead { font-size: 21px; }
+    .submit-flow { margin-top: 66px; border-left: 2px solid var(--cyan); }
+    .submit-step { position:relative; padding: 0 0 38px 32px; }
+    .submit-step:last-child { padding-bottom:0; }
+    .submit-step::before { content:""; position:absolute; left:-9px; top:7px; width:16px; height:16px; border-radius:50%; background:var(--cyan); }
+    .submit-step strong { display:block; font-size:20px; }
+    .submit-step span { color:var(--ink-2); font-size:17px; }
+    .form { display:grid; grid-template-columns:1fr 1fr; gap:34px 30px; }
+    label { display:block; margin-bottom:12px; font-size:18px; font-weight:700; }
+    .control { display:flex; min-height:64px; align-items:center; justify-content:space-between; padding:0 22px; background:#fff; border:1px solid #bdcdd3; border-radius:4px; color:#6b7a83; font-size:18px; }
+    .form-meta { grid-column:1/-1; margin-top:12px; }
+    .check { display:flex; align-items:center; gap:14px; font-size:18px; }
+    .box { width:22px; height:22px; border:1px solid #728891; background:#fff; border-radius:2px; }
+    .form-meta .micro { margin:14px 0 26px; }
+    .form-meta .btn { width:100%; min-height:66px; }
+
+    .footer-top { padding: 140px 0 126px; background: #fff; }
+    .footer-top .shell { display:flex; align-items:flex-end; justify-content:space-between; }
+    .footer-logo { width: 520px; }
+    .footer-logo img { width:100%; }
+    .footer-logo p { margin:24px 0 0; color:var(--ink-2); font-size:26px; font-weight:500; }
+    footer { padding: 120px 0 70px; background: var(--ink); color:#fff; }
+    .footer-grid { display:grid; grid-template-columns:1.5fr repeat(3,1fr); gap:90px; }
+    .footer-brand strong { font-size:34px; letter-spacing:.02em; }
+    .footer-brand p { color:#9db3bc; font-size:19px; }
+    .footer-col strong { display:block; margin-bottom:28px; font-size:19px; }
+    .footer-col a { display:block; margin:14px 0; color:#9db3bc; font-size:17px; }
+    .footer-bottom { display:flex; justify-content:space-between; margin-top:82px; padding-top:34px; border-top:1px solid rgba(255,255,255,.25); color:#9db3bc; font-size:16px; }
+    .languages span:first-child { color:#8eddf4; font-weight:700; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero-original-wrap">
+      <img src="01-hero.png" alt="PNPLINE首页主视觉">
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section journey section-pad">
+      <div class="shell">
+        <div class="section-head"><div><p class="eyebrow">中国 → 美国</p><h2>看清货物从中国到美国的每一步</h2></div><p class="lead">从出货资料到美国境内配送，先确认各阶段需要衔接的工作。</p></div>
+        <div class="journey-photo"><img src="revised-assets/journey-strip.jpg" alt="跨境物流流程概念图"></div>
+        <div class="journey-steps">
+          <div class="journey-step"><span class="step-no">01</span><h3>中国工厂</h3><p>整理商品、包装与出货资料。</p></div>
+          <div class="journey-step"><span class="step-no">02</span><h3>头程运输</h3><p>根据货量与时效需求评估运输方式。</p></div>
+          <div class="journey-step"><span class="step-no">03</span><h3>美国清关</h3><p>核对申报资料、IOR需求与各方责任。</p></div>
+          <div class="journey-step"><span class="step-no">04</span><h3>美国自营海外仓</h3><p>衔接入库验收、库存管理与出库作业。</p></div>
+          <div class="journey-step"><span class="step-no">05</span><h3>美国境内配送</h3><p>对接FBA补货、订单配送或B2B交付。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section audiences section-pad">
+      <div class="shell">
+        <div class="section-title"><p class="eyebrow">为不同业务，找到合适路径</p><h2>先找到适合您业务的物流方案</h2><p class="lead">从销售渠道与交付方式出发，了解需要的仓储、运输与清关服务。</p></div>
+        <div class="audience-grid">
+          <article class="audience-card"><img src="revised-assets/customer-amazon.jpg" alt="亚马逊订单作业概念图"><div class="audience-body"><h3>亚马逊FBA / FBM卖家</h3><p>围绕FBA中转、分批补货与FBM订单出库，梳理仓储、运输和退货处理需求。</p><a class="arrow-link" href="#">了解亚马逊方案 <span>→</span></a></div></article>
+          <article class="audience-card"><img src="revised-assets/customer-dtc.jpg" alt="独立站订单作业概念图"><div class="audience-body"><h3>独立站与TikTok Shop卖家</h3><p>围绕美国本地订单出库，了解库存准备、拣货包装、尾程配送与退货衔接。</p><a class="arrow-link" href="#">查看渠道方案 <span>→</span></a></div></article>
+          <article class="audience-card"><img src="revised-assets/customer-b2b.jpg" alt="批量货物作业概念图"><div class="audience-body"><h3>工厂与贸易商</h3><p>围绕整柜运输、进口清关、批量出库与美国B2B配送，确认作业与交付条件。</p><a class="arrow-link" href="#">了解B2B配送 <span>→</span></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section services section-pad">
+      <div class="shell">
+        <div class="section-title"><p class="eyebrow">核心服务</p><h2>按任务选择需要的服务</h2><p class="lead">已明确需要哪一环节？从具体服务开始，了解作业内容与适用条件。</p></div>
+        <div class="tabs"><div class="tab active">一件代发<small>拣货 · 包装 · 出库</small></div><div class="tab">FBA中转与补货<small>验收 · 贴标 · 补货</small></div><div class="tab">头程运输<small>FCL整柜 · LCL拼箱 · 空运</small></div><div class="tab">IOR与进口清关咨询<small>需求确认 · 文件准备 · 责任说明</small></div></div>
+        <div class="service-feature"><img src="revised-assets/service-pack.jpg" alt="一件代发包装作业概念图"><div class="service-copy"><p class="eyebrow">一件代发</p><h3>从美国自营仓，逐单安排出库</h3><p>从PNPLINE美国自营仓按订单拣货、包装并安排出库，衔接配送状态管理。</p><p>适用于独立站、TikTok Shop与Amazon FBM订单。</p><a class="arrow-link" href="#">了解一件代发 <span>→</span></a></div></div>
+        <div class="service-links"><a href="#">仓储与库存 →</a><a href="#">退货换标与检品 →</a><a href="#">美国B2B配送 →</a><a href="#">其他物流需求 →</a></div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section operations section-pad">
+      <div class="shell"><img class="operations-original" src="05-operations-system.png" alt="自营仓库、责任与系统版块"></div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section customs section-pad">
+      <div class="shell customs-grid">
+        <div class="customs-image"><img src="revised-assets/customs-documents.jpg" alt="清关资料概念图"></div>
+        <div class="customs-copy"><p class="eyebrow">清关与合规</p><h2>先了解进口清关的服务范围</h2><p class="lead">围绕商品资料、IOR需求与责任边界，准备需要在咨询中确认的问题。</p><div class="info-rows"><div class="info-row"><span>商品与交易资料</span><span>→</span></div><div class="info-row"><span>IOR服务需求</span><span>→</span></div><div class="info-row"><span>各方责任边界</span><span>→</span></div></div><a class="arrow-link" href="#">了解清关与合规 <span>→</span></a></div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section costs section-pad">
+      <div class="shell">
+        <div class="section-head"><div><p class="eyebrow">费用说明</p><h2>先看费用构成，<br>再确认适合您的报价</h2></div><p class="lead">比较报价时，请同时确认计费单位、包含项目与可能发生的附加费用。</p></div>
+        <div class="cost-grid"><div><div class="cost-list"><div class="cost-row"><strong>01</strong><strong>头程运输费</strong><span>根据运输方式、货量及起运和到达条件确认。</span></div><div class="cost-row"><strong>02</strong><strong>清关与合规相关费用</strong><span>确认服务范围，并区分服务费用与适用税费。</span></div><div class="cost-row"><strong>03</strong><strong>仓储费</strong><span>根据存储方式、占用空间与存储周期确认。</span></div><div class="cost-row"><strong>04</strong><strong>仓内操作费</strong><span>根据验收、拣货、包装、贴标或退货处理等作业确认。</span></div><div class="cost-row"><strong>05</strong><strong>美国境内配送费</strong><span>根据目的地、货物形态与配送方式确认。</span></div></div></div><div class="scenario-stack"><article class="scenario"><img src="revised-assets/cost-fba.jpg" alt="FBA询价场景概念图"><div class="scenario-copy"><h3>亚马逊FBA · 20 CBM</h3><p>确认头程、清关、暂存、贴标与分批补货费用。</p></div></article><article class="scenario"><img src="revised-assets/cost-dtc.jpg" alt="独立站询价场景概念图"><div class="scenario-copy"><h3>独立站 · 每月500单</h3><p>确认库存占用、订单拣配、包装与美国境内配送费用。</p></div></article></div></div>
+        <div class="cost-action"><p class="micro">询价场景示意，非实际客户案例或价格承诺。请同时确认最低收费及附加作业的计费条件。</p><a class="btn" href="#">查看费用说明并获取报价 <span>→</span></a></div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section faq section-pad">
+      <div class="shell faq-grid">
+        <div class="faq-intro"><p class="eyebrow">常见问题</p><h2>咨询前，<br>您可能想先了解</h2><p class="lead">从报价准备到仓储与出库，先了解常见问题。</p><a class="arrow-link" href="#" style="margin-top:42px">联系我们 →</a></div>
+        <div class="accordion"><div class="faq-item open"><div class="faq-q"><span>获取报价前，需要准备哪些信息？</span><span>−</span></div><p class="faq-a">请准备商品类目、发货方式、预计月货量、目的地与IOR需求，并留下可联系的方式。尚未明确的事项可以标注，便于后续进一步确认。</p></div><div class="faq-item"><div class="faq-q"><span>货量尚未确定，可以先咨询吗？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>一件代发与FBA中转补货如何选择？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>可以把中国发货、美国清关和海外仓入库一起咨询吗？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>报价是否包含清关、税费和其他附加费用？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>不清楚是否需要IOR服务，怎么办？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>美国仓库是自营的吗？如何了解实际作业情况？</span><span>＋</span></div></div><div class="faq-item"><div class="faq-q"><span>如何查询库存与出库进度？</span><span>＋</span></div></div></div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section inquiry section-pad">
+      <div class="shell inquiry-grid">
+        <div class="inquiry-intro"><p class="eyebrow">开始咨询</p><h2>告诉我们<br>您的物流需求</h2><p class="lead">提供商品、出货计划与目的地信息，便于进一步确认所需服务。尚未明确的项目可标注“未定”或“不清楚”。</p><div class="submit-flow"><div class="submit-step"><strong>提交需求</strong><span>填写商品、出货计划与目的地等信息。</span></div><div class="submit-step"><strong>核对资料与服务范围</strong><span>确认服务范围与相关费用。</span></div><div class="submit-step"><strong>沟通报价与执行条件</strong><span>进一步沟通报价与后续执行条件。</span></div></div></div>
+        <div class="form"><div><label>产品类目</label><div class="control"><span>请输入商品名称或所属类目</span></div></div><div><label>发货方式</label><div class="control"><span>请选择，或选择“未定”</span><span>⌄</span></div></div><div><label>月出货量</label><div class="control"><span>预计货量及单位，可填写“未定”</span></div></div><div><label>目的地</label><div class="control"><span>请选择目的地</span><span>⌄</span></div></div><div><label>是否需要IOR服务</label><div class="control"><span>不清楚</span><span>⌄</span></div></div><div><label>联系邮箱</label><div class="control"><span>请输入联系邮箱</span></div></div><div class="form-meta"><div class="check"><span class="box"></span><span>我已阅读并同意 <u>《隐私政策》</u>。</span></div><p class="micro">请勿提交身份证件、支付信息或其他与咨询无关的敏感资料。</p><a class="btn" href="#">提交需求 <span>→</span></a></div></div>
+      </div>
+    </section>
+
+    <div class="section-gap"></div>
+    <section class="section footer-top"><div class="shell"><div class="footer-logo"><img src="../../resources/logo/PNP-LINE.webp" alt="PNPLINE"><p>美国自营海外仓与跨境物流服务</p></div><a class="arrow-link" href="#">联系我们 <span>→</span></a></div></section>
+  </main>
+
+  <footer><div class="shell"><div class="footer-grid"><div class="footer-brand"><strong>PNPLINE</strong><p>连接中国出货与美国仓配</p></div><div class="footer-col"><strong>服务</strong><a href="#">美国海外仓</a><a href="#">头程运输</a><a href="#">清关与合规</a></div><div class="footer-col"><strong>了解PNPLINE</strong><a href="#">关于我们</a><a href="#">自营仓库资料</a><a href="#">资质与合规</a></div><div class="footer-col"><strong>报价与联系</strong><a href="#">价格与报价</a><a href="#">联系我们</a><a href="#">合作伙伴</a></div></div><div class="footer-bottom"><span>隐私政策</span><div class="languages"><span>简体中文</span>　/　<span>한국어</span>　/　<span>English</span></div></div></div></footer>
+  </main>
+</body>
+</html>

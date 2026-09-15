@@ -1,0 +1,20 @@
+{
+  "task": "Move the official PNPLINE logo into the user-marked area on the broad front box panel.",
+  "createdAt": "2026-09-14T20:28:10.127Z",
+  "inputSection": "08-quote.png",
+  "placementGuide": "codex-clipboard-86524487-b72c-499a-9e45-4a506718f65f.png",
+  "officialLogoReference": "../../resources/logo/PNP-LINE.webp",
+  "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a09feb-ecf2-74e2-8dec-635a9efd2663\\exec-ceafcc15-7930-475c-b701-be08f1a169b4.png",
+  "output": "08-quote.png",
+  "backup": "review/08-quote-before-front-panel-logo.png",
+  "dimensions": {
+    "width": 1584,
+    "height": 993
+  },
+  "placement": "Broad front cardboard panel, left of the vertical blue tape; direct-print treatment.",
+  "exclusions": [
+    "upper-left logo plate",
+    "right-side-face logo",
+    "red placement annotation"
+  ]
+}

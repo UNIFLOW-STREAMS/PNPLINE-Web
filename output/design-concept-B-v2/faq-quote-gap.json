@@ -1,0 +1,10 @@
+{
+  "task": "Remove the navy bar above the quote section and set the FAQ-to-quote gap to 64px.",
+  "createdAt": "2026-09-14T21:16:29.188Z",
+  "faqBottomPadding": 32,
+  "quoteTopPadding": 32,
+  "totalGap": 64,
+  "gapColor": "#F3F8FA",
+  "quoteBottomPaddingColor": "#082A45",
+  "backupDir": "review/before-faq-quote-gap"
+}

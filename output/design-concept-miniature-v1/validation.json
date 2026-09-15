@@ -1,0 +1,160 @@
+{
+  "measurements": [
+    {
+      "id": "hero",
+      "width": 1920,
+      "height": 1080,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 567.53125,
+      "overflow": false
+    },
+    {
+      "id": "journey",
+      "width": 1920,
+      "height": 960,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 793.40625,
+      "overflow": false
+    },
+    {
+      "id": "customers",
+      "width": 1920,
+      "height": 1000,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 758.296875,
+      "overflow": false
+    },
+    {
+      "id": "services",
+      "width": 1920,
+      "height": 1120,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 1047.671875,
+      "overflow": false
+    },
+    {
+      "id": "operations",
+      "width": 1920,
+      "height": 1040,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 882.375,
+      "overflow": false
+    },
+    {
+      "id": "customs",
+      "width": 1920,
+      "height": 840,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 638.734375,
+      "overflow": false
+    },
+    {
+      "id": "costs",
+      "width": 1920,
+      "height": 1000,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 773.0625,
+      "overflow": false
+    },
+    {
+      "id": "faq",
+      "width": 1920,
+      "height": 1040,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 894.015625,
+      "overflow": false
+    },
+    {
+      "id": "quote",
+      "width": 1920,
+      "height": 1080,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 894.796875,
+      "overflow": false
+    },
+    {
+      "id": "footer",
+      "width": 1920,
+      "height": 680,
+      "contentWidth": 1440,
+      "margin": 240,
+      "maxBottom": 455.8125,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "guides": true,
+  "openFaq": 1,
+  "selfOwned": "是的，PNPLINE直接运营美国仓库。可进一步了解场地资料与作业范围。",
+  "images": [
+    {
+      "src": "hero-harbor.jpg",
+      "loaded": true
+    },
+    {
+      "src": "PNP-LINE.webp",
+      "loaded": true
+    },
+    {
+      "src": "studies/02-journey.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/03-customers.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/04-services.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/04-services.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/04-services.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/04-services.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/05-operations.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/06-customs.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/07-costs.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/08-faq.png",
+      "loaded": true
+    },
+    {
+      "src": "studies/09-inquiry.png",
+      "loaded": true
+    },
+    {
+      "src": "PNP-LINE.webp",
+      "loaded": true
+    },
+    {
+      "src": "studies/10-footer.png",
+      "loaded": true
+    }
+  ]
+}

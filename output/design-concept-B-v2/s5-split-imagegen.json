@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-15",
+  "scope": "Split S5 into two standalone horizontal images: warehouse/responsibility evidence and WMS system.",
+  "sourceBrief": "../../docs/pnpline-china-source-content/pnpline-home-a-content-brief-v3.md",
+  "outputs": [
+    {
+      "section": "S5-A/B",
+      "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-c059ca02-3f4c-46df-a832-210a92aaebe2.png",
+      "output": "05-warehouse-responsibility.png",
+      "direction": "Ice-blue editorial operations dossier with a clearly conceptual cyan warehouse blueprint, two staggered evidence panels, no facility photograph, location, metric, badge, seal, or fake official document.",
+      "requiredCopy": [
+        "运营依据",
+        "先看自营仓库，再确认服务责任",
+        "美国自营仓与作业范围",
+        "IOR、Bond与服务责任",
+        "结构示意 · 非实际设施资料"
+      ]
+    },
+    {
+      "section": "S5-C",
+      "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-6bca8059-fabe-4e2b-88ab-c9728018b900.png",
+      "output": "05-wms-system.png",
+      "reference": "05-platform.png via the two most recent conversation images after direct local reference failed with a Windows sandbox helper error.",
+      "direction": "Ice-blue WMS concept panel with five distinct modules, WMS/API links, and explicit non-product-screen disclaimer; no customer data, quantities, dates, metrics, AI, or automation claims.",
+      "requiredCopy": [
+        "系统能力",
+        "从库存查询，到出库指令",
+        "库存查询",
+        "入库记录",
+        "出库指令",
+        "订单与作业状态",
+        "出库历史",
+        "概念示意 · 非实际系统截图"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "at": "2026-09-14T21:16:54.008Z",
+  "failures": [],
+  "externalRequests": [],
+  "images": [
+    {
+      "src": "01-hero.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "02-services.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "02-services-details.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "02-services-support.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "03-flow.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "04-channels.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "05-warehouse-responsibility.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "05-wms-system.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "06-policy-customs.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "renderedWidth": 1440,
+      "renderedHeight": 810.421875,
+      "loaded": true
+    },
+    {
+      "src": "06-cost.png",
+      "naturalWidth": 1586,
+      "naturalHeight": 992,
+      "renderedWidth": 1440,
+      "renderedHeight": 900.671875,
+      "loaded": true
+    },
+    {
+      "src": "07-faq.png",
+      "naturalWidth": 1448,
+      "naturalHeight": 1086,
+      "renderedWidth": 1440,
+      "renderedHeight": 1080,
+      "loaded": true
+    },
+    {
+      "src": "08-quote.png",
+      "naturalWidth": 1584,
+      "naturalHeight": 993,
+      "renderedWidth": 1920,
+      "renderedHeight": 1203.625,
+      "loaded": true
+    },
+    {
+      "src": "08-footer.png",
+      "naturalWidth": 1672,
+      "naturalHeight": 455,
+      "renderedWidth": 1440,
+      "renderedHeight": 391.859375,
+      "loaded": true
+    }
+  ],
+  "outputs": [
+    {
+      "file": "00-fullpage.png",
+      "width": 1920,
+      "height": 11702,
+      "bytes": 15275517,
+      "sha256": "cde9fc54f32460ea16cfe4f1a56e76e33b89ae91d03dfb5fe6f66483560f5dbe"
+    },
+    {
+      "file": "review/hero-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 1378744,
+      "sha256": "43ae650875fdf8314250e597004b0eea525c4a72bd137621b209322681a98e2a"
+    },
+    {
+      "file": "review/services-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 1253881,
+      "sha256": "3cc7d95f2cf0d8c83ff91dd19a8f1bc185d1cccfefabfb85501ec6f54d0c1844"
+    },
+    {
+      "file": "review/service-details-1920.png",
+      "width": 1920,
+      "height": 876,
+      "bytes": 913955,
+      "sha256": "5cce25bbbff9bb017ad5675a51b63047d81c19e9d286686b850757f8aed6fe55"
+    },
+    {
+      "file": "review/service-support-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 778614,
+      "sha256": "a41d6e4ff6e59345487077208f63514adabbe9a5bb2a8e718c55e9c228b0bcd9"
+    },
+    {
+      "file": "review/channels-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 1281292,
+      "sha256": "38423d8258a271f79e4f0f4158eb1b94973fa96f4000a5141e95ab5e6a3db304"
+    },
+    {
+      "file": "review/warehouse-responsibility-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 1463824,
+      "sha256": "38dbc9e190b5d3f1843931f96b1d881e33d3f7f9c430869d9c0e7410f4d975d8"
+    },
+    {
+      "file": "review/wms-system-1920.png",
+      "width": 1920,
+      "height": 876,
+      "bytes": 920821,
+      "sha256": "dea48ebf513ab054edba70403ddeb137dcf321dd621723ed79563c682b352936"
+    },
+    {
+      "file": "review/policy-customs-1920.png",
+      "width": 1920,
+      "height": 875,
+      "bytes": 1315787,
+      "sha256": "3fbd1239c3c0a2bd942fe425e50dbc8ec854a667a007490591ba2ab37fc902d4"
+    },
+    {
+      "file": "review/faq-1920.png",
+      "width": 1920,
+      "height": 1145,
+      "bytes": 1599675,
+      "sha256": "5a235e0c4e2dfd13295cdbcf9c9a4b7cf5cc1b563a9bb23594cf196b70a97feb"
+    },
+    {
+      "file": "review/quote-1920.png",
+      "width": 1920,
+      "height": 1269,
+      "bytes": 1857699,
+      "sha256": "0a1d3bd55247461cef6f1c866fe93ac5d99c06af84ea373dfa8d887f7d9c4184"
+    },
+    {
+      "file": "review/footer-1920.png",
+      "width": 1920,
+      "height": 456,
+      "bytes": 111632,
+      "sha256": "cf320d98e561b7f69b6143fffc26c05ba4bb836fd931357e8dc87a2c9083a3d7"
+    },
+    {
+      "file": "review/form-states-1920.png",
+      "width": 1920,
+      "height": 1201,
+      "bytes": 1280517,
+      "sha256": "c183ceb362328c213dd4ac6db85966449f374b0157fb2c07f0ae2d4e86c17379"
+    },
+    {
+      "file": "review/contact-sheet-1920.png",
+      "width": 1920,
+      "height": 3918,
+      "bytes": 4898317,
+      "sha256": "7ce189f8e7080672a2e42dacd7d098039aba607c6cff855494631ea1c2226b0b"
+    }
+  ],
+  "browser": "151.0.7922.34",
+  "layout": {
+    "viewportWidth": 1920,
+    "scrollWidth": 1920,
+    "scenes": 13,
+    "bodyHeight": 11702,
+    "forms": 0,
+    "sceneGeometry": [
+      {
+        "id": "hero",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "services",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "service-details",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "service-support",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "flow",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "channels",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "warehouse-evidence",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "system",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "policy-customs",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "cost",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "faq",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "quote",
+        "outerWidth": 1920,
+        "contentWidth": 1920,
+        "contentLeft": 0,
+        "imageWidth": 1920,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      },
+      {
+        "id": "footer",
+        "outerWidth": 1920,
+        "contentWidth": 1440,
+        "contentLeft": 240,
+        "imageWidth": 1440,
+        "paddingTop": 32,
+        "paddingBottom": 32
+      }
+    ],
+    "solid": [
+      {
+        "text": "获取报价",
+        "color": "rgb(0, 127, 168)"
+      },
+      {
+        "text": "获取报价",
+        "color": "rgb(0, 127, 168)"
+      },
+      {
+        "text": "咨询费用与报价 ↗",
+        "color": "rgb(0, 127, 168)"
+      },
+      {
+        "text": "提交咨询 →",
+        "color": "rgb(0, 127, 168)"
+      }
+    ],
+    "logoSources": [
+      "assets/PNP-LINE.webp",
+      "assets/PNP-LINE.webp"
+    ],
+    "footerBackground": "rgb(8, 42, 69)",
+    "footerOverlayColor": "rgb(8, 42, 69)",
+    "footerOverlayBlendMode": "lighten",
+    "faqQuoteGap": 64,
+    "quoteBackgroundImage": "linear-gradient(rgb(243, 248, 250) 0px, rgb(243, 248, 250) 32px, rgb(8, 42, 69) 32px, rgb(8, 42, 69) 100%)"
+  },
+  "logo": {
+    "source": "F:/pnpline-landing/resources/logo/PNP-LINE.webp",
+    "sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+    "packagedSha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "task": "Render the quote image full-bleed at 1920px and make the footer background #082A45.",
+  "createdAt": "2026-09-14T21:04:54.423Z",
+  "quote": {
+    "outerWidth": 1920,
+    "contentWidth": 1920,
+    "imageWidth": 1920,
+    "horizontalPadding": 0,
+    "verticalPadding": 32
+  },
+  "footer": {
+    "outerWidth": 1920,
+    "contentWidth": 1440,
+    "horizontalPadding": 240,
+    "background": "#082A45",
+    "imageBlendMode": "lighten"
+  },
+  "backupDir": "review/before-quote-fullbleed-footer-color"
+}

@@ -1,0 +1,14 @@
+{
+  "task": "Add the official PNPLINE logo to the v2 quote section image.",
+  "createdAt": "2026-09-14T20:20:46.940Z",
+  "inputSection": "08-quote.png",
+  "officialLogoReference": "../../resources/logo/PNP-LINE.webp",
+  "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a09feb-ecf2-74e2-8dec-635a9efd2663\\exec-210a360a-172f-4378-a1e5-0c2c8118ac1b.png",
+  "output": "08-quote.png",
+  "backup": "review/08-quote-before-logo.png",
+  "dimensions": {
+    "width": 1583,
+    "height": 994
+  },
+  "prompt": "Edit IMAGE 1 only, the PNPLINE Chinese quote form section. IMAGE 2 is the official PNPLINE logo and must be used exactly as the visual source.\n\nPreserve IMAGE 1's exact canvas, aspect ratio, warehouse photograph, blue-taped box, all Chinese headline and body copy, every form field and label, consent/privacy copy, CTA, positions, spacing, and colors. Make no other changes.\n\nAdd exactly one PNPLINE logo in the upper-left dark safe area, above “获取报价”. Place it on a compact white rounded-rectangle plate, approximately 11–13% of the canvas width, with comfortable inner padding, left-aligned with “获取报价”. Preserve the official logo's aspect ratio and its original PNP blue and LINE gray colors. Do not redraw, retype, recolor, stretch, crop, or alter the logo.\n\nThe logo plate must not overlap the eyebrow or headline. Do not add a second logo, a typed wordmark, a logo on the box, tape, or form, or any footer element. Output only the complete updated quote-section image."
+}

@@ -1,0 +1,80 @@
+{
+  "tool": "built-in image_gen",
+  "common": "Use case: ui-mockup. Create ONE production-quality horizontal desktop WEBSITE SECTION concept for PNPLINE, a Chinese-facing cross-border logistics company. NOT a slide, not an illustration alone, not a whole multi-section website, no browser chrome, no mockup laptop. Canvas MUST be 1920 px wide, with all UI/text/essential content aligned inside centered 1440 px content width (left x=240, right x=1680, outer margins 240). Full-bleed backgrounds may extend to edges. Render at 1920 wide if supported, otherwise same aspect and proportions. Palette fixed across set: cyan #00ABE1, action teal #007FA8, deep maritime navy #122C3D, warm white #F5F6F2, gray #76838A. Crisp Simplified Chinese modern rational sans (Noto Sans SC mood), headline 60-72px, labels 24-28px, small text >=18px at1920. Spacious clear hierarchy, short copy, restrained 4px radius rectangular buttons and hairline rules. Brand is exact supplied PNPLINE logo; do not redesign it or invent logos. Physical high-end 1:87-scale miniature logistics diorama visuals: detailed painted diecast trucks, corrugated cyan containers, cardboard cartons, small forklift workers, maritime/navy warehouses, tactile concrete, selective tilt-shift shallow DOF, cinematic highlight rolloff and restrained film grain. Clearly miniature NOT life-size photography, flat isometric vector, clay blobs or futuristic illustration. Continuous cyan route conveys one shipment. Diagrams/icons must carry information, no fake stats/prices, endorsements, certification badges, fictional contact details, extra filler text. One consistent brand world with varied editorial compositions. Text must be accurate Simplified Chinese as quoted. This is a CONCEPT, not documentary facility evidence. No output labels, external captions or layout measurement annotations inside artwork.",
+  "sections": [
+    {
+      "slug": "01-hero",
+      "title": "히어로",
+      "h": 1080,
+      "prompt": "HERO SECTION ONLY including integrated header, aspect16:9 1920x1080. Use reference1's original BASIC low oblique cinematic miniature China port, NOT top-down/high-angle atlas. Reference2 is exact official logo. Full-bleed miniature China harbor: bright cyan branded container and tiny forklift foreground lower center, cargo vessel to right, gantry cranes rear, small visible Chinese flag left. Blue sea, detailed miniature city and hills. Slightly darkened navy cinematic grade, soft edge vignette; physically coherent scene stays large. Keep dark calm negative space in upper middle for typography, no cards behind headline. Header at y36: exact small logo x240 width180; 7 concise nav labels 美国海外仓 / 头程运输 / 清关与合规 / 平台方案 / 系统 / 关于我们 / 资讯 and compact teal CTA 免费获取报价 aligned right x1680. Main message CENTERED around y250-470, not left-copy/right-image split. White headline on two controlled lines: “美国自营海外仓” and “从中国出货，到美国履约”. Small pretitle “PNPLINE · 跨境物流”. Two centered buttons: teal filled “免费获取报价 ↗”; understated white outline “查看自营仓库”. No paragraph. At bottom inside content bounds a thin journey indicator line with small labels “中国出货 — 美国自营仓 — 美国配送”, and tiny “概念示意”. Leave port/container readable in lower half. Strong high-end image-first real web design.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-0ef6ed7f-edf2-41b0-b4a9-81676d8f77d1.png"
+    },
+    {
+      "slug": "02-journey",
+      "title": "전체 물류 흐름",
+      "h": 960,
+      "prompt": "LOGISTICS JOURNEY SECTION ONLY. Wide1920x960. Warm white background, dark navy typography. Top-left compact heading “从中国到美国，一条清晰的路径”; small underlined right link “了解运输方案 ↗”. Main content is ONE continuous highly crafted physical miniature panorama on a shallow pale concrete base across x240-1680, occupying middle60%: China factory with China flag at left, container ship crossing dark blue small channel, document/check station beside US shore, large cutaway US warehouse with US flag, last-mile blue van and suburban house at far right. 5 spatial landmarks connected by a slim cyan painted route on the diorama and arrows; flow strictly left to right. Above/below each landmark exactly these 5 large short stage captions “01 中国工厂”, “02 头程运输”, “03 美国清关”, “04 美国自营海外仓”, “05 美国境内配送”. Physical materials and tiny humans like reference, clean model set floating on white through soft contact shadows, no five repetitive cards. Clear readable scale, warehouse is most visually prominent destination. Small bottom note “路线与服务范围，以确认方案为准” and tiny “流程示意”. Avoid text paragraph, invented map distances/times, or claiming every stage self-operated.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-915c8455-abf0-4da0-8962-4ff5796221be.png"
+    },
+    {
+      "slug": "03-customers",
+      "title": "고객 유형별 선택",
+      "h": 960,
+      "prompt": "CUSTOMER ROUTING SECTION ONLY.1920x960 warm white, Swiss clean. Heading top centered “您的业务，走哪条路？” No subtitle. A single cyan shipping carton at upper middle feeds a minimal clean 3-way cyan route branching down to THREE editorial columns with generous breathing room and tiny navy vertical separators. Each is a distinct meticulously detailed miniature vignette on same light concrete surface: left Amazon seller miniature warehouse rack and pallet crates; center direct-to-consumer order packing bench with parcel van and generic small shopping phone, NO platform logos; right B2B factory receiving dock with full-length freight trailer. Draw differentiated size and composition, not identical rounded cards. Exact concise texts below: left “Amazon卖家” / “FBA补货 · FBM出库” / “查看方案 ↗”; center “独立站 / TikTok Shop” / “本地订单配送” / “Shopify ↗   TikTok Shop ↗”; right “工厂与贸易商” / “整柜运输 · B2B交付” / “了解B2B配送 ↗”. No paragraph. No official affiliation badges. All content inx240-1680.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-23be1f49-f452-4b57-ae36-e1f1425c5df2.png"
+    },
+    {
+      "slug": "04-services",
+      "title": "핵심 서비스",
+      "h": 1080,
+      "prompt": "CORE SERVICES SECTION ONLY.1920x1080. Rich navy #122C3D background with premium tactile quiet grain, cyan routes, warm-white type. Heading upper-left “需要哪一环，我们就从哪里开始”. Under heading a well-structured gapless editorial 2x2 service grid within1440content, with thin lowcontrast dividing rules not rounded cards. Each quadrant mixes a large detailed miniature logistics object vignette and a concise caption, varied composition within shared grid. Top-left cutaway packing conveyor, tinyworker and cyan parcels, label “一件代发” / “拣货 · 包装 · 出库 ↗”. Top-right small cyan container beside neatly palletized cartons and labelprinter, label “FBA中转补货” / “验收 · 贴标 · 补货 ↗”. Bottom-left miniature container vessel with secondary tiny aircraft, label “头程运输” / “FCL · LCL · 空运 ↗”. Bottom-right precise physical shipping-document folder and cargo inspection mini station WITHOUT certification seal, label “IOR与清关咨询” / “资料 · 角色 · 责任 ↗”. Small bottom single row secondary underlined links “仓储与库存 ↗   退货与检品 ↗   B2B配送 ↗   其他需求 ↗”. No decorative junk, no false certifications, no paragraphs. Service vignettes communicate jobs instantly, dramatic but sharp useful visuals.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-752db16f-bef2-4206-becc-c2c9503fc3bd.png"
+    },
+    {
+      "slug": "05-operations",
+      "title": "직영창고·책임·시스템",
+      "h": 1080,
+      "prompt": "OPERATIONS AND SYSTEM SECTION ONLY.1920x1080. Warm white with asymmetrical editorial composition, physical miniatures consistent reference. Heading upperleft “美国仓库，由PNPLINE直接运营”. Main content center-left 60% is one symbolic cutaway miniature blue-and-white American warehouse, cyan loadingtruck, yellow forklift, racks/cartons/packingbench, tiny USflag. Use warehouse as an EXPLICIT OPERATING PROCESS MODEL labeled small “作业模型 · 概念示意”; do not present as real facility photo, no locations or metrics. Three delicate cyan callout lines from warehouse areas go to crisp short iconlabels “入库”, “库存”, “出库”. Lowerleft understated link “查看自营仓库 ↗”. RIGHT 35% clean vertical product information panels, generous space: panel1 heading “责任清晰”, 3 tiny role icons connected labeled “资料 · IOR · 服务范围”, textlink “了解责任范围 ↗”. Panel2 heading “库存与出库，看得清”, a minimal concept WMS schematic with 3 clean rows “库存查询”, “订单状态”, “出库记录” and simple progress bars WITHOUT numbers, fake realtime or charts; tinycaption “系统概念示意”; links “了解WMS ↗   API对接 ↗”. Diagram structures only, not fake product evidence. Make warehouse model legible and airy, caption panels not dense.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-e18d0c32-52c0-4ba9-8004-85ac49edb467.png"
+    },
+    {
+      "slug": "06-customs",
+      "title": "발송 전 확인",
+      "h": 840,
+      "prompt": "PRE-SHIPMENT CUSTOMS GUIDANCE SECTION ONLY. Wide1920x840. Calm MINI minimalist section, very airy pale blue-white solid background, flat modern typographic hierarchy. Large heading right third “发货前，先把条件确认清楚”. Below concise three labels with simple thin navy icons arranged vertical: “商品资料”, “IOR需求”, “责任范围”; one action teal text underline “了解清关与合规 ↗”. LEFT two-thirds a single tactile macro miniature open cargo carton on white worktable with three oversized paper tabs, small inspection magnifier and tiny helmetworker to establish miniature scale. The paperwork has generic lines not fictional legal documents, no seals/checkcertificationbadges. One clean cyan connecting line ties tabs to rightside3labels. No law dates, tariff percentages, customs guarantee, articlesorpolicyclaims. Different composition from priorsections. Official cyan consistentlyused, lots of white negative space. All essentialcontentx240-1680.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-f3a5dace-5f8f-4a2f-8c50-a0bd8cf3d4fd.png"
+    },
+    {
+      "slug": "07-costs",
+      "title": "비용 구성",
+      "h": 1080,
+      "prompt": "COST STRUCTURE SECTION ONLY.1920x1080 warm-whitebackground. Heading topleft “费用拆开看，报价更清楚”. Righttop small tealfilledbutton “查看费用说明 ↗”. Main graphic is an elegant horizontal exploded diagram of one cargo journey and its FIVE equal conceptual costcomponents (NOT quantities, no pie chart): miniature cargo ship, neutral shippingdocuments, warehouse rack, packingstation, bluevan. Put each small physicalminiature over a thin line corresponding to five shortlabels: “头程运输”, “清关与合规”, “仓储”, “仓内操作”, “美国配送”. Slim plus signs between stages express additive cost, no prices or amounts. Below tasteful thinrule and TWO wide sidebyside minimal inquiry scenario strips (not testimonials), each with small carton/palleticon. Text exact “FBA · 20 CBM” and smaller “运输 / 清关 / 暂存 / 贴标 / 补货”; other “独立站 · 每月500单” and smaller “库存 / 拣配 / 包装 / 配送”. Fine bottomcaption “询价场景示意，不代表客户案例或价格承诺”. Another short bottom note “核对计费单位、包含项目与附加条件”. Clear abundantwhite. Do notinventdollarprices, costpercentages, customerstats or guarantees.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-07b7ab37-ec8c-45c0-967a-ec74c5bd99d0.png"
+    },
+    {
+      "slug": "08-faq",
+      "title": "FAQ",
+      "h": 1080,
+      "prompt": "FAQ SECTION ONLY.1920x1080 brightwarmwhite. Contentx240-1680. Editorial header smallleftcyan “FAQ”, largeheadline “先解答，再出发”. Leftthird narrowquietvisual: cyan miniature freight container viewed very close at oblique angle, corrugated metal side and tinyworker establish scale, stackedtwo tapedparcels. The macrocyan crop is one deliberate memorable graphicaccent. RIGHT two-thirds clean full-width list of EIGHT FAQrows with thin grayhairlines, small plus signs; firstopen,othersclosed. Exact shortquestions ordered: “报价前，需要准备什么？”; “货量未定，可以咨询吗？”; “一件代发与FBA补货有何区别？”; “运输、清关与入仓能一起咨询吗？”; “报价包含税费与附加费用吗？”; “不清楚是否需要IOR怎么办？”; “美国仓库是自营的吗？”; “如何查询库存与出库进度？”. Firstopen answer concise “商品、发货方式、月货量、目的地、IOR需求及联系方式。” No other paragraphs. Openrowpaleicebluebackground and minus. Rowheightroughly76px, font26pxclear. No chatspeechbubbles, giant questionmark, stockphotography. Tinybottomleftlink “还有问题？联系我们 ↗”. DesktopUI notslide.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-4444a308-8db9-436f-8130-778b857911dc.png"
+    },
+    {
+      "slug": "09-inquiry",
+      "title": "견적 문의",
+      "h": 1080,
+      "prompt": "QUOTE INQUIRY SECTION ONLY.1920x1080. Deep maritime navy background consistent services. LEFTthird airy headline white “下一程，从您的需求开始”. Underhead tiny horizontal3steps “提交需求 → 确认范围 → 沟通报价”. Lowerleft miniature cyan parcelvan follows short cyan painted route beside 3smallcartons, cinematic small scene with physical model contactshadow, nothugeillustration. RIGHT two-thirds a single warmwhite rectangular formpanel with4pxradius, generouspadding, widtharound880px,height780. EXACT SIX fields in2columns3rows with persistentlabels: “产品类目” placeholder “商品名称或类目”; “发货方式” selected “未定” dropdown; “月出货量” placeholder “预计货量及单位”; “目的地” selected “PNPLINE美国自营仓” dropdown; “是否需要IOR服务” selected “不清楚” dropdown; “联系邮箱” placeholder “请输入联系邮箱”. Below genuine uncheckedcheckbox “我已阅读并同意《隐私政策》”. Primary fullwidthtealbutton “提交需求 ↗”. Small unobtrusivetext “尚未确定的内容，可填写「未定」”. No fakedata,emailaddress, responsetime orsuccessmessage. Easyto scan spacious readable actualform concept.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-3daf5c88-e157-4abd-9253-5ee60be4fb06.png"
+    },
+    {
+      "slug": "10-footer",
+      "title": "푸터",
+      "h": 720,
+      "prompt": "FOOTER SECTION ONLY. Very wide1920x720, compact calmclosing warmwhite. Exact supplied PNPLINE logo upperleft atx240width260, tagline below “美国自营海外仓与跨境物流”. Four tidy navigationcolumns totheright, delicate separators and generousspace. Group1 “服务” with “美国海外仓”, “头程运输”, “清关与合规”. Group2 “了解PNPLINE” with “关于我们”, “自营仓库资料”, “资质与合规”. Group3 “报价与联系” with “价格与报价”, “联系我们”, “合作伙伴”. Group4 “语言” with “简体中文”, “한국어”, “English”. Bottomhairline within1440width and small “隐私政策” right. Quiet miniature shippingroute inlowerleft: a tiny bluevan and2cartons on a shortcyanline, coherent finaldestination notnewhero. No phone,email,QR, fake companyregistrationnumbers, brand partners, certifications oraddresses. Keepbackgroundwarmwhitefrombody, minimalfinalsection; do notintroducehugeCTAorothersections. Exactlogo shape and colors reference.",
+      "source": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a0a01d-62c3-7171-b835-fdaafebded29\\exec-9ccb027c-1967-49a1-832a-2e99139b6788.png"
+    }
+  ],
+  "revisionNotes": [
+    "10-footer: opaque background and solid navy text correction. Final footer labels/typesetting supplied as HTML.",
+    "Final 1920px exports typeset the concise content on an exact centered 1440px CSS grid. Generated images remain separate section studies; visual regions are reused via CSS framing."
+  ]
+}

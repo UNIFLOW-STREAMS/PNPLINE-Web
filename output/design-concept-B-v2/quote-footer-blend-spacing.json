@@ -1,0 +1,36 @@
+{
+  "task": "Reduce footer whitespace and blend the quote section into the footer.",
+  "createdAt": "2026-09-14T20:37:25.717Z",
+  "quote": {
+    "input": "08-quote.png",
+    "backup": "review/08-quote-before-footer-blend.png",
+    "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a09feb-ecf2-74e2-8dec-635a9efd2663\\exec-f606eb56-311a-4dc6-b6b6-7229f55f20ca.png",
+    "output": "08-quote.png",
+    "dimensions": {
+      "width": 1584,
+      "height": 993
+    },
+    "treatment": "Lower 15–18% transitions to #082A45 at the bottom edge."
+  },
+  "footer": {
+    "input": "08-footer.png",
+    "backup": "review/08-footer-before-compact-spacing.png",
+    "output": "08-footer.png",
+    "crop": {
+      "x": 0,
+      "y": 255,
+      "width": 1672,
+      "height": 455
+    },
+    "dimensions": {
+      "width": 1672,
+      "height": 455
+    },
+    "logoOverlay": {
+      "left": "2.75%",
+      "top": "31.85%",
+      "width": "20.7%",
+      "height": "22.75%"
+    }
+  }
+}

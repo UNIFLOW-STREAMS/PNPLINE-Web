@@ -1,0 +1,2531 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "https://www.pnpline.com/",
+  "generatedAt": "2026-09-15T13:10:22.0932330+00:00",
+  "rightsStatusDefault": "unverified",
+  "approvalStatusDefault": "unreviewed",
+  "options": {
+    "throttleMilliseconds": 50,
+    "pageLimit": 0,
+    "wpMediaPageLimit": 0,
+    "cssImportDepth": 3,
+    "maxStylesheets": 500,
+    "maxAssets": 2500,
+    "maxFileBytes": 536870912,
+    "requestTimeoutSeconds": 25,
+    "assetRequestTimeoutSeconds": 90,
+    "downloadVariants": false,
+    "refresh": false
+  },
+  "discovery": {
+    "robots": {
+      "url": "https://www.pnpline.com/robots.txt",
+      "status": "read",
+      "httpStatus": 200,
+      "rules": [
+        {
+          "directive": "allow",
+          "path": "/"
+        },
+        {
+          "directive": "disallow",
+          "path": "/login/"
+        },
+        {
+          "directive": "disallow",
+          "path": "/wp-admin/"
+        },
+        {
+          "directive": "allow",
+          "path": "/wp-admin/admin-ajax.php"
+        },
+        {
+          "directive": "disallow",
+          "path": "/*?s="
+        },
+        {
+          "directive": "disallow",
+          "path": "/*?replytocom="
+        },
+        {
+          "directive": "disallow",
+          "path": "/*?utm_"
+        },
+        {
+          "directive": "disallow",
+          "path": "/*?fbclid="
+        }
+      ],
+      "sitemaps": [
+        "https://www.pnpline.com/sitemap.xml",
+        "https://www.pnpline.com/sitemap_index.xml"
+      ],
+      "error": null
+    },
+    "sitemap": {
+      "status": "used",
+      "attempted": [
+        "https://www.pnpline.com/sitemap.xml",
+        "https://www.pnpline.com/sitemap_index.xml",
+        "https://www.pnpline.com/wp-sitemap.xml"
+      ],
+      "used": [
+        "https://www.pnpline.com/sitemap.xml"
+      ],
+      "pageCount": 61,
+      "fallbackCrawl": false
+    },
+    "wpRest": {
+      "url": "https://www.pnpline.com/wp-json/wp/v2/media",
+      "status": "unavailable",
+      "pagesRead": 0,
+      "mediaItems": 0,
+      "error": "HTTP 404"
+    }
+  },
+  "summary": {
+    "crawledPages": 61,
+    "discoveredAssetReferences": 533,
+    "uniqueAssets": 45,
+    "uniqueImages": 33,
+    "uniqueVideos": 0,
+    "uniqueIconsAndSvg": 12,
+    "downloadedAssets": 43,
+    "extractedInlineSvg": 2,
+    "deduplicatedAssets": 0,
+    "skipped": 427,
+    "failedAssets": 9,
+    "errors": 10,
+    "totalDownloadedBytes": 11194669,
+    "requestCount": 120,
+    "outputPath": "F:\\pnpline-landing\\output\\source-assets\\pnpline.com"
+  },
+  "assets": [
+    {
+      "id": "asset-be6785c4e7d65156",
+      "assetType": "icon",
+      "localPath": "assets/icons/be6785c4e7d65156a958513c6c1d6c56020fa40f5b8d3ecd9cc0031b8386183c.png",
+      "sha256": "be6785c4e7d65156a958513c6c1d6c56020fa40f5b8d3ecd9cc0031b8386183c",
+      "byteSize": 6183,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/favicon-32.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/favicon-32.png",
+      "downloadUrl": "https://www.pnpline.com/assets/favicon-32.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/favicon-32.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "link-icon"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/favicon-32.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:32.0239738+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-1174b76500633098",
+      "assetType": "icon",
+      "localPath": "assets/icons/1174b7650063309865fdb3026fda538f1ca6e2bd34f0051563d3e5d30f59ee19.png",
+      "sha256": "1174b7650063309865fdb3026fda538f1ca6e2bd34f0051563d3e5d30f59ee19",
+      "byteSize": 16717,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/favicon-512.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/favicon-512.png",
+      "downloadUrl": "https://www.pnpline.com/assets/favicon-512.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/favicon-512.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "link-icon"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/favicon-512.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:33.6291059+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-b90369253002d80f",
+      "assetType": "icon",
+      "localPath": "assets/icons/b90369253002d80f0b19c42eb68dd11f1b1127f720e8a60b0d9b00d879dbddf4.png",
+      "sha256": "b90369253002d80f0b19c42eb68dd11f1b1127f720e8a60b0d9b00d879dbddf4",
+      "byteSize": 8226,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/apple-touch-icon.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/apple-touch-icon.png",
+      "downloadUrl": "https://www.pnpline.com/assets/apple-touch-icon.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/apple-touch-icon.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "link-icon"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/apple-touch-icon.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:34.3118257+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-73a7d91257646e4d",
+      "assetType": "image",
+      "localPath": "assets/images/73a7d91257646e4d17cd33738f7b67175a451e3645891d951a24f63af01d53a1.png",
+      "sha256": "73a7d91257646e4d17cd33738f7b67175a451e3645891d951a24f63af01d53a1",
+      "byteSize": 22913,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/pnp-logo.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/pnp-logo.png",
+      "downloadUrl": "https://www.pnpline.com/assets/pnp-logo.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/pnp-logo.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "PNP Line"
+      ],
+      "variants": [
+        "https://www.pnpline.com/assets/pnp-logo.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:34.9858515+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-8aac6c2c0ead0b69",
+      "assetType": "icon",
+      "localPath": "assets/icons/8aac6c2c0ead0b690b11fd0d5e5243acd07952ca073465599adbe85c61507905.svg",
+      "sha256": "8aac6c2c0ead0b690b11fd0d5e5243acd07952ca073465599adbe85c61507905",
+      "byteSize": 9544,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/flag-kr.svg"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/flag-kr.svg",
+      "downloadUrl": "https://www.pnpline.com/assets/flag-kr.svg",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/flag-kr.svg"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/flag-kr.svg"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:37.8749098+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-f56337a9bc90bfc6",
+      "assetType": "image",
+      "localPath": "assets/images/f56337a9bc90bfc69f3455290bbfc498790f87c30018737506a3514e5da38972.webp",
+      "sha256": "f56337a9bc90bfc69f3455290bbfc498790f87c30018737506a3514e5da38972",
+      "byteSize": 100494,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-portrait.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-about-portrait.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-about-portrait.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-portrait.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-about-portrait.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:40.2610662+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-102a6d178353b83e",
+      "assetType": "image",
+      "localPath": "assets/images/102a6d178353b83e8cc99c9b779b64cfeec11b04a87b92ae862493fb41fa5c50.webp",
+      "sha256": "102a6d178353b83e8cc99c9b779b64cfeec11b04a87b92ae862493fb41fa5c50",
+      "byteSize": 36984,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-services-photo.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-services-photo.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-services-photo.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-services-photo.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-services-photo.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:58:40.9654116+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-25d1a2afded5c155",
+      "assetType": "image",
+      "localPath": "assets/images/25d1a2afded5c155fe2c33b35d8878850422a09ff55f0e1bc4efbdc42e4d010a.jpg",
+      "sha256": "25d1a2afded5c155fe2c33b35d8878850422a09ff55f0e1bc4efbdc42e4d010a",
+      "byteSize": 2702303,
+      "detectedMime": "image/jpeg",
+      "extension": "jpg",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/texas-facility-1.jpeg"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/texas-facility-1.jpeg",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/texas-facility-1.jpeg",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/texas-facility-1.jpeg"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/texas.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/texas-facility-1.jpeg"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:25.7369235+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-9a8eef923bcd3b6e",
+      "assetType": "image",
+      "localPath": "assets/images/9a8eef923bcd3b6e2209735c7a3376f86c338f26ebfd8fd3d592f4ff8527eaad.webp",
+      "sha256": "9a8eef923bcd3b6e2209735c7a3376f86c338f26ebfd8fd3d592f4ff8527eaad",
+      "byteSize": 43348,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-california.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-loc-california.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-loc-california.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-california.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-california.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:26.9489288+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-21180a5f666078c8",
+      "assetType": "image",
+      "localPath": "assets/images/21180a5f666078c8be9ce3a22db02c17fff7c084633ca218e8e7081df0b9b73b.webp",
+      "sha256": "21180a5f666078c8be9ce3a22db02c17fff7c084633ca218e8e7081df0b9b73b",
+      "byteSize": 106006,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-toronto.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-loc-toronto.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-loc-toronto.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-toronto.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-loc-toronto.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:30.9221000+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-4e229dd3e8886515",
+      "assetType": "image",
+      "localPath": "assets/images/4e229dd3e88865151247737ebe533967eeb2a691add1c245b08f15996d315e53.png",
+      "sha256": "4e229dd3e88865151247737ebe533967eeb2a691add1c245b08f15996d315e53",
+      "byteSize": 200422,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/integration-engine.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/integration-engine.png",
+      "downloadUrl": "https://www.pnpline.com/assets/integration-engine.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/integration-engine.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/integrations.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "Integration engine canvas showing the Amazon SP-API order flow: get access token, get orders, map order to OMS order, get order items, create OMS order",
+        "PNP Line integration engine: Amazon SP-API order flow configured visually"
+      ],
+      "variants": [
+        "https://www.pnpline.com/assets/integration-engine.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:37.2815391+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-fbb2c95247897b5a",
+      "assetType": "image",
+      "localPath": "assets/images/fbb2c95247897b5a6838039f8ff972ab67182318caf654cef8fcac43b1551a37.png",
+      "sha256": "fbb2c95247897b5a6838039f8ff972ab67182318caf654cef8fcac43b1551a37",
+      "byteSize": 19914,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.co.kr/assets/partners/amazon.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.co.kr/assets/partners/amazon.png",
+      "downloadUrl": "https://www.pnpline.co.kr/assets/partners/amazon.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.co.kr/assets/partners/amazon.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "Amazon"
+      ],
+      "variants": [
+        "https://www.pnpline.co.kr/assets/partners/amazon.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:38.2495148+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-fb14275666a97605",
+      "assetType": "image",
+      "localPath": "assets/images/fb14275666a97605b6a5005ad105111c35dcd00af68951b904e00dca9423ef14.png",
+      "sha256": "fb14275666a97605b6a5005ad105111c35dcd00af68951b904e00dca9423ef14",
+      "byteSize": 22835,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.co.kr/assets/partners/shopify.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.co.kr/assets/partners/shopify.png",
+      "downloadUrl": "https://www.pnpline.co.kr/assets/partners/shopify.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.co.kr/assets/partners/shopify.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "Shopify"
+      ],
+      "variants": [
+        "https://www.pnpline.co.kr/assets/partners/shopify.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:39.0375163+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-256d6b27889c3369",
+      "assetType": "icon",
+      "localPath": "assets/icons/256d6b27889c336961acc64b106e75e739877bce01613f251a87822002fe9c9c.svg",
+      "sha256": "256d6b27889c336961acc64b106e75e739877bce01613f251a87822002fe9c9c",
+      "byteSize": 3589,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/woocommerce"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/woocommerce",
+      "downloadUrl": "https://cdn.simpleicons.org/woocommerce",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/woocommerce"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "WooCommerce"
+      ],
+      "variants": [
+        "https://cdn.simpleicons.org/woocommerce"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:40.6526075+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-6359bc0eb7302674",
+      "assetType": "image",
+      "localPath": "assets/images/6359bc0eb7302674c24c9419b921420882040a139ec949cb829aec6cf0bbfd34.png",
+      "sha256": "6359bc0eb7302674c24c9419b921420882040a139ec949cb829aec6cf0bbfd34",
+      "byteSize": 18706,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.co.kr/assets/partners/walmart.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.co.kr/assets/partners/walmart.png",
+      "downloadUrl": "https://www.pnpline.co.kr/assets/partners/walmart.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.co.kr/assets/partners/walmart.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "Walmart"
+      ],
+      "variants": [
+        "https://www.pnpline.co.kr/assets/partners/walmart.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:41.9186620+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-4f7e56c62a82e464",
+      "assetType": "icon",
+      "localPath": "assets/icons/4f7e56c62a82e464de70b405e09eb7bc9d5c2036aef069acfcfae9f3efcf53fa.svg",
+      "sha256": "4f7e56c62a82e464de70b405e09eb7bc9d5c2036aef069acfcfae9f3efcf53fa",
+      "byteSize": 1283,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/ebay"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/ebay",
+      "downloadUrl": "https://cdn.simpleicons.org/ebay",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/ebay"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "eBay"
+      ],
+      "variants": [
+        "https://cdn.simpleicons.org/ebay"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:42.4757657+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-076963de9273cbe2",
+      "assetType": "image",
+      "localPath": "assets/images/076963de9273cbe2f679e2029c9849cfdbdc5db713429aaa6f246ef7bd0e851e.png",
+      "sha256": "076963de9273cbe2f679e2029c9849cfdbdc5db713429aaa6f246ef7bd0e851e",
+      "byteSize": 20436,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.co.kr/assets/partners/target.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.co.kr/assets/partners/target.png",
+      "downloadUrl": "https://www.pnpline.co.kr/assets/partners/target.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.co.kr/assets/partners/target.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [
+        "Target"
+      ],
+      "variants": [
+        "https://www.pnpline.co.kr/assets/partners/target.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T12:59:42.8408734+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-b90708dd3b4f778b",
+      "assetType": "image",
+      "localPath": "assets/images/b90708dd3b4f778b43ef88c28799baf8ccf143ef3376a38b295ae91099ad6d24.png",
+      "sha256": "b90708dd3b4f778b43ef88c28799baf8ccf143ef3376a38b295ae91099ad6d24",
+      "byteSize": 533066,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/home.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/home.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/home.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/home.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/home.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:16.6043418+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-9b6d7b10d9148aa8",
+      "assetType": "image",
+      "localPath": "assets/images/9b6d7b10d9148aa8736ce31c98c878d46a5f6b1406057bc68ad73cf88f7e27b2.png",
+      "sha256": "9b6d7b10d9148aa8736ce31c98c878d46a5f6b1406057bc68ad73cf88f7e27b2",
+      "byteSize": 525981,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/3pl.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/3pl.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/3pl.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/3pl.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/walmart-fulfillment.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/3pl.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:19.7420372+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-9e3b598094fed36d",
+      "assetType": "image",
+      "localPath": "assets/images/9e3b598094fed36d5713997e53a7082cd65673c5178368ee84ba66267b24a46d.webp",
+      "sha256": "9e3b598094fed36d5713997e53a7082cd65673c5178368ee84ba66267b24a46d",
+      "byteSize": 68738,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-1.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-about-story-1.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-about-story-1.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-1.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/about.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-1.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:20.5347986+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-5e273e81b8a592dc",
+      "assetType": "image",
+      "localPath": "assets/images/5e273e81b8a592dc271e4d160b482d1dc3979bad6e6f5509f690c66df9f6347d.webp",
+      "sha256": "5e273e81b8a592dc271e4d160b482d1dc3979bad6e6f5509f690c66df9f6347d",
+      "byteSize": 147980,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-2.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-about-story-2.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-about-story-2.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-2.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/about.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-about-story-2.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:21.7802099+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-0e535602e2a24fad",
+      "assetType": "image",
+      "localPath": "assets/images/0e535602e2a24fad402480aae44b04e64bdd08c650add3706e6a7a20ef63be02.webp",
+      "sha256": "0e535602e2a24fad402480aae44b04e64bdd08c650add3706e6a7a20ef63be02",
+      "byteSize": 43348,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-ca.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-about-loc-ca.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-about-loc-ca.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-ca.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/about.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-ca.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:22.7256629+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-1b2c4cb2dbb13ae8",
+      "assetType": "image",
+      "localPath": "assets/images/1b2c4cb2dbb13ae8bf1d1b4136c8fb9d4f70471d90a7dd3356b81ee036da56e6.webp",
+      "sha256": "1b2c4cb2dbb13ae8bf1d1b4136c8fb9d4f70471d90a7dd3356b81ee036da56e6",
+      "byteSize": 106006,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-to.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/pnp-about-loc-to.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/pnp-about-loc-to.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-to.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/about.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/pnp-about-loc-to.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:23.5485186+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-032da3631ca679d0",
+      "assetType": "image",
+      "localPath": "assets/images/032da3631ca679d0af6d43a4767e4b9da654784fd91134859385c2a9d6a956ae.png",
+      "sha256": "032da3631ca679d0af6d43a4767e4b9da654784fd91134859385c2a9d6a956ae",
+      "byteSize": 524117,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/about.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/about.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/about.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/about.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/about.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/about.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:26.6447925+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-c1ae847b9d91536a",
+      "assetType": "image",
+      "localPath": "assets/images/c1ae847b9d91536ae01930ff326c06c4be953226190d40eee678005f7d719b6d.png",
+      "sha256": "c1ae847b9d91536ae01930ff326c06c4be953226190d40eee678005f7d719b6d",
+      "byteSize": 531498,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/forwarding.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/forwarding.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/forwarding.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/forwarding.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/ocean-freight.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/forwarding.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:30.4732880+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-a01f5b62bef26dd2",
+      "assetType": "image",
+      "localPath": "assets/images/a01f5b62bef26dd202d0e05012379051575090561047ddfdbfdc29fbe393002f.png",
+      "sha256": "a01f5b62bef26dd202d0e05012379051575090561047ddfdbfdc29fbe393002f",
+      "byteSize": 530423,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/technology.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/technology.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/technology.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/technology.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/technology.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:34.6223667+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-cd6c2b6fcf73bc60",
+      "assetType": "image",
+      "localPath": "assets/images/cd6c2b6fcf73bc60449dae3a7426878859b3574ebb966ebfd6dc604660c0d63b.png",
+      "sha256": "cd6c2b6fcf73bc60449dae3a7426878859b3574ebb966ebfd6dc604660c0d63b",
+      "byteSize": 526373,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/blog.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/blog.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/blog.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/blog.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/blog.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:38.5171212+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-baacbc20b1e13c76",
+      "assetType": "image",
+      "localPath": "assets/images/baacbc20b1e13c76c812a765cd0fcd0b2c0876b9bc785090cdecb24b70485869.webp",
+      "sha256": "baacbc20b1e13c76c812a765cd0fcd0b2c0876b9bc785090cdecb24b70485869",
+      "byteSize": 121710,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/california-facility-1.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/california-facility-1.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/california-facility-1.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/california-facility-1.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/california.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/california-facility-1.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:40.6499567+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-54ec349eba7009d9",
+      "assetType": "image",
+      "localPath": "assets/images/54ec349eba7009d909bd9a1c2e3df5c44ee861d596fa2458a4778c74fef8d210.webp",
+      "sha256": "54ec349eba7009d909bd9a1c2e3df5c44ee861d596fa2458a4778c74fef8d210",
+      "byteSize": 64388,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/california-facility-2.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/california-facility-2.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/california-facility-2.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/california-facility-2.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/california.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/california-facility-2.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:41.3370450+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-8be6835f412185c3",
+      "assetType": "image",
+      "localPath": "assets/images/8be6835f412185c37099c9cd3720ed7b3da41b97110457a428b4872751b35e11.png",
+      "sha256": "8be6835f412185c37099c9cd3720ed7b3da41b97110457a428b4872751b35e11",
+      "byteSize": 526373,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/locations.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/locations.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/locations.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/locations.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/toronto.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/locations.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:01:47.7520643+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-01a8f14bbf2065cb",
+      "assetType": "image",
+      "localPath": "assets/images/01a8f14bbf2065cbab84a80aeb6b3835cae1d03ba1cbfb97f6feba9e32909d2e.png",
+      "sha256": "01a8f14bbf2065cbab84a80aeb6b3835cae1d03ba1cbfb97f6feba9e32909d2e",
+      "byteSize": 530408,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/contact.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/contact.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/contact.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/contact.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/contact.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/contact.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:02:00.3130408+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-34661cccc296d55d",
+      "assetType": "image",
+      "localPath": "assets/images/34661cccc296d55d111c757765f132b168aae1e36e63e64482be212644d9de36.png",
+      "sha256": "34661cccc296d55d111c757765f132b168aae1e36e63e64482be212644d9de36",
+      "byteSize": 524336,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/default.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/default.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/default.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/default.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/support.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/default.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:02:13.3153554+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-0691438066501690",
+      "assetType": "image",
+      "localPath": "assets/images/069143806650169097e9223934eb1bdf5ffa063aad11ab7f3cec98a438290780.png",
+      "sha256": "069143806650169097e9223934eb1bdf5ffa063aad11ab7f3cec98a438290780",
+      "byteSize": 536883,
+      "detectedMime": "image/png",
+      "extension": "png",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/og/customs.png"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/og/customs.png",
+      "downloadUrl": "https://www.pnpline.com/assets/og/customs.png",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/og/customs.png"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html"
+      ],
+      "discoveryMethods": [
+        "og-image"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/og/customs.png"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:02:29.0239361+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-45f38f0bca9ed3a8",
+      "assetType": "icon",
+      "localPath": "assets/icons/45f38f0bca9ed3a8e820256f2b8ecb7813c8051482ce683cf152a5ad9e4548f5.svg",
+      "sha256": "45f38f0bca9ed3a8e820256f2b8ecb7813c8051482ce683cf152a5ad9e4548f5",
+      "byteSize": 1249,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/shopify/96BF48"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/shopify/96BF48",
+      "downloadUrl": "https://cdn.simpleicons.org/shopify/96BF48",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/shopify/96BF48"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/shopify-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://cdn.simpleicons.org/shopify/96BF48"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:04:03.8081049+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-c8220f70f08688fd",
+      "assetType": "icon",
+      "localPath": "assets/icons/c8220f70f08688fd250c96d369a9041d6f9cfa5fef7d87b9cbd5da4987d804bb.svg",
+      "sha256": "c8220f70f08688fd250c96d369a9041d6f9cfa5fef7d87b9cbd5da4987d804bb",
+      "byteSize": 722,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/tiktok/25F4EE"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/tiktok/25F4EE",
+      "downloadUrl": "https://cdn.simpleicons.org/tiktok/25F4EE",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/tiktok/25F4EE"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://cdn.simpleicons.org/tiktok/25F4EE"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:04:05.1173954+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-b77d4cf6f8296859",
+      "assetType": "icon",
+      "localPath": "assets/icons/b77d4cf6f829685937782a20850b1018fe8e9e59d44c41135ad5fdce626554f0.svg",
+      "sha256": "b77d4cf6f829685937782a20850b1018fe8e9e59d44c41135ad5fdce626554f0",
+      "byteSize": 1222,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/shopee/EE4D2D"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/shopee/EE4D2D",
+      "downloadUrl": "https://cdn.simpleicons.org/shopee/EE4D2D",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/shopee/EE4D2D"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/shopee-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://cdn.simpleicons.org/shopee/EE4D2D"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:04:06.4593396+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-18e8b2f3ba92ccae",
+      "assetType": "icon",
+      "localPath": "assets/icons/18e8b2f3ba92ccae06790e38e3055badecf8695344620103c15fdc9be8229cbd.svg",
+      "sha256": "18e8b2f3ba92ccae06790e38e3055badecf8695344620103c15fdc9be8229cbd",
+      "byteSize": 3589,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://cdn.simpleicons.org/woocommerce/7F54B3"
+      ],
+      "canonicalOriginalSourceUrl": "https://cdn.simpleicons.org/woocommerce/7F54B3",
+      "downloadUrl": "https://cdn.simpleicons.org/woocommerce/7F54B3",
+      "aliasDownloadUrls": [
+        "https://cdn.simpleicons.org/woocommerce/7F54B3"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://cdn.simpleicons.org/woocommerce/7F54B3"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:04:09.1466446+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-6a8ab4b48f17d180",
+      "assetType": "image",
+      "localPath": "assets/images/6a8ab4b48f17d180842673735e4f833330f4d3c2c5a2438b4f3e3cd7c677c8b0.webp",
+      "sha256": "6a8ab4b48f17d180842673735e4f833330f4d3c2c5a2438b4f3e3cd7c677c8b0",
+      "byteSize": 89644,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/texas-photo.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/texas-photo.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/texas-photo.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/texas-photo.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/locations.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/texas-photo.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:05:41.0415814+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-18b7b87702506b08",
+      "assetType": "image",
+      "localPath": "assets/images/18b7b87702506b08f9b6473b7fb7e63f806164c09d501c883b3ff7dee475096c.webp",
+      "sha256": "18b7b87702506b08f9b6473b7fb7e63f806164c09d501c883b3ff7dee475096c",
+      "byteSize": 121710,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/california-photo.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/california-photo.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/california-photo.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/california-photo.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/locations.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/california-photo.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:05:41.8285832+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-edf2ea13c029f34b",
+      "assetType": "image",
+      "localPath": "assets/images/edf2ea13c029f34be44c7476847230a56a2b3eeaabeb6d8001b002511325742b.webp",
+      "sha256": "edf2ea13c029f34be44c7476847230a56a2b3eeaabeb6d8001b002511325742b",
+      "byteSize": 150820,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-photo.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/toronto-photo.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/toronto-photo.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-photo.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/locations.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/toronto-photo.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:05:42.9672483+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-a8cfd0289090a149",
+      "assetType": "image",
+      "localPath": "assets/images/a8cfd0289090a149d9320fb2e649774b7eb22a783708a6a4bc8b4d2367ab6e8d.webp",
+      "sha256": "a8cfd0289090a149d9320fb2e649774b7eb22a783708a6a4bc8b4d2367ab6e8d",
+      "byteSize": 67480,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/texas-facility-2.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/texas-facility-2.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/texas-facility-2.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/texas-facility-2.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/texas.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/texas-facility-2.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:08:45.2386041+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-8d71db29bfc3fcf1",
+      "assetType": "image",
+      "localPath": "assets/images/8d71db29bfc3fcf1d5080a3df848224989508fb70f50406df5f1fa9dc1cef334.webp",
+      "sha256": "8d71db29bfc3fcf1d5080a3df848224989508fb70f50406df5f1fa9dc1cef334",
+      "byteSize": 150820,
+      "detectedMime": "image/webp",
+      "extension": "webp",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-1.webp"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/toronto-facility-1.webp",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/toronto-facility-1.webp",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-1.webp"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/toronto.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-1.webp"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:08:46.5191077+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-8b08744f8502773d",
+      "assetType": "image",
+      "localPath": "assets/images/8b08744f8502773da1c3d407483f9d19ab17f48bce5e8a16c1c3958eae5a855d.jpg",
+      "sha256": "8b08744f8502773da1c3d407483f9d19ab17f48bce5e8a16c1c3958eae5a855d",
+      "byteSize": 1424808,
+      "detectedMime": "image/jpeg",
+      "extension": "jpg",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-2.jpg"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/assets/photos/toronto-facility-2.jpg",
+      "downloadUrl": "https://www.pnpline.com/assets/photos/toronto-facility-2.jpg",
+      "aliasDownloadUrls": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-2.jpg"
+      ],
+      "sourcePages": [
+        "https://www.pnpline.com/toronto.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/assets/photos/toronto-facility-2.jpg"
+      ],
+      "httpStatus": 200,
+      "downloadTimestamp": "2026-09-15T13:08:52.0692728+00:00",
+      "downloadStatus": "success",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-567319debd1e25b6",
+      "assetType": "inline-svg",
+      "localPath": "assets/inline-svg/567319debd1e25b618ceb2b555b8d60d0290d1ce3a53763387fe279a663d4aa6.svg",
+      "sha256": "567319debd1e25b618ceb2b555b8d60d0290d1ce3a53763387fe279a663d4aa6",
+      "byteSize": 537,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/#inline-svg-1",
+        "https://www.pnpline.com/3pl.html#inline-svg-1",
+        "https://www.pnpline.com/about.html#inline-svg-1",
+        "https://www.pnpline.com/air-freight.html#inline-svg-1",
+        "https://www.pnpline.com/amazon-fba-prep.html#inline-svg-1",
+        "https://www.pnpline.com/amazon-sp-api-integration.html#inline-svg-1",
+        "https://www.pnpline.com/b2c-express.html#inline-svg-1",
+        "https://www.pnpline.com/best-buy-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/blog-post.html#inline-svg-1",
+        "https://www.pnpline.com/blog.html#inline-svg-1",
+        "https://www.pnpline.com/cafe24-integration.html#inline-svg-1",
+        "https://www.pnpline.com/california.html#inline-svg-1",
+        "https://www.pnpline.com/china-to-canada.html#inline-svg-1",
+        "https://www.pnpline.com/china-to-usa.html#inline-svg-1",
+        "https://www.pnpline.com/contact.html#inline-svg-1",
+        "https://www.pnpline.com/cookie-policy.html#inline-svg-1",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/customs-bond-isf.html#inline-svg-1",
+        "https://www.pnpline.com/de-minimis-section-321.html#inline-svg-1",
+        "https://www.pnpline.com/drayage-trucking.html#inline-svg-1",
+        "https://www.pnpline.com/edi-integration.html#inline-svg-1",
+        "https://www.pnpline.com/faq.html#inline-svg-1",
+        "https://www.pnpline.com/fda-import-compliance.html#inline-svg-1",
+        "https://www.pnpline.com/forwarding-system.html#inline-svg-1",
+        "https://www.pnpline.com/forwarding.html#inline-svg-1",
+        "https://www.pnpline.com/fta-certificate-of-origin.html#inline-svg-1",
+        "https://www.pnpline.com/get-a-quote.html#inline-svg-1",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/industries.html#inline-svg-1",
+        "https://www.pnpline.com/inflow-integration.html#inline-svg-1",
+        "https://www.pnpline.com/integrations.html#inline-svg-1",
+        "https://www.pnpline.com/international-sellers.html#inline-svg-1",
+        "https://www.pnpline.com/ior-clearance.html#inline-svg-1",
+        "https://www.pnpline.com/kitting-value-added.html#inline-svg-1",
+        "https://www.pnpline.com/korea-to-usa.html#inline-svg-1",
+        "https://www.pnpline.com/locations.html#inline-svg-1",
+        "https://www.pnpline.com/netsuite-integration.html#inline-svg-1",
+        "https://www.pnpline.com/non-resident-importer.html#inline-svg-1",
+        "https://www.pnpline.com/ocean-freight.html#inline-svg-1",
+        "https://www.pnpline.com/oms.html#inline-svg-1",
+        "https://www.pnpline.com/pricing.html#inline-svg-1",
+        "https://www.pnpline.com/privacy-policy.html#inline-svg-1",
+        "https://www.pnpline.com/retail-edi-compliance.html#inline-svg-1",
+        "https://www.pnpline.com/returns-reverse-logistics.html#inline-svg-1",
+        "https://www.pnpline.com/services.html#inline-svg-1",
+        "https://www.pnpline.com/shopee-integration.html#inline-svg-1",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/shopify-integration.html#inline-svg-1",
+        "https://www.pnpline.com/support.html#inline-svg-1",
+        "https://www.pnpline.com/target-plus-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/technology.html#inline-svg-1",
+        "https://www.pnpline.com/texas.html#inline-svg-1",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/tiktok-shop-integration.html#inline-svg-1",
+        "https://www.pnpline.com/toronto.html#inline-svg-1",
+        "https://www.pnpline.com/trade-compliance.html#inline-svg-1",
+        "https://www.pnpline.com/us-tariffs-duties.html#inline-svg-1",
+        "https://www.pnpline.com/walmart-fulfillment.html#inline-svg-1",
+        "https://www.pnpline.com/walmart-integration.html#inline-svg-1",
+        "https://www.pnpline.com/wms.html#inline-svg-1",
+        "https://www.pnpline.com/woocommerce-integration.html#inline-svg-1"
+      ],
+      "canonicalOriginalSourceUrl": null,
+      "downloadUrl": null,
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "inline-svg"
+      ],
+      "altTexts": [],
+      "variants": [],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:10:22.0729453+00:00",
+      "downloadStatus": "extracted",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-e12ae9698cad666f",
+      "assetType": "inline-svg",
+      "localPath": "assets/inline-svg/e12ae9698cad666fdc06f0edc3c2c0d0ff8756ffa0590cec188efcff32a03e42.svg",
+      "sha256": "e12ae9698cad666fdc06f0edc3c2c0d0ff8756ffa0590cec188efcff32a03e42",
+      "byteSize": 537,
+      "detectedMime": "image/svg+xml",
+      "extension": "svg",
+      "observedSourceUrls": [
+        "https://www.pnpline.com/#inline-svg-2",
+        "https://www.pnpline.com/3pl.html#inline-svg-2",
+        "https://www.pnpline.com/about.html#inline-svg-2",
+        "https://www.pnpline.com/air-freight.html#inline-svg-2",
+        "https://www.pnpline.com/amazon-fba-prep.html#inline-svg-2",
+        "https://www.pnpline.com/amazon-sp-api-integration.html#inline-svg-2",
+        "https://www.pnpline.com/b2c-express.html#inline-svg-2",
+        "https://www.pnpline.com/best-buy-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/blog-post.html#inline-svg-2",
+        "https://www.pnpline.com/blog.html#inline-svg-2",
+        "https://www.pnpline.com/cafe24-integration.html#inline-svg-2",
+        "https://www.pnpline.com/california.html#inline-svg-2",
+        "https://www.pnpline.com/china-to-canada.html#inline-svg-2",
+        "https://www.pnpline.com/china-to-usa.html#inline-svg-2",
+        "https://www.pnpline.com/contact.html#inline-svg-2",
+        "https://www.pnpline.com/cookie-policy.html#inline-svg-2",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/customs-bond-isf.html#inline-svg-2",
+        "https://www.pnpline.com/de-minimis-section-321.html#inline-svg-2",
+        "https://www.pnpline.com/drayage-trucking.html#inline-svg-2",
+        "https://www.pnpline.com/edi-integration.html#inline-svg-2",
+        "https://www.pnpline.com/faq.html#inline-svg-2",
+        "https://www.pnpline.com/fda-import-compliance.html#inline-svg-2",
+        "https://www.pnpline.com/forwarding-system.html#inline-svg-2",
+        "https://www.pnpline.com/forwarding.html#inline-svg-2",
+        "https://www.pnpline.com/fta-certificate-of-origin.html#inline-svg-2",
+        "https://www.pnpline.com/get-a-quote.html#inline-svg-2",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/industries.html#inline-svg-2",
+        "https://www.pnpline.com/inflow-integration.html#inline-svg-2",
+        "https://www.pnpline.com/integrations.html#inline-svg-2",
+        "https://www.pnpline.com/international-sellers.html#inline-svg-2",
+        "https://www.pnpline.com/ior-clearance.html#inline-svg-2",
+        "https://www.pnpline.com/kitting-value-added.html#inline-svg-2",
+        "https://www.pnpline.com/korea-to-usa.html#inline-svg-2",
+        "https://www.pnpline.com/locations.html#inline-svg-2",
+        "https://www.pnpline.com/netsuite-integration.html#inline-svg-2",
+        "https://www.pnpline.com/non-resident-importer.html#inline-svg-2",
+        "https://www.pnpline.com/ocean-freight.html#inline-svg-2",
+        "https://www.pnpline.com/oms.html#inline-svg-2",
+        "https://www.pnpline.com/pricing.html#inline-svg-2",
+        "https://www.pnpline.com/privacy-policy.html#inline-svg-2",
+        "https://www.pnpline.com/retail-edi-compliance.html#inline-svg-2",
+        "https://www.pnpline.com/returns-reverse-logistics.html#inline-svg-2",
+        "https://www.pnpline.com/services.html#inline-svg-2",
+        "https://www.pnpline.com/shopee-integration.html#inline-svg-2",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/shopify-integration.html#inline-svg-2",
+        "https://www.pnpline.com/support.html#inline-svg-2",
+        "https://www.pnpline.com/target-plus-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/technology.html#inline-svg-2",
+        "https://www.pnpline.com/texas.html#inline-svg-2",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/tiktok-shop-integration.html#inline-svg-2",
+        "https://www.pnpline.com/toronto.html#inline-svg-2",
+        "https://www.pnpline.com/trade-compliance.html#inline-svg-2",
+        "https://www.pnpline.com/us-tariffs-duties.html#inline-svg-2",
+        "https://www.pnpline.com/walmart-fulfillment.html#inline-svg-2",
+        "https://www.pnpline.com/walmart-integration.html#inline-svg-2",
+        "https://www.pnpline.com/wms.html#inline-svg-2",
+        "https://www.pnpline.com/woocommerce-integration.html#inline-svg-2"
+      ],
+      "canonicalOriginalSourceUrl": null,
+      "downloadUrl": null,
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/",
+        "https://www.pnpline.com/3pl.html",
+        "https://www.pnpline.com/about.html",
+        "https://www.pnpline.com/air-freight.html",
+        "https://www.pnpline.com/amazon-fba-prep.html",
+        "https://www.pnpline.com/amazon-sp-api-integration.html",
+        "https://www.pnpline.com/b2c-express.html",
+        "https://www.pnpline.com/best-buy-fulfillment.html",
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html",
+        "https://www.pnpline.com/cafe24-integration.html",
+        "https://www.pnpline.com/california.html",
+        "https://www.pnpline.com/china-to-canada.html",
+        "https://www.pnpline.com/china-to-usa.html",
+        "https://www.pnpline.com/contact.html",
+        "https://www.pnpline.com/cookie-policy.html",
+        "https://www.pnpline.com/costco-sams-club-fulfillment.html",
+        "https://www.pnpline.com/customs-bond-isf.html",
+        "https://www.pnpline.com/de-minimis-section-321.html",
+        "https://www.pnpline.com/drayage-trucking.html",
+        "https://www.pnpline.com/edi-integration.html",
+        "https://www.pnpline.com/faq.html",
+        "https://www.pnpline.com/fda-import-compliance.html",
+        "https://www.pnpline.com/forwarding-system.html",
+        "https://www.pnpline.com/forwarding.html",
+        "https://www.pnpline.com/fta-certificate-of-origin.html",
+        "https://www.pnpline.com/get-a-quote.html",
+        "https://www.pnpline.com/home-depot-lowes-fulfillment.html",
+        "https://www.pnpline.com/industries.html",
+        "https://www.pnpline.com/inflow-integration.html",
+        "https://www.pnpline.com/integrations.html",
+        "https://www.pnpline.com/international-sellers.html",
+        "https://www.pnpline.com/ior-clearance.html",
+        "https://www.pnpline.com/kitting-value-added.html",
+        "https://www.pnpline.com/korea-to-usa.html",
+        "https://www.pnpline.com/locations.html",
+        "https://www.pnpline.com/netsuite-integration.html",
+        "https://www.pnpline.com/non-resident-importer.html",
+        "https://www.pnpline.com/ocean-freight.html",
+        "https://www.pnpline.com/oms.html",
+        "https://www.pnpline.com/pricing.html",
+        "https://www.pnpline.com/privacy-policy.html",
+        "https://www.pnpline.com/retail-edi-compliance.html",
+        "https://www.pnpline.com/returns-reverse-logistics.html",
+        "https://www.pnpline.com/services.html",
+        "https://www.pnpline.com/shopee-integration.html",
+        "https://www.pnpline.com/shopify-d2c-fulfillment.html",
+        "https://www.pnpline.com/shopify-integration.html",
+        "https://www.pnpline.com/support.html",
+        "https://www.pnpline.com/target-plus-fulfillment.html",
+        "https://www.pnpline.com/technology.html",
+        "https://www.pnpline.com/texas.html",
+        "https://www.pnpline.com/tiktok-shop-fulfillment.html",
+        "https://www.pnpline.com/tiktok-shop-integration.html",
+        "https://www.pnpline.com/toronto.html",
+        "https://www.pnpline.com/trade-compliance.html",
+        "https://www.pnpline.com/us-tariffs-duties.html",
+        "https://www.pnpline.com/walmart-fulfillment.html",
+        "https://www.pnpline.com/walmart-integration.html",
+        "https://www.pnpline.com/wms.html",
+        "https://www.pnpline.com/woocommerce-integration.html"
+      ],
+      "discoveryMethods": [
+        "inline-svg"
+      ],
+      "altTexts": [],
+      "variants": [],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:10:22.0734352+00:00",
+      "downloadStatus": "extracted",
+      "errorSummary": null,
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-8bdb21176b05117d",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/edited_pnpline_re.mp4"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/edited_pnpline_re.mp4",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/edited_pnpline_re.mp4",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/edited_pnpline_re.mp4"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:01:12.8605713+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-57d9f873c949d2f8",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://www.pnpline.com/%7B%7B%20post.image%20%7D%7D"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/%7B%7B%20post.image%20%7D%7D",
+      "downloadUrl": "https://www.pnpline.com/%7B%7B%20post.image%20%7D%7D",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/blog-post.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/%7B%7B%20post.image%20%7D%7D"
+      ],
+      "httpStatus": 404,
+      "downloadTimestamp": "2026-09-15T13:01:35.0359617+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "HTTP 404",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-2eeb024209dbc841",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://www.pnpline.com/%7B%7B%20p.image%20%7D%7D"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/%7B%7B%20p.image%20%7D%7D",
+      "downloadUrl": "https://www.pnpline.com/%7B%7B%20p.image%20%7D%7D",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/blog-post.html",
+        "https://www.pnpline.com/blog.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/%7B%7B%20p.image%20%7D%7D"
+      ],
+      "httpStatus": 404,
+      "downloadTimestamp": "2026-09-15T13:01:35.5116965+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "HTTP 404",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-43625c966b1ce844",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://www.pnpline.com/%7B%7B%20featured.image%20%7D%7D"
+      ],
+      "canonicalOriginalSourceUrl": "https://www.pnpline.com/%7B%7B%20featured.image%20%7D%7D",
+      "downloadUrl": "https://www.pnpline.com/%7B%7B%20featured.image%20%7D%7D",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/blog.html"
+      ],
+      "discoveryMethods": [
+        "img-src"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://www.pnpline.com/%7B%7B%20featured.image%20%7D%7D"
+      ],
+      "httpStatus": 404,
+      "downloadTimestamp": "2026-09-15T13:01:39.3236176+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "HTTP 404",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-b351b001add7689d",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/freight-forwarding.mp4"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/freight-forwarding.mp4",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/freight-forwarding.mp4",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/forwarding-system.html"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/freight-forwarding.mp4"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:03:59.0482167+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-cb2beea824dd6708",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/international-hero_re.mp4"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/international-hero_re.mp4",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/international-hero_re.mp4",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/international-sellers.html"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/international-hero_re.mp4"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:05:39.1605224+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-4a56305dfd14d580",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/tx_pnpline_edited_re.mp4"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/tx_pnpline_edited_re.mp4",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/tx_pnpline_edited_re.mp4",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/locations.html"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/tx_pnpline_edited_re.mp4"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:07:12.9763223+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-530459a4fd9a9e76",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/OMSVideo2.mp4?v=1080"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/OMSVideo2.mp4?v=1080",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/OMSVideo2.mp4?v=1080",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/oms.html"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/OMSVideo2.mp4?v=1080"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:08:42.9841623+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    },
+    {
+      "id": "asset-url-daad5b0df16ed026",
+      "assetType": "unknown",
+      "localPath": null,
+      "sha256": null,
+      "byteSize": 0,
+      "detectedMime": null,
+      "extension": null,
+      "observedSourceUrls": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/wms-demo.mp4"
+      ],
+      "canonicalOriginalSourceUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/wms-demo.mp4",
+      "downloadUrl": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/wms-demo.mp4",
+      "aliasDownloadUrls": [],
+      "sourcePages": [
+        "https://www.pnpline.com/wms.html"
+      ],
+      "discoveryMethods": [
+        "video"
+      ],
+      "altTexts": [],
+      "variants": [
+        "https://elimcdnbucket.s3.us-east-1.amazonaws.com/wms-demo.mp4"
+      ],
+      "httpStatus": null,
+      "downloadTimestamp": "2026-09-15T13:10:22.0701356+00:00",
+      "downloadStatus": "failed",
+      "errorSummary": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+      "rightsStatus": "unverified",
+      "approvalStatus": "unreviewed",
+      "variantOf": null
+    }
+  ]
+}

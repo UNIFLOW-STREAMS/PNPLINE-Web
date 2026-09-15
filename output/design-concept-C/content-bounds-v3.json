@@ -1,0 +1,146 @@
+{
+  "canvasWidth": 1920,
+  "contentWidth": 1440,
+  "outerGutter": 240,
+  "verticalSectionGap": 240,
+  "sourceRasterUnchanged": true,
+  "bounds": [
+    {
+      "id": "02-logistics-flow",
+      "x": 50,
+      "y": 92,
+      "right": 1588,
+      "bottom": 900,
+      "width": 1538,
+      "height": 808,
+      "scale": 0.9362808842652796
+    },
+    {
+      "id": "03-customer-types",
+      "x": 170,
+      "y": 96,
+      "right": 1504,
+      "bottom": 873,
+      "width": 1334,
+      "height": 777,
+      "scale": 1.0794602698650675
+    },
+    {
+      "id": "04-services",
+      "x": 159,
+      "y": 76,
+      "right": 1517,
+      "bottom": 888,
+      "width": 1358,
+      "height": 812,
+      "scale": 1.0603829160530192
+    },
+    {
+      "id": "05-operations-system",
+      "x": 173,
+      "y": 80,
+      "right": 1559,
+      "bottom": 894,
+      "width": 1386,
+      "height": 814,
+      "scale": 1.0389610389610389
+    },
+    {
+      "id": "06-customs",
+      "x": 123,
+      "y": 176,
+      "right": 1549,
+      "bottom": 793,
+      "width": 1426,
+      "height": 617,
+      "scale": 1.0098176718092566
+    },
+    {
+      "id": "07-costs",
+      "x": 148,
+      "y": 104,
+      "right": 1533,
+      "bottom": 896,
+      "width": 1385,
+      "height": 792,
+      "scale": 1.03971119133574
+    },
+    {
+      "id": "08-faq",
+      "x": 155,
+      "y": 84,
+      "right": 1516,
+      "bottom": 893,
+      "width": 1361,
+      "height": 809,
+      "scale": 1.0580455547391623
+    },
+    {
+      "id": "09-inquiry",
+      "x": 137,
+      "y": 90,
+      "right": 1536,
+      "bottom": 868,
+      "width": 1399,
+      "height": 778,
+      "scale": 1.0293066476054324
+    },
+    {
+      "id": "10-footer",
+      "x": 72,
+      "y": 259,
+      "right": 1672,
+      "bottom": 738,
+      "width": 1600,
+      "height": 479,
+      "scale": 0.9
+    }
+  ],
+  "transforms": [
+    {
+      "id": "02-logistics-flow",
+      "style": "--frame-height:756.514954px;--image-width:1565.461638px;--image-left:-46.814044px;--image-top:-86.137841px",
+      "exportHeight": 997
+    },
+    {
+      "id": "03-customer-types",
+      "style": "--frame-height:838.740630px;--image-width:1804.857571px;--image-left:-183.508246px;--image-top:-103.628186px",
+      "exportHeight": 1079
+    },
+    {
+      "id": "04-services",
+      "style": "--frame-height:861.030928px;--image-width:1772.960236px;--image-left:-168.600884px;--image-top:-80.589102px",
+      "exportHeight": 1102
+    },
+    {
+      "id": "05-operations-system",
+      "style": "--frame-height:845.714286px;--image-width:1737.142857px;--image-left:-179.740260px;--image-top:-83.116883px",
+      "exportHeight": 1086
+    },
+    {
+      "id": "06-customs",
+      "style": "--frame-height:623.057504px;--image-width:1688.415147px;--image-left:-124.207574px;--image-top:-177.727910px",
+      "exportHeight": 864
+    },
+    {
+      "id": "07-costs",
+      "style": "--frame-height:823.451264px;--image-width:1738.397112px;--image-left:-153.877256px;--image-top:-108.129964px",
+      "exportHeight": 1064
+    },
+    {
+      "id": "08-faq",
+      "style": "--frame-height:855.958854px;--image-width:1769.052168px;--image-left:-163.997061px;--image-top:-88.875827px",
+      "exportHeight": 1096
+    },
+    {
+      "id": "09-inquiry",
+      "style": "--frame-height:800.800572px;--image-width:1721.000715px;--image-left:-141.015011px;--image-top:-92.637598px",
+      "exportHeight": 1041
+    },
+    {
+      "id": "10-footer",
+      "style": "--frame-height:431.100000px;--image-width:1504.800000px;--image-left:-64.800000px;--image-top:-233.100000px",
+      "exportHeight": 672
+    }
+  ]
+}

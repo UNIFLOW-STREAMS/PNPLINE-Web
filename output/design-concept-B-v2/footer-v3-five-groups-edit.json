@@ -1,0 +1,102 @@
+{
+  "created": "2026-09-15",
+  "request": "푸터를 견적 섹션에서 분리하고 v3 기준 5개 정보 그룹으로 확장",
+  "outputs": [
+    {
+      "output": "08-quote.png",
+      "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-ac6c1f92-13b8-42f7-ac90-69654642d714.png",
+      "role": "quote-only section"
+    },
+    {
+      "output": "08-footer.png",
+      "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a09feb-ecf2-74e2-8dec-635a9efd2663/exec-00a463e1-8e79-41d8-860d-897180b4d216.png",
+      "role": "footer background with empty official-logo plate"
+    }
+  ],
+  "backup": "review/08-quote-before-footer-split.png",
+  "brief": "docs/pnpline-china-source-content/pnpline-home-a-content-brief-v3.md:526",
+  "officialLogo": "resources/logo/PNP-LINE.webp",
+  "notes": [
+    "언어 목적지 미확정 — URL 하드코딩하지 않음",
+    "공개 연락처·법인정보·인증 배지 미추가"
+  ],
+  "groups": [
+    {
+      "id": "services",
+      "title": "服务",
+      "links": [
+        [
+          "美国海外仓",
+          "/warehouse/"
+        ],
+        [
+          "头程运输",
+          "/freight/"
+        ],
+        [
+          "清关与合规",
+          "/customs/"
+        ]
+      ]
+    },
+    {
+      "id": "about",
+      "title": "了解PNPLINE",
+      "links": [
+        [
+          "关于我们",
+          "/about/"
+        ],
+        [
+          "自营仓库资料",
+          "/about/facilities/"
+        ],
+        [
+          "资质与合规",
+          "/about/compliance/"
+        ]
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "报价与联系",
+      "links": [
+        [
+          "价格与报价",
+          "/pricing/"
+        ],
+        [
+          "联系我们",
+          "/contact/"
+        ],
+        [
+          "合作伙伴",
+          "/partner/"
+        ]
+      ]
+    },
+    {
+      "id": "policy",
+      "title": "政策",
+      "links": [
+        [
+          "隐私政策",
+          "/privacy/"
+        ]
+      ]
+    },
+    {
+      "id": "language",
+      "title": "语言",
+      "items": [
+        "简体中文",
+        "한국어",
+        "English"
+      ]
+    }
+  ],
+  "prompts": {
+    "footer": "Using the current PNPLINE quote-and-footer image only as a visual style reference, create ONE completely new standalone horizontal 16:9 footer section image at 1672×941. This image must contain ONLY the footer, not the quote form or warehouse photo.\n\nCONTENT — use exactly:\n\nBrand line:\nPNPLINE — 美国自营海外仓与跨境物流服务\n\nGroup 1 title: 服务\n美国海外仓\n头程运输\n清关与合规\n\nGroup 2 title: 了解PNPLINE\n关于我们\n自营仓库资料\n资质与合规\n\nGroup 3 title: 报价与联系\n价格与报价\n联系我们\n合作伙伴\n\nGroup 4 title: 政策\n隐私政策\n\nGroup 5 title: 语言\n简体中文\n한국어\nEnglish\n\nDo not display raw URLs in the image.\n\nLAYOUT AND STYLE:\n- Premium deep-navy footer matching the current PNPLINE quote section, with controlled #00ABE1 accents and #007FA8 interactive-link accents.\n- Use an asymmetric editorial grid: the left 30–34% is a generous brand area; the right side contains five clearly separated link columns on one desktop row.\n- In the upper-left brand area, reserve a clean white logo plate sized for the official PNPLINE horizontal logo. Leave the plate EMPTY: no typed PNPLINE, no invented logo, no placeholder word, no icon. The actual official logo will be overlaid in HTML.\n- Place the exact brand line \"PNPLINE — 美国自营海外仓与跨境物流服务\" beneath the empty logo plate as text, with PNPLINE written once in the brand line as required by the brief.\n- Give the five column titles clear blue emphasis and the links smaller off-white text with comfortable 16–20px-equivalent vertical spacing.\n- Add a fine cool-blue horizontal rule to anchor the layout, with generous whitespace above, between columns, and below.\n- The language group must show only the three language labels. Do not invent domain URLs, flags, country icons, or a language switcher dropdown.\n- No email address, phone number, WeChat QR, company registration number, certification badge, social media, copyright line, location, or invented operational information.\n- No photos, illustrations, maps, gradients, glass effects, glows, drop shadows, decorative numbers, or oversized empty ornaments.\n- Make the footer spacious, premium, implementation-ready, and clearly more complete than the old three-link strip.\n- Ensure every Chinese and Korean character is exact and legible.\n- Output only the standalone footer section image.",
+    "quoteFooterRemoval": "Among the supplied references, edit ONLY the existing PNPLINE quote section image that contains the warehouse conveyor photograph on the left and the white logistics inquiry form on the right. Ignore the standalone five-column footer reference.\n\nCreate ONE standalone quote-form section image in the same approximate 16:10 aspect ratio as the source. Preserve the entire quote section exactly:\n- warehouse conveyor background and blue-taped box\n- left eyebrow 获取报价\n- headline 告诉我们 您的物流需求\n- supporting copy\n- the complete white form card, all fields, consent, privacy explanation, and 提交咨询 CTA\n- the small left-side form guidance and privacy/sensitive-data note above the old footer area\n- current PNPLINE blue and navy color treatment\n\nRemove ONLY the old footer strip from the bottom:\n- remove the generated PNPLINE logo plate at bottom-left\n- remove the text 美国海外仓与跨境物流服务 from that strip\n- remove the three links 价格与报价, 联系我们, 隐私政策\n- remove the horizontal footer divider line\n- remove every separator associated with that footer strip\n\nAfter removal, naturally extend the existing dark warehouse floor/background to the bottom edge. Keep enough bottom padding below the form and the left-side legal note. Do not move, rewrite, crop, or omit the form content. Do not add any new footer, logo, link, contact detail, registration information, or decorative element.\n\nThe output must be a clean quote-only website section that can be followed by a separate footer image. Output only the complete quote section image."
+  }
+}

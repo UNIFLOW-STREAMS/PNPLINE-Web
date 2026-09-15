@@ -1,0 +1,43 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..');
+const record=JSON.parse(fs.readFileSync(path.join(root,'faq-v3-eight-edit.json'),'utf8'));
+const src=record.source,active=path.join(root,'07-faq.png'),backup=path.join(root,record.backup);
+if(!fs.existsSync(backup))fs.copyFileSync(active,backup);
+const b=fs.readFileSync(src),width=b.readUInt32BE(16),height=b.readUInt32BE(20);
+fs.writeFileSync(active,b);
+const indexPath=path.join(root,'index.html');
+let index=fs.readFileSync(indexPath,'utf8');
+index=index.replace(/<section id="faq"[\s\S]*?<\/section>/,`<section id="faq" class="scene" aria-label="咨询前的八个常见问题"><img class="scene-image" src="07-faq.png" width="${width}" height="${height}" alt="报价准备、货量未定、一件代发与FBA选择、中国发货与美国清关、费用范围、IOR需求、美国自营仓库、WMS库存与出库进度八项问答及相关服务链接。完整文案见 faq-v3-content.zh-CN.md。"></section>`);
+fs.writeFileSync(indexPath,index);
+const reviewPath=path.join(root,'review.html');
+let review=fs.readFileSync(reviewPath,'utf8');
+review=review.replace(/<figure><a href="07-faq.png"[\s\S]*?<\/figure>/,'<figure><a href="07-faq.png"><img src="07-faq.png" alt="08 · FAQ 8개·v3 답변·관련 링크"><figcaption>08 · FAQ 8개·v3 답변·관련 링크</figcaption></a></figure>');
+fs.writeFileSync(reviewPath,review);
+const mdPath=path.join(root,'content.zh-CN.md');
+let md=fs.readFileSync(mdPath,'utf8');
+const rows=record.faqs.flatMap(x=>{
+ const out=[`| FAQ.${x.n}.q | draft-visible | ${x.q} |`,`| FAQ.${x.n}.a | draft-state-visible | ${x.a} |`];
+ if(x.links.length)out.push(`| FAQ.${x.n}.links | planned-unpublished | ${x.links.map(l=>l.label+' → '+l.path).join('；')} |`);
+ return out;
+}).join('\n');
+md=md.replace(/\| FAQ\.1\.q[\s\S]*?\| FAQ\.6\.a[^\n]*\n?/,rows+'\n');
+fs.writeFileSync(mdPath,md);
+const jsonPath=path.join(root,'content.zh-CN.json');
+const data=JSON.parse(fs.readFileSync(jsonPath,'utf8'));
+for(const key of Object.keys(data))if(/^FAQ\./.test(key))delete data[key];
+for(const x of record.faqs){
+ data[`FAQ.${x.n}.q`]={text:x.q,status:'draft-visible'};
+ data[`FAQ.${x.n}.a`]={text:x.a,status:'draft-state-visible'};
+ if(x.links.length)data[`FAQ.${x.n}.links`]={text:x.links.map(l=>l.label+' → '+l.path).join('；'),status:'planned-unpublished'};
+}
+fs.writeFileSync(jsonPath,JSON.stringify(data,null,2)+'\n');
+const capturePath=path.join(root,'src/capture.cjs');
+let capture=fs.readFileSync(capturePath,'utf8');
+if(!capture.includes("'#faq'"))capture=capture.replace("await shot('review/policy-customs-1440.png','#policy-customs');","await shot('review/policy-customs-1440.png','#policy-customs');await shot('review/faq-1440.png','#faq');");
+fs.writeFileSync(capturePath,capture);
+const readmePath=path.join(root,'README.md');
+let readme=fs.readFileSync(readmePath,'utf8').replaceAll('FAQ 6개','FAQ 8개').replace('| 07-faq.png | 현재 A안 FAQ 6개와 답변 |','| 07-faq.png | v3 FAQ 8개 / 전체 답변 / 관련 서비스 링크 |');
+const heading='## FAQ v3 8개 확장';
+if(!readme.includes(heading))readme+='\n\n'+heading+'\n\n기존 6개 문답을 v3 기준 문구로 교체하고 미국 직영창고와 WMS 재고·출고 조회 질문을 추가했습니다. Q3–Q8에는 브리프의 관련 서비스 링크를 배치했습니다. 시설 자료가 준비되지 않은 Q7은 조건부 대체 경로 /contact/를 사용하며, 검수된 IOR 기사가 확인되지 않은 Q6은 /customs/ior/만 연결합니다.\n\n- 현재 이미지: [07-faq.png](07-faq.png)\n- 전체 원고와 링크: [faq-v3-content.zh-CN.md](faq-v3-content.zh-CN.md)\n- 수정 전 보존본: [review/07-faq-before-v3-eight.png](review/07-faq-before-v3-eight.png)\n- 생성 기록: [faq-v3-eight-edit.json](faq-v3-eight-edit.json)\n';
+fs.writeFileSync(readmePath,readme);
+console.log(JSON.stringify({width,height,faqCount:record.faqs.length},null,2));

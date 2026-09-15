@@ -1,0 +1,11 @@
+[0:v]scale=1920:1080:flags=lanczos,setsar=1[hero];
+[1:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[journey];
+[2:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[customers];
+[3:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[services];
+[4:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=0xF4F7F8,setsar=1[operations];
+[5:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[customs];
+[6:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[costs];
+[7:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[faq];
+[8:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=0x00ABE1,setsar=1[inquiry];
+[9:v]scale=1440:810:flags=lanczos,pad=1920:870:240:30:color=white,setsar=1[footer];
+[hero][journey][customers][services][operations][customs][costs][faq][inquiry][footer]vstack=inputs=10[out]

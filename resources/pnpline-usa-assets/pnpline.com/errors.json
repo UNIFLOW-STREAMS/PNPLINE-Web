@@ -1,0 +1,72 @@
+[
+  {
+    "phase": "wp-rest",
+    "url": "https://www.pnpline.com/wp-json/wp/v2/media?per_page=100&page=1&_fields=id,source_url,mime_type,media_details,alt_text,link",
+    "httpStatus": 404,
+    "error": "HTTP 404",
+    "timestamp": "2026-09-15T12:58:31.7920905+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/edited_pnpline_re.mp4",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:01:12.8606959+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://www.pnpline.com/%7B%7B%20post.image%20%7D%7D",
+    "httpStatus": 404,
+    "error": "HTTP 404",
+    "timestamp": "2026-09-15T13:01:35.0360473+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://www.pnpline.com/%7B%7B%20p.image%20%7D%7D",
+    "httpStatus": 404,
+    "error": "HTTP 404",
+    "timestamp": "2026-09-15T13:01:35.5117573+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://www.pnpline.com/%7B%7B%20featured.image%20%7D%7D",
+    "httpStatus": 404,
+    "error": "HTTP 404",
+    "timestamp": "2026-09-15T13:01:39.3236921+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/freight-forwarding.mp4",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:03:59.0483078+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/international-hero_re.mp4",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:05:39.1606328+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/tx_pnpline_edited_re.mp4",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:07:12.9763991+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/OMSVideo2.mp4?v=1080",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:08:42.9842422+00:00"
+  },
+  {
+    "phase": "asset-download",
+    "url": "https://elimcdnbucket.s3.us-east-1.amazonaws.com/wms-demo.mp4",
+    "httpStatus": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "timestamp": "2026-09-15T13:10:22.0702225+00:00"
+  }
+]

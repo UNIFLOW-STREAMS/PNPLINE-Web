@@ -1,0 +1,14 @@
+{
+  "task": "Correct the PNPLINE logo placement by printing it on the foreground box.",
+  "createdAt": "2026-09-14T20:25:24.640Z",
+  "inputSection": "08-quote.png",
+  "officialLogoReference": "../../resources/logo/PNP-LINE.webp",
+  "generatedSource": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a09feb-ecf2-74e2-8dec-635a9efd2663\\exec-7f04a861-9978-4866-9105-872c9b158153.png",
+  "output": "08-quote.png",
+  "backup": "review/08-quote-before-box-logo-correction.png",
+  "dimensions": {
+    "width": 1583,
+    "height": 994
+  },
+  "prompt": "Edit only the PNPLINE Chinese quote-form section image. Remove the white logo plate from the upper-left and restore the dark warehouse background. Add exactly one official PNPLINE logo directly to the foreground box, on the front vertical cardboard face to the right of the blue tape. Render it as printing on cardboard with correct perspective, texture, lighting, wide aspect ratio, PNP blue and LINE gray. Do not use a sticker or place another logo elsewhere. Preserve every other visual and text element."
+}
