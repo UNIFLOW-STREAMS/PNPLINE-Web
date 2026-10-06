@@ -1,0 +1,52 @@
+{
+  "version": "v003",
+  "revision": {
+    "height_offset_at_0": 0.8189385237637907,
+    "world_translation_at_0": [
+      -0.7422103881835938,
+      0.0,
+      0.3460983633995056
+    ],
+    "direction": "fixed China port surface vertical expressed in world coordinates",
+    "changed_camera_translation_frames": [
+      0,
+      95
+    ],
+    "unchanged_rotation_frames": [
+      0,
+      1392
+    ],
+    "unchanged_lens_frames": [
+      0,
+      1392
+    ],
+    "unchanged_camera_from_frame": 96,
+    "frame0_container_bottom_ndc": 0.08999846875667572,
+    "reference": "inputs/framing-reference.png"
+  },
+  "verification": {
+    "reopen_rgb_pixels_identical": {
+      "0": true,
+      "96": true
+    },
+    "S1_end_pixels_identical_to_v002": true,
+    "original_v002_preserved": true,
+    "base_sha256": "50b6907ce954dae0f6eec19575d692948f20501f839ec2b4b8ea66eb6b83300c",
+    "tests_passed": 32,
+    "frame_count": 1393,
+    "duration_seconds": "116.083333",
+    "actual_playback": {
+      "time": 15.083333,
+      "duration": 15.083333,
+      "ended": true,
+      "decoded": 181,
+      "dropped": 0
+    }
+  },
+  "base": "inputs/base-v002.blend",
+  "master": "master-v003.blend",
+  "source": "scripts/raise_camera.py",
+  "full_preview": "preview/master-v003.mp4",
+  "change_preview": "preview/S1-low-to-high.mp4",
+  "notes": "User-requested camera translation; rotation/lens unchanged; existing scene retained"
+}

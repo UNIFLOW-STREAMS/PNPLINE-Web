@@ -1,0 +1,78 @@
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\modules\addon_utils.py", line 515, in enable
+    mod.register()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\scripts\addons\DECALmachine\__init__.py", line 88, in register
+    core_classes = register_classes(get_core())
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\scripts\addons\DECALmachine\utils\registration.py", line 220, in register_classes
+    exec(classline)
+    ~~~~^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+NameError: name 'DecalLibsUIList' is not defined
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\modules\addon_utils.py", line 432, in enable
+    mod = importlib.import_module(module_name)
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1027, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\extensions\user_default\hardops\__init__.py", line 48, in <module>
+    from .registration import register_all, unregister_all
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\extensions\user_default\hardops\registration.py", line 11, in <module>
+    from . operators.booleans.dice.shader import remove_dice_draw_shader
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\extensions\user_default\hardops\operators\booleans\dice\shader.py", line 12, in <module>
+    class SD:
+    ...<54 lines>...
+            SD.pause_drawing = False
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\extensions\user_default\hardops\operators\booleans\dice\shader.py", line 24, in SD
+    shader = gpu.shader.from_builtin(built_in_shader)
+SystemError: GPU functions for drawing are not available in background mode
+00:03.687  blend            | Read blend: "F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\master-v001.blend"
+00:08.250  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0001.png'
+00:08.421  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0160.png'
+00:08.609  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0325.png'
+00:08.796  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0456.png'
+00:08.968  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0510.png'
+00:09.140  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0632.png'
+00:09.312  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0760.png'
+00:09.468  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0842.png'
+00:09.640  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f0900.png'
+00:09.859  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f1015.png'
+00:10.031  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f1158.png'
+00:10.234  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\review\main-f1392.png'
+Exception in module register(): C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\scripts\addons\DECALmachine\__init__.py
+BlenderMCP addon registered
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+WARNING: we advise `scene.render.use_lock_interface` to be `True` while running blender headlessly, as it might create inaccurate result otherwise. We enabled the settings for you.
+REVIEW_RENDERED 12 main frames
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\modules\addon_utils.py", line 566, in disable
+    mod.unregister()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\scripts\addons\Procedural-Stadiums\__init__.py", line 45, in unregister
+    sys.modules[currentModuleName].unregister()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\KIM TAEHYUNG\AppData\Roaming\Blender Foundation\Blender\5.1\scripts\addons\Procedural-Stadiums\ui.py", line 452, in unregister
+    del bpy.app.driver_namespace["gotten_rules"]
+        ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'gotten_rules'
+Exception in module unregister(): 'C:\\Users\\KIM TAEHYUNG\\AppData\\Roaming\\Blender Foundation\\Blender\\5.1\\scripts\\addons\\Procedural-Stadiums\\__init__.py'
+BlenderMCP addon unregistered
+Blender 5.1.0 (hash adfe2921d5f3 built 2026-03-17 01:37:32)
+
+Blender quit

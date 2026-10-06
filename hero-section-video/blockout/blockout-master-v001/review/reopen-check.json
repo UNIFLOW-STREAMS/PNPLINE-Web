@@ -1,0 +1,10 @@
+{
+  "frame": 900,
+  "resolution": [
+    960,
+    540
+  ],
+  "separate_factory_startup_process": true,
+  "pixel_identical": true,
+  "log": "logs/reopen-final.log"
+}

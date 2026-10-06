@@ -1,0 +1,109 @@
+{
+  "method": "Actual 1x playback without seeking of changed S1 and S2 reconnection (0–180). Full master encoded separately.",
+  "result": {
+    "time": 15.083333,
+    "duration": 15.083333,
+    "ended": true,
+    "decoded": 181,
+    "dropped": 0
+  },
+  "errors": [],
+  "samples": [
+    {
+      "time": 0.005053,
+      "ended": false,
+      "error": null,
+      "file": "playing-00.png"
+    },
+    {
+      "time": 1.026371,
+      "ended": false,
+      "error": null,
+      "file": "playing-01.png"
+    },
+    {
+      "time": 2.051669,
+      "ended": false,
+      "error": null,
+      "file": "playing-02.png"
+    },
+    {
+      "time": 3.072049,
+      "ended": false,
+      "error": null,
+      "file": "playing-03.png"
+    },
+    {
+      "time": 4.036598,
+      "ended": false,
+      "error": null,
+      "file": "playing-04.png"
+    },
+    {
+      "time": 5.01139,
+      "ended": false,
+      "error": null,
+      "file": "playing-05.png"
+    },
+    {
+      "time": 6.154718,
+      "ended": false,
+      "error": null,
+      "file": "playing-06.png"
+    },
+    {
+      "time": 7.146673,
+      "ended": false,
+      "error": null,
+      "file": "playing-07.png"
+    },
+    {
+      "time": 8.152891,
+      "ended": false,
+      "error": null,
+      "file": "playing-08.png"
+    },
+    {
+      "time": 9.144203,
+      "ended": false,
+      "error": null,
+      "file": "playing-09.png"
+    },
+    {
+      "time": 10.153163,
+      "ended": false,
+      "error": null,
+      "file": "playing-10.png"
+    },
+    {
+      "time": 11.145283,
+      "ended": false,
+      "error": null,
+      "file": "playing-11.png"
+    },
+    {
+      "time": 12.151301,
+      "ended": false,
+      "error": null,
+      "file": "playing-12.png"
+    },
+    {
+      "time": 13.152005,
+      "ended": false,
+      "error": null,
+      "file": "playing-13.png"
+    },
+    {
+      "time": 14.003828,
+      "ended": false,
+      "error": null,
+      "file": "playing-14.png"
+    },
+    {
+      "time": 15.007954,
+      "ended": false,
+      "error": null,
+      "file": "playing-15.png"
+    }
+  ]
+}

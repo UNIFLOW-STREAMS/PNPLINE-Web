@@ -1,0 +1,5 @@
+{
+  "frame0_pixels_identical": true,
+  "frame96_pixels_identical": true,
+  "note": "Compare RGB pixels; PNG bytes contain changing render metadata. Initial byte-hash comparison was not the pixel test."
+}

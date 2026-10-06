@@ -1,0 +1,1313 @@
+{
+  "version": "v001",
+  "scope": "7구간 연출안 검증용 / 기존 #61 승인안 대체 아님",
+  "sources": [
+    {
+      "id": "N0",
+      "title": "스토리보드 텍스트 연출안",
+      "url": "https://app.notion.com/p/3eb841b6039a80d29b13c7c827d4b6c2?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:05:10.089Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N0.json",
+      "sha256": "0e3c7612ab054ebe7c572a51777263eba33d9af57a9da474b3427552a107c974",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N1",
+      "title": "구간 1 - 컨테이너 선적",
+      "url": "https://app.notion.com/p/3eb841b6039a8050ba08fc2c629b1678?pvs=204",
+      "page_last_edited_at": "2026-09-30T10:26:06.262Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N1.json",
+      "sha256": "5f4fed4211d9498ab8c6ec70ae41662e5fe59496b01a64b09daca04e57800631",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N2",
+      "title": "구간 2 - 중국 항구와 출항 ",
+      "url": "https://app.notion.com/p/3ec841b6039a809fa41ccaf226db5ee7?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:02:03.056Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N2.json",
+      "sha256": "b0e8ed51e5cdd7b1bf669dfb367394a955edcc69e3e9da1339f083254a032565",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N3",
+      "title": "구간 3 - 미니어처 지구 항해",
+      "url": "https://app.notion.com/p/3ec841b6039a80cbbdf1d2c09866de74?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:02:47.116Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N3.json",
+      "sha256": "97cda64563da0b13044370dfa957f3f564b323c78112913b1a15de235a895705",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N4",
+      "title": "구간 4 - 미국 입항과 하역",
+      "url": "https://app.notion.com/p/3ec841b6039a800a8b76da46719558ed?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:03:45.098Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N4.json",
+      "sha256": "b103f35b880cd5592f41c8e66028ace5af3075980471dd0851974aa1d7da12cc",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N5",
+      "title": "구간 5 - 물류센터로 이동",
+      "url": "https://app.notion.com/p/3ec841b6039a801b9283d4b15b4e12cc?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:04:23.763Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N5.json",
+      "sha256": "37d0aafdf2bd64ab37ace544e5c79624178643db4f3b22fc1d625358ca4a0e94",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N6",
+      "title": "구간 6 - 물류센터 처리",
+      "url": "https://app.notion.com/p/3ec841b6039a80829dc2c3f574f6707a?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:04:55.012Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N6.json",
+      "sha256": "193681d23525e0378b628cba422a13ad12f671cd4c23d57cd86cc8ca63c74688",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    },
+    {
+      "id": "N7",
+      "title": "구간 7 - 미국 각지 배송",
+      "url": "https://app.notion.com/p/3ec841b6039a80f09cebc9f534ef9dbe?pvs=204",
+      "page_last_edited_at": "2026-10-01T09:05:20.156Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "snapshot": "inputs/N7.json",
+      "sha256": "dbf917faa44970e2a6eb4c17c53a43c018dbc7201785ae93ef5e59e00af82178",
+      "body_scope": "full returned page body; linked N1-N7 fetched separately",
+      "retrieved_date": "2026-10-06",
+      "source_version": "text direction v0.1"
+    }
+  ],
+  "asset_inventory": "../plan/inputs/asset-inventory-source-v0.1.txt",
+  "repo": {
+    "branch": "main",
+    "head": "8e3d5700b671a2b0e0b6af0daa42bf3644ba8c43",
+    "existing_changes": "untracked hero-section-video/; preserved"
+  },
+  "environment": {
+    "blender": "5.1.0",
+    "binary": "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+    "connection": "local headless bpy",
+    "model_identifier": "not exposed by runtime; Codex/GPT-6 family per host instructions",
+    "reasoning_setting": "not exposed",
+    "ffmpeg": "7.1"
+  },
+  "settings": {
+    "unit": "test metre (not operational scale)",
+    "earth_radius": 140.0,
+    "ship_length": 14,
+    "china_angle_deg": -65,
+    "us_angle_deg": 25,
+    "flat_terraces": "fixed logistics terraces with skirts attached to spherical terrain",
+    "fps": 12,
+    "frames": 1392,
+    "duration_seconds": 116.0,
+    "lens_mm": {
+      "range": [
+        32,
+        40
+      ],
+      "base": 40,
+      "animated_interval": [
+        476,
+        555
+      ],
+      "minimum_frame": 510,
+      "purpose": "Reveal US port and warehouse without excessive camera speed"
+    },
+    "resolution": [
+      768,
+      432
+    ],
+    "ratio": "16:9 review only",
+    "engine": "BLENDER_WORKBENCH",
+    "camera_side": "ship sea side local -Y through S3; around bow to shore in S4; truck left side through S5",
+    "output_frame_count": 1392,
+    "inbound_reverse_distance_test_units": 5.2,
+    "inbound_turn": {
+      "type": "half ellipse, arc-length sampled",
+      "radii": [
+        6,
+        10
+      ],
+      "center": [
+        29.4,
+        19
+      ],
+      "final_aligned_trailer": [
+        29.2,
+        29
+      ],
+      "dock_trailer": [
+        34.4,
+        29
+      ],
+      "short_reverse_criterion": "<= one 5.5-unit articulated proxy length; not a real truck standard"
+    }
+  },
+  "assets": [
+    {
+      "asset_id": "A-01",
+      "objects": [
+        "A01_CONTAINER",
+        "A01_FLOOR",
+        "A01_ROOF",
+        "A01_SIDE_L",
+        "A01_SIDE_R",
+        "A01_FRONT",
+        "PNPLINE_BRAND_SIDE_-0.776",
+        "PNPLINE_BRAND_SIDE_0.776",
+        "A01_DOOR_L",
+        "A01_DOOR_R",
+        "A01_DOOR_LEFT_LEAF",
+        "A01_DOOR_RIGHT_LEAF"
+      ],
+      "instances": [
+        "A01_CONTAINER"
+      ],
+      "representation": "동일 컨테이너·내부·양문·식별면",
+      "detail_followup": "상세 문 잠금장치·외관",
+      "segments": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "A-02",
+      "objects": [
+        "A02_SHIP",
+        "SHIP_HULL",
+        "SHIP_DECK",
+        "SHIP_BRIDGE",
+        "SHIP_BRIDGE_GLASS",
+        "WAKE_RIBBON_0",
+        "WAKE_RIBBON_1"
+      ],
+      "instances": [
+        "A02_SHIP"
+      ],
+      "representation": "동일 강체 선박·선수·선미·선교·갑판",
+      "detail_followup": "최종 선형·적재 디테일",
+      "segments": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "03_SHIP"
+      ]
+    },
+    {
+      "asset_id": "A-03",
+      "objects": [
+        "A03_TRAILER",
+        "A03_TRACTOR",
+        "TRAILER_CHASSIS",
+        "TRAILER_COUPLING_TONGUE",
+        "TRAILER_HITCH",
+        "TRACTOR_HITCH",
+        "TRACTOR_CHASSIS",
+        "TRACTOR_CAB",
+        "TRACTOR_GLASS",
+        "A03_TRAILER_WHEEL_-0.25-0.85",
+        "A03_TRAILER_WHEEL_-0.250.85",
+        "A03_TRAILER_WHEEL_0.25-0.85",
+        "A03_TRAILER_WHEEL_0.250.85",
+        "A03_TRACTOR_WHEEL_0-0.85",
+        "A03_TRACTOR_WHEEL_00.85",
+        "A03_TRACTOR_WHEEL_1.65-0.85",
+        "A03_TRACTOR_WHEEL_1.650.85"
+      ],
+      "instances": [
+        "A03_TRACTOR",
+        "A03_TRAILER"
+      ],
+      "representation": "트랙터·트레일러 연결점과 별도 회전",
+      "detail_followup": "실차 회전반경·차종·동역학",
+      "segments": [
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "A-04",
+      "objects": [
+        "A04_PRIMARY",
+        "A04_PRIMARY_FLOOR",
+        "A04_PRIMARY_CARGO_SHELL",
+        "A04_PRIMARY_CARGO_SHELL.001",
+        "A04_PRIMARY_CARGO_SHELL.002",
+        "A04_PRIMARY_CAB",
+        "A04_PRIMARY_GLASS",
+        "A04_PRIMARY_WHEEL-1.3-0.91",
+        "A04_PRIMARY_WHEEL-1.30.91",
+        "A04_PRIMARY_WHEEL1.5-0.91",
+        "A04_PRIMARY_WHEEL1.50.91",
+        "A04_PRIMARY_DOOR_L",
+        "A04_PRIMARY_DOOR_R",
+        "A04_PRIMARY_LEFT_LEAF",
+        "A04_PRIMARY_RIGHT_LEAF"
+      ],
+      "instances": [
+        "A04_PRIMARY"
+      ],
+      "representation": "주 출고 차량 1대·상차·문·독립 경로",
+      "detail_followup": "차종·리깅",
+      "segments": [
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "A-05",
+      "objects": [
+        "A05_SECONDARY",
+        "A05_SECONDARY_FLOOR",
+        "A05_SECONDARY_CARGO_SHELL",
+        "A05_SECONDARY_CARGO_SHELL.001",
+        "A05_SECONDARY_CARGO_SHELL.002",
+        "A05_SECONDARY_CAB",
+        "A05_SECONDARY_GLASS",
+        "A05_SECONDARY_WHEEL-1.3-0.91",
+        "A05_SECONDARY_WHEEL-1.30.91",
+        "A05_SECONDARY_WHEEL1.5-0.91",
+        "A05_SECONDARY_WHEEL1.50.91",
+        "A05_SECONDARY_DOOR_L",
+        "A05_SECONDARY_DOOR_R",
+        "A05_SECONDARY_LEFT_LEAF",
+        "A05_SECONDARY_RIGHT_LEAF"
+      ],
+      "instances": [
+        "A05_SECONDARY"
+      ],
+      "representation": "미리 대기한 보조 차량 1대·시차 합류",
+      "detail_followup": "최종 수량·차종",
+      "segments": [
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "CH-01",
+      "objects": [
+        "CH_PICKER",
+        "CH_PICKER_TORSO",
+        "CH_PICKER_HEAD",
+        "CH_PICKER_LEG-0.12",
+        "CH_PICKER_LEG0.12",
+        "CH_PACKER",
+        "CH_PACKER_TORSO",
+        "CH_PACKER_HEAD",
+        "CH_PACKER_LEG-0.12",
+        "CH_PACKER_LEG0.12",
+        "CH_LOADER",
+        "CH_LOADER_TORSO",
+        "CH_LOADER_HEAD",
+        "CH_LOADER_LEG-0.12",
+        "CH_LOADER_LEG0.12",
+        "CH_LOAD_SUPPORT"
+      ],
+      "instances": [
+        "CH_LOADER",
+        "CH_LOAD_SUPPORT",
+        "CH_PACKER",
+        "CH_PICKER"
+      ],
+      "representation": "3개 작업자 점유 프록시·상차 팔/지지 프록시",
+      "detail_followup": "얼굴·복장·손가락·정교한 연기",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "E-01",
+      "objects": [
+        "CN_LAND_TERRACE",
+        "US_LAND_TERRACE"
+      ],
+      "instances": [
+        "CN_LAND_TERRACE",
+        "US_LAND_TERRACE"
+      ],
+      "representation": "고정 구형 세계의 단순 육지 테라스",
+      "detail_followup": "최종 대륙 실루엣",
+      "segments": [
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "01_WORLD"
+      ]
+    },
+    {
+      "asset_id": "E-02",
+      "objects": [
+        "EARTH_CONTINUOUS_OCEAN"
+      ],
+      "instances": [
+        "earth_ocean"
+      ],
+      "representation": "연속된 구형 수면",
+      "detail_followup": "수면 룩·유체 효과",
+      "segments": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "01_WORLD"
+      ]
+    },
+    {
+      "asset_id": "E-03",
+      "objects": [
+        "CN_FRAME",
+        "CN_QUAY",
+        "CN_YARD_ROAD"
+      ],
+      "instances": [
+        "CN_FRAME",
+        "CN_QUAY",
+        "CN_YARD_ROAD"
+      ],
+      "representation": "중국 부두·야드·출항 수로·도로",
+      "detail_followup": "항만 디자인",
+      "segments": [
+        "S1",
+        "S2"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "E-04",
+      "objects": [
+        "CN_CITY_0",
+        "CN_CITY_1",
+        "CN_CITY_2",
+        "CN_CITY_3",
+        "CN_CITY_4"
+      ],
+      "instances": [
+        "CN_CITY_0",
+        "CN_CITY_1",
+        "CN_CITY_2",
+        "CN_CITY_3",
+        "CN_CITY_4"
+      ],
+      "representation": "중국 도시 건물 덩어리",
+      "detail_followup": "랜드마크·외관",
+      "segments": [
+        "S2"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "E-05",
+      "objects": [
+        "US_FRAME",
+        "US_QUAY",
+        "US_YARD_ROAD",
+        "DOCK_TARGET",
+        "INBOUND_WAIT_REVIEW_LABEL",
+        "STORAGE_REVIEW_LABEL",
+        "PICKING_REVIEW_LABEL",
+        "PACKING_REVIEW_LABEL",
+        "OUTBOUND_WAIT_REVIEW_LABEL"
+      ],
+      "instances": [
+        "US_FRAME",
+        "US_QUAY",
+        "US_YARD_ROAD"
+      ],
+      "representation": "미국 접안부·야드·하역 공간",
+      "detail_followup": "항만 디자인",
+      "segments": [
+        "S3",
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS",
+        "05_WAREHOUSE",
+        "08_REVIEW_GUIDES"
+      ]
+    },
+    {
+      "asset_id": "E-06",
+      "objects": [
+        "US_CITY_0",
+        "US_CITY_1",
+        "US_CITY_2",
+        "US_CITY_3",
+        "US_CITY_4"
+      ],
+      "instances": [
+        "US_CITY_0",
+        "US_CITY_1",
+        "US_CITY_2",
+        "US_CITY_3",
+        "US_CITY_4"
+      ],
+      "representation": "미국 도시 건물 덩어리",
+      "detail_followup": "랜드마크·외관",
+      "segments": [
+        "S4",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "E-07",
+      "objects": [
+        "E07_INBOUND_ROAD"
+      ],
+      "instances": [
+        "E07_INBOUND_ROAD"
+      ],
+      "representation": "고정 진입 도로·타원 선회 구간",
+      "detail_followup": "정밀 차량 궤적",
+      "segments": [
+        "S4",
+        "S5"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "E-08",
+      "objects": [
+        "E08_WAREHOUSE",
+        "WAREHOUSE_FLOOR",
+        "WAREHOUSE_BACK_WALL",
+        "WAREHOUSE_PARTIAL_ROOF",
+        "WAREHOUSE_COLUMN_36",
+        "WAREHOUSE_COLUMN_44",
+        "WAREHOUSE_COLUMN_52",
+        "WAREHOUSE_COLUMN_60",
+        "WAREHOUSE_COLUMN_68"
+      ],
+      "instances": [
+        "E08_WAREHOUSE",
+        "WAREHOUSE_BACK_WALL",
+        "WAREHOUSE_COLUMN_36",
+        "WAREHOUSE_COLUMN_44",
+        "WAREHOUSE_COLUMN_52",
+        "WAREHOUSE_COLUMN_60",
+        "WAREHOUSE_COLUMN_68",
+        "WAREHOUSE_FLOOR",
+        "WAREHOUSE_PARTIAL_ROOF"
+      ],
+      "representation": "단일 창고·항상 열린 전면·부분 지붕",
+      "detail_followup": "건축 상세·최종 개방 구조",
+      "segments": [
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    },
+    {
+      "asset_id": "E-09",
+      "objects": [
+        "E09_MANEUVER_YARD",
+        "DOCK_BRIDGE"
+      ],
+      "instances": [
+        "DOCK_BRIDGE",
+        "E09_MANEUVER_YARD"
+      ],
+      "representation": "입고 마당·도크·바닥 연결판",
+      "detail_followup": "실시설비 치수",
+      "segments": [
+        "S5",
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    },
+    {
+      "asset_id": "E-10",
+      "objects": [
+        "E10_OUTBOUND_YARD",
+        "E10_LOADING_BRIDGE"
+      ],
+      "instances": [
+        "E10_LOADING_BRIDGE",
+        "E10_OUTBOUND_YARD"
+      ],
+      "representation": "출고 대기 마당·상차 연결판",
+      "detail_followup": "상차 설비 상세",
+      "segments": [
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    },
+    {
+      "asset_id": "E-11",
+      "objects": [
+        "E11_ROUTE_1",
+        "E11_ROUTE_-1",
+        "A05_WAIT_MERGE"
+      ],
+      "instances": [
+        "A05_WAIT_MERGE",
+        "E11_ROUTE_-1",
+        "E11_ROUTE_1"
+      ],
+      "representation": "공통 도로·두 분기·보조 합류로",
+      "detail_followup": "최종 배송망 형상",
+      "segments": [
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "E-12",
+      "objects": [
+        "E12_DESTINATION_0",
+        "E12_DESTINATION_1",
+        "E12_DESTINATION_2",
+        "E12_DESTINATION_3"
+      ],
+      "instances": [
+        "E12_DESTINATION_0",
+        "E12_DESTINATION_1",
+        "E12_DESTINATION_2",
+        "E12_DESTINATION_3"
+      ],
+      "representation": "목적지를 암시하는 4개 건물",
+      "detail_followup": "도시·지역 미정",
+      "segments": [
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS"
+      ]
+    },
+    {
+      "asset_id": "FX-01",
+      "objects": [
+        "FX01_WAKE"
+      ],
+      "instances": [
+        "FX01_WAKE"
+      ],
+      "representation": "곡면을 따르는 두 항적 띠",
+      "detail_followup": "수면 효과·유체",
+      "segments": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "03_SHIP"
+      ]
+    },
+    {
+      "asset_id": "P-01",
+      "objects": [
+        "P01_LEG_-25",
+        "P01_LEG_-212",
+        "P01_BOOM_-2",
+        "P01_LEG_3.55",
+        "P01_LEG_3.512",
+        "P01_BOOM_3.5",
+        "P01_SPREADER",
+        "P01_SPREADER_FRAME",
+        "P01_TROLLEY"
+      ],
+      "instances": [
+        "P01_BOOM_-2",
+        "P01_BOOM_3.5",
+        "P01_LEG_-212",
+        "P01_LEG_-25",
+        "P01_LEG_3.512",
+        "P01_LEG_3.55",
+        "P01_SPREADER",
+        "P01_TROLLEY"
+      ],
+      "representation": "중국 크레인·트롤리·케이블·스프레더",
+      "detail_followup": "정밀 장비 기구·잠금",
+      "segments": [
+        "S1",
+        "S2"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS",
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "P-02",
+      "objects": [
+        "P02_LEG_-25",
+        "P02_LEG_-212",
+        "P02_BOOM_-2",
+        "P02_LEG_3.55",
+        "P02_LEG_3.512",
+        "P02_BOOM_3.5",
+        "P02_SPREADER",
+        "P02_SPREADER_FRAME",
+        "P02_TROLLEY"
+      ],
+      "instances": [
+        "P02_BOOM_-2",
+        "P02_BOOM_3.5",
+        "P02_LEG_-212",
+        "P02_LEG_-25",
+        "P02_LEG_3.512",
+        "P02_LEG_3.55",
+        "P02_SPREADER",
+        "P02_TROLLEY"
+      ],
+      "representation": "별도 미국 크레인·트롤리·케이블·스프레더",
+      "detail_followup": "정밀 장비 기구·잠금",
+      "segments": [
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS",
+        "04_TRANSPORT"
+      ]
+    },
+    {
+      "asset_id": "P-03",
+      "objects": [
+        "CN_YARD_STACK_0",
+        "CN_YARD_STACK_1",
+        "CN_YARD_STACK_2",
+        "CN_YARD_STACK_3",
+        "US_YARD_STACK_0",
+        "US_YARD_STACK_1",
+        "US_YARD_STACK_2",
+        "US_YARD_STACK_3",
+        "P03_DECK_-2.6_-1.25",
+        "P03_UPPER_-2.6_-1.25",
+        "P03_DECK_-2.6_0.65",
+        "P03_UPPER_-2.6_0.65",
+        "P03_DECK_0.8_-1.25",
+        "P03_DECK_0.8_0.65",
+        "P03_UPPER_0.8_0.65",
+        "P03_DECK_4.2_-1.25",
+        "P03_UPPER_4.2_-1.25",
+        "P03_DECK_4.2_0.65",
+        "P03_UPPER_4.2_0.65"
+      ],
+      "instances": [
+        "CN_YARD_STACK_0",
+        "CN_YARD_STACK_1",
+        "CN_YARD_STACK_2",
+        "CN_YARD_STACK_3",
+        "P03_DECK_-2.6_-1.25",
+        "P03_DECK_-2.6_0.65",
+        "P03_DECK_0.8_-1.25",
+        "P03_DECK_0.8_0.65",
+        "P03_DECK_4.2_-1.25",
+        "P03_DECK_4.2_0.65",
+        "P03_UPPER_-2.6_-1.25",
+        "P03_UPPER_-2.6_0.65",
+        "P03_UPPER_0.8_0.65",
+        "P03_UPPER_4.2_-1.25",
+        "P03_UPPER_4.2_0.65",
+        "US_YARD_STACK_0",
+        "US_YARD_STACK_1",
+        "US_YARD_STACK_2",
+        "US_YARD_STACK_3"
+      ],
+      "representation": "갑판 적재열·양국 야드 반복 프록시",
+      "detail_followup": "배치 밀도·외관",
+      "segments": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "status": "proxy",
+      "collections": [
+        "02_PORTS",
+        "03_SHIP"
+      ]
+    },
+    {
+      "asset_id": "W-01",
+      "objects": [
+        "RACK_CARGO_44_32.5_3.65_-0.85",
+        "RACK_CARGO_44_32.5_3.65_0",
+        "RACK_CARGO_44_32.5_3.65_0.85",
+        "RACK_CARGO_44_32.5_5.25_-0.85",
+        "RACK_CARGO_44_32.5_5.25_0",
+        "RACK_CARGO_44_32.5_5.25_0.85",
+        "RACK_CARGO_44_36.5_2.1_-0.85",
+        "RACK_CARGO_44_36.5_2.1_0",
+        "RACK_CARGO_44_36.5_2.1_0.85",
+        "RACK_CARGO_44_36.5_3.65_-0.85",
+        "RACK_CARGO_44_36.5_3.65_0",
+        "RACK_CARGO_44_36.5_3.65_0.85",
+        "RACK_CARGO_44_36.5_5.25_-0.85",
+        "RACK_CARGO_44_36.5_5.25_0",
+        "RACK_CARGO_44_36.5_5.25_0.85",
+        "RACK_CARGO_48_32.5_2.1_-0.85",
+        "RACK_CARGO_48_32.5_2.1_0",
+        "RACK_CARGO_48_32.5_2.1_0.85",
+        "RACK_CARGO_48_32.5_3.65_-0.85",
+        "RACK_CARGO_48_32.5_3.65_0",
+        "RACK_CARGO_48_32.5_3.65_0.85",
+        "RACK_CARGO_48_32.5_5.25_-0.85",
+        "RACK_CARGO_48_32.5_5.25_0",
+        "RACK_CARGO_48_32.5_5.25_0.85",
+        "RACK_CARGO_48_36.5_2.1_-0.85",
+        "RACK_CARGO_48_36.5_2.1_0",
+        "RACK_CARGO_48_36.5_2.1_0.85",
+        "RACK_CARGO_48_36.5_3.65_-0.85",
+        "RACK_CARGO_48_36.5_3.65_0",
+        "RACK_CARGO_48_36.5_3.65_0.85",
+        "RACK_CARGO_48_36.5_5.25_-0.85",
+        "RACK_CARGO_48_36.5_5.25_0",
+        "RACK_CARGO_48_36.5_5.25_0.85",
+        "W01_NEW_PALLET",
+        "W01_NEW_PALLET_BASE",
+        "W01_NEW_PALLET_BOX_-0.27-0.22",
+        "W01_NEW_PALLET_BOX_-0.270.22",
+        "W01_NEW_PALLET_BOX_0.27-0.22",
+        "W01_NEW_PALLET_BOX_0.270.22",
+        "W01_STORED_PALLET",
+        "W01_STORED_PALLET_BASE",
+        "W01_STORED_PALLET_BOX_-0.27-0.22",
+        "W01_STORED_PALLET_BOX_-0.270.22",
+        "W01_STORED_PALLET_BOX_0.27-0.22",
+        "W01_STORED_PALLET_BOX_0.270.22",
+        "W01_REMAINING_CONTAINER_CARGO",
+        "W01_REMAINING_CONTAINER_CARGO_BASE",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22"
+      ],
+      "instances": [
+        "RACK_CARGO_44_32.5_3.65_-0.85",
+        "RACK_CARGO_44_32.5_3.65_0",
+        "RACK_CARGO_44_32.5_3.65_0.85",
+        "RACK_CARGO_44_32.5_5.25_-0.85",
+        "RACK_CARGO_44_32.5_5.25_0",
+        "RACK_CARGO_44_32.5_5.25_0.85",
+        "RACK_CARGO_44_36.5_2.1_-0.85",
+        "RACK_CARGO_44_36.5_2.1_0",
+        "RACK_CARGO_44_36.5_2.1_0.85",
+        "RACK_CARGO_44_36.5_3.65_-0.85",
+        "RACK_CARGO_44_36.5_3.65_0",
+        "RACK_CARGO_44_36.5_3.65_0.85",
+        "RACK_CARGO_44_36.5_5.25_-0.85",
+        "RACK_CARGO_44_36.5_5.25_0",
+        "RACK_CARGO_44_36.5_5.25_0.85",
+        "RACK_CARGO_48_32.5_2.1_-0.85",
+        "RACK_CARGO_48_32.5_2.1_0",
+        "RACK_CARGO_48_32.5_2.1_0.85",
+        "RACK_CARGO_48_32.5_3.65_-0.85",
+        "RACK_CARGO_48_32.5_3.65_0",
+        "RACK_CARGO_48_32.5_3.65_0.85",
+        "RACK_CARGO_48_32.5_5.25_-0.85",
+        "RACK_CARGO_48_32.5_5.25_0",
+        "RACK_CARGO_48_32.5_5.25_0.85",
+        "RACK_CARGO_48_36.5_2.1_-0.85",
+        "RACK_CARGO_48_36.5_2.1_0",
+        "RACK_CARGO_48_36.5_2.1_0.85",
+        "RACK_CARGO_48_36.5_3.65_-0.85",
+        "RACK_CARGO_48_36.5_3.65_0",
+        "RACK_CARGO_48_36.5_3.65_0.85",
+        "RACK_CARGO_48_36.5_5.25_-0.85",
+        "RACK_CARGO_48_36.5_5.25_0",
+        "RACK_CARGO_48_36.5_5.25_0.85",
+        "W01_NEW_PALLET",
+        "W01_REMAINING_CONTAINER_CARGO",
+        "W01_STORED_PALLET"
+      ],
+      "representation": "신규·보관·컨테이너 잔류 팔레트 별도 개체",
+      "detail_followup": "포장 단위·상세 적재",
+      "segments": [
+        "S5",
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-02",
+      "objects": [
+        "W02_INBOUND_JACK",
+        "W02_STORAGE_JACK",
+        "W02_INBOUND_JACK_FORKS",
+        "W02_INBOUND_JACK_HANDLE",
+        "W02_STORAGE_JACK_FORKS",
+        "W02_STORAGE_JACK_HANDLE"
+      ],
+      "instances": [
+        "W02_INBOUND_JACK",
+        "W02_STORAGE_JACK"
+      ],
+      "representation": "입고·보관용 팔레트 잭 점유 및 이동",
+      "detail_followup": "장비 선정·작업자 조작",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-03",
+      "objects": [
+        "STORAGE_ZONE",
+        "RACK_POST_44_32.5_-1.4_-0.75",
+        "RACK_POST_44_32.5_-1.4_0.75",
+        "RACK_POST_44_32.5_1.4_-0.75",
+        "RACK_POST_44_32.5_1.4_0.75",
+        "RACK_SHELF_44_32.5_2.1",
+        "RACK_SHELF_44_32.5_3.65",
+        "RACK_SHELF_44_32.5_5.25",
+        "RACK_POST_44_36.5_-1.4_-0.75",
+        "RACK_POST_44_36.5_-1.4_0.75",
+        "RACK_POST_44_36.5_1.4_-0.75",
+        "RACK_POST_44_36.5_1.4_0.75",
+        "RACK_SHELF_44_36.5_2.1",
+        "RACK_SHELF_44_36.5_3.65",
+        "RACK_SHELF_44_36.5_5.25",
+        "RACK_POST_48_32.5_-1.4_-0.75",
+        "RACK_POST_48_32.5_-1.4_0.75",
+        "RACK_POST_48_32.5_1.4_-0.75",
+        "RACK_POST_48_32.5_1.4_0.75",
+        "RACK_SHELF_48_32.5_2.1",
+        "RACK_SHELF_48_32.5_3.65",
+        "RACK_SHELF_48_32.5_5.25",
+        "RACK_POST_48_36.5_-1.4_-0.75",
+        "RACK_POST_48_36.5_-1.4_0.75",
+        "RACK_POST_48_36.5_1.4_-0.75",
+        "RACK_POST_48_36.5_1.4_0.75",
+        "RACK_SHELF_48_36.5_2.1",
+        "RACK_SHELF_48_36.5_3.65",
+        "RACK_SHELF_48_36.5_5.25",
+        "W04_PICK_BIN_SUPPORT",
+        "W04_BIN_STAND_31.7",
+        "W04_BIN_STAND_32.3"
+      ],
+      "instances": [
+        "RACK_POST_44_32.5_-1.4_-0.75",
+        "RACK_POST_44_32.5_-1.4_0.75",
+        "RACK_POST_44_32.5_1.4_-0.75",
+        "RACK_POST_44_32.5_1.4_0.75",
+        "RACK_POST_44_36.5_-1.4_-0.75",
+        "RACK_POST_44_36.5_-1.4_0.75",
+        "RACK_POST_44_36.5_1.4_-0.75",
+        "RACK_POST_44_36.5_1.4_0.75",
+        "RACK_POST_48_32.5_-1.4_-0.75",
+        "RACK_POST_48_32.5_-1.4_0.75",
+        "RACK_POST_48_32.5_1.4_-0.75",
+        "RACK_POST_48_32.5_1.4_0.75",
+        "RACK_POST_48_36.5_-1.4_-0.75",
+        "RACK_POST_48_36.5_-1.4_0.75",
+        "RACK_POST_48_36.5_1.4_-0.75",
+        "RACK_POST_48_36.5_1.4_0.75",
+        "RACK_SHELF_44_32.5_2.1",
+        "RACK_SHELF_44_32.5_3.65",
+        "RACK_SHELF_44_32.5_5.25",
+        "RACK_SHELF_44_36.5_2.1",
+        "RACK_SHELF_44_36.5_3.65",
+        "RACK_SHELF_44_36.5_5.25",
+        "RACK_SHELF_48_32.5_2.1",
+        "RACK_SHELF_48_32.5_3.65",
+        "RACK_SHELF_48_32.5_5.25",
+        "RACK_SHELF_48_36.5_2.1",
+        "RACK_SHELF_48_36.5_3.65",
+        "RACK_SHELF_48_36.5_5.25",
+        "STORAGE_ZONE",
+        "W04_BIN_STAND_31.7",
+        "W04_BIN_STAND_32.3",
+        "W04_PICK_BIN_SUPPORT"
+      ],
+      "representation": "보관 랙·통로·상품 지지 선반",
+      "detail_followup": "랙 규격·안전 간격",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    },
+    {
+      "asset_id": "W-04",
+      "objects": [
+        "W04_PICK_BIN_PRODUCT",
+        "W04_CART_ORDER_ALREADY_PICKED"
+      ],
+      "instances": [
+        "W04_CART_ORDER_ALREADY_PICKED",
+        "W04_PICK_BIN_PRODUCT"
+      ],
+      "representation": "선반 상품과 이미 피킹된 주문 별도 개체",
+      "detail_followup": "손 집기·상품 디테일",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-05",
+      "objects": [
+        "PICKING_ZONE",
+        "W05_PICK_CART",
+        "W05_PICK_CART_TRAY",
+        "W05_PICK_CART_CASTER-0.46-0.36",
+        "W05_PICK_CART_CASTER-0.460.36",
+        "W05_PICK_CART_CASTER0.46-0.36",
+        "W05_PICK_CART_CASTER0.460.36"
+      ],
+      "instances": [
+        "PICKING_ZONE",
+        "W05_PICK_CART"
+      ],
+      "representation": "피킹 카트·접근 경로",
+      "detail_followup": "운반 수단 확정",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE",
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-06",
+      "objects": [
+        "PACKING_ZONE",
+        "W06_PACK_TABLE",
+        "TABLE_LEG_55.8",
+        "TABLE_LEG_58.2"
+      ],
+      "instances": [
+        "PACKING_ZONE",
+        "TABLE_LEG_55.8",
+        "TABLE_LEG_58.2",
+        "W06_PACK_TABLE"
+      ],
+      "representation": "포장대·작업 위치",
+      "detail_followup": "설비 상세",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    },
+    {
+      "asset_id": "W-07",
+      "objects": [
+        "W07_OPEN_PACK",
+        "PACK_BOX_BOTTOM",
+        "PACK_BOX_WALL",
+        "PACK_BOX_WALL.001",
+        "PACK_BOX_WALL.002",
+        "PACK_BOX_WALL.003",
+        "PACK_BOX_CONTENT"
+      ],
+      "instances": [
+        "W07_OPEN_PACK"
+      ],
+      "representation": "내용물 있는 열린 포장 상자",
+      "detail_followup": "플랩 접기·봉함 연기",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-08",
+      "objects": [
+        "W08_SEALED_READY",
+        "W08_LAST_LOAD",
+        "LAST_BOX_BODY",
+        "A04_PRIMARY_PRELOADED-0.8",
+        "A04_PRIMARY_PRELOADED0.2",
+        "A05_SECONDARY_PRELOADED-0.8",
+        "A05_SECONDARY_PRELOADED0.2"
+      ],
+      "instances": [
+        "A04_PRIMARY_PRELOADED-0.8",
+        "A04_PRIMARY_PRELOADED0.2",
+        "A05_SECONDARY_PRELOADED-0.8",
+        "A05_SECONDARY_PRELOADED0.2",
+        "W08_LAST_LOAD",
+        "W08_SEALED_READY"
+      ],
+      "representation": "기봉함 상자·마지막 상차·기적재 화물",
+      "detail_followup": "손 인계·봉함 표시",
+      "segments": [
+        "S6",
+        "S7"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-09",
+      "objects": [
+        "W09_OUT_CART",
+        "W09_OUT_CART_TRAY",
+        "W09_OUT_CART_CASTER-0.46-0.36",
+        "W09_OUT_CART_CASTER-0.460.36",
+        "W09_OUT_CART_CASTER0.46-0.36",
+        "W09_OUT_CART_CASTER0.460.36"
+      ],
+      "instances": [
+        "W09_OUT_CART"
+      ],
+      "representation": "출고 카트·이송 경로",
+      "detail_followup": "운반 수단 확정",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "06_CARGO_WORK"
+      ]
+    },
+    {
+      "asset_id": "W-10",
+      "objects": [
+        "INBOUND_WAIT_ZONE",
+        "OUTBOUND_WAIT_ZONE"
+      ],
+      "instances": [
+        "INBOUND_WAIT_ZONE",
+        "OUTBOUND_WAIT_ZONE"
+      ],
+      "representation": "입고·출고 대기 영역",
+      "detail_followup": "작업 용량·간격",
+      "segments": [
+        "S6"
+      ],
+      "status": "proxy",
+      "collections": [
+        "05_WAREHOUSE"
+      ]
+    }
+  ],
+  "provisional_choices": [
+    "one auxiliary outbound box van",
+    "pallet-jack occupancy proxy",
+    "picking cart and outbound cart",
+    "270 degree two-leaf rear doors",
+    "frame timings for spatial testing only"
+  ],
+  "unverified": [
+    "storyboard image comparison (no version/selection metadata)",
+    "mobile aspect ratio not supplied",
+    "final web copy/CTA layout",
+    "detailed worker and crane mechanisms"
+  ],
+  "authoritative_source": "scripts/build_master.py generates the editable master; scripts/finalize_handoff.py enriches metadata. Saved blend contains baked keys and requires no Python handlers. No manual scene edits.",
+  "source_hashes": {
+    "../plan/master-codex-instructions.md": {
+      "expected": "c06c52d7484dfd6bdfad4c7de37a708e4b4341bbe65b41cb2b27bf0a58ce19af",
+      "actual": "c06c52d7484dfd6bdfad4c7de37a708e4b4341bbe65b41cb2b27bf0a58ce19af"
+    },
+    "../plan/inputs/asset-inventory-source-v0.1.txt": {
+      "expected": "f38e8b2ab711197bd92ba5aa6aea8d45c0e307bdf96ec09c342e0d097d8e55db",
+      "actual": "f38e8b2ab711197bd92ba5aa6aea8d45c0e307bdf96ec09c342e0d097d8e55db"
+    },
+    "../plan/README.md": {
+      "expected": "f50752ba73322d3da84538ad7a44d3dd677aa3c29268cf24fb98d1665d0bc07a",
+      "actual": "f50752ba73322d3da84538ad7a44d3dd677aa3c29268cf24fb98d1665d0bc07a"
+    }
+  },
+  "segments": [
+    {
+      "id": "S1",
+      "start_frame": 1,
+      "end_frame": 96,
+      "shared_boundary": true
+    },
+    {
+      "id": "S2",
+      "start_frame": 96,
+      "end_frame": 216,
+      "shared_boundary": true
+    },
+    {
+      "id": "S3",
+      "start_frame": 216,
+      "end_frame": 456,
+      "shared_boundary": true
+    },
+    {
+      "id": "S4",
+      "start_frame": 456,
+      "end_frame": 648,
+      "shared_boundary": true
+    },
+    {
+      "id": "S5",
+      "start_frame": 648,
+      "end_frame": 900,
+      "shared_boundary": true
+    },
+    {
+      "id": "S6",
+      "start_frame": 900,
+      "end_frame": 1200,
+      "shared_boundary": true
+    },
+    {
+      "id": "S7",
+      "start_frame": 1200,
+      "end_frame": 1392,
+      "shared_boundary": true
+    }
+  ],
+  "events": {
+    "ship_seated": 72,
+    "ship_departs": 145,
+    "ship_docked": 510,
+    "US_lift": 532,
+    "trailer_seated": 632,
+    "inbound_departs": 649,
+    "doors_open": [
+      811,
+      842
+    ],
+    "reverse": [
+      849,
+      890
+    ],
+    "new_pallet_unload": [
+      908,
+      966
+    ],
+    "outbound_primary": 1201,
+    "outbound_secondary": 1261
+  },
+  "verification": {
+    "tests": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0
+    },
+    "all_frames": "validation.json",
+    "boundary_states": "boundary-states.json",
+    "reopen": "review/reopen-check.json",
+    "playback": "review/playback-check.json",
+    "acceptance": "report.md",
+    "scope": "sampled spatial blockout review only"
+  },
+  "file_hashes": "hashes.json"
+}

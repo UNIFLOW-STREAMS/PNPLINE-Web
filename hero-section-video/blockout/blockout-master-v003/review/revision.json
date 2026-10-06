@@ -1,0 +1,24 @@
+{
+  "height_offset_at_0": 0.8189385237637907,
+  "world_translation_at_0": [
+    -0.7422103881835938,
+    0.0,
+    0.3460983633995056
+  ],
+  "direction": "fixed China port surface vertical expressed in world coordinates",
+  "changed_camera_translation_frames": [
+    0,
+    95
+  ],
+  "unchanged_rotation_frames": [
+    0,
+    1392
+  ],
+  "unchanged_lens_frames": [
+    0,
+    1392
+  ],
+  "unchanged_camera_from_frame": 96,
+  "frame0_container_bottom_ndc": 0.08999846875667572,
+  "reference": "inputs/framing-reference.png"
+}

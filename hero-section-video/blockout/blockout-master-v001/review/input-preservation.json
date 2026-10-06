@@ -1,0 +1,14 @@
+{
+  "../plan/master-codex-instructions.md": {
+    "expected": "c06c52d7484dfd6bdfad4c7de37a708e4b4341bbe65b41cb2b27bf0a58ce19af",
+    "actual": "c06c52d7484dfd6bdfad4c7de37a708e4b4341bbe65b41cb2b27bf0a58ce19af"
+  },
+  "../plan/inputs/asset-inventory-source-v0.1.txt": {
+    "expected": "f38e8b2ab711197bd92ba5aa6aea8d45c0e307bdf96ec09c342e0d097d8e55db",
+    "actual": "f38e8b2ab711197bd92ba5aa6aea8d45c0e307bdf96ec09c342e0d097d8e55db"
+  },
+  "../plan/README.md": {
+    "expected": "f50752ba73322d3da84538ad7a44d3dd677aa3c29268cf24fb98d1665d0bc07a",
+    "actual": "f50752ba73322d3da84538ad7a44d3dd677aa3c29268cf24fb98d1665d0bc07a"
+  }
+}

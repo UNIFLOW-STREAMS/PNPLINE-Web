@@ -1,0 +1,71 @@
+{
+  "version": "v002",
+  "change": "S1 low-to-high camera revision",
+  "base_snapshot": "inputs/base-user-saved-v001.blend",
+  "base_sha256": "d7b31e3869b8a50344a59df6866f8783430b17e0ccc8d1368d68105abf5f5076",
+  "reference": "inputs/s1-end-reference.png",
+  "camera_frames_changed": [
+    0,
+    159
+  ],
+  "camera_frames_preserved": [
+    160,
+    1392
+  ],
+  "S1": [
+    0,
+    96
+  ],
+  "elevation_start_end_deg": [
+    -20.120236260072883,
+    20.04975051696265
+  ],
+  "fps": 12,
+  "frame_range": [
+    0,
+    1392
+  ],
+  "frames": 1393,
+  "duration_seconds": 116.08333333333333,
+  "blend": "master-v002.blend",
+  "full_preview": "preview/master-v002.mp4",
+  "change_preview": "preview/S1-low-to-high.mp4",
+  "source_of_truth": "Preserved user-saved base plus scripts/revise_s1.py",
+  "verification": {
+    "reopen": {
+      "frame0_pixels_identical": true,
+      "frame96_pixels_identical": true,
+      "note": "Compare RGB pixels; PNG bytes contain changing render metadata. Initial byte-hash comparison was not the pixel test."
+    },
+    "video": {
+      "frames": 1393,
+      "fps": "12/1",
+      "duration": "116.083333"
+    },
+    "original_file_preserved": true,
+    "base_sha256": "d7b31e3869b8a50344a59df6866f8783430b17e0ccc8d1368d68105abf5f5076",
+    "tests": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0
+    },
+    "s1_tests": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "actual_playback": {
+    "time": 15.083333,
+    "duration": 15.083333,
+    "ended": true,
+    "decoded": 181,
+    "dropped": 0
+  },
+  "limits": [
+    "Reference composition interpreted from supplied image; not a pixel-identical UI reproduction",
+    "Noncamera state preservation sampled at 17 frames; later camera compared at every integer frame",
+    "Collision is sampled camera point vs expanded boxes; not exact swept-volume geometry",
+    "Actual playback reviewed changed 0–180 frames; full video separately encoded"
+  ]
+}

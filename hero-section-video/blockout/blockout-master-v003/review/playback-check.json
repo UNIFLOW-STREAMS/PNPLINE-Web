@@ -1,0 +1,109 @@
+{
+  "method": "Actual 1x playback without seeking of changed S1 and S2 reconnection (0–180). Full master encoded separately.",
+  "result": {
+    "time": 15.083333,
+    "duration": 15.083333,
+    "ended": true,
+    "decoded": 181,
+    "dropped": 0
+  },
+  "errors": [],
+  "samples": [
+    {
+      "time": 0.004397,
+      "ended": false,
+      "error": null,
+      "file": "playing-00.png"
+    },
+    {
+      "time": 1.044643,
+      "ended": false,
+      "error": null,
+      "file": "playing-01.png"
+    },
+    {
+      "time": 2.09453,
+      "ended": false,
+      "error": null,
+      "file": "playing-02.png"
+    },
+    {
+      "time": 3.076325,
+      "ended": false,
+      "error": null,
+      "file": "playing-03.png"
+    },
+    {
+      "time": 4.071365,
+      "ended": false,
+      "error": null,
+      "file": "playing-04.png"
+    },
+    {
+      "time": 5.049276,
+      "ended": false,
+      "error": null,
+      "file": "playing-05.png"
+    },
+    {
+      "time": 6.038754,
+      "ended": false,
+      "error": null,
+      "file": "playing-06.png"
+    },
+    {
+      "time": 7.003111,
+      "ended": false,
+      "error": null,
+      "file": "playing-07.png"
+    },
+    {
+      "time": 8.155032,
+      "ended": false,
+      "error": null,
+      "file": "playing-08.png"
+    },
+    {
+      "time": 9.141036,
+      "ended": false,
+      "error": null,
+      "file": "playing-09.png"
+    },
+    {
+      "time": 10.152535,
+      "ended": false,
+      "error": null,
+      "file": "playing-10.png"
+    },
+    {
+      "time": 11.14247,
+      "ended": false,
+      "error": null,
+      "file": "playing-11.png"
+    },
+    {
+      "time": 12.132686,
+      "ended": false,
+      "error": null,
+      "file": "playing-12.png"
+    },
+    {
+      "time": 13.124073,
+      "ended": false,
+      "error": null,
+      "file": "playing-13.png"
+    },
+    {
+      "time": 14.113465,
+      "ended": false,
+      "error": null,
+      "file": "playing-14.png"
+    },
+    {
+      "time": 15.083333,
+      "ended": true,
+      "error": null,
+      "file": "playing-15.png"
+    }
+  ]
+}

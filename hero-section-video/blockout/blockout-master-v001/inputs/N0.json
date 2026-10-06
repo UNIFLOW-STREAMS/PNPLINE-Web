@@ -1,0 +1,16 @@
+{
+  "id": "N0",
+  "metadata": {
+    "type": "page"
+  },
+  "title": "스토리보드 텍스트 연출안",
+  "url": "https://app.notion.com/p/3eb841b6039a80d29b13c7c827d4b6c2?pvs=204",
+  "text": "Here is the result of \"fetch\" for the Page with URL https://app.notion.com/p/3eb841b6039a80d29b13c7c827d4b6c2 as of 2026-10-01T09:05:50.537Z:\n<page url=\"https://app.notion.com/p/3eb841b6039a80d29b13c7c827d4b6c2\">\n<ancestor-path>\n<parent-page url=\"https://app.notion.com/p/3eb841b6039a800f8df8e191f86316c2\" title=\"랜딩 사이트 - Hero Section 영상 제작\"/>\n</ancestor-path>\n<properties>\n{\"title\":\"스토리보드 텍스트 연출안\"}\n</properties>\n<iconMetadata>null</iconMetadata>\n<content>\n<empty-block/>\n<table header-row=\"true\">\n<colgroup>\n<col>\n<col width=\"357.99998474121094\">\n<col width=\"649.9999847412109\">\n</colgroup>\n<tr>\n<td>구간</td>\n<td>이야기</td>\n<td>연속 카메라 이동</td>\n</tr>\n<tr>\n<td>**1. 컨테이너 선적**</td>\n<td>PNPLINE 컨테이너가 내려와 선박에 적재된다.</td>\n<td>컨테이너를 따라 하강한 뒤, 착지에 맞춰 뒤로 물러나기 시작한다.</td>\n</tr>\n<tr>\n<td>**2. 중국 항구와 출항**</td>\n<td>선박과 중국 항구·도시가 드러나고 배가 출항한다.</td>\n<td>상승·후퇴로 공간을 드러내면서 선박의 후방 사선 추적으로 이어간다.</td>\n</tr>\n<tr>\n<td>**3. 미니어처 지구 항해**</td>\n<td>배가 지구의 곡면을 따라 미국으로 향한다.</td>\n<td>지구의 곡률을 드러내며 추적하고, 미국 접근 시 선박 측면을 따라 앞쪽으로 이동한다.</td>\n</tr>\n<tr>\n<td>**4. 미국 입항과 하역**</td>\n<td>배가 정박하고 PNPLINE 컨테이너가 운송 차량으로 옮겨진다.</td>\n<td>전방 사선에서 부두 쪽으로 이동하며 미국 전경을 드러내고, 컨테이너로 시선을 넘긴다.</td>\n</tr>\n<tr>\n<td>**5. 물류센터로 이동**</td>\n<td>컨테이너를 실은 차량이 연결 도로를 따라 입고 구역에 도착한다.</td>\n<td>차량의 측면 위쪽에서 함께 이동하며 창고의 개방된 측면으로 접근한다.</td>\n</tr>\n<tr>\n<td>**6. 물류센터 처리**</td>\n<td>입고·보관·피킹·포장·출고 준비를 보여 준다.</td>\n<td>열린 작업 구역을 따라 입고 측에서 출고 측으로 이동한다.</td>\n</tr>\n<tr>\n<td>**7. 미국 각지 배송**</td>\n<td>출고 차량들이 여러 방향으로 이동한다.</td>\n<td>출고 차량을 따라 밖으로 나간 뒤 상승해 분산되는 배송 흐름을 드러낸다.</td>\n</tr>\n</table>\n<page url=\"https://app.notion.com/p/3eb841b6039a8050ba08fc2c629b1678\">구간 1 - 컨테이너 선적</page>\n<page url=\"https://app.notion.com/p/3ec841b6039a809fa41ccaf226db5ee7\">구간 2 - 중국 항구와 출항 </page>\n<page url=\"https://app.notion.com/p/3ec841b6039a80cbbdf1d2c09866de74\">구간 3 - 미니어처 지구 항해</page>\n<page url=\"https://app.notion.com/p/3ec841b6039a800a8b76da46719558ed\">구간 4 - 미국 입항과 하역</page>\n<page url=\"https://app.notion.com/p/3ec841b6039a801b9283d4b15b4e12cc\">구간 5 - 물류센터로 이동</page>\n<page url=\"https://app.notion.com/p/3ec841b6039a80829dc2c3f574f6707a\">구간 6 - 물류센터 처리</page>\n<page url=\"https://app.notion.com/p/3ec841b6039a80f09cebc9f534ef9dbe\">구간 7 - 미국 각지 배송</page>\n<empty-block/>\n</content>\n</page>",
+  "cover": null,
+  "icon": null,
+  "path": "랜딩 사이트 - Hero Section 영상 제작",
+  "verification": {
+    "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-01T09:05:10.089Z"
+}

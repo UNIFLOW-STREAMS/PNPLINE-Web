@@ -1,0 +1,12 @@
+{
+  "quarter_frame_samples": 645,
+  "range": [
+    0,
+    161
+  ],
+  "camera_obb_hits": [],
+  "minimum_globe_clearance": 4.931154731535912,
+  "max_quarter_frame_step": 0.11010504612188735,
+  "max_quarter_frame_rotation_deg": 0.20174111091886765,
+  "method": "Camera point against local mesh boxes expanded .12; not exact continuous mesh collision"
+}

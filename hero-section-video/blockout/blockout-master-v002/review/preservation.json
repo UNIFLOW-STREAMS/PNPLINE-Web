@@ -1,0 +1,31 @@
+{
+  "version": "v002",
+  "base_sha256": "d7b31e3869b8a50344a59df6866f8783430b17e0ccc8d1368d68105abf5f5076",
+  "noncamera_sample_frames": [
+    0,
+    1,
+    24,
+    48,
+    72,
+    96,
+    110,
+    145,
+    159,
+    160,
+    216,
+    456,
+    648,
+    900,
+    1200,
+    1392
+  ],
+  "noncamera_state_before": "64101f547abe045d6e1b8bb502aa35a2e11b7429067bc75b07f5c2c11089d09d",
+  "noncamera_state_after": "64101f547abe045d6e1b8bb502aa35a2e11b7429067bc75b07f5c2c11089d09d",
+  "later_camera_frames": [
+    160,
+    1392
+  ],
+  "later_camera_max_matrix_error": 0,
+  "changed": "Camera and look target keys 0..159; camera guide; S1/start marker 0; version/output metadata",
+  "end_reference": "inputs/s1-end-reference.png"
+}

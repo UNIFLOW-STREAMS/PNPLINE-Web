@@ -1,0 +1,3346 @@
+[
+  {
+    "object": "EARTH_CONTINUOUS_OCEAN",
+    "type": "MESH",
+    "asset_id": "E-02",
+    "instance_id": "earth_ocean",
+    "parent": null,
+    "collections": [
+      "01_WORLD"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_LAND_TERRACE",
+    "type": "MESH",
+    "asset_id": "E-01",
+    "instance_id": "CN_LAND_TERRACE",
+    "parent": "CN_FRAME",
+    "collections": [
+      "01_WORLD"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_LAND_TERRACE",
+    "type": "MESH",
+    "asset_id": "E-01",
+    "instance_id": "US_LAND_TERRACE",
+    "parent": "US_FRAME",
+    "collections": [
+      "01_WORLD"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_FRAME",
+    "type": "EMPTY",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": null,
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_FRAME",
+    "type": "EMPTY",
+    "asset_id": "E-03",
+    "instance_id": "CN_FRAME",
+    "parent": null,
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_QUAY",
+    "type": "MESH",
+    "asset_id": "E-03",
+    "instance_id": "CN_QUAY",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_YARD_STACK_0",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "CN_YARD_STACK_0",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_YARD_STACK_1",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "CN_YARD_STACK_1",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_YARD_STACK_2",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "CN_YARD_STACK_2",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_YARD_STACK_3",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "CN_YARD_STACK_3",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_YARD_ROAD",
+    "type": "MESH",
+    "asset_id": "E-03",
+    "instance_id": "CN_YARD_ROAD",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_CITY_0",
+    "type": "MESH",
+    "asset_id": "E-04",
+    "instance_id": "CN_CITY_0",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_CITY_1",
+    "type": "MESH",
+    "asset_id": "E-04",
+    "instance_id": "CN_CITY_1",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_CITY_2",
+    "type": "MESH",
+    "asset_id": "E-04",
+    "instance_id": "CN_CITY_2",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_CITY_3",
+    "type": "MESH",
+    "asset_id": "E-04",
+    "instance_id": "CN_CITY_3",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "CN_CITY_4",
+    "type": "MESH",
+    "asset_id": "E-04",
+    "instance_id": "CN_CITY_4",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_QUAY",
+    "type": "MESH",
+    "asset_id": "E-05",
+    "instance_id": "US_QUAY",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_YARD_STACK_0",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "US_YARD_STACK_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_YARD_STACK_1",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "US_YARD_STACK_1",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_YARD_STACK_2",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "US_YARD_STACK_2",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_YARD_STACK_3",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "US_YARD_STACK_3",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_YARD_ROAD",
+    "type": "MESH",
+    "asset_id": "E-05",
+    "instance_id": "US_YARD_ROAD",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_CITY_0",
+    "type": "MESH",
+    "asset_id": "E-06",
+    "instance_id": "US_CITY_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_CITY_1",
+    "type": "MESH",
+    "asset_id": "E-06",
+    "instance_id": "US_CITY_1",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_CITY_2",
+    "type": "MESH",
+    "asset_id": "E-06",
+    "instance_id": "US_CITY_2",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_CITY_3",
+    "type": "MESH",
+    "asset_id": "E-06",
+    "instance_id": "US_CITY_3",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "US_CITY_4",
+    "type": "MESH",
+    "asset_id": "E-06",
+    "instance_id": "US_CITY_4",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_LEG_-25",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_LEG_-25",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_LEG_-212",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_LEG_-212",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_BOOM_-2",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_BOOM_-2",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_LEG_3.55",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_LEG_3.55",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_LEG_3.512",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_LEG_3.512",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P01_BOOM_3.5",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_BOOM_3.5",
+    "parent": "CN_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_LEG_-25",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_LEG_-25",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_LEG_-212",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_LEG_-212",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_BOOM_-2",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_BOOM_-2",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_LEG_3.55",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_LEG_3.55",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_LEG_3.512",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_LEG_3.512",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "P02_BOOM_3.5",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_BOOM_3.5",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E07_INBOUND_ROAD",
+    "type": "MESH",
+    "asset_id": "E-07",
+    "instance_id": "E07_INBOUND_ROAD",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E11_ROUTE_1",
+    "type": "MESH",
+    "asset_id": "E-11",
+    "instance_id": "E11_ROUTE_1",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E11_ROUTE_-1",
+    "type": "MESH",
+    "asset_id": "E-11",
+    "instance_id": "E11_ROUTE_-1",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E12_DESTINATION_0",
+    "type": "MESH",
+    "asset_id": "E-12",
+    "instance_id": "E12_DESTINATION_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E12_DESTINATION_1",
+    "type": "MESH",
+    "asset_id": "E-12",
+    "instance_id": "E12_DESTINATION_1",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E12_DESTINATION_2",
+    "type": "MESH",
+    "asset_id": "E-12",
+    "instance_id": "E12_DESTINATION_2",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E12_DESTINATION_3",
+    "type": "MESH",
+    "asset_id": "E-12",
+    "instance_id": "E12_DESTINATION_3",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "A05_WAIT_MERGE",
+    "type": "MESH",
+    "asset_id": "E-11",
+    "instance_id": "A05_WAIT_MERGE",
+    "parent": "US_FRAME",
+    "collections": [
+      "02_PORTS"
+    ],
+    "environment": true
+  },
+  {
+    "object": "A02_SHIP",
+    "type": "EMPTY",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": null,
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "SHIP_HULL",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "SHIP_DECK",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "SHIP_BRIDGE",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "SHIP_BRIDGE_GLASS",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_-2.6_-1.25",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_-2.6_-1.25",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_UPPER_-2.6_-1.25",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_UPPER_-2.6_-1.25",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_-2.6_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_-2.6_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_UPPER_-2.6_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_UPPER_-2.6_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_0.8_-1.25",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_0.8_-1.25",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_0.8_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_0.8_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_UPPER_0.8_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_UPPER_0.8_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_4.2_-1.25",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_4.2_-1.25",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_UPPER_4.2_-1.25",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_UPPER_4.2_-1.25",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_DECK_4.2_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_DECK_4.2_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P03_UPPER_4.2_0.65",
+    "type": "MESH",
+    "asset_id": "P-03",
+    "instance_id": "P03_UPPER_4.2_0.65",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "FX01_WAKE",
+    "type": "EMPTY",
+    "asset_id": "FX-01",
+    "instance_id": "FX01_WAKE",
+    "parent": null,
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "WAKE_RIBBON_0",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "WAKE_RIBBON_1",
+    "type": "MESH",
+    "asset_id": "A-02",
+    "instance_id": "A02_SHIP",
+    "parent": "A02_SHIP",
+    "collections": [
+      "03_SHIP"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_CONTAINER",
+    "type": "EMPTY",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_FLOOR",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_ROOF",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_SIDE_L",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_SIDE_R",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_FRONT",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PNPLINE_BRAND_SIDE_-0.776",
+    "type": "FONT",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PNPLINE_BRAND_SIDE_0.776",
+    "type": "FONT",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_DOOR_L",
+    "type": "EMPTY",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_DOOR_R",
+    "type": "EMPTY",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_DOOR_LEFT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_DOOR_L",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A01_DOOR_RIGHT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-01",
+    "instance_id": "A01_CONTAINER",
+    "parent": "A01_DOOR_R",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRAILER",
+    "type": "EMPTY",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRACTOR",
+    "type": "EMPTY",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRAILER_CHASSIS",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRAILER_COUPLING_TONGUE",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRAILER_HITCH",
+    "type": "EMPTY",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRACTOR_HITCH",
+    "type": "EMPTY",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRACTOR_CHASSIS",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRACTOR_CAB",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "TRACTOR_GLASS",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRAILER_WHEEL_-0.25-0.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRAILER_WHEEL_-0.250.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRAILER_WHEEL_0.25-0.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRAILER_WHEEL_0.250.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRAILER",
+    "parent": "A03_TRAILER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRACTOR_WHEEL_0-0.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRACTOR_WHEEL_00.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRACTOR_WHEEL_1.65-0.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A03_TRACTOR_WHEEL_1.650.85",
+    "type": "MESH",
+    "asset_id": "A-03",
+    "instance_id": "A03_TRACTOR",
+    "parent": "A03_TRACTOR",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_SPREADER",
+    "type": "EMPTY",
+    "asset_id": "P-01",
+    "instance_id": "P01_SPREADER",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_SPREADER_FRAME",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_SPREADER",
+    "parent": "P01_SPREADER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_CABLE_0",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P01_CABLE_0",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_CABLE_1",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P01_CABLE_1",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_CABLE_2",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P01_CABLE_2",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_CABLE_3",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P01_CABLE_3",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P01_TROLLEY",
+    "type": "MESH",
+    "asset_id": "P-01",
+    "instance_id": "P01_TROLLEY",
+    "parent": "CN_FRAME",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_SPREADER",
+    "type": "EMPTY",
+    "asset_id": "P-02",
+    "instance_id": "P02_SPREADER",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_SPREADER_FRAME",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_SPREADER",
+    "parent": "P02_SPREADER",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_CABLE_0",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P02_CABLE_0",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_CABLE_1",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P02_CABLE_1",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_CABLE_2",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P02_CABLE_2",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_CABLE_3",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "P02_CABLE_3",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "P02_TROLLEY",
+    "type": "MESH",
+    "asset_id": "P-02",
+    "instance_id": "P02_TROLLEY",
+    "parent": "US_FRAME",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY",
+    "type": "EMPTY",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_FLOOR",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_CARGO_SHELL",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_CARGO_SHELL.001",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_CARGO_SHELL.002",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_CAB",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_GLASS",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_WHEEL-1.3-0.91",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_WHEEL-1.30.91",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_WHEEL1.5-0.91",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_WHEEL1.50.91",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_DOOR_L",
+    "type": "EMPTY",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_DOOR_R",
+    "type": "EMPTY",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_LEFT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY_DOOR_L",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_RIGHT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-04",
+    "instance_id": "A04_PRIMARY",
+    "parent": "A04_PRIMARY_DOOR_R",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY",
+    "type": "EMPTY",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": null,
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_FLOOR",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_CARGO_SHELL",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_CARGO_SHELL.001",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_CARGO_SHELL.002",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_CAB",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_GLASS",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_WHEEL-1.3-0.91",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_WHEEL-1.30.91",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_WHEEL1.5-0.91",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_WHEEL1.50.91",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_DOOR_L",
+    "type": "EMPTY",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_DOOR_R",
+    "type": "EMPTY",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_LEFT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY_DOOR_L",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_RIGHT_LEAF",
+    "type": "MESH",
+    "asset_id": "A-05",
+    "instance_id": "A05_SECONDARY",
+    "parent": "A05_SECONDARY_DOOR_R",
+    "collections": [
+      "04_TRANSPORT"
+    ],
+    "environment": false
+  },
+  {
+    "object": "E09_MANEUVER_YARD",
+    "type": "MESH",
+    "asset_id": "E-09",
+    "instance_id": "E09_MANEUVER_YARD",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E08_WAREHOUSE",
+    "type": "EMPTY",
+    "asset_id": "E-08",
+    "instance_id": "E08_WAREHOUSE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_FLOOR",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_FLOOR",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_BACK_WALL",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_BACK_WALL",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_PARTIAL_ROOF",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_PARTIAL_ROOF",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_COLUMN_36",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_COLUMN_36",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_COLUMN_44",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_COLUMN_44",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_COLUMN_52",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_COLUMN_52",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_COLUMN_60",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_COLUMN_60",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "WAREHOUSE_COLUMN_68",
+    "type": "MESH",
+    "asset_id": "E-08",
+    "instance_id": "WAREHOUSE_COLUMN_68",
+    "parent": "E08_WAREHOUSE",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "DOCK_TARGET",
+    "type": "EMPTY",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "DOCK_BRIDGE",
+    "type": "MESH",
+    "asset_id": "E-09",
+    "instance_id": "DOCK_BRIDGE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E10_OUTBOUND_YARD",
+    "type": "MESH",
+    "asset_id": "E-10",
+    "instance_id": "E10_OUTBOUND_YARD",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "E10_LOADING_BRIDGE",
+    "type": "MESH",
+    "asset_id": "E-10",
+    "instance_id": "E10_LOADING_BRIDGE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "INBOUND_WAIT_ZONE",
+    "type": "MESH",
+    "asset_id": "W-10",
+    "instance_id": "INBOUND_WAIT_ZONE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "STORAGE_ZONE",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "STORAGE_ZONE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "PICKING_ZONE",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "PICKING_ZONE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "PACKING_ZONE",
+    "type": "MESH",
+    "asset_id": "W-06",
+    "instance_id": "PACKING_ZONE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "OUTBOUND_WAIT_ZONE",
+    "type": "MESH",
+    "asset_id": "W-10",
+    "instance_id": "OUTBOUND_WAIT_ZONE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_32.5_-1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_32.5_-1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_32.5_-1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_32.5_-1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_32.5_1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_32.5_1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_32.5_1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_32.5_1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_32.5_2.1",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_32.5_2.1",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_32.5_3.65",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_32.5_3.65",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_32.5_5.25",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_32.5_5.25",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_36.5_-1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_36.5_-1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_36.5_-1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_36.5_-1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_36.5_1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_36.5_1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_44_36.5_1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_44_36.5_1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_36.5_2.1",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_36.5_2.1",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_36.5_3.65",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_36.5_3.65",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_44_36.5_5.25",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_44_36.5_5.25",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_32.5_-1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_32.5_-1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_32.5_-1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_32.5_-1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_32.5_1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_32.5_1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_32.5_1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_32.5_1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_32.5_2.1",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_32.5_2.1",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_32.5_3.65",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_32.5_3.65",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_32.5_5.25",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_32.5_5.25",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_36.5_-1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_36.5_-1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_36.5_-1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_36.5_-1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_36.5_1.4_-0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_36.5_1.4_-0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_POST_48_36.5_1.4_0.75",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_POST_48_36.5_1.4_0.75",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_36.5_2.1",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_36.5_2.1",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_36.5_3.65",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_36.5_3.65",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_SHELF_48_36.5_5.25",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "RACK_SHELF_48_36.5_5.25",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "W04_PICK_BIN_SUPPORT",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "W04_PICK_BIN_SUPPORT",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "W04_BIN_STAND_31.7",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "W04_BIN_STAND_31.7",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "W04_BIN_STAND_32.3",
+    "type": "MESH",
+    "asset_id": "W-03",
+    "instance_id": "W04_BIN_STAND_32.3",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "W06_PACK_TABLE",
+    "type": "MESH",
+    "asset_id": "W-06",
+    "instance_id": "W06_PACK_TABLE",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "TABLE_LEG_55.8",
+    "type": "MESH",
+    "asset_id": "W-06",
+    "instance_id": "TABLE_LEG_55.8",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "TABLE_LEG_58.2",
+    "type": "MESH",
+    "asset_id": "W-06",
+    "instance_id": "TABLE_LEG_58.2",
+    "parent": "US_FRAME",
+    "collections": [
+      "05_WAREHOUSE"
+    ],
+    "environment": true
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_3.65_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_3.65_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_3.65_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_3.65_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_3.65_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_3.65_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_5.25_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_5.25_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_5.25_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_5.25_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_32.5_5.25_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_32.5_5.25_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_2.1_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_2.1_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_2.1_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_2.1_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_2.1_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_2.1_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_3.65_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_3.65_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_3.65_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_3.65_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_3.65_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_3.65_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_5.25_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_5.25_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_5.25_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_5.25_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_44_36.5_5.25_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_44_36.5_5.25_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_2.1_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_2.1_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_2.1_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_2.1_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_2.1_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_2.1_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_3.65_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_3.65_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_3.65_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_3.65_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_3.65_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_3.65_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_5.25_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_5.25_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_5.25_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_5.25_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_32.5_5.25_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_32.5_5.25_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_2.1_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_2.1_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_2.1_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_2.1_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_2.1_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_2.1_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_3.65_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_3.65_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_3.65_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_3.65_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_3.65_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_3.65_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_5.25_-0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_5.25_-0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_5.25_0",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_5.25_0",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "RACK_CARGO_48_36.5_5.25_0.85",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "RACK_CARGO_48_36.5_5.25_0.85",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET",
+    "type": "EMPTY",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET_BASE",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": "W01_NEW_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET_BOX_-0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": "W01_NEW_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET_BOX_-0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": "W01_NEW_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET_BOX_0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": "W01_NEW_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_NEW_PALLET_BOX_0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_NEW_PALLET",
+    "parent": "W01_NEW_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET",
+    "type": "EMPTY",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET_BASE",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": "W01_STORED_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET_BOX_-0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": "W01_STORED_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET_BOX_-0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": "W01_STORED_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET_BOX_0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": "W01_STORED_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_STORED_PALLET_BOX_0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_STORED_PALLET",
+    "parent": "W01_STORED_PALLET",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO",
+    "type": "EMPTY",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "A01_CONTAINER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO_BASE",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22",
+    "type": "MESH",
+    "asset_id": "W-01",
+    "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_INBOUND_JACK",
+    "type": "EMPTY",
+    "asset_id": "W-02",
+    "instance_id": "W02_INBOUND_JACK",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_STORAGE_JACK",
+    "type": "EMPTY",
+    "asset_id": "W-02",
+    "instance_id": "W02_STORAGE_JACK",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_INBOUND_JACK_FORKS",
+    "type": "MESH",
+    "asset_id": "W-02",
+    "instance_id": "W02_INBOUND_JACK",
+    "parent": "W02_INBOUND_JACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_INBOUND_JACK_HANDLE",
+    "type": "MESH",
+    "asset_id": "W-02",
+    "instance_id": "W02_INBOUND_JACK",
+    "parent": "W02_INBOUND_JACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_STORAGE_JACK_FORKS",
+    "type": "MESH",
+    "asset_id": "W-02",
+    "instance_id": "W02_STORAGE_JACK",
+    "parent": "W02_STORAGE_JACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W02_STORAGE_JACK_HANDLE",
+    "type": "MESH",
+    "asset_id": "W-02",
+    "instance_id": "W02_STORAGE_JACK",
+    "parent": "W02_STORAGE_JACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART",
+    "type": "EMPTY",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART",
+    "type": "EMPTY",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART_TRAY",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART_CASTER-0.46-0.36",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART_CASTER-0.460.36",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART_CASTER0.46-0.36",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W05_PICK_CART_CASTER0.460.36",
+    "type": "MESH",
+    "asset_id": "W-05",
+    "instance_id": "W05_PICK_CART",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART_TRAY",
+    "type": "MESH",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": "W09_OUT_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART_CASTER-0.46-0.36",
+    "type": "MESH",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": "W09_OUT_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART_CASTER-0.460.36",
+    "type": "MESH",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": "W09_OUT_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART_CASTER0.46-0.36",
+    "type": "MESH",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": "W09_OUT_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W09_OUT_CART_CASTER0.460.36",
+    "type": "MESH",
+    "asset_id": "W-09",
+    "instance_id": "W09_OUT_CART",
+    "parent": "W09_OUT_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W04_PICK_BIN_PRODUCT",
+    "type": "MESH",
+    "asset_id": "W-04",
+    "instance_id": "W04_PICK_BIN_PRODUCT",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W04_CART_ORDER_ALREADY_PICKED",
+    "type": "MESH",
+    "asset_id": "W-04",
+    "instance_id": "W04_CART_ORDER_ALREADY_PICKED",
+    "parent": "W05_PICK_CART",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W07_OPEN_PACK",
+    "type": "EMPTY",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_BOTTOM",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_WALL",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_WALL.001",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_WALL.002",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_WALL.003",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACK_BOX_CONTENT",
+    "type": "MESH",
+    "asset_id": "W-07",
+    "instance_id": "W07_OPEN_PACK",
+    "parent": "W07_OPEN_PACK",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W08_SEALED_READY",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "W08_SEALED_READY",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "W08_LAST_LOAD",
+    "type": "EMPTY",
+    "asset_id": "W-08",
+    "instance_id": "W08_LAST_LOAD",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "LAST_BOX_BODY",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "W08_LAST_LOAD",
+    "parent": "W08_LAST_LOAD",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PICKER",
+    "type": "EMPTY",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PICKER",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PICKER_TORSO",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PICKER",
+    "parent": "CH_PICKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PICKER_HEAD",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PICKER",
+    "parent": "CH_PICKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PICKER_LEG-0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PICKER",
+    "parent": "CH_PICKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PICKER_LEG0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PICKER",
+    "parent": "CH_PICKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PACKER",
+    "type": "EMPTY",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PACKER",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PACKER_TORSO",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PACKER",
+    "parent": "CH_PACKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PACKER_HEAD",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PACKER",
+    "parent": "CH_PACKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PACKER_LEG-0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PACKER",
+    "parent": "CH_PACKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_PACKER_LEG0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_PACKER",
+    "parent": "CH_PACKER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOADER",
+    "type": "EMPTY",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOADER",
+    "parent": "US_FRAME",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOADER_TORSO",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOADER",
+    "parent": "CH_LOADER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOADER_HEAD",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOADER",
+    "parent": "CH_LOADER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOADER_LEG-0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOADER",
+    "parent": "CH_LOADER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOADER_LEG0.12",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOADER",
+    "parent": "CH_LOADER",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOAD_SUPPORT",
+    "type": "MESH",
+    "asset_id": "CH-01",
+    "instance_id": "CH_LOAD_SUPPORT",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOAD_ARM_0",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "CH_LOAD_ARM_0",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CH_LOAD_ARM_1",
+    "type": "MESH",
+    "asset_id": null,
+    "instance_id": "CH_LOAD_ARM_1",
+    "parent": null,
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_PRELOADED-0.8",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "A04_PRIMARY_PRELOADED-0.8",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A04_PRIMARY_PRELOADED0.2",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "A04_PRIMARY_PRELOADED0.2",
+    "parent": "A04_PRIMARY",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_PRELOADED-0.8",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "A05_SECONDARY_PRELOADED-0.8",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "A05_SECONDARY_PRELOADED0.2",
+    "type": "MESH",
+    "asset_id": "W-08",
+    "instance_id": "A05_SECONDARY_PRELOADED0.2",
+    "parent": "A05_SECONDARY",
+    "collections": [
+      "06_CARGO_WORK"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CAM_MASTER",
+    "type": "CAMERA",
+    "asset_id": null,
+    "instance_id": "CAM_MASTER",
+    "parent": null,
+    "collections": [
+      "07_CAMERAS"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CAM_LOOK_TARGET",
+    "type": "EMPTY",
+    "asset_id": null,
+    "instance_id": "CAM_LOOK_TARGET",
+    "parent": null,
+    "collections": [
+      "07_CAMERAS"
+    ],
+    "environment": false
+  },
+  {
+    "object": "INBOUND_WAIT_REVIEW_LABEL",
+    "type": "FONT",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "STORAGE_REVIEW_LABEL",
+    "type": "FONT",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PICKING_REVIEW_LABEL",
+    "type": "FONT",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "PACKING_REVIEW_LABEL",
+    "type": "FONT",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "OUTBOUND_WAIT_REVIEW_LABEL",
+    "type": "FONT",
+    "asset_id": "E-05",
+    "instance_id": "US_FRAME",
+    "parent": "US_FRAME",
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "CAMERA_PATH",
+    "type": "CURVE",
+    "asset_id": null,
+    "instance_id": "CAMERA_PATH",
+    "parent": null,
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  },
+  {
+    "object": "SHIP_ROUTE",
+    "type": "CURVE",
+    "asset_id": null,
+    "instance_id": "SHIP_ROUTE",
+    "parent": null,
+    "collections": [
+      "08_REVIEW_GUIDES"
+    ],
+    "environment": false
+  }
+]

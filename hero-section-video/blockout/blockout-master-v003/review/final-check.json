@@ -1,0 +1,19 @@
+{
+  "reopen_rgb_pixels_identical": {
+    "0": true,
+    "96": true
+  },
+  "S1_end_pixels_identical_to_v002": true,
+  "original_v002_preserved": true,
+  "base_sha256": "50b6907ce954dae0f6eec19575d692948f20501f839ec2b4b8ea66eb6b83300c",
+  "tests_passed": 32,
+  "frame_count": 1393,
+  "duration_seconds": "116.083333",
+  "actual_playback": {
+    "time": 15.083333,
+    "duration": 15.083333,
+    "ended": true,
+    "decoded": 181,
+    "dropped": 0
+  }
+}

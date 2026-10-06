@@ -1,0 +1,74 @@
+00:00.968  blend            | Read blend: "F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\master-v003.blend"
+test_camera_rotation_and_lens_preserved (__main__.FramingTests.test_camera_rotation_and_lens_preserved) ... ok
+test_container_lower_and_cables_more_visible (__main__.FramingTests.test_container_lower_and_cables_more_visible) ... ok
+test_s1_end_and_later_camera_unchanged (__main__.FramingTests.test_s1_end_and_later_camera_unchanged) ... ok
+test_world_altitude_increased (__main__.FramingTests.test_world_altitude_increased) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.800s
+
+OK
+test_container_readable_through_s1 (__main__.S1CameraTests.test_container_readable_through_s1) ... ok
+test_s1_rises_to_reference_high_angle (__main__.S1CameraTests.test_s1_rises_to_reference_high_angle) ... ok
+test_s1_s2_connection_has_no_camera_reset (__main__.S1CameraTests.test_s1_s2_connection_has_no_camera_reset) ... ok
+test_starts_at_frame_zero_and_low_angle (__main__.S1CameraTests.test_starts_at_frame_zero_and_low_angle) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.063s
+
+OK
+test_all_inventory_ids_mapped_and_unique_instances (__main__.MasterTests.test_all_inventory_ids_mapped_and_unique_instances) ... ok
+test_container_keeps_ship_and_trailer_support (__main__.MasterTests.test_container_keeps_ship_and_trailer_support) ... ok
+test_crane_cables_have_overhead_trolley_support (__main__.MasterTests.test_crane_cables_have_overhead_trolley_support) ... ok
+test_delivery_vehicle_envelopes_clear_destination_buildings (__main__.MasterTests.test_delivery_vehicle_envelopes_clear_destination_buildings) ... ok
+test_delivery_vehicles_do_not_overlap_during_merge (__main__.MasterTests.test_delivery_vehicles_do_not_overlap_during_merge) ... ok
+test_dock_alignment_doors_and_stationary_inbound (__main__.MasterTests.test_dock_alignment_doors_and_stationary_inbound) ... ok
+test_dock_opening_in_front_of_camera (__main__.MasterTests.test_dock_opening_in_front_of_camera) ... ok
+test_dock_reverse_is_short_after_doors_open (__main__.MasterTests.test_dock_reverse_is_short_after_doors_open) ... ok
+test_final_frame_keeps_both_deliveries_visible (__main__.MasterTests.test_final_frame_keeps_both_deliveries_visible) ... ok
+test_fixed_environment (__main__.MasterTests.test_fixed_environment) ... ok
+test_folded_container_doors_clear_side_panels (__main__.MasterTests.test_folded_container_doors_clear_side_panels) ... ok
+test_full_timeline_camera_continuity (__main__.MasterTests.test_full_timeline_camera_continuity) ... ok
+test_inbound_vehicle_clears_raised_warehouse_floor (__main__.MasterTests.test_inbound_vehicle_clears_raised_warehouse_floor) ... ok
+test_last_load_has_support_and_clear_cargo_slot (__main__.MasterTests.test_last_load_has_support_and_clear_cargo_slot) ... ok
+test_outbound_cart_stays_on_warehouse_floor (__main__.MasterTests.test_outbound_cart_stays_on_warehouse_floor) ... ok
+test_picking_bin_product_has_support (__main__.MasterTests.test_picking_bin_product_has_support) ... ok
+test_road_is_flat_enough_for_wheels (__main__.MasterTests.test_road_is_flat_enough_for_wheels) ... ok
+test_secondary_heading_matches_merge_motion (__main__.MasterTests.test_secondary_heading_matches_merge_motion) ... ok
+test_separate_cargo_and_outbound_timing (__main__.MasterTests.test_separate_cargo_and_outbound_timing) ... ok
+test_ship_never_jumps_and_bow_stern_contact_water (__main__.MasterTests.test_ship_never_jumps_and_bow_stern_contact_water) ... ok
+test_single_camera_and_six_boundaries (__main__.MasterTests.test_single_camera_and_six_boundaries) ... ok
+test_tractor_trailer_hitch_does_not_separate (__main__.MasterTests.test_tractor_trailer_hitch_does_not_separate) ... ok
+test_trailer_frame_does_not_penetrate_dock_wall (__main__.MasterTests.test_trailer_frame_does_not_penetrate_dock_wall) ... ok
+test_unloading_container_stays_inside_vertical_frame (__main__.MasterTests.test_unloading_container_stays_inside_vertical_frame) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.491s
+
+OK
+{
+  "quarter_frame_samples": 645,
+  "range": [
+    0,
+    161
+  ],
+  "camera_obb_hits": [],
+  "minimum_globe_clearance": 4.931154731535912,
+  "max_quarter_frame_step": 0.11010504612188735,
+  "max_quarter_frame_rotation_deg": 0.20174111091886765,
+  "method": "Camera point against local mesh boxes expanded .12; not exact continuous mesh collision"
+}
+00:05.000  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0000.png'
+00:05.078  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0024.png'
+00:05.156  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0048.png'
+00:05.234  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0072.png'
+00:05.312  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0096.png'
+00:05.390  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0097.png'
+00:05.468  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0110.png'
+00:05.547  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0144.png'
+00:05.640  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0159.png'
+00:05.718  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0160.png'
+00:05.812  render           | Saved: 'F:\pnpline-landing\hero-section-video\blockout\blockout-master-v003\review\camera-f0161.png'
+Blender 5.1.0 (hash adfe2921d5f3 built 2026-03-17 01:37:32)
+
+Blender quit

@@ -1,0 +1,24 @@
+{
+  "reopen": {
+    "frame0_pixels_identical": true,
+    "frame96_pixels_identical": true,
+    "note": "Compare RGB pixels; PNG bytes contain changing render metadata. Initial byte-hash comparison was not the pixel test."
+  },
+  "video": {
+    "frames": 1393,
+    "fps": "12/1",
+    "duration": "116.083333"
+  },
+  "original_file_preserved": true,
+  "base_sha256": "d7b31e3869b8a50344a59df6866f8783430b17e0ccc8d1368d68105abf5f5076",
+  "tests": {
+    "tests": 24,
+    "failures": 0,
+    "errors": 0
+  },
+  "s1_tests": {
+    "tests": 4,
+    "failures": 0,
+    "errors": 0
+  }
+}

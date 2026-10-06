@@ -1,0 +1,25 @@
+{
+  "version": "v001",
+  "frames_checked": 1392,
+  "subframe_interval": 0.25,
+  "environment_objects": 100,
+  "environment_signature": "0d1f39c2ff84d9676393e92fe40adab25aac51117c68b537fecd542de7dab2cf",
+  "environment_and_ship_side_errors": [],
+  "camera_obb_hits": [],
+  "metrics": {
+    "camera_globe_clearance": 6.369395890690754,
+    "ship_keel_radius_offset_min": -0.6500175725197153,
+    "ship_keel_radius_offset_max": -0.48416621330298426,
+    "trailer_hitch_distance_max": 1.0956883709980066e-05,
+    "camera_step_max": 2.412056904581169,
+    "camera_rotation_deg_max": 6.951399228224106,
+    "ship_step_max": 1.0455776759221829
+  },
+  "method_limits": [
+    "Camera point expanded 0.12m vs object local bounding boxes; not exact mesh collision or continuous swept volume",
+    "Ship hull tested bow/mid/stern sample points against exact sphere; no fluid simulation",
+    "Dense integer frame keys plus selected quarter-frame samples; no safety certification",
+    "Screen projections are visibility bounds, not semantic or occlusion proof"
+  ],
+  "source_blend": "master-v001.blend"
+}

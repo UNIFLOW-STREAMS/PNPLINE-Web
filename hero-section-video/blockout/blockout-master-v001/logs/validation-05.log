@@ -1,0 +1,34 @@
+00:01.078  blend            | Read blend: "F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\master-v001.blend"
+test_all_inventory_ids_mapped_and_unique_instances (__main__.MasterTests.test_all_inventory_ids_mapped_and_unique_instances) ... ok
+test_container_keeps_ship_and_trailer_support (__main__.MasterTests.test_container_keeps_ship_and_trailer_support) ... ok
+test_crane_cables_have_overhead_trolley_support (__main__.MasterTests.test_crane_cables_have_overhead_trolley_support) ... ok
+test_delivery_vehicle_envelopes_clear_destination_buildings (__main__.MasterTests.test_delivery_vehicle_envelopes_clear_destination_buildings) ... ok
+test_dock_alignment_doors_and_stationary_inbound (__main__.MasterTests.test_dock_alignment_doors_and_stationary_inbound) ... ok
+test_dock_opening_in_front_of_camera (__main__.MasterTests.test_dock_opening_in_front_of_camera) ... ok
+test_final_frame_keeps_both_deliveries_visible (__main__.MasterTests.test_final_frame_keeps_both_deliveries_visible) ... ok
+test_fixed_environment (__main__.MasterTests.test_fixed_environment) ... ok
+test_full_timeline_camera_continuity (__main__.MasterTests.test_full_timeline_camera_continuity) ... ok
+test_last_load_has_support_and_clear_cargo_slot (__main__.MasterTests.test_last_load_has_support_and_clear_cargo_slot) ... ok
+test_outbound_cart_stays_on_warehouse_floor (__main__.MasterTests.test_outbound_cart_stays_on_warehouse_floor) ... FAIL
+test_picking_bin_product_has_support (__main__.MasterTests.test_picking_bin_product_has_support) ... ok
+test_road_is_flat_enough_for_wheels (__main__.MasterTests.test_road_is_flat_enough_for_wheels) ... ok
+test_secondary_heading_matches_merge_motion (__main__.MasterTests.test_secondary_heading_matches_merge_motion) ... ok
+test_separate_cargo_and_outbound_timing (__main__.MasterTests.test_separate_cargo_and_outbound_timing) ... ok
+test_ship_never_jumps_and_bow_stern_contact_water (__main__.MasterTests.test_ship_never_jumps_and_bow_stern_contact_water) ... ok
+test_single_camera_and_six_boundaries (__main__.MasterTests.test_single_camera_and_six_boundaries) ... ok
+test_tractor_trailer_hitch_does_not_separate (__main__.MasterTests.test_tractor_trailer_hitch_does_not_separate) ... ok
+
+======================================================================
+FAIL: test_outbound_cart_stays_on_warehouse_floor (__main__.MasterTests.test_outbound_cart_stays_on_warehouse_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\pnpline-landing\hero-section-video\blockout\blockout-master-v001\scripts\test_scene.py", line 154, in test_outbound_cart_stays_on_warehouse_floor
+    self.assertGreater(Vector((p.x-worker.x,p.y-worker.y)).length,.8,f'Cart intersects loader f{f}')
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.7999992460372681 not greater than 0.8 : Cart intersects loader f1195
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.287s
+
+FAILED (failures=1)
+Blender 5.1.0 (hash adfe2921d5f3 built 2026-03-17 01:37:32)

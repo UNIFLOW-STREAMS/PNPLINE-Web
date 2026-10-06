@@ -1,0 +1,1652 @@
+{
+  "method": "Actual 1x browser video playback; no seeking. Screenshots sampled once per playback second.",
+  "samples": [
+    {
+      "time": 0.006204,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 4,
+        "dropped": 0
+      },
+      "screenshot": "playing-000.png",
+      "wall_ms": 216
+    },
+    {
+      "time": 1.007545,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 16,
+        "dropped": 1
+      },
+      "screenshot": "playing-001.png",
+      "wall_ms": 1189
+    },
+    {
+      "time": 2.149748,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 30,
+        "dropped": 1
+      },
+      "screenshot": "playing-002.png",
+      "wall_ms": 2324
+    },
+    {
+      "time": 3.097101,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 42,
+        "dropped": 1
+      },
+      "screenshot": "playing-003.png",
+      "wall_ms": 3261
+    },
+    {
+      "time": 4.025239,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 53,
+        "dropped": 1
+      },
+      "screenshot": "playing-004.png",
+      "wall_ms": 4230
+    },
+    {
+      "time": 5.015687,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 65,
+        "dropped": 1
+      },
+      "screenshot": "playing-005.png",
+      "wall_ms": 5232
+    },
+    {
+      "time": 6.018983,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 77,
+        "dropped": 1
+      },
+      "screenshot": "playing-006.png",
+      "wall_ms": 6213
+    },
+    {
+      "time": 7.163122,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 90,
+        "dropped": 1
+      },
+      "screenshot": "playing-007.png",
+      "wall_ms": 7357
+    },
+    {
+      "time": 8.108608,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 102,
+        "dropped": 1
+      },
+      "screenshot": "playing-008.png",
+      "wall_ms": 8288
+    },
+    {
+      "time": 9.066007,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 113,
+        "dropped": 1
+      },
+      "screenshot": "playing-009.png",
+      "wall_ms": 9244
+    },
+    {
+      "time": 10.012323,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 124,
+        "dropped": 1
+      },
+      "screenshot": "playing-010.png",
+      "wall_ms": 10186
+    },
+    {
+      "time": 11.141102,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 138,
+        "dropped": 1
+      },
+      "screenshot": "playing-011.png",
+      "wall_ms": 11312
+    },
+    {
+      "time": 12.097524,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 150,
+        "dropped": 1
+      },
+      "screenshot": "playing-012.png",
+      "wall_ms": 12294
+    },
+    {
+      "time": 13.045425,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 161,
+        "dropped": 1
+      },
+      "screenshot": "playing-013.png",
+      "wall_ms": 13264
+    },
+    {
+      "time": 14.022873,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 173,
+        "dropped": 1
+      },
+      "screenshot": "playing-014.png",
+      "wall_ms": 14198
+    },
+    {
+      "time": 15.151135,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 186,
+        "dropped": 1
+      },
+      "screenshot": "playing-015.png",
+      "wall_ms": 15373
+    },
+    {
+      "time": 16.141757,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 198,
+        "dropped": 1
+      },
+      "screenshot": "playing-016.png",
+      "wall_ms": 16306
+    },
+    {
+      "time": 17.05711,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 209,
+        "dropped": 1
+      },
+      "screenshot": "playing-017.png",
+      "wall_ms": 17261
+    },
+    {
+      "time": 18.019055,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 221,
+        "dropped": 1
+      },
+      "screenshot": "playing-018.png",
+      "wall_ms": 18215
+    },
+    {
+      "time": 19.150504,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 234,
+        "dropped": 1
+      },
+      "screenshot": "playing-019.png",
+      "wall_ms": 19349
+    },
+    {
+      "time": 20.112491,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 246,
+        "dropped": 1
+      },
+      "screenshot": "playing-020.png",
+      "wall_ms": 20306
+    },
+    {
+      "time": 21.057614,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 257,
+        "dropped": 1
+      },
+      "screenshot": "playing-021.png",
+      "wall_ms": 21218
+    },
+    {
+      "time": 22.172229,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 270,
+        "dropped": 1
+      },
+      "screenshot": "playing-022.png",
+      "wall_ms": 22339
+    },
+    {
+      "time": 23.117915,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 282,
+        "dropped": 1
+      },
+      "screenshot": "playing-023.png",
+      "wall_ms": 23313
+    },
+    {
+      "time": 24.081291,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 293,
+        "dropped": 1
+      },
+      "screenshot": "playing-024.png",
+      "wall_ms": 24267
+    },
+    {
+      "time": 25.027376,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 305,
+        "dropped": 1
+      },
+      "screenshot": "playing-025.png",
+      "wall_ms": 25161
+    },
+    {
+      "time": 26.12112,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 318,
+        "dropped": 1
+      },
+      "screenshot": "playing-026.png",
+      "wall_ms": 26285
+    },
+    {
+      "time": 27.051342,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 329,
+        "dropped": 1
+      },
+      "screenshot": "playing-027.png",
+      "wall_ms": 27227
+    },
+    {
+      "time": 28.006888,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 340,
+        "dropped": 1
+      },
+      "screenshot": "playing-028.png",
+      "wall_ms": 28163
+    },
+    {
+      "time": 29.144168,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 354,
+        "dropped": 1
+      },
+      "screenshot": "playing-029.png",
+      "wall_ms": 29296
+    },
+    {
+      "time": 30.049352,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 365,
+        "dropped": 1
+      },
+      "screenshot": "playing-030.png",
+      "wall_ms": 30235
+    },
+    {
+      "time": 31.017645,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 377,
+        "dropped": 1
+      },
+      "screenshot": "playing-031.png",
+      "wall_ms": 31205
+    },
+    {
+      "time": 32.179742,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 390,
+        "dropped": 1
+      },
+      "screenshot": "playing-032.png",
+      "wall_ms": 32346
+    },
+    {
+      "time": 33.113325,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 402,
+        "dropped": 1
+      },
+      "screenshot": "playing-033.png",
+      "wall_ms": 33283
+    },
+    {
+      "time": 34.075098,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 413,
+        "dropped": 1
+      },
+      "screenshot": "playing-034.png",
+      "wall_ms": 34218
+    },
+    {
+      "time": 35.006481,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 424,
+        "dropped": 1
+      },
+      "screenshot": "playing-035.png",
+      "wall_ms": 35137
+    },
+    {
+      "time": 36.105246,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 438,
+        "dropped": 1
+      },
+      "screenshot": "playing-036.png",
+      "wall_ms": 36241
+    },
+    {
+      "time": 37.03084,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 449,
+        "dropped": 1
+      },
+      "screenshot": "playing-037.png",
+      "wall_ms": 37226
+    },
+    {
+      "time": 38.015326,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 460,
+        "dropped": 1
+      },
+      "screenshot": "playing-038.png",
+      "wall_ms": 38226
+    },
+    {
+      "time": 39.001956,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 472,
+        "dropped": 1
+      },
+      "screenshot": "playing-039.png",
+      "wall_ms": 39211
+    },
+    {
+      "time": 40.165583,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 486,
+        "dropped": 1
+      },
+      "screenshot": "playing-040.png",
+      "wall_ms": 40337
+    },
+    {
+      "time": 41.105441,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 498,
+        "dropped": 1
+      },
+      "screenshot": "playing-041.png",
+      "wall_ms": 41259
+    },
+    {
+      "time": 42.042064,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 509,
+        "dropped": 1
+      },
+      "screenshot": "playing-042.png",
+      "wall_ms": 42207
+    },
+    {
+      "time": 43.170685,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 522,
+        "dropped": 1
+      },
+      "screenshot": "playing-043.png",
+      "wall_ms": 43338
+    },
+    {
+      "time": 44.088464,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 534,
+        "dropped": 1
+      },
+      "screenshot": "playing-044.png",
+      "wall_ms": 44296
+    },
+    {
+      "time": 45.063258,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 545,
+        "dropped": 1
+      },
+      "screenshot": "playing-045.png",
+      "wall_ms": 45235
+    },
+    {
+      "time": 46.166466,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 558,
+        "dropped": 1
+      },
+      "screenshot": "playing-046.png",
+      "wall_ms": 46330
+    },
+    {
+      "time": 47.093632,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 570,
+        "dropped": 1
+      },
+      "screenshot": "playing-047.png",
+      "wall_ms": 47299
+    },
+    {
+      "time": 48.056937,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 581,
+        "dropped": 1
+      },
+      "screenshot": "playing-048.png",
+      "wall_ms": 48234
+    },
+    {
+      "time": 49.016577,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 593,
+        "dropped": 1
+      },
+      "screenshot": "playing-049.png",
+      "wall_ms": 49209
+    },
+    {
+      "time": 50.17322,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 606,
+        "dropped": 1
+      },
+      "screenshot": "playing-050.png",
+      "wall_ms": 50365
+    },
+    {
+      "time": 51.133759,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 618,
+        "dropped": 1
+      },
+      "screenshot": "playing-051.png",
+      "wall_ms": 51336
+    },
+    {
+      "time": 52.09647,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 630,
+        "dropped": 1
+      },
+      "screenshot": "playing-052.png",
+      "wall_ms": 52296
+    },
+    {
+      "time": 53.070172,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 641,
+        "dropped": 1
+      },
+      "screenshot": "playing-053.png",
+      "wall_ms": 53253
+    },
+    {
+      "time": 54.044688,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 653,
+        "dropped": 1
+      },
+      "screenshot": "playing-054.png",
+      "wall_ms": 54229
+    },
+    {
+      "time": 55.015636,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 664,
+        "dropped": 1
+      },
+      "screenshot": "playing-055.png",
+      "wall_ms": 55187
+    },
+    {
+      "time": 56.144197,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 678,
+        "dropped": 1
+      },
+      "screenshot": "playing-056.png",
+      "wall_ms": 56301
+    },
+    {
+      "time": 57.085999,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 690,
+        "dropped": 1
+      },
+      "screenshot": "playing-057.png",
+      "wall_ms": 57259
+    },
+    {
+      "time": 58.03144,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 701,
+        "dropped": 1
+      },
+      "screenshot": "playing-058.png",
+      "wall_ms": 58236
+    },
+    {
+      "time": 59.018238,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 713,
+        "dropped": 1
+      },
+      "screenshot": "playing-059.png",
+      "wall_ms": 59191
+    },
+    {
+      "time": 60.175521,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 726,
+        "dropped": 1
+      },
+      "screenshot": "playing-060.png",
+      "wall_ms": 60332
+    },
+    {
+      "time": 61.078425,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 737,
+        "dropped": 1
+      },
+      "screenshot": "playing-061.png",
+      "wall_ms": 61254
+    },
+    {
+      "time": 62.03871,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 749,
+        "dropped": 1
+      },
+      "screenshot": "playing-062.png",
+      "wall_ms": 62208
+    },
+    {
+      "time": 63.166121,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 762,
+        "dropped": 1
+      },
+      "screenshot": "playing-063.png",
+      "wall_ms": 63311
+    },
+    {
+      "time": 64.068185,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 773,
+        "dropped": 1
+      },
+      "screenshot": "playing-064.png",
+      "wall_ms": 64227
+    },
+    {
+      "time": 65.168398,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 786,
+        "dropped": 1
+      },
+      "screenshot": "playing-065.png",
+      "wall_ms": 65325
+    },
+    {
+      "time": 66.095985,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 798,
+        "dropped": 1
+      },
+      "screenshot": "playing-066.png",
+      "wall_ms": 66306
+    },
+    {
+      "time": 67.097888,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 810,
+        "dropped": 1
+      },
+      "screenshot": "playing-067.png",
+      "wall_ms": 67307
+    },
+    {
+      "time": 68.098345,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 822,
+        "dropped": 1
+      },
+      "screenshot": "playing-068.png",
+      "wall_ms": 68308
+    },
+    {
+      "time": 69.074095,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 833,
+        "dropped": 1
+      },
+      "screenshot": "playing-069.png",
+      "wall_ms": 69286
+    },
+    {
+      "time": 70.050852,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 845,
+        "dropped": 1
+      },
+      "screenshot": "playing-070.png",
+      "wall_ms": 70232
+    },
+    {
+      "time": 71.009714,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 856,
+        "dropped": 1
+      },
+      "screenshot": "playing-071.png",
+      "wall_ms": 71172
+    },
+    {
+      "time": 72.125037,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 870,
+        "dropped": 1
+      },
+      "screenshot": "playing-072.png",
+      "wall_ms": 72327
+    },
+    {
+      "time": 73.104087,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 882,
+        "dropped": 1
+      },
+      "screenshot": "playing-073.png",
+      "wall_ms": 73284
+    },
+    {
+      "time": 74.061089,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 893,
+        "dropped": 1
+      },
+      "screenshot": "playing-074.png",
+      "wall_ms": 74259
+    },
+    {
+      "time": 75.038267,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 905,
+        "dropped": 1
+      },
+      "screenshot": "playing-075.png",
+      "wall_ms": 75223
+    },
+    {
+      "time": 76.014297,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 916,
+        "dropped": 1
+      },
+      "screenshot": "playing-076.png",
+      "wall_ms": 76201
+    },
+    {
+      "time": 77.156565,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 930,
+        "dropped": 1
+      },
+      "screenshot": "playing-077.png",
+      "wall_ms": 77386
+    },
+    {
+      "time": 78.152431,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 942,
+        "dropped": 1
+      },
+      "screenshot": "playing-078.png",
+      "wall_ms": 78327
+    },
+    {
+      "time": 79.088051,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 954,
+        "dropped": 1
+      },
+      "screenshot": "playing-079.png",
+      "wall_ms": 79266
+    },
+    {
+      "time": 80.033651,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 965,
+        "dropped": 1
+      },
+      "screenshot": "playing-080.png",
+      "wall_ms": 80188
+    },
+    {
+      "time": 81.150008,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 978,
+        "dropped": 1
+      },
+      "screenshot": "playing-081.png",
+      "wall_ms": 81334
+    },
+    {
+      "time": 82.094374,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 990,
+        "dropped": 1
+      },
+      "screenshot": "playing-082.png",
+      "wall_ms": 82306
+    },
+    {
+      "time": 83.082894,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1001,
+        "dropped": 1
+      },
+      "screenshot": "playing-083.png",
+      "wall_ms": 83305
+    },
+    {
+      "time": 84.084718,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1014,
+        "dropped": 1
+      },
+      "screenshot": "playing-084.png",
+      "wall_ms": 84280
+    },
+    {
+      "time": 85.053799,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1025,
+        "dropped": 1
+      },
+      "screenshot": "playing-085.png",
+      "wall_ms": 85237
+    },
+    {
+      "time": 86.02792,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1037,
+        "dropped": 1
+      },
+      "screenshot": "playing-086.png",
+      "wall_ms": 86241
+    },
+    {
+      "time": 87.015,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1048,
+        "dropped": 1
+      },
+      "screenshot": "playing-087.png",
+      "wall_ms": 87207
+    },
+    {
+      "time": 88.166066,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1062,
+        "dropped": 1
+      },
+      "screenshot": "playing-088.png",
+      "wall_ms": 88329
+    },
+    {
+      "time": 89.097495,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1074,
+        "dropped": 1
+      },
+      "screenshot": "playing-089.png",
+      "wall_ms": 89302
+    },
+    {
+      "time": 90.044807,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1085,
+        "dropped": 1
+      },
+      "screenshot": "playing-090.png",
+      "wall_ms": 90226
+    },
+    {
+      "time": 91.187874,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1099,
+        "dropped": 1
+      },
+      "screenshot": "playing-091.png",
+      "wall_ms": 91341
+    },
+    {
+      "time": 92.11918,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1110,
+        "dropped": 1
+      },
+      "screenshot": "playing-092.png",
+      "wall_ms": 92319
+    },
+    {
+      "time": 93.0781,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1121,
+        "dropped": 1
+      },
+      "screenshot": "playing-093.png",
+      "wall_ms": 93258
+    },
+    {
+      "time": 94.040011,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1133,
+        "dropped": 1
+      },
+      "screenshot": "playing-094.png",
+      "wall_ms": 94212
+    },
+    {
+      "time": 95.137635,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1146,
+        "dropped": 1
+      },
+      "screenshot": "playing-095.png",
+      "wall_ms": 95330
+    },
+    {
+      "time": 96.110609,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1158,
+        "dropped": 1
+      },
+      "screenshot": "playing-096.png",
+      "wall_ms": 96261
+    },
+    {
+      "time": 97.052666,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1169,
+        "dropped": 1
+      },
+      "screenshot": "playing-097.png",
+      "wall_ms": 97257
+    },
+    {
+      "time": 98.181332,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1182,
+        "dropped": 1
+      },
+      "screenshot": "playing-098.png",
+      "wall_ms": 98368
+    },
+    {
+      "time": 99.141418,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1194,
+        "dropped": 1
+      },
+      "screenshot": "playing-099.png",
+      "wall_ms": 99328
+    },
+    {
+      "time": 100.084385,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1205,
+        "dropped": 1
+      },
+      "screenshot": "playing-100.png",
+      "wall_ms": 100258
+    },
+    {
+      "time": 101.027182,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1217,
+        "dropped": 1
+      },
+      "screenshot": "playing-101.png",
+      "wall_ms": 101227
+    },
+    {
+      "time": 102.183408,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1230,
+        "dropped": 1
+      },
+      "screenshot": "playing-102.png",
+      "wall_ms": 102371
+    },
+    {
+      "time": 103.155089,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1242,
+        "dropped": 1
+      },
+      "screenshot": "playing-103.png",
+      "wall_ms": 103367
+    },
+    {
+      "time": 104.15844,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1254,
+        "dropped": 1
+      },
+      "screenshot": "playing-104.png",
+      "wall_ms": 104367
+    },
+    {
+      "time": 105.130581,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1266,
+        "dropped": 1
+      },
+      "screenshot": "playing-105.png",
+      "wall_ms": 105308
+    },
+    {
+      "time": 106.090526,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1278,
+        "dropped": 1
+      },
+      "screenshot": "playing-106.png",
+      "wall_ms": 106315
+    },
+    {
+      "time": 107.093333,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1290,
+        "dropped": 1
+      },
+      "screenshot": "playing-107.png",
+      "wall_ms": 107316
+    },
+    {
+      "time": 108.081212,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1301,
+        "dropped": 1
+      },
+      "screenshot": "playing-108.png",
+      "wall_ms": 108312
+    },
+    {
+      "time": 109.060531,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1313,
+        "dropped": 1
+      },
+      "screenshot": "playing-109.png",
+      "wall_ms": 109246
+    },
+    {
+      "time": 110.011612,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1324,
+        "dropped": 1
+      },
+      "screenshot": "playing-110.png",
+      "wall_ms": 110228
+    },
+    {
+      "time": 111.157853,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1338,
+        "dropped": 1
+      },
+      "screenshot": "playing-111.png",
+      "wall_ms": 111374
+    },
+    {
+      "time": 112.158248,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1350,
+        "dropped": 1
+      },
+      "screenshot": "playing-112.png",
+      "wall_ms": 112401
+    },
+    {
+      "time": 113.004235,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1360,
+        "dropped": 1
+      },
+      "screenshot": "playing-113.png",
+      "wall_ms": 113260
+    },
+    {
+      "time": 114.024418,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1373,
+        "dropped": 1
+      },
+      "screenshot": "playing-114.png",
+      "wall_ms": 114223
+    },
+    {
+      "time": 115.001649,
+      "duration": 116,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1384,
+        "dropped": 1
+      },
+      "screenshot": "playing-115.png",
+      "wall_ms": 115241
+    },
+    {
+      "time": 116,
+      "duration": 116,
+      "ended": true,
+      "paused": true,
+      "readyState": 4,
+      "error": null,
+      "quality": {
+        "total": 1392,
+        "dropped": 1
+      },
+      "screenshot": "playing-116.png",
+      "wall_ms": 116258
+    }
+  ],
+  "final": {
+    "time": 116,
+    "duration": 116,
+    "ended": true,
+    "decoded": 1392,
+    "dropped": 1
+  },
+  "errors": [],
+  "wall_ms": 116262
+}
