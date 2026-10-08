@@ -1,2 +1,26 @@
 design-refs/
 output/source-assets/
+
+# Generated blockout render and review frames (keep plan/reference artwork).
+/hero-section-video/blockout/*/preview/**/*.png
+/hero-section-video/blockout/*/review/**/*.png
+/hero-section-video/blockout/*/wheel-fix/**/*.png
+
+# Logs, caches, and Blender backup or intermediate files.
+logs/
+*.log
+__pycache__/
+*.pyc
+*.blend1
+/hero-section-video/blockout/*/review/**/*.blend
+*candidate*.blend
+*limited*.blend
+/hero-section-video/blockout/*/wheel-fix/**/*.blend
+
+# Editor and operating-system temporary files.
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
