@@ -1,0 +1,43 @@
+{
+  "reopen_rgb_identical": {
+    "216": true,
+    "278": true,
+    "330": true,
+    "380": true,
+    "422": true,
+    "450": true,
+    "456": true
+  },
+  "source_replay_all_1393_states_exact": true,
+  "baseline_preserved": true,
+  "final_blend_sha256": "fbd23c09009f925e7d1d082b7a08ded1b302a9fa0915304acb2cbb78f39b09ea",
+  "videos": {
+    "s2-tail_s3_s4-head.mp4": {
+      "frames": 277,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "23.083333"
+    },
+    "s3-after.mp4": {
+      "frames": 241,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "20.083333"
+    },
+    "s3-before.mp4": {
+      "frames": 241,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "20.083333"
+    }
+  }
+}

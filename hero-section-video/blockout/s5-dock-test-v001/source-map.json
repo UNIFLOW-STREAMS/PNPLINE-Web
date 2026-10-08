@@ -1,0 +1,710 @@
+{
+  "A01_CONTAINER": {
+    "test_object": "S5T__A01_CONTAINER",
+    "source_data": "",
+    "source_asset_id": "A-01",
+    "test_data": null
+  },
+  "A01_DOOR_L": {
+    "test_object": "S5T__A01_DOOR_L",
+    "source_data": "",
+    "source_asset_id": "",
+    "test_data": null
+  },
+  "A01_DOOR_LEFT_LEAF": {
+    "test_object": "S5T__A01_DOOR_LEFT_LEAF",
+    "source_data": "Cube.040",
+    "source_asset_id": "",
+    "test_data": "Cube.040"
+  },
+  "A01_DOOR_R": {
+    "test_object": "S5T__A01_DOOR_R",
+    "source_data": "",
+    "source_asset_id": "",
+    "test_data": null
+  },
+  "A01_DOOR_RIGHT_LEAF": {
+    "test_object": "S5T__A01_DOOR_RIGHT_LEAF",
+    "source_data": "Cube.041",
+    "source_asset_id": "",
+    "test_data": "Cube.041"
+  },
+  "A01_FLOOR": {
+    "test_object": "S5T__A01_FLOOR",
+    "source_data": "Cube.035",
+    "source_asset_id": "",
+    "test_data": "Cube.035"
+  },
+  "A01_FRONT": {
+    "test_object": "S5T__A01_FRONT",
+    "source_data": "Cube.039",
+    "source_asset_id": "",
+    "test_data": "Cube.039"
+  },
+  "A01_ROOF": {
+    "test_object": "S5T__A01_ROOF",
+    "source_data": "Cube.036",
+    "source_asset_id": "",
+    "test_data": "Cube.036"
+  },
+  "A01_SIDE_L": {
+    "test_object": "S5T__A01_SIDE_L",
+    "source_data": "Cube.037",
+    "source_asset_id": "",
+    "test_data": "Cube.037"
+  },
+  "A01_SIDE_R": {
+    "test_object": "S5T__A01_SIDE_R",
+    "source_data": "Cube.038",
+    "source_asset_id": "",
+    "test_data": "Cube.038"
+  },
+  "A03_TRACTOR": {
+    "test_object": "S5T__A03_TRACTOR",
+    "source_data": "",
+    "source_asset_id": "A-03",
+    "test_data": null
+  },
+  "A03_TRACTOR_WHEEL_0-0.85": {
+    "test_object": "S5T__A03_TRACTOR_WHEEL_0-0.85",
+    "source_data": "Cylinder.004",
+    "source_asset_id": "",
+    "test_data": "Cylinder.004"
+  },
+  "A03_TRACTOR_WHEEL_00.85": {
+    "test_object": "S5T__A03_TRACTOR_WHEEL_00.85",
+    "source_data": "Cylinder.005",
+    "source_asset_id": "",
+    "test_data": "Cylinder.005"
+  },
+  "A03_TRACTOR_WHEEL_1.65-0.85": {
+    "test_object": "S5T__A03_TRACTOR_WHEEL_1.65-0.85",
+    "source_data": "Cylinder.006",
+    "source_asset_id": "",
+    "test_data": "Cylinder.006"
+  },
+  "A03_TRACTOR_WHEEL_1.650.85": {
+    "test_object": "S5T__A03_TRACTOR_WHEEL_1.650.85",
+    "source_data": "Cylinder.007",
+    "source_asset_id": "",
+    "test_data": "Cylinder.007"
+  },
+  "A03_TRAILER": {
+    "test_object": "S5T__A03_TRAILER",
+    "source_data": "",
+    "source_asset_id": "A-03",
+    "test_data": null
+  },
+  "A03_TRAILER_WHEEL_-0.25-0.85": {
+    "test_object": "S5T__A03_TRAILER_WHEEL_-0.25-0.85",
+    "source_data": "Cylinder",
+    "source_asset_id": "",
+    "test_data": "Cylinder"
+  },
+  "A03_TRAILER_WHEEL_-0.250.85": {
+    "test_object": "S5T__A03_TRAILER_WHEEL_-0.250.85",
+    "source_data": "Cylinder.001",
+    "source_asset_id": "",
+    "test_data": "Cylinder.001"
+  },
+  "A03_TRAILER_WHEEL_0.25-0.85": {
+    "test_object": "S5T__A03_TRAILER_WHEEL_0.25-0.85",
+    "source_data": "Cylinder.002",
+    "source_asset_id": "",
+    "test_data": "Cylinder.002"
+  },
+  "A03_TRAILER_WHEEL_0.250.85": {
+    "test_object": "S5T__A03_TRAILER_WHEEL_0.250.85",
+    "source_data": "Cylinder.003",
+    "source_asset_id": "",
+    "test_data": "Cylinder.003"
+  },
+  "DOCK_BRIDGE": {
+    "test_object": "S5T__DOCK_BRIDGE",
+    "source_data": "Cube.072",
+    "source_asset_id": "E-09",
+    "test_data": "Cube.072"
+  },
+  "DOCK_TARGET": {
+    "test_object": "S5T__DOCK_TARGET",
+    "source_data": "",
+    "source_asset_id": "",
+    "test_data": null
+  },
+  "E07_INBOUND_ROAD": {
+    "test_object": "S5T__E07_INBOUND_ROAD",
+    "source_data": "E07_INBOUND_ROAD",
+    "source_asset_id": "E-07",
+    "test_data": "E07_INBOUND_ROAD"
+  },
+  "E08_WAREHOUSE": {
+    "test_object": "S5T__E08_WAREHOUSE",
+    "source_data": "",
+    "source_asset_id": "E-08",
+    "test_data": null
+  },
+  "E09_MANEUVER_YARD": {
+    "test_object": "S5T__E09_MANEUVER_YARD",
+    "source_data": "Cube.063",
+    "source_asset_id": "E-09",
+    "test_data": "Cube.063"
+  },
+  "INBOUND_WAIT_ZONE": {
+    "test_object": "S5T__INBOUND_WAIT_ZONE",
+    "source_data": "Cube.074",
+    "source_asset_id": "W-10",
+    "test_data": "Cube.074"
+  },
+  "PNPLINE_BRAND_SIDE_-0.776": {
+    "test_object": "S5T__PNPLINE_BRAND_SIDE_-0.776",
+    "source_data": "PNPLINE_BRAND_SIDE_-0.776",
+    "source_asset_id": "",
+    "test_data": "PNPLINE_BRAND_SIDE_-0.776"
+  },
+  "PNPLINE_BRAND_SIDE_0.776": {
+    "test_object": "S5T__PNPLINE_BRAND_SIDE_0.776",
+    "source_data": "PNPLINE_BRAND_SIDE_0.776",
+    "source_asset_id": "",
+    "test_data": "PNPLINE_BRAND_SIDE_0.776"
+  },
+  "RACK_CARGO_44_32.5_3.65_-0.85": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_3.65_-0.85",
+    "source_data": "Cube.085",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.085"
+  },
+  "RACK_CARGO_44_32.5_3.65_0": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_3.65_0",
+    "source_data": "Cube.086",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.086"
+  },
+  "RACK_CARGO_44_32.5_3.65_0.85": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_3.65_0.85",
+    "source_data": "Cube.087",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.087"
+  },
+  "RACK_CARGO_44_32.5_5.25_-0.85": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_5.25_-0.85",
+    "source_data": "Cube.089",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.089"
+  },
+  "RACK_CARGO_44_32.5_5.25_0": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_5.25_0",
+    "source_data": "Cube.090",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.090"
+  },
+  "RACK_CARGO_44_32.5_5.25_0.85": {
+    "test_object": "S5T__RACK_CARGO_44_32.5_5.25_0.85",
+    "source_data": "Cube.091",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.091"
+  },
+  "RACK_CARGO_44_36.5_2.1_-0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_2.1_-0.85",
+    "source_data": "Cube.097",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.097"
+  },
+  "RACK_CARGO_44_36.5_2.1_0": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_2.1_0",
+    "source_data": "Cube.098",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.098"
+  },
+  "RACK_CARGO_44_36.5_2.1_0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_2.1_0.85",
+    "source_data": "Cube.099",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.099"
+  },
+  "RACK_CARGO_44_36.5_3.65_-0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_3.65_-0.85",
+    "source_data": "Cube.101",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.101"
+  },
+  "RACK_CARGO_44_36.5_3.65_0": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_3.65_0",
+    "source_data": "Cube.102",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.102"
+  },
+  "RACK_CARGO_44_36.5_3.65_0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_3.65_0.85",
+    "source_data": "Cube.103",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.103"
+  },
+  "RACK_CARGO_44_36.5_5.25_-0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_5.25_-0.85",
+    "source_data": "Cube.105",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.105"
+  },
+  "RACK_CARGO_44_36.5_5.25_0": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_5.25_0",
+    "source_data": "Cube.106",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.106"
+  },
+  "RACK_CARGO_44_36.5_5.25_0.85": {
+    "test_object": "S5T__RACK_CARGO_44_36.5_5.25_0.85",
+    "source_data": "Cube.107",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.107"
+  },
+  "RACK_CARGO_48_32.5_2.1_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_2.1_-0.85",
+    "source_data": "Cube.113",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.113"
+  },
+  "RACK_CARGO_48_32.5_2.1_0": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_2.1_0",
+    "source_data": "Cube.114",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.114"
+  },
+  "RACK_CARGO_48_32.5_2.1_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_2.1_0.85",
+    "source_data": "Cube.115",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.115"
+  },
+  "RACK_CARGO_48_32.5_3.65_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_3.65_-0.85",
+    "source_data": "Cube.117",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.117"
+  },
+  "RACK_CARGO_48_32.5_3.65_0": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_3.65_0",
+    "source_data": "Cube.118",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.118"
+  },
+  "RACK_CARGO_48_32.5_3.65_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_3.65_0.85",
+    "source_data": "Cube.119",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.119"
+  },
+  "RACK_CARGO_48_32.5_5.25_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_5.25_-0.85",
+    "source_data": "Cube.121",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.121"
+  },
+  "RACK_CARGO_48_32.5_5.25_0": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_5.25_0",
+    "source_data": "Cube.122",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.122"
+  },
+  "RACK_CARGO_48_32.5_5.25_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_32.5_5.25_0.85",
+    "source_data": "Cube.123",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.123"
+  },
+  "RACK_CARGO_48_36.5_2.1_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_2.1_-0.85",
+    "source_data": "Cube.129",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.129"
+  },
+  "RACK_CARGO_48_36.5_2.1_0": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_2.1_0",
+    "source_data": "Cube.130",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.130"
+  },
+  "RACK_CARGO_48_36.5_2.1_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_2.1_0.85",
+    "source_data": "Cube.131",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.131"
+  },
+  "RACK_CARGO_48_36.5_3.65_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_3.65_-0.85",
+    "source_data": "Cube.133",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.133"
+  },
+  "RACK_CARGO_48_36.5_3.65_0": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_3.65_0",
+    "source_data": "Cube.134",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.134"
+  },
+  "RACK_CARGO_48_36.5_3.65_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_3.65_0.85",
+    "source_data": "Cube.135",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.135"
+  },
+  "RACK_CARGO_48_36.5_5.25_-0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_5.25_-0.85",
+    "source_data": "Cube.137",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.137"
+  },
+  "RACK_CARGO_48_36.5_5.25_0": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_5.25_0",
+    "source_data": "Cube.138",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.138"
+  },
+  "RACK_CARGO_48_36.5_5.25_0.85": {
+    "test_object": "S5T__RACK_CARGO_48_36.5_5.25_0.85",
+    "source_data": "Cube.139",
+    "source_asset_id": "W-01",
+    "test_data": "Cube.139"
+  },
+  "RACK_POST_44_32.5_-1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_44_32.5_-1.4_-0.75",
+    "source_data": "Cube.079",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.079"
+  },
+  "RACK_POST_44_32.5_-1.4_0.75": {
+    "test_object": "S5T__RACK_POST_44_32.5_-1.4_0.75",
+    "source_data": "Cube.080",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.080"
+  },
+  "RACK_POST_44_32.5_1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_44_32.5_1.4_-0.75",
+    "source_data": "Cube.081",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.081"
+  },
+  "RACK_POST_44_32.5_1.4_0.75": {
+    "test_object": "S5T__RACK_POST_44_32.5_1.4_0.75",
+    "source_data": "Cube.082",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.082"
+  },
+  "RACK_POST_44_36.5_-1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_44_36.5_-1.4_-0.75",
+    "source_data": "Cube.092",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.092"
+  },
+  "RACK_POST_44_36.5_-1.4_0.75": {
+    "test_object": "S5T__RACK_POST_44_36.5_-1.4_0.75",
+    "source_data": "Cube.093",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.093"
+  },
+  "RACK_POST_44_36.5_1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_44_36.5_1.4_-0.75",
+    "source_data": "Cube.094",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.094"
+  },
+  "RACK_POST_44_36.5_1.4_0.75": {
+    "test_object": "S5T__RACK_POST_44_36.5_1.4_0.75",
+    "source_data": "Cube.095",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.095"
+  },
+  "RACK_POST_48_32.5_-1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_48_32.5_-1.4_-0.75",
+    "source_data": "Cube.108",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.108"
+  },
+  "RACK_POST_48_32.5_-1.4_0.75": {
+    "test_object": "S5T__RACK_POST_48_32.5_-1.4_0.75",
+    "source_data": "Cube.109",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.109"
+  },
+  "RACK_POST_48_32.5_1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_48_32.5_1.4_-0.75",
+    "source_data": "Cube.110",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.110"
+  },
+  "RACK_POST_48_32.5_1.4_0.75": {
+    "test_object": "S5T__RACK_POST_48_32.5_1.4_0.75",
+    "source_data": "Cube.111",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.111"
+  },
+  "RACK_POST_48_36.5_-1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_48_36.5_-1.4_-0.75",
+    "source_data": "Cube.124",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.124"
+  },
+  "RACK_POST_48_36.5_-1.4_0.75": {
+    "test_object": "S5T__RACK_POST_48_36.5_-1.4_0.75",
+    "source_data": "Cube.125",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.125"
+  },
+  "RACK_POST_48_36.5_1.4_-0.75": {
+    "test_object": "S5T__RACK_POST_48_36.5_1.4_-0.75",
+    "source_data": "Cube.126",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.126"
+  },
+  "RACK_POST_48_36.5_1.4_0.75": {
+    "test_object": "S5T__RACK_POST_48_36.5_1.4_0.75",
+    "source_data": "Cube.127",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.127"
+  },
+  "RACK_SHELF_44_32.5_2.1": {
+    "test_object": "S5T__RACK_SHELF_44_32.5_2.1",
+    "source_data": "Cube.083",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.083"
+  },
+  "RACK_SHELF_44_32.5_3.65": {
+    "test_object": "S5T__RACK_SHELF_44_32.5_3.65",
+    "source_data": "Cube.084",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.084"
+  },
+  "RACK_SHELF_44_32.5_5.25": {
+    "test_object": "S5T__RACK_SHELF_44_32.5_5.25",
+    "source_data": "Cube.088",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.088"
+  },
+  "RACK_SHELF_44_36.5_2.1": {
+    "test_object": "S5T__RACK_SHELF_44_36.5_2.1",
+    "source_data": "Cube.096",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.096"
+  },
+  "RACK_SHELF_44_36.5_3.65": {
+    "test_object": "S5T__RACK_SHELF_44_36.5_3.65",
+    "source_data": "Cube.100",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.100"
+  },
+  "RACK_SHELF_44_36.5_5.25": {
+    "test_object": "S5T__RACK_SHELF_44_36.5_5.25",
+    "source_data": "Cube.104",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.104"
+  },
+  "RACK_SHELF_48_32.5_2.1": {
+    "test_object": "S5T__RACK_SHELF_48_32.5_2.1",
+    "source_data": "Cube.112",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.112"
+  },
+  "RACK_SHELF_48_32.5_3.65": {
+    "test_object": "S5T__RACK_SHELF_48_32.5_3.65",
+    "source_data": "Cube.116",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.116"
+  },
+  "RACK_SHELF_48_32.5_5.25": {
+    "test_object": "S5T__RACK_SHELF_48_32.5_5.25",
+    "source_data": "Cube.120",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.120"
+  },
+  "RACK_SHELF_48_36.5_2.1": {
+    "test_object": "S5T__RACK_SHELF_48_36.5_2.1",
+    "source_data": "Cube.128",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.128"
+  },
+  "RACK_SHELF_48_36.5_3.65": {
+    "test_object": "S5T__RACK_SHELF_48_36.5_3.65",
+    "source_data": "Cube.132",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.132"
+  },
+  "RACK_SHELF_48_36.5_5.25": {
+    "test_object": "S5T__RACK_SHELF_48_36.5_5.25",
+    "source_data": "Cube.136",
+    "source_asset_id": "W-03",
+    "test_data": "Cube.136"
+  },
+  "TRACTOR_CAB": {
+    "test_object": "S5T__TRACTOR_CAB",
+    "source_data": "Cube.045",
+    "source_asset_id": "",
+    "test_data": "Cube.045"
+  },
+  "TRACTOR_CHASSIS": {
+    "test_object": "S5T__TRACTOR_CHASSIS",
+    "source_data": "Cube.044",
+    "source_asset_id": "",
+    "test_data": "Cube.044"
+  },
+  "TRACTOR_GLASS": {
+    "test_object": "S5T__TRACTOR_GLASS",
+    "source_data": "Cube.046",
+    "source_asset_id": "",
+    "test_data": "Cube.046"
+  },
+  "TRACTOR_HITCH": {
+    "test_object": "S5T__TRACTOR_HITCH",
+    "source_data": "",
+    "source_asset_id": "",
+    "test_data": null
+  },
+  "TRAILER_CHASSIS": {
+    "test_object": "S5T__TRAILER_CHASSIS",
+    "source_data": "Cube.042",
+    "source_asset_id": "",
+    "test_data": "Cube.042"
+  },
+  "TRAILER_COUPLING_TONGUE": {
+    "test_object": "S5T__TRAILER_COUPLING_TONGUE",
+    "source_data": "Cube.043",
+    "source_asset_id": "",
+    "test_data": "Cube.043"
+  },
+  "TRAILER_HITCH": {
+    "test_object": "S5T__TRAILER_HITCH",
+    "source_data": "",
+    "source_asset_id": "",
+    "test_data": null
+  },
+  "US_FRAME": {
+    "test_object": "S5T__US_FRAME",
+    "source_data": "",
+    "source_asset_id": "E-05",
+    "test_data": null
+  },
+  "US_LAND_TERRACE": {
+    "test_object": "S5T__US_LAND_TERRACE",
+    "source_data": "US_LAND_TERRACE",
+    "source_asset_id": "E-01",
+    "test_data": "US_LAND_TERRACE"
+  },
+  "W01_NEW_PALLET": {
+    "test_object": "S5T__W01_NEW_PALLET",
+    "source_data": "",
+    "source_asset_id": "W-01",
+    "test_data": null
+  },
+  "W01_NEW_PALLET_BASE": {
+    "test_object": "S5T__W01_NEW_PALLET_BASE",
+    "source_data": "Cube.140",
+    "source_asset_id": "",
+    "test_data": "Cube.140"
+  },
+  "W01_NEW_PALLET_BOX_-0.27-0.22": {
+    "test_object": "S5T__W01_NEW_PALLET_BOX_-0.27-0.22",
+    "source_data": "Cube.141",
+    "source_asset_id": "",
+    "test_data": "Cube.141"
+  },
+  "W01_NEW_PALLET_BOX_-0.270.22": {
+    "test_object": "S5T__W01_NEW_PALLET_BOX_-0.270.22",
+    "source_data": "Cube.142",
+    "source_asset_id": "",
+    "test_data": "Cube.142"
+  },
+  "W01_NEW_PALLET_BOX_0.27-0.22": {
+    "test_object": "S5T__W01_NEW_PALLET_BOX_0.27-0.22",
+    "source_data": "Cube.143",
+    "source_asset_id": "",
+    "test_data": "Cube.143"
+  },
+  "W01_NEW_PALLET_BOX_0.270.22": {
+    "test_object": "S5T__W01_NEW_PALLET_BOX_0.270.22",
+    "source_data": "Cube.144",
+    "source_asset_id": "",
+    "test_data": "Cube.144"
+  },
+  "W01_REMAINING_CONTAINER_CARGO": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO",
+    "source_data": "",
+    "source_asset_id": "W-01",
+    "test_data": null
+  },
+  "W01_REMAINING_CONTAINER_CARGO_BASE": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO_BASE",
+    "source_data": "Cube.150",
+    "source_asset_id": "",
+    "test_data": "Cube.150"
+  },
+  "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+    "source_data": "Cube.151",
+    "source_asset_id": "",
+    "test_data": "Cube.151"
+  },
+  "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+    "source_data": "Cube.152",
+    "source_asset_id": "",
+    "test_data": "Cube.152"
+  },
+  "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+    "source_data": "Cube.153",
+    "source_asset_id": "",
+    "test_data": "Cube.153"
+  },
+  "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22": {
+    "test_object": "S5T__W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22",
+    "source_data": "Cube.154",
+    "source_asset_id": "",
+    "test_data": "Cube.154"
+  },
+  "WAREHOUSE_BACK_WALL": {
+    "test_object": "S5T__WAREHOUSE_BACK_WALL",
+    "source_data": "Cube.065",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.065"
+  },
+  "WAREHOUSE_COLUMN_36": {
+    "test_object": "S5T__WAREHOUSE_COLUMN_36",
+    "source_data": "Cube.067",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.067"
+  },
+  "WAREHOUSE_COLUMN_44": {
+    "test_object": "S5T__WAREHOUSE_COLUMN_44",
+    "source_data": "Cube.068",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.068"
+  },
+  "WAREHOUSE_COLUMN_52": {
+    "test_object": "S5T__WAREHOUSE_COLUMN_52",
+    "source_data": "Cube.069",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.069"
+  },
+  "WAREHOUSE_COLUMN_60": {
+    "test_object": "S5T__WAREHOUSE_COLUMN_60",
+    "source_data": "Cube.070",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.070"
+  },
+  "WAREHOUSE_COLUMN_68": {
+    "test_object": "S5T__WAREHOUSE_COLUMN_68",
+    "source_data": "Cube.071",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.071"
+  },
+  "WAREHOUSE_FLOOR": {
+    "test_object": "S5T__WAREHOUSE_FLOOR",
+    "source_data": "Cube.064",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.064"
+  },
+  "WAREHOUSE_PARTIAL_ROOF": {
+    "test_object": "S5T__WAREHOUSE_PARTIAL_ROOF",
+    "source_data": "Cube.066",
+    "source_asset_id": "E-08",
+    "test_data": "Cube.066"
+  }
+}

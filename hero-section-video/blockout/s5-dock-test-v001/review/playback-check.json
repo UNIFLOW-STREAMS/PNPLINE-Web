@@ -1,0 +1,164 @@
+{
+  "method": "Real-time 1x playback, no seeking, installed Chrome via Playwright",
+  "reports": [
+    {
+      "label": "oblique",
+      "result": {
+        "time": 21.083333,
+        "duration": 21.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 253,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-0.png"
+        },
+        {
+          "time": 2.023062,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-1.png"
+        },
+        {
+          "time": 4.12018,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-2.png"
+        },
+        {
+          "time": 6.056827,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-3.png"
+        },
+        {
+          "time": 8.128023,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-4.png"
+        },
+        {
+          "time": 10.105653,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-5.png"
+        },
+        {
+          "time": 12.056173,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-6.png"
+        },
+        {
+          "time": 14.031573,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-7.png"
+        },
+        {
+          "time": 16.011924,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-8.png"
+        },
+        {
+          "time": 18.10711,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-9.png"
+        },
+        {
+          "time": 20.047606,
+          "ended": false,
+          "error": null,
+          "image": "play-oblique-10.png"
+        }
+      ]
+    },
+    {
+      "label": "top",
+      "result": {
+        "time": 21.083333,
+        "duration": 21.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 253,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-top-0.png"
+        },
+        {
+          "time": 2.089035,
+          "ended": false,
+          "error": null,
+          "image": "play-top-1.png"
+        },
+        {
+          "time": 4.023328,
+          "ended": false,
+          "error": null,
+          "image": "play-top-2.png"
+        },
+        {
+          "time": 6.084847,
+          "ended": false,
+          "error": null,
+          "image": "play-top-3.png"
+        },
+        {
+          "time": 8.049549,
+          "ended": false,
+          "error": null,
+          "image": "play-top-4.png"
+        },
+        {
+          "time": 10.114831,
+          "ended": false,
+          "error": null,
+          "image": "play-top-5.png"
+        },
+        {
+          "time": 12.051208,
+          "ended": false,
+          "error": null,
+          "image": "play-top-6.png"
+        },
+        {
+          "time": 14.003937,
+          "ended": false,
+          "error": null,
+          "image": "play-top-7.png"
+        },
+        {
+          "time": 16.089405,
+          "ended": false,
+          "error": null,
+          "image": "play-top-8.png"
+        },
+        {
+          "time": 18.057726,
+          "ended": false,
+          "error": null,
+          "image": "play-top-9.png"
+        },
+        {
+          "time": 20.114777,
+          "ended": false,
+          "error": null,
+          "image": "play-top-10.png"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

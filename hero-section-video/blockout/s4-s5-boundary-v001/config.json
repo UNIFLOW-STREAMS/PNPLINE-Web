@@ -1,0 +1,48 @@
+{
+  "scene": "PNPLINE_MASTER_v005",
+  "source_sha256": "2ba73fc3baca6b3617ac534349d0d794c2dc744b48e50ccc66b685f07572e2ff",
+  "edit_start": 608,
+  "boundary": 648,
+  "edit_end": 780,
+  "preview_start": 596,
+  "preview_end": 792,
+  "fps": 12,
+  "camera_anchor": {
+    "position": [
+      -13,
+      13,
+      7
+    ],
+    "target": [
+      8,
+      12,
+      3.5
+    ],
+    "lens": 29
+  },
+  "thresholds": {
+    "hitch_m": 0.002,
+    "relative_m": 0.002,
+    "support_gap_m": 0.08,
+    "lens_min_mm": 28,
+    "lens_max_mm": 50,
+    "camera_speed_m_frame": 1.4,
+    "camera_angle_deg_frame": 5,
+    "vehicle_screen_width_min": 0.15,
+    "warehouse_visible_fraction_min": 0.15
+  },
+  "assumptions": [
+    "Symbolic model units, not facility standards.",
+    "Visibility thresholds are review aids only; actual building silhouette and route need rendered-image judgment.",
+    "User explicitly approved support/landing/hoist correction and later camera reconnection.",
+    "Camera608\u2013780; departure handoff720; return starts732; preview596\u2013792 includes both joins.",
+    "Vehicle/cargo key window extended to744 to correct inherited 4.7mm subframe hitch separation at733.25\u2013738.5; height returns to original by720. Onboard W01_NEW_PALLET follows cargo correction."
+  ],
+  "return_start": 732,
+  "handoff": 720,
+  "support_correction": true,
+  "support_start": 608,
+  "support_end": 744,
+  "support_height_end": 720,
+  "departure_aim_y": 3.5
+}

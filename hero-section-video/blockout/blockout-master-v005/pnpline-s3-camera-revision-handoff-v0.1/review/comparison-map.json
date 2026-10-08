@@ -1,0 +1,68 @@
+[
+  {
+    "board": "s3-01.png",
+    "scene_crop_xyxy": [
+      21,
+      88,
+      1470,
+      948
+    ],
+    "comparison_capture_time": 0.5,
+    "not_a_confirmed_timeline_sync": true
+  },
+  {
+    "board": "s3-02.png",
+    "scene_crop_xyxy": [
+      21,
+      87,
+      1427,
+      965
+    ],
+    "comparison_capture_time": 3.0,
+    "not_a_confirmed_timeline_sync": true
+  },
+  {
+    "board": "s3-03.png",
+    "scene_crop_xyxy": [
+      20,
+      85,
+      1427,
+      981
+    ],
+    "comparison_capture_time": 4.5,
+    "not_a_confirmed_timeline_sync": true
+  },
+  {
+    "board": "s3-04.png",
+    "scene_crop_xyxy": [
+      20,
+      86,
+      1427,
+      980
+    ],
+    "comparison_capture_time": 5.0,
+    "not_a_confirmed_timeline_sync": true
+  },
+  {
+    "board": "s3-05.png",
+    "scene_crop_xyxy": [
+      20,
+      85,
+      1426,
+      980
+    ],
+    "comparison_capture_time": 5.6,
+    "not_a_confirmed_timeline_sync": true
+  },
+  {
+    "board": "s3-06.png",
+    "scene_crop_xyxy": [
+      20,
+      87,
+      1426,
+      982
+    ],
+    "comparison_capture_time": 6.5,
+    "not_a_confirmed_timeline_sync": true
+  }
+]

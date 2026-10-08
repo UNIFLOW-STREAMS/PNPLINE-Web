@@ -1,0 +1,83 @@
+{
+  "type": "review_and_handoff_only",
+  "basis_commit": "6079b392d7de54509ed50454ddd2745273cc0078",
+  "source_clip_version_matches_commit": "unverified",
+  "blender_execution_performed": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 659,
+      "sha256": "15dfa0c7d78ef33d48f24f79c86844301c4e05af78611a986ba2ab507ca7b965"
+    },
+    {
+      "path": "pnpline-s3-camera-revision-codex-v0.1.md",
+      "bytes": 23932,
+      "sha256": "20b61b0b947b9575a7245005e834ca22f38ab904fc102cee672bd39345c0fd22"
+    },
+    {
+      "path": "references/bandicam 2026-10-07 16-36-29-625.mp4",
+      "bytes": 4242400,
+      "sha256": "1906d988448958b992733135fa0d3f2d51b990bb2b348f1e96293790851f940b"
+    },
+    {
+      "path": "references/s3-01.png",
+      "bytes": 3722855,
+      "sha256": "7a7cac2e521b49c9ab8b41955839f4c59e58e68ebcd01a9a48fcedadb847594e"
+    },
+    {
+      "path": "references/s3-02.png",
+      "bytes": 3632319,
+      "sha256": "f788a8df7272467ecad688dbef8d9c5dbd97fd86694205b0f4ce7b189f47a9bc"
+    },
+    {
+      "path": "references/s3-03.png",
+      "bytes": 3358076,
+      "sha256": "f7b02103917042c5fdecead1a9a515ad7a13bded1f37d286b953208bdb43e39a"
+    },
+    {
+      "path": "references/s3-04.png",
+      "bytes": 3749054,
+      "sha256": "4f49934110b41bc6df430647df81786b7782a46ad28c0e291698e1e2bf6cc574"
+    },
+    {
+      "path": "references/s3-05.png",
+      "bytes": 3633587,
+      "sha256": "bdd27cbbeed320d915f264515b696d436d4642ae32c03860d8e6b6582dd2802e"
+    },
+    {
+      "path": "references/s3-06.png",
+      "bytes": 3622745,
+      "sha256": "bc7df796d09bde8fb49524df1935d70816bbfc399e850c2649ba9442f23a85f3"
+    },
+    {
+      "path": "review/comparison-map.json",
+      "bytes": 1124,
+      "sha256": "8e097893508cbc65122e629096ac712e5a5c312f2156083d37582dc80786a6ed"
+    },
+    {
+      "path": "review/contact-sheet.png",
+      "bytes": 1089555,
+      "sha256": "f2398fcd488c2130294adc5a491debf38341f417e1ad54170aa19478f3aaa57a"
+    },
+    {
+      "path": "review/review-summary.md",
+      "bytes": 4857,
+      "sha256": "2bcdaf864e67e3acc6c66d633530ac1c8307956019148fb4b5074457951200d8"
+    },
+    {
+      "path": "review/storyboard-vs-capture.png",
+      "bytes": 3662277,
+      "sha256": "45b4b04a3293b399b81032737889939e9ac0a02394892e330f4fa8258f098b18"
+    },
+    {
+      "path": "review/transition-4.8-6.3.png",
+      "bytes": 780317,
+      "sha256": "a1be517cd148b93e9bbd0dc0a21587945569a5e3cc6a6e557624ca02aff94cce"
+    },
+    {
+      "path": "review/video-metadata.json",
+      "bytes": 312,
+      "sha256": "5fcbc0fa79800fd74b0bd24a4e441d1ef5a0e8128786b2bd876f5d4692838aac"
+    }
+  ]
+}

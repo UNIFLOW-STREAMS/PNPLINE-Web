@@ -1,0 +1,245 @@
+{
+  "method": "Real-time 1x playback, no seeking, installed Chrome via Playwright",
+  "reports": [
+    {
+      "label": "recording",
+      "result": {
+        "time": 7.699967,
+        "duration": 7.699967,
+        "ended": true,
+        "rate": 1,
+        "decoded": 231,
+        "dropped": 3
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-recording-0.png"
+        },
+        {
+          "time": 2.11494,
+          "ended": false,
+          "error": null,
+          "image": "play-recording-1.png"
+        },
+        {
+          "time": 4.119092,
+          "ended": false,
+          "error": null,
+          "image": "play-recording-2.png"
+        },
+        {
+          "time": 6.056133,
+          "ended": false,
+          "error": null,
+          "image": "play-recording-3.png"
+        }
+      ]
+    },
+    {
+      "label": "before",
+      "result": {
+        "time": 10.083333,
+        "duration": 10.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 121,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-before-0.png"
+        },
+        {
+          "time": 2.109017,
+          "ended": false,
+          "error": null,
+          "image": "play-before-1.png"
+        },
+        {
+          "time": 4.045753,
+          "ended": false,
+          "error": null,
+          "image": "play-before-2.png"
+        },
+        {
+          "time": 6.13188,
+          "ended": false,
+          "error": null,
+          "image": "play-before-3.png"
+        },
+        {
+          "time": 8.070415,
+          "ended": false,
+          "error": null,
+          "image": "play-before-4.png"
+        },
+        {
+          "time": 10.049312,
+          "ended": false,
+          "error": null,
+          "image": "play-before-5.png"
+        }
+      ]
+    },
+    {
+      "label": "limited",
+      "result": {
+        "time": 10.083333,
+        "duration": 10.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 121,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-0.png"
+        },
+        {
+          "time": 2.091833,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-1.png"
+        },
+        {
+          "time": 4.107852,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-2.png"
+        },
+        {
+          "time": 6.023788,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-3.png"
+        },
+        {
+          "time": 8.097454,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-4.png"
+        },
+        {
+          "time": 10.047344,
+          "ended": false,
+          "error": null,
+          "image": "play-limited-5.png"
+        }
+      ]
+    },
+    {
+      "label": "candidate",
+      "result": {
+        "time": 10.083333,
+        "duration": 10.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 121,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0.003593,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-0.png"
+        },
+        {
+          "time": 2.062873,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-1.png"
+        },
+        {
+          "time": 4.134894,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-2.png"
+        },
+        {
+          "time": 6.064202,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-3.png"
+        },
+        {
+          "time": 8.134376,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-4.png"
+        },
+        {
+          "time": 10.068582,
+          "ended": false,
+          "error": null,
+          "image": "play-candidate-5.png"
+        }
+      ]
+    },
+    {
+      "label": "connection",
+      "result": {
+        "time": 13.083333,
+        "duration": 13.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 157,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-0.png"
+        },
+        {
+          "time": 2.063215,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-1.png"
+        },
+        {
+          "time": 4.1185,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-2.png"
+        },
+        {
+          "time": 6.078112,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-3.png"
+        },
+        {
+          "time": 8.003033,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-4.png"
+        },
+        {
+          "time": 10.075565,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-5.png"
+        },
+        {
+          "time": 12.017195,
+          "ended": false,
+          "error": null,
+          "image": "play-connection-6.png"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

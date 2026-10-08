@@ -1,0 +1,62 @@
+{
+  "reopen_rgb_identical": {
+    "456": true,
+    "457": true,
+    "458": true,
+    "459": true,
+    "470": true,
+    "480": true,
+    "494": true,
+    "499": true,
+    "502": true,
+    "510": true,
+    "522": true,
+    "555": true,
+    "632": true,
+    "648": true,
+    "660": true,
+    "672": true,
+    "696": true
+  },
+  "source_replay_all_1393_states_exact": true,
+  "baseline_preserved": true,
+  "final_blend_sha256": "2ba73fc3baca6b3617ac534349d0d794c2dc744b48e50ccc66b685f07572e2ff",
+  "videos": {
+    "s4-before.mp4": {
+      "frames": 193,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "16.083333"
+    },
+    "s4-close-reveal-before.mp4": {
+      "frames": 193,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "16.083333"
+    },
+    "s4-after.mp4": {
+      "frames": 193,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "16.083333"
+    },
+    "s3-tail_s4_s5-head.mp4": {
+      "frames": 253,
+      "fps": 12,
+      "size": [
+        960,
+        540
+      ],
+      "duration": "21.083333"
+    }
+  }
+}

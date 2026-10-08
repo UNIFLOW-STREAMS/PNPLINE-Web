@@ -1,0 +1,173 @@
+[
+  {
+    "label": "kinematics-green",
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\tests\\test_kinematics.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "isolation-green",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\tests\\test_isolation.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "geometry-green",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\tests\\test_geometry.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "saved-motion",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\validate_s5_test.py",
+      "--",
+      "--config",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\config.json",
+      "--scene",
+      "S5_DOCK_TEST_v01",
+      "--output-dir",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "space",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\validate_space.py",
+      "--",
+      "--config",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\config.json",
+      "--output-dir",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "reproduction",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\check_reproduction.py",
+      "--",
+      "--config",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\config.json",
+      "--output-dir",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "signature-baseline",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\blockout-master-s4-fix\\master-s4-fix.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\preservation.py",
+      "--",
+      "--scene",
+      "PNPLINE_MASTER_v005",
+      "--output",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review\\master-baseline-signature.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "signature-after",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\preservation.py",
+      "--",
+      "--scene",
+      "PNPLINE_MASTER_v005",
+      "--output",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review\\master-after-signature.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "master-regression-after",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\master_regression_adapter.py",
+      "--",
+      "--scene",
+      "PNPLINE_MASTER_v005",
+      "--test",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\baseline-regression\\scripts\\test_scene.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "boundaries",
+    "command": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\scripts\\capture_boundaries.py",
+      "--",
+      "--config",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\config.json",
+      "--output",
+      "C:\\tmp\\pnpline-s5-dock-test\\hero-section-video\\blockout\\s5-dock-test-v001\\review\\boundary-states.json"
+    ],
+    "exit_code": 0
+  }
+]

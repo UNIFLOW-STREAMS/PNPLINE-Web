@@ -1,0 +1,191 @@
+{
+  "file_sha256": "5b754ca2930377842cf0b10f4bfd260a50d9a17d41ab84d19f450d1b222947ba",
+  "source_sha256": "2ba73fc3baca6b3617ac534349d0d794c2dc744b48e50ccc66b685f07572e2ff",
+  "acceptance": {
+    "tests": 16,
+    "failures": [],
+    "errors": [],
+    "passed": true
+  },
+  "metrics": {
+    "camera_speed_max": 1.2855406247233059,
+    "camera_angle_max": 4.926422420908258,
+    "lens_rate_max": 0.429656982421875,
+    "hitch_gap_max": 0.0006163569882223711,
+    "container_relative_drift_max": 5.1021575927734375e-05,
+    "wheel_ground_abs_gap_max": 0.2000088095664978,
+    "vehicle_obstacle_overlap_count": 0,
+    "camera_inside_obstacle_count": 0
+  },
+  "departure_support_max": 0.07201880216598511,
+  "pre_edit_inherited_support_max": 0.2000088095664978,
+  "framing": {
+    "failures": [],
+    "min_width": 0.15063804388046265,
+    "max_width": 0.4548632502555847
+  },
+  "contacts_max_abs_plane_gap": 1.7642974853515625e-05,
+  "visibility": {
+    "648": {
+      "E08_WAREHOUSE": {
+        "samples": 92,
+        "in_frame": 92,
+        "visible": 63,
+        "fraction": 0.6847826086956522
+      },
+      "A03_TRACTOR": {
+        "samples": 180,
+        "in_frame": 180,
+        "visible": 90,
+        "fraction": 0.5
+      },
+      "A01_CONTAINER": {
+        "samples": 144,
+        "in_frame": 144,
+        "visible": 143,
+        "fraction": 0.9930555555555556
+      },
+      "A02_SHIP": {
+        "samples": 181,
+        "in_frame": 13,
+        "visible": 11,
+        "fraction": 0.06077348066298342
+      },
+      "E07_INBOUND_ROAD": {
+        "samples": 640,
+        "in_frame": 640,
+        "visible": 259,
+        "fraction": 0.4046875
+      }
+    },
+    "660": {
+      "E08_WAREHOUSE": {
+        "samples": 92,
+        "in_frame": 92,
+        "visible": 63,
+        "fraction": 0.6847826086956522
+      },
+      "A03_TRACTOR": {
+        "samples": 180,
+        "in_frame": 180,
+        "visible": 90,
+        "fraction": 0.5
+      },
+      "A01_CONTAINER": {
+        "samples": 144,
+        "in_frame": 144,
+        "visible": 143,
+        "fraction": 0.9930555555555556
+      },
+      "A02_SHIP": {
+        "samples": 181,
+        "in_frame": 11,
+        "visible": 10,
+        "fraction": 0.055248618784530384
+      },
+      "E07_INBOUND_ROAD": {
+        "samples": 640,
+        "in_frame": 640,
+        "visible": 249,
+        "fraction": 0.3890625
+      }
+    },
+    "672": {
+      "E08_WAREHOUSE": {
+        "samples": 96,
+        "in_frame": 96,
+        "visible": 75,
+        "fraction": 0.78125
+      },
+      "A03_TRACTOR": {
+        "samples": 180,
+        "in_frame": 180,
+        "visible": 85,
+        "fraction": 0.4722222222222222
+      },
+      "A01_CONTAINER": {
+        "samples": 144,
+        "in_frame": 144,
+        "visible": 143,
+        "fraction": 0.9930555555555556
+      },
+      "A02_SHIP": {
+        "samples": 181,
+        "in_frame": 0,
+        "visible": 0,
+        "fraction": 0.0
+      },
+      "E07_INBOUND_ROAD": {
+        "samples": 640,
+        "in_frame": 622,
+        "visible": 338,
+        "fraction": 0.528125
+      }
+    },
+    "696": {
+      "E08_WAREHOUSE": {
+        "samples": 96,
+        "in_frame": 96,
+        "visible": 77,
+        "fraction": 0.8020833333333334
+      },
+      "A03_TRACTOR": {
+        "samples": 180,
+        "in_frame": 180,
+        "visible": 84,
+        "fraction": 0.4666666666666667
+      },
+      "A01_CONTAINER": {
+        "samples": 144,
+        "in_frame": 144,
+        "visible": 144,
+        "fraction": 1.0
+      },
+      "A02_SHIP": {
+        "samples": 157,
+        "in_frame": 0,
+        "visible": 0,
+        "fraction": 0.0
+      },
+      "E07_INBOUND_ROAD": {
+        "samples": 640,
+        "in_frame": 521,
+        "visible": 301,
+        "fraction": 0.4703125
+      }
+    },
+    "720": {
+      "E08_WAREHOUSE": {
+        "samples": 96,
+        "in_frame": 69,
+        "visible": 52,
+        "fraction": 0.5416666666666666
+      },
+      "A03_TRACTOR": {
+        "samples": 180,
+        "in_frame": 180,
+        "visible": 92,
+        "fraction": 0.5111111111111111
+      },
+      "A01_CONTAINER": {
+        "samples": 144,
+        "in_frame": 144,
+        "visible": 143,
+        "fraction": 0.9930555555555556
+      },
+      "A02_SHIP": {
+        "samples": 181,
+        "in_frame": 0,
+        "visible": 0,
+        "fraction": 0.0
+      },
+      "E07_INBOUND_ROAD": {
+        "samples": 640,
+        "in_frame": 389,
+        "visible": 254,
+        "fraction": 0.396875
+      }
+    }
+  },
+  "method": "Every quarter frame; OBB SAT 1mm penetration threshold. Ground separately ray sampled below all 8 wheel centers. Camera 0.1m sphere against local mesh boxes, including vehicle. Hollow EARTH_CONTINUOUS_OCEAN excluded from solid OBB obstacles. Road normals are two-sided for visibility. Not a continuous collision guarantee."
+}

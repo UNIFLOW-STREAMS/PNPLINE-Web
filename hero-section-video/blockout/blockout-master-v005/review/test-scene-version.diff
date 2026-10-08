@@ -1,0 +1,11 @@
+--- v004/scripts/test_scene.py
++++ v005/scripts/test_scene.py
+@@ -23,7 +23,7 @@
+         return self.root(name).matrix_world.copy()
+ 
+     def test_single_camera_and_six_boundaries(self):
+-        self.assertEqual(S.get('master_version'), 'v004', 'Master scene not built')
++        self.assertEqual(S.get('master_version'), 'v005', 'Master scene not built')
+         self.assertEqual(S.camera.name, 'CAM_MASTER')
+         markers={m.name:m.frame for m in S.timeline_markers}
+         self.assertTrue(all(b in markers for b in ['B12','B23','B34','B45','B56','B67']))

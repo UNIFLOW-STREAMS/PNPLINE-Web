@@ -1,0 +1,189 @@
+{
+  "integrated": {
+    "blend_sha256": "0ab8f7a273bc7cc24a0d7ea6de3fdf7965780191625395df5ac7297035adbbca",
+    "reopen_rgb_identical": {
+      "96": true,
+      "148": true,
+      "216": true,
+      "217": true,
+      "234": true,
+      "251": true,
+      "252": true
+    }
+  },
+  "original_v003_preserved": true,
+  "videos": {
+    "limited-connection.mp4": {
+      "frames": 157,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "13.083333"
+    },
+    "s1-tail_s2_s3-head.mp4": {
+      "frames": 193,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "16.083333"
+    },
+    "s2-after.mp4": {
+      "frames": 121,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "10.083333"
+    },
+    "s2-before.mp4": {
+      "frames": 121,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "10.083333"
+    },
+    "s2-limited.mp4": {
+      "frames": 121,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "10.083333"
+    },
+    "s2-target-candidate.mp4": {
+      "frames": 121,
+      "fps": "12/1",
+      "size": [
+        960,
+        540
+      ],
+      "duration": "10.083333"
+    }
+  },
+  "actual_playback": [
+    {
+      "label": "integrated",
+      "result": {
+        "time": 10.083333,
+        "duration": 10.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 121,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-0.png"
+        },
+        {
+          "time": 2.047828,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-1.png"
+        },
+        {
+          "time": 4.098677,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-2.png"
+        },
+        {
+          "time": 6.062959,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-3.png"
+        },
+        {
+          "time": 8.02687,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-4.png"
+        },
+        {
+          "time": 10.071843,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-5.png"
+        }
+      ]
+    },
+    {
+      "label": "integrated-connection",
+      "result": {
+        "time": 16.083333,
+        "duration": 16.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 193,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-0.png"
+        },
+        {
+          "time": 2.077677,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-1.png"
+        },
+        {
+          "time": 4.016744,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-2.png"
+        },
+        {
+          "time": 6.049218,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-3.png"
+        },
+        {
+          "time": 8.109227,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-4.png"
+        },
+        {
+          "time": 10.0297,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-5.png"
+        },
+        {
+          "time": 12.079635,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-6.png"
+        },
+        {
+          "time": 14.0148,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-7.png"
+        },
+        {
+          "time": 16.083333,
+          "ended": true,
+          "error": null,
+          "image": "play-integrated-connection-8.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "match": true
+    },
+    {
+      "path": "pnpline-s3-camera-revision-codex-v0.1.md",
+      "match": true
+    },
+    {
+      "path": "references/bandicam 2026-10-07 16-36-29-625.mp4",
+      "match": true
+    },
+    {
+      "path": "references/s3-01.png",
+      "match": true
+    },
+    {
+      "path": "references/s3-02.png",
+      "match": true
+    },
+    {
+      "path": "references/s3-03.png",
+      "match": true
+    },
+    {
+      "path": "references/s3-04.png",
+      "match": true
+    },
+    {
+      "path": "references/s3-05.png",
+      "match": true
+    },
+    {
+      "path": "references/s3-06.png",
+      "match": true
+    },
+    {
+      "path": "review/comparison-map.json",
+      "match": true
+    },
+    {
+      "path": "review/contact-sheet.png",
+      "match": true
+    },
+    {
+      "path": "review/review-summary.md",
+      "match": true
+    },
+    {
+      "path": "review/storyboard-vs-capture.png",
+      "match": true
+    },
+    {
+      "path": "review/transition-4.8-6.3.png",
+      "match": true
+    },
+    {
+      "path": "review/video-metadata.json",
+      "match": true
+    }
+  ],
+  "user_confirmation": "User confirmed recording uses current v005 camera state; timeline slider was manually scrubbed, so recording progression is nonuniform.",
+  "timing": "Use saved master 12 fps; no recording-to-timeline time inference."
+}

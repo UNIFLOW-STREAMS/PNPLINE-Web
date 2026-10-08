@@ -1,0 +1,122 @@
+{
+  "method": "Real-time 1x playback, no seeking, installed Chrome via Playwright",
+  "reports": [
+    {
+      "label": "integrated",
+      "result": {
+        "time": 10.083333,
+        "duration": 10.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 121,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-0.png"
+        },
+        {
+          "time": 2.047828,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-1.png"
+        },
+        {
+          "time": 4.098677,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-2.png"
+        },
+        {
+          "time": 6.062959,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-3.png"
+        },
+        {
+          "time": 8.02687,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-4.png"
+        },
+        {
+          "time": 10.071843,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-5.png"
+        }
+      ]
+    },
+    {
+      "label": "integrated-connection",
+      "result": {
+        "time": 16.083333,
+        "duration": 16.083333,
+        "ended": true,
+        "rate": 1,
+        "decoded": 193,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-0.png"
+        },
+        {
+          "time": 2.077677,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-1.png"
+        },
+        {
+          "time": 4.016744,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-2.png"
+        },
+        {
+          "time": 6.049218,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-3.png"
+        },
+        {
+          "time": 8.109227,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-4.png"
+        },
+        {
+          "time": 10.0297,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-5.png"
+        },
+        {
+          "time": 12.079635,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-6.png"
+        },
+        {
+          "time": 14.0148,
+          "ended": false,
+          "error": null,
+          "image": "play-integrated-connection-7.png"
+        },
+        {
+          "time": 16.083333,
+          "ended": true,
+          "error": null,
+          "image": "play-integrated-connection-8.png"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

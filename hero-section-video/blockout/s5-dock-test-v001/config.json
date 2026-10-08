@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source_scene": "PNPLINE_MASTER_v005",
+  "test_scene": "S5_DOCK_TEST_v01",
+  "source_sha256": "2ba73fc3baca6b3617ac534349d0d794c2dc744b48e50ccc66b685f07572e2ff",
+  "fps": 12,
+  "frames": {"start": 648, "forward_start": 649, "aligned": 810, "doors_start": 811, "doors_end": 842, "reverse_start": 849, "docked": 890, "end": 900},
+  "source_frames": {"dock_test_entry": 720, "aligned": 810, "doors_start": 811, "doors_end": 842, "reverse_start": 849, "docked": 890},
+  "route": {"turn_x": 29.4, "arc_rx": 6.0, "arc_ry": 10.0, "aligned_x": 29.2, "aligned_y": 29.0, "docked_x": 34.4, "start_distance": 22.7069, "entry_blend_m": 4.0, "exit_blend_m": 8.0},
+  "rig": {"hitch_from_trailer_axle": 2.0, "tractor_wheelbase": 1.65, "half_track": 0.85, "wheel_radius": 0.4, "container_height": 2.55},
+  "thresholds": {"hitch_m": 0.002, "relative_transform": 0.002, "tangent_degrees": 2.0, "body_degrees_per_frame": 8.0, "steering_degrees": 60.0, "stationary_m": 0.002, "dock_lateral_m": 0.03, "dock_height_m": 0.08, "support_height_m": 0.08, "reverse_max_m": 5.5, "solid_penetration_m": 0.01, "camera_margin_m": 0.12},
+  "sampling": {"frame_step": 0.25, "bake_step": 0.25},
+  "proxy_repairs": {"trailer_tandem_half_spacing": 0.45, "door_hinge_x": -1.65, "door_leaf_height": 1.24, "bridge_width": 1.32, "bridge_center_z": 1.88},
+  "assumptions": [
+    "Symbolic low-speed planar kinematic proxy; all tolerances are test assumptions, not facility standards.",
+    "Reuse original rig proportions, ellipse route outside its joins, rear door angles and stop/reverse event frames.",
+    "Dock-only candidate enters from original f720 on the approach road at test f648; original master keys are untouched. Integration entry differs and requires separate approval.",
+    "Representative trailer axle is the midpoint of its tandem axles. Individual tandem-wheel scrubbing is not a full tyre dynamics simulation.",
+    "Support height tolerance 0.08m accommodates existing road/yard/terrace levels0.735/0.76/0.68 against tyre bottom0.70; dock floor tops1.92/1.86 differ0.06m.",
+    "Original bridge/floor thickness overlap was0.06m. The repaired narrow raised bridge joins the container floor at top1.92m, with0.08m designated solid overlap; warehouse floor remains1.86m. This interface is reported separately from forbidden collisions.",
+    "The port quay is outside the dock-only approach subset; original f648 port wheel/quay overlap is retained in the preserved master and disclosed in the integration proposal."
+  ]
+}

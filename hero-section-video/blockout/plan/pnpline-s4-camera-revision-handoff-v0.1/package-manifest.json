@@ -1,0 +1,78 @@
+{
+  "package_version": "v0.1",
+  "type": "handoff_and_read_only_review",
+  "blender_modified": false,
+  "repo_modified": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 754,
+      "sha256": "cfa5c4490d71b390b697536edeeac663431b04be9ba6b764ae3f196348d2789c"
+    },
+    {
+      "path": "pnpline-s4-camera-revision-codex-v0.1.md",
+      "bytes": 22192,
+      "sha256": "d97a8418245360a47b166f3ce35f8265ca71d2e25ca2f4bd1bf9050ef74e2ce7"
+    },
+    {
+      "path": "references/bandicam 2026-10-07 19-35-47-107.mp4",
+      "bytes": 6198316,
+      "sha256": "db4b0db6fa981b1f8544c8d1559373d2b4c6853bc6829857b3281ed7f4f86453"
+    },
+    {
+      "path": "references/s4-01.png",
+      "bytes": 3654173,
+      "sha256": "69082b2bfc23b8cab987c6061db527b9e22236baae09d89caf6eab24e563638c"
+    },
+    {
+      "path": "references/s4-02.png",
+      "bytes": 3813138,
+      "sha256": "8c4c0767eb10c8a57bb622f3c7b5414740d73b08d72b9299dac4cd98539c5358"
+    },
+    {
+      "path": "references/s4-03.png",
+      "bytes": 3644748,
+      "sha256": "545aa9210e0a6b0552f1e08318e48237635779aa880696b5c986dfcaa96a7b36"
+    },
+    {
+      "path": "references/s4-04.png",
+      "bytes": 3520148,
+      "sha256": "50d04027492228c3634beb00e588ba231970d1d5cca7c8a6349bb6c0fd2d0487"
+    },
+    {
+      "path": "references/s4-05.png",
+      "bytes": 3504539,
+      "sha256": "727cdc69c3b90049b4d5c838bdd824dc91b967e0235aed97b20c0fd7aa3f2570"
+    },
+    {
+      "path": "review/capture-metadata.json",
+      "bytes": 3227,
+      "sha256": "3c8bd0be4307fcd0862a4942410d0f57b34a10de7ded7cf951453e646c20cc28"
+    },
+    {
+      "path": "review/contact-sheet.png",
+      "bytes": 1000310,
+      "sha256": "07185f42d2e16be0048a75f643c95eda97ca8eac5f233214543dcfb06be3e3d1"
+    },
+    {
+      "path": "review/handoff-5.6-8.0.png",
+      "bytes": 753411,
+      "sha256": "ce0daa339f98d6fb7e866c2691a20ba40846619ba1f5de4811ca5b4d0fd7b140"
+    },
+    {
+      "path": "review/reveal-to-lift-2.8-4.6.png",
+      "bytes": 1123263,
+      "sha256": "ba2ea7a7d26c083d4b916572a976e2403acec81bba1d896a2ff844e5820c63a8"
+    },
+    {
+      "path": "review/review-notes.md",
+      "bytes": 2925,
+      "sha256": "56e1ac7236cccb7ced28c18a63b4de809a65c9063e05a156032fb84d57949b86"
+    },
+    {
+      "path": "review/storyboard-vs-capture.png",
+      "bytes": 4098104,
+      "sha256": "b22c7b24bb1487681579e79f6e6896134d09e8b66621d706a35099c61ca7a03e"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "blend_sha256": "411dcf73ace5ed2427f76b9ff2720739a9de03c18ea16b4c0f01461ab550bfe7",
+  "metrics": {
+    "camera_speed_max": 1.2855406247233059,
+    "camera_angle_max": 4.926422420908258,
+    "lens_rate_max": 0.429656982421875,
+    "hitch_gap_max": 0.0006163569882223711,
+    "container_relative_drift_max": 5.1021575927734375e-05,
+    "wheel_ground_abs_gap_max": 6.967782974243164e-05,
+    "vehicle_obstacle_overlap_count": 0,
+    "camera_inside_obstacle_count": 0
+  }
+}

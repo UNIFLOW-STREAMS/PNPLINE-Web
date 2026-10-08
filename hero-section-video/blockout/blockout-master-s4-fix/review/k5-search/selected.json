@@ -1,0 +1,488 @@
+[
+  {
+    "p": [
+      -12,
+      30,
+      17
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.737622174157036,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 37,
+    "cargo_front": 75,
+    "cargo_pole": 2,
+    "ship": {
+      "front": 16,
+      "inframe": 16,
+      "visible": 5,
+      "pole": 2
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 14,
+      "pole": 1
+    },
+    "truck_bounds": [
+      0.5077782869338989,
+      0.30524909496307373,
+      0.6009488701820374,
+      0.476619690656662
+    ],
+    "cargo_bounds": [
+      0.5711897015571594,
+      0.29429924488067627,
+      0.6904396414756775,
+      0.4653221666812897
+    ],
+    "side": "north"
+  },
+  {
+    "p": [
+      -12,
+      -18,
+      14
+    ],
+    "t": [
+      5,
+      7,
+      3
+    ],
+    "lens": 32,
+    "score": 4.6075555457009205,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 37,
+    "cargo_front": 75,
+    "cargo_pole": 2,
+    "ship": {
+      "front": 16,
+      "inframe": 10,
+      "visible": 3,
+      "pole": 0
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 14,
+      "pole": 1
+    },
+    "truck_bounds": [
+      0.3790428042411804,
+      0.3753006160259247,
+      0.4634510278701782,
+      0.5165790915489197
+    ],
+    "cargo_bounds": [
+      0.295227974653244,
+      0.3905366361141205,
+      0.40189462900161743,
+      0.5200502276420593
+    ],
+    "side": "south"
+  },
+  {
+    "p": [
+      -12,
+      26,
+      14
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.569824591742622,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 36,
+    "cargo_front": 75,
+    "cargo_pole": 1,
+    "ship": {
+      "front": 16,
+      "inframe": 11,
+      "visible": 2,
+      "pole": 1
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 14,
+      "pole": 1
+    },
+    "truck_bounds": [
+      0.49963483214378357,
+      0.2753445506095886,
+      0.6076470613479614,
+      0.47377610206604004
+    ],
+    "cargo_bounds": [
+      0.5681806802749634,
+      0.2571840286254883,
+      0.7082391977310181,
+      0.4602814316749573
+    ],
+    "side": "north"
+  },
+  {
+    "p": [
+      -8,
+      -18,
+      11
+    ],
+    "t": [
+      5,
+      7,
+      3
+    ],
+    "lens": 32,
+    "score": 4.488890749083625,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 34,
+    "cargo_front": 75,
+    "cargo_pole": 4,
+    "ship": {
+      "front": 16,
+      "inframe": 10,
+      "visible": 3,
+      "pole": 0
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 12,
+      "pole": 3
+    },
+    "truck_bounds": [
+      0.37108853459358215,
+      0.3710634112358093,
+      0.4613693654537201,
+      0.5158509612083435
+    ],
+    "cargo_bounds": [
+      0.27685749530792236,
+      0.40231674909591675,
+      0.3907487094402313,
+      0.5279293656349182
+    ],
+    "side": "south"
+  },
+  {
+    "p": [
+      -12,
+      22,
+      17
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.396575801637438,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 37,
+    "cargo_front": 75,
+    "cargo_pole": 10,
+    "ship": {
+      "front": 16,
+      "inframe": 10,
+      "visible": 2,
+      "pole": 4
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 13,
+      "pole": 2
+    },
+    "truck_bounds": [
+      0.48753848671913147,
+      0.23510131239891052,
+      0.5965691804885864,
+      0.4534478783607483
+    ],
+    "cargo_bounds": [
+      0.5492245554924011,
+      0.17200389504432678,
+      0.6893887519836426,
+      0.4151407778263092
+    ],
+    "side": "north"
+  },
+  {
+    "p": [
+      -8,
+      -18,
+      17
+    ],
+    "t": [
+      5,
+      7,
+      3
+    ],
+    "lens": 32,
+    "score": 4.39641236729092,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 33,
+    "cargo_front": 75,
+    "cargo_pole": 4,
+    "ship": {
+      "front": 16,
+      "inframe": 8,
+      "visible": 2,
+      "pole": 0
+    },
+    "road": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 12,
+      "pole": 3
+    },
+    "truck_bounds": [
+      0.3804034888744354,
+      0.38364800810813904,
+      0.46434587240219116,
+      0.5312244892120361
+    ],
+    "cargo_bounds": [
+      0.29246416687965393,
+      0.3963243365287781,
+      0.3990907371044159,
+      0.5326712727546692
+    ],
+    "side": "south"
+  },
+  {
+    "p": [
+      -8,
+      30,
+      14
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.321669877370199,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 31,
+    "cargo_front": 75,
+    "cargo_pole": 6,
+    "ship": {
+      "front": 21,
+      "inframe": 21,
+      "visible": 7,
+      "pole": 1
+    },
+    "road": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 12,
+      "pole": 3
+    },
+    "truck_bounds": [
+      0.5196102261543274,
+      0.2977946102619171,
+      0.6244206428527832,
+      0.48316362500190735
+    ],
+    "cargo_bounds": [
+      0.5972082018852234,
+      0.30442357063293457,
+      0.7326288819313049,
+      0.48168206214904785
+    ],
+    "side": "north"
+  },
+  {
+    "p": [
+      -12,
+      30,
+      11
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.240213634702895,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 36,
+    "cargo_front": 75,
+    "cargo_pole": 2,
+    "ship": {
+      "front": 16,
+      "inframe": 15,
+      "visible": 2,
+      "pole": 0
+    },
+    "road": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 14,
+      "pole": 1
+    },
+    "truck_bounds": [
+      0.5085486769676208,
+      0.3205868601799011,
+      0.6107122898101807,
+      0.49029290676116943
+    ],
+    "cargo_bounds": [
+      0.5784444808959961,
+      0.3368321359157562,
+      0.7092670798301697,
+      0.49508166313171387
+    ],
+    "side": "north"
+  },
+  {
+    "p": [
+      -8,
+      26,
+      17
+    ],
+    "t": [
+      6,
+      8,
+      2.5
+    ],
+    "lens": 32,
+    "score": 4.12747516102261,
+    "cab": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 11,
+      "pole": 0
+    },
+    "cargo_visible": 33,
+    "cargo_front": 75,
+    "cargo_pole": 4,
+    "ship": {
+      "front": 16,
+      "inframe": 12,
+      "visible": 2,
+      "pole": 4
+    },
+    "road": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "spreader": {
+      "front": 15,
+      "inframe": 15,
+      "visible": 12,
+      "pole": 3
+    },
+    "truck_bounds": [
+      0.5115256905555725,
+      0.2538573443889618,
+      0.6221323609352112,
+      0.4648442566394806
+    ],
+    "cargo_bounds": [
+      0.5886086821556091,
+      0.22351273894309998,
+      0.7340637445449829,
+      0.4429795444011688
+    ],
+    "side": "north"
+  }
+]

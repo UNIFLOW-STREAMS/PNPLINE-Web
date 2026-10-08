@@ -1,0 +1,140 @@
+{
+  "method": "Real-time 1x playback, no seeking, installed Chrome via Playwright",
+  "reports": [
+    {
+      "label": "before",
+      "result": {
+        "time": 16.416667,
+        "duration": 16.416667,
+        "ended": true,
+        "rate": 1,
+        "decoded": 197,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0.024721,
+          "ended": false,
+          "error": null,
+          "image": "play-before-0.png"
+        },
+        {
+          "time": 2.130078,
+          "ended": false,
+          "error": null,
+          "image": "play-before-1.png"
+        },
+        {
+          "time": 4.127241,
+          "ended": false,
+          "error": null,
+          "image": "play-before-2.png"
+        },
+        {
+          "time": 6.026657,
+          "ended": false,
+          "error": null,
+          "image": "play-before-3.png"
+        },
+        {
+          "time": 8.135395,
+          "ended": false,
+          "error": null,
+          "image": "play-before-4.png"
+        },
+        {
+          "time": 10.115744,
+          "ended": false,
+          "error": null,
+          "image": "play-before-5.png"
+        },
+        {
+          "time": 12.033666,
+          "ended": false,
+          "error": null,
+          "image": "play-before-6.png"
+        },
+        {
+          "time": 14.095984,
+          "ended": false,
+          "error": null,
+          "image": "play-before-7.png"
+        },
+        {
+          "time": 16.014571,
+          "ended": false,
+          "error": null,
+          "image": "play-before-8.png"
+        }
+      ]
+    },
+    {
+      "label": "after",
+      "result": {
+        "time": 16.416667,
+        "duration": 16.416667,
+        "ended": true,
+        "rate": 1,
+        "decoded": 197,
+        "dropped": 0
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ended": false,
+          "error": null,
+          "image": "play-after-0.png"
+        },
+        {
+          "time": 2.121574,
+          "ended": false,
+          "error": null,
+          "image": "play-after-1.png"
+        },
+        {
+          "time": 4.042465,
+          "ended": false,
+          "error": null,
+          "image": "play-after-2.png"
+        },
+        {
+          "time": 6.033424,
+          "ended": false,
+          "error": null,
+          "image": "play-after-3.png"
+        },
+        {
+          "time": 8.082373,
+          "ended": false,
+          "error": null,
+          "image": "play-after-4.png"
+        },
+        {
+          "time": 10.020669,
+          "ended": false,
+          "error": null,
+          "image": "play-after-5.png"
+        },
+        {
+          "time": 12.08913,
+          "ended": false,
+          "error": null,
+          "image": "play-after-6.png"
+        },
+        {
+          "time": 14.073851,
+          "ended": false,
+          "error": null,
+          "image": "play-after-7.png"
+        },
+        {
+          "time": 16.04651,
+          "ended": false,
+          "error": null,
+          "image": "play-after-8.png"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "README.md",
+    "match": true
+  },
+  {
+    "path": "pnpline-s4-camera-revision-codex-v0.1.md",
+    "match": true
+  },
+  {
+    "path": "references/bandicam 2026-10-07 19-35-47-107.mp4",
+    "match": true
+  },
+  {
+    "path": "references/s4-01.png",
+    "match": true
+  },
+  {
+    "path": "references/s4-02.png",
+    "match": true
+  },
+  {
+    "path": "references/s4-03.png",
+    "match": true
+  },
+  {
+    "path": "references/s4-04.png",
+    "match": true
+  },
+  {
+    "path": "references/s4-05.png",
+    "match": true
+  },
+  {
+    "path": "review/capture-metadata.json",
+    "match": true
+  },
+  {
+    "path": "review/contact-sheet.png",
+    "match": true
+  },
+  {
+    "path": "review/handoff-5.6-8.0.png",
+    "match": true
+  },
+  {
+    "path": "review/reveal-to-lift-2.8-4.6.png",
+    "match": true
+  },
+  {
+    "path": "review/review-notes.md",
+    "match": true
+  },
+  {
+    "path": "review/storyboard-vs-capture.png",
+    "match": true
+  }
+]

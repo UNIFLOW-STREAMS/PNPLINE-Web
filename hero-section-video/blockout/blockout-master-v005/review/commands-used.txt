@@ -1,0 +1,39 @@
+PowerShell workspace: F:\pnpline-landing
+Blender: C:\Program Files\Blender Foundation\Blender 5.1\blender.exe
+Python: C:\ProgramData\miniconda3\python.exe
+Root: F:\pnpline-landing\hero-section-video\blockout\blockout-master-v005
+
+All Blender jobs used --background --factory-startup --python-exit-code 1.
+Exact file and script arguments relative to Root below; this list is a record, not an automatically executed pipeline:
+
+inputs/base-v005.blend --python scripts/scene_evidence.py -- baseline-full.json
+inputs/base-v005.blend --python scripts/inspect_s3.py
+inputs/base-v005.blend --python scripts/test_scene.py (before the explicit expected-version metadata update)
+inputs/base-v005.blend --python scripts/feasibility_s3.py
+inputs/base-v005.blend --python scripts/test_s3.py (RED, exit 1; four expected behavioral failures)
+inputs/base-v005.blend --python scripts/revise_s3.py
+master-v005.blend --python scripts/test_s3.py
+master-v005.blend --python scripts/test_scene.py
+master-v005.blend --python scripts/validate_s3.py
+master-v005.blend --python scripts/visibility_s3.py
+inputs/base-v005.blend --python scripts/render_evidence.py -- before 216:457
+master-v005.blend --python scripts/render_evidence.py -- after 204:481
+
+ffmpeg -hide_banner -loglevel error -y -framerate 12 -start_number 216 -i review/before/f%04d.png -frames:v 241 -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart preview/s3-before.mp4
+ffmpeg -hide_banner -loglevel error -y -framerate 12 -start_number 216 -i review/after/f%04d.png -frames:v 241 -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart preview/s3-after.mp4
+ffmpeg -hide_banner -loglevel error -y -framerate 12 -start_number 204 -i review/after/f%04d.png -frames:v 277 -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart preview/s2-tail_s3_s4-head.mp4
+
+Python scripts/package_review.py
+Node scripts/playback_review.cjs
+Node executable: C:\Users\KIM TAEHYUNG\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe
+PNPLINE_PLAYWRIGHT_PATH: C:\Users\KIM TAEHYUNG\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules\playwright
+PNPLINE_CHROME_PATH: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Python scripts/reopen_check.py performs these fresh Blender jobs and ffprobe:
+master-v005.blend --python scripts/render_evidence.py -- reopen 216,278,330,380,422,450,456
+inputs/base-v005.blend --python scripts/revise_s3.py -- review/source-replay.blend
+review/source-replay.blend --python scripts/scene_evidence.py -- states-replay.json
+ffprobe -v error -count_frames -show_streams -show_format -of json preview/<each mp4>
+
+Visible GUI: Start-Process Blender --factory-startup master-v005.blend -WindowStyle Normal.
+Python scripts/hash_package.py after final report/ledger edits.

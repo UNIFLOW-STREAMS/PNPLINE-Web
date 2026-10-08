@@ -1,0 +1,26 @@
+{
+  "pass_all": true,
+  "mutation_preserves_master": true,
+  "regeneration_semantic_equal": true,
+  "counts_before": {
+    "objects": 426,
+    "scenes": 2,
+    "collections": 9,
+    "actions": 61,
+    "cameras": 3,
+    "curves": 10,
+    "meshes": 260
+  },
+  "counts_after": {
+    "objects": 426,
+    "scenes": 2,
+    "collections": 9,
+    "actions": 61,
+    "cameras": 3,
+    "curves": 10,
+    "meshes": 260
+  },
+  "test_signature": "0ac3a86c36c44023dfb42de4a23dc7144fbffe4df99f793a3e6c7528b0b683c5",
+  "master_signature": "0318c0f9f45326405ff682d625e33415d2626728b9c271db55066d641fd084c7",
+  "saved": false
+}

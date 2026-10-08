@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "head": "6079b392d7de54509ed50454ddd2745273cc0078",
+  "branch": "codex/s5-dock-test",
+  "worktree": "C:\\tmp\\pnpline-s5-dock-test",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\blockout-master-s4-fix\\master-s4-fix.blend",
+  "source_sha256": "2ba73fc3baca6b3617ac534349d0d794c2dc744b48e50ccc66b685f07572e2ff",
+  "source_bytes": 2008643,
+  "output": "master-with-s5-test-v001.blend",
+  "output_sha256": "a9c280a4c0938d10f3c1290127ec9c1e1be241a3f0e77f81dab825fdf62b2d25",
+  "scenes": [
+    "PNPLINE_MASTER_v005",
+    "S5_DOCK_TEST_v01"
+  ],
+  "blender": "5.1.0 adfe2921d5f3",
+  "python": "3.13.9",
+  "ffmpeg": "7.1",
+  "parent_model": "Current session model is not introspectable or switchable through available tools; no claimed model change",
+  "reviewer_model": "gpt-6-astra/high requested for one fresh-context read-only review",
+  "references": {
+    "pnpline-s5-dock-test-codex-handoff.md": "3fc4e02d5cd8b3bbfaad14d980020b28518fc183fe69a70f08793edc5f6eee49",
+    "s5-03-revised.png": "23f97ec9f8bdca71b0e426a6f5e3370dca2f8aaba02d159866e750a7416915c8",
+    "s5-yard-topview-v02.png": "2efa49567ec5485c360a4dbf2660e42ed7bee29353a0721cb85326437d813020"
+  },
+  "fps": 12,
+  "frame_range": [
+    648,
+    900
+  ],
+  "source_frame_mapping": {
+    "dock_test_entry": 720,
+    "aligned": 810,
+    "doors_start": 811,
+    "doors_end": 842,
+    "reverse_start": 849,
+    "docked": 890
+  },
+  "US_FRAME_local_to_world": [
+    [
+      0.9063078165054321,
+      0.0,
+      0.42261815071105957,
+      59.16654586791992
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.42261815071105957,
+      0.0,
+      0.9063078165054321,
+      126.88309478759766
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "axes": {
+    "vehicle_front": "+local X",
+    "rear": "-local X",
+    "regional_up": "+local Z",
+    "dock_plane": "US_FRAME x=36",
+    "dock_center": [
+      36,
+      29,
+      1.8
+    ],
+    "docked_vehicle_front": "US_FRAME -X",
+    "rear_toward": "US_FRAME +X"
+  },
+  "mapping": {
+    "A03_TRACTOR": "tractor rear axle at root, front axle +1.65m",
+    "A03_TRAILER": "representative tandem axle midpoint at root",
+    "TRAILER_HITCH": "+2m along trailer forward, height1.4m",
+    "DOCK_TARGET": "single existing dock, not four reference-image docks",
+    "E08_WAREHOUSE": "existing open south/west-side floor, no gates/fences invented",
+    "INBOUND_WAIT_ZONE": "existing receiving floor pad",
+    "RACK_": "existing rack silhouettes"
+  },
+  "proxy_repairs": {
+    "trailer_tandem_half_spacing": 0.45,
+    "door_hinge_x": -1.65,
+    "door_leaf_height": 1.24,
+    "bridge_width": 1.32,
+    "bridge_center_z": 1.88
+  },
+  "clips": {
+    "oblique": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "r_frame_rate": "12/1",
+          "duration": "21.083333",
+          "nb_frames": "253"
+        }
+      ]
+    },
+    "top": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "r_frame_rate": "12/1",
+          "duration": "21.083333",
+          "nb_frames": "253"
+        }
+      ]
+    }
+  },
+  "assumptions": [
+    "Symbolic low-speed planar kinematic proxy; all tolerances are test assumptions, not facility standards.",
+    "Reuse original rig proportions, ellipse route outside its joins, rear door angles and stop/reverse event frames.",
+    "Dock-only candidate enters from original f720 on the approach road at test f648; original master keys are untouched. Integration entry differs and requires separate approval.",
+    "Representative trailer axle is the midpoint of its tandem axles. Individual tandem-wheel scrubbing is not a full tyre dynamics simulation.",
+    "Support height tolerance 0.08m accommodates existing road/yard/terrace levels0.735/0.76/0.68 against tyre bottom0.70; dock floor tops1.92/1.86 differ0.06m.",
+    "Original bridge/floor thickness overlap was0.06m. The repaired narrow raised bridge joins the container floor at top1.92m, with0.08m designated solid overlap; warehouse floor remains1.86m. This interface is reported separately from forbidden collisions.",
+    "The port quay is outside the dock-only approach subset; original f648 port wheel/quay overlap is retained in the preserved master and disclosed in the integration proposal."
+  ]
+}
