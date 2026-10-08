@@ -1,0 +1,30 @@
+{
+  "original": {
+    "A01_DOOR_LEFT_LEAF/A01_FLOOR": {
+      "frame": 810.0,
+      "depth": 0.04000479579167404
+    },
+    "A01_DOOR_LEFT_LEAF/A01_ROOF": {
+      "frame": 810.0,
+      "depth": 0.03999716639714279
+    },
+    "A01_DOOR_LEFT_LEAF/A01_SIDE_L": {
+      "frame": 810.0,
+      "depth": 0.040004797540177606
+    },
+    "A01_DOOR_RIGHT_LEAF/A01_FLOOR": {
+      "frame": 810.0,
+      "depth": 0.04000486922677737
+    },
+    "A01_DOOR_RIGHT_LEAF/A01_ROOF": {
+      "frame": 810.0,
+      "depth": 0.03999723983224612
+    },
+    "A01_DOOR_RIGHT_LEAF/A01_SIDE_R": {
+      "frame": 810.0,
+      "depth": 0.04000474333815873
+    }
+  },
+  "hinge_only": {},
+  "test_repairs": {}
+}

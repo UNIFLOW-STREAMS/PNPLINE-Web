@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>S5 continuous review</title>
+<style>body{background:#202429;color:#eee;font:16px system-ui;margin:20px}video{width:48%;vertical-align:top}button{padding:12px;margin-bottom:12px}pre{white-space:pre-wrap}</style>
+<h1>S4 → S5 → S6 · 12 fps · f624–948</h1><button id="play">Play both at 1×</button>
+<div><video id="main" controls muted src="main.mp4"></video><video id="top" controls muted src="top.mp4"></video></div><pre id="status">Ready</pre>
+<script>
+const videos=[document.querySelector('#main'),document.querySelector('#top')];let started=0;
+document.querySelector('#play').onclick=()=>{started=performance.now();for(const v of videos){v.currentTime=0;v.playbackRate=1;v.play()}};
+function state(){return videos.map(v=>({id:v.id,time:v.currentTime,duration:v.duration,rate:v.playbackRate,ended:v.ended,error:v.error?.message||null,quality:v.getVideoPlaybackQuality?.()}))}
+setInterval(()=>document.querySelector('#status').textContent=JSON.stringify({elapsed:(performance.now()-started)/1000,videos:state()},null,2),500);
+for(const v of videos)v.onended=()=>{if(videos.every(v=>v.ended))fetch('/playback-result',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({elapsed_seconds:(performance.now()-started)/1000,videos:state(),method:'Visible browser playback, button started both videos at1x; no seeking or rate change during validation.'})})};
+</script>

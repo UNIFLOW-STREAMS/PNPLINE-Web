@@ -1,0 +1,38 @@
+{
+  "pass_all": true,
+  "samples": 5569,
+  "step": 0.25,
+  "matrix_max": 0.0,
+  "lens_max": 0.0,
+  "errors": [],
+  "markers_equal": true,
+  "exceptions": {
+    "approved_global_hinges_and_children": [
+      "A01_DOOR_L",
+      "A01_DOOR_LEFT_LEAF",
+      "A01_DOOR_R",
+      "A01_DOOR_RIGHT_LEAF"
+    ],
+    "wheel_rolling_phase_and_support_after720": [
+      "A03_TRACTOR_WHEEL_0-0.85",
+      "A03_TRACTOR_WHEEL_00.85",
+      "A03_TRACTOR_WHEEL_1.65-0.85",
+      "A03_TRACTOR_WHEEL_1.650.85",
+      "A03_TRAILER_WHEEL_-0.25-0.85",
+      "A03_TRAILER_WHEEL_-0.250.85",
+      "A03_TRAILER_WHEEL_0.25-0.85",
+      "A03_TRAILER_WHEEL_0.250.85"
+    ],
+    "approved_bridge": {
+      "width": 1.34,
+      "center_z": 1.88
+    },
+    "approved_door_leaf": {
+      "height": 1.43,
+      "center_z_delta": 0.035
+    }
+  },
+  "base_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+  "candidate_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+  "geometry_hierarchy_ids_equal_except_approved_scales": true
+}

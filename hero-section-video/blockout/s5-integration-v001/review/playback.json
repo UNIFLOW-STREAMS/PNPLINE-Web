@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 27.225699999999254,
+  "videos": [
+    {
+      "id": "main",
+      "time": 27.083333,
+      "duration": 27.083333,
+      "rate": 1,
+      "ended": true,
+      "error": null,
+      "quality": {}
+    },
+    {
+      "id": "top",
+      "time": 27.083333,
+      "duration": 27.083333,
+      "rate": 1,
+      "ended": true,
+      "error": null,
+      "quality": {}
+    }
+  ],
+  "method": "Visible browser playback, button started both videos at1x; no seeking or rate change during validation.",
+  "candidate_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+  "video_hashes": {
+    "main.mp4": "4435de984c245d9ef1c9c0ca088c2c5d8f0e0e5dc237e81d5f866218a88830fd",
+    "top.mp4": "c47a14431c1be6debd35773b046f0259a9bbf2de39462ac9a3b4be58c0742b10"
+  }
+}

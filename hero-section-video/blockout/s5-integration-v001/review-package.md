@@ -1,0 +1,11 @@
+# One final read-only review
+
+Scope: entire uncommitted Stage2 implementation under this folder, base HEAD=HEAD=af33d386b82f3620a02d6e7c4ce102e7a50fe0df. Do not require commits: user forbids commit/push/PR. Review working files, not git diff alone.
+Spec: ../plan/pnpline-stage2-s5-integration-codex-handoff-v01.md.
+Review template: C:/Users/KIM TAEHYUNG/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2/skills/requesting-code-review/code-reviewer.md.
+Implementation: scripts/integrate.py, tests/integration.py, supporting read-only checks, config/time/source/frame manifests; full details report.md, ledger progress.md (all Ruling lines).
+Final blend SHA cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b. Input frozen base603523d6...; approved DA742469... differs only saved current-frame properties, equivalent survey actions and sampled evaluated state. User authorized current saved base. Donor5b256... equivalent olda9c280... animation.
+Approvals from user: current saved baseline; hinge2 move5cm back globally; then bridgewidth1.48→1.34/centerZ1.82→1.88 and doorleafloweredge7cm up, upperedgeunchanged. No retiming, no S6 choreography, no vehicle redesign.
+34/34 final tests; strict wheel step1/16 f648–1392,2mm threshold unchanged. motion-audit/space-validation/preservation/reproduction/visibility/video-probe/playback JSON and logs. Rendering final sameblend f624–948,12fps,325frames,27.083s. 1x browser reached both ended/errornull in27.139s.
+Focus: preserved keys/handles and static geometry scope; original vs donor coordinate conversion; numerical heading/stop steering; frame720 continuity and event ordering; cargo/door/bridge contact; camera948 angular/linear continuity; final hash provenance and evidence completeness. Report limitations accurately, including sampled collision vs continuous proof and6cm dock floor level difference. Check user-facing visual frames at review/candidates.jpg plus contact closeups, preview main/top if your tool allows. Do not assume test green proves artistic judgment.
+Do not edit anything or open/save Blender UI. No subagents. Return actionable Critical/Important/Minor with paths and reason. Include declined-to-judge items explicitly. Root will do one TDD fix pass; no repeat review.

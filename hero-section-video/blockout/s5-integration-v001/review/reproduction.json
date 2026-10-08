@@ -1,0 +1,10 @@
+{
+  "pass_all": true,
+  "first": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+  "second": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\review\\reproduced.blend",
+  "evaluated_sha256": "9e927cf6843b097f0f2d57f962d14b67c7e818c438a624cbf6554a61f20fc9d5",
+  "second_evaluated_sha256": "9e927cf6843b097f0f2d57f962d14b67c7e818c438a624cbf6554a61f20fc9d5",
+  "samples": 5569,
+  "step": 0.25,
+  "scope": "All304 object world matrices + lens, entire0..1392 timeline, fresh process; identical evaluated digest required."
+}

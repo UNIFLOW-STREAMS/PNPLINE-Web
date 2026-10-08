@@ -1,0 +1,60 @@
+{
+  "maximums": {
+    "A01_DOOR_LEFT_LEAF / A01_FLOOR": {
+      "frame": 810.0,
+      "depth": 0.04000479579167404
+    },
+    "A01_DOOR_LEFT_LEAF / A01_ROOF": {
+      "frame": 810.0,
+      "depth": 0.03999716639714279
+    },
+    "A01_DOOR_LEFT_LEAF / A01_SIDE_L": {
+      "frame": 810.0,
+      "depth": 0.040004797540177606
+    },
+    "A01_DOOR_RIGHT_LEAF / A01_FLOOR": {
+      "frame": 810.0,
+      "depth": 0.04000486922677737
+    },
+    "A01_DOOR_RIGHT_LEAF / A01_ROOF": {
+      "frame": 810.0,
+      "depth": 0.03999723983224612
+    },
+    "A01_DOOR_RIGHT_LEAF / A01_SIDE_R": {
+      "frame": 810.0,
+      "depth": 0.04000474333815873
+    }
+  },
+  "selected": [
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_LEFT_LEAF / A01_FLOOR",
+      "depth": 0.04000479579167404
+    },
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_LEFT_LEAF / A01_ROOF",
+      "depth": 0.03999716639714279
+    },
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_LEFT_LEAF / A01_SIDE_L",
+      "depth": 0.040004797540177606
+    },
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_RIGHT_LEAF / A01_FLOOR",
+      "depth": 0.04000486922677737
+    },
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_RIGHT_LEAF / A01_ROOF",
+      "depth": 0.03999723983224612
+    },
+    {
+      "frame": 810.0,
+      "pair": "A01_DOOR_RIGHT_LEAF / A01_SIDE_R",
+      "depth": 0.04000474333815873
+    }
+  ]
+}

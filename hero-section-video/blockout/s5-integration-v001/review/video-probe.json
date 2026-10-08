@@ -1,0 +1,48 @@
+{
+  "main": {
+    "file_sha256": "4435de984c245d9ef1c9c0ca088c2c5d8f0e0e5dc237e81d5f866218a88830fd",
+    "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "27.083333",
+          "nb_read_frames": "325"
+        }
+      ]
+    },
+    "decode_exit": 0,
+    "frames": [
+      624,
+      948
+    ],
+    "speed": "12fps original timeline, no cuts or retiming"
+  },
+  "top": {
+    "file_sha256": "c47a14431c1be6debd35773b046f0259a9bbf2de39462ac9a3b4be58c0742b10",
+    "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "27.083333",
+          "nb_read_frames": "325"
+        }
+      ]
+    },
+    "decode_exit": 0,
+    "frames": [
+      624,
+      948
+    ],
+    "speed": "12fps original timeline, no cuts or retiming"
+  }
+}

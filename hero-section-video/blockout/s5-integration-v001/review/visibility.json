@@ -1,0 +1,269 @@
+{
+  "pass_all": true,
+  "errors": [],
+  "pallet_visibility": [
+    {
+      "frame": 912,
+      "visible_points": 9,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 913,
+      "visible_points": 9,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 914,
+      "visible_points": 11,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 915,
+      "visible_points": 13,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 916,
+      "visible_points": 17,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 917,
+      "visible_points": 24,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 918,
+      "visible_points": 24,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 919,
+      "visible_points": 28,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF",
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 920,
+      "visible_points": 31,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF",
+        "A01_ROOF"
+      ]
+    },
+    {
+      "frame": 921,
+      "visible_points": 34,
+      "tested": 36,
+      "occluders": [
+        "A01_DOOR_LEFT_LEAF"
+      ]
+    },
+    {
+      "frame": 922,
+      "visible_points": 34,
+      "tested": 36,
+      "occluders": [
+        "A01_SIDE_L"
+      ]
+    },
+    {
+      "frame": 923,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 924,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 925,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 926,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 927,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 928,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 929,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 930,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 931,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 932,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 933,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 934,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 935,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 936,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 937,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 938,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 939,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 940,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 941,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 942,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 943,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 944,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 945,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 946,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 947,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    },
+    {
+      "frame": 948,
+      "visible_points": 36,
+      "tested": 36,
+      "occluders": []
+    }
+  ],
+  "candidate_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+  "limitations": "Integer-frame points/rays plus rendered continuous review; not whole-frustum/continuous-time occlusion proof."
+}
