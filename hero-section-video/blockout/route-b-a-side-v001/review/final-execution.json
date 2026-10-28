@@ -1,0 +1,62 @@
+[
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\inputs\\base.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/build.py\" -- review/reproduced-b.blend",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduce-b.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\inputs\\base.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/build_city_rotation.py\" -- review/reproduced-city.blend",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduce-city.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/verify_preservation.py\" -- candidate-b",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\preservation-b.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/verify_preservation.py\" -- city-final",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\verify-city-final.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/final_tests.py\" -- candidate-b",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\final-tests-b.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/final_tests.py\" -- city",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\final-tests-city.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduced-b.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/check_reproduction.py\" -- b candidate-b-a-side-v002.blend",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduction-check-b.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduced-city.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/check_reproduction.py\" -- city city-rotation-proposal/candidate-city-rotation-v002.blend",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduction-check-city.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/render.py\" -- candidate-b",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\render-candidate-b.log"
+  },
+  {
+    "command": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --background \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend\" --python-exit-code 1 --python \"F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001/scripts/render.py\" -- city-final range:0:672",
+    "exit_code": 0,
+    "exit_code_evidence": "Observed completed tool session in this task",
+    "log": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\render-city-final.log"
+  }
+]

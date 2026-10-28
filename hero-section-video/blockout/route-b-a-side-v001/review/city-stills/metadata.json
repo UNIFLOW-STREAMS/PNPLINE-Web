@@ -1,0 +1,25 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v001.blend",
+  "sha256": "2f29aaa77abed4a52fd4b963d0d6a4853e9290dd77f1423ee89d0ea8f96a8dd5",
+  "frames": [
+    0,
+    24,
+    72,
+    96,
+    156,
+    178,
+    216,
+    260,
+    300,
+    340,
+    456,
+    648
+  ],
+  "fps": 12,
+  "engine": "BLENDER_WORKBENCH",
+  "resolution": [
+    640,
+    360
+  ],
+  "elapsed_s": 21.34913921356201
+}

@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "destination_on_A_side": true,
+    "route_reaches_A_seaward_gate": true,
+    "bow_moves_forward": true,
+    "ship_follows_spherical_water": true
+  },
+  "destination_CN_local": [
+    -135.1845703125,
+    24.9006290435791,
+    -113.44667053222656
+  ],
+  "minimum_bow_velocity_dot": 0.9996824860572815,
+  "max_radial_error": 1.8746513518408392e-05
+}

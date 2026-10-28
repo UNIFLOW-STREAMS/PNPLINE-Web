@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:18776/review.html",
+  "method": "CUA click on same-start 1x playback button; read-only media state and visible screenshots",
+  "videos": ["preview/current.mp4", "preview/candidate-b.mp4", "preview/city-rotation.mp4"],
+  "duration_s": 48.083333,
+  "playbackRate": 1,
+  "all_reached_end": true,
+  "media_errors": [],
+  "midplay_observation_s": [38.6335, 38.6307, 38.6269],
+  "limitation": "Media playback completion and sampled visible frames verified; not a human continuous-viewing comfort assessment."
+}

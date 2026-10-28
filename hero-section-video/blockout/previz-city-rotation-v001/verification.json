@@ -1,0 +1,20 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-v001\\master-previz-city-rotation-v001.blend",
+  "sha256": "ce36841b9e3418efe1611fdbd9645b6ed9d332ff5db4278974024274d9d6cebb",
+  "checks": {
+    "objects": true,
+    "actions": true,
+    "links": true,
+    "collections": true,
+    "timeline": true,
+    "animated_world_transforms_all_integer_frames": true,
+    "source_hash_unchanged": true,
+    "master_hash_matches": true
+  },
+  "meaning": "Exact adoption fidelity, not collision clearance",
+  "frame_range": [
+    0,
+    1392
+  ],
+  "step": 1
+}

@@ -1,0 +1,27 @@
+{
+  "package": "pnpline-option-b-a-side-route-handoff-v0.1",
+  "created_date": "2026-10-29",
+  "status": "instructions only; implementation not executed",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 926,
+      "sha256": "01625412437d1a84baff98a8664e793dfbebe9aeeebc0793d786f05778ea5f74"
+    },
+    {
+      "path": "TASK.md",
+      "bytes": 24224,
+      "sha256": "bcb202db020c7934ac0f953de34fd809dfa89163cd9dd20352321392f76f0bc5"
+    },
+    {
+      "path": "checked-inputs.json",
+      "bytes": 772,
+      "sha256": "6942fae5e0110fec81da217e91299750dfbea3ab428b8e881286b0773fee962e"
+    },
+    {
+      "path": "source-notes.md",
+      "bytes": 1598,
+      "sha256": "b70fa7c61709f5c79cd790b2002830ae626e148cc48048d26e59f1bc82e8f202"
+    }
+  ]
+}

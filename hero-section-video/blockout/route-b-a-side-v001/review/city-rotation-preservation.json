@@ -1,0 +1,40 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v001.blend",
+  "sha256": "2f29aaa77abed4a52fd4b963d0d6a4853e9290dd77f1423ee89d0ea8f96a8dd5",
+  "checks": {
+    "only_authorized_object_changes": true,
+    "all_mesh_geometry_unchanged": true,
+    "timeline_markers_fps_preserved": true,
+    "camera_optics_preserved": true,
+    "US_local_roots_all_integer_and_boundary_samples_preserved": true,
+    "cargo_on_ship_relative_pose_preserved": true,
+    "later_camera_preserved_in_US_frame": true,
+    "docked_ship_preserved_in_US_frame": true,
+    "US_cargo_handoff_preserved": true,
+    "source_hash_unchanged": true,
+    "protected_actions_preserved": true
+  },
+  "changed_objects": [
+    "CR_WORKING_CABLE.002",
+    "CAM_MASTER",
+    "CR_WORKING_CABLE.001",
+    "CAM_LOOK_TARGET",
+    "CN_FRAME",
+    "CR_WORKING_CABLE",
+    "CR_COMPACT_GANTRY",
+    "CR_SUSPENSION_HEAD",
+    "CR_WORKING_CABLE.003",
+    "CR_TROLLEY_CARRIAGE",
+    "P01_SPREADER"
+  ],
+  "unexpected_objects": [],
+  "geometry_changes": [],
+  "US_local_max_error": 0.0,
+  "cargo_relative_error": 0.0,
+  "later_camera_error": 4.76837158203125e-07,
+  "docked_ship_error": 0.0,
+  "US_cargo_error": 0.0,
+  "S1_camera_error": null,
+  "method": "All source mesh vertices/faces and protected object transforms, parent/material/visibility; all-frame regional root evaluation plus quarter-frame joins; unchanged child geometry/local matrices together with action signatures checked separately.",
+  "unexpected_actions": []
+}

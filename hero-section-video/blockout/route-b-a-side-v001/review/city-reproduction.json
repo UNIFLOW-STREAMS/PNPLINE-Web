@@ -1,0 +1,18 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend",
+  "sha256": "149491c3f28cad65865e19c462843d7ffbefda8c9fc892dbdabce2a2f8e3ca80",
+  "reproduced": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduced-city.blend",
+  "reproduced_sha256": "d5db76f8f7a80ce040b96116474f0dcedf54dcb76b179bf14512f25e2d74546f",
+  "checks": {
+    "objects_equal": true,
+    "actions_equal": true,
+    "mesh_vertices_faces_equal": true,
+    "all_frame_evaluation_equal": true
+  },
+  "max_error": 0.0,
+  "sample_frames": [
+    0,
+    1392
+  ],
+  "step": 1
+}

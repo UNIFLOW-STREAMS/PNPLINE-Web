@@ -1,0 +1,30 @@
+{
+  "recording": {
+    "name": "bandicam 2026-10-28 23-59-18-102.mp4",
+    "bytes": 35499159,
+    "sha256": "352f55bbbb2f9034eb24c005da55a77236b57ed6174acf8cbf90f347ad1ee734",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 2720,
+          "height": 1520,
+          "avg_frame_rate": "3400000/114333"
+        }
+      ],
+      "format": {
+        "duration": "11.433000"
+      }
+    }
+  },
+  "s2-styleframe-001.png": {
+    "bytes": 5956038,
+    "sha256": "f6aace142f0a3473b57e8408b22e316292d0734c25566a26b9bfbea877584aff"
+  },
+  "analysis_s2cam/contact_sheet.jpg": {
+    "bytes": 848110,
+    "sha256": "59239dc8722ac3c29da995398b8094fe508fc564075e38bd4b188b9f0947d5b9"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "approval": "User explicitly authorized separate city rotation + port/S1 connection proposal",
+  "China_rotation_world": [
+    [
+      0.6427876949310303,
+      -3.6946460113540525e-08,
+      -0.7660444378852844,
+      0.0
+    ],
+    [
+      3.6946460113540525e-08,
+      -1.0,
+      7.92319454490098e-08,
+      0.0
+    ],
+    [
+      -0.7660444378852844,
+      -7.92319454490098e-08,
+      -0.6427876949310303,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gantry_shift_in_new_layout": [
+    0.0,
+    -2.0,
+    0.0
+  ],
+  "load_radius": 4.243859946690479,
+  "reference_load_radius": 4.471926,
+  "existing_voyage_and_US": "unchanged",
+  "cargo_all_frames": "unchanged",
+  "camera_changed_range": [
+    73,
+    339
+  ],
+  "new_cargo_suspension_heading_degrees": -55.38911191256677,
+  "S1_mechanism_retargeted": [
+    "CR_SLEW_JIB",
+    "CR_TROLLEY_CARRIAGE",
+    "CR_SUSPENSION_HEAD",
+    "CR_WORKING_CABLE",
+    "CR_WORKING_CABLE.001",
+    "CR_WORKING_CABLE.002",
+    "CR_WORKING_CABLE.003"
+  ],
+  "status": "UNADOPTED; needs rework: hull/coast overlap remains",
+  "candidate": "candidate-city-rotation-v002.blend"
+}

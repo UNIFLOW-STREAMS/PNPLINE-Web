@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend",
+  "sha256": "149491c3f28cad65865e19c462843d7ffbefda8c9fc892dbdabce2a2f8e3ca80",
+  "results": [
+    {
+      "test": "test_city_rotation.py",
+      "pass": true
+    },
+    {
+      "test": "test_s1_camera_preserved.py",
+      "pass": true
+    }
+  ]
+}

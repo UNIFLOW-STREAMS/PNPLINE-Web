@@ -1,0 +1,96 @@
+{
+  "A_direction": "negative CN_FRAME x; y positive is seaward. Layout x axis is reversed relative to CN_FRAME.",
+  "source_bow_axis": "+X, tapered hull tip at +7.3; bridge at -5.5",
+  "departure_frame": 146,
+  "dock_frame": 510,
+  "turn_length_m": 72.0,
+  "planar_end_x": -190.0,
+  "turn_seaward_y": 34.997469640346324,
+  "spherical_route_length": 259.71873117605486,
+  "new_US_frame": [
+    [
+      0.7941856384277344,
+      -0.18136799335479736,
+      -0.5799782872200012,
+      -81.19695281982422
+    ],
+    [
+      -0.09381604939699173,
+      -0.9795733690261841,
+      0.17786163091659546,
+      24.9006290435791
+    ],
+    [
+      -0.6003895998001099,
+      -0.08684389293193817,
+      -0.7949783802032471,
+      -111.29694366455078
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rigid_transfer": [
+    [
+      0.4746673107147217,
+      -0.18136799335479736,
+      -0.8612761497497559,
+      4.599816293193726e-06
+    ],
+    [
+      -0.009858660399913788,
+      -0.9795733690261841,
+      0.20084576308727264,
+      -1.5494688341277651e-06
+    ],
+    [
+      -0.8801101446151733,
+      -0.08684389293193817,
+      -0.466759592294693,
+      3.2807882234919816e-05
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "regional_roots": [
+    "US_FRAME",
+    "A03_TRAILER",
+    "A03_TRACTOR",
+    "P02_SPREADER",
+    "P02_CABLE_0",
+    "P02_CABLE_1",
+    "P02_CABLE_2",
+    "P02_CABLE_3",
+    "A04_PRIMARY",
+    "A05_SECONDARY",
+    "W01_NEW_PALLET",
+    "W01_STORED_PALLET",
+    "W02_INBOUND_JACK",
+    "W02_STORAGE_JACK",
+    "W05_PICK_CART",
+    "W09_OUT_CART",
+    "W08_LAST_LOAD",
+    "CH_LOAD_SUPPORT",
+    "CH_LOAD_ARM_0",
+    "CH_LOAD_ARM_1"
+  ],
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend",
+  "camera_changed_frames": [
+    171,
+    1392
+  ],
+  "ship_changed_frames": [
+    145,
+    1392
+  ],
+  "shared_container_handoff": 510,
+  "time_mapping": "original ship angular progress; 12fps and all events unchanged",
+  "lens": "original data and lens animation unchanged"
+}

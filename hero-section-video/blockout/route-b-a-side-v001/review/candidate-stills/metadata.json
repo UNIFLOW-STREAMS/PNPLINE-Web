@@ -1,0 +1,28 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend",
+  "sha256": "ff912de3fe6beb9df07e84c2492d4af9682b03f440155fc7683806d440780f00",
+  "frames": [
+    156,
+    178,
+    216,
+    260,
+    300,
+    340,
+    380,
+    420,
+    456,
+    510,
+    600,
+    648,
+    900,
+    1200,
+    1392
+  ],
+  "fps": 12,
+  "engine": "BLENDER_WORKBENCH",
+  "resolution": [
+    640,
+    360
+  ],
+  "elapsed_s": 28.42552876472473
+}

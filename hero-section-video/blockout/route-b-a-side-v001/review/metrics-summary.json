@@ -1,0 +1,459 @@
+{
+  "current": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\inputs\\base.blend",
+    "sha256": "79990474dc8bcb69a1657efbad25711e3f613541ed706cfbc31e1e78dba1c640",
+    "windows": {
+      "all": {
+        "frames": [
+          96,
+          672
+        ],
+        "camera_rotation_total_deg": 878.9603024112894,
+        "peak_deg_s": 180.92153739717816,
+        "p95_deg_s": 57.74678044166037,
+        "peak_angular_accel_deg_s2": 358.6456935951521,
+        "ship_relative_azimuth_travel_deg": 680.859647462414,
+        "azimuth_reversals_over_0_2_deg_step": 7,
+        "max_camera_step_m": 2.308165831603996
+      },
+      "problem_transition": {
+        "frames": [
+          171,
+          340
+        ],
+        "camera_rotation_total_deg": 226.61508223522333,
+        "peak_deg_s": 159.85230097928647,
+        "p95_deg_s": 86.20033726792519,
+        "peak_angular_accel_deg_s2": 279.69500941511706,
+        "ship_relative_azimuth_travel_deg": 162.05453130177915,
+        "azimuth_reversals_over_0_2_deg_step": 2,
+        "max_camera_step_m": 2.308165831603996
+      },
+      "S3": {
+        "frames": [
+          216,
+          456
+        ],
+        "camera_rotation_total_deg": 181.56215149891366,
+        "peak_deg_s": 26.73656388883074,
+        "p95_deg_s": 23.774055267430285,
+        "peak_angular_accel_deg_s2": 14.297654637626735,
+        "ship_relative_azimuth_travel_deg": 126.32114795343163,
+        "azimuth_reversals_over_0_2_deg_step": 2,
+        "max_camera_step_m": 1.693942566301027
+      },
+      "arrival": {
+        "frames": [
+          340,
+          510
+        ],
+        "camera_rotation_total_deg": 208.03101151989188,
+        "peak_deg_s": 33.23294660659436,
+        "p95_deg_s": 29.99076811325355,
+        "peak_angular_accel_deg_s2": 51.83302493309175,
+        "ship_relative_azimuth_travel_deg": 174.83058833653766,
+        "azimuth_reversals_over_0_2_deg_step": 3,
+        "max_camera_step_m": 1.693942566301027
+      },
+      "city_reveal": {
+        "frames": [
+          96,
+          170
+        ],
+        "camera_rotation_total_deg": 172.3287669087425,
+        "peak_deg_s": 180.92153739717816,
+        "p95_deg_s": 134.4558082982122,
+        "peak_angular_accel_deg_s2": 358.6456935951521,
+        "ship_relative_azimuth_travel_deg": 131.5889759903942,
+        "azimuth_reversals_over_0_2_deg_step": 0,
+        "max_camera_step_m": 2.1446751695705593
+      }
+    },
+    "any_occlusion_intervals": [
+      [
+        96,
+        102
+      ],
+      [
+        203,
+        252
+      ],
+      [
+        590,
+        591
+      ],
+      [
+        593,
+        593
+      ],
+      [
+        595,
+        598
+      ],
+      [
+        600,
+        613
+      ],
+      [
+        618,
+        620
+      ],
+      [
+        622,
+        626
+      ],
+      [
+        628,
+        633
+      ],
+      [
+        638,
+        640
+      ],
+      [
+        642,
+        661
+      ],
+      [
+        666,
+        672
+      ]
+    ],
+    "all_points_occluded_intervals": [],
+    "all_ship_samples_offscreen": [
+      [
+        665,
+        672
+      ]
+    ],
+    "hull_triangle_overlap_intervals": {
+      "SF_COAST_FOLDED_FACE": [
+        [
+          144,
+          255
+        ]
+      ],
+      "US_LAND_TERRACE": [
+        [
+          427,
+          477
+        ]
+      ]
+    },
+    "min_camera_static_distance_m": 4.035989284515381,
+    "min_camera_radial_height_m": 6.896361348666602,
+    "peak_ship_speed_m_s": 12.546932013615269,
+    "peak_ship_accel_m_s2": 2.7111828784816394,
+    "peak_ship_rotation_deg_s": 5.134929920970237
+  },
+  "candidate-b": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend",
+    "sha256": "ff912de3fe6beb9df07e84c2492d4af9682b03f440155fc7683806d440780f00",
+    "windows": {
+      "all": {
+        "frames": [
+          96,
+          672
+        ],
+        "camera_rotation_total_deg": 721.322242879784,
+        "peak_deg_s": 180.92143291113982,
+        "p95_deg_s": 44.13982947641162,
+        "peak_angular_accel_deg_s2": 358.64456586381687,
+        "ship_relative_azimuth_travel_deg": 680.5539374492921,
+        "azimuth_reversals_over_0_2_deg_step": 5,
+        "max_camera_step_m": 2.1446751695705593
+      },
+      "problem_transition": {
+        "frames": [
+          171,
+          340
+        ],
+        "camera_rotation_total_deg": 92.47537646420956,
+        "peak_deg_s": 12.258158852472636,
+        "p95_deg_s": 11.652218905730829,
+        "peak_angular_accel_deg_s2": 12.64610368833474,
+        "ship_relative_azimuth_travel_deg": 186.1673062918678,
+        "azimuth_reversals_over_0_2_deg_step": 0,
+        "max_camera_step_m": 1.6597285892491807
+      },
+      "S3": {
+        "frames": [
+          216,
+          456
+        ],
+        "camera_rotation_total_deg": 175.86112768577112,
+        "peak_deg_s": 18.210697449792956,
+        "p95_deg_s": 17.641917985058658,
+        "peak_angular_accel_deg_s2": 13.078016807640864,
+        "ship_relative_azimuth_travel_deg": 233.5082404690996,
+        "azimuth_reversals_over_0_2_deg_step": 1,
+        "max_camera_step_m": 1.698365371283278
+      },
+      "arrival": {
+        "frames": [
+          340,
+          510
+        ],
+        "camera_rotation_total_deg": 184.49050290840466,
+        "peak_deg_s": 33.233001823797295,
+        "p95_deg_s": 29.99084228478636,
+        "peak_angular_accel_deg_s2": 51.830672435222056,
+        "ship_relative_azimuth_travel_deg": 150.3726504239393,
+        "azimuth_reversals_over_0_2_deg_step": 2,
+        "max_camera_step_m": 1.698365371283278
+      },
+      "city_reveal": {
+        "frames": [
+          96,
+          170
+        ],
+        "camera_rotation_total_deg": 172.32876467746252,
+        "peak_deg_s": 180.92143291113982,
+        "p95_deg_s": 134.45581907541623,
+        "peak_angular_accel_deg_s2": 358.64456586381687,
+        "ship_relative_azimuth_travel_deg": 131.67266015245707,
+        "azimuth_reversals_over_0_2_deg_step": 0,
+        "max_camera_step_m": 2.1446751695705593
+      }
+    },
+    "any_occlusion_intervals": [
+      [
+        96,
+        102
+      ],
+      [
+        590,
+        591
+      ],
+      [
+        593,
+        593
+      ],
+      [
+        595,
+        598
+      ],
+      [
+        600,
+        613
+      ],
+      [
+        618,
+        620
+      ],
+      [
+        622,
+        626
+      ],
+      [
+        628,
+        633
+      ],
+      [
+        638,
+        640
+      ],
+      [
+        642,
+        661
+      ],
+      [
+        666,
+        672
+      ]
+    ],
+    "all_points_occluded_intervals": [],
+    "all_ship_samples_offscreen": [
+      [
+        665,
+        672
+      ]
+    ],
+    "hull_triangle_overlap_intervals": {
+      "SF_COAST_FOLDED_FACE": [
+        [
+          144,
+          232
+        ]
+      ],
+      "US_LAND_TERRACE": [
+        [
+          436,
+          479
+        ]
+      ]
+    },
+    "min_camera_static_distance_m": 4.035989284515381,
+    "min_camera_radial_height_m": 6.896361348666602,
+    "peak_ship_speed_m_s": 14.818161816126231,
+    "peak_ship_accel_m_s2": 3.200165643164004,
+    "peak_ship_rotation_deg_s": 34.45630684710373
+  },
+  "city-final": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend",
+    "sha256": "149491c3f28cad65865e19c462843d7ffbefda8c9fc892dbdabce2a2f8e3ca80",
+    "windows": {
+      "all": {
+        "frames": [
+          96,
+          672
+        ],
+        "camera_rotation_total_deg": 558.3092445585149,
+        "peak_deg_s": 59.01834446300808,
+        "p95_deg_s": 35.25604617675207,
+        "peak_angular_accel_deg_s2": 55.6437021413668,
+        "ship_relative_azimuth_travel_deg": 426.0835231618287,
+        "azimuth_reversals_over_0_2_deg_step": 4,
+        "max_camera_step_m": 1.693942566301027
+      },
+      "problem_transition": {
+        "frames": [
+          171,
+          340
+        ],
+        "camera_rotation_total_deg": 63.56879261514729,
+        "peak_deg_s": 6.497944688071401,
+        "p95_deg_s": 6.4571374939363135,
+        "peak_angular_accel_deg_s2": 1.4820580263640863,
+        "ship_relative_azimuth_travel_deg": 17.44383274748187,
+        "azimuth_reversals_over_0_2_deg_step": 0,
+        "max_camera_step_m": 1.304568562209833
+      },
+      "S3": {
+        "frames": [
+          216,
+          456
+        ],
+        "camera_rotation_total_deg": 181.90106904141564,
+        "peak_deg_s": 26.736568027687277,
+        "p95_deg_s": 23.77409659562753,
+        "peak_angular_accel_deg_s2": 14.298015733899746,
+        "ship_relative_azimuth_travel_deg": 123.53404735851973,
+        "azimuth_reversals_over_0_2_deg_step": 1,
+        "max_camera_step_m": 1.693942566301027
+      },
+      "arrival": {
+        "frames": [
+          340,
+          510
+        ],
+        "camera_rotation_total_deg": 208.0310209688515,
+        "peak_deg_s": 33.23300129224883,
+        "p95_deg_s": 29.990723551342704,
+        "peak_angular_accel_deg_s2": 51.83385853672334,
+        "ship_relative_azimuth_travel_deg": 174.83058833653766,
+        "azimuth_reversals_over_0_2_deg_step": 3,
+        "max_camera_step_m": 1.693942566301027
+      },
+      "city_reveal": {
+        "frames": [
+          96,
+          170
+        ],
+        "camera_rotation_total_deg": 14.767343558139425,
+        "peak_deg_s": 13.713601520592647,
+        "p95_deg_s": 9.996140893545888,
+        "peak_angular_accel_deg_s2": 12.072649921810111,
+        "ship_relative_azimuth_travel_deg": 21.551949327753494,
+        "azimuth_reversals_over_0_2_deg_step": 0,
+        "max_camera_step_m": 1.386358945657428
+      }
+    },
+    "any_occlusion_intervals": [
+      [
+        183,
+        184
+      ],
+      [
+        203,
+        208
+      ],
+      [
+        211,
+        214
+      ],
+      [
+        217,
+        220
+      ],
+      [
+        223,
+        225
+      ],
+      [
+        228,
+        231
+      ],
+      [
+        233,
+        235
+      ],
+      [
+        590,
+        591
+      ],
+      [
+        593,
+        593
+      ],
+      [
+        595,
+        598
+      ],
+      [
+        600,
+        613
+      ],
+      [
+        618,
+        620
+      ],
+      [
+        622,
+        626
+      ],
+      [
+        628,
+        633
+      ],
+      [
+        638,
+        640
+      ],
+      [
+        642,
+        661
+      ],
+      [
+        666,
+        672
+      ]
+    ],
+    "all_points_occluded_intervals": [],
+    "all_ship_samples_offscreen": [
+      [
+        665,
+        672
+      ]
+    ],
+    "hull_triangle_overlap_intervals": {
+      "SF_COAST_FOLDED_FACE": [
+        [
+          144,
+          250
+        ]
+      ],
+      "US_LAND_TERRACE": [
+        [
+          427,
+          477
+        ]
+      ]
+    },
+    "min_camera_static_distance_m": 5.2893385887146,
+    "min_camera_radial_height_m": 8.059597284824918,
+    "peak_ship_speed_m_s": 12.546932013615269,
+    "peak_ship_accel_m_s2": 2.7111828784816394,
+    "peak_ship_rotation_deg_s": 5.134929920970237
+  }
+}

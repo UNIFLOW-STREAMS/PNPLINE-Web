@@ -1,0 +1,42 @@
+[
+  {
+    "label": "b",
+    "frame": 156,
+    "pixel_identical": true
+  },
+  {
+    "label": "b",
+    "frame": 216,
+    "pixel_identical": true
+  },
+  {
+    "label": "b",
+    "frame": 456,
+    "pixel_identical": true
+  },
+  {
+    "label": "b",
+    "frame": 648,
+    "pixel_identical": true
+  },
+  {
+    "label": "city",
+    "frame": 156,
+    "pixel_identical": true
+  },
+  {
+    "label": "city",
+    "frame": 216,
+    "pixel_identical": true
+  },
+  {
+    "label": "city",
+    "frame": 456,
+    "pixel_identical": true
+  },
+  {
+    "label": "city",
+    "frame": 648,
+    "pixel_identical": true
+  }
+]

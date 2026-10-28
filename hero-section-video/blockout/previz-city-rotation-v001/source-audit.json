@@ -1,0 +1,21 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend",
+  "current_sha256": "531bad68f3f14ca22c00c410af8371c9a85a9072b3c6c50274e0b952b4bf5919",
+  "reviewed_source_sha256": "149491c3f28cad65865e19c462843d7ffbefda8c9fc892dbdabce2a2f8e3ca80",
+  "reference": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduced-city.blend",
+  "reference_sha256": "d5db76f8f7a80ce040b96116474f0dcedf54dcb76b179bf14512f25e2d74546f",
+  "checks": {
+    "objects": true,
+    "actions": true,
+    "links": true,
+    "collections": true,
+    "timeline": true,
+    "animated_world_transforms_all_integer_frames": true
+  },
+  "differences": {
+    "objects": [],
+    "actions": [],
+    "links": [],
+    "collections": []
+  }
+}

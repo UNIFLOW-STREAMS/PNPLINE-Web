@@ -1,0 +1,25 @@
+{
+  "adopted_on": "2026-10-29",
+  "user_instruction": "도시 회전안을 채택한다.",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\city-rotation-proposal\\candidate-city-rotation-v002.blend",
+  "source_sha256": "531bad68f3f14ca22c00c410af8371c9a85a9072b3c6c50274e0b952b4bf5919",
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-v001\\master-previz-city-rotation-v001.blend",
+  "sha256": "ce36841b9e3418efe1611fdbd9645b6ed9d332ff5db4278974024274d9d6cebb",
+  "scope": "Promote full S1-S7 selected candidate; only scene metadata/output path/playback UI adjusted. No geometry, camera, motion or event changes.",
+  "known_issues": [
+    "China folded coast / hull overlap f144-250",
+    "US terrace / hull overlap f427-477"
+  ],
+  "release_status": "Adopted previz baseline; contact corrections pending",
+  "verification": {
+    "objects": true,
+    "actions": true,
+    "links": true,
+    "collections": true,
+    "timeline": true,
+    "animated_world_transforms_all_integer_frames": true,
+    "source_hash_unchanged": true,
+    "master_hash_matches": true
+  },
+  "f156_pixel_identical_to_reviewed_candidate": true
+}

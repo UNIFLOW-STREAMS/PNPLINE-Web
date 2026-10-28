@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "A_ahead_of_C_along_existing_bow": false,
+    "S1_suspension_stays_over_spreader": true,
+    "S1_ropes_positive": true
+  },
+  "A_local": [
+    -11.876178741455078,
+    -20.59552574157715,
+    1.2499961853027344
+  ],
+  "C_local": [
+    21.853179931640625,
+    -25.62302017211914,
+    1.25
+  ],
+  "max_suspension_horizontal_error": 9.679987455805324e-06,
+  "min_rope_height": 0.3200019411742687
+}

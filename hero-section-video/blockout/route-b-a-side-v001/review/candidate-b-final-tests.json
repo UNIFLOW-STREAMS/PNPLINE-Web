@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend",
+  "sha256": "ff912de3fe6beb9df07e84c2492d4af9682b03f440155fc7683806d440780f00",
+  "results": [
+    {
+      "test": "test_route_direction.py",
+      "pass": true
+    },
+    {
+      "test": "test_camera_join.py",
+      "pass": true
+    }
+  ]
+}

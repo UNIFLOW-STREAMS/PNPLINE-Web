@@ -1,0 +1,47 @@
+{
+  "protected": [
+    "China hierarchy geometry/transforms/actions",
+    "Earth",
+    "ship and container child geometry",
+    "all lens/sensor/shift/clip",
+    "timeline/markers",
+    "S1 camera and lift",
+    "US internal local motion"
+  ],
+  "shared_bakes": [
+    "A02_SHIP",
+    "A01_CONTAINER",
+    "CAM_MASTER",
+    "CAM_LOOK_TARGET"
+  ],
+  "US_parent_transform": [
+    "US_FRAME",
+    "A03_TRAILER",
+    "A03_TRACTOR",
+    "P02_SPREADER",
+    "P02_CABLE_0",
+    "P02_CABLE_1",
+    "P02_CABLE_2",
+    "P02_CABLE_3",
+    "A04_PRIMARY",
+    "A05_SECONDARY",
+    "W01_NEW_PALLET",
+    "W01_STORED_PALLET",
+    "W02_INBOUND_JACK",
+    "W02_STORAGE_JACK",
+    "W05_PICK_CART",
+    "W09_OUT_CART",
+    "W08_LAST_LOAD",
+    "CH_LOAD_SUPPORT",
+    "CH_LOAD_ARM_0",
+    "CH_LOAD_ARM_1"
+  ],
+  "guide_geometry": [
+    "SHIP_ROUTE",
+    "CAMERA_PATH"
+  ],
+  "new_objects": [
+    "B_US_RIGID_TRANSFER"
+  ],
+  "candidate_status": "UNADOPTED"
+}

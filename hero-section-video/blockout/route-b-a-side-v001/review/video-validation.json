@@ -1,0 +1,82 @@
+[
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\preview\\current.mp4",
+    "sha256": "aceab77ad1894d344f354cef99def549c2b1702a38d80f86994ab14391d02787",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "12/1",
+          "nb_frames": "577"
+        }
+      ],
+      "format": {
+        "duration": "48.083333"
+      }
+    },
+    "decode_exit_code": 0
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\preview\\candidate-b.mp4",
+    "sha256": "0527d242b198e594fbb9c1282c8fd0776903b1807daf4e4f3018fe1b3a7da90e",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "12/1",
+          "nb_frames": "577"
+        }
+      ],
+      "format": {
+        "duration": "48.083333"
+      }
+    },
+    "decode_exit_code": 0
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\preview\\city-rotation.mp4",
+    "sha256": "533cc787252a1f095f48fab06b94a170fe72aa12bd54903984b93b6f8f557fa3",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "12/1",
+          "nb_frames": "577"
+        }
+      ],
+      "format": {
+        "duration": "48.083333"
+      }
+    },
+    "decode_exit_code": 0
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\preview\\city-s1.mp4",
+    "sha256": "a30a33159e35d9f70b719b07fe079ac8687a53dbf69e2daf87841969a8928c76",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "12/1",
+          "nb_frames": "157"
+        }
+      ],
+      "format": {
+        "duration": "13.083333"
+      }
+    },
+    "decode_exit_code": 0
+  }
+]

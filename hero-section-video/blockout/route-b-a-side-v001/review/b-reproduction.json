@@ -1,0 +1,18 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\candidate-b-a-side-v002.blend",
+  "sha256": "ff912de3fe6beb9df07e84c2492d4af9682b03f440155fc7683806d440780f00",
+  "reproduced": "F:\\pnpline-landing\\hero-section-video\\blockout\\route-b-a-side-v001\\review\\reproduced-b.blend",
+  "reproduced_sha256": "59bd8ba02c611c89eb45b51b80e0d110c2be39b8fb9b80cfd2ea9ad0f000c988",
+  "checks": {
+    "objects_equal": true,
+    "actions_equal": true,
+    "mesh_vertices_faces_equal": true,
+    "all_frame_evaluation_equal": true
+  },
+  "max_error": 0.0,
+  "sample_frames": [
+    0,
+    1392
+  ],
+  "step": 1
+}
