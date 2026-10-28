@@ -1,0 +1,59 @@
+{
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "source_unchanged": true,
+  "pass": true,
+  "frame_range": [
+    0,
+    1392
+  ],
+  "fps": 12,
+  "records": {
+    "full-acceptance": {
+      "path": "review/full-acceptance.json",
+      "sha256": "90f6c103e4fb5bc207d654ab7f0055f72ee4eef09dedf6730971746673ebbfe4"
+    },
+    "master-regression": {
+      "path": "review/master-regression.json",
+      "sha256": "38cf68d4712e5143d399831a4a00eae0a96f8b51764199d1df063ec5a9932c72"
+    },
+    "layout-acceptance": {
+      "path": "review/layout-acceptance.json",
+      "sha256": "ae43078e4d80ac6906a1f277a5ef09ba32176795a9b30f8a97d20725f15f53ce"
+    },
+    "preservation": {
+      "path": "review/preservation.json",
+      "sha256": "995434f8711d4a93541f3d83b9753286d0a9a0c293045ee996421e19528697ad"
+    },
+    "handoffs": {
+      "path": "review/handoffs.json",
+      "sha256": "ebfc50f02f1b6c60ffdbd6914677eadd5c28492a9830f56acfb1aa56a928c415"
+    },
+    "space-validation": {
+      "path": "review/space-validation.json",
+      "sha256": "95e170220320a4fb5810be74611e65df9d89c6a52c9bfd87f947faee131a3ea6"
+    },
+    "final-review": {
+      "path": "review/final-review.json",
+      "sha256": "3c142e02436122d4ef892d57826b6e9fc5dbf339c2e9a035ac97ca0e689a8869"
+    },
+    "playback": {
+      "path": "review/playback.json",
+      "sha256": "b67998cc6efda93e2fb057b543f8bd78e8d867da9e4b989a7a4db198b62cfdeb"
+    }
+  },
+  "wheel_log_sha256": "7e10af2132d62f865e3d727bc439da1ae423cb5039057fec6acd86674c01dffc",
+  "collision_scope": {
+    "handoff": [
+      216,
+      624
+    ],
+    "dock_sat": [
+      720,
+      948
+    ],
+    "step": 0.25,
+    "continuous_time_claim": false
+  },
+  "package_record_sha256": "be2d8d8aafb56ebe901d3a9c5a0e1e9d777c1fc13712c10365e9b0a46e33dd90",
+  "known_visual_limitation": "f692–700 brief crane occlusion retained from adopted proposal."
+}

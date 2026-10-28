@@ -1,0 +1,29 @@
+{
+  "ended": true,
+  "currentTime": 27.083333,
+  "duration": 27.083333,
+  "playbackRate": 1,
+  "elapsed": 27.08539999999851,
+  "error": null,
+  "events": [
+    {
+      "event": "seeking",
+      "time": 0
+    },
+    {
+      "event": "waiting",
+      "time": 0.018141
+    },
+    {
+      "event": "seeked",
+      "time": 0.018311
+    },
+    {
+      "event": "playing",
+      "time": 0.01832
+    }
+  ],
+  "video_sha256": "a0cbbe7df4ab0c170a064655ec3ca2df5eb16cb1dfb43b8ba2677afe3140a7fe",
+  "recorded_utc": "2026-10-08T13:19:44.617925+00:00",
+  "observer": "assistant browser technical review, not user approval"
+}

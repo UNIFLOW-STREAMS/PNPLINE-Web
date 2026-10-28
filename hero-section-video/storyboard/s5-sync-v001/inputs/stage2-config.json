@@ -1,0 +1,12 @@
+{
+  "base_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+  "donor_sha256": "5b2565b642c7f646d8e08386ddcd6c4039df6755eb7bcc90dadf0e81d8115b16",
+  "scene": "PNPLINE_MASTER_v005", "F_lock": 720, "F_rejoin": 948,
+  "fps": 12, "frame_end": 1392,
+  "sampling": {"root_step": 0.0625, "wheel_step": 0.0625, "collision_step": 0.25},
+  "thresholds": {"support_m": 0.002, "hitch_m": 0.002, "relative_m": 0.002, "donor_path_m": 0.01, "solid_penetration_m": 0.01, "heading_deg": 2, "rotation_deg_per_frame": 8},
+  "approved_geometry": {"A01_DOOR_L.location.x": -1.65, "A01_DOOR_R.location.x": -1.65},
+  "approved_dock_geometry": {"bridge_width":1.34,"bridge_center_z":1.88,"door_leaf_height":1.43,"door_leaf_center_z_delta":0.035},
+  "notes": ["Retain original event times and S6 choreography. F_rejoin948 observes first pallet crossing into inbound floor before storage.", "0.002m wheel tolerance and 1/16-frame follow-up sampling retained. SAT is sampled conservative box/hull evidence, not continuous collision certification.", "User approved two static hinge translations plus bridge width/height and two lower door edges as separately recorded. No other geometry or retiming changes."]
+}
+

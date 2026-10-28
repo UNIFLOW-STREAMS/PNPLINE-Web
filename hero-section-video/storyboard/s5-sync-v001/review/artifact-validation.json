@@ -1,0 +1,15 @@
+{
+  "pass_all": true,
+  "role_checks": 6,
+  "raw_panel_pixel_regions_identical": 6,
+  "actual_f810_rejected_as_turning": true,
+  "original_source_unchanged": true,
+  "snapshot_identical": true,
+  "raw_frames": 325,
+  "video_duration": 27.083333,
+  "video_fps": 12.0,
+  "notion_current_matches_snapshot": true,
+  "user_selection": "pending",
+  "style_stage": "one minimal sample; six full panels pending choice",
+  "full_stage3_complete": false
+}

@@ -1,0 +1,32 @@
+{
+  "blend_sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+  "render_record_sha256": "02e4cbaf5963ff0670ab9b3b9f6d6afa078ddafc38126e9566c6ff1608610edf",
+  "video_sha256": "0fcaab47431ec07851c137cfdd95c78a10df8978ed786252f008eda0bd618c5a",
+  "video_frames": 397,
+  "video_duration_s": 33.083333,
+  "video_command": [
+    "ffmpeg",
+    "-y",
+    "-framerate",
+    "12",
+    "-start_number",
+    "552",
+    "-i",
+    "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\layout-proposal-v001\\raw-24b13b88\\%04d.png",
+    "-frames:v",
+    "397",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "19",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\layout-proposal-v001\\preview.mp4"
+  ],
+  "reference_sha256": "0b0643290ca919029d967341715761f94c911f87794d31a588155c4caa00fb6c",
+  "comparison_sha256": "273e53c40845bcc72d0e8d99e729b9353122696089f7e7018c7a6b3403a3bb34",
+  "contact_sha256": "f359842fbce3515a13e65f01f8e1dc3cca991e45fe936932f428d05204401047",
+  "script_sha256": "fb2a60d30153e38a07364d551cacd40b20fe793ed57a9ad058efc83bc10860fe"
+}

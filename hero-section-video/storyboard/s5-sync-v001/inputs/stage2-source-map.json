@@ -1,0 +1,896 @@
+{
+  "base_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+  "donor_sha256": "5b2565b642c7f646d8e08386ddcd6c4039df6755eb7bcc90dadf0e81d8115b16",
+  "objects": [
+    {
+      "destination": "A03_TRACTOR",
+      "donor": "S5T__A03_TRACTOR",
+      "base_parent": null,
+      "base_rotation": "QUATERNION",
+      "donor_parent": "S5T__US_FRAME",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "A-03",
+      "instance_id": "A03_TRACTOR",
+      "action": "A03_TRACTORAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRAILER",
+      "donor": "S5T__A03_TRAILER",
+      "base_parent": null,
+      "base_rotation": "QUATERNION",
+      "donor_parent": "S5T__US_FRAME",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "A-03",
+      "instance_id": "A03_TRAILER",
+      "action": "A03_TRAILERAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "TRACTOR_HITCH",
+      "donor": "S5T__TRACTOR_HITCH",
+      "base_parent": "A03_TRACTOR",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRACTOR",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": null,
+      "action_users": 0,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "TRAILER_HITCH",
+      "donor": "S5T__TRAILER_HITCH",
+      "base_parent": "A03_TRAILER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": null,
+      "action_users": 0,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A01_CONTAINER",
+      "donor": "S5T__A01_CONTAINER",
+      "base_parent": null,
+      "base_rotation": "QUATERNION",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "QUATERNION",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "A-01",
+      "instance_id": "A01_CONTAINER",
+      "action": "A01_CONTAINERAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A01_DOOR_L",
+      "donor": "S5T__A01_DOOR_L",
+      "base_parent": "A01_CONTAINER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A01_CONTAINER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A01_DOOR_LAction",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A01_DOOR_R",
+      "donor": "S5T__A01_DOOR_R",
+      "base_parent": "A01_CONTAINER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A01_CONTAINER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A01_DOOR_RAction",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "W01_NEW_PALLET",
+      "donor": "S5T__W01_NEW_PALLET",
+      "base_parent": null,
+      "base_rotation": "QUATERNION",
+      "donor_parent": "S5T__A01_CONTAINER",
+      "donor_rotation": "QUATERNION",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "W-01",
+      "instance_id": "W01_NEW_PALLET",
+      "action": "W01_NEW_PALLETAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "W01_REMAINING_CONTAINER_CARGO",
+      "donor": "S5T__W01_REMAINING_CONTAINER_CARGO",
+      "base_parent": "A01_CONTAINER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A01_CONTAINER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "W-01",
+      "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+      "action": null,
+      "action_users": 0,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "DOCK_TARGET",
+      "donor": "S5T__DOCK_TARGET",
+      "base_parent": "US_FRAME",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__US_FRAME",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": null,
+      "action_users": 0,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "DOCK_BRIDGE",
+      "donor": "S5T__DOCK_BRIDGE",
+      "base_parent": "US_FRAME",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__US_FRAME",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": "E-09",
+      "instance_id": null,
+      "action": null,
+      "action_users": 0,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "CAM_MASTER",
+      "donor": null,
+      "base_parent": null,
+      "base_rotation": "QUATERNION",
+      "donor_parent": null,
+      "donor_rotation": null,
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "CAM_MASTERAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "CAM_LOOK_TARGET",
+      "donor": null,
+      "base_parent": null,
+      "base_rotation": "XYZ",
+      "donor_parent": null,
+      "donor_rotation": null,
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "CAM_LOOK_TARGETAction.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRACTOR_WHEEL_0-0.85",
+      "donor": "S5T__A03_TRACTOR_WHEEL_0-0.85",
+      "base_parent": "A03_TRACTOR",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRACTOR",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRACTOR_WHEEL_0-0.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRACTOR_WHEEL_00.85",
+      "donor": "S5T__A03_TRACTOR_WHEEL_00.85",
+      "base_parent": "A03_TRACTOR",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRACTOR",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRACTOR_WHEEL_00.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRACTOR_WHEEL_1.65-0.85",
+      "donor": "S5T__A03_TRACTOR_WHEEL_1.65-0.85",
+      "base_parent": "A03_TRACTOR",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRACTOR",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRACTOR_WHEEL_1.65-0.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRACTOR_WHEEL_1.650.85",
+      "donor": "S5T__A03_TRACTOR_WHEEL_1.650.85",
+      "base_parent": "A03_TRACTOR",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRACTOR",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRACTOR_WHEEL_1.650.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRAILER_WHEEL_-0.25-0.85",
+      "donor": "S5T__A03_TRAILER_WHEEL_-0.25-0.85",
+      "base_parent": "A03_TRAILER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRAILER_WHEEL_-0.25-0.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRAILER_WHEEL_-0.250.85",
+      "donor": "S5T__A03_TRAILER_WHEEL_-0.250.85",
+      "base_parent": "A03_TRAILER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRAILER_WHEEL_-0.250.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRAILER_WHEEL_0.25-0.85",
+      "donor": "S5T__A03_TRAILER_WHEEL_0.25-0.85",
+      "base_parent": "A03_TRAILER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRAILER_WHEEL_0.25-0.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "destination": "A03_TRAILER_WHEEL_0.250.85",
+      "donor": "S5T__A03_TRAILER_WHEEL_0.250.85",
+      "base_parent": "A03_TRAILER",
+      "base_rotation": "XYZ",
+      "donor_parent": "S5T__A03_TRAILER",
+      "donor_rotation": "XYZ",
+      "constraints": [],
+      "drivers": 0,
+      "nla": 0,
+      "treatment": "Existing object retained; evaluated world/quaternion bake for roots; selected route logic verified against donor evaluation. Static environment unchanged except separately approved bridge. Existing master camera independently connected; donor camera not copied.",
+      "asset_id": null,
+      "instance_id": null,
+      "action": "A03_TRAILER_WHEEL_0.250.85Action.001",
+      "action_users": 1,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "proxy_policy": {
+    "tandem_spacing": 1,
+    "door_height": 1.43,
+    "hinge_x": -1.65,
+    "bridge_width": 1.34,
+    "bridge_center_z": 1.88,
+    "approval": "Explicit user replies for hinge and bridge/lower-door repair; all static across timeline."
+  }
+}

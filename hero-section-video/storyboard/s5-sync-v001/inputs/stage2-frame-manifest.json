@@ -1,0 +1,159 @@
+{
+  "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+  "fps": 12,
+  "candidates": [
+    {
+      "label": "S5-01",
+      "frame": 672,
+      "master_time_seconds": 56.0,
+      "preview_time_seconds": 4.0,
+      "event": "부두 출발",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-01-f672.png",
+      "sha256": "d8ce2191366eec5c633786e6326cd16226bd411dfb086768bc1c3f24f7588e69"
+    },
+    {
+      "label": "S5-02",
+      "frame": 720,
+      "master_time_seconds": 60.0,
+      "preview_time_seconds": 8.0,
+      "event": "연결도로·목적지 접근 / 보호 경계",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-02-f720.png",
+      "sha256": "959f66ae886cb5ea401172ebecc01caaf57831815517ccca0de87fe9d350f346"
+    },
+    {
+      "label": "S5-03",
+      "frame": 766,
+      "master_time_seconds": 63.833333333333336,
+      "preview_time_seconds": 11.833333333333334,
+      "event": "선택된 전진 선회",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-03-f766.png",
+      "sha256": "34f69c904df36e0210f69f7ead4713a86b71b9ce491f59356515cd2139c444d6"
+    },
+    {
+      "label": "S5-03A",
+      "frame": 810,
+      "master_time_seconds": 67.5,
+      "preview_time_seconds": 15.5,
+      "event": "정렬·정지",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-03A-f810.png",
+      "sha256": "b6d2f42c6bd95933189bc8e0569385ba4cbcff68ed5e4f97838efc52d04d20f0"
+    },
+    {
+      "label": "S5-04",
+      "frame": 842,
+      "master_time_seconds": 70.16666666666667,
+      "preview_time_seconds": 18.166666666666668,
+      "event": "문 개방·고정 완료, 후진 전",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-04-f842.png",
+      "sha256": "5af4c1cd9397935d710cd9f17988d326e61e87f3565fc7e02753ce17b1b50b04"
+    },
+    {
+      "label": "S5-05",
+      "frame": 900,
+      "master_time_seconds": 75.0,
+      "preview_time_seconds": 23.0,
+      "event": "접안·정지, 입고 전",
+      "camera": "CAM_MASTER",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "file": "review/S5-05-f900.png",
+      "sha256": "9c8f1d70bcd43f2e16cd47307607d95e8bbee82880bc73e83b2d54ce0b62bef4"
+    }
+  ],
+  "selection": "③ final storyboard choice remains with user",
+  "boundaries": [
+    {
+      "label": "before",
+      "frame": 719,
+      "file": "review/boundary-before/0719.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "cc5dfa4bdcc1bae256ef2214ddf89173d5c024f88b4a6d68067db4d6170583ff"
+    },
+    {
+      "label": "before",
+      "frame": 720,
+      "file": "review/boundary-before/0720.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "1680d330f75de30fa0bcc78db27e4de8e365565c814c2d375ba68fb778edee57"
+    },
+    {
+      "label": "before",
+      "frame": 721,
+      "file": "review/boundary-before/0721.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "01b3e6ae08a26735c99fa1ff70d1e46ec6f05120aa6d8499a35936d0d2f899c5"
+    },
+    {
+      "label": "before",
+      "frame": 947,
+      "file": "review/boundary-before/0947.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "da1deaefd608b3ebcd541c8b6d86cfb00790fef6e40cc3eea2b0126be55611c2"
+    },
+    {
+      "label": "before",
+      "frame": 948,
+      "file": "review/boundary-before/0948.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "3d741625ad3646cc9987b233608b7d78b0126e4df270611bf5aa7aacb6e6a8c4"
+    },
+    {
+      "label": "before",
+      "frame": 949,
+      "file": "review/boundary-before/0949.png",
+      "blend_sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3",
+      "sha256": "3772732c39931461d9fcd9c36caedabee200103b04ae22c4f3a5f86bbbe25223"
+    },
+    {
+      "label": "after",
+      "frame": 719,
+      "file": "review/boundary-after/0719.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "b52c88e51965fad4fdafacb6415d281ae413931f699d70e6857e8fdf51ef6458"
+    },
+    {
+      "label": "after",
+      "frame": 720,
+      "file": "review/boundary-after/0720.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "515c4e861483d93ca9d317daddfa5d7e3238fdbd01ab0106f94db5ff9716a40b"
+    },
+    {
+      "label": "after",
+      "frame": 721,
+      "file": "review/boundary-after/0721.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "c493d08b19ed0017eb2768ff436cfa89469220939d75d1da1d51ddca77fc80a9"
+    },
+    {
+      "label": "after",
+      "frame": 947,
+      "file": "review/boundary-after/0947.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "f1e9ff42c10764213396c4477829db6d2ad6591af817bb79941bafe7e0dc92eb"
+    },
+    {
+      "label": "after",
+      "frame": 948,
+      "file": "review/boundary-after/0948.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "e4c5ab098175afe199edc6738eac0bd9262078e985887e504e71410655fe600c"
+    },
+    {
+      "label": "after",
+      "frame": 949,
+      "file": "review/boundary-after/0949.png",
+      "blend_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+      "sha256": "e0a8c3f5b660fa89a6d111c2f81514a0a3f792bf863c7bbc72f8b7cc25850902"
+    }
+  ]
+}

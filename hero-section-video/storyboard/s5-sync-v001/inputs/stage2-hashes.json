@@ -1,0 +1,22 @@
+{
+  "base": {
+    "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s4-s5-boundary-v001\\master-s4-s5-boundary-v001.blend",
+    "sha256": "603523d6b5a5ba97504990378e557e99171f1b381193f7760d25bd89f52aa1a3"
+  },
+  "donor": {
+    "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-dock-test-v001\\master-with-s5-test-v001.blend",
+    "sha256": "5b2565b642c7f646d8e08386ddcd6c4039df6755eb7bcc90dadf0e81d8115b16"
+  },
+  "outputs": {
+    "master-s5-integration-v001.blend": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+    "config.json": "2824c555615ec6598cd5b25b516dbccdeebb0caed0434e984f0d59d4714e1b64",
+    "preview/main.mp4": "4435de984c245d9ef1c9c0ca088c2c5d8f0e0e5dc237e81d5f866218a88830fd",
+    "preview/top.mp4": "c47a14431c1be6debd35773b046f0259a9bbf2de39462ac9a3b4be58c0742b10",
+    "review/S5-01-f672.png": "d8ce2191366eec5c633786e6326cd16226bd411dfb086768bc1c3f24f7588e69",
+    "review/S5-02-f720.png": "959f66ae886cb5ea401172ebecc01caaf57831815517ccca0de87fe9d350f346",
+    "review/S5-03-f766.png": "34f69c904df36e0210f69f7ead4713a86b71b9ce491f59356515cd2139c444d6",
+    "review/S5-03A-f810.png": "b6d2f42c6bd95933189bc8e0569385ba4cbcff68ed5e4f97838efc52d04d20f0",
+    "review/S5-04-f842.png": "5af4c1cd9397935d710cd9f17988d326e61e87f3565fc7e02753ce17b1b50b04",
+    "review/S5-05-f900.png": "9c8f1d70bcd43f2e16cd47307607d95e8bbee82880bc73e83b2d54ce0b62bef4"
+  }
+}

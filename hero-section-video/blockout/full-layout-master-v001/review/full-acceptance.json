@@ -1,0 +1,56 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\full-layout-master-v001\\master-full-layout-v001.blend",
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "checks": [
+    {
+      "name": "Full timeline 0-1392, no preview truncation",
+      "pass": true,
+      "detail": [
+        0,
+        1392,
+        false
+      ]
+    },
+    {
+      "name": "A04_PRIMARY S7 departure restored",
+      "pass": true,
+      "detail": 36.05552227669858
+    },
+    {
+      "name": "A05_SECONDARY S7 departure restored",
+      "pass": true,
+      "detail": 39.357339246802375
+    },
+    {
+      "name": "S6 pallet continues after948",
+      "pass": true,
+      "detail": 0.18135879724842327
+    },
+    {
+      "name": "Camera no jumps throughout film",
+      "pass": true,
+      "detail": {
+        "max_m_frame": 1.7054441325197323,
+        "max_deg_frame": 7.531936649368403,
+        "worst": [
+          412.0,
+          "position"
+        ]
+      }
+    },
+    {
+      "name": "Ship bow/stern contact ocean at new latitude",
+      "pass": true,
+      "detail": {
+        "keel_max": -0.48416038937261874,
+        "deck_min": 0.7990117222607864
+      }
+    },
+    {
+      "name": "Camera outside ocean",
+      "pass": true,
+      "detail": 4.931154731535912
+    }
+  ],
+  "pass": true
+}

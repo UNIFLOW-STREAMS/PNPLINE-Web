@@ -1,0 +1,272 @@
+[
+  {
+    "trial": 1,
+    "frame": 648,
+    "camera_us": [
+      20,
+      -22,
+      18
+    ],
+    "aim_us": [
+      13,
+      13,
+      2.5
+    ],
+    "lens": 29,
+    "actual_camera_matrix": [
+      [
+        0.8887079358100891,
+        0.3168467581272125,
+        0.33137047290802,
+        84.89982604980469
+      ],
+      [
+        0.1961161494255066,
+        0.39058563113212585,
+        -0.899433970451355,
+        -22.0
+      ],
+      [
+        -0.4144112765789032,
+        0.864321231842041,
+        0.2849777936935425,
+        134.74427795410156
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-1.png",
+    "sha256": "0a7c8451a217cd1ddc405e1ca26819d2c4ad1d734ce55e680ce95474936b4432",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  },
+  {
+    "trial": 2,
+    "frame": 648,
+    "camera_us": [
+      16,
+      -18,
+      16
+    ],
+    "aim_us": [
+      9,
+      12,
+      2.5
+    ],
+    "lens": 26,
+    "actual_camera_matrix": [
+      [
+        0.8825998902320862,
+        0.30442124605178833,
+        0.35825294256210327,
+        80.42935943603516
+      ],
+      [
+        0.22722963988780975,
+        0.3908791244029999,
+        -0.8919531106948853,
+        -18.0
+      ],
+      [
+        -0.41156306862831116,
+        0.8686434030532837,
+        0.2758163511753082,
+        134.62213134765625
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-2.png",
+    "sha256": "a5b2a0de25154e9f1909b5902bb3c12bf2ed68fee76d075c1170c13101b85b4f",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  },
+  {
+    "trial": 3,
+    "frame": 648,
+    "camera_us": [
+      20,
+      -15,
+      14
+    ],
+    "aim_us": [
+      11,
+      12,
+      2.5
+    ],
+    "lens": 24,
+    "actual_camera_matrix": [
+      [
+        0.8597990870475769,
+        0.28446704149246216,
+        0.4240565896034241,
+        83.20935821533203
+      ],
+      [
+        0.3162277638912201,
+        0.3554151952266693,
+        -0.8795908689498901,
+        -15.0
+      ],
+      [
+        -0.400930792093277,
+        0.8903698921203613,
+        0.21562929451465607,
+        131.11904907226562
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-3.png",
+    "sha256": "d74849be885e33424ba967e879f4570fe4e952b3b6fc024709652e84d3ec2bdb",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  },
+  {
+    "trial": 4,
+    "frame": 648,
+    "camera_us": [
+      24,
+      -18,
+      17
+    ],
+    "aim_us": [
+      14,
+      13,
+      2.5
+    ],
+    "lens": 26,
+    "actual_camera_matrix": [
+      [
+        0.8625409603118896,
+        0.272937536239624,
+        0.42606121301651,
+        88.1024398803711
+      ],
+      [
+        0.3070027828216553,
+        0.38704049587249756,
+        -0.8694531917572021,
+        -18.0
+      ],
+      [
+        -0.4022093415260315,
+        0.8807410001754761,
+        0.25004568696022034,
+        132.14749145507812
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-4.png",
+    "sha256": "3195019181329feb38839acd7c9670e63461c9f202fab3b6642d1c72d83b1908",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  },
+  {
+    "trial": 5,
+    "frame": 648,
+    "camera_us": [
+      14,
+      -14,
+      13
+    ],
+    "aim_us": [
+      8,
+      12,
+      2.5
+    ],
+    "lens": 26,
+    "actual_camera_matrix": [
+      [
+        0.8830983638763428,
+        0.31864264607429504,
+        0.34438958764076233,
+        77.34889221191406
+      ],
+      [
+        0.22485949099063873,
+        0.3567965030670166,
+        -0.9067163467407227,
+        -14.0
+      ],
+      [
+        -0.4117954969406128,
+        0.8781589865684509,
+        0.24343657493591309,
+        132.74844360351562
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-5.png",
+    "sha256": "fc3cb3f5b6d2499bb665307e6131167e08b045b8eeaa61ef2226bfd8e5f896fb",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  },
+  {
+    "trial": 6,
+    "frame": 648,
+    "camera_us": [
+      18,
+      -10,
+      12
+    ],
+    "aim_us": [
+      10,
+      13,
+      2.5
+    ],
+    "lens": 24,
+    "actual_camera_matrix": [
+      [
+        0.8560047745704651,
+        0.2855072319507599,
+        0.4309772849082947,
+        80.55150604248047
+      ],
+      [
+        0.32852065563201904,
+        0.34326881170272827,
+        -0.8799095749855042,
+        -10.0
+      ],
+      [
+        -0.39916160702705383,
+        0.8947917222976685,
+        0.20004472136497498,
+        130.1516571044922
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\s4-s5-recheck\\trials-seaward\\trial-6.png",
+    "sha256": "7258812d7383d89f032bf6f99f9e8366316808461bb9c0822b5c9f460f414668",
+    "purpose": "camera-only temporary proposal; not applied or saved"
+  }
+]

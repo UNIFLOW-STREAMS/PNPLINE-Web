@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "cargo_collision_errors": [],
+  "cargo_collision_count": 0,
+  "cargo_max_overlap_m": 7.778406143188477e-05,
+  "spreader_xy_max_error_m": 2.037394187937025e-05,
+  "camera_clearance_m": 2.4810719600387743,
+  "camera_clearance_at": [
+    607.0,
+    "P02_BOOM_-2"
+  ],
+  "range": [
+    216,
+    624
+  ],
+  "step": 0.25,
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544"
+}

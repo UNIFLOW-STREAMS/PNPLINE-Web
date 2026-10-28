@@ -1,0 +1,7 @@
+{
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "tests": 23,
+  "failures": [],
+  "errors": [],
+  "replaced_test": "Source hardcoded warehouse bounds replaced by validate_space.py actual geometry SAT; approved f648 hold allowed with tracking-resumption check."
+}

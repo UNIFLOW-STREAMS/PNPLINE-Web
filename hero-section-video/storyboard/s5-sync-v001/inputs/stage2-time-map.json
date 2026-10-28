@@ -1,0 +1,50 @@
+{
+  "fps": 12,
+  "F_lock": 720,
+  "F_rejoin": 948,
+  "delta_frames": 0,
+  "events": [
+    {
+      "donor_frame": 648,
+      "master_frame": 720,
+      "event": "H position; master already moving, donor stationary start not copied"
+    },
+    {
+      "donor_frame": 746,
+      "master_frame": 761.75,
+      "event": "B representative turn state",
+      "position_error_m": 0.007740325320114072
+    },
+    {
+      "donor_frame": 810,
+      "master_frame": 810,
+      "event": "aligned and stopped"
+    },
+    {
+      "donor_frame": 811,
+      "master_frame": 811,
+      "event": "doors start"
+    },
+    {
+      "donor_frame": 842,
+      "master_frame": 842,
+      "event": "doors fixed"
+    },
+    {
+      "donor_frame": 849,
+      "master_frame": 849,
+      "event": "reverse starts"
+    },
+    {
+      "donor_frame": 890,
+      "master_frame": 890,
+      "event": "docked"
+    },
+    {
+      "donor_frame": 900,
+      "master_frame": 900,
+      "event": "S5 end / S6 start"
+    }
+  ],
+  "approach_mapping": "Monotone quintic distance progress from current f720 velocity to selected route end f810; master starts already in motion. Donor time is not linearly copied. Spatial path and hitch geometry reused."
+}

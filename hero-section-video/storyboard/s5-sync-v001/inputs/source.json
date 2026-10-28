@@ -1,0 +1,11 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "snapshot": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\master\\source-current.blend",
+  "snapshot_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "committed_sha256": "cf4d9f15b989c1cfc450dc0ebae643743d72d8f412c560a7f7c8ac51bd38892b",
+  "git_head": "b56acf916901ce24be69686ef349ed61b437d608",
+  "git_status": " M hero-section-video/blockout/s4-s5-boundary-v001/master-s4-s5-boundary-v001.blend\n M hero-section-video/blockout/s5-integration-v001/master-s5-integration-v001.blend\n?? hero-section-video/blockout/plan/pnpline-stage2-s5-integration-codex-handoff-v01.md\n?? hero-section-video/blockout/plan/pnpline-stage3-s5-storyboard-sync-codex-handoff-v01.md\n?? hero-section-video/storyboard/s5-sync-v001/\n",
+  "model": "unconfirmed",
+  "reasoning_effort": "unconfirmed"
+}

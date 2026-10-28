@@ -1,0 +1,22 @@
+{
+  "pass_all": true,
+  "errors": [],
+  "pair_checks": 1650704,
+  "maximum_forbidden_overlap": 0.0,
+  "camera_min_clearance": 6.218435787261051,
+  "designated_contacts": [
+    {
+      "frame": 849.0,
+      "bridge_floor_overlap": 0.0
+    },
+    {
+      "frame": 890.0,
+      "bridge_floor_overlap": 0.07999038696289062
+    },
+    {
+      "frame": 900.0,
+      "bridge_floor_overlap": 0.07999038696289062
+    }
+  ],
+  "method": "Per-mesh convex vertex projections on OBB axes and cross-axes; box exact, wheels conservative. 0.25 frame full interval. Internal chassis/hitch/cargo construction contacts excluded; bridge-floor interface reported. No continuous-time or precise tyre dynamics claim."
+}

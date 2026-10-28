@@ -1,0 +1,14 @@
+{
+  "method": "Cua in-app browser native video playback; page DOM read after ended",
+  "url": "http://127.0.0.1:8767/layout-proposal-v001/review.html",
+  "src": "http://127.0.0.1:8767/layout-proposal-v001/preview.mp4",
+  "duration": 33.083333,
+  "current_time": 33.083333,
+  "ended": true,
+  "paused": true,
+  "playback_rate": 1,
+  "elapsed_s": 33.10860000000149,
+  "error": null,
+  "video_sha256": "0fcaab47431ec07851c137cfdd95c78a10df8978ed786252f008eda0bd618c5a",
+  "not_user_approval": true
+}

@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/full_master_final_review",
+  "mode": "fresh read-only final review",
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "critical": [],
+  "important": [],
+  "minor": [
+    {
+      "finding": "SAT validation is f720–948, not the whole film",
+      "resolution": "Report and validation manifest explicitly state the tested interval."
+    }
+  ],
+  "verified": [
+    "Direct Blender reopen: f0–1392, preview restriction off, 12fps, CAM_MASTER, 304 objects",
+    "S6 tail camera and both S7 outbound actors move",
+    "Source/proposal/master hashes match",
+    "All 1393 rendered PNG hashes and packaged video/contact hashes match",
+    "Build, preservation, handoff and regression code plus representative renders inspected"
+  ],
+  "known_visual_limitation": "Crane briefly occludes part of vehicle at f692–700; retained from adopted proposal.",
+  "pass": true
+}

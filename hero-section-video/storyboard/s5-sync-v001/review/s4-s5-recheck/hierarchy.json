@@ -1,0 +1,4258 @@
+[
+  {
+    "name": "EARTH_CONTINUOUS_OCEAN",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_LAND_TERRACE",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_LAND_TERRACE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_FRAME",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 142,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_FRAME",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 19,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_QUAY",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_YARD_STACK_0",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_YARD_STACK_1",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_YARD_STACK_2",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_YARD_STACK_3",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_YARD_ROAD",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_CITY_0",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_CITY_1",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_CITY_2",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_CITY_3",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CN_CITY_4",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_QUAY",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_YARD_STACK_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_YARD_STACK_1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_YARD_STACK_2",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_YARD_STACK_3",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_YARD_ROAD",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_CITY_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_CITY_1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_CITY_2",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_CITY_3",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "US_CITY_4",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_LEG_-25",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_LEG_-212",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_BOOM_-2",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_LEG_3.55",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_LEG_3.512",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_BOOM_3.5",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_LEG_-25",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_LEG_-212",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_BOOM_-2",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_LEG_3.55",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_LEG_3.512",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_BOOM_3.5",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E07_INBOUND_ROAD",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E11_ROUTE_1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E11_ROUTE_-1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E12_DESTINATION_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E12_DESTINATION_1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E12_DESTINATION_2",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E12_DESTINATION_3",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_WAIT_MERGE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A02_SHIP",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 17,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "SHIP_HULL",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "SHIP_DECK",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "SHIP_BRIDGE",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "SHIP_BRIDGE_GLASS",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_-2.6_-1.25",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_UPPER_-2.6_-1.25",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_-2.6_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_UPPER_-2.6_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_0.8_-1.25",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_0.8_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_UPPER_0.8_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_4.2_-1.25",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_UPPER_4.2_-1.25",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_DECK_4.2_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P03_UPPER_4.2_0.65",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "FX01_WAKE",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAKE_RIBBON_0",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAKE_RIBBON_1",
+    "type": "MESH",
+    "parent": "A02_SHIP",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_CONTAINER",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 17,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_FLOOR",
+    "type": "MESH",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_ROOF",
+    "type": "MESH",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_SIDE_L",
+    "type": "MESH",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_SIDE_R",
+    "type": "MESH",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_FRONT",
+    "type": "MESH",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PNPLINE_BRAND_SIDE_-0.776",
+    "type": "FONT",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PNPLINE_BRAND_SIDE_0.776",
+    "type": "FONT",
+    "parent": "A01_CONTAINER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_DOOR_L",
+    "type": "EMPTY",
+    "parent": "A01_CONTAINER",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_DOOR_R",
+    "type": "EMPTY",
+    "parent": "A01_CONTAINER",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A01_DOOR_LEFT_LEAF",
+    "type": "MESH",
+    "parent": "A01_DOOR_L",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      0.95333331823349
+    ]
+  },
+  {
+    "name": "A01_DOOR_RIGHT_LEAF",
+    "type": "MESH",
+    "parent": "A01_DOOR_R",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      0.95333331823349
+    ]
+  },
+  {
+    "name": "A03_TRAILER",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 7,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRACTOR",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 8,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRAILER_CHASSIS",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRAILER_COUPLING_TONGUE",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRAILER_HITCH",
+    "type": "EMPTY",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRACTOR_HITCH",
+    "type": "EMPTY",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRACTOR_CHASSIS",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TRACTOR_CAB",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      0.8366666436195374
+    ]
+  },
+  {
+    "name": "TRACTOR_GLASS",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRAILER_WHEEL_-0.25-0.85",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRAILER_WHEEL_-0.250.85",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRAILER_WHEEL_0.25-0.85",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRAILER_WHEEL_0.250.85",
+    "type": "MESH",
+    "parent": "A03_TRAILER",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRACTOR_WHEEL_0-0.85",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRACTOR_WHEEL_00.85",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRACTOR_WHEEL_1.65-0.85",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A03_TRACTOR_WHEEL_1.650.85",
+    "type": "MESH",
+    "parent": "A03_TRACTOR",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_SPREADER",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_SPREADER_FRAME",
+    "type": "MESH",
+    "parent": "P01_SPREADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P01_CABLE_0",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      2.609999656677246
+    ]
+  },
+  {
+    "name": "P01_CABLE_1",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      2.609999656677246
+    ]
+  },
+  {
+    "name": "P01_CABLE_2",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      2.609999656677246
+    ]
+  },
+  {
+    "name": "P01_CABLE_3",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      2.609999656677246
+    ]
+  },
+  {
+    "name": "P01_TROLLEY",
+    "type": "MESH",
+    "parent": "CN_FRAME",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_SPREADER",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_SPREADER_FRAME",
+    "type": "MESH",
+    "parent": "P02_SPREADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "P02_CABLE_0",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      3.1599998474121094
+    ]
+  },
+  {
+    "name": "P02_CABLE_1",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      3.1599998474121094
+    ]
+  },
+  {
+    "name": "P02_CABLE_2",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      3.1599998474121094
+    ]
+  },
+  {
+    "name": "P02_CABLE_3",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      3.1599998474121094
+    ]
+  },
+  {
+    "name": "P02_TROLLEY",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 16,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_FLOOR",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_CARGO_SHELL",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_CARGO_SHELL.001",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_CARGO_SHELL.002",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_CAB",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_GLASS",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_WHEEL-1.3-0.91",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_WHEEL-1.30.91",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_WHEEL1.5-0.91",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_WHEEL1.50.91",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_DOOR_L",
+    "type": "EMPTY",
+    "parent": "A04_PRIMARY",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_DOOR_R",
+    "type": "EMPTY",
+    "parent": "A04_PRIMARY",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_LEFT_LEAF",
+    "type": "MESH",
+    "parent": "A04_PRIMARY_DOOR_L",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_RIGHT_LEAF",
+    "type": "MESH",
+    "parent": "A04_PRIMARY_DOOR_R",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 16,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_FLOOR",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_CARGO_SHELL",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_CARGO_SHELL.001",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_CARGO_SHELL.002",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_CAB",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_GLASS",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_WHEEL-1.3-0.91",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_WHEEL-1.30.91",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_WHEEL1.5-0.91",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_WHEEL1.50.91",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_DOOR_L",
+    "type": "EMPTY",
+    "parent": "A05_SECONDARY",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_DOOR_R",
+    "type": "EMPTY",
+    "parent": "A05_SECONDARY",
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_LEFT_LEAF",
+    "type": "MESH",
+    "parent": "A05_SECONDARY_DOOR_L",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_RIGHT_LEAF",
+    "type": "MESH",
+    "parent": "A05_SECONDARY_DOOR_R",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E09_MANEUVER_YARD",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E08_WAREHOUSE",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 8,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_FLOOR",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_BACK_WALL",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_PARTIAL_ROOF",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_COLUMN_36",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_COLUMN_44",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_COLUMN_52",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_COLUMN_60",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "WAREHOUSE_COLUMN_68",
+    "type": "MESH",
+    "parent": "E08_WAREHOUSE",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "DOCK_TARGET",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "DOCK_BRIDGE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      0.9054054021835327,
+      1.0
+    ]
+  },
+  {
+    "name": "E10_OUTBOUND_YARD",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "E10_LOADING_BRIDGE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "INBOUND_WAIT_ZONE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "STORAGE_ZONE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PICKING_ZONE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACKING_ZONE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "OUTBOUND_WAIT_ZONE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_32.5_-1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_32.5_-1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_32.5_1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_32.5_1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_32.5_2.1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_32.5_3.65",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_32.5_5.25",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_36.5_-1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_36.5_-1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_36.5_1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_44_36.5_1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_36.5_2.1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_36.5_3.65",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_44_36.5_5.25",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_32.5_-1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_32.5_-1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_32.5_1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_32.5_1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_32.5_2.1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_32.5_3.65",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_32.5_5.25",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_36.5_-1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_36.5_-1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_36.5_1.4_-0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_POST_48_36.5_1.4_0.75",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_36.5_2.1",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_36.5_3.65",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_SHELF_48_36.5_5.25",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W04_PICK_BIN_SUPPORT",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W04_BIN_STAND_31.7",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W04_BIN_STAND_32.3",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W06_PACK_TABLE",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TABLE_LEG_55.8",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "TABLE_LEG_58.2",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_3.65_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_3.65_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_3.65_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_5.25_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_5.25_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_32.5_5.25_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_2.1_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_2.1_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_2.1_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_3.65_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_3.65_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_3.65_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_5.25_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_5.25_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_44_36.5_5.25_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_2.1_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_2.1_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_2.1_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_3.65_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_3.65_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_3.65_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_5.25_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_5.25_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_32.5_5.25_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_2.1_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_2.1_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_2.1_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_3.65_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_3.65_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_3.65_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_5.25_-0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_5.25_0",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "RACK_CARGO_48_36.5_5.25_0.85",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 5,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET_BASE",
+    "type": "MESH",
+    "parent": "W01_NEW_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET_BOX_-0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_NEW_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET_BOX_-0.270.22",
+    "type": "MESH",
+    "parent": "W01_NEW_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET_BOX_0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_NEW_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_NEW_PALLET_BOX_0.270.22",
+    "type": "MESH",
+    "parent": "W01_NEW_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 5,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET_BASE",
+    "type": "MESH",
+    "parent": "W01_STORED_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET_BOX_-0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_STORED_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET_BOX_-0.270.22",
+    "type": "MESH",
+    "parent": "W01_STORED_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET_BOX_0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_STORED_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_STORED_PALLET_BOX_0.270.22",
+    "type": "MESH",
+    "parent": "W01_STORED_PALLET",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO",
+    "type": "EMPTY",
+    "parent": "A01_CONTAINER",
+    "children": 5,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO_BASE",
+    "type": "MESH",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+    "type": "MESH",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+    "type": "MESH",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22",
+    "type": "MESH",
+    "parent": "W01_REMAINING_CONTAINER_CARGO",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_INBOUND_JACK",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 2,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_STORAGE_JACK",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 2,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_INBOUND_JACK_FORKS",
+    "type": "MESH",
+    "parent": "W02_INBOUND_JACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_INBOUND_JACK_HANDLE",
+    "type": "MESH",
+    "parent": "W02_INBOUND_JACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_STORAGE_JACK_FORKS",
+    "type": "MESH",
+    "parent": "W02_STORAGE_JACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W02_STORAGE_JACK_HANDLE",
+    "type": "MESH",
+    "parent": "W02_STORAGE_JACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 6,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 5,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART_TRAY",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART_CASTER-0.46-0.36",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART_CASTER-0.460.36",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART_CASTER0.46-0.36",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W05_PICK_CART_CASTER0.460.36",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART_TRAY",
+    "type": "MESH",
+    "parent": "W09_OUT_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART_CASTER-0.46-0.36",
+    "type": "MESH",
+    "parent": "W09_OUT_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART_CASTER-0.460.36",
+    "type": "MESH",
+    "parent": "W09_OUT_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART_CASTER0.46-0.36",
+    "type": "MESH",
+    "parent": "W09_OUT_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W09_OUT_CART_CASTER0.460.36",
+    "type": "MESH",
+    "parent": "W09_OUT_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W04_PICK_BIN_PRODUCT",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W04_CART_ORDER_ALREADY_PICKED",
+    "type": "MESH",
+    "parent": "W05_PICK_CART",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W07_OPEN_PACK",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 6,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_BOTTOM",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_WALL",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_WALL.001",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_WALL.002",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_WALL.003",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACK_BOX_CONTENT",
+    "type": "MESH",
+    "parent": "W07_OPEN_PACK",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W08_SEALED_READY",
+    "type": "MESH",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "W08_LAST_LOAD",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 1,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "LAST_BOX_BODY",
+    "type": "MESH",
+    "parent": "W08_LAST_LOAD",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PICKER",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 4,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PICKER_TORSO",
+    "type": "MESH",
+    "parent": "CH_PICKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PICKER_HEAD",
+    "type": "MESH",
+    "parent": "CH_PICKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PICKER_LEG-0.12",
+    "type": "MESH",
+    "parent": "CH_PICKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PICKER_LEG0.12",
+    "type": "MESH",
+    "parent": "CH_PICKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PACKER",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 4,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PACKER_TORSO",
+    "type": "MESH",
+    "parent": "CH_PACKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PACKER_HEAD",
+    "type": "MESH",
+    "parent": "CH_PACKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PACKER_LEG-0.12",
+    "type": "MESH",
+    "parent": "CH_PACKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_PACKER_LEG0.12",
+    "type": "MESH",
+    "parent": "CH_PACKER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOADER",
+    "type": "EMPTY",
+    "parent": "US_FRAME",
+    "children": 4,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOADER_TORSO",
+    "type": "MESH",
+    "parent": "CH_LOADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOADER_HEAD",
+    "type": "MESH",
+    "parent": "CH_LOADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOADER_LEG-0.12",
+    "type": "MESH",
+    "parent": "CH_LOADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOADER_LEG0.12",
+    "type": "MESH",
+    "parent": "CH_LOADER",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOAD_SUPPORT",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CH_LOAD_ARM_0",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      0.5408334136009216
+    ]
+  },
+  {
+    "name": "CH_LOAD_ARM_1",
+    "type": "MESH",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      0.5408334136009216
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_PRELOADED-0.8",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A04_PRIMARY_PRELOADED0.2",
+    "type": "MESH",
+    "parent": "A04_PRIMARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_PRELOADED-0.8",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "A05_SECONDARY_PRELOADED0.2",
+    "type": "MESH",
+    "parent": "A05_SECONDARY",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CAM_MASTER",
+    "type": "CAMERA",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": true,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CAM_LOOK_TARGET",
+    "type": "EMPTY",
+    "parent": null,
+    "children": 0,
+    "animated": true,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "INBOUND_WAIT_REVIEW_LABEL",
+    "type": "FONT",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "STORAGE_REVIEW_LABEL",
+    "type": "FONT",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PICKING_REVIEW_LABEL",
+    "type": "FONT",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "PACKING_REVIEW_LABEL",
+    "type": "FONT",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "OUTBOUND_WAIT_REVIEW_LABEL",
+    "type": "FONT",
+    "parent": "US_FRAME",
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "CAMERA_PATH",
+    "type": "CURVE",
+    "parent": null,
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "SHIP_ROUTE",
+    "type": "CURVE",
+    "parent": null,
+    "children": 0,
+    "animated": false,
+    "data_animated": false,
+    "constraints": [],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "fps": 12,
+  "fps_base": 1.0,
+  "preview_start": 624,
+  "time_origin": "master frame 0",
+  "baseline_adoption": "pending user review",
+  "panels": [
+    {
+      "id": "S5-01",
+      "frame": 672,
+      "subframe": 0,
+      "role": "부두 출발",
+      "action": "같은 적재 차량이 출발. 크레인·연결 도로·목적지 관계를 유지.",
+      "status": "candidate",
+      "master_seconds": 56.0,
+      "preview_seconds": 4.0,
+      "old_board": {
+        "frame": 672,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": null
+    },
+    {
+      "id": "S5-02",
+      "frame": 720,
+      "subframe": 0,
+      "role": "연결 도로 추적",
+      "action": "부두에서 멀어지고 같은 물류센터로 접근. 문은 닫힘.",
+      "status": "candidate",
+      "master_seconds": 60.0,
+      "preview_seconds": 8.0,
+      "old_board": {
+        "frame": 720,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": null
+    },
+    {
+      "id": "S5-03",
+      "frame": 732,
+      "subframe": 0,
+      "role": "입고 마당 접근",
+      "action": "본격 선회 직전. 마당과 도크, 방향을 바꿀 공간을 관찰.",
+      "status": "candidate",
+      "master_seconds": 61.0,
+      "preview_seconds": 9.0,
+      "old_board": {
+        "frame": 766,
+        "decision": "replace",
+        "reason": "Replace role mismatch; f810 retained only as stopped diagnostic"
+      },
+      "user_approval": null
+    },
+    {
+      "id": "S5-03A",
+      "frame": 766,
+      "subframe": 0,
+      "role": "마당 선회·정렬 중",
+      "action": "실제 전진 선회 중. 견인부와 트레일러의 자세가 계속 변함.",
+      "status": "candidate",
+      "master_seconds": 63.833333333333336,
+      "preview_seconds": 11.833333333333334,
+      "old_board": {
+        "frame": 810,
+        "decision": "replace",
+        "reason": "Replace role mismatch; f810 retained only as stopped diagnostic"
+      },
+      "user_approval": null
+    },
+    {
+      "id": "S5-04",
+      "frame": 842,
+      "subframe": 0,
+      "role": "후면 정렬·문 개방",
+      "action": "정지·문 개방 완료. 후진 전이며 도크까지 빈 간격이 남음.",
+      "status": "candidate",
+      "master_seconds": 70.16666666666667,
+      "preview_seconds": 18.166666666666668,
+      "old_board": {
+        "frame": 842,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": null
+    },
+    {
+      "id": "S5-05",
+      "frame": 900,
+      "subframe": 0,
+      "role": "도크 도착·창고로 시선 연결",
+      "action": "접안·정지. 문은 열리고 화물은 내부. 카메라는 입고 바닥으로 이동.",
+      "status": "candidate",
+      "master_seconds": 75.0,
+      "preview_seconds": 23.0,
+      "old_board": {
+        "frame": 900,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": null
+    }
+  ]
+}

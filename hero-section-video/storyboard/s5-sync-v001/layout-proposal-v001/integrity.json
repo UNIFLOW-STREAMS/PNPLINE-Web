@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "proposal_sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "original_preserved": true,
+  "vehicle_container_meshes_unchanged": 25,
+  "trajectory_time_samples": 1585,
+  "max_actor_relocation_error_m": 1.8785205463020523e-05,
+  "camera_min_clearance_crane_ship_vehicle_m": 1.6749652922153473,
+  "camera_clearance_at": [
+    694.75,
+    "P02_BOOM_-2"
+  ],
+  "max_camera_accel_m_per_frame2": 0.15994617594329963,
+  "max_camera_rotation_rad_per_quarter_frame": 0.020132436687256866,
+  "scope": "552-948; not a full master continuity claim"
+}

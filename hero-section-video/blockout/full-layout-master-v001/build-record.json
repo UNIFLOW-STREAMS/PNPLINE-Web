@@ -1,0 +1,62 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\master\\source-current.blend",
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "adopted_proposal": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\layout-proposal-v001\\s4-s5-layout-proposal-v001.blend",
+  "adopted_proposal_sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+  "master": "F:\\pnpline-landing\\hero-section-video\\blockout\\full-layout-master-v001\\master-full-layout-v001.blend",
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "builder_sha256": "98d64a3be82e245f7ffc82e37db2675349973458db1b07daafddbabe7ef24fc8",
+  "range": [
+    0,
+    1392
+  ],
+  "fps": 12,
+  "step": 0.25,
+  "us_geographic_transport": [
+    [
+      0.998517632484436,
+      -0.05433667078614235,
+      -0.0031789932399988174,
+      0.9780658483505249
+    ],
+    [
+      0.05433667078614235,
+      0.9917002320289612,
+      0.11652538925409317,
+      -17.850618362426758
+    ],
+    [
+      -0.0031789932399988174,
+      -0.11652538925409317,
+      0.9931825995445251,
+      2.0974748134613037
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "latitude_degrees": 7.38704843630169,
+  "source_markers": {
+    "S1": 0,
+    "B12": 96,
+    "S2": 96,
+    "B23": 216,
+    "S3": 216,
+    "B34": 456,
+    "S4": 456,
+    "B45": 648,
+    "S5": 648,
+    "B56": 900,
+    "S6": 900,
+    "B67": 1200,
+    "S7": 1200,
+    "DETAIL_DEFERRED_PICK_HAND": 1020,
+    "DETAIL_DEFERRED_PACK_FOLD_TAPE": 1090,
+    "DETAIL_DEFERRED_LOADING_HAND": 1158
+  },
+  "authorization": "User: 전체 마스터에 통합해라.",
+  "method": "Unchanged CN opening; spherical S3 latitude connection; approved proposal preserved in US coordinates; S6/S7 actor and camera continuation through1392."
+}

@@ -1,0 +1,15 @@
+{
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "video_sha256": "ec7c896f1f8fee8f2438a0b7b1976ead96e9b0a06a61b9d61443329d62d48dbb",
+  "method": "CUA browser click on full-speed playback button; read media element at start, mid-run and end",
+  "source": "http://127.0.0.1:8768/preview/full.mp4",
+  "current_time_s": 116.083333,
+  "duration_s": 116.083333,
+  "ended": true,
+  "paused_at_end": true,
+  "playback_rate": 1,
+  "elapsed_wall_seconds": 116.0858999999985,
+  "media_error": null,
+  "pass": true,
+  "observed_frames": "Mid-run driving view and final two-vehicle outbound view; representative renders inspected separately."
+}

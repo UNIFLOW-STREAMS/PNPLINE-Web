@@ -1,0 +1,20 @@
+{
+  "reviewer": "fresh-context /root/layout_proposal_final_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "proposal_sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+  "critical": [],
+  "important": [],
+  "minor_deferred": [
+    {
+      "finding": "Crane leg briefly crosses truck/container at f692\u2013700",
+      "evidence": [
+        "raw-24b13b88/0696.png",
+        "raw-24b13b88/0700.png"
+      ],
+      "disposition": "Disclosed for artistic review; no collision; optional visibility refinement after user feedback."
+    }
+  ],
+  "status_note": "Reviewer observed in-progress status fields; finalized below as part of normal delivery packaging.",
+  "coverage": "Metadata, scripts, source and proposal SHA, 397 PNG hashes/frame sequence, package hashes, reference/comparison/contact images and representative renders. Playback independently checked by parent."
+}

@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "master_sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "proposal_sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+  "opening_preservation": {
+    "range": [
+      0,
+      216
+    ],
+    "step": 0.25,
+    "objects": 71,
+    "matrix_lens_max_error": 3.0517578125e-05
+  },
+  "adopted_proposal_preservation": {
+    "range": [
+      552,
+      948
+    ],
+    "step": 0.25,
+    "objects": 273,
+    "space": "US_FRAME local, allowing the common spherical geographic placement",
+    "matrix_lens_max_error": 6.830692291259766e-05
+  },
+  "vehicle_container_meshes_equal": true,
+  "original_file_unchanged": true
+}

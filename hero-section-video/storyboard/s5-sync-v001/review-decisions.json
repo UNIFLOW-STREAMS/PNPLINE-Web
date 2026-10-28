@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "status": "historical Stage3 source; current master superseded by authorized full integration",
+    "user_approval": null
+  },
+  "frames": {
+    "status": "candidate",
+    "user_approval": null
+  },
+  "style": {
+    "status": "sample only",
+    "user_approval": null
+  },
+  "final_artistic_approval": null,
+  "initial_bundled_question": "superseded/held pending S4-05 baseline choice",
+  "reference_choice": {
+    "value": "기존 S4-05 콘티를 기준으로 연결 구도 재검토",
+    "source": "current user question reply",
+    "approval_time": "not provided; no tool timestamp substituted",
+    "approved_master_changes": true
+  },
+  "current_question": null,
+  "user_concerns": [
+    {
+      "source": "current conversation",
+      "text": "S4-05와 지금 제안한 S5-01이 일치하지 않는데 괜찮아?",
+      "finding": "Original-baseline finding: old S4-05 had ship left/warehouse right while original f648/f672 showed reversed screen relationships. Separate layout proposal now addresses this; no final artistic adoption inferred.",
+      "status": "layout proposal adopted and integrated into full master; historical finding retained"
+    }
+  ],
+  "previous_approvals_preserved": [
+    "Stage2 saved baseline adoption for Stage2 work",
+    "two hinges rearward 5cm",
+    "bridge width 1.34m and center Z1.88m",
+    "door lower edges raised7cm"
+  ],
+  "technical_validation_is_not_artistic_approval": true,
+  "layout_rework_authorization": {
+    "answer": "승인: 별도 배치·동선 재작업 제안본 작성",
+    "scope": "late S4 and S5 cameras including before720; ship/crane/vehicle relative layout and departure direction; road/warehouse approach; original preserved; final adoption separate",
+    "source": "actual user reply in current conversation"
+  },
+  "layout_proposal": {
+    "status": "adopted for full-master integration by explicit user instruction",
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\layout-proposal-v001\\s4-s5-layout-proposal-v001.blend",
+    "sha256": "c9efed5cabde76926b340732191ef8470986a5b36b2095f1a416f2064a2c4296",
+    "review_range": [
+      552,
+      948
+    ],
+    "user_final_approval": "전체 마스터에 통합해라."
+  },
+  "full_master_integration": {
+    "authorization": "전체 마스터에 통합해라.",
+    "source": "actual user message in current conversation",
+    "status": "complete",
+    "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\full-layout-master-v001\\master-full-layout-v001.blend",
+    "sha256": "194f9d5885efab2826fae8ba80c72313b08ffe9525a3f2d3d4edd78e3aeb0544",
+    "range": [
+      0,
+      1392
+    ]
+  }
+}
