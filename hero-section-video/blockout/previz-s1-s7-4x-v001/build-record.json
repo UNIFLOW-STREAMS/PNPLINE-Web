@@ -1,0 +1,12 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-motion-polish-v001\\master-motion-polish-A.blend",
+  "source_sha256": "c7ff4e0938804a7f5d5979a62423ac9eab666b6e9c6076934f9bf076398eb1b2",
+  "output": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-s1-s7-4x-v001\\master-previz-s1-s7-4x-v001.blend",
+  "blend_sha256": "7260c16fd4dd2cf25957ad211e2512a5f9fb0cd2415791040792d1bc9bf8f8a9",
+  "script_sha256": "9e9aa3a615987155b33bac4c47c3707497d4e0f1c3faeb0b47b959bfcaf40779",
+  "original_fps": 12,
+  "source_fps": 24,
+  "output_fps": 48,
+  "frame_count": 1393,
+  "duration": 29.020833333333332
+}
