@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+    "--background",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\tests\\guards.py",
+    "--"
+  ],
+  "exit_code": 1,
+  "seconds": 5.613175392150879
+}

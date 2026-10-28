@@ -1,0 +1,30 @@
+{
+  "objects": 449,
+  "structure_equal": true,
+  "names_equal": true,
+  "sampled_evaluation_equal": true,
+  "frames": [
+    0,
+    84,
+    96,
+    97,
+    97.25,
+    124,
+    144,
+    156,
+    170,
+    192,
+    214.75,
+    215,
+    216,
+    278,
+    330,
+    450,
+    456,
+    900,
+    1392
+  ],
+  "static_errors": [],
+  "original_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "reproduced_sha256": "5d4b055fe5b8eebac96ba1c041edf1834b1b13f03d150bf50eb4f26e31f23bf8"
+}

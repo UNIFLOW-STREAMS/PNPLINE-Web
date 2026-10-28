@@ -1,0 +1,51 @@
+{
+  "final_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "reproduced_sha256": "5d4b055fe5b8eebac96ba1c041edf1834b1b13f03d150bf50eb4f26e31f23bf8",
+  "rgb": {
+    "reopened": {
+      "frames": [
+        96,
+        144,
+        156,
+        170,
+        213,
+        214,
+        215,
+        216,
+        278,
+        456
+      ],
+      "different": []
+    },
+    "reproduced": {
+      "frames": [
+        96,
+        144,
+        156,
+        170,
+        213,
+        214,
+        215,
+        216,
+        278,
+        456
+      ],
+      "different": []
+    }
+  },
+  "commands": {
+    "fixed-build-2": 0,
+    "rotation-green-2": 0,
+    "fixed-preservation": 0,
+    "fixed-movie": 0,
+    "fixed-reproduce": 0,
+    "fixed-reproduce-compare": 0,
+    "fixed-reproduced-render": 0,
+    "fixed-reopened-render": 0,
+    "fixed-spatial": 0,
+    "fixed-guards": 0,
+    "fixed-features-2": 0,
+    "fixed-title-visibility": 0
+  },
+  "pass_all": true
+}

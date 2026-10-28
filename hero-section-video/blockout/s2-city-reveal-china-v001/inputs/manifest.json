@@ -1,0 +1,18 @@
+{
+  "base.blend": {
+    "sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+    "bytes": 3953854
+  },
+  "git-status-before.txt": {
+    "sha256": "e574684fe735350c0f009a606922a45f8684f8371abc1d8c04de466ea942be7b",
+    "bytes": 1253
+  },
+  "reference.png": {
+    "sha256": "857c767f34e8a06975aad8d33ca2f823c2a213397e2e09f906a08edfc0e55586",
+    "bytes": 5797316
+  },
+  "task-spec.md": {
+    "sha256": "8c71cf3fdfe31e2cbb60e8ad58cc9fd544ee3b1c6f6e8018baefaef69dc35069",
+    "bytes": 26990
+  }
+}

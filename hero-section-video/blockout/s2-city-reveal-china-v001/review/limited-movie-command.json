@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+    "--background",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\limited-s2-reveal.blend",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\..\\cn-city-proxy-v001\\scripts\\render.py",
+    "--",
+    "--output",
+    "F:/pnpline-landing/hero-section-video/blockout/s2-city-reveal-china-v001/preview/limited-frames",
+    "--frames",
+    "84:481"
+  ],
+  "exit_code": 0,
+  "seconds": 59.296159744262695
+}

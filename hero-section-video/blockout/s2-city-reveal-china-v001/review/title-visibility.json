@@ -1,0 +1,1064 @@
+{
+  "sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "sampled_frames": 1393,
+  "visible_polygon_samples": {
+    "0": {
+      "CHINA_0_C": 1,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "1": {
+      "CHINA_0_C": 1,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "2": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "3": {
+      "CHINA_0_C": 4,
+      "CHINA_1_H": 6,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "4": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "5": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "6": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "7": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "8": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 27,
+      "CHINA_3_N": 12
+    },
+    "9": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 6,
+      "CHINA_2_I": 29,
+      "CHINA_3_N": 12
+    },
+    "10": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 12
+    },
+    "11": {
+      "CHINA_0_C": 3,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 12
+    },
+    "12": {
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 12
+    },
+    "13": {
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 11
+    },
+    "14": {
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 11
+    },
+    "15": {
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "16": {
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "17": {
+      "CHINA_0_C": 2,
+      "CHINA_1_H": 8,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "18": {
+      "CHINA_0_C": 4,
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "19": {
+      "CHINA_0_C": 4,
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "20": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 8
+    },
+    "21": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 8
+    },
+    "22": {
+      "CHINA_0_C": 7,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "23": {
+      "CHINA_0_C": 8,
+      "CHINA_1_H": 11,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "24": {
+      "CHINA_0_C": 12,
+      "CHINA_1_H": 12,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "25": {
+      "CHINA_0_C": 15,
+      "CHINA_1_H": 12,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "26": {
+      "CHINA_0_C": 15,
+      "CHINA_1_H": 13,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "27": {
+      "CHINA_0_C": 16,
+      "CHINA_1_H": 13,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "28": {
+      "CHINA_0_C": 19,
+      "CHINA_1_H": 14,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 7
+    },
+    "29": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 15,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 8
+    },
+    "30": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 17,
+      "CHINA_2_I": 30,
+      "CHINA_3_N": 9
+    },
+    "31": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 17,
+      "CHINA_2_I": 28,
+      "CHINA_3_N": 10
+    },
+    "32": {
+      "CHINA_0_C": 21,
+      "CHINA_1_H": 16,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 8
+    },
+    "33": {
+      "CHINA_0_C": 21,
+      "CHINA_1_H": 11,
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 8
+    },
+    "34": {
+      "CHINA_0_C": 21,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 8
+    },
+    "35": {
+      "CHINA_0_C": 18,
+      "CHINA_1_H": 11,
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 8
+    },
+    "36": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 11,
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 8
+    },
+    "37": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 7
+    },
+    "38": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5
+    },
+    "39": {
+      "CHINA_0_C": 19,
+      "CHINA_1_H": 8,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5
+    },
+    "40": {
+      "CHINA_0_C": 18,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5
+    },
+    "41": {
+      "CHINA_0_C": 11,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5
+    },
+    "42": {
+      "CHINA_0_C": 11,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5
+    },
+    "43": {
+      "CHINA_0_C": 10,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 4
+    },
+    "44": {
+      "CHINA_0_C": 7,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 3
+    },
+    "45": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 7,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 1
+    },
+    "46": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 1
+    },
+    "47": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 1
+    },
+    "48": {
+      "CHINA_0_C": 6,
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 1
+    },
+    "49": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 1
+    },
+    "50": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 2,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "51": {
+      "CHINA_0_C": 5,
+      "CHINA_1_H": 1,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "52": {
+      "CHINA_0_C": 5,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "53": {
+      "CHINA_0_C": 4,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "54": {
+      "CHINA_0_C": 2,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "55": {
+      "CHINA_0_C": 2,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "56": {
+      "CHINA_0_C": 2,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1
+    },
+    "57": {
+      "CHINA_0_C": 1,
+      "CHINA_2_I": 2,
+      "CHINA_3_N": 1
+    },
+    "58": {
+      "CHINA_0_C": 1,
+      "CHINA_3_N": 1
+    },
+    "59": {
+      "CHINA_0_C": 1
+    },
+    "60": {
+      "CHINA_0_C": 1
+    },
+    "61": {
+      "CHINA_0_C": 2
+    },
+    "62": {
+      "CHINA_0_C": 2
+    },
+    "63": {
+      "CHINA_0_C": 2
+    },
+    "64": {
+      "CHINA_0_C": 2
+    },
+    "65": {
+      "CHINA_0_C": 2
+    },
+    "66": {
+      "CHINA_0_C": 2
+    },
+    "67": {
+      "CHINA_0_C": 2
+    },
+    "68": {
+      "CHINA_0_C": 2
+    },
+    "69": {
+      "CHINA_0_C": 2
+    },
+    "70": {
+      "CHINA_0_C": 2
+    },
+    "71": {
+      "CHINA_0_C": 3
+    },
+    "72": {
+      "CHINA_0_C": 4
+    },
+    "73": {
+      "CHINA_0_C": 4
+    },
+    "74": {
+      "CHINA_0_C": 3
+    },
+    "75": {
+      "CHINA_0_C": 3
+    },
+    "76": {
+      "CHINA_0_C": 3
+    },
+    "77": {
+      "CHINA_0_C": 3
+    },
+    "78": {
+      "CHINA_0_C": 3
+    },
+    "79": {
+      "CHINA_0_C": 3
+    },
+    "80": {
+      "CHINA_0_C": 3
+    },
+    "81": {
+      "CHINA_0_C": 3
+    },
+    "82": {
+      "CHINA_0_C": 3
+    },
+    "83": {
+      "CHINA_0_C": 3
+    },
+    "84": {
+      "CHINA_0_C": 1
+    },
+    "103": {
+      "CHINA_4_A": 2
+    },
+    "104": {
+      "CHINA_0_C": 1,
+      "CHINA_4_A": 2
+    },
+    "105": {
+      "CHINA_0_C": 1,
+      "CHINA_4_A": 2
+    },
+    "106": {
+      "CHINA_0_C": 2,
+      "CHINA_4_A": 2
+    },
+    "107": {
+      "CHINA_0_C": 3,
+      "CHINA_4_A": 2
+    },
+    "108": {
+      "CHINA_0_C": 3,
+      "CHINA_4_A": 1
+    },
+    "109": {
+      "CHINA_0_C": 4,
+      "CHINA_4_A": 4
+    },
+    "110": {
+      "CHINA_0_C": 3,
+      "CHINA_4_A": 5
+    },
+    "111": {
+      "CHINA_0_C": 4,
+      "CHINA_2_I": 2,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 6
+    },
+    "112": {
+      "CHINA_0_C": 6,
+      "CHINA_1_H": 2,
+      "CHINA_2_I": 3,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 6
+    },
+    "113": {
+      "CHINA_0_C": 6,
+      "CHINA_1_H": 2,
+      "CHINA_2_I": 1,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 6
+    },
+    "114": {
+      "CHINA_0_C": 11,
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 1,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 7
+    },
+    "115": {
+      "CHINA_0_C": 10,
+      "CHINA_1_H": 6,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 14
+    },
+    "116": {
+      "CHINA_0_C": 9,
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 5,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 17
+    },
+    "117": {
+      "CHINA_0_C": 10,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 6,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 19
+    },
+    "118": {
+      "CHINA_0_C": 10,
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 6,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 20
+    },
+    "119": {
+      "CHINA_0_C": 10,
+      "CHINA_1_H": 16,
+      "CHINA_2_I": 6,
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 18
+    },
+    "120": {
+      "CHINA_0_C": 11,
+      "CHINA_1_H": 17,
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 6,
+      "CHINA_4_A": 21
+    },
+    "121": {
+      "CHINA_0_C": 12,
+      "CHINA_1_H": 17,
+      "CHINA_2_I": 11,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 20
+    },
+    "122": {
+      "CHINA_0_C": 14,
+      "CHINA_1_H": 16,
+      "CHINA_2_I": 11,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 20
+    },
+    "123": {
+      "CHINA_0_C": 14,
+      "CHINA_1_H": 16,
+      "CHINA_2_I": 11,
+      "CHINA_3_N": 9,
+      "CHINA_4_A": 14
+    },
+    "124": {
+      "CHINA_0_C": 17,
+      "CHINA_1_H": 16,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 12,
+      "CHINA_4_A": 14
+    },
+    "125": {
+      "CHINA_0_C": 25,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 16
+    },
+    "126": {
+      "CHINA_0_C": 29,
+      "CHINA_1_H": 25,
+      "CHINA_2_I": 14,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 16
+    },
+    "127": {
+      "CHINA_0_C": 33,
+      "CHINA_1_H": 25,
+      "CHINA_2_I": 16,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 17
+    },
+    "128": {
+      "CHINA_0_C": 34,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 16,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 23
+    },
+    "129": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 23,
+      "CHINA_2_I": 16,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 24
+    },
+    "130": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 23,
+      "CHINA_2_I": 16,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 26
+    },
+    "131": {
+      "CHINA_0_C": 39,
+      "CHINA_1_H": 22,
+      "CHINA_2_I": 16,
+      "CHINA_3_N": 20,
+      "CHINA_4_A": 34
+    },
+    "132": {
+      "CHINA_0_C": 40,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "133": {
+      "CHINA_0_C": 41,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "134": {
+      "CHINA_0_C": 38,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 31
+    },
+    "135": {
+      "CHINA_0_C": 38,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 32
+    },
+    "136": {
+      "CHINA_0_C": 39,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 32
+    },
+    "137": {
+      "CHINA_0_C": 38,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 25,
+      "CHINA_4_A": 33
+    },
+    "138": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 33
+    },
+    "139": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 33
+    },
+    "140": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 33,
+      "CHINA_2_I": 37,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 34
+    },
+    "141": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 35,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 34
+    },
+    "142": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 35,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 33
+    },
+    "143": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 35,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "144": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 34,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "145": {
+      "CHINA_0_C": 37,
+      "CHINA_1_H": 35,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "146": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 36,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "147": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "148": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "149": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 32,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "150": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 32,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "151": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 32,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "152": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "153": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "154": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 31
+    },
+    "155": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "156": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 34,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 32
+    },
+    "157": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 34
+    },
+    "158": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "159": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "160": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "161": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "162": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 35
+    },
+    "163": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 35
+    },
+    "164": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 35
+    },
+    "165": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "166": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "167": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "168": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "169": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "170": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 35
+    },
+    "171": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 34
+    },
+    "172": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 33
+    },
+    "173": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 38,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 34
+    },
+    "174": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 34
+    },
+    "175": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 33
+    },
+    "176": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 32
+    },
+    "177": {
+      "CHINA_0_C": 36,
+      "CHINA_1_H": 37,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 26,
+      "CHINA_4_A": 30
+    },
+    "178": {
+      "CHINA_0_C": 33,
+      "CHINA_1_H": 36,
+      "CHINA_2_I": 33,
+      "CHINA_3_N": 27,
+      "CHINA_4_A": 29
+    },
+    "179": {
+      "CHINA_0_C": 27,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 13,
+      "CHINA_4_A": 26
+    },
+    "180": {
+      "CHINA_0_C": 20,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 11,
+      "CHINA_4_A": 18
+    },
+    "181": {
+      "CHINA_0_C": 19,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 16
+    },
+    "182": {
+      "CHINA_0_C": 15,
+      "CHINA_1_H": 25,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 16
+    },
+    "183": {
+      "CHINA_0_C": 11,
+      "CHINA_1_H": 24,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 16
+    },
+    "184": {
+      "CHINA_0_C": 9,
+      "CHINA_1_H": 23,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 18
+    },
+    "185": {
+      "CHINA_1_H": 18,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 19
+    },
+    "186": {
+      "CHINA_1_H": 17,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 19
+    },
+    "187": {
+      "CHINA_1_H": 15,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 10,
+      "CHINA_4_A": 19
+    },
+    "188": {
+      "CHINA_1_H": 10,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 9,
+      "CHINA_4_A": 14
+    },
+    "189": {
+      "CHINA_1_H": 9,
+      "CHINA_2_I": 13,
+      "CHINA_3_N": 6,
+      "CHINA_4_A": 11
+    },
+    "190": {
+      "CHINA_1_H": 5,
+      "CHINA_2_I": 10,
+      "CHINA_3_N": 3,
+      "CHINA_4_A": 11
+    },
+    "191": {
+      "CHINA_1_H": 4,
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 3,
+      "CHINA_4_A": 8
+    },
+    "192": {
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 3,
+      "CHINA_4_A": 8
+    },
+    "193": {
+      "CHINA_2_I": 9,
+      "CHINA_3_N": 4,
+      "CHINA_4_A": 6
+    },
+    "194": {
+      "CHINA_2_I": 8,
+      "CHINA_3_N": 5,
+      "CHINA_4_A": 8
+    },
+    "195": {
+      "CHINA_2_I": 6,
+      "CHINA_3_N": 4,
+      "CHINA_4_A": 8
+    },
+    "196": {
+      "CHINA_3_N": 3,
+      "CHINA_4_A": 5
+    },
+    "197": {
+      "CHINA_3_N": 3,
+      "CHINA_4_A": 5
+    },
+    "198": {
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 4
+    },
+    "199": {
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 4
+    },
+    "200": {
+      "CHINA_3_N": 1,
+      "CHINA_4_A": 3
+    },
+    "201": {
+      "CHINA_4_A": 2
+    },
+    "202": {
+      "CHINA_4_A": 2
+    },
+    "203": {
+      "CHINA_4_A": 1
+    }
+  },
+  "note": "Polygon-centre samples include side/back surfaces; counts do not equal readable words or screen area."
+}

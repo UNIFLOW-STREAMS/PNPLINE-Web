@@ -1,0 +1,46 @@
+{
+  "final_blend_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "video": "preview/final.mp4",
+  "browser": "Codex IAB",
+  "url": "http://127.0.0.1:8773/review.html",
+  "normal": {
+    "started_utc": "2026-10-28T09:34:47.024Z",
+    "ended_utc": "2026-10-28T09:35:20.122Z",
+    "rate": 1,
+    "played": [
+      [
+        0,
+        33.083333
+      ]
+    ],
+    "ended": true,
+    "error": null
+  },
+  "slow": {
+    "started_utc": "2026-10-28T09:37:16.729Z",
+    "ended_utc": "2026-10-28T09:38:15.353Z",
+    "rate": 0.5,
+    "start_video_seconds": 3.833333,
+    "end_video_seconds": 33.083333,
+    "ended": true,
+    "error": null
+  },
+  "seek": {
+    "order": [
+      216,
+      144,
+      170,
+      156
+    ],
+    "note": "Initial exact-boundary seek f170 reported169 due browser timestamp rounding. Seek changed to centre of target frame and rechecked separately.",
+    "corrected_f170": {
+      "time": 7.208333,
+      "reported_frame": 170,
+      "error": null,
+      "observed_utc": "2026-10-28T09:40:30.637Z"
+    }
+  },
+  "quality": "VideoPlaybackQuality serialized as {}; dropped frames not established.",
+  "observation": "Played ranges/end events read from visible DOM; screenshots and selected rendered frames inspected. Does not assert every video instant was visually observed.",
+  "video_sha256": "e46a7d0d42270bc5e11fb494f1f64460052fcc7a25fc8e383a0d579b178f68ba"
+}

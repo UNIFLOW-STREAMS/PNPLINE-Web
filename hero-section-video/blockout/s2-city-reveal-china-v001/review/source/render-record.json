@@ -1,0 +1,18 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\inputs\\base.blend",
+  "sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "width": 960,
+  "fps": 12,
+  "diagnostic": false,
+  "images": {
+    "96": "da06632a7808d2004f8c325bafae74bd54d7bb324c89f4daaf73c5910b4a825f",
+    "124": "27d172d3a49f9a12d7edc450f66fdbe3178361f630de27d02457567fbfbca569",
+    "148": "944952fca87e0dfa1c17dc79a1ac52988ab2ba2e73bf68a18ec9852eeb3c9d11",
+    "180": "86cfb9f27c08fd14b9b96450e96c355338c984638403f8df7427283cef311889",
+    "216": "8d18da4fb2f1c6652c599a909ea7602927f030224c1abcd9f23e288977f19424",
+    "278": "beec8af6f432ddb1e12e45b5a8b624b711dc3fd9bc4944d5cbff1ef5e9034bd8",
+    "330": "3a4ebb548662d384e86687b6797760d8f01d5acefd2ddb6a013c8fa3cb0f3cdf",
+    "450": "acd4614a8249ebb033f43a05c38dee455c1c36b4a6b6236166330969cc44aff8",
+    "456": "42baa1f76ea4a211cb462249a50e00e3a9d9e1a6739a6c1c28d26cd2f28bcf8e"
+  }
+}

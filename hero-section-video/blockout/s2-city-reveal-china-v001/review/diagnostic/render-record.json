@@ -1,0 +1,12 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+  "sha256": "3326ff6e0d11bb43ecc438724a990c2b698d491a82f8a244120b49602464ee8a",
+  "width": 960,
+  "fps": 12,
+  "diagnostic": true,
+  "images": {
+    "overview": "b8504d9792dc3c1cc87aa25e00b7cbbaec94e427e7519c04b3d933ff9cedcc4d",
+    "top": "ee2dd229349d089d6a2c6c0def3df5e8ad16c6e6b15422ff56283c696ed74eb6",
+    "shore": "7fd65ba64fc6a2f4d547143aecec5c66f826d0ad76051f6b7704303f78f07419"
+  }
+}

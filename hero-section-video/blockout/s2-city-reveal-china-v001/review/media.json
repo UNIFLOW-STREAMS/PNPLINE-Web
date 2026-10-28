@@ -1,0 +1,166 @@
+[
+  {
+    "name": "source",
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\source-frames\\%04d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\source.mp4"
+    ],
+    "exit_code": 0,
+    "decode_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "33.083333",
+          "nb_frames": "397"
+        }
+      ]
+    },
+    "sha256": "cfa07e02d9da674ae85e4c42c4e0942e76201281bb9778b51d5f36bf30c37ff8"
+  },
+  {
+    "name": "titlebase",
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\titlebase-frames\\%04d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\titlebase.mp4"
+    ],
+    "exit_code": 0,
+    "decode_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "33.083333",
+          "nb_frames": "397"
+        }
+      ]
+    },
+    "sha256": "3c89930bc8a60a27c0b7fee988df9bd1020ed7590c8b6b708a182e8fc50d602d"
+  },
+  {
+    "name": "limited",
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\limited-frames\\%04d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\limited.mp4"
+    ],
+    "exit_code": 0,
+    "decode_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "33.083333",
+          "nb_frames": "397"
+        }
+      ]
+    },
+    "sha256": "47ff08dac237a9380254ea22e3f92d333db017e636fb9959a1a3a56f94fdf33f"
+  },
+  {
+    "name": "final",
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\final-frames\\%04d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\preview\\final.mp4"
+    ],
+    "exit_code": 0,
+    "decode_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "12/1",
+          "duration": "33.083333",
+          "nb_frames": "397"
+        }
+      ]
+    },
+    "sha256": "e46a7d0d42270bc5e11fb494f1f64460052fcc7a25fc8e383a0d579b178f68ba"
+  }
+]

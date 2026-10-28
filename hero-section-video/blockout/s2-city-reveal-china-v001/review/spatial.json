@@ -1,0 +1,61 @@
+{
+  "sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "quarter_samples": 5569,
+  "camera_test_frames": [
+    97,
+    216
+  ],
+  "camera_surface_hits": [],
+  "camera_inside_candidates": [],
+  "closest_surface_in_broadphase_m": 7.018978595733643,
+  "title_original_intersections": [],
+  "foundation_support": [
+    {
+      "object": "CHINA_base_0",
+      "corner_surface_errors_m": [
+        1.9073486328125e-05,
+        7.62939453125e-06,
+        7.62939453125e-06,
+        7.62939453125e-06
+      ]
+    },
+    {
+      "object": "CHINA_base_1",
+      "corner_surface_errors_m": [
+        0.0,
+        7.62939453125e-06,
+        1.0789593218788873e-05,
+        8.529922399520072e-06
+      ]
+    },
+    {
+      "object": "CHINA_base_2",
+      "corner_surface_errors_m": [
+        8.529922399520072e-06,
+        3.814697265625e-06,
+        3.814697265625e-06,
+        0.0
+      ]
+    },
+    {
+      "object": "CHINA_base_3",
+      "corner_surface_errors_m": [
+        7.62939453125e-06,
+        1.0789593218788873e-05,
+        0.0,
+        7.62939453125e-06
+      ]
+    },
+    {
+      "object": "CHINA_base_4",
+      "corner_surface_errors_m": [
+        0.0,
+        0.0,
+        7.62939453125e-06,
+        1.0789593218788873e-05
+      ]
+    }
+  ],
+  "method": "world-space mesh BVH; .12m camera clearance, .5m broadphase. 0.25-frame samples; finite-sample test, not continuous proof. Plinth/terrain intended support contact excepted.",
+  "pass_all": true
+}

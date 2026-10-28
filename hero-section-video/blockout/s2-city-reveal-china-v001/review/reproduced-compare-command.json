@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+    "--background",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\review\\reproduced.blend",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\scripts\\reproduce_compare.py",
+    "--"
+  ],
+  "exit_code": 0,
+  "seconds": 18.2190203666687
+}

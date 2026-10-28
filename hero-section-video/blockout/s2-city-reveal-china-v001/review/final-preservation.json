@@ -1,0 +1,51 @@
+{
+  "original_count": 438,
+  "protected_non_camera": 436,
+  "frame_step": 0.25,
+  "samples": 5569,
+  "data_differences": [],
+  "non_camera_pose_failures": 0,
+  "protected_camera_key_signature_equal": true,
+  "outside_camera_equal": true,
+  "city_static_errors": [],
+  "title_static_error_frames": [],
+  "changed_camera_frames": [
+    97.25,
+    214.75
+  ],
+  "boundary": {
+    "96": {
+      "max_pose_delta": 0.0,
+      "velocity_delta": 0.0
+    },
+    "97": {
+      "max_pose_delta": 0.0,
+      "velocity_delta": 0.021520614624023438
+    },
+    "215": {
+      "max_pose_delta": 0.0,
+      "velocity_delta": 0.017702102661132812
+    },
+    "216": {
+      "max_pose_delta": 0.0,
+      "velocity_delta": 0.0
+    }
+  },
+  "added": [
+    "CHINA_0_C",
+    "CHINA_1_H",
+    "CHINA_2_I",
+    "CHINA_3_N",
+    "CHINA_4_A",
+    "CHINA_base_0",
+    "CHINA_base_1",
+    "CHINA_base_2",
+    "CHINA_base_3",
+    "CHINA_base_4",
+    "S2_CHINA_ROOT"
+  ],
+  "unowned": [],
+  "base_sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "candidate_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "pass_all": true
+}

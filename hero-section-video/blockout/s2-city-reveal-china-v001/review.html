@@ -1,0 +1,14 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>S2 도시와 CHINA 공개 검토</title>
+<style>body{background:#152129;color:#edf0f1;font:16px system-ui;margin:24px}h1{font-size:26px}video{width:100%;background:#111}section{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}button{padding:10px;margin:5px;cursor:pointer}img{width:min(100%,960px)}a{color:#70d5ee}pre{white-space:pre-wrap}</style>
+<h1>S2 도시와 CHINA 공개 — 경계 유지 결과본</h1><p>원본 12fps · f84–480 · 33.083초. CHINA 배치는 두 비교본에서 동일합니다. 결과 SHA256: b043cfbb…f18132d2. 공동 공개 f144–170.</p>
+<section><div>① 원본<video id="source" src="preview/source.mp4" controls muted></video></div><div>② 같은 문자 + 기존 카메라<video id="titlebase" src="preview/titlebase.mp4" controls muted></video></div><div>③ 같은 문자 + 수정 카메라<video id="result" src="preview/final.mp4?v=b043cfbb" controls muted></video></div></section>
+<p><button onclick="play(1,0)">정상 1× 처음부터</button><button onclick="play(.5,(130-84)/12)">느린 0.5× f130부터</button><button onclick="stop()">정지</button>
+<button onclick="seek(144)">f144</button><button onclick="seek(156)">f156</button><button onclick="seek(170)">f170</button><button onclick="seek(192)">f192</button><button onclick="seek(216)">f216</button><button onclick="seek(278)">f278</button></p>
+<pre id="audit"></pre><h2>연속 프레임</h2><img src="review/sequence.png"><p><a href="report.md">판정 보고서</a></p>
+<script>const videos=[...document.querySelectorAll('video')],v=document.getElementById('result'),audit=document.getElementById('audit');let history=[];
+function record(action){history.push({action,time:v.currentTime,rate:v.playbackRate,at:new Date().toISOString()});update()}
+function play(rate,time){for(const x of videos){x.playbackRate=rate;x.currentTime=time;x.play()}record('play')}
+function stop(){for(const x of videos)x.pause();record('pause')}
+function seek(frame){stop();for(const x of videos)x.currentTime=(frame-84+.5)/12;record('seek '+frame)}
+function update(){audit.textContent=JSON.stringify({history,currentTime:v.currentTime,frame:84+Math.floor(v.currentTime*12),rate:v.playbackRate,ended:v.ended,paused:v.paused,error:v.error,played:Array.from({length:v.played.length},(_,i)=>[v.played.start(i),v.played.end(i)]),quality:v.getVideoPlaybackQuality()},null,2)}
+v.addEventListener('ended',()=>record('ended'));setInterval(update,500);</script></html>
