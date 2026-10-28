@@ -1,0 +1,63 @@
+{
+  "status": "crane geometry and approved S1 motion integrated",
+  "hashes": {
+    "review/layout-proposal-v021.blend": "86c5c8361087248eb4ea4f840efe6483fb0370d8a27365d9aa1abd4c9740ee3d",
+    "review/crane-style-proposal-v019.blend": "cb12a10f6b95052fe0816f6b9ce2933062f0c4f98a58349c04dc2fa780e8de91",
+    "review/crane-detail-v021.png": "2e32222bc30c08060ad669a050ec542e1d0ff3dd15ac8d3fab3e18983d440b0c",
+    "review/crane-motion-v021/f0156.png": "695001dff5c910141e82b02c4980977e8896d65082d87b6fa216e1ac528c0e82",
+    "preview/crane-motion-v021.mp4": "89e17e402c572486475595a4719de59222f338315a6c5502c235a63041a7d3a5"
+  },
+  "motion": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v021.blend",
+    "sha256": "c7015c3eea6eff1bbbceba1e228164d4a780fd37ba7ab7c2addd8501a71edae1",
+    "checks": {
+      "landing_pose_and_voyage_f72_onward_preserved": true,
+      "camera_f72_onward_preserved": true,
+      "only_authorized_original_actions_changed": true,
+      "spreader_contacts_container_at_f72": true,
+      "cable_endpoints_connected": true,
+      "positive_hoist_clearance": true,
+      "released_spreader_clears_architecture": true,
+      "S1_camera_outside_architecture": true
+    },
+    "preserved_matrix_max_error": {
+      "A01_CONTAINER": 0.0,
+      "A02_SHIP": 0.0,
+      "CAM_MASTER": 0.0,
+      "CAM_LOOK_TARGET": 0.0
+    },
+    "unexpected_action_changes": [],
+    "original_actions": 48,
+    "new_actions": 19,
+    "landing_frame": 72,
+    "landing_gap": 0.8900089263916016,
+    "max_cable_endpoint_error": 3.5635403426234015e-05,
+    "minimum_rope_length": 0.1999893152094831,
+    "max_half_frame_spreader_step": 0.13136113750838352,
+    "rope_errors": [],
+    "architectural_overlaps": [],
+    "camera_inside_buildings": [],
+    "sample_scope": "f0..156 half-frame mechanical/architectural checks; all integer frames f72..1392 protected actor and camera comparisons. Not a continuous-time physics proof."
+  },
+  "scope": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v021.blend",
+    "original_noncrane_objects": 7001,
+    "changed_noncrane_geometry_transforms_at_f156": [],
+    "passed": true
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "12/1",
+        "nb_frames": "217"
+      }
+    ],
+    "format": {
+      "duration": "18.083333"
+    }
+  }
+}

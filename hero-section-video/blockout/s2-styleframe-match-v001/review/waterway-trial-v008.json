@@ -1,0 +1,15 @@
+{
+  "rightmost_water_x": 11.963294982910156,
+  "right_bend_min_width": 1.843550283315809,
+  "letter_foot_samples_in_water": {
+    "N": 16,
+    "A": 8
+  },
+  "edge_seam_error": 0.0,
+  "tests": {
+    "extends_toward_na": true,
+    "bend_remains_wide": false,
+    "seamless": true,
+    "no_new_letter_foot_flooding": false
+  }
+}

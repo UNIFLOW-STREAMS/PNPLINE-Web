@@ -1,0 +1,30 @@
+{
+  "tests": 6,
+  "failures": [
+    [
+      "test_domes_are_raised_over_windowed_drums (__main__.DistrictTests.test_domes_are_raised_over_windowed_drums)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 12, in test_domes_are_raised_over_windowed_drums\n    dome=s.objects.get('DT_'+name+'_DOME');self.assertIsNotNone(dome)\n                                           ~~~~~~~~~~~~~~~~~~~~^^^^^^\nAssertionError: unexpectedly None\n"
+    ],
+    [
+      "test_garden_has_layered_vegetation_and_paths (__main__.DistrictTests.test_garden_has_layered_vegetation_and_paths)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 16, in test_garden_has_layered_vegetation_and_paths\n    self.assertGreaterEqual(len([o for o in s.objects if o.name.startswith('DT_TREE_TRUNK')]),14)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0 not greater than or equal to 14\n"
+    ],
+    [
+      "test_new_district_is_static (__main__.DistrictTests.test_new_district_is_static)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 28, in test_new_district_is_static\n    self.assertTrue(objects)\n    ~~~~~~~~~~~~~~~^^^^^^^^^\nAssertionError: [] is not true\n"
+    ],
+    [
+      "test_pavilion_has_radial_roof_and_eight_columns (__main__.DistrictTests.test_pavilion_has_radial_roof_and_eight_columns)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 7, in test_pavilion_has_radial_roof_and_eight_columns\n    roof=s.objects.get('DT_PAVILION_ROOF_UPPER');self.assertIsNotNone(roof)\n                                                 ~~~~~~~~~~~~~~~~~~~~^^^^^^\nAssertionError: unexpectedly None\n"
+    ],
+    [
+      "test_street_trucks_have_separate_cab_and_load (__main__.DistrictTests.test_street_trucks_have_separate_cab_and_load)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 24, in test_street_trucks_have_separate_cab_and_load\n    self.assertIsNotNone(s.objects.get(f'DT_TRUCK_{n}_CAB'))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None\n"
+    ],
+    [
+      "test_traditional_foreground_has_two_eaves (__main__.DistrictTests.test_traditional_foreground_has_two_eaves)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 20, in test_traditional_foreground_has_two_eaves\n    self.assertIsNotNone(s.objects.get('DT_TRADITIONAL_LOWER_ROOF'))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None\n"
+    ]
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "head": "2426c437c105ceb32c34c32edded828a471c1ac1",
+  "source": "../s2-city-reveal-china-v001/master-s2-city-reveal-china-v001.blend",
+  "source_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "reference_sha256": "f6aace142f0a3473b57e8408b22e316292d0734c25566a26b9bfbea877584aff",
+  "gui": {
+    "window": 593466,
+    "unsaved_marker": true,
+    "saved_or_closed": false,
+    "contents_compared": false
+  },
+  "model": "unknown",
+  "reasoning_effort": "unknown",
+  "blender": "5.1.0 adfe2921d5f3",
+  "isolation": "new output directory, immutable copied input; no branch mutation",
+  "git_status": "git-status-before.txt"
+}

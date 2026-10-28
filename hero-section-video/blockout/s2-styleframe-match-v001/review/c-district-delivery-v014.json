@@ -1,0 +1,23 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v014.blend",
+  "sha256": "2c805954a9d951dd26636dfb9f90bd0362faf13d14f080fee80a142d6e973a95",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v011.blend",
+  "new_objects": 1803,
+  "trees": 16,
+  "shrubs": 71,
+  "tests": {
+    "tests": 6,
+    "failures": [],
+    "errors": []
+  },
+  "scope": {
+    "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v014.blend",
+    "original_objects_checked": 2623,
+    "changed_objects": [],
+    "permitted_visibility_replacements": 562,
+    "all_actions_equal": true,
+    "actions_checked": 48,
+    "unsupported_vehicle_wheels_or_paths": [],
+    "known_limitations": "Existing global camera/whole-scene issues remain outside this district revision."
+  }
+}

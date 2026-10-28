@@ -1,0 +1,92 @@
+[
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/inputs/base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\scripts\\inspect_scene.py"
+    ],
+    "exit_code": 0,
+    "log": "review/inspect.log"
+  },
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/inputs/base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\scripts\\probe_constraints.py"
+    ],
+    "exit_code": 0,
+    "log": "review/probe.log"
+  },
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/inputs/base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\scripts\\baseline_tests.py"
+    ],
+    "exit_code": 0,
+    "log": "review/baseline-tests.log"
+  },
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/inputs/base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\locked_feasibility.py"
+    ],
+    "exit_code": 1,
+    "log": "review/locked-feasibility.log"
+  },
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/inputs/base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:/pnpline-landing/hero-section-video/blockout/cn-city-proxy-v001/scripts/render.py",
+      "--",
+      "--output",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/review/baseline-frames",
+      "--frames",
+      "0,48,72,96,124,144,156,170,180,216,278,330,450,456,532,632",
+      "--width",
+      "960"
+    ],
+    "exit_code": 0,
+    "log": "review/baseline-render.log"
+  },
+  {
+    "argv": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:/pnpline-landing/hero-section-video/blockout/s2-styleframe-match-v001/scripts/constraint_trials.py"
+    ],
+    "exit_code": 0,
+    "log": "review/trial.log"
+  }
+]

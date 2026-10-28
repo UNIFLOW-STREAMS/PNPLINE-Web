@@ -1,0 +1,29 @@
+ M hero-section-video/blockout/cn-city-proxy-v001/master-cn-city-proxy-v001.blend
+ M hero-section-video/blockout/s4-s5-boundary-v001/master-s4-s5-boundary-v001.blend
+ M hero-section-video/blockout/s5-integration-v001/master-s5-integration-v001.blend
+?? concep-design/hero-section/china-beijng-miniature.png
+?? concep-design/hero-section/china-guangzhou-miniature.png
+?? concep-design/hero-section/china-shanghai-miniature.png
+?? concep-design/hero-section/usa-miniature.png
+?? hero-section-video/blockout/cn-city-proxy-v001/preview/after-frames/
+?? hero-section-video/blockout/full-layout-master-v001/
+?? hero-section-video/blockout/plan/CHECKSUMS.json
+?? hero-section-video/blockout/plan/INPUT-MANIFEST.json
+?? hero-section-video/blockout/plan/README.md
+?? hero-section-video/blockout/plan/SOURCES.md
+?? hero-section-video/blockout/plan/TASK.md
+?? hero-section-video/blockout/plan/pnpline-s2-styleframe-locked-handoff-v0.2/
+?? hero-section-video/blockout/plan/pnpline-s2-styleframe-locked-previz-codex-v0.2.md
+?? hero-section-video/blockout/plan/pnpline-stage2-s5-integration-codex-handoff-v01.md
+?? hero-section-video/blockout/plan/pnpline-stage3-s5-storyboard-sync-codex-handoff-v01.md
+?? hero-section-video/blockout/plan/references/
+?? hero-section-video/blockout/previz-motion-polish-v001/
+?? hero-section-video/blockout/previz-s1-s7-2x-v001/frames/
+?? hero-section-video/blockout/previz-s1-s7-3p5x-v001/
+?? hero-section-video/blockout/previz-s1-s7-4x-v001/
+?? hero-section-video/blockout/s2-city-reveal-china-v001/preview/
+?? hero-section-video/blockout/s2-styleframe-match-v001/
+?? hero-section-video/blockout/s2-styleframe-source-v001/verification/
+?? hero-section-video/storyboard/s5-sync-v001/
+?? hero-section-video/storyboard/s5-sync-v002/
+?? hero-section-video/styleframe/

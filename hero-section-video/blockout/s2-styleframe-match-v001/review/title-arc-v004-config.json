@@ -1,0 +1,19 @@
+{
+  "radius": 38.0,
+  "midpoint": [
+    -4.0,
+    29.0
+  ],
+  "yaw_degrees": -18.0,
+  "height": 13.5,
+  "gap": 0.5,
+  "widths": [
+    8.85,
+    8.86,
+    4.17,
+    9.93,
+    8.21
+  ],
+  "right_cloud_scale": 0.74,
+  "note": "User correction: one continuous city-wrapping arc, no detached A; larger right cloud. Radius is a scene-design parameter, not a measured real dimension."
+}

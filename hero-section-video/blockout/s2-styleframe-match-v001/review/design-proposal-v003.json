@@ -1,0 +1,11 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v003.blend",
+  "sha256": "46ca35137ac0d6afa3af5c9722c8b7ffa32d06c1b0ad39ef81e83192f54f80b6",
+  "engine": "Cycles CPU",
+  "samples": 24,
+  "frame": 156,
+  "camera": "CAM_MASTER",
+  "lens": 40.0,
+  "color": "AgX",
+  "purpose": "design proposal render, not accepted final"
+}

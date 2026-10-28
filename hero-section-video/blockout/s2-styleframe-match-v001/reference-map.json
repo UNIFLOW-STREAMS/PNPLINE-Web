@@ -1,0 +1,786 @@
+{
+  "reference_sha256": "f6aace142f0a3473b57e8408b22e316292d0734c25566a26b9bfbea877584aff",
+  "dimensions": [
+    2048,
+    1156
+  ],
+  "coordinates": "top-left origin, normalized x/2048,y/1156; bounds x0,y0,x1,y1",
+  "measurement": "manual reading of original source; approximate visible boundaries +/-5px; no post-failure tolerance widening",
+  "important": "correspondences and screen boxes are diagnostic; NOT a similarity score or final art acceptance",
+  "features": {
+    "C": {
+      "bounds": [
+        382,
+        222,
+        659,
+        580
+      ],
+      "normalized_bounds": [
+        0.1865234375,
+        0.19204152249134948,
+        0.32177734375,
+        0.5017301038062284
+      ]
+    },
+    "H": {
+      "bounds": [
+        655,
+        169,
+        919,
+        535
+      ],
+      "normalized_bounds": [
+        0.31982421875,
+        0.14619377162629757,
+        0.44873046875,
+        0.46280276816608995
+      ]
+    },
+    "I": {
+      "bounds": [
+        954,
+        166,
+        1069,
+        445
+      ],
+      "normalized_bounds": [
+        0.4658203125,
+        0.14359861591695502,
+        0.52197265625,
+        0.38494809688581316
+      ]
+    },
+    "N": {
+      "bounds": [
+        1104,
+        182,
+        1374,
+        537
+      ],
+      "normalized_bounds": [
+        0.5390625,
+        0.157439446366782,
+        0.6708984375,
+        0.46453287197231835
+      ]
+    },
+    "A": {
+      "bounds": [
+        1345,
+        284,
+        1590,
+        652
+      ],
+      "normalized_bounds": [
+        0.65673828125,
+        0.24567474048442905,
+        0.7763671875,
+        0.5640138408304498
+      ]
+    },
+    "cloud_left": {
+      "bounds": [
+        154,
+        349,
+        432,
+        594
+      ],
+      "normalized_bounds": [
+        0.0751953125,
+        0.30190311418685123,
+        0.2109375,
+        0.513840830449827
+      ]
+    },
+    "cloud_right": {
+      "bounds": [
+        1548,
+        459,
+        1650,
+        598
+      ],
+      "normalized_bounds": [
+        0.755859375,
+        0.39705882352941174,
+        0.8056640625,
+        0.5173010380622838
+      ]
+    },
+    "sphere_spire": {
+      "point": [
+        742,
+        279
+      ],
+      "normalized_point": [
+        0.3623046875,
+        0.24134948096885814
+      ]
+    },
+    "sphere_upper": {
+      "point": [
+        742,
+        356
+      ],
+      "normalized_point": [
+        0.3623046875,
+        0.3079584775086505
+      ]
+    },
+    "sphere_lower": {
+      "point": [
+        741,
+        517
+      ],
+      "normalized_point": [
+        0.36181640625,
+        0.4472318339100346
+      ]
+    },
+    "open_top": {
+      "point": [
+        920,
+        212
+      ],
+      "normalized_point": [
+        0.44921875,
+        0.18339100346020762
+      ]
+    },
+    "open_aperture": {
+      "bounds": [
+        904,
+        225,
+        938,
+        250
+      ],
+      "normalized_bounds": [
+        0.44140625,
+        0.19463667820069205,
+        0.4580078125,
+        0.21626297577854672
+      ]
+    },
+    "stepped_spire": {
+      "point": [
+        936,
+        283
+      ],
+      "normalized_point": [
+        0.45703125,
+        0.24480968858131488
+      ]
+    },
+    "tallest_tower": {
+      "point": [
+        1036,
+        108
+      ],
+      "normalized_point": [
+        0.505859375,
+        0.09342560553633218
+      ]
+    },
+    "bridge_left": {
+      "point": [
+        480,
+        688
+      ],
+      "normalized_point": [
+        0.234375,
+        0.5951557093425606
+      ]
+    },
+    "bridge_right": {
+      "point": [
+        657,
+        718
+      ],
+      "normalized_point": [
+        0.32080078125,
+        0.6211072664359861
+      ]
+    },
+    "crane": {
+      "bounds": [
+        1238,
+        550,
+        1477,
+        781
+      ],
+      "normalized_bounds": [
+        0.6044921875,
+        0.4757785467128028,
+        0.72119140625,
+        0.6756055363321799
+      ]
+    },
+    "crane_apex": {
+      "point": [
+        1341,
+        550
+      ],
+      "normalized_point": [
+        0.65478515625,
+        0.4757785467128028
+      ]
+    },
+    "ship_bow_left": {
+      "point": [
+        969,
+        911
+      ],
+      "normalized_point": [
+        0.47314453125,
+        0.7880622837370242
+      ]
+    },
+    "ship_stern_right": {
+      "point": [
+        1554,
+        872
+      ],
+      "normalized_point": [
+        0.7587890625,
+        0.754325259515571
+      ]
+    },
+    "ship": {
+      "bounds": [
+        964,
+        683,
+        1555,
+        1010
+      ],
+      "normalized_bounds": [
+        0.470703125,
+        0.5908304498269896,
+        0.75927734375,
+        0.8737024221453287
+      ]
+    },
+    "ship_bridge": {
+      "bounds": [
+        1431,
+        684,
+        1517,
+        866
+      ],
+      "normalized_bounds": [
+        0.69873046875,
+        0.5916955017301038,
+        0.74072265625,
+        0.7491349480968859
+      ]
+    },
+    "cargo": {
+      "bounds": [
+        984,
+        762,
+        1458,
+        925
+      ],
+      "normalized_bounds": [
+        0.48046875,
+        0.6591695501730104,
+        0.7119140625,
+        0.8001730103806228
+      ]
+    },
+    "hull_logo": {
+      "bounds": [
+        1246,
+        907,
+        1404,
+        956
+      ],
+      "normalized_bounds": [
+        0.6083984375,
+        0.7846020761245674,
+        0.685546875,
+        0.8269896193771626
+      ]
+    },
+    "front_buildings": {
+      "bounds": [
+        277,
+        597,
+        1141,
+        902
+      ],
+      "normalized_bounds": [
+        0.13525390625,
+        0.5164359861591695,
+        0.55712890625,
+        0.7802768166089965
+      ]
+    },
+    "garden_pavilion": {
+      "bounds": [
+        457,
+        694,
+        575,
+        809
+      ],
+      "normalized_bounds": [
+        0.22314453125,
+        0.6003460207612457,
+        0.28076171875,
+        0.6998269896193772
+      ]
+    },
+    "small_vehicle_left": {
+      "bounds": [
+        581,
+        847,
+        624,
+        887
+      ],
+      "normalized_bounds": [
+        0.28369140625,
+        0.7326989619377162,
+        0.3046875,
+        0.7673010380622838
+      ]
+    },
+    "small_vehicle_front": {
+      "bounds": [
+        711,
+        830,
+        794,
+        871
+      ],
+      "normalized_bounds": [
+        0.34716796875,
+        0.7179930795847751,
+        0.3876953125,
+        0.7534602076124568
+      ]
+    },
+    "small_vehicle_right": {
+      "bounds": [
+        1626,
+        749,
+        1699,
+        785
+      ],
+      "normalized_bounds": [
+        0.7939453125,
+        0.6479238754325259,
+        0.82958984375,
+        0.6790657439446367
+      ]
+    },
+    "internal_water": {
+      "polygon": [
+        [
+          479,
+          583
+        ],
+        [
+          620,
+          549
+        ],
+        [
+          802,
+          608
+        ],
+        [
+          1048,
+          602
+        ],
+        [
+          1221,
+          544
+        ],
+        [
+          1307,
+          573
+        ],
+        [
+          1256,
+          649
+        ],
+        [
+          1046,
+          696
+        ],
+        [
+          882,
+          704
+        ],
+        [
+          658,
+          710
+        ],
+        [
+          490,
+          650
+        ]
+      ],
+      "normalized_polygon": [
+        [
+          0.23388671875,
+          0.504325259515571
+        ],
+        [
+          0.302734375,
+          0.4749134948096886
+        ],
+        [
+          0.3916015625,
+          0.5259515570934256
+        ],
+        [
+          0.51171875,
+          0.5207612456747405
+        ],
+        [
+          0.59619140625,
+          0.47058823529411764
+        ],
+        [
+          0.63818359375,
+          0.49567474048442905
+        ],
+        [
+          0.61328125,
+          0.5614186851211073
+        ],
+        [
+          0.5107421875,
+          0.6020761245674741
+        ],
+        [
+          0.4306640625,
+          0.6089965397923875
+        ],
+        [
+          0.3212890625,
+          0.6141868512110726
+        ],
+        [
+          0.2392578125,
+          0.5622837370242214
+        ]
+      ]
+    },
+    "white_coast": {
+      "polygon": [
+        [
+          216,
+          710
+        ],
+        [
+          295,
+          913
+        ],
+        [
+          1023,
+          874
+        ],
+        [
+          1652,
+          782
+        ],
+        [
+          1787,
+          808
+        ],
+        [
+          1653,
+          829
+        ],
+        [
+          1022,
+          932
+        ],
+        [
+          270,
+          969
+        ],
+        [
+          110,
+          1080
+        ],
+        [
+          40,
+          1137
+        ],
+        [
+          59,
+          938
+        ]
+      ],
+      "normalized_polygon": [
+        [
+          0.10546875,
+          0.6141868512110726
+        ],
+        [
+          0.14404296875,
+          0.7897923875432526
+        ],
+        [
+          0.49951171875,
+          0.7560553633217993
+        ],
+        [
+          0.806640625,
+          0.6764705882352942
+        ],
+        [
+          0.87255859375,
+          0.698961937716263
+        ],
+        [
+          0.80712890625,
+          0.717128027681661
+        ],
+        [
+          0.4990234375,
+          0.8062283737024222
+        ],
+        [
+          0.1318359375,
+          0.8382352941176471
+        ],
+        [
+          0.0537109375,
+          0.9342560553633218
+        ],
+        [
+          0.01953125,
+          0.9835640138408305
+        ],
+        [
+          0.02880859375,
+          0.8114186851211073
+        ]
+      ]
+    },
+    "waves_left": {
+      "bounds": [
+        1,
+        639,
+        283,
+        1156
+      ],
+      "normalized_bounds": [
+        0.00048828125,
+        0.5527681660899654,
+        0.13818359375,
+        1.0
+      ]
+    },
+    "waves_right": {
+      "bounds": [
+        1550,
+        556,
+        2048,
+        1156
+      ],
+      "normalized_bounds": [
+        0.7568359375,
+        0.4809688581314879,
+        1.0,
+        1.0
+      ]
+    },
+    "low_roofs": {
+      "bounds": [
+        814,
+        662,
+        1232,
+        826
+      ],
+      "normalized_bounds": [
+        0.3974609375,
+        0.5726643598615917,
+        0.6015625,
+        0.7145328719723183
+      ]
+    }
+  },
+  "designs": [
+    {
+      "id": "D01",
+      "role": "전체 구성",
+      "reference_features": [
+        "internal_water",
+        "front_buildings",
+        "crane",
+        "ship"
+      ],
+      "existing_objects": [
+        "CN_LAND_TERRACE",
+        "CN_PROXY_ROOT"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "현재 수로가 없고 건물군이 직선으로 나열됨. 전체 배치 재구성 필요."
+    },
+    {
+      "id": "D02",
+      "role": "CHINA",
+      "reference_features": [
+        "C",
+        "H",
+        "I",
+        "N",
+        "A"
+      ],
+      "existing_objects": [
+        "CHINA_0_C",
+        "CHINA_1_H",
+        "CHINA_2_I",
+        "CHINA_3_N",
+        "CHINA_4_A"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "기존 글자 비례·간격·곡률과 도시 중첩이 다름."
+    },
+    {
+      "id": "D03",
+      "role": "구름",
+      "reference_features": [
+        "cloud_left",
+        "cloud_right"
+      ],
+      "existing_objects": [],
+      "status": "not implemented; preflight",
+      "gap": "좌우 조형물이 모두 없음. 3D 나선과 입체 덩어리 필요."
+    },
+    {
+      "id": "D04",
+      "role": "고층군",
+      "reference_features": [
+        "sphere_spire",
+        "sphere_upper",
+        "sphere_lower",
+        "open_top",
+        "open_aperture",
+        "stepped_spire",
+        "tallest_tower"
+      ],
+      "existing_objects": [
+        "CN_LM_SPHERE_TOWER",
+        "CN_LM_OPEN_TOP_TOWER",
+        "CN_LM_TAPERED_TOWER",
+        "CN_LM_STEPPED_TOWER"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "대표 모티프는 있으나 상대 높이·배치·밀도와 입면 상세가 다름."
+    },
+    {
+      "id": "D05",
+      "role": "수로·교량",
+      "reference_features": [
+        "internal_water",
+        "bridge_left",
+        "bridge_right"
+      ],
+      "existing_objects": [],
+      "status": "not implemented; preflight",
+      "gap": "실제 수로와 아치형 교량 없음. 해안과 동작 보호를 함께 검토해야 함."
+    },
+    {
+      "id": "D06",
+      "role": "수변 건축·정원",
+      "reference_features": [
+        "front_buildings",
+        "garden_pavilion",
+        "low_roofs",
+        "small_vehicle_left",
+        "small_vehicle_front",
+        "small_vehicle_right"
+      ],
+      "existing_objects": [
+        "CN_WATERFRONT_GROUP",
+        "CN_LOWRISE_GROUP"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "석조 입면·돔·밀집 지붕·조경·차량을 새로 대응해야 함."
+    },
+    {
+      "id": "D07",
+      "role": "항만",
+      "reference_features": [
+        "crane",
+        "crane_apex"
+      ],
+      "existing_objects": [
+        "P01_LEG_-25",
+        "P01_LEG_-212",
+        "P01_BOOM_-2",
+        "P01_LEG_3.55",
+        "P01_LEG_3.512",
+        "P01_BOOM_3.5",
+        "P01_SPREADER",
+        "P01_SPREADER_FRAME",
+        "P01_CABLE_0",
+        "P01_CABLE_1",
+        "P01_CABLE_2",
+        "P01_CABLE_3",
+        "P01_TROLLEY"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "UNRESOLVED C02: 케이블 상단이 높음. 허용된 새 지지 구조·가림 설계 검토 필요; 리그 변경 필수로 단정하지 않음."
+    },
+    {
+      "id": "D08",
+      "role": "선박·화물",
+      "reference_features": [
+        "ship",
+        "ship_bow_left",
+        "ship_stern_right",
+        "ship_bridge",
+        "cargo",
+        "hull_logo"
+      ],
+      "existing_objects": [
+        "A02_SHIP",
+        "SHIP_HULL",
+        "SHIP_DECK",
+        "SHIP_BRIDGE",
+        "A01_CONTAINER"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "BLOCKED C01: 참조의 왼쪽 선수와 기존 카메라/전진 방향이 반대. 큰 선체 로고도 미구현."
+    },
+    {
+      "id": "D09",
+      "role": "흰 해안",
+      "reference_features": [
+        "white_coast"
+      ],
+      "existing_objects": [
+        "CN_LAND_TERRACE"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "참조의 높은 흰 경사부·접힌 곡면과 원본 회색 지형이 다름."
+    },
+    {
+      "id": "D10",
+      "role": "바다·빛",
+      "reference_features": [
+        "waves_left",
+        "waves_right"
+      ],
+      "existing_objects": [
+        "EARTH_CONTINUOUS_OCEAN"
+      ],
+      "status": "not implemented; preflight",
+      "gap": "굵은 밝은 파동선·청록 색면·재질·주간광 구현 필요."
+    }
+  ],
+  "occlusion_order": [
+    "CHINA behind towers",
+    "tower island behind internal water",
+    "internal water behind foreground stone/roof district",
+    "front quay behind foreground ship"
+  ],
+  "assumptions": [
+    "Hidden island rear, water depth, material identity, unseen structure unknown.",
+    "No new canal outlet inferred.",
+    "Reference wave pattern is not an instruction to animate waves."
+  ]
+}

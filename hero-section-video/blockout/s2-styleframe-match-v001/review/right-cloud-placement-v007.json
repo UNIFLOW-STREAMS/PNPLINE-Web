@@ -1,0 +1,18 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v006.blend",
+  "before": [
+    14.608582496643066,
+    16.200849533081055,
+    6.0
+  ],
+  "after": [
+    15.697587966918945,
+    21.366756439208984,
+    3.4252662658691406
+  ],
+  "target_center": [
+    0.7219588756561279,
+    0.6130950450897217
+  ],
+  "change": "SF_CLOUD_RIGHT.location only"
+}

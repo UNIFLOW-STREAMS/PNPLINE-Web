@@ -1,0 +1,11 @@
+{
+  "status": "diagnostic only, unsaved; NOT adopted; not a style match",
+  "ship": "visual hull/deck/bridge rotated 180 around protected root; cargo/root/action unchanged",
+  "crane": {
+    "original_beam_height": 11.9,
+    "trial_beam_height": 9.566882610321041,
+    "factor": 0.8039397151530286,
+    "trolley_cable_animation": "unchanged"
+  },
+  "camera": "CAM_MASTER original f156"
+}

@@ -1,0 +1,102 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\crane-style-proposal-v019.blend",
+  "sha256": "cb12a10f6b95052fe0816f6b9ce2933062f0c4f98a58349c04dc2fa780e8de91",
+  "static_checks": {
+    "four_grounded_feet": true,
+    "vertical_legs_reach_horizontal_beam": true,
+    "no_pier_inside_houses": true,
+    "only_documented_original_changes": true,
+    "all_48_animation_actions_unchanged": true
+  },
+  "unexpected_changes": [],
+  "relocated_houses": [
+    {
+      "name": "NA_HOUSE_14",
+      "before": [
+        0.42177391052246094,
+        6.859149932861328,
+        1.25
+      ],
+      "after": [
+        0.17177391052246094,
+        7.109149932861328,
+        1.25
+      ],
+      "delta": [
+        -0.25,
+        0.25
+      ]
+    },
+    {
+      "name": "NA_HOUSE_19",
+      "before": [
+        0.4474029541015625,
+        5.167205810546875,
+        1.25
+      ],
+      "after": [
+        -1.3025970458984375,
+        7.167205810546875,
+        1.25
+      ],
+      "delta": [
+        -1.75,
+        2.0
+      ]
+    },
+    {
+      "name": "NA_HOUSE_20",
+      "before": [
+        3.8533706665039062,
+        3.9653778076171875,
+        1.25
+      ],
+      "after": [
+        4.603370666503906,
+        3.9653778076171875,
+        1.25
+      ],
+      "delta": [
+        0.75,
+        0.0
+      ]
+    },
+    {
+      "name": "NA_HOUSE_28",
+      "before": [
+        1.1984291076660156,
+        3.2310447692871094,
+        1.25
+      ],
+      "after": [
+        -2.8015708923339844,
+        3.4810447692871094,
+        1.25
+      ],
+      "delta": [
+        -4.0,
+        0.25
+      ]
+    }
+  ],
+  "relocated_trees": [
+    {
+      "name": "NA_TREE.010",
+      "delta": [
+        -0.6,
+        -0.3
+      ]
+    },
+    {
+      "name": "NA_TREE.011",
+      "delta": [
+        0.0,
+        -1.2
+      ]
+    }
+  ],
+  "actions_checked": 48,
+  "original_objects_checked": 7002,
+  "animation_ready": false,
+  "reason": "Original hoist is higher than reference-matched beam in initial lift and parked pose. This is a static review proposal."
+}

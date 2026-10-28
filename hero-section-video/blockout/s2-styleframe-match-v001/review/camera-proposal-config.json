@@ -1,0 +1,21 @@
+{
+  "approved": "user approved separate S2 camera/target proposal, not final adoption",
+  "changed_key_frames": [
+    98,
+    214
+  ],
+  "lens": 40,
+  "cn_position_f156": [
+    22,
+    47,
+    32
+  ],
+  "cn_target_f156": [
+    4,
+    -12,
+    5
+  ],
+  "new_city_frame": "CN_FRAME rotated 180 degrees around local Z; preliminary to match view",
+  "motion": "original non-camera actions untouched",
+  "status": "proposal; geometry, continuity and collisions require validation"
+}

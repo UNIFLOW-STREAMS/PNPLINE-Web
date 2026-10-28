@@ -1,0 +1,11 @@
+{
+  "status": "preflight only; no accepted art parameters",
+  "source_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "camera": "CAM_MASTER",
+  "frame": 156,
+  "fps": 12,
+  "render_diagnostic": "BLENDER_WORKBENCH",
+  "design_renderer": "not selected or executed: scope conflict found before T2",
+  "image_target": "inputs/s2-styleframe-001.png",
+  "hidden_space_assumptions": "pending actual 3D implementation; no reconstruction claim"
+}

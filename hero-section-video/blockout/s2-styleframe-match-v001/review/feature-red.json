@@ -1,0 +1,26 @@
+{
+  "tests": 5,
+  "failures": [
+    [
+      "test_bridge_has_open_span (__main__.FeatureTests.test_bridge_has_open_span)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 24, in test_bridge_has_open_span\n    root,meshes=self.geometry('SF_ARCH_BRIDGE')\n                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 11, in geometry\n    root=bpy.data.objects.get(name);self.assertIsNotNone(root,name+' missing')\n                                    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None : SF_ARCH_BRIDGE missing\n"
+    ],
+    [
+      "test_hull_brand_exact_and_attached_to_same_ship (__main__.FeatureTests.test_hull_brand_exact_and_attached_to_same_ship)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 30, in test_hull_brand_exact_and_attached_to_same_ship\n    o=bpy.data.objects.get('SF_HULL_PNPLINE');self.assertIsNotNone(o,'missing large hull brand')\n                                              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None : missing large hull brand\n"
+    ],
+    [
+      "test_interior_water_has_real_surface (__main__.FeatureTests.test_interior_water_has_real_surface)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 21, in test_interior_water_has_real_surface\n    root,meshes=self.geometry('SF_INTERNAL_WATER')\n                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 11, in geometry\n    root=bpy.data.objects.get(name);self.assertIsNotNone(root,name+' missing')\n                                    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None : SF_INTERNAL_WATER missing\n"
+    ],
+    [
+      "test_reference_white_coast_is_3d (__main__.FeatureTests.test_reference_white_coast_is_3d)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 27, in test_reference_white_coast_is_3d\n    root,meshes=self.geometry('SF_WHITE_COAST')\n                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 11, in geometry\n    root=bpy.data.objects.get(name);self.assertIsNotNone(root,name+' missing')\n                                    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None : SF_WHITE_COAST missing\n"
+    ],
+    [
+      "test_two_spatial_cloud_sculptures (__main__.FeatureTests.test_two_spatial_cloud_sculptures)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 18, in test_two_spatial_cloud_sculptures\n    a,_=self.geometry('SF_CLOUD_LEFT');b,_=self.geometry('SF_CLOUD_RIGHT')\n        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\feature_presence.py\", line 11, in geometry\n    root=bpy.data.objects.get(name);self.assertIsNotNone(root,name+' missing')\n                                    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unexpectedly None : SF_CLOUD_LEFT missing\n"
+    ]
+  ],
+  "errors": []
+}

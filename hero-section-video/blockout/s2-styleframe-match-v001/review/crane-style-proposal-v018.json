@@ -1,0 +1,130 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\crane-style-proposal-v018.blend",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v017.blend",
+  "type": "static crane design proposal, not animation-ready",
+  "supports": [
+    [
+      0.5502463579177856,
+      5.185626029968262,
+      1.25
+    ],
+    [
+      1.6763132810592651,
+      6.176571846008301,
+      1.25
+    ],
+    [
+      1.9829624891281128,
+      3.557551145553589,
+      1.25
+    ],
+    [
+      3.1090292930603027,
+      4.548497200012207,
+      1.25
+    ]
+  ],
+  "beam_endpoints": [
+    [
+      0.2131366729736328,
+      5.568702697753906,
+      6.5
+    ],
+    [
+      4.427007675170898,
+      0.7802467346191406,
+      6.5
+    ]
+  ],
+  "height": {
+    "base": 1.25,
+    "beam": 6.5,
+    "pylon": 8.1
+  },
+  "hidden_original_crane_visuals": [
+    "P01_SPREADER_FRAME",
+    "P01_CABLE_0",
+    "P01_CABLE_1",
+    "P01_CABLE_2",
+    "P01_CABLE_3",
+    "P01_TROLLEY",
+    "SF_CRANE_LEG",
+    "SF_CRANE_BASE",
+    "SF_CRANE_LEG.001",
+    "SF_CRANE_BASE.001",
+    "SF_CRANE_BOOM",
+    "SF_CRANE_DIAGONAL",
+    "SF_CRANE_LEG.002",
+    "SF_CRANE_BASE.002",
+    "SF_CRANE_LEG.003",
+    "SF_CRANE_BASE.003",
+    "SF_CRANE_BOOM.001",
+    "SF_CRANE_DIAGONAL.001",
+    "SF_CRANE_CROSS",
+    "SF_CRANE_CROSS.001",
+    "SF_CRANE_PYLON",
+    "SF_CRANE_TIE",
+    "SF_CRANE_TIE.001",
+    "SF_CRANE_TIE.002",
+    "SF_CRANE_PYLON.001",
+    "SF_CRANE_TIE.003",
+    "SF_CRANE_TIE.004",
+    "SF_CRANE_TIE.005"
+  ],
+  "original_spreader_clearance": [
+    {
+      "frame": 0,
+      "original_spreader_z": 7.640007019042969,
+      "new_beam_underside": 6.34,
+      "clearance": -1.3900070190429688
+    },
+    {
+      "frame": 24,
+      "original_spreader_z": 6.739082336425781,
+      "new_beam_underside": 6.34,
+      "clearance": -0.48908233642578125
+    },
+    {
+      "frame": 48,
+      "original_spreader_z": 4.959230422973633,
+      "new_beam_underside": 6.34,
+      "clearance": 1.2907695770263672
+    },
+    {
+      "frame": 72,
+      "original_spreader_z": 3.990001678466797,
+      "new_beam_underside": 6.34,
+      "clearance": 2.259998321533203
+    },
+    {
+      "frame": 96,
+      "original_spreader_z": 5.110906600952148,
+      "new_beam_underside": 6.34,
+      "clearance": 1.1390933990478516
+    },
+    {
+      "frame": 124,
+      "original_spreader_z": 8.253623962402344,
+      "new_beam_underside": 6.34,
+      "clearance": -2.0036239624023438
+    },
+    {
+      "frame": 156,
+      "original_spreader_z": 8.99000358581543,
+      "new_beam_underside": 6.34,
+      "clearance": -2.7400035858154297
+    }
+  ],
+  "support_building_overlaps": [
+    {
+      "support": [
+        0.5502463579177856,
+        5.185626029968262,
+        1.25
+      ],
+      "building": "NA_HOUSE_19"
+    }
+  ],
+  "protected_actions_changed": false,
+  "approval_needed": "Retarget S1 crane/hoist and any affected initial suspended-container height while preserving landing frame and later voyage."
+}

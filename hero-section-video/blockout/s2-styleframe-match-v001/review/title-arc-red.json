@@ -1,0 +1,14 @@
+{
+  "tests": 3,
+  "failures": [
+    [
+      "test_a_has_no_abrupt_forward_step_from_n (__main__.TitleArcTests.test_a_has_no_abrupt_forward_step_from_n)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\title_arc.py\", line 22, in test_a_has_no_abrupt_forward_step_from_n\n    self.assertLess(mid['N']-mid['A'],6.0,'A jumps forward instead of continuing the arc')\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 9.427818775177002 not less than 6.0 : A jumps forward instead of continuing the arc\n"
+    ],
+    [
+      "test_all_five_letters_share_one_curved_band (__main__.TitleArcTests.test_all_five_letters_share_one_curved_band)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\title_arc.py\", line 18, in test_all_five_letters_share_one_curved_band\n    self.assertGreater(min(radii),radius-1.35,ch+' detached from shared arc')\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 31.498910224005293 not greater than 36.65 : C detached from shared arc\n"
+    ]
+  ],
+  "errors": []
+}

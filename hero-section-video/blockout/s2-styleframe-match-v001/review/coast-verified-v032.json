@@ -1,0 +1,23 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v032.blend",
+  "sha256": "aede9070cc8ff7cc8f88469d28c603c09aa26ff55790d7e3fe279b585a2bec43",
+  "checks": {
+    "all_actions_preserved": true,
+    "all_integer_frame_camera_and_actor_transforms_preserved": true,
+    "only_outer_coast_mesh_changed": true,
+    "upper_land_seam_zero": true,
+    "front_berth_toe_unchanged": true,
+    "left_slope_outset_above_5m": true,
+    "right_slope_outset_above_7m": true,
+    "all_21_rings_no_self_intersection": true,
+    "no_degenerate_faces": true,
+    "no_ship_hull_intersection_with_new_slopes_all_frames": true
+  },
+  "changed_objects": [
+    "SF_COAST_FOLDED_FACE"
+  ],
+  "seam_error_m": 0.0,
+  "berth_error_m": 0.0,
+  "ship_intersection_frames": [],
+  "scope": "67 actions; camera/target/cargo/ship/spreader/jib matrices and ship surface intersection at every integer source frame; coast ring crossings and seams. Materials and optical wave effects unchanged."
+}

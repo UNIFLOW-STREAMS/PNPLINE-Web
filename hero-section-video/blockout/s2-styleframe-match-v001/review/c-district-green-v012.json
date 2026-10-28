@@ -1,0 +1,10 @@
+{
+  "tests": 6,
+  "failures": [
+    [
+      "test_pavilion_has_radial_roof_and_eight_columns (__main__.DistrictTests.test_pavilion_has_radial_roof_and_eight_columns)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\c_district.py\", line 9, in test_pavilion_has_radial_roof_and_eight_columns\n    self.assertEqual(len([o for o in s.objects if o.name.startswith('DT_PAVILION_COLUMN')]),8)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 16 != 8\n"
+    ]
+  ],
+  "errors": []
+}

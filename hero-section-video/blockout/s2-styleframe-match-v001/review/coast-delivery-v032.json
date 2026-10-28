@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_actions_preserved": true,
+    "all_integer_frame_camera_and_actor_transforms_preserved": true,
+    "only_outer_coast_mesh_changed": true,
+    "upper_land_seam_zero": true,
+    "front_berth_toe_unchanged": true,
+    "left_slope_outset_above_5m": true,
+    "right_slope_outset_above_7m": true,
+    "all_21_rings_no_self_intersection": true,
+    "no_degenerate_faces": true,
+    "no_ship_hull_intersection_with_new_slopes_all_frames": true
+  },
+  "hashes": {
+    "review\\layout-proposal-v032.blend": "aede9070cc8ff7cc8f88469d28c603c09aa26ff55790d7e3fe279b585a2bec43",
+    "review\\coast-full-v032.png": "a45d002bb0d4a9eabf1e75e72c9ec983f08110549a102ec383d9b940d4dc2a2d",
+    "review\\coast-wide-v032.png": "65b471c6e4f4c4e84d61640c246bb6c2df94aa81bf0bfb061f007c4cd5208d4c"
+  }
+}

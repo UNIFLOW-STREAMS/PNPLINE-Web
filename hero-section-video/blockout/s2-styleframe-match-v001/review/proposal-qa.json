@@ -1,0 +1,24 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v004.blend",
+  "sha256": "4b3fa3f48b2c5b0e7ed80e3eff53af135bb52ab6fda644cb4366bcd863cf8caa",
+  "tests": 29,
+  "failures": [
+    [
+      "test_full_timeline_camera_continuity (MasterTests.MasterTests.test_full_timeline_camera_continuity)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\tests\\master_regression.py\", line 104, in test_full_timeline_camera_continuity\n    self.assertLess(angle,math.radians(8),f'camera rotation f{f}')\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0.1626989581395454 not less than 0.13962634015954636 : camera rotation f104\n"
+    ]
+  ],
+  "errors": [],
+  "new_geometry_center_ray_occlusions": [],
+  "camera_inside_new_local_aabb": [],
+  "noncamera_action_equal": true,
+  "noncamera_evaluations_equal": true,
+  "quarter_frame_samples": 5569,
+  "outside_s2_camera_differences": [],
+  "boundary_delta": {
+    "96.0": 0.0,
+    "97.0": 0.0,
+    "215.0": 0.0,
+    "216.0": 0.0
+  }
+}

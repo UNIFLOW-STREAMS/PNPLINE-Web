@@ -1,0 +1,37 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v015.blend",
+  "sha256": "bd1d2abeb8981fc06e4c441073bd39624b0784c8a1368fbdac26ed52d464bb7c",
+  "checks": {
+    "at_least_24_low_houses": false,
+    "two_detailed_harbor_halls": true,
+    "village_extends_towards_NA": true,
+    "grounded_roof_footprints": true,
+    "nonoverlapping_buildings": true,
+    "truck_wheel_contact": true,
+    "old_proxy_roofs_hidden": true,
+    "original_objects_preserved": true,
+    "animation_actions_unchanged": true
+  },
+  "houses": 23,
+  "halls": 2,
+  "NA_bend_houses": [
+    "NA_HOUSE_00",
+    "NA_HOUSE_01",
+    "NA_HOUSE_02",
+    "NA_HOUSE_03",
+    "NA_HOUSE_04",
+    "NA_HOUSE_05",
+    "NA_HOUSE_09",
+    "NA_HOUSE_10",
+    "NA_HOUSE_20",
+    "NA_HOUSE_21",
+    "NA_HOUSE_22"
+  ],
+  "unsupported": [],
+  "overlaps": [],
+  "wheel_errors": [],
+  "changed_originals": [],
+  "original_objects_checked": 4426,
+  "actions_checked": 48,
+  "scope": "Static NA district. Support and footprint tests are not continuous animation collision certification."
+}

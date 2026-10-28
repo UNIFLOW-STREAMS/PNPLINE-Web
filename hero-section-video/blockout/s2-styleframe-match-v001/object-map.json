@@ -1,0 +1,9 @@
+{
+  "status": "no production replacements/new objects yet",
+  "baseline_inventory": "review/baseline-inventory.json",
+  "render_only_trials": [
+    "review/trial-exterior-reversed.png",
+    "review/trial-static-crane-lowered.png"
+  ],
+  "trial_blend_saved": false
+}

@@ -1,0 +1,19 @@
+{
+  "radius": 22.25849360836027,
+  "midpoint": [
+    -4,
+    31
+  ],
+  "yaw_degrees": -8.0,
+  "height": 13.5,
+  "gap": 0.58,
+  "widths": [
+    10.265999999999998,
+    10.277599999999998,
+    4.837199999999999,
+    11.518799999999999,
+    9.5236
+  ],
+  "right_cloud_scale": 0.74,
+  "note": "100 degree C-to-A tangent turn; supplementary enclosed angle 80 degrees, smoothly distributed around I"
+}

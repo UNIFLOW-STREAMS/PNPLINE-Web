@@ -1,0 +1,32 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v007.blend",
+  "a_bounds": [
+    0.6005110144615173,
+    0.49546948075294495,
+    0.7419588565826416,
+    0.8875547647476196
+  ],
+  "cloud_bounds": [
+    0.680954098701477,
+    0.5486024618148804,
+    0.7629636526107788,
+    0.6775877475738525
+  ],
+  "cloud_location": [
+    15.697587966918945,
+    21.366756439208984,
+    3.4252662658691406
+  ],
+  "a_location": [
+    11.0529203414917,
+    20.88574981689453,
+    1.25
+  ],
+  "relative_height": 0.3000000988127346,
+  "a_occlusion_fraction": 0.4474789915966387,
+  "tests": {
+    "lower_right_position": true,
+    "partly_behind_a": true,
+    "extends_right": true
+  }
+}

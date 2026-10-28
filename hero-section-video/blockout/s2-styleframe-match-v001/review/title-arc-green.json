@@ -1,0 +1,10 @@
+{
+  "tests": 3,
+  "failures": [
+    [
+      "test_right_cloud_larger_than_previous_trial (__main__.TitleArcTests.test_right_cloud_larger_than_previous_trial)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\title_arc.py\", line 30, in test_right_cloud_larger_than_previous_trial\n    self.assertGreater(width,old*1.45,'Right cloud must be visibly larger than the rejected trial (at least 45% wider)')\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0.08465009927749634 not greater than 0.08671254813671112 : Right cloud must be visibly larger than the rejected trial (at least 45% wider)\n"
+    ]
+  ],
+  "errors": []
+}

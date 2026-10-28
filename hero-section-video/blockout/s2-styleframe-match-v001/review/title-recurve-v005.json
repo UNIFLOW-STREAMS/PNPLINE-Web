@@ -1,0 +1,70 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v004.blend",
+  "output": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v005.blend",
+  "old": {
+    "radius": 38.0,
+    "midpoint": [
+      -4.0,
+      29.0
+    ],
+    "yaw_degrees": -18.0,
+    "height": 13.5,
+    "gap": 0.5,
+    "widths": [
+      8.85,
+      8.86,
+      4.17,
+      9.93,
+      8.21
+    ],
+    "right_cloud_scale": 0.74,
+    "note": "User correction: one continuous city-wrapping arc, no detached A; larger right cloud. Radius is a scene-design parameter, not a measured real dimension."
+  },
+  "new": {
+    "radius": 24.0,
+    "midpoint": [
+      -4.0,
+      29.0
+    ],
+    "yaw_degrees": 0.0,
+    "height": 13.5,
+    "gap": 0.5,
+    "widths": [
+      8.85,
+      8.86,
+      4.17,
+      9.93,
+      8.21
+    ],
+    "right_cloud_scale": 0.74,
+    "note": "User correction: one continuous city-wrapping arc, no detached A; larger right cloud. Radius is a scene-design parameter, not a measured real dimension."
+  },
+  "delta": {
+    "C": [
+      1.0818557739257812,
+      -7.08209228515625,
+      0.0
+    ],
+    "H": [
+      -0.07451057434082031,
+      -2.6493778228759766,
+      0.0
+    ],
+    "I": [
+      -0.010333538055419922,
+      -0.06682205200195312,
+      0.0
+    ],
+    "N": [
+      0.506664514541626,
+      1.8115959167480469,
+      0.0
+    ],
+    "A": [
+      1.1318092346191406,
+      2.859333038330078,
+      0.0
+    ]
+  },
+  "scope": "Only title mesh vertices/root positions and two cloud root positions; no camera or actor changes"
+}

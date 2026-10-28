@@ -1,0 +1,22 @@
+{
+  "tests": 6,
+  "failures": [
+    [
+      "test_camera_key_edit_detected (__main__.ProtectionTests.test_camera_key_edit_detected)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\test_preservation.py\", line 19, in test_camera_key_edit_detected\n    self.assertIn('actions',self.changed())\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'actions' not found in []\n"
+    ],
+    [
+      "test_camera_lens_edit_detected (__main__.ProtectionTests.test_camera_lens_edit_detected)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\test_preservation.py\", line 25, in test_camera_lens_edit_detected\n    self.assertIn('cameras',self.changed())\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'cameras' not found in []\n"
+    ],
+    [
+      "test_ship_motion_key_edit_detected (__main__.ProtectionTests.test_ship_motion_key_edit_detected)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\test_preservation.py\", line 22, in test_ship_motion_key_edit_detected\n    self.assertIn('actions',self.changed())\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'actions' not found in []\n"
+    ],
+    [
+      "test_unrelated_shared_material_edit_detected (__main__.ProtectionTests.test_unrelated_shared_material_edit_detected)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\test_preservation.py\", line 28, in test_unrelated_shared_material_edit_detected\n    self.assertIn('materials',self.changed())\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'materials' not found in []\n"
+    ]
+  ],
+  "errors": []
+}

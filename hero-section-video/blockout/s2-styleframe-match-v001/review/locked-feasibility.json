@@ -1,0 +1,15 @@
+{
+  "purpose": "scope-conflict probes, not overall acceptance",
+  "tests": 2,
+  "failures": [
+    [
+      "test_forward_heading_projects_toward_reference_left_bow (__main__.LockedFeasibility.test_forward_heading_projects_toward_reference_left_bow)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\locked_feasibility.py\", line 21, in test_forward_heading_projects_toward_reference_left_bow\n    self.assertLess(uv1.x,uv0.x,'Locked forward motion projects RIGHT; a LEFT bow would sail stern-first. This is a functional/visual conflict, not a lighting issue.')\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0.7016972899436951 not less than 0.47974640130996704 : Locked forward motion projects RIGHT; a LEFT bow would sail stern-first. This is a functional/visual conflict, not a lighting issue.\n"
+    ],
+    [
+      "test_live_cable_support_fits_reference_crane_upper_silhouette (__main__.LockedFeasibility.test_live_cable_support_fits_reference_crane_upper_silhouette)",
+      "Traceback (most recent call last):\n  File \"F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\tests\\locked_feasibility.py\", line 29, in test_live_cable_support_fits_reference_crane_upper_silhouette\n    self.assertGreaterEqual(1-p.y,upper,'Live cable top is ABOVE the target crane apex; shortening only visible static legs disconnects the actual support.')\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0.4326756000518799 not greater than or equal to 0.47145328719723184 : Live cable top is ABOVE the target crane apex; shortening only visible static legs disconnects the actual support.\n"
+    ]
+  ],
+  "errors": []
+}

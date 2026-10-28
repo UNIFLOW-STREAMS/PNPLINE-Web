@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "all_67_actions_preserved": true,
+    "all_frame_camera_ship_cargo_crane_transforms_preserved": true,
+    "only_bridge_and_forebay_changed": true,
+    "continuous_water_below_bridge": true,
+    "both_abutments_on_land": true,
+    "no_new_building_foot_flooding": true,
+    "closed_arch_masonry_mesh": true,
+    "arch_opening_above_water": true,
+    "bank_no_self_intersections": true,
+    "bank_water_seams_match": true,
+    "island_contained": true
+  },
+  "hashes": {
+    "review\\layout-proposal-v031.blend": "06568d8176f3049130bcc84b142c90d41b84992016d3d0ba6e55de5e34b5e6ec",
+    "review\\bridge-detail-v031.png": "c515fd28d9f2537989115f2375340732315531f002fe5b40d5d021625237d516",
+    "review\\bridge-full-v031.png": "a4a098e9ccc4c19dbec8fc3c9bbed5910f6fbc67d0c46dc97a93eb34da3d9ff9"
+  }
+}

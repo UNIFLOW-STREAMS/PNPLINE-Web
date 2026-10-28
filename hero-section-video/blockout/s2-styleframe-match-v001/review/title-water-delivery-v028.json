@@ -1,0 +1,23 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v028.blend",
+  "checks": {
+    "all_actions_unchanged": true,
+    "all_integer_frame_camera_cargo_crane_matrices_unchanged": true,
+    "only_authorized_static_elements_changed": true,
+    "title_end_tangent_enclosed_angle_80": true,
+    "title_common_continuous_arc": true,
+    "title_feet_on_dry_bank": true,
+    "both_banks_no_self_intersections": true,
+    "island_inside_basin_and_basin_inside_land": true,
+    "bank_surface_seams_matched": true,
+    "front_channel_width_above_1_5m": true,
+    "visible_s_curve_inflection": true,
+    "all_bank_tree_trunks_supported": true,
+    "all_highrise_feet_supported": true
+  },
+  "hashes": {
+    "review\\layout-proposal-v028.blend": "1df002013c0cd984a9629d348bea876b202958b08454e3956648138bb01527a4",
+    "review\\basin-detail-v028.png": "0f464d208b40ebcb319237d37bfc96ff66890fcd021b2115cebb1d1ef889c6fb",
+    "review\\title-water-v028.png": "793de193d1d70f58974413e157d8a39f24ccc9382ae8879d4daa36c387e09231"
+  }
+}

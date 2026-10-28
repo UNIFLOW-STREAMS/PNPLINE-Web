@@ -1,0 +1,13 @@
+{
+  "baseline_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "candidate_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "frame_step": 0.25,
+  "samples": 5569,
+  "differences": [],
+  "camera_whole_timeline_protected": true,
+  "camera_interval_exceptions": [],
+  "baseline_signature": "5d21c6812d0dce3793b359d949bfa0dfe4c665c78254fcfcaf09122bd8ec6b1e",
+  "candidate_signature": "5d21c6812d0dce3793b359d949bfa0dfe4c665c78254fcfcaf09122bd8ec6b1e",
+  "pass": true,
+  "limits": "Snapshot schema and sampled evaluated state; not a geometry collision proof."
+}
