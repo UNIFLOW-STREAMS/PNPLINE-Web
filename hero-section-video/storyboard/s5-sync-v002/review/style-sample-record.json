@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "purpose": "minimal style sample, not selected final artwork",
+  "frame": 766,
+  "source": {
+    "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+    "sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665"
+  },
+  "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0766.png",
+  "raw_sha256": "b43a23c300268fe7aff81559dd7d70435a885064c0e1c49d11ac43817c24dc57",
+  "camera_state": {
+    "world_matrix": [
+      [
+        0.4171149730682373,
+        0.7606592178344727,
+        -0.4974060654640198,
+        82.68958282470703
+      ],
+      [
+        -0.887796938419342,
+        0.22388781607151031,
+        -0.4021082818508148,
+        15.521486282348633
+      ],
+      [
+        -0.19450412690639496,
+        0.6093209385871887,
+        0.7686977386474609,
+        125.55321502685547
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens_mm": 30.162586212158203,
+    "shift": [
+      0.0,
+      0.0
+    ],
+    "sensor": [
+      36.0,
+      24.0
+    ],
+    "type": "PERSP",
+    "clip": [
+      0.07999999821186066,
+      1500.0
+    ]
+  },
+  "method": "Blender EEVEE white emission override + Freestyle visible silhouette/border/crease/material edges",
+  "style_script_sha256": "01430f255638fbda9aeeb907ce27571f8df3fb1b59e752bf6c4a85b9cfca88ed",
+  "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\sample-f766.png",
+  "resolution": [
+    960,
+    540
+  ],
+  "run_id": "78ae60209f0e",
+  "sha256": "20329fb85d249d02d8c885c6b924386f8c268e163a6485ff23878227d48a2bc6",
+  "reused_from": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\review\\style-sample-record.json"
+}

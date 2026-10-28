@@ -1,0 +1,24 @@
+{
+  "purpose": "preview playback only; 2x of original 12fps animation",
+  "source_blend_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "source_render_record_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\render-record.json",
+  "source_render_record_sha256": "db58bf620de8c2e6ab9259cfaebdcb780e760d10e86727fe66c4406b237345c1",
+  "source_original_video_sha256": "a0cbbe7df4ab0c170a064655ec3ca2df5eb16cb1dfb43b8ba2677afe3140a7fe",
+  "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\preview\\main-2x.mp4",
+  "sha256": "7d8bbaed36420fccb6992064ed2fd61e21a67a0f1f31997e03fd61f0ee546db7",
+  "source_frames": [
+    624,
+    948
+  ],
+  "frame_count": 325,
+  "video_fps": 24,
+  "duration_seconds": 13.541666666666666,
+  "frame_mapping": "quick t=(master_frame-624)/24; original t=(master_frame-624)/12",
+  "master_animation_changed": false,
+  "source_frames_dropped": false,
+  "probe": {
+    "avg_frame_rate": "24/1",
+    "duration": "13.541667",
+    "nb_frames": "325"
+  }
+}

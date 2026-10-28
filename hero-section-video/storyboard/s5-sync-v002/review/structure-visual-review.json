@@ -1,0 +1,72 @@
+{
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "method": "Six individually opened side-by-side source and expression images, equal image regions. No pixel-identical claim across different render styles.",
+  "panels": {
+    "S5-01": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    },
+    "S5-02": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    },
+    "S5-03": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    },
+    "S5-03A": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    },
+    "S5-04": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    },
+    "S5-05": {
+      "reviewed": [
+        "cab/trailer/container silhouette",
+        "visible wheel placement",
+        "road and floor boundaries",
+        "visible warehouse/dock elements",
+        "door state where visible"
+      ],
+      "structure_preserved": true
+    }
+  },
+  "limitations": [
+    "White contours omit source color and shadows.",
+    "S5-04 rear doors/dock gap are oblique and partially hidden in both source and expression; state also established with actual neighbor motion/geometry.",
+    "Original S4-05 drawing spatial left/right differs from selected s5-integration source; no new master-layout claim."
+  ],
+  "final_artistic_approval": null
+}

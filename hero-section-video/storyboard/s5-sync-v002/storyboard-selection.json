@@ -1,0 +1,150 @@
+{
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "fps": 12,
+  "fps_base": 1.0,
+  "preview_start": 624,
+  "time_origin": "master frame 0",
+  "baseline_adoption": "user explicitly selected s5-integration-v001 for this task",
+  "panels": [
+    {
+      "id": "S5-01",
+      "frame": 672,
+      "subframe": 0,
+      "role": "부두 출발",
+      "action": "같은 적재 차량이 출발. 크레인·연결 도로·목적지 관계를 유지.",
+      "status": "selected",
+      "master_seconds": 56.0,
+      "preview_seconds": 4.0,
+      "old_board": {
+        "frame": 672,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    },
+    {
+      "id": "S5-02",
+      "frame": 720,
+      "subframe": 0,
+      "role": "연결 도로 추적",
+      "action": "부두에서 멀어지고 같은 물류센터로 접근. 문은 닫힘.",
+      "status": "selected",
+      "master_seconds": 60.0,
+      "preview_seconds": 8.0,
+      "old_board": {
+        "frame": 720,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    },
+    {
+      "id": "S5-03",
+      "frame": 732,
+      "subframe": 0,
+      "role": "입고 마당 접근",
+      "action": "본격 선회 직전. 마당과 도크, 방향을 바꿀 공간을 관찰.",
+      "status": "selected",
+      "master_seconds": 61.0,
+      "preview_seconds": 9.0,
+      "old_board": {
+        "frame": 766,
+        "decision": "replace",
+        "reason": "Replace role mismatch; f810 retained only as stopped diagnostic"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    },
+    {
+      "id": "S5-03A",
+      "frame": 766,
+      "subframe": 0,
+      "role": "마당 선회·정렬 중",
+      "action": "실제 전진 선회 중. 견인부와 트레일러의 자세가 계속 변함.",
+      "status": "selected",
+      "master_seconds": 63.833333333333336,
+      "preview_seconds": 11.833333333333334,
+      "old_board": {
+        "frame": 810,
+        "decision": "replace",
+        "reason": "Replace role mismatch; f810 retained only as stopped diagnostic"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    },
+    {
+      "id": "S5-04",
+      "frame": 842,
+      "subframe": 0,
+      "role": "후면 정렬·문 개방",
+      "action": "정지·문 개방 완료. 후진 전이며 도크까지 빈 간격이 남음.",
+      "status": "selected",
+      "master_seconds": 70.16666666666667,
+      "preview_seconds": 18.166666666666668,
+      "old_board": {
+        "frame": 842,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    },
+    {
+      "id": "S5-05",
+      "frame": 900,
+      "subframe": 0,
+      "role": "도크 도착·창고로 시선 연결",
+      "action": "접안·정지. 문은 열리고 화물은 내부. 카메라는 입고 바닥으로 이동.",
+      "status": "selected",
+      "master_seconds": 75.0,
+      "preview_seconds": 23.0,
+      "old_board": {
+        "frame": 900,
+        "decision": "keep",
+        "reason": "Keep matching actual state"
+      },
+      "user_approval": {
+        "answer": "6개 프레임과 선화 방향 채택",
+        "source": "actual user question reply in current conversation",
+        "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+        "client_date": "2026-10-09",
+        "exact_response_timestamp": null,
+        "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+      }
+    }
+  ],
+  "user_baseline_instruction": "s5-integration-v001를 기준으로 S5스토리보드 동기화 작업을 진행해라.",
+  "source_path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend"
+}

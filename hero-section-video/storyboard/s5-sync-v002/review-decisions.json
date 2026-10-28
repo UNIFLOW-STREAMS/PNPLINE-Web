@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "status": "selected",
+    "source": {
+      "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+      "sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665"
+    },
+    "user_instruction": "s5-integration-v001를 기준으로 S5스토리보드 동기화 작업을 진행해라.",
+    "exact_response_timestamp": null,
+    "client_date": "2026-10-09"
+  },
+  "frames": {
+    "status": "selected",
+    "frames": [
+      672,
+      720,
+      732,
+      766,
+      842,
+      900
+    ],
+    "evidence": {
+      "answer": "6개 프레임과 선화 방향 채택",
+      "source": "actual user question reply in current conversation",
+      "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+      "client_date": "2026-10-09",
+      "exact_response_timestamp": null,
+      "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+    }
+  },
+  "style": {
+    "status": "selected",
+    "method": "same as f766 Freestyle sample",
+    "evidence": {
+      "answer": "6개 프레임과 선화 방향 채택",
+      "source": "actual user question reply in current conversation",
+      "question_item_id": "[\"request_user_input_async\",\"call_9b5e681d37f54ba4b14bda8d7889dd82\",0]",
+      "client_date": "2026-10-09",
+      "exact_response_timestamp": null,
+      "scope": "six frames and white background/black contour Freestyle direction; final rendered package not yet approved"
+    }
+  },
+  "final_artistic_approval": null,
+  "not_a_full_layout_master_replacement": true,
+  "final_package": {
+    "status": "awaiting final user review",
+    "manifest_sha256": "5fd4c54037ba60cf151169f4a85b803e6aedf2cf60120b56bbe17dbe54589d2e",
+    "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+    "expression_run_id": "9556881d4884"
+  },
+  "preview_speed_choice": {
+    "answer": "프리뷰 재생만 빠르게",
+    "source": "actual user answer in current conversation",
+    "scope": "preview playback only; original master, source motion, selected frames and original-speed video unchanged",
+    "fast_video": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\preview\\main-2x.mp4"
+  },
+  "current_saved_master": {
+    "sha256": "cc2dec40e69d97064710e3397598925f700d8dfda61ff2a3cd031995fe2514b5",
+    "same_S5_animation_and_geometry_as_rendered_source": true,
+    "source": "read-only Blender comparison after user save; review/current-master-comparison.json"
+  }
+}

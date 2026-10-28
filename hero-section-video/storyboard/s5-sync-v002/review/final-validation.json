@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "source": {
+    "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\master\\source-current.blend",
+    "sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665"
+  },
+  "raw_frames_verified": 325,
+  "panels": 6,
+  "line_art_camera_projection_equal": 6,
+  "panel_expression_pixel_regions_equal": 6,
+  "role_state_checks": 6,
+  "master_unchanged": true,
+  "preview_playback_pass": true,
+  "technical_only": true,
+  "final_artistic_approval": null,
+  "manifest_sha256": "5fd4c54037ba60cf151169f4a85b803e6aedf2cf60120b56bbe17dbe54589d2e",
+  "expression_record_sha256": "e81dc8197f1e00df22dacfa4cc424d928b57ad65a554f48546ce417c523a9fec"
+}

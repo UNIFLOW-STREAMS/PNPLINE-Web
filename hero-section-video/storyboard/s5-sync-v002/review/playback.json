@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "video_sha256": "a0cbbe7df4ab0c170a064655ec3ca2df5eb16cb1dfb43b8ba2677afe3140a7fe",
+  "current_time_s": 27.083333,
+  "duration_s": 27.083333,
+  "playback_rate": 1,
+  "ended": true,
+  "elapsed_wall_seconds": 27.13060000000149,
+  "media_error": null,
+  "method": "CUA button click and read-only video element observations; no seeking"
+}

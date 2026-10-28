@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "video_sha256": "7d8bbaed36420fccb6992064ed2fd61e21a67a0f1f31997e03fd61f0ee546db7",
+  "duration_s": 13.541667,
+  "current_time_s": 13.541667,
+  "ended": true,
+  "media_error": null,
+  "effective_speed": 2,
+  "media_playback_rate": 1,
+  "observed_wall_seconds": 13.616,
+  "mode": "2",
+  "source_frame_count": 325,
+  "source_blend_snapshot_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "current_saved_master_sha256": "cc2dec40e69d97064710e3397598925f700d8dfda61ff2a3cd031995fe2514b5",
+  "source_equivalence_record": "review/current-master-comparison.json",
+  "method": "Clicked fast preview button and observed HTML video element at start/end via CUA"
+}

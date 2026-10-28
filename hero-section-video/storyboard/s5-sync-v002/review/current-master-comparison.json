@@ -1,0 +1,75 @@
+{
+  "old_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\master\\source-current.blend",
+  "old_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "current_path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+  "current_sha256": "cc2dec40e69d97064710e3397598925f700d8dfda61ff2a3cd031995fe2514b5",
+  "old_scene": {
+    "frame_current": 907,
+    "range": [
+      0,
+      1392
+    ],
+    "fps": [
+      12,
+      1.0
+    ],
+    "camera": "CAM_MASTER",
+    "objects": 304,
+    "markers": {
+      "S1": 0,
+      "B12": 96,
+      "S2": 96,
+      "B23": 216,
+      "S3": 216,
+      "B34": 456,
+      "S4": 456,
+      "B45": 648,
+      "S5": 648,
+      "B56": 900,
+      "S6": 900,
+      "B67": 1200,
+      "S7": 1200,
+      "DETAIL_DEFERRED_PICK_HAND": 1020,
+      "DETAIL_DEFERRED_PACK_FOLD_TAPE": 1090,
+      "DETAIL_DEFERRED_LOADING_HAND": 1158
+    }
+  },
+  "current_scene": {
+    "frame_current": 521,
+    "range": [
+      0,
+      1392
+    ],
+    "fps": [
+      12,
+      1.0
+    ],
+    "camera": "CAM_MASTER",
+    "objects": 304,
+    "markers": {
+      "S1": 0,
+      "B12": 96,
+      "S2": 96,
+      "B23": 216,
+      "S3": 216,
+      "B34": 456,
+      "S4": 456,
+      "B45": 648,
+      "S5": 648,
+      "B56": 900,
+      "S6": 900,
+      "B67": 1200,
+      "S7": 1200,
+      "DETAIL_DEFERRED_PICK_HAND": 1020,
+      "DETAIL_DEFERRED_PACK_FOLD_TAPE": 1090,
+      "DETAIL_DEFERRED_LOADING_HAND": 1158
+    }
+  },
+  "same_names": true,
+  "same_geometry": true,
+  "same_camera_all_325": true,
+  "same_lens_all_325": true,
+  "same_object_world_matrices_all_325": true,
+  "differing_frames": [],
+  "motion_camera_equivalent_for_preview": true
+}

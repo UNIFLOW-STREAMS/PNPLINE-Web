@@ -1,0 +1,11 @@
+{
+  "source": {
+    "path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+    "sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665"
+  },
+  "git_head": "b56acf916901ce24be69686ef349ed61b437d608",
+  "notion_matches_prior_snapshot": true,
+  "model": "unconfirmed",
+  "reasoning_effort": "unconfirmed",
+  "prior_master_preserved": true
+}

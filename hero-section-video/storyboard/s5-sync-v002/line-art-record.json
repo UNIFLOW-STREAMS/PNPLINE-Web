@@ -1,0 +1,348 @@
+{
+  "status": "complete",
+  "run_id": "9556881d4884",
+  "arguments": {
+    "input": "F:/pnpline-landing/hero-section-video/blockout/s5-integration-v001/master-s5-integration-v001.blend",
+    "scene": "PNPLINE_MASTER_v005",
+    "camera": "CAM_MASTER",
+    "selection": "F:/pnpline-landing/hero-section-video/storyboard/s5-sync-v002/storyboard-selection.json",
+    "raw_record": "F:/pnpline-landing/hero-section-video/storyboard/s5-sync-v001/render-record.json",
+    "output": "F:/pnpline-landing/hero-section-video/storyboard/s5-sync-v002"
+  },
+  "source_path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+  "source_sha256": "8c76f0e184bc742309cf66dcf9f3f5fa7072e02b54b58e6985a91ff1ae57b665",
+  "scene": "PNPLINE_MASTER_v005",
+  "camera": "CAM_MASTER",
+  "resolution": [
+    960,
+    540
+  ],
+  "pixel_aspect": [
+    1.0,
+    1.0
+  ],
+  "selection_sha256": "bb76ef2f4e14aec7ebb2b29cbc9617b7652c248ecb273643b9b7b311cf5e412b",
+  "render_script_sha256": "10d89e4cd5aec06ae2f2c11662efa91c84cad68af18ae425244c8a5dad7ee10e",
+  "lineage_script_sha256": "e2488b3526afd577cfb48e62bc11b4cdc03f1029c31394922b51307a066bfd9e",
+  "original_render_record": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\render-record.json",
+  "original_render_record_sha256": "db58bf620de8c2e6ab9259cfaebdcb780e760d10e86727fe66c4406b237345c1",
+  "started_utc": "2026-10-08T16:15:54.080035+00:00",
+  "method": "Blender EEVEE white emission override + Freestyle visible silhouette/border/crease/material edges",
+  "settings": {
+    "line_thickness": 1,
+    "linestyle_thickness": 1.1,
+    "color": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "view_transform": "Standard",
+    "look": "None",
+    "exposure": 0,
+    "gamma": 1,
+    "border": false,
+    "crop": false
+  },
+  "images": [
+    {
+      "id": "S5-01",
+      "frame": 672,
+      "raw_sha256": "557510e93ab2d5713eeb1bf5964368b2dbfdf30f0d6ad0ec1c448dcd25f74695",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0672.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.0316825807094574,
+            0.5956253409385681,
+            -0.8026374578475952,
+            53.321754455566406
+          ],
+          [
+            -0.9993888735771179,
+            0.007008224260061979,
+            -0.03424832224845886,
+            12.0
+          ],
+          [
+            -0.0147740188986063,
+            0.803231954574585,
+            0.5954832434654236,
+            137.88389587402344
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 29.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-01-f672.png",
+      "sha256": "f9520d2f43595c5ef8cedb57170b0b301f4d7fb3d74acd2904816ee297f0e4a8"
+    },
+    {
+      "id": "S5-02",
+      "frame": 720,
+      "raw_sha256": "3864455c7c5b22ab57c8caf6436109eddf3963e2fbd2a5dfa68a70dc3e21af5d",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0720.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.08592621982097626,
+            0.6051380634307861,
+            -0.7914699912071228,
+            71.13361358642578
+          ],
+          [
+            -0.9954954981803894,
+            0.02019943669438362,
+            -0.09263236075639725,
+            13.5
+          ],
+          [
+            -0.04006808251142502,
+            0.7958643436431885,
+            0.6041477918624878,
+            129.57809448242188
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 29.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-02-f720.png",
+      "sha256": "7a280091a7e5e9a7c49beec82ed0688b407aee4e51764fcf00dac1b838b21f87"
+    },
+    {
+      "id": "S5-03",
+      "frame": 732,
+      "raw_sha256": "575a1518ffcce7a0d8e98726b05b2113e810d7798cf11658df53b2f3ad727df8",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0732.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.000952422502450645,
+            0.619939923286438,
+            -0.7846488356590271,
+            75.27538299560547
+          ],
+          [
+            -0.9999995231628418,
+            0.00024179797037504613,
+            -0.0010228183818981051,
+            15.49311637878418
+          ],
+          [
+            -0.00044429453555494547,
+            0.7846493721008301,
+            0.6199396848678589,
+            127.48439025878906
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 29.088205337524414,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-03-f732.png",
+      "sha256": "b4a52636442f1dcd878504b66157ffbd6efca68350caa1ed98cceccf98c9fea1"
+    },
+    {
+      "id": "S5-03A",
+      "frame": 766,
+      "raw_sha256": "b43a23c300268fe7aff81559dd7d70435a885064c0e1c49d11ac43817c24dc57",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0766.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.4171149730682373,
+            0.7606592178344727,
+            -0.4974060654640198,
+            82.68958282470703
+          ],
+          [
+            -0.887796938419342,
+            0.22388781607151031,
+            -0.4021082818508148,
+            15.521486282348633
+          ],
+          [
+            -0.19450412690639496,
+            0.6093209385871887,
+            0.7686977386474609,
+            125.55321502685547
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 30.162586212158203,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-03A-f766.png",
+      "sha256": "4cb4f5a50d7db9f3100e6d502e9f4f5c42c4d5c0c54dcf0511fc7650bab18efd"
+    },
+    {
+      "id": "S5-04",
+      "frame": 842,
+      "raw_sha256": "f53fed7f55b799bf93df432be9491a65bf89039de93ddf0e12bdf1534e164262",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0842.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.8266558647155762,
+            0.20073843002319336,
+            0.5256845355033875,
+            92.1738510131836
+          ],
+          [
+            0.4099370241165161,
+            0.42512980103492737,
+            -0.8069798350334167,
+            19.28448486328125
+          ],
+          [
+            -0.3854760229587555,
+            0.8825921416282654,
+            0.2691459059715271,
+            120.25581359863281
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 35.07799530029297,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-04-f842.png",
+      "sha256": "8c6b6e872a533dbeee95a1e4bedb1846ffeb609d4e0b83d3cc54952d5e86d75f"
+    },
+    {
+      "id": "S5-05",
+      "frame": 900,
+      "raw_sha256": "e6b88332233474711741fec2f70e5d79bbc1872869b86cebf83b90c99c5ff995",
+      "raw_path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v001\\raw\\20261008T131147Z-e2afde9a\\0900.png",
+      "camera_state": {
+        "world_matrix": [
+          [
+            0.7587302327156067,
+            0.14395281672477722,
+            0.6352999806404114,
+            98.83033752441406
+          ],
+          [
+            0.5469486713409424,
+            0.3889245390892029,
+            -0.741339921951294,
+            21.5
+          ],
+          [
+            -0.3538016974925995,
+            0.9099534153938293,
+            0.21635399758815765,
+            116.11121368408203
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lens_mm": 38.742671966552734,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          36.0,
+          24.0
+        ],
+        "type": "PERSP",
+        "clip": [
+          0.07999999821186066,
+          1500.0
+        ]
+      },
+      "path": "F:\\pnpline-landing\\hero-section-video\\storyboard\\s5-sync-v002\\line-art\\9556881d4884\\S5-05-f900.png",
+      "sha256": "40152ba86abfab281882a28299d6d570a124e3ba423b72484d8637724ca81025"
+    }
+  ]
+}
