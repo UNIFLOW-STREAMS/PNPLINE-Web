@@ -1,0 +1,15 @@
+{
+  "changed_meshes": [
+    "CR_CROSS_MEMBER",
+    "CR_CROSS_MEMBER.003",
+    "CR_STAY",
+    "CR_STAY.001",
+    "CR_STAY.002",
+    "CR_STAY.003"
+  ],
+  "transverse_stay_anchor_factor": 1.8,
+  "outer_anchor_halfwidth_m": 1.35,
+  "carriage_rail_wheel_halfwidth_m": 0.86,
+  "original_blocking_review": "Stay-to-wheel intersections f0-106, and inherited stay-to-carriage body intersections",
+  "actions_unchanged": true
+}

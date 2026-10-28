@@ -1,0 +1,15 @@
+{
+  "source": "candidate-v003.blend",
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\candidate-v004.blend",
+  "before_toe_sea_clearance_minmax": [
+    -0.03414398431777954,
+    1.2050390243530273
+  ],
+  "correction_minmax": [
+    -1.265039024353027,
+    -0.025856015682220512
+  ],
+  "after_toe_submerged_m": 0.06,
+  "top_rim_unchanged": true,
+  "XY_contours_unchanged": true
+}

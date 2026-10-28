@@ -1,0 +1,16 @@
+{
+  "city_offset_world_y": 4.6,
+  "jib_longitudinal_factor": 2.05,
+  "load_radius": 8.777658454336157,
+  "US_terrace_front_bottom_y": 3.3,
+  "changed_actions": [
+    "CR_SLEW_JIB",
+    "CR_TROLLEY_CARRIAGE",
+    "CR_SUSPENSION_HEAD",
+    "P01_SPREADER",
+    "CR_WORKING_CABLE",
+    "CR_WORKING_CABLE.001",
+    "CR_WORKING_CABLE.002",
+    "CR_WORKING_CABLE.003"
+  ]
+}

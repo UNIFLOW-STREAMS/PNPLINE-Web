@@ -1,0 +1,20 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v002.blend",
+  "sha256": "37fa14b4e0123cb94da18de2338af1a1bccbf69341cc96b64949719e6045ec7e",
+  "checks": {
+    "all_512_toes_submerged_6cm": true,
+    "coast_xy_contour_unchanged": true,
+    "upper_city_rim_unchanged": true,
+    "chosen_CN_rotation_unchanged": true,
+    "layout_rotation_unchanged": true,
+    "camera_clear_of_static_city_surfaces": true
+  },
+  "toe_clearance_minmax": [
+    -0.06000000238418579,
+    -0.059999942779541016
+  ],
+  "camera_min_surface_distance_m": 1.9189316034317017,
+  "camera_min_frame": 0,
+  "rim_max_error_m": 0.0,
+  "xy_max_error_m": 0.0
+}

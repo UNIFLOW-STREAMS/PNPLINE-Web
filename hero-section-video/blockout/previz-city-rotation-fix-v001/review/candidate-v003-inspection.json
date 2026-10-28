@@ -1,0 +1,2590 @@
+{
+  "geometry": {
+    "SF_COAST_FOLDED_FACE": {
+      "type": "MESH",
+      "parent": "SF_WHITE_COAST",
+      "min": [
+        -33.38212585449219,
+        -1.1901112794876099,
+        -5.8302903175354
+      ],
+      "max": [
+        23.045276641845703,
+        32.534969329833984,
+        1.249988317489624
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261815071105957,
+          -5.586420215308863e-08,
+          -0.9063078165054321,
+          -126.88310241699219
+        ],
+        [
+          2.3609210586528206e-08,
+          1.0,
+          -5.063017027850947e-08,
+          4.599999904632568
+        ],
+        [
+          0.9063078165054321,
+          1.4210854715202004e-14,
+          0.42261815071105957,
+          59.16655731201172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "SF_FRONT_LAND": {
+      "type": "MESH",
+      "parent": "SF_WHITE_COAST",
+      "min": [
+        -27.58212661743164,
+        -1.1901112794876099,
+        1.249988317489624
+      ],
+      "max": [
+        15.045276641845703,
+        32.534969329833984,
+        1.249988317489624
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261815071105957,
+          -5.586420215308863e-08,
+          -0.9063078165054321,
+          -126.88310241699219
+        ],
+        [
+          2.3609210586528206e-08,
+          1.0,
+          -5.063017027850947e-08,
+          4.599999904632568
+        ],
+        [
+          0.9063078165054321,
+          1.4210854715202004e-14,
+          0.42261815071105957,
+          59.16655731201172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "US_LAND_TERRACE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "min": [
+        -31.0,
+        3.299999952316284,
+        -103.20304107666016
+      ],
+      "max": [
+        119.0,
+        64.0,
+        0.6799904704093933
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261815071105957,
+          59.16654586791992
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.42261815071105957,
+          0.0,
+          0.9063078165054321,
+          126.88309478759766
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          -23.0,
+          5.0,
+          0.6800000071525574
+        ],
+        [
+          111.0,
+          5.0,
+          0.6800000071525574
+        ],
+        [
+          111.0,
+          56.0,
+          0.6800000071525574
+        ],
+        [
+          -23.0,
+          56.0,
+          0.6800000071525574
+        ],
+        [
+          -31.0,
+          3.299999952316284,
+          -3.328939437866211
+        ],
+        [
+          119.0,
+          3.299999952316284,
+          -66.1072006225586
+        ],
+        [
+          119.0,
+          64.0,
+          -103.20303344726562
+        ],
+        [
+          -31.0,
+          64.0,
+          -19.255638122558594
+        ]
+      ]
+    },
+    "US_QUAY": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "min": [
+        -17.000003814697266,
+        4.0,
+        0.3999958038330078
+      ],
+      "max": [
+        16.999996185302734,
+        12.0,
+        0.8999958038330078
+      ],
+      "location": [
+        0.0,
+        8.0,
+        0.6499999761581421
+      ],
+      "matrix": [
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261815071105957,
+          59.441246032714844
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          -0.42261815071105957,
+          0.0,
+          0.9063078165054321,
+          127.47219848632812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          -17.0,
+          -4.0,
+          -0.25
+        ],
+        [
+          -17.0,
+          -4.0,
+          0.25
+        ],
+        [
+          -17.0,
+          4.0,
+          -0.25
+        ],
+        [
+          -17.0,
+          4.0,
+          0.25
+        ],
+        [
+          17.0,
+          -4.0,
+          -0.25
+        ],
+        [
+          17.0,
+          -4.0,
+          0.25
+        ],
+        [
+          17.0,
+          4.0,
+          -0.25
+        ],
+        [
+          17.0,
+          4.0,
+          0.25
+        ]
+      ]
+    },
+    "CN_FRAME": {
+      "type": "EMPTY",
+      "parent": null,
+      "min": [
+        0.0,
+        0.0,
+        1.1444091796875e-05
+      ],
+      "max": [
+        0.0,
+        0.0,
+        1.1444091796875e-05
+      ],
+      "location": [
+        -126.88310241699219,
+        0.0,
+        59.16655731201172
+      ],
+      "matrix": [
+        [
+          -0.42261815071105957,
+          1.891774914497546e-08,
+          -0.9063078165054321,
+          -126.88310241699219
+        ],
+        [
+          6.381356598694765e-08,
+          -1.0,
+          -5.063017027850947e-08,
+          0.0
+        ],
+        [
+          -0.9063078165054321,
+          -7.923195965986451e-08,
+          0.42261815071105957,
+          59.16655731201172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "SF_CN_LAYOUT": {
+      "type": "EMPTY",
+      "parent": "CN_FRAME",
+      "min": [
+        0.0,
+        4.599999904632568,
+        1.1444091796875e-05
+      ],
+      "max": [
+        0.0,
+        4.599999904632568,
+        1.1444091796875e-05
+      ],
+      "location": [
+        0.0,
+        -4.599999904632568,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261815071105957,
+          -5.586420215308863e-08,
+          -0.9063078165054321,
+          -126.88310241699219
+        ],
+        [
+          2.3609210586528206e-08,
+          1.0,
+          -5.063017027850947e-08,
+          4.599999904632568
+        ],
+        [
+          0.9063078165054321,
+          1.4210854715202004e-14,
+          0.42261815071105957,
+          59.16655731201172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "US_FRAME": {
+      "type": "EMPTY",
+      "parent": null,
+      "min": [
+        -4.547473508864641e-13,
+        0.0,
+        -9.5367431640625e-06
+      ],
+      "max": [
+        -4.547473508864641e-13,
+        0.0,
+        -9.5367431640625e-06
+      ],
+      "location": [
+        59.16654586791992,
+        0.0,
+        126.88309478759766
+      ],
+      "matrix": [
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261815071105957,
+          59.16654586791992
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.42261815071105957,
+          0.0,
+          0.9063078165054321,
+          126.88309478759766
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "CR_COMPACT_GANTRY": {
+      "type": "EMPTY",
+      "parent": "SF_CN_LAYOUT",
+      "min": [
+        -4.7219714360835496e-08,
+        -2.0,
+        -1.157573024102021e-05
+      ],
+      "max": [
+        -4.7219714360835496e-08,
+        -2.0,
+        -1.157573024102021e-05
+      ],
+      "location": [
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261815071105957,
+          -5.586420215308863e-08,
+          -0.9063078165054321,
+          -126.88310241699219
+        ],
+        [
+          2.3609210586528206e-08,
+          1.0,
+          -5.063017027850947e-08,
+          2.5999999046325684
+        ],
+        [
+          0.9063078165054321,
+          1.4210854715202004e-14,
+          0.42261815071105957,
+          59.16655731201172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "CR_SLEW_JIB": {
+      "type": "EMPTY",
+      "parent": "CR_COMPACT_GANTRY",
+      "min": [
+        1.8296319246292114,
+        2.8670613765716553,
+        6.499993801116943
+      ],
+      "max": [
+        1.8296319246292114,
+        2.8670613765716553,
+        6.499993801116943
+      ],
+      "location": [
+        1.829637885093689,
+        4.867061614990234,
+        6.5
+      ],
+      "matrix": [
+        [
+          0.2823241353034973,
+          0.3144824206829071,
+          -0.9063078165054321,
+          -132.00086975097656
+        ],
+        [
+          -0.7441290616989136,
+          0.6680359244346619,
+          -5.063017027850947e-08,
+          7.4670610427856445
+        ],
+        [
+          0.6054461598396301,
+          0.6744099855422974,
+          0.42261815071105957,
+          63.5717887878418
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "A02_SHIP": {
+      "type": "EMPTY",
+      "parent": null,
+      "min": [
+        0.0,
+        0.0,
+        3.814697265625e-06
+      ],
+      "max": [
+        0.0,
+        0.0,
+        3.814697265625e-06
+      ],
+      "location": [
+        -126.88309478759766,
+        0.0,
+        59.16655349731445
+      ],
+      "matrix": [
+        [
+          0.42261821031570435,
+          0.0,
+          -0.9063078165054321,
+          -126.88309478759766
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261821031570435,
+          59.16655349731445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "SF_HULL_BLUE": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "min": [
+        -7.0,
+        -2.5999999046325684,
+        -0.29999619722366333
+      ],
+      "max": [
+        7.300000190734863,
+        2.5999999046325684,
+        0.7800037860870361
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261821031570435,
+          0.0,
+          -0.9063078165054321,
+          -126.88309478759766
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261821031570435,
+          59.16655349731445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          -7.0,
+          -2.0999999046325684,
+          0.7799999713897705
+        ],
+        [
+          -6.5,
+          -2.5999999046325684,
+          0.7799999713897705
+        ],
+        [
+          4.800000190734863,
+          -2.5999999046325684,
+          0.7799999713897705
+        ],
+        [
+          6.300000190734863,
+          -1.7999999523162842,
+          0.7799999713897705
+        ],
+        [
+          7.300000190734863,
+          0.0,
+          0.7799999713897705
+        ],
+        [
+          6.300000190734863,
+          1.7999999523162842,
+          0.7799999713897705
+        ],
+        [
+          4.800000190734863,
+          2.5999999046325684,
+          0.7799999713897705
+        ],
+        [
+          -6.5,
+          2.5999999046325684,
+          0.7799999713897705
+        ],
+        [
+          -7.0,
+          2.0999999046325684,
+          0.7799999713897705
+        ],
+        [
+          -7.0,
+          -2.0999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -6.5,
+          -2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          4.800000190734863,
+          -2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          6.300000190734863,
+          -1.7999999523162842,
+          -0.30000001192092896
+        ],
+        [
+          7.300000190734863,
+          0.0,
+          -0.30000001192092896
+        ],
+        [
+          6.300000190734863,
+          1.7999999523162842,
+          -0.30000001192092896
+        ],
+        [
+          4.800000190734863,
+          2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -6.5,
+          2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -7.0,
+          2.0999999046325684,
+          -0.30000001192092896
+        ]
+      ]
+    },
+    "SF_HULL_RED": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "min": [
+        -7.0,
+        -2.5999999046325684,
+        -0.6799961924552917
+      ],
+      "max": [
+        7.300000190734863,
+        2.5999999046325684,
+        -0.29999619722366333
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          0.42261821031570435,
+          0.0,
+          -0.9063078165054321,
+          -126.88309478759766
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261821031570435,
+          59.16655349731445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          -7.0,
+          -2.0999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -6.5,
+          -2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          4.800000190734863,
+          -2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          6.300000190734863,
+          -1.7999999523162842,
+          -0.30000001192092896
+        ],
+        [
+          7.300000190734863,
+          0.0,
+          -0.30000001192092896
+        ],
+        [
+          6.300000190734863,
+          1.7999999523162842,
+          -0.30000001192092896
+        ],
+        [
+          4.800000190734863,
+          2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -6.5,
+          2.5999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -7.0,
+          2.0999999046325684,
+          -0.30000001192092896
+        ],
+        [
+          -7.0,
+          -2.0999999046325684,
+          -0.6800000071525574
+        ],
+        [
+          -6.5,
+          -2.5999999046325684,
+          -0.6800000071525574
+        ],
+        [
+          4.800000190734863,
+          -2.5999999046325684,
+          -0.6800000071525574
+        ],
+        [
+          6.300000190734863,
+          -1.7999999523162842,
+          -0.6800000071525574
+        ],
+        [
+          7.300000190734863,
+          0.0,
+          -0.6800000071525574
+        ],
+        [
+          6.300000190734863,
+          1.7999999523162842,
+          -0.6800000071525574
+        ],
+        [
+          4.800000190734863,
+          2.5999999046325684,
+          -0.6800000071525574
+        ],
+        [
+          -6.5,
+          2.5999999046325684,
+          -0.6800000071525574
+        ],
+        [
+          -7.0,
+          2.0999999046325684,
+          -0.6800000071525574
+        ]
+      ]
+    },
+    "P01_SPREADER": {
+      "type": "EMPTY",
+      "parent": null,
+      "min": [
+        0.8000068664550781,
+        -1.2500011920928955,
+        5.83997917175293
+      ],
+      "max": [
+        0.8000068664550781,
+        -1.2500011920928955,
+        5.83997917175293
+      ],
+      "location": [
+        -131.8378143310547,
+        -1.2500011920928955,
+        62.359683990478516
+      ],
+      "matrix": [
+        [
+          0.42261821031570435,
+          0.0,
+          -0.9063078165054321,
+          -131.8378143310547
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2500011920928955
+        ],
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261821031570435,
+          62.359683990478516
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    },
+    "A01_CONTAINER": {
+      "type": "EMPTY",
+      "parent": null,
+      "min": [
+        0.8000030517578125,
+        -1.25,
+        4.9499969482421875
+      ],
+      "max": [
+        0.8000030517578125,
+        -1.25,
+        4.9499969482421875
+      ],
+      "location": [
+        -131.03121948242188,
+        -1.25,
+        61.983558654785156
+      ],
+      "matrix": [
+        [
+          0.42261821031570435,
+          0.0,
+          -0.9063078165054321,
+          -131.03121948242188
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.25
+        ],
+        [
+          0.9063078165054321,
+          0.0,
+          0.42261821031570435,
+          61.983558654785156
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": null
+    }
+  },
+  "dynamic_meshes": [
+    {
+      "name": "SHIP_DECK",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SHIP_BRIDGE",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SHIP_BRIDGE_GLASS",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_-2.6_-1.25",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_UPPER_-2.6_-1.25",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_-2.6_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_UPPER_-2.6_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_0.8_-1.25",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_0.8_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_UPPER_0.8_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_4.2_-1.25",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_UPPER_4.2_-1.25",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_DECK_4.2_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "P03_UPPER_4.2_0.65",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "A01_FLOOR",
+      "parent": "A01_CONTAINER",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_ROOF",
+      "parent": "A01_CONTAINER",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_SIDE_L",
+      "parent": "A01_CONTAINER",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_SIDE_R",
+      "parent": "A01_CONTAINER",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_FRONT",
+      "parent": "A01_CONTAINER",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_DOOR_LEFT_LEAF",
+      "parent": "A01_DOOR_L",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "A01_DOOR_RIGHT_LEAF",
+      "parent": "A01_DOOR_R",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "TRAILER_CHASSIS",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "TRAILER_COUPLING_TONGUE",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "TRACTOR_CHASSIS",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "TRACTOR_CAB",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "TRACTOR_GLASS",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "A03_TRAILER_WHEEL_-0.25-0.85",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "A03_TRAILER_WHEEL_-0.250.85",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "A03_TRAILER_WHEEL_0.25-0.85",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "A03_TRAILER_WHEEL_0.250.85",
+      "parent": "A03_TRAILER",
+      "root": "A03_TRAILER"
+    },
+    {
+      "name": "A03_TRACTOR_WHEEL_0-0.85",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "A03_TRACTOR_WHEEL_00.85",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "A03_TRACTOR_WHEEL_1.65-0.85",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "A03_TRACTOR_WHEEL_1.650.85",
+      "parent": "A03_TRACTOR",
+      "root": "A03_TRACTOR"
+    },
+    {
+      "name": "P02_SPREADER_FRAME",
+      "parent": "P02_SPREADER",
+      "root": "P02_SPREADER"
+    },
+    {
+      "name": "P02_CABLE_0",
+      "parent": null,
+      "root": "P02_CABLE_0"
+    },
+    {
+      "name": "P02_CABLE_1",
+      "parent": null,
+      "root": "P02_CABLE_1"
+    },
+    {
+      "name": "P02_CABLE_2",
+      "parent": null,
+      "root": "P02_CABLE_2"
+    },
+    {
+      "name": "P02_CABLE_3",
+      "parent": null,
+      "root": "P02_CABLE_3"
+    },
+    {
+      "name": "P02_TROLLEY",
+      "parent": "US_FRAME",
+      "root": "US_FRAME"
+    },
+    {
+      "name": "A04_PRIMARY_FLOOR",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_CARGO_SHELL",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_CARGO_SHELL.001",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_CARGO_SHELL.002",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_CAB",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_GLASS",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_WHEEL-1.3-0.91",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_WHEEL-1.30.91",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_WHEEL1.5-0.91",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_WHEEL1.50.91",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_LEFT_LEAF",
+      "parent": "A04_PRIMARY_DOOR_L",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_RIGHT_LEAF",
+      "parent": "A04_PRIMARY_DOOR_R",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A05_SECONDARY_FLOOR",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_CARGO_SHELL",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_CARGO_SHELL.001",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_CARGO_SHELL.002",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_CAB",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_GLASS",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_WHEEL-1.3-0.91",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_WHEEL-1.30.91",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_WHEEL1.5-0.91",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_WHEEL1.50.91",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_LEFT_LEAF",
+      "parent": "A05_SECONDARY_DOOR_L",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_RIGHT_LEAF",
+      "parent": "A05_SECONDARY_DOOR_R",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "W01_NEW_PALLET_BASE",
+      "parent": "W01_NEW_PALLET",
+      "root": "W01_NEW_PALLET"
+    },
+    {
+      "name": "W01_NEW_PALLET_BOX_-0.27-0.22",
+      "parent": "W01_NEW_PALLET",
+      "root": "W01_NEW_PALLET"
+    },
+    {
+      "name": "W01_NEW_PALLET_BOX_-0.270.22",
+      "parent": "W01_NEW_PALLET",
+      "root": "W01_NEW_PALLET"
+    },
+    {
+      "name": "W01_NEW_PALLET_BOX_0.27-0.22",
+      "parent": "W01_NEW_PALLET",
+      "root": "W01_NEW_PALLET"
+    },
+    {
+      "name": "W01_NEW_PALLET_BOX_0.270.22",
+      "parent": "W01_NEW_PALLET",
+      "root": "W01_NEW_PALLET"
+    },
+    {
+      "name": "W01_STORED_PALLET_BASE",
+      "parent": "W01_STORED_PALLET",
+      "root": "W01_STORED_PALLET"
+    },
+    {
+      "name": "W01_STORED_PALLET_BOX_-0.27-0.22",
+      "parent": "W01_STORED_PALLET",
+      "root": "W01_STORED_PALLET"
+    },
+    {
+      "name": "W01_STORED_PALLET_BOX_-0.270.22",
+      "parent": "W01_STORED_PALLET",
+      "root": "W01_STORED_PALLET"
+    },
+    {
+      "name": "W01_STORED_PALLET_BOX_0.27-0.22",
+      "parent": "W01_STORED_PALLET",
+      "root": "W01_STORED_PALLET"
+    },
+    {
+      "name": "W01_STORED_PALLET_BOX_0.270.22",
+      "parent": "W01_STORED_PALLET",
+      "root": "W01_STORED_PALLET"
+    },
+    {
+      "name": "W01_REMAINING_CONTAINER_CARGO_BASE",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "root": "A01_CONTAINER"
+    },
+    {
+      "name": "W02_INBOUND_JACK_FORKS",
+      "parent": "W02_INBOUND_JACK",
+      "root": "W02_INBOUND_JACK"
+    },
+    {
+      "name": "W02_INBOUND_JACK_HANDLE",
+      "parent": "W02_INBOUND_JACK",
+      "root": "W02_INBOUND_JACK"
+    },
+    {
+      "name": "W02_STORAGE_JACK_FORKS",
+      "parent": "W02_STORAGE_JACK",
+      "root": "W02_STORAGE_JACK"
+    },
+    {
+      "name": "W02_STORAGE_JACK_HANDLE",
+      "parent": "W02_STORAGE_JACK",
+      "root": "W02_STORAGE_JACK"
+    },
+    {
+      "name": "W05_PICK_CART_TRAY",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "W05_PICK_CART_CASTER-0.46-0.36",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "W05_PICK_CART_CASTER-0.460.36",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "W05_PICK_CART_CASTER0.46-0.36",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "W05_PICK_CART_CASTER0.460.36",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "W09_OUT_CART_TRAY",
+      "parent": "W09_OUT_CART",
+      "root": "W09_OUT_CART"
+    },
+    {
+      "name": "W09_OUT_CART_CASTER-0.46-0.36",
+      "parent": "W09_OUT_CART",
+      "root": "W09_OUT_CART"
+    },
+    {
+      "name": "W09_OUT_CART_CASTER-0.460.36",
+      "parent": "W09_OUT_CART",
+      "root": "W09_OUT_CART"
+    },
+    {
+      "name": "W09_OUT_CART_CASTER0.46-0.36",
+      "parent": "W09_OUT_CART",
+      "root": "W09_OUT_CART"
+    },
+    {
+      "name": "W09_OUT_CART_CASTER0.460.36",
+      "parent": "W09_OUT_CART",
+      "root": "W09_OUT_CART"
+    },
+    {
+      "name": "W04_CART_ORDER_ALREADY_PICKED",
+      "parent": "W05_PICK_CART",
+      "root": "W05_PICK_CART"
+    },
+    {
+      "name": "LAST_BOX_BODY",
+      "parent": "W08_LAST_LOAD",
+      "root": "W08_LAST_LOAD"
+    },
+    {
+      "name": "CH_LOADER_TORSO",
+      "parent": "CH_LOADER",
+      "root": "US_FRAME"
+    },
+    {
+      "name": "CH_LOADER_HEAD",
+      "parent": "CH_LOADER",
+      "root": "US_FRAME"
+    },
+    {
+      "name": "CH_LOADER_LEG-0.12",
+      "parent": "CH_LOADER",
+      "root": "US_FRAME"
+    },
+    {
+      "name": "CH_LOADER_LEG0.12",
+      "parent": "CH_LOADER",
+      "root": "US_FRAME"
+    },
+    {
+      "name": "CH_LOAD_SUPPORT",
+      "parent": null,
+      "root": "CH_LOAD_SUPPORT"
+    },
+    {
+      "name": "CH_LOAD_ARM_0",
+      "parent": null,
+      "root": "CH_LOAD_ARM_0"
+    },
+    {
+      "name": "CH_LOAD_ARM_1",
+      "parent": null,
+      "root": "CH_LOAD_ARM_1"
+    },
+    {
+      "name": "A04_PRIMARY_PRELOADED-0.8",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A04_PRIMARY_PRELOADED0.2",
+      "parent": "A04_PRIMARY",
+      "root": "A04_PRIMARY"
+    },
+    {
+      "name": "A05_SECONDARY_PRELOADED-0.8",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "A05_SECONDARY_PRELOADED0.2",
+      "parent": "A05_SECONDARY",
+      "root": "A05_SECONDARY"
+    },
+    {
+      "name": "SF_HULL_BLUE",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_HULL_RED",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BOW_DECK",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_LEVEL_0",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_WINDOWS_0",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_LEVEL_1",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_WINDOWS_1",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_LEVEL_2",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_WINDOWS_2",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_LEVEL_3",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_WINDOWS_3",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_BRIDGE_MAST",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.001",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.002",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.003",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.004",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.005",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.006",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.007",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.008",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.009",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.010",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.011",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.012",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.013",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.014",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.015",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.016",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.017",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.018",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.019",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.020",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.021",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.022",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.023",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.024",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.025",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.026",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.027",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.028",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.029",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.030",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.031",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.032",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.033",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.034",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.035",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.036",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.037",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.038",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.039",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.040",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.041",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.042",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.043",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.044",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.045",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.046",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.047",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.048",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.049",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.050",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.051",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.052",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.053",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.054",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.055",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.056",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.057",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.058",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.059",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.060",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.061",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.062",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.063",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.064",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.065",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.066",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.067",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.068",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.069",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.070",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.071",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.072",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.073",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.074",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.075",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.076",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.077",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.078",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.079",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.080",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.081",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.082",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.083",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.084",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.085",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.086",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.087",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.088",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.089",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.090",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.091",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.092",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.093",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.094",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.095",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.096",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.097",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.098",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.099",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.100",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.101",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.102",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.103",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.104",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.105",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.106",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.107",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.108",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.109",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.110",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.111",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.112",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.113",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.114",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.115",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.116",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.117",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.118",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.119",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.120",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.121",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.122",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.123",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.124",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.125",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.126",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.127",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.128",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.129",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.130",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.131",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.132",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.133",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.134",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.135",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.136",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.137",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.138",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.139",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.140",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.141",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.142",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.143",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.144",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.145",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.146",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.147",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.148",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.149",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.150",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.151",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.152",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.153",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.154",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.155",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.156",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.157",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.158",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.159",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.160",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.161",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.162",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.163",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "SF_CARGO_CORRUGATION.164",
+      "parent": "A02_SHIP",
+      "root": "A02_SHIP"
+    },
+    {
+      "name": "CR_HORIZONTAL_BOOM",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_HORIZONTAL_BOOM.001",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CROSS_MEMBER",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CROSS_MEMBER.001",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CROSS_MEMBER.002",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CROSS_MEMBER.003",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_PYLON",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_STAY",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_STAY.001",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_PYLON.001",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_STAY.002",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_STAY.003",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.001",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.002",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.003",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.004",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.005",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.006",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.007",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.008",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.009",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.010",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_BOOM_WEB.011",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_MACHINERY",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CAB",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_CAB_GLASS",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_ROTATING_BEARING",
+      "parent": "CR_SLEW_JIB",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_LIFT_CORE",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TELESCOPIC_ARM",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TWISTLOCK",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TWISTLOCK.001",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TELESCOPIC_ARM.001",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TWISTLOCK.002",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_TWISTLOCK.003",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_SPREAD_END",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_SPREAD_END.001",
+      "parent": "CR_LIFT_VISUAL",
+      "root": "P01_SPREADER"
+    },
+    {
+      "name": "CR_CARRIAGE_BODY",
+      "parent": "CR_TROLLEY_CARRIAGE",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_RAIL_WHEEL",
+      "parent": "CR_TROLLEY_CARRIAGE",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_RAIL_WHEEL.001",
+      "parent": "CR_TROLLEY_CARRIAGE",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_RAIL_WHEEL.002",
+      "parent": "CR_TROLLEY_CARRIAGE",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_RAIL_WHEEL.003",
+      "parent": "CR_TROLLEY_CARRIAGE",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_WINCH_HOUSING",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_TROLLEY_SUSPENSION_PIN",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_TOP_SPREAD_ARM",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_TOP_SPREAD_ARM.001",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_TOP_END_BAR",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_TOP_END_BAR.001",
+      "parent": "CR_SUSPENSION_HEAD",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_WORKING_CABLE",
+      "parent": "SF_CN_LAYOUT",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_WORKING_CABLE.001",
+      "parent": "SF_CN_LAYOUT",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_WORKING_CABLE.002",
+      "parent": "SF_CN_LAYOUT",
+      "root": "CN_FRAME"
+    },
+    {
+      "name": "CR_WORKING_CABLE.003",
+      "parent": "SF_CN_LAYOUT",
+      "root": "CN_FRAME"
+    }
+  ],
+  "static_count": 3374
+}

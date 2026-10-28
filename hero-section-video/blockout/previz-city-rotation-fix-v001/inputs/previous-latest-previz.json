@@ -1,0 +1,12 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-v001\\master-previz-city-rotation-v001.blend",
+  "sha256": "ce36841b9e3418efe1611fdbd9645b6ed9d332ff5db4278974024274d9d6cebb",
+  "adopted_on": "2026-10-29",
+  "choice": "city rotation",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-v001\\delivery.json",
+  "known_issues": [
+    "China folded coast / hull overlap f144-250",
+    "US terrace / hull overlap f427-477"
+  ],
+  "status": "Adopted previz baseline; contact corrections pending"
+}

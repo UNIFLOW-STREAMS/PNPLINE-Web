@@ -1,0 +1,34 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v001.blend",
+  "sha256": "010520bfd36e311be8364a92abc65205d28cad19b1efab7c940c49cde819250c",
+  "sample_range": [
+    0,
+    260
+  ],
+  "step": 0.25,
+  "samples": 1041,
+  "unexpected": {},
+  "intentional_contacts": {
+    "CR_ROTATING_BEARING | CR_FIXED_SLEW_SEAT": [
+      0.0,
+      260.0
+    ],
+    "CR_TWISTLOCK.002 | A01_ROOF": [
+      0.0,
+      81.25
+    ],
+    "CR_TWISTLOCK | A01_ROOF": [
+      0.0,
+      81.25
+    ],
+    "CR_TWISTLOCK.003 | A01_ROOF": [
+      0.0,
+      81.25
+    ],
+    "CR_TWISTLOCK.001 | A01_ROOF": [
+      0.0,
+      81.25
+    ]
+  },
+  "pass": true
+}

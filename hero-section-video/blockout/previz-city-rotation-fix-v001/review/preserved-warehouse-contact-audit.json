@@ -1,0 +1,550 @@
+{
+  "meaning": "Unchanged baseline S4-S7 contacts, not claimed collision-free by this city-rotation correction. Includes intended floor/rail/landing tangency and inherited forklift/support geometry. Whole-frame original transforms and geometry are verified unchanged.",
+  "raw_contacts": {
+    "A03_TRAILER_WHEEL_-0.25-0.85 | US_QUAY": {
+      "first": 0,
+      "last": 710,
+      "samples": 703
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | US_QUAY": {
+      "first": 0,
+      "last": 710,
+      "samples": 704
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | US_QUAY": {
+      "first": 0,
+      "last": 702,
+      "samples": 703
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | US_QUAY": {
+      "first": 0,
+      "last": 702,
+      "samples": 703
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | US_QUAY": {
+      "first": 0,
+      "last": 704,
+      "samples": 704
+    },
+    "A03_TRACTOR_WHEEL_00.85 | US_QUAY": {
+      "first": 0,
+      "last": 703,
+      "samples": 703
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | US_QUAY": {
+      "first": 0,
+      "last": 701,
+      "samples": 702
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | US_QUAY": {
+      "first": 0,
+      "last": 701,
+      "samples": 702
+    },
+    "P02_TROLLEY | P02_BOOM_3.5": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1393
+    },
+    "P02_TROLLEY | P02_BOOM_-2": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1393
+    },
+    "A04_PRIMARY_FLOOR | E10_LOADING_BRIDGE": {
+      "first": 0,
+      "last": 1201,
+      "samples": 1202
+    },
+    "A04_PRIMARY_CARGO_SHELL | E10_LOADING_BRIDGE": {
+      "first": 0,
+      "last": 1201,
+      "samples": 1202
+    },
+    "A04_PRIMARY_CARGO_SHELL.001 | E10_LOADING_BRIDGE": {
+      "first": 0,
+      "last": 1201,
+      "samples": 1202
+    },
+    "A04_PRIMARY_WHEEL-1.3-0.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1282,
+      "samples": 1283
+    },
+    "A04_PRIMARY_WHEEL-1.30.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1282,
+      "samples": 1283
+    },
+    "A04_PRIMARY_WHEEL1.5-0.91 | E11_ROUTE_1": {
+      "first": 0,
+      "last": 1370,
+      "samples": 1371
+    },
+    "A04_PRIMARY_WHEEL1.5-0.91 | E11_ROUTE_-1": {
+      "first": 0,
+      "last": 1298,
+      "samples": 1299
+    },
+    "A04_PRIMARY_WHEEL1.5-0.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1268,
+      "samples": 1269
+    },
+    "A04_PRIMARY_WHEEL1.50.91 | E11_ROUTE_1": {
+      "first": 0,
+      "last": 1372,
+      "samples": 1373
+    },
+    "A04_PRIMARY_WHEEL1.50.91 | E11_ROUTE_-1": {
+      "first": 0,
+      "last": 1291,
+      "samples": 1292
+    },
+    "A04_PRIMARY_WHEEL1.50.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1268,
+      "samples": 1269
+    },
+    "A04_PRIMARY_LEFT_LEAF | E10_LOADING_BRIDGE": {
+      "first": 0,
+      "last": 1205,
+      "samples": 1206
+    },
+    "A04_PRIMARY_RIGHT_LEAF | E10_LOADING_BRIDGE": {
+      "first": 0,
+      "last": 1205,
+      "samples": 1206
+    },
+    "A05_SECONDARY_WHEEL-1.3-0.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1318,
+      "samples": 1319
+    },
+    "A05_SECONDARY_WHEEL-1.30.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1318,
+      "samples": 1319
+    },
+    "A05_SECONDARY_WHEEL1.5-0.91 | A05_WAIT_MERGE": {
+      "first": 0,
+      "last": 1300,
+      "samples": 1301
+    },
+    "A05_SECONDARY_WHEEL1.5-0.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1297,
+      "samples": 1298
+    },
+    "A05_SECONDARY_WHEEL1.50.91 | A05_WAIT_MERGE": {
+      "first": 0,
+      "last": 1298,
+      "samples": 1299
+    },
+    "A05_SECONDARY_WHEEL1.50.91 | E10_OUTBOUND_YARD": {
+      "first": 0,
+      "last": 1294,
+      "samples": 1295
+    },
+    "W02_INBOUND_JACK_FORKS | INBOUND_WAIT_ZONE": {
+      "first": 0,
+      "last": 960,
+      "samples": 935
+    },
+    "W02_INBOUND_JACK_FORKS | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 961,
+      "samples": 949
+    },
+    "W05_PICK_CART_CASTER-0.46-0.36 | PICKING_ZONE": {
+      "first": 0,
+      "last": 1055,
+      "samples": 1056
+    },
+    "W05_PICK_CART_CASTER-0.46-0.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1379
+    },
+    "W05_PICK_CART_CASTER-0.460.36 | PICKING_ZONE": {
+      "first": 0,
+      "last": 1055,
+      "samples": 1056
+    },
+    "W05_PICK_CART_CASTER-0.460.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1379
+    },
+    "W05_PICK_CART_CASTER0.46-0.36 | PICKING_ZONE": {
+      "first": 0,
+      "last": 1049,
+      "samples": 1050
+    },
+    "W05_PICK_CART_CASTER0.46-0.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1389
+    },
+    "W05_PICK_CART_CASTER0.460.36 | PICKING_ZONE": {
+      "first": 0,
+      "last": 1049,
+      "samples": 1050
+    },
+    "W05_PICK_CART_CASTER0.460.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1389
+    },
+    "W09_OUT_CART_CASTER-0.46-0.36 | PACKING_ZONE": {
+      "first": 0,
+      "last": 1092,
+      "samples": 1093
+    },
+    "W09_OUT_CART_CASTER-0.460.36 | PACKING_ZONE": {
+      "first": 0,
+      "last": 1092,
+      "samples": 1093
+    },
+    "W09_OUT_CART_CASTER0.46-0.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1384
+    },
+    "W09_OUT_CART_CASTER0.460.36 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1384
+    },
+    "CH_LOADER_LEG-0.12 | OUTBOUND_WAIT_ZONE": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1352
+    },
+    "CH_LOADER_LEG-0.12 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1354
+    },
+    "CH_LOADER_LEG0.12 | OUTBOUND_WAIT_ZONE": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1352
+    },
+    "CH_LOADER_LEG0.12 | WAREHOUSE_FLOOR": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1354
+    },
+    "P02_TROLLEY | P02_LEG_-25": {
+      "first": 578,
+      "last": 583,
+      "samples": 6
+    },
+    "P02_TROLLEY | P02_LEG_3.55": {
+      "first": 578,
+      "last": 583,
+      "samples": 6
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | E07_INBOUND_ROAD": {
+      "first": 702,
+      "last": 764,
+      "samples": 40
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | E07_INBOUND_ROAD": {
+      "first": 702,
+      "last": 765,
+      "samples": 47
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | E07_INBOUND_ROAD": {
+      "first": 706,
+      "last": 768,
+      "samples": 40
+    },
+    "A03_TRACTOR_WHEEL_00.85 | E07_INBOUND_ROAD": {
+      "first": 706,
+      "last": 770,
+      "samples": 42
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | E07_INBOUND_ROAD": {
+      "first": 709,
+      "last": 772,
+      "samples": 42
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | E07_INBOUND_ROAD": {
+      "first": 709,
+      "last": 773,
+      "samples": 45
+    },
+    "A03_TRAILER_WHEEL_-0.25-0.85 | E07_INBOUND_ROAD": {
+      "first": 710,
+      "last": 773,
+      "samples": 43
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | E07_INBOUND_ROAD": {
+      "first": 710,
+      "last": 775,
+      "samples": 39
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | US_LAND_TERRACE": {
+      "first": 731,
+      "last": 737,
+      "samples": 5
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | US_LAND_TERRACE": {
+      "first": 734,
+      "last": 736,
+      "samples": 3
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | E09_MANEUVER_YARD": {
+      "first": 765,
+      "last": 886,
+      "samples": 41
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | E09_MANEUVER_YARD": {
+      "first": 766,
+      "last": 888,
+      "samples": 54
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | E09_MANEUVER_YARD": {
+      "first": 769,
+      "last": 887,
+      "samples": 62
+    },
+    "A03_TRACTOR_WHEEL_00.85 | E09_MANEUVER_YARD": {
+      "first": 770,
+      "last": 887,
+      "samples": 66
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | E09_MANEUVER_YARD": {
+      "first": 772,
+      "last": 888,
+      "samples": 75
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | E09_MANEUVER_YARD": {
+      "first": 775,
+      "last": 888,
+      "samples": 29
+    },
+    "A03_TRAILER_WHEEL_-0.25-0.85 | E09_MANEUVER_YARD": {
+      "first": 776,
+      "last": 1392,
+      "samples": 538
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | E09_MANEUVER_YARD": {
+      "first": 784,
+      "last": 888,
+      "samples": 70
+    },
+    "A01_FLOOR | DOCK_BRIDGE": {
+      "first": 887,
+      "last": 1392,
+      "samples": 506
+    },
+    "A01_FLOOR | WAREHOUSE_FLOOR": {
+      "first": 890,
+      "last": 1392,
+      "samples": 503
+    },
+    "TRAILER_CHASSIS | WAREHOUSE_FLOOR": {
+      "first": 890,
+      "last": 1392,
+      "samples": 503
+    },
+    "W02_INBOUND_JACK_FORKS | DOCK_BRIDGE": {
+      "first": 904,
+      "last": 925,
+      "samples": 15
+    },
+    "W02_INBOUND_JACK_HANDLE | DOCK_BRIDGE": {
+      "first": 925,
+      "last": 925,
+      "samples": 1
+    },
+    "W02_INBOUND_JACK_HANDLE | INBOUND_WAIT_ZONE": {
+      "first": 955,
+      "last": 1392,
+      "samples": 438
+    },
+    "W02_INBOUND_JACK_HANDLE | WAREHOUSE_FLOOR": {
+      "first": 958,
+      "last": 1392,
+      "samples": 435
+    },
+    "W01_NEW_PALLET_BASE | INBOUND_WAIT_ZONE": {
+      "first": 962,
+      "last": 1392,
+      "samples": 431
+    },
+    "W01_NEW_PALLET_BASE | WAREHOUSE_FLOOR": {
+      "first": 966,
+      "last": 1392,
+      "samples": 427
+    },
+    "W02_STORAGE_JACK_HANDLE | RACK_SHELF_44_32.5_2.1": {
+      "first": 1003,
+      "last": 1038,
+      "samples": 36
+    },
+    "W02_STORAGE_JACK_FORKS | RACK_SHELF_44_32.5_2.1": {
+      "first": 1004,
+      "last": 1037,
+      "samples": 30
+    },
+    "W01_STORED_PALLET_BASE | RACK_SHELF_44_32.5_2.1": {
+      "first": 1026,
+      "last": 1392,
+      "samples": 367
+    },
+    "W05_PICK_CART_CASTER0.46-0.36 | PACKING_ZONE": {
+      "first": 1072,
+      "last": 1392,
+      "samples": 321
+    },
+    "W05_PICK_CART_CASTER0.460.36 | PACKING_ZONE": {
+      "first": 1072,
+      "last": 1392,
+      "samples": 321
+    },
+    "W09_OUT_CART_CASTER-0.46-0.36 | WAREHOUSE_FLOOR": {
+      "first": 1091,
+      "last": 1392,
+      "samples": 284
+    },
+    "W09_OUT_CART_CASTER-0.460.36 | WAREHOUSE_FLOOR": {
+      "first": 1091,
+      "last": 1392,
+      "samples": 284
+    },
+    "W09_OUT_CART_CASTER0.46-0.36 | OUTBOUND_WAIT_ZONE": {
+      "first": 1110,
+      "last": 1140,
+      "samples": 31
+    },
+    "W09_OUT_CART_CASTER0.460.36 | OUTBOUND_WAIT_ZONE": {
+      "first": 1110,
+      "last": 1140,
+      "samples": 31
+    },
+    "W09_OUT_CART_CASTER-0.46-0.36 | OUTBOUND_WAIT_ZONE": {
+      "first": 1116,
+      "last": 1177,
+      "samples": 62
+    },
+    "W09_OUT_CART_CASTER-0.460.36 | OUTBOUND_WAIT_ZONE": {
+      "first": 1116,
+      "last": 1183,
+      "samples": 68
+    },
+    "CH_LOADER_LEG-0.12 | E10_LOADING_BRIDGE": {
+      "first": 1158,
+      "last": 1182,
+      "samples": 25
+    },
+    "CH_LOADER_LEG0.12 | E10_LOADING_BRIDGE": {
+      "first": 1158,
+      "last": 1182,
+      "samples": 25
+    },
+    "CH_LOAD_SUPPORT | E10_LOADING_BRIDGE": {
+      "first": 1162,
+      "last": 1164,
+      "samples": 3
+    },
+    "CH_LOAD_ARM_0 | E10_LOADING_BRIDGE": {
+      "first": 1162,
+      "last": 1164,
+      "samples": 3
+    },
+    "A04_PRIMARY_WHEEL-1.3-0.91 | E11_ROUTE_1": {
+      "first": 1225,
+      "last": 1392,
+      "samples": 168
+    },
+    "A04_PRIMARY_WHEEL-1.3-0.91 | E11_ROUTE_-1": {
+      "first": 1225,
+      "last": 1306,
+      "samples": 82
+    },
+    "A04_PRIMARY_WHEEL-1.30.91 | E11_ROUTE_1": {
+      "first": 1225,
+      "last": 1392,
+      "samples": 168
+    },
+    "A04_PRIMARY_WHEEL-1.30.91 | E11_ROUTE_-1": {
+      "first": 1225,
+      "last": 1300,
+      "samples": 76
+    },
+    "A04_PRIMARY_WHEEL1.50.91 | A05_WAIT_MERGE": {
+      "first": 1244,
+      "last": 1273,
+      "samples": 30
+    },
+    "A04_PRIMARY_WHEEL-1.30.91 | A05_WAIT_MERGE": {
+      "first": 1261,
+      "last": 1287,
+      "samples": 27
+    },
+    "A04_PRIMARY_WHEEL1.5-0.91 | A05_WAIT_MERGE": {
+      "first": 1262,
+      "last": 1273,
+      "samples": 12
+    },
+    "A05_SECONDARY_WHEEL-1.30.91 | A05_WAIT_MERGE": {
+      "first": 1270,
+      "last": 1325,
+      "samples": 56
+    },
+    "A05_SECONDARY_WHEEL-1.3-0.91 | A05_WAIT_MERGE": {
+      "first": 1272,
+      "last": 1324,
+      "samples": 53
+    },
+    "A04_PRIMARY_WHEEL-1.3-0.91 | A05_WAIT_MERGE": {
+      "first": 1277,
+      "last": 1287,
+      "samples": 11
+    },
+    "A05_SECONDARY_WHEEL1.5-0.91 | E11_ROUTE_1": {
+      "first": 1286,
+      "last": 1329,
+      "samples": 44
+    },
+    "A05_SECONDARY_WHEEL1.5-0.91 | E11_ROUTE_-1": {
+      "first": 1286,
+      "last": 1381,
+      "samples": 96
+    },
+    "A05_SECONDARY_WHEEL1.50.91 | E11_ROUTE_1": {
+      "first": 1292,
+      "last": 1335,
+      "samples": 44
+    },
+    "A05_SECONDARY_WHEEL1.50.91 | E11_ROUTE_-1": {
+      "first": 1292,
+      "last": 1379,
+      "samples": 88
+    },
+    "A05_SECONDARY_WHEEL-1.3-0.91 | E11_ROUTE_1": {
+      "first": 1293,
+      "last": 1337,
+      "samples": 45
+    },
+    "A05_SECONDARY_WHEEL-1.3-0.91 | E11_ROUTE_-1": {
+      "first": 1293,
+      "last": 1392,
+      "samples": 100
+    },
+    "A05_SECONDARY_WHEEL-1.30.91 | E11_ROUTE_1": {
+      "first": 1303,
+      "last": 1341,
+      "samples": 39
+    },
+    "A05_SECONDARY_WHEEL-1.30.91 | E11_ROUTE_-1": {
+      "first": 1303,
+      "last": 1392,
+      "samples": 90
+    }
+  }
+}

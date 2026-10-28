@@ -1,0 +1,74 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v002.blend",
+  "sha256": "37fa14b4e0123cb94da18de2338af1a1bccbf69341cc96b64949719e6045ec7e",
+  "results": {
+    "shore_and_cab": {
+      "passed": true,
+      "report": "review/final-gate.json",
+      "checks": null,
+      "samples": 1393
+    },
+    "crane_vs_environment_ship_cargo": {
+      "passed": true,
+      "report": "review/master-previz-city-rotation-fix-v002-dense.json",
+      "checks": null,
+      "samples": 1041
+    },
+    "crane_internal": {
+      "passed": true,
+      "report": "review/master-previz-city-rotation-fix-v002-internal.json",
+      "checks": null,
+      "samples": 625
+    },
+    "scope_and_timing": {
+      "passed": true,
+      "report": "review/master-previz-city-rotation-fix-v002-scope.json",
+      "checks": {
+        "only_authorized_objects_changed": true,
+        "protected_actions_unchanged": true,
+        "protected_action_links_unchanged": true,
+        "all_1393_frame_protected_world_transforms_exact": true,
+        "timeline_and_fps_unchanged": true,
+        "lift_and_landing_until_f100_preserved": true,
+        "four_feet_on_land": true,
+        "shore_world_y_separation": true,
+        "baseline_hash_intact": true
+      },
+      "samples": null
+    },
+    "coast_connection": {
+      "passed": true,
+      "report": "review/final-coast-connection.json",
+      "checks": {
+        "all_512_toes_submerged_6cm": true,
+        "coast_xy_contour_unchanged": true,
+        "upper_city_rim_unchanged": true,
+        "chosen_CN_rotation_unchanged": true,
+        "layout_rotation_unchanged": true,
+        "camera_clear_of_static_city_surfaces": true
+      },
+      "samples": null
+    }
+  },
+  "normal_connections": [
+    "engaged twistlocks f0-81",
+    "slew bearing",
+    "container seating surfaces on ship and trailer"
+  ],
+  "preserved_baseline_contacts": "review/preserved-warehouse-contact-audit.json",
+  "preview": {
+    "frames": [
+      0,
+      672
+    ],
+    "step": 3,
+    "source_fps": 12,
+    "display_default_speed": 3.5
+  },
+  "independent_review": {
+    "blocking_finding": "Stay/trolley-wheel interference",
+    "resolution": "Outboard stay anchors and supporting end cross-members; internal regression failed before and passed after; six bad pairs removed",
+    "baseline_internal_report": "review/master-previz-city-rotation-fix-v001-internal.json"
+  },
+  "scope": "City rotation collision/interference correction, not a new S4-S7 warehouse redesign"
+}

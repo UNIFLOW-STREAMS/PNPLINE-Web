@@ -1,0 +1,15 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\candidate-v002.blend",
+  "sha256": "cf5b241fadff853347888672c9130d0622fe66ef75977c9991bb5091413a86e3",
+  "frames": 1393,
+  "ship_cargo_scan": [
+    0,
+    672
+  ],
+  "cab_scan": [
+    0,
+    1392
+  ],
+  "crossings": {},
+  "pass": true
+}

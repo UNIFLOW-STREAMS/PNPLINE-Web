@@ -1,0 +1,20 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v002.blend",
+  "sha256": "37fa14b4e0123cb94da18de2338af1a1bccbf69341cc96b64949719e6045ec7e",
+  "baseline": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\inputs\\base.blend",
+  "baseline_sha256": "ce36841b9e3418efe1611fdbd9645b6ed9d332ff5db4278974024274d9d6cebb",
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v001.blend",
+  "candidate_sha256": "010520bfd36e311be8364a92abc65205d28cad19b1efab7c940c49cde819250c",
+  "status": "Verified: city-rotation collision correction complete",
+  "timeline": [
+    0,
+    1392,
+    12,
+    1.0
+  ],
+  "adopted_option": "city rotation",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\verification-summary.json",
+  "review_page": "http://127.0.0.1:18777/review.html",
+  "supersedes": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-v001\\master-previz-city-rotation-v001.blend",
+  "scope": "City rotation collision/interference correction, not a new S4-S7 warehouse redesign"
+}

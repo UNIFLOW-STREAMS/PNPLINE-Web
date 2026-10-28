@@ -1,0 +1,25 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\candidate-v001.blend",
+  "sha256": "f931aadad276d3d933bd46e578f84e8059d507dd2e428f7b114966769c830b2f",
+  "frames": [
+    0,
+    72,
+    120,
+    156,
+    216,
+    250,
+    430,
+    477,
+    582,
+    900,
+    1032,
+    1164
+  ],
+  "fps": 12,
+  "engine": "BLENDER_WORKBENCH",
+  "resolution": [
+    640,
+    360
+  ],
+  "elapsed_s": 17.75317645072937
+}
