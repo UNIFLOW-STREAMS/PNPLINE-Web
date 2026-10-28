@@ -1,0 +1,11 @@
+{
+  "sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "samples": 5569,
+  "frame_step": 0.25,
+  "camera_clearance_lower_bound": 24.418701171875,
+  "actor_clearance_lower_bound": 8.46748161315918,
+  "camera_hits": [],
+  "aabb_overlap_candidates": [],
+  "actor_count": 121,
+  "method": "CN-space AABB screening of each actual mesh envelope; disjoint envelopes prove separation at sampled poses only. Camera radius .12. No continuous collision claim."
+}

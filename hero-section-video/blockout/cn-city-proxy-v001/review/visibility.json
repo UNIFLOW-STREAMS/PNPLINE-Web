@@ -1,0 +1,6077 @@
+{
+  "sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "frames": {
+    "96": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_SPREADER_FRAME": 4
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "P01_SPREADER_FRAME": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 65,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_1": 6,
+          "P01_SPREADER_FRAME": 15,
+          "P01_CABLE_1": 1,
+          "CN_WATER_2": 4,
+          "P01_LEG_-25": 1,
+          "P01_CABLE_2": 3,
+          "CN_WATER_3": 4,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 43,
+        "visible": 39,
+        "occluders": {
+          "CN_LOW_ROOF_1": 1,
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "98": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_SPREADER_FRAME": 4
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_SPREADER_FRAME": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 1,
+        "occluders": {
+          "P01_SPREADER_FRAME": 4,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 62,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_1": 2,
+          "P01_SPREADER_FRAME": 28,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_2": 1,
+          "CN_YARD_STACK_2": 1,
+          "P01_CABLE_2": 2,
+          "CN_WATER_3": 3,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 42,
+        "visible": 37,
+        "occluders": {
+          "CN_LOW_ROOF_1": 1,
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "100": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_SPREADER_FRAME": 4
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_SPREADER_FRAME": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 1,
+        "occluders": {
+          "P01_SPREADER_FRAME": 3,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 59,
+        "visible": 12,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 1,
+          "P01_SPREADER_FRAME": 27,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 3,
+          "CN_WATER_2": 1,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_3": 1,
+          "P01_LEG_-212": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 40,
+        "visible": 36,
+        "occluders": {
+          "CN_LOW_ROOF_1": 1,
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "102": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 2,
+          "CN_WATER_2": 2
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 62,
+        "visible": 19,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_1": 5,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 7,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 2,
+          "P01_SPREADER_FRAME": 7,
+          "CN_YARD_STACK_2": 1,
+          "P01_LEG_-212": 2,
+          "CN_WATER_3": 4,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 42,
+        "visible": 36,
+        "occluders": {
+          "CN_LOW_ROOF_1": 1,
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "104": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 3,
+          "CN_WATER_2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 65,
+        "visible": 20,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_1": 6,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 8,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "P01_LEG_-212": 3,
+          "CN_WATER_3": 8,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 43,
+        "visible": 38,
+        "occluders": {
+          "CN_LOW_ROOF_1": 1,
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "106": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 3,
+          "CN_WATER_2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 66,
+        "visible": 21,
+        "occluders": {
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_1": 6,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 8,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "P01_LEG_-212": 3,
+          "CN_WATER_3": 8,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 46,
+        "visible": 42,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "108": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 3,
+          "CN_WATER_2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 6,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 74,
+        "visible": 28,
+        "occluders": {
+          "CN_WATER_1": 7,
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 8,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "P01_LEG_-212": 3,
+          "CN_WATER_3": 8,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 49,
+        "visible": 44,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "110": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 4,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 2,
+          "CN_WATER_2": 2
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 7,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 84,
+        "visible": 34,
+        "occluders": {
+          "CN_WATER_1": 8,
+          "CN_WATER_0": 2,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 10,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "P01_LEG_-212": 3,
+          "CN_WATER_3": 8,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 48,
+        "visible": 43,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "112": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 43,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 16,
+          "CN_WATER_CORNICE_2_1": 23,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 10,
+        "visible": 4,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 1,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 104,
+        "visible": 40,
+        "occluders": {
+          "CN_WATER_1": 14,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 12,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 8,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 53,
+        "visible": 49,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "114": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 44,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 13,
+          "CN_WATER_CORNICE_2_1": 26,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 15,
+        "visible": 8,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "P01_LEG_-212": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 1,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 107,
+        "visible": 41,
+        "occluders": {
+          "CN_WATER_1": 14,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 12,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 52,
+        "visible": 48,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "116": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 46,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 14,
+          "CN_WATER_CORNICE_2_1": 26,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 1,
+        "visible": 1,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 15,
+        "visible": 7,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "P01_LEG_-212": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 2,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 107,
+        "visible": 41,
+        "occluders": {
+          "CN_WATER_1": 14,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 13,
+          "CN_WATER_2": 4,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 52,
+        "visible": 48,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "118": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 48,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 12,
+          "CN_WATER_CORNICE_2_1": 29,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 2,
+        "visible": 2,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 19,
+        "visible": 6,
+        "occluders": {
+          "CN_WATER_1": 5,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 3,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 114,
+        "visible": 44,
+        "occluders": {
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_YARD_STACK_0": 1,
+          "P01_LEG_-25": 16,
+          "CN_WATER_2": 2,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 6,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 52,
+        "visible": 47,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "120": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 58,
+        "visible": 10,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 11,
+          "CN_WATER_CORNICE_2_1": 33,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 14,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 6,
+          "P01_LEG_3.55": 4
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 2,
+        "visible": 2,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 21,
+        "visible": 8,
+        "occluders": {
+          "CN_WATER_1": 5,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 3,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 127,
+        "visible": 52,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 1,
+          "P01_LEG_-25": 16,
+          "CN_WATER_2": 2,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 6,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 49,
+        "visible": 44,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "122": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 67,
+        "visible": 13,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 7,
+          "CN_WATER_CORNICE_2_1": 38,
+          "CN_LM_SPHERE_TOWER_leg2": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 5
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "P01_LEG_3.55": 7,
+          "CN_HIGH_5": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 3,
+        "visible": 3,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 23,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_1": 5,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.512": 3
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 131,
+        "visible": 58,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 2,
+          "P01_LEG_-25": 12,
+          "CN_WATER_2": 2,
+          "P01_LEG_-212": 15,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 49,
+        "visible": 45,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "124": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 67,
+        "visible": 14,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "P01_LEG_-25": 6,
+          "CN_WATER_CORNICE_2_1": 38,
+          "CN_LM_SPHERE_TOWER_leg2": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 5
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "P01_LEG_3.55": 6,
+          "CN_HIGH_5": 2
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 5,
+        "visible": 5,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 23,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.55": 2,
+          "P01_LEG_3.512": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 133,
+        "visible": 58,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 2,
+          "P01_LEG_-25": 12,
+          "CN_WATER_2": 2,
+          "P01_LEG_-212": 17,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 48,
+        "visible": 44,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_LOW_1": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "126": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 67,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_WATER_CORNICE_2_1": 38,
+          "CN_LM_SPHERE_TOWER_leg2": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 5,
+          "P01_LEG_-25": 2
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "P01_LEG_3.55": 4,
+          "CN_HIGH_5": 4
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 25,
+        "visible": 12,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.55": 3
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 138,
+        "visible": 61,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 2,
+          "P01_LEG_-25": 12,
+          "CN_WATER_2": 2,
+          "P01_LEG_-212": 18,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 47,
+        "visible": 44,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "128": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 71,
+        "visible": 19,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 9,
+          "CN_WATER_CORNICE_2_1": 38,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "P01_LEG_3.55": 2,
+          "CN_HIGH_5": 6
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 14,
+        "visible": 12,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 30,
+        "visible": 14,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 4,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "CN_WATER_CORNICE_4_0.3": 1,
+          "P01_LEG_3.55": 3
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 138,
+        "visible": 63,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 15,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 2,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 6,
+          "P01_LEG_-212": 18,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 46,
+        "visible": 43,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "130": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 71,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 10,
+          "CN_WATER_CORNICE_2_1": 38,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "CN_HIGH_5": 8
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 14,
+        "visible": 12,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 33,
+        "visible": 16,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 4,
+          "P01_LEG_-25": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 142,
+        "visible": 64,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 14,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_YARD_STACK_0": 1,
+          "CN_WATER_DOME": 2,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 6,
+          "P01_LEG_-212": 22,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 46,
+        "visible": 43,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "132": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 72,
+        "visible": 20,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 10,
+          "CN_WATER_CORNICE_2_1": 36,
+          "CN_LM_SPHERE_TOWER_stem": 1,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "CN_HIGH_5": 8
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 14,
+        "visible": 12,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 35,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 4,
+          "P01_LEG_-25": 1,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 147,
+        "visible": 70,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 14,
+          "CN_WATER_0": 5,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_WATER_DOME": 2,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "P01_LEG_-212": 26,
+          "CN_WATER_3": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 45,
+        "visible": 41,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "134": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 73,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 10,
+          "CN_WATER_CORNICE_2_1": 33,
+          "CN_LM_SPHERE_TOWER_stem": 3,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "CN_HIGH_5": 8
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 35,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 4,
+          "P01_LEG_-25": 2,
+          "CN_WATER_3": 1,
+          "CN_WATER_CORNICE_3_1": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 147,
+        "visible": 70,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 12,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_WATER_DOME": 2,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "P01_LEG_-25": 1,
+          "CN_WATER_2": 8,
+          "P01_LEG_-212": 25,
+          "CN_WATER_3": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 45,
+        "visible": 41,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "136": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 74,
+        "visible": 25,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 11,
+          "CN_WATER_CORNICE_2_1": 30,
+          "CN_LM_SPHERE_TOWER_stem": 3,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 18,
+          "CN_HIGH_5": 8
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 35,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_1": 4,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_HIGH_3": 3,
+          "P01_LEG_-25": 3,
+          "CN_WATER_3": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 148,
+        "visible": 69,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 12,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_WATER_DOME": 2,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 8,
+          "P01_LEG_-212": 24,
+          "CN_WATER_3": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 45,
+        "visible": 41,
+        "occluders": {
+          "CN_LOW_ROOF_2": 1,
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "138": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 75,
+        "visible": 28,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 11,
+          "CN_WATER_CORNICE_2_1": 26,
+          "CN_LM_SPHERE_TOWER_stem": 5,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 19,
+          "CN_HIGH_5": 7
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 35,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "P01_LEG_-25": 4,
+          "CN_HIGH_3": 2,
+          "CN_WATER_3": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 148,
+        "visible": 70,
+        "occluders": {
+          "CN_PAV_POST_3": 1,
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 12,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 8,
+          "P01_LEG_-212": 23,
+          "CN_WATER_3": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 43,
+        "visible": 41,
+        "occluders": {
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "140": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 75,
+        "visible": 28,
+        "occluders": {
+          "CN_WATER_2": 4,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 11,
+          "CN_WATER_CORNICE_2_1": 26,
+          "CN_LM_SPHERE_TOWER_stem": 5,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 19,
+          "CN_HIGH_5": 7
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 36,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "P01_LEG_-25": 5,
+          "CN_HIGH_3": 1,
+          "CN_WATER_CORNICE_3_0.3": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 148,
+        "visible": 74,
+        "occluders": {
+          "CN_PAV_POST_3": 1,
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 12,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 8,
+          "P01_LEG_-212": 20,
+          "CN_WATER_3": 2,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 41,
+        "visible": 38,
+        "occluders": {
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "142": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 75,
+        "visible": 31,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 12,
+          "CN_WATER_CORNICE_2_1": 21,
+          "CN_LM_SPHERE_TOWER_stem": 7,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-212": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 20,
+          "CN_HIGH_5": 6
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 36,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "P01_LEG_-25": 5,
+          "CN_HIGH_3": 1,
+          "P01_LEG_3.55": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 151,
+        "visible": 80,
+        "occluders": {
+          "CN_PAV_POST_3": 1,
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 11,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_2": 8,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 8,
+          "CN_WATER_3": 6,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_WATER_SPIRE": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 40,
+        "visible": 37,
+        "occluders": {
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "144": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 75,
+        "visible": 31,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 12,
+          "CN_WATER_CORNICE_2_1": 20,
+          "CN_LM_SPHERE_TOWER_stem": 8,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-212": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 20,
+          "CN_HIGH_5": 6
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 39,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_2": 1,
+          "CN_HIGH_3": 1,
+          "P01_LEG_-25": 5,
+          "P01_LEG_3.55": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_WATER_5": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 152,
+        "visible": 85,
+        "occluders": {
+          "CN_PAV_POST_3": 1,
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 11,
+          "CN_WATER_0": 7,
+          "CN_PAV_ROOF": 2,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "P01_LEG_-212": 6,
+          "P01_LEG_-25": 4,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_WATER_SPIRE": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 38,
+        "visible": 35,
+        "occluders": {
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_0": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "146": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 74,
+        "visible": 33,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 12,
+          "CN_WATER_CORNICE_2_1": 12,
+          "CN_LM_SPHERE_TOWER_stem": 13,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-212": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 20,
+          "CN_HIGH_5": 6
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 19,
+        "visible": 16,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_LM_STEPPED_TOWER_tier3": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 39,
+        "visible": 23,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_2": 1,
+          "CN_HIGH_3": 2,
+          "P01_LEG_-25": 3,
+          "P01_LEG_3.55": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_WATER_5": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 153,
+        "visible": 86,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_PAV_ROOF": 3,
+          "CN_WATER_1": 11,
+          "CN_WATER_0": 7,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_3": 6,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "P01_LEG_-212": 1,
+          "CN_YARD_STACK_3": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_5": 1
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 31,
+        "visible": 29,
+        "occluders": {
+          "CN_PAV_ROOF": 1,
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "148": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 73,
+        "visible": 32,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 12,
+          "CN_WATER_CORNICE_2_1": 12,
+          "CN_LM_SPHERE_TOWER_stem": 13,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-212": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 20,
+          "CN_HIGH_5": 6
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 17,
+        "visible": 15,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 39,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_CORNICE_1_1": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_2": 1,
+          "CN_HIGH_3": 3,
+          "P01_LEG_-25": 2,
+          "P01_LEG_3.512": 2,
+          "P01_LEG_3.55": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "CN_WATER_5": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 165,
+        "visible": 94,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_PAV_ROOF": 3,
+          "CN_WATER_1": 11,
+          "CN_WATER_0": 7,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_3": 6,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 6
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 28,
+        "visible": 27,
+        "occluders": {
+          "CN_PAV_POST_1": 1
+        }
+      }
+    },
+    "150": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 72,
+        "visible": 32,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 12,
+          "CN_WATER_CORNICE_2_1": 11,
+          "CN_LM_SPHERE_TOWER_stem": 13,
+          "CN_LM_SPHERE_TOWER_leg2": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 22,
+          "CN_HIGH_5": 4
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 17,
+        "visible": 14,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.55": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 37,
+        "visible": 21,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_DOME": 1,
+          "CN_WATER_CORNICE_1_1": 2,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_HIGH_3": 3,
+          "P01_LEG_-25": 1,
+          "P01_LEG_-212": 1,
+          "P01_LEG_3.512": 1,
+          "P01_LEG_3.55": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 160,
+        "visible": 94,
+        "occluders": {
+          "CN_WATER_CORNICE_0_1": 1,
+          "CN_WATER_1": 11,
+          "CN_WATER_0": 6,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 7
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 8,
+        "visible": 8,
+        "occluders": {}
+      }
+    },
+    "152": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 71,
+        "visible": 32,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 13,
+          "CN_WATER_CORNICE_2_1": 10,
+          "CN_LM_SPHERE_TOWER_stem": 11,
+          "CN_LM_SPHERE_TOWER_leg2": 2
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 22,
+          "CN_HIGH_5": 4
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 17,
+        "visible": 12,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.55": 3,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 38,
+        "visible": 26,
+        "occluders": {
+          "CN_WATER_1": 2,
+          "CN_WATER_DOME": 1,
+          "CN_WATER_CORNICE_1_1": 2,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_HIGH_3": 2,
+          "P01_LEG_-212": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 151,
+        "visible": 81,
+        "occluders": {
+          "CN_WATER_1": 11,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_WATER_DOME": 3,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "P01_LEG_-25": 19,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 4,
+          "CN_WATER_CLOCK_MASS": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "154": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 71,
+        "visible": 33,
+        "occluders": {
+          "CN_WATER_2": 3,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 13,
+          "CN_WATER_CORNICE_2_1": 9,
+          "CN_LM_SPHERE_TOWER_stem": 11,
+          "CN_LM_SPHERE_TOWER_leg2": 2
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "P01_LEG_-25": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 30,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 23,
+          "CN_HIGH_5": 3
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 17,
+        "visible": 9,
+        "occluders": {
+          "P01_LEG_3.55": 8
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 37,
+        "visible": 27,
+        "occluders": {
+          "CN_WATER_1": 1,
+          "CN_WATER_DOME": 1,
+          "CN_WATER_CORNICE_1_1": 1,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_2": 1,
+          "CN_HIGH_3": 1,
+          "P01_LEG_-212": 1,
+          "P01_LEG_3.512": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_HIGH_8": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 144,
+        "visible": 74,
+        "occluders": {
+          "CN_WATER_DOME": 3,
+          "CN_WATER_1": 6,
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "P01_LEG_-25": 22,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 2,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "156": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 71,
+        "visible": 33,
+        "occluders": {
+          "CN_WATER_2": 2,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 13,
+          "CN_WATER_CORNICE_2_1": 9,
+          "CN_LM_SPHERE_TOWER_stem": 10,
+          "CN_LM_SPHERE_TOWER_leg2": 4
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 19,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 13,
+          "CN_HIGH_5": 2
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 15,
+        "visible": 5,
+        "occluders": {
+          "P01_LEG_3.55": 10
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 32,
+        "visible": 27,
+        "occluders": {
+          "CN_LM_SPHERE_TOWER_lower_sphere": 1,
+          "CN_WATER_2": 1,
+          "P01_LEG_3.512": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 127,
+        "visible": 72,
+        "occluders": {
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "P01_LEG_-25": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 6,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 6
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 3,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_6": 2,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      }
+    },
+    "158": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 67,
+        "visible": 33,
+        "occluders": {
+          "CN_WATER_2": 2,
+          "CN_WATER_CORNICE_2_1": 8,
+          "CN_LM_SPHERE_TOWER_stem": 10,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 10,
+          "CN_LM_SPHERE_TOWER_leg2": 4
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 9,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_LM_TAPERED_TOWER_body": 5
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 8,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 1,
+          "P01_LEG_3.55": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 27,
+        "visible": 19,
+        "occluders": {
+          "CN_WATER_2": 1,
+          "P01_LEG_-212": 3,
+          "P01_LEG_-25": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 127,
+        "visible": 69,
+        "occluders": {
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "P01_LEG_-212": 4,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 14,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_LOW_5": 1,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_LOW_ROOF_5": 1
+        }
+      }
+    },
+    "160": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 51,
+        "visible": 27,
+        "occluders": {
+          "CN_WATER_2": 1,
+          "CN_LM_SPHERE_TOWER_stem": 13,
+          "CN_LM_SPHERE_TOWER_lower_sphere": 7,
+          "CN_LM_SPHERE_TOWER_leg2": 3
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 7,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "P01_LEG_3.55": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 24,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_2": 1,
+          "P01_LEG_-25": 3,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 127,
+        "visible": 70,
+        "occluders": {
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 8,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 22,
+        "visible": 8,
+        "occluders": {
+          "CN_LOW_ROOF_5": 2,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_LOW_5": 1,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "162": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 10,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1,
+          "P01_LEG_3.512": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 23,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_2": 1,
+          "P01_LEG_-25": 2,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 123,
+        "visible": 72,
+        "occluders": {
+          "CN_WATER_CORNICE_2_1": 1,
+          "CN_WATER_CORNICE_2_0.65": 1,
+          "CN_WATER_2": 6,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 24,
+        "visible": 10,
+        "occluders": {
+          "CN_LOW_ROOF_5": 2,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_LOW_5": 1,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "164": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 23,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_2": 1,
+          "P01_LEG_-25": 1,
+          "P01_LEG_3.55": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 107,
+        "visible": 58,
+        "occluders": {
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 31,
+        "visible": 15,
+        "occluders": {
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_3": 1,
+          "CN_LOW_ROOF_5": 2,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_LOW_5": 1,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "166": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "P01_LEG_-25": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 6,
+        "occluders": {
+          "P01_LEG_3.512": 7
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 21,
+        "visible": 17,
+        "occluders": {
+          "P01_LEG_-212": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 104,
+        "visible": 51,
+        "occluders": {
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 8,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "P01_LEG_-212": 4,
+          "CN_WATER_4": 8,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 37,
+        "visible": 20,
+        "occluders": {
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_3": 1,
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_5": 2,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "168": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_3": 1
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 4,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "P01_LEG_-212": 1
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 6,
+        "occluders": {
+          "P01_LEG_3.512": 7
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 18,
+        "visible": 15,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 99,
+        "visible": 50,
+        "occluders": {
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_3_1": 2,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 6,
+          "CN_WATER_CLOCK_MASS": 2,
+          "CN_WATER_SPIRE": 1,
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "P01_LEG_-25": 4,
+          "CN_WATER_4": 6,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 43,
+        "visible": 25,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_3": 1,
+          "CN_LOW_ROOF_5": 2,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "170": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 9,
+        "visible": 1,
+        "occluders": {
+          "P01_LEG_-25": 4,
+          "P01_LEG_-212": 2,
+          "CN_LM_TAPERED_TOWER_body": 2
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 18,
+        "visible": 13,
+        "occluders": {
+          "CN_HIGH_5": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 2,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 90,
+        "visible": 43,
+        "occluders": {
+          "CN_YARD_STACK_1": 1,
+          "CN_WATER_CORNICE_3_0.65": 1,
+          "CN_WATER_3": 6,
+          "P01_LEG_-25": 16,
+          "CN_WATER_4": 2,
+          "CN_WATER_CORNICE_5_1": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_5": 6,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 10,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "172": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 15,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "P01_LEG_-25": 3,
+          "CN_LM_TAPERED_TOWER_body": 6,
+          "P01_LEG_-212": 3
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 17,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_CORNICE_3_0.3": 1,
+          "CN_HIGH_5": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "P01_LEG_3.55": 1,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 76,
+        "visible": 41,
+        "occluders": {
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "P01_LEG_3.55": 12,
+          "CN_WATER_5": 2,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 10,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "174": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 22,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_LM_TAPERED_TOWER_body": 13,
+          "P01_LEG_-212": 2,
+          "P01_LEG_-25": 3
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 14,
+        "visible": 7,
+        "occluders": {
+          "P01_LEG_-25": 1,
+          "CN_HIGH_5": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "P01_LEG_3.55": 2,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 72,
+        "visible": 34,
+        "occluders": {
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "CN_WATER_CORNICE_4_0.65": 1,
+          "CN_WATER_4": 8,
+          "P01_LEG_3.55": 12,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 4,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 10,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "176": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 20,
+        "visible": 1,
+        "occluders": {
+          "P01_LEG_-212": 8,
+          "CN_LM_TAPERED_TOWER_body": 11
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_3.512": 2,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 13,
+        "visible": 6,
+        "occluders": {
+          "P01_LEG_-25": 1,
+          "CN_HIGH_5": 1,
+          "P01_LEG_3.55": 2,
+          "CN_WATER_CORNICE_5_1": 2,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 68,
+        "visible": 30,
+        "occluders": {
+          "CN_YARD_STACK_2": 1,
+          "CN_WATER_CORNICE_4_1": 1,
+          "P01_LEG_-212": 4,
+          "P01_LEG_-25": 4,
+          "CN_WATER_4": 4,
+          "CN_WATER_CORNICE_5_1": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 10,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 1
+        }
+      }
+    },
+    "178": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 13,
+        "visible": 1,
+        "occluders": {
+          "P01_LEG_-212": 3,
+          "CN_LM_TAPERED_TOWER_body": 9
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 13,
+        "visible": 7,
+        "occluders": {
+          "P01_LEG_-25": 1,
+          "CN_HIGH_5": 1,
+          "P01_LEG_3.55": 2,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 68,
+        "visible": 27,
+        "occluders": {
+          "P01_LEG_-212": 12,
+          "P01_LEG_-25": 4,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "P01_LEG_3.55": 7,
+          "CN_WATER_5": 6,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 2
+        }
+      }
+    },
+    "180": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_LM_TAPERED_TOWER_body": 2
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 13,
+        "visible": 4,
+        "occluders": {
+          "P01_LEG_-25": 3,
+          "CN_HIGH_5": 1,
+          "P01_LEG_3.55": 3,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 56,
+        "visible": 28,
+        "occluders": {
+          "P01_LEG_-212": 4,
+          "CN_WATER_4": 2,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_5": 6,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_3": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 9,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 2
+        }
+      }
+    },
+    "182": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 13,
+        "visible": 3,
+        "occluders": {
+          "P01_LEG_-25": 3,
+          "CN_HIGH_5": 1,
+          "P01_LEG_3.512": 1,
+          "CN_WATER_5": 1,
+          "P01_LEG_3.55": 2,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 52,
+        "visible": 28,
+        "occluders": {
+          "CN_WATER_4": 2,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_5": 6,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 10,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 2
+        }
+      }
+    },
+    "184": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 12,
+        "visible": 4,
+        "occluders": {
+          "P01_LEG_-25": 2,
+          "P01_LEG_3.512": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 2,
+          "P01_LEG_3.55": 2
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 49,
+        "visible": 25,
+        "occluders": {
+          "CN_WATER_4": 1,
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 8,
+          "P01_LEG_3.55": 3
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 8,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 4
+        }
+      }
+    },
+    "186": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 9,
+        "visible": 2,
+        "occluders": {
+          "P01_LEG_-25": 2,
+          "P01_LEG_3.512": 1,
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 2,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 48,
+        "visible": 24,
+        "occluders": {
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "P01_LEG_3.55": 4,
+          "CN_WATER_6": 8
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 8,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 4
+        }
+      }
+    },
+    "188": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 5,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_1": 2,
+          "P01_LEG_3.55": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 47,
+        "visible": 22,
+        "occluders": {
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "CN_WATER_CORNICE_6_1": 1,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "P01_LEG_3.55": 7,
+          "CN_WATER_6": 6
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 8,
+          "CN_WATER_CORNICE_6_0.65": 2,
+          "CN_WATER_CORNICE_6_1": 4
+        }
+      }
+    },
+    "190": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 13,
+        "visible": 10,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "P01_LEG_-25": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 3,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 41,
+        "visible": 18,
+        "occluders": {
+          "CN_WATER_CORNICE_5_1": 1,
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 7,
+          "CN_WATER_6": 6
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 44,
+        "visible": 27,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 8,
+          "P01_LEG_3.55": 2,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_CORNICE_6_1": 3
+        }
+      }
+    },
+    "192": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 11,
+        "visible": 9,
+        "occluders": {
+          "CN_LM_STEPPED_TOWER_tier1": 1,
+          "CN_LM_STEPPED_TOWER_tier2": 1
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 3,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 35,
+        "visible": 17,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 3,
+          "CN_WATER_6": 6
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 39,
+        "visible": 25,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 7,
+          "P01_LEG_3.55": 3,
+          "CN_WATER_CORNICE_6_0.65": 1
+        }
+      }
+    },
+    "194": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 5,
+        "visible": 5,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 3,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 34,
+        "visible": 15,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 8,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 37,
+        "visible": 24,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_LOW_ROOF_5": 1,
+          "CN_WATER_6": 8,
+          "P01_LEG_3.55": 2
+        }
+      }
+    },
+    "196": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 1,
+        "visible": 1,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 3,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 34,
+        "visible": 15,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 5,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 4
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 32,
+        "visible": 23,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_WATER_6": 4,
+          "P01_LEG_3.55": 3
+        }
+      }
+    },
+    "198": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 3,
+        "visible": 1,
+        "occluders": {
+          "CN_WATER_5": 2
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 34,
+        "visible": 15,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 5,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 4
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 29,
+        "visible": 20,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_WATER_6": 5,
+          "P01_LEG_3.55": 2
+        }
+      }
+    },
+    "200": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 33,
+        "visible": 12,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 8,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 3
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 29,
+        "visible": 20,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_LOW_ROOF_4": 1,
+          "CN_WATER_6": 5,
+          "P01_LEG_3.55": 2
+        }
+      }
+    },
+    "202": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 31,
+        "visible": 12,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 7,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 23,
+        "visible": 17,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_WATER_6": 3,
+          "P01_LEG_3.55": 2
+        }
+      }
+    },
+    "204": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 28,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 8,
+          "P01_LEG_3.55": 5,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 20,
+        "visible": 14,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_WATER_6": 3,
+          "P01_LEG_3.55": 2
+        }
+      }
+    },
+    "206": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 22,
+        "visible": 7,
+        "occluders": {
+          "CN_WATER_CORNICE_5_0.65": 1,
+          "CN_WATER_5": 6,
+          "P01_LEG_3.55": 5,
+          "CN_WATER_CORNICE_6_0.65": 1,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 17,
+        "visible": 14,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_WATER_6": 1,
+          "P01_LEG_3.55": 1
+        }
+      }
+    },
+    "208": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 2,
+        "visible": 0,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "CN_WATER_CORNICE_5_0.65": 1
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 17,
+        "visible": 7,
+        "occluders": {
+          "CN_WATER_5": 3,
+          "P01_LEG_3.55": 5,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 16,
+        "visible": 13,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1,
+          "CN_WATER_6": 1,
+          "P01_LEG_3.55": 1
+        }
+      }
+    },
+    "210": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 12,
+        "visible": 6,
+        "occluders": {
+          "CN_WATER_5": 1,
+          "P01_LEG_3.55": 3,
+          "CN_WATER_6": 2
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 13,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_6": 1,
+          "P01_LEG_3.55": 1
+        }
+      }
+    },
+    "212": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 9,
+        "visible": 4,
+        "occluders": {
+          "P01_LEG_3.55": 4,
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 12,
+        "visible": 11,
+        "occluders": {
+          "CN_WATER_6": 1
+        }
+      }
+    },
+    "214": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 9,
+        "visible": 4,
+        "occluders": {
+          "P01_LEG_3.55": 2,
+          "CN_WATER_6": 3
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 11,
+        "visible": 10,
+        "occluders": {
+          "CN_WATER_6": 1
+        }
+      }
+    },
+    "216": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 7,
+        "visible": 3,
+        "occluders": {
+          "CN_WATER_6": 4
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 11,
+        "visible": 10,
+        "occluders": {
+          "CN_WATER_6": 1
+        }
+      }
+    },
+    "220": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 3,
+        "visible": 2,
+        "occluders": {
+          "CN_WATER_6": 1
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 11,
+        "visible": 10,
+        "occluders": {
+          "CN_WATER_6": 1
+        }
+      }
+    },
+    "224": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 11,
+        "visible": 11,
+        "occluders": {}
+      }
+    },
+    "228": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 15,
+        "visible": 13,
+        "occluders": {
+          "CN_LOW_ROOF_3": 2
+        }
+      }
+    },
+    "232": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 21,
+        "visible": 16,
+        "occluders": {
+          "CN_LOW_ROOF_3": 3,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "236": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 24,
+        "visible": 19,
+        "occluders": {
+          "CN_LOW_ROOF_3": 3,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "240": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 23,
+        "visible": 17,
+        "occluders": {
+          "CN_LOW_ROOF_3": 4,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "244": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 22,
+        "visible": 16,
+        "occluders": {
+          "CN_LOW_ROOF_3": 4,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "248": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 21,
+        "visible": 16,
+        "occluders": {
+          "CN_LOW_ROOF_3": 3,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "252": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 19,
+        "visible": 14,
+        "occluders": {
+          "CN_LOW_ROOF_3": 3,
+          "CN_LOW_ROOF_4": 2
+        }
+      }
+    },
+    "256": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 14,
+        "visible": 9,
+        "occluders": {
+          "CN_LOW_ROOF_3": 4,
+          "CN_LOW_ROOF_4": 1
+        }
+      }
+    },
+    "260": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 4,
+        "visible": 3,
+        "occluders": {
+          "CN_LOW_ROOF_3": 1
+        }
+      }
+    },
+    "264": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "268": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "272": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "276": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "280": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "284": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "288": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "292": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "296": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "300": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "304": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "308": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "312": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "316": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "320": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "324": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "328": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "332": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "450": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 25,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 25
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 12,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 12
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 0,
+        "visible": 0,
+        "occluders": {}
+      }
+    },
+    "456": {
+      "CN_LM_SPHERE_TOWER": {
+        "samples": 159,
+        "in_frame": 1,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 1
+        }
+      },
+      "CN_LM_OPEN_TOP_TOWER": {
+        "samples": 24,
+        "in_frame": 23,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 23
+        }
+      },
+      "CN_LM_TAPERED_TOWER": {
+        "samples": 118,
+        "in_frame": 118,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 118
+        }
+      },
+      "CN_LM_STEPPED_TOWER": {
+        "samples": 54,
+        "in_frame": 54,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 54
+        }
+      },
+      "CN_HIGHRISE_GROUP": {
+        "samples": 120,
+        "in_frame": 75,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 75
+        }
+      },
+      "CN_WATERFRONT_GROUP": {
+        "samples": 196,
+        "in_frame": 52,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 52
+        }
+      },
+      "CN_LOWRISE_GROUP": {
+        "samples": 115,
+        "in_frame": 23,
+        "visible": 0,
+        "occluders": {
+          "EARTH_CONTINUOUS_OCEAN": 23
+        }
+      }
+    }
+  },
+  "method": "Actual visible polygon-centroid ray samples. Counts do not estimate screen area, nor establish aesthetic acceptance."
+}

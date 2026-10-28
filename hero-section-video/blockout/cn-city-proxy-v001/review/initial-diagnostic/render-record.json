@@ -1,0 +1,12 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\layout-initial.blend",
+  "sha256": "e0882059c8f54d3fd242b6fb0e075149a671e33da92987aa4aa66873fe9fea4a",
+  "width": 1440,
+  "fps": 12,
+  "diagnostic": true,
+  "images": {
+    "overview": "05639b5d54591254b8891a337335917b49948db9d79fb844b9e9e053bc614cc8",
+    "top": "011fb7e100da9b7bc472844575cf72b7326d8c0af617932862a1873acac0a3f0",
+    "shore": "e084d54244287401db1bacccd78607ae0ce8fadf3fbd1e08f85f7d5cb0806bc4"
+  }
+}

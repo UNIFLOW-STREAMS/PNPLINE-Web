@@ -1,0 +1,9375 @@
+{
+  "version": "5.1.0",
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\inputs\\base.blend",
+  "sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "scene": "PNPLINE_MASTER_v005",
+  "camera": "CAM_MASTER",
+  "fps": 12,
+  "fps_base": 1.0,
+  "range": [
+    0,
+    1392
+  ],
+  "scene_props": {
+    "master_version": "v005",
+    "scope": "7\uad6c\uac04 \uc5f0\ucd9c\uc548 \uac80\uc99d\uc6a9 / \uae30\uc874 #61 \uc2b9\uc778\uc548 \ub300\uccb4 \uc544\ub2d8",
+    "source_basis": "User saved baseline SHA256 de03eca6e92f7c03ab967a44ed434531e5506536669a8383d69ac1bbf056ad0d; see report-s3-camera.md",
+    "radius": 140.0,
+    "events": "{\"container_ship\": 72, \"ship_depart\": 145, \"ship_dock\": 510, \"container_us_lift\": 532, \"container_truck\": 632, \"inbound_depart\": 649, \"doors_open\": [811, 842], \"reverse\": [849, 890], \"unload\": [908, 966], \"outbound_primary\": 1201, \"outbound_secondary\": 1261}",
+    "detail_deferred": "Picking hand/grasp; carton flap fold/tape; loader hands; mechanism latches. Fixed open and sealed boxes are separate work-in-progress cargo, never a magical transformation.",
+    "generator": "scripts/revise_s3.py applied to inputs/base-v005.blend",
+    "camera_revision": "S3 bounded ship-relative camera, f218..454; S2/B23 and B34/S4 preserved",
+    "camera_guide_warning": "Legacy CAMERA_PATH preserved; use review/camera-path.png for revised camera. Guides remain hidden.",
+    "s2_acceptance": "APPROVED camera integration: close K5 and S3 join through f251; proxy-model differences remain",
+    "s4_review_status": "S4 camera plus user-approved S5 f649..671 join; exact original at f672",
+    "s4_camera_source": "scripts/revise_s4.py final; baseline 63e95f15f9ad5b223001021251982266ebe06957a297a5a03e72d732358df976",
+    "s4_close_reveal_source": "scripts/revise_close_reveal.py; baseline 85c2431c6cb26060b768d38ce1d5e3a859c000d5ae6e72a75a47ab51cccd47de",
+    "s4_close_reveal_range": "f458..521; f522 onward preserved exactly",
+    "stage2_integration": "v001",
+    "stage2_F_lock": 720,
+    "stage2_F_rejoin": 948
+  },
+  "markers": [
+    [
+      "S1",
+      0,
+      null
+    ],
+    [
+      "B12",
+      96,
+      null
+    ],
+    [
+      "S2",
+      96,
+      null
+    ],
+    [
+      "B23",
+      216,
+      null
+    ],
+    [
+      "S3",
+      216,
+      null
+    ],
+    [
+      "B34",
+      456,
+      null
+    ],
+    [
+      "S4",
+      456,
+      null
+    ],
+    [
+      "B45",
+      648,
+      null
+    ],
+    [
+      "S5",
+      648,
+      null
+    ],
+    [
+      "B56",
+      900,
+      null
+    ],
+    [
+      "S6",
+      900,
+      null
+    ],
+    [
+      "B67",
+      1200,
+      null
+    ],
+    [
+      "S7",
+      1200,
+      null
+    ],
+    [
+      "DETAIL_DEFERRED_PICK_HAND",
+      1020,
+      null
+    ],
+    [
+      "DETAIL_DEFERRED_PACK_FOLD_TAPE",
+      1090,
+      null
+    ],
+    [
+      "DETAIL_DEFERRED_LOADING_HAND",
+      1158,
+      null
+    ]
+  ],
+  "cn_matrix": [
+    [
+      0.42261824011802673,
+      0.0,
+      -0.9063078165054321,
+      -126.88309478759766
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.9063078165054321,
+      0.0,
+      0.42261824011802673,
+      59.16655349731445
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "objects": {
+    "EARTH_CONTINUOUS_OCEAN": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -186.04957580566406,
+          -139.99989318847656,
+          -326.0495910644531
+        ],
+        [
+          186.04962158203125,
+          139.99978637695312,
+          46.049495697021484
+        ]
+      ],
+      "props": {
+        "asset_id": "E-02",
+        "instance_id": "earth_ocean",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_LAND_TERRACE": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -33.0,
+          -1.0,
+          -11.106061935424805
+        ],
+        [
+          32.0,
+          44.0,
+          0.6800057291984558
+        ]
+      ],
+      "props": {
+        "asset_id": "E-01",
+        "instance_id": "CN_LAND_TERRACE",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_LAND_TERRACE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          36.79696273803711,
+          -1.0,
+          -259.0
+        ],
+        [
+          140.6800079345703,
+          64.0,
+          -109.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-01",
+        "instance_id": "US_LAND_TERRACE",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_FRAME": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        59.16654586791992,
+        0.0,
+        126.88309478759766
+      ],
+      "cn_bounds": [
+        [
+          140.0,
+          0.0,
+          -140.0
+        ],
+        [
+          140.0,
+          0.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-05",
+        "instance_id": "US_FRAME",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_FRAME": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -126.88309478759766,
+        0.0,
+        59.16655349731445
+      ],
+      "cn_bounds": [
+        [
+          0.0,
+          0.0,
+          5.7220458984375e-06
+        ],
+        [
+          0.0,
+          0.0,
+          5.7220458984375e-06
+        ]
+      ],
+      "props": {
+        "asset_id": "E-03",
+        "instance_id": "CN_FRAME",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_QUAY": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        0.0,
+        8.0,
+        0.6499999761581421
+      ],
+      "cn_bounds": [
+        [
+          -17.000003814697266,
+          4.0,
+          0.4000110626220703
+        ],
+        [
+          16.999996185302734,
+          12.0,
+          0.9000110626220703
+        ]
+      ],
+      "props": {
+        "asset_id": "E-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_YARD_STACK_0": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -10.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          -11.599996566772461,
+          15.274999618530273,
+          0.7500019073486328
+        ],
+        [
+          -8.399995803833008,
+          16.725000381469727,
+          2.250001907348633
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_YARD_STACK_1": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -6.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          -7.599999904632568,
+          15.274999618530273,
+          0.75
+        ],
+        [
+          -4.400000095367432,
+          16.725000381469727,
+          2.25
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_YARD_STACK_2": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -2.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          -3.5999960899353027,
+          15.274999618530273,
+          0.75
+        ],
+        [
+          -0.39999616146087646,
+          16.725000381469727,
+          2.25
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_YARD_STACK_3": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        2.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          0.39999616146087646,
+          15.274999618530273,
+          0.75
+        ],
+        [
+          3.5999960899353027,
+          16.725000381469727,
+          2.25
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_YARD_ROAD": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -20.0,
+          18.899999618530273,
+          0.7300057411193848
+        ],
+        [
+          23.0,
+          21.100000381469727,
+          0.7300057411193848
+        ]
+      ],
+      "props": {
+        "asset_id": "E-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_CITY_0": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -16.0,
+        28.0,
+        3.180000066757202
+      ],
+      "cn_bounds": [
+        [
+          -17.75,
+          26.25,
+          0.6799945831298828
+        ],
+        [
+          -14.25,
+          29.75,
+          5.679994583129883
+        ]
+      ],
+      "props": {
+        "asset_id": "E-04",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_CITY_1": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -8.0,
+        32.0,
+        4.679999828338623
+      ],
+      "cn_bounds": [
+        [
+          -9.750003814697266,
+          30.25,
+          0.6800136566162109
+        ],
+        [
+          -6.250003814697266,
+          33.75,
+          8.680013656616211
+        ]
+      ],
+      "props": {
+        "asset_id": "E-04",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_CITY_2": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        1.0,
+        30.0,
+        3.680000066757202
+      ],
+      "cn_bounds": [
+        [
+          -0.7499961853027344,
+          28.25,
+          0.6800003051757812
+        ],
+        [
+          2.7500038146972656,
+          31.75,
+          6.680000305175781
+        ]
+      ],
+      "props": {
+        "asset_id": "E-04",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_CITY_3": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        9.0,
+        33.0,
+        5.679999828338623
+      ],
+      "cn_bounds": [
+        [
+          7.249992370605469,
+          31.25,
+          0.6800174713134766
+        ],
+        [
+          10.749992370605469,
+          34.75,
+          10.680017471313477
+        ]
+      ],
+      "props": {
+        "asset_id": "E-04",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CN_CITY_4": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        18.0,
+        30.0,
+        4.179999828338623
+      ],
+      "cn_bounds": [
+        [
+          16.25000762939453,
+          28.25,
+          0.6800041198730469
+        ],
+        [
+          19.75000762939453,
+          31.75,
+          7.680004119873047
+        ]
+      ],
+      "props": {
+        "asset_id": "E-04",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_QUAY": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        8.0,
+        0.6499999761581421
+      ],
+      "cn_bounds": [
+        [
+          140.40000915527344,
+          4.0,
+          -156.99998474121094
+        ],
+        [
+          140.90000915527344,
+          12.0,
+          -122.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-05",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_YARD_STACK_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -10.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          140.75,
+          15.274999618530273,
+          -131.60000610351562
+        ],
+        [
+          142.25,
+          16.725000381469727,
+          -128.39999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_YARD_STACK_1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -6.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          140.75,
+          15.274999618530273,
+          -135.60000610351562
+        ],
+        [
+          142.25,
+          16.725000381469727,
+          -132.39999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_YARD_STACK_2": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -2.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          140.75,
+          15.274999618530273,
+          -139.60000610351562
+        ],
+        [
+          142.25,
+          16.725000381469727,
+          -136.39999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_YARD_STACK_3": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        2.0,
+        16.0,
+        1.5
+      ],
+      "cn_bounds": [
+        [
+          140.75,
+          15.274999618530273,
+          -143.60000610351562
+        ],
+        [
+          142.25,
+          16.725000381469727,
+          -140.39999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_YARD_ROAD": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.72999572753906,
+          18.899999618530273,
+          -163.0
+        ],
+        [
+          140.72999572753906,
+          21.100000381469727,
+          -120.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-05",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_CITY_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -21.0,
+        45.0,
+        3.180000066757202
+      ],
+      "cn_bounds": [
+        [
+          140.6800079345703,
+          43.25,
+          -120.74998474121094
+        ],
+        [
+          145.6800079345703,
+          46.75,
+          -117.24998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_CITY_1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -13.0,
+        49.0,
+        4.679999828338623
+      ],
+      "cn_bounds": [
+        [
+          140.67999267578125,
+          47.25,
+          -128.75
+        ],
+        [
+          148.67999267578125,
+          50.75,
+          -125.24999237060547
+        ]
+      ],
+      "props": {
+        "asset_id": "E-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_CITY_2": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -4.0,
+        47.0,
+        3.680000066757202
+      ],
+      "cn_bounds": [
+        [
+          140.67999267578125,
+          45.25,
+          -137.74998474121094
+        ],
+        [
+          146.67999267578125,
+          48.75,
+          -134.24998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_CITY_3": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        4.0,
+        50.0,
+        5.679999828338623
+      ],
+      "cn_bounds": [
+        [
+          140.6800079345703,
+          48.25,
+          -145.74998474121094
+        ],
+        [
+          150.6800079345703,
+          51.75,
+          -142.24998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "US_CITY_4": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        13.0,
+        47.0,
+        4.179999828338623
+      ],
+      "cn_bounds": [
+        [
+          140.6800079345703,
+          45.25,
+          -154.74998474121094
+        ],
+        [
+          147.6800079345703,
+          48.75,
+          -151.24998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_LEG_-25": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -2.0,
+        5.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          -2.19999623298645,
+          4.800000190734863,
+          0.6999993324279785
+        ],
+        [
+          -1.7999961376190186,
+          5.199999809265137,
+          11.899999618530273
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_LEG_-212": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -2.0,
+        12.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          -2.19999623298645,
+          11.800000190734863,
+          0.6999993324279785
+        ],
+        [
+          -1.7999961376190186,
+          12.199999809265137,
+          11.899999618530273
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_BOOM_-2": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        -2.0,
+        4.0,
+        11.899999618530273
+      ],
+      "cn_bounds": [
+        [
+          -2.1999924182891846,
+          -6.0,
+          11.674991607666016
+        ],
+        [
+          -1.799992322921753,
+          14.0,
+          12.124992370605469
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_LEG_3.55": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        3.5,
+        5.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          3.2999961376190186,
+          4.800000190734863,
+          0.7000164985656738
+        ],
+        [
+          3.69999623298645,
+          5.199999809265137,
+          11.900016784667969
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_LEG_3.512": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        3.5,
+        12.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          3.2999961376190186,
+          11.800000190734863,
+          0.7000164985656738
+        ],
+        [
+          3.69999623298645,
+          12.199999809265137,
+          11.900016784667969
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_BOOM_3.5": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        3.5,
+        4.0,
+        11.899999618530273
+      ],
+      "cn_bounds": [
+        [
+          3.299999952316284,
+          -6.0,
+          11.675010681152344
+        ],
+        [
+          3.700000047683716,
+          14.0,
+          12.125011444091797
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_LEG_-25": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -2.0,
+        5.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          140.69998168945312,
+          4.800000190734863,
+          -138.1999969482422
+        ],
+        [
+          151.89999389648438,
+          5.199999809265137,
+          -137.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_LEG_-212": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -2.0,
+        12.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          140.69998168945312,
+          11.800000190734863,
+          -138.1999969482422
+        ],
+        [
+          151.89999389648438,
+          12.199999809265137,
+          -137.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_BOOM_-2": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        -2.0,
+        4.0,
+        11.899999618530273
+      ],
+      "cn_bounds": [
+        [
+          151.67498779296875,
+          -6.0,
+          -138.1999969482422
+        ],
+        [
+          152.125,
+          14.0,
+          -137.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_LEG_3.55": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        3.5,
+        5.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          4.800000190734863,
+          -143.6999969482422
+        ],
+        [
+          151.9000244140625,
+          5.199999809265137,
+          -143.3000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_LEG_3.512": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        3.5,
+        12.0,
+        6.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          11.800000190734863,
+          -143.6999969482422
+        ],
+        [
+          151.9000244140625,
+          12.199999809265137,
+          -143.3000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_BOOM_3.5": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        3.5,
+        4.0,
+        11.899999618530273
+      ],
+      "cn_bounds": [
+        [
+          151.6750030517578,
+          -6.0,
+          -143.6999969482422
+        ],
+        [
+          152.12501525878906,
+          14.0,
+          -143.3000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E07_INBOUND_ROAD": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.73500061035156,
+          7.75,
+          -176.6494598388672
+        ],
+        [
+          140.73500061035156,
+          30.249956130981445,
+          -140.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-07",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E11_ROUTE_1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.74000549316406,
+          27.899999618530273,
+          -247.03231811523438
+        ],
+        [
+          140.74000549316406,
+          42.099525451660156,
+          -213.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-11",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E11_ROUTE_-1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.74000549316406,
+          15.900474548339844,
+          -247.03231811523438
+        ],
+        [
+          140.74000549316406,
+          30.100000381469727,
+          -213.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-11",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E12_DESTINATION_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        101.0,
+        48.0,
+        2.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          46.0,
+          -243.0
+        ],
+        [
+          144.70001220703125,
+          50.0,
+          -239.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-12",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E12_DESTINATION_1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        110.0,
+        49.0,
+        2.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          47.0,
+          -252.0
+        ],
+        [
+          144.70001220703125,
+          51.0,
+          -248.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-12",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E12_DESTINATION_2": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        106.0,
+        8.0,
+        2.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          6.0,
+          -247.99998474121094
+        ],
+        [
+          144.70001220703125,
+          10.0,
+          -243.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-12",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E12_DESTINATION_3": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        96.0,
+        9.0,
+        2.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          7.0,
+          -238.0
+        ],
+        [
+          144.70001220703125,
+          11.0,
+          -234.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-12",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_WAIT_MERGE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.74000549316406,
+          27.80043601989746,
+          -223.0323486328125
+        ],
+        [
+          140.74000549316406,
+          36.199562072753906,
+          -211.9676513671875
+        ]
+      ],
+      "props": {
+        "asset_id": "E-11",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A02_SHIP": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -126.88309478759766,
+        0.0,
+        59.16655349731445
+      ],
+      "cn_bounds": [
+        [
+          0.0,
+          0.0,
+          5.7220458984375e-06
+        ],
+        [
+          0.0,
+          0.0,
+          5.7220458984375e-06
+        ]
+      ],
+      "props": {
+        "asset_id": "A-02",
+        "instance_id": "A02_SHIP",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "SHIP_HULL": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -7.0,
+          -2.5999999046325684,
+          -0.6499944925308228
+        ],
+        [
+          7.0,
+          2.5999999046325684,
+          0.8000059127807617
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "SHIP_DECK": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -0.4000000059604645,
+        0.0,
+        0.8399999737739563
+      ],
+      "cn_bounds": [
+        [
+          -6.749997615814209,
+          -2.450000047683716,
+          0.7800037860870361
+        ],
+        [
+          5.950002193450928,
+          2.450000047683716,
+          0.9000041484832764
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "SHIP_BRIDGE": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -5.5,
+        0.0,
+        2.0
+      ],
+      "cn_bounds": [
+        [
+          -6.5,
+          -2.0,
+          0.9000095129013062
+        ],
+        [
+          -4.5,
+          2.0,
+          3.1000096797943115
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "SHIP_BRIDGE_GLASS": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -5.300000190734863,
+        0.0,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          -6.4000067710876465,
+          -2.0250000953674316,
+          2.3500194549560547
+        ],
+        [
+          -4.20000696182251,
+          2.0250000953674316,
+          2.8500194549560547
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_-2.6_-1.25": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -2.5999999046325684,
+        -1.25,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          -4.199998378753662,
+          -1.975000023841858,
+          0.8500060439109802
+        ],
+        [
+          -0.9999984502792358,
+          -0.5249999761581421,
+          2.350006103515625
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_UPPER_-2.6_-1.25": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -2.5999999046325684,
+        -1.25,
+        3.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          -4.1999945640563965,
+          -1.975000023841858,
+          2.349994659423828
+        ],
+        [
+          -0.9999946355819702,
+          -0.5249999761581421,
+          3.849994659423828
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_-2.6_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -2.5999999046325684,
+        0.6499999761581421,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          -4.199998378753662,
+          -0.07500004768371582,
+          0.8500060439109802
+        ],
+        [
+          -0.9999984502792358,
+          1.375,
+          2.350006103515625
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_UPPER_-2.6_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        -2.5999999046325684,
+        0.6499999761581421,
+        3.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          -4.1999945640563965,
+          -0.07500004768371582,
+          2.349994659423828
+        ],
+        [
+          -0.9999946355819702,
+          1.375,
+          3.849994659423828
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_0.8_-1.25": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.800000011920929,
+        -1.25,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -1.975000023841858,
+          0.8500060439109802
+        ],
+        [
+          2.3999993801116943,
+          -0.5249999761581421,
+          2.350006103515625
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_0.8_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.800000011920929,
+        0.6499999761581421,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -0.07500004768371582,
+          0.8500060439109802
+        ],
+        [
+          2.3999993801116943,
+          1.375,
+          2.350006103515625
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_UPPER_0.8_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.800000011920929,
+        0.6499999761581421,
+        3.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -0.07500004768371582,
+          2.350008010864258
+        ],
+        [
+          2.3999993801116943,
+          1.375,
+          3.850008010864258
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_4.2_-1.25": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        4.199999809265137,
+        -1.25,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          2.59999680519104,
+          -1.975000023841858,
+          0.8500117659568787
+        ],
+        [
+          5.799996852874756,
+          -0.5249999761581421,
+          2.3500118255615234
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_UPPER_4.2_-1.25": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        4.199999809265137,
+        -1.25,
+        3.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          2.6000006198883057,
+          -1.975000023841858,
+          2.3500003814697266
+        ],
+        [
+          5.8000006675720215,
+          -0.5249999761581421,
+          3.8500003814697266
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_DECK_4.2_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        4.199999809265137,
+        0.6499999761581421,
+        1.600000023841858
+      ],
+      "cn_bounds": [
+        [
+          2.59999680519104,
+          -0.07500004768371582,
+          0.8500117659568787
+        ],
+        [
+          5.799996852874756,
+          1.375,
+          2.3500118255615234
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P03_UPPER_4.2_0.65": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        4.199999809265137,
+        0.6499999761581421,
+        3.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          2.6000006198883057,
+          -0.07500004768371582,
+          2.3500003814697266
+        ],
+        [
+          5.8000006675720215,
+          1.375,
+          3.8500003814697266
+        ]
+      ],
+      "props": {
+        "asset_id": "P-03",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "FX01_WAKE": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          0.0,
+          0.0,
+          -140.0
+        ],
+        [
+          0.0,
+          0.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "asset_id": "FX-01",
+        "instance_id": "FX01_WAKE",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAKE_RIBBON_0": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -16.0,
+          -2.444999933242798,
+          -0.9137781262397766
+        ],
+        [
+          -7.0,
+          -1.4550000429153442,
+          -0.15767447650432587
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        true,
+        false,
+        false
+      ]
+    },
+    "WAKE_RIBBON_1": {
+      "type": "MESH",
+      "parent": "A02_SHIP",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -16.0,
+          1.4550000429153442,
+          -0.9137781262397766
+        ],
+        [
+          -7.0,
+          2.444999933242798,
+          -0.15767447650432587
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        true,
+        false,
+        false
+      ]
+    },
+    "A01_CONTAINER": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -129.35455322265625,
+        -1.25,
+        61.201717376708984
+      ],
+      "cn_bounds": [
+        [
+          0.7999992370605469,
+          -1.25,
+          3.100008010864258
+        ],
+        [
+          0.7999992370605469,
+          -1.25,
+          3.100008010864258
+        ]
+      ],
+      "props": {
+        "asset_id": "A-01",
+        "instance_id": "A01_CONTAINER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_FLOOR": {
+      "type": "MESH",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        0.0,
+        -0.6899999976158142
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -2.0,
+          2.350005626678467
+        ],
+        [
+          2.3999993801116943,
+          -0.5,
+          2.470005512237549
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_ROOF": {
+      "type": "MESH",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.6899999976158142
+      ],
+      "cn_bounds": [
+        [
+          -0.7999969720840454,
+          -2.0,
+          3.7300047874450684
+        ],
+        [
+          2.40000319480896,
+          -0.5,
+          3.8500046730041504
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_SIDE_L": {
+      "type": "MESH",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        0.7300000190734863,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -0.5600000023841858,
+          2.350008010864258
+        ],
+        [
+          2.3999993801116943,
+          -0.47999998927116394,
+          3.850008010864258
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_SIDE_R": {
+      "type": "MESH",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        -0.7300000190734863,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.800000786781311,
+          -2.0199999809265137,
+          2.350008010864258
+        ],
+        [
+          2.3999993801116943,
+          -1.940000057220459,
+          3.850008010864258
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_FRONT": {
+      "type": "MESH",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        1.559999942779541,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          2.320004463195801,
+          -2.0,
+          2.350004196166992
+        ],
+        [
+          2.4000043869018555,
+          -0.5,
+          3.850004196166992
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PNPLINE_BRAND_SIDE_-0.776": {
+      "type": "FONT",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        -0.7760000228881836,
+        -0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          0.7999992370605469,
+          -2.0260000228881836,
+          2.980012893676758
+        ],
+        [
+          0.7999992370605469,
+          -2.0260000228881836,
+          2.980012893676758
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PNPLINE_BRAND_SIDE_0.776": {
+      "type": "FONT",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.0,
+        0.7760000228881836,
+        -0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          0.7999992370605469,
+          -0.4739999771118164,
+          2.980012893676758
+        ],
+        [
+          0.7999992370605469,
+          -0.4739999771118164,
+          2.980012893676758
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_DOOR_L": {
+      "type": "EMPTY",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        -1.649999976158142,
+        0.8399999737739563,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.8499984741210938,
+          -0.4100000262260437,
+          3.1000099182128906
+        ],
+        [
+          -0.8499984741210938,
+          -0.4100000262260437,
+          3.1000099182128906
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_DOOR_R": {
+      "type": "EMPTY",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        -1.649999976158142,
+        -0.8399999737739563,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.8499984741210938,
+          -2.0899999141693115,
+          3.1000099182128906
+        ],
+        [
+          -0.8499984741210938,
+          -2.0899999141693115,
+          3.1000099182128906
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_DOOR_LEFT_LEAF": {
+      "type": "MESH",
+      "parent": "A01_DOOR_L",
+      "local_location": [
+        0.0,
+        -0.41999998688697815,
+        0.03500000014901161
+      ],
+      "cn_bounds": [
+        [
+          -0.8900023102760315,
+          -1.25,
+          2.4200098514556885
+        ],
+        [
+          -0.8100022673606873,
+          -0.4100000560283661,
+          3.8500096797943115
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A01_DOOR_RIGHT_LEAF": {
+      "type": "MESH",
+      "parent": "A01_DOOR_R",
+      "local_location": [
+        0.0,
+        0.41999998688697815,
+        0.03500000014901161
+      ],
+      "cn_bounds": [
+        [
+          -0.8900023102760315,
+          -2.0899999141693115,
+          2.4200098514556885
+        ],
+        [
+          -0.8100022673606873,
+          -1.25,
+          3.8500096797943115
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRAILER": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        59.251068115234375,
+        9.0,
+        127.06434631347656
+      ],
+      "cn_bounds": [
+        [
+          140.1999969482422,
+          9.0,
+          -140.0
+        ],
+        [
+          140.1999969482422,
+          9.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "asset_id": "A-03",
+        "instance_id": "A03_TRAILER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRACTOR": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        61.063682556152344,
+        9.0,
+        126.2191162109375
+      ],
+      "cn_bounds": [
+        [
+          140.1999969482422,
+          9.0,
+          -141.99998474121094
+        ],
+        [
+          140.1999969482422,
+          9.0,
+          -141.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "A-03",
+        "instance_id": "A03_TRACTOR",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRAILER_CHASSIS": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        0.0,
+        0.0,
+        1.5700000524520874
+      ],
+      "cn_bounds": [
+        [
+          141.5399932861328,
+          8.25,
+          -141.60000610351562
+        ],
+        [
+          141.99998474121094,
+          9.75,
+          -138.39999389648438
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRAILER_COUPLING_TONGUE": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        1.850000023841858,
+        0.0,
+        1.399999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.49998474121094,
+          8.75,
+          -142.15000915527344
+        ],
+        [
+          141.6999969482422,
+          9.25,
+          -141.5500030517578
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRAILER_HITCH": {
+      "type": "EMPTY",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        2.0,
+        0.0,
+        1.399999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.59999084472656,
+          9.0,
+          -142.0
+        ],
+        [
+          141.59999084472656,
+          9.0,
+          -142.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRACTOR_HITCH": {
+      "type": "EMPTY",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        0.0,
+        0.0,
+        1.399999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.59999084472656,
+          9.0,
+          -142.0
+        ],
+        [
+          141.59999084472656,
+          9.0,
+          -142.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRACTOR_CHASSIS": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        0.6000000238418579,
+        0.0,
+        1.350000023841858
+      ],
+      "cn_bounds": [
+        [
+          141.375,
+          8.25,
+          -143.74998474121094
+        ],
+        [
+          141.72500610351562,
+          9.75,
+          -141.4499969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRACTOR_CAB": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        1.25,
+        0.0,
+        2.1524999141693115
+      ],
+      "cn_bounds": [
+        [
+          141.72499084472656,
+          8.25,
+          -143.875
+        ],
+        [
+          142.97999572753906,
+          9.75,
+          -142.625
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TRACTOR_GLASS": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        1.4500000476837158,
+        0.0,
+        2.319999933242798
+      ],
+      "cn_bounds": [
+        [
+          142.2799835205078,
+          8.229999542236328,
+          -143.9499969482422
+        ],
+        [
+          142.75999450683594,
+          9.770000457763672,
+          -142.9499969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRAILER_WHEEL_-0.25-0.85": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        -0.5,
+        -0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.89999389648438,
+          8.03499984741211,
+          -139.89999389648438
+        ],
+        [
+          141.69998168945312,
+          8.264999389648438,
+          -139.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRAILER_WHEEL_-0.250.85": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        -0.5,
+        0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.89999389648438,
+          9.735000610351562,
+          -139.89999389648438
+        ],
+        [
+          141.69998168945312,
+          9.96500015258789,
+          -139.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        0.5,
+        -0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.89999389648438,
+          8.03499984741211,
+          -140.89999389648438
+        ],
+        [
+          141.69998168945312,
+          8.264999389648438,
+          -140.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRAILER_WHEEL_0.250.85": {
+      "type": "MESH",
+      "parent": "A03_TRAILER",
+      "local_location": [
+        0.5,
+        0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.89999389648438,
+          9.735000610351562,
+          -140.89999389648438
+        ],
+        [
+          141.69998168945312,
+          9.96500015258789,
+          -140.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRACTOR_WHEEL_0-0.85": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        0.0,
+        -0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.90000915527344,
+          8.03499984741211,
+          -142.39999389648438
+        ],
+        [
+          141.6999969482422,
+          8.264999389648438,
+          -141.60000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRACTOR_WHEEL_00.85": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        0.0,
+        0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.90000915527344,
+          9.735000610351562,
+          -142.39999389648438
+        ],
+        [
+          141.6999969482422,
+          9.96500015258789,
+          -141.60000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        1.649999976158142,
+        -0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.90000915527344,
+          8.03499984741211,
+          -144.04998779296875
+        ],
+        [
+          141.6999969482422,
+          8.264999389648438,
+          -143.25
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A03_TRACTOR_WHEEL_1.650.85": {
+      "type": "MESH",
+      "parent": "A03_TRACTOR",
+      "local_location": [
+        1.649999976158142,
+        0.8500000238418579,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.90000915527344,
+          9.735000610351562,
+          -144.04998779296875
+        ],
+        [
+          141.6999969482422,
+          9.96500015258789,
+          -143.25
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_SPREADER": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -131.1770477294922,
+        -1.25,
+        62.05155563354492
+      ],
+      "cn_bounds": [
+        [
+          0.7999954223632812,
+          -1.25,
+          5.110906600952148
+        ],
+        [
+          0.7999954223632812,
+          -1.25,
+          5.110906600952148
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "instance_id": "P01_SPREADER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_SPREADER_FRAME": {
+      "type": "MESH",
+      "parent": "P01_SPREADER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.8500045537948608,
+          -2.049999952316284,
+          5.020906448364258
+        ],
+        [
+          2.449995517730713,
+          -0.44999998807907104,
+          5.200906753540039
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_CABLE_0": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        -134.79989624023438,
+        -1.850000023841858,
+        62.19619369506836
+      ],
+      "cn_bounds": [
+        [
+          -0.6279984712600708,
+          -1.878000020980835,
+          5.210888385772705
+        ],
+        [
+          -0.5719984769821167,
+          -1.8220000267028809,
+          11.699995994567871
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_CABLE_1": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        -134.79989624023438,
+        -0.6499999761581421,
+        62.19619369506836
+      ],
+      "cn_bounds": [
+        [
+          -0.6279984712600708,
+          -0.6779999732971191,
+          5.210888385772705
+        ],
+        [
+          -0.5719984769821167,
+          -0.621999979019165,
+          11.699995994567871
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_CABLE_2": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        -133.6165771484375,
+        -1.850000023841858,
+        64.73385620117188
+      ],
+      "cn_bounds": [
+        [
+          2.171996831893921,
+          -1.878000020980835,
+          5.210901737213135
+        ],
+        [
+          2.227997064590454,
+          -1.8220000267028809,
+          11.7000093460083
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_CABLE_3": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        -133.6165771484375,
+        -0.6499999761581421,
+        64.73385620117188
+      ],
+      "cn_bounds": [
+        [
+          2.171996831893921,
+          -0.6779999732971191,
+          5.210901737213135
+        ],
+        [
+          2.227997064590454,
+          -0.621999979019165,
+          11.7000093460083
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P01_TROLLEY": {
+      "type": "MESH",
+      "parent": "CN_FRAME",
+      "local_location": [
+        0.75,
+        -1.25,
+        11.800000190734863
+      ],
+      "cn_bounds": [
+        [
+          -2.19999623298645,
+          -2.075000047683716,
+          11.649999618530273
+        ],
+        [
+          3.7000038623809814,
+          -0.42500001192092896,
+          11.94999885559082
+        ]
+      ],
+      "props": {
+        "asset_id": "P-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_SPREADER": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        63.69515609741211,
+        -1.25,
+        134.70176696777344
+      ],
+      "cn_bounds": [
+        [
+          149.0,
+          -1.25,
+          -140.79998779296875
+        ],
+        [
+          149.0,
+          -1.25,
+          -140.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "instance_id": "P02_SPREADER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_SPREADER_FRAME": {
+      "type": "MESH",
+      "parent": "P02_SPREADER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          148.91000366210938,
+          -2.049999952316284,
+          -142.44998168945312
+        ],
+        [
+          149.08999633789062,
+          -0.44999998807907104,
+          -139.14999389648438
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_CABLE_0": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        63.01799011230469,
+        -1.850000023841858,
+        136.56227111816406
+      ],
+      "cn_bounds": [
+        [
+          149.10000610351562,
+          -1.878000020980835,
+          -139.42799377441406
+        ],
+        [
+          151.70001220703125,
+          -1.8220000267028809,
+          -139.3719940185547
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_CABLE_1": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        63.01799011230469,
+        -0.6499999761581421,
+        136.56227111816406
+      ],
+      "cn_bounds": [
+        [
+          149.10000610351562,
+          -0.6779999732971191,
+          -139.42799377441406
+        ],
+        [
+          151.70001220703125,
+          -0.621999979019165,
+          -139.3719940185547
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_CABLE_2": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        65.55564880371094,
+        -1.850000023841858,
+        135.37893676757812
+      ],
+      "cn_bounds": [
+        [
+          149.10000610351562,
+          -1.878000020980835,
+          -142.2279815673828
+        ],
+        [
+          151.70001220703125,
+          -1.8220000267028809,
+          -142.17198181152344
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_CABLE_3": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        65.55564880371094,
+        -0.6499999761581421,
+        135.37893676757812
+      ],
+      "cn_bounds": [
+        [
+          149.10000610351562,
+          -0.6779999732971191,
+          -142.2279815673828
+        ],
+        [
+          151.70001220703125,
+          -0.621999979019165,
+          -142.17198181152344
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "P02_TROLLEY": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.75,
+        -1.25,
+        11.800000190734863
+      ],
+      "cn_bounds": [
+        [
+          151.65000915527344,
+          -2.075000047683716,
+          -143.6999969482422
+        ],
+        [
+          151.9499969482422,
+          -0.42500001192092896,
+          -137.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "P-02",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        125.32701110839844,
+        29.0,
+        96.03196716308594
+      ],
+      "cn_bounds": [
+        [
+          140.0,
+          29.0,
+          -212.99998474121094
+        ],
+        [
+          140.0,
+          29.0,
+          -212.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "A-04",
+        "instance_id": "A04_PRIMARY",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_FLOOR": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -0.20000000298023224,
+        0.0,
+        1.4500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.36001586914062,
+          28.174999237060547,
+          -214.59999084472656
+        ],
+        [
+          141.54000854492188,
+          29.825000762939453,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_CARGO_SHELL": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -0.5,
+        -0.800000011920929,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          141.5,
+          28.14000129699707,
+          -213.99998474121094
+        ],
+        [
+          143.0,
+          28.260000228881836,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_CARGO_SHELL.001": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -0.5,
+        0.800000011920929,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          141.5,
+          29.739999771118164,
+          -213.99998474121094
+        ],
+        [
+          143.0,
+          29.85999870300293,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_CARGO_SHELL.002": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -0.5,
+        0.0,
+        3.0199999809265137
+      ],
+      "cn_bounds": [
+        [
+          142.9600067138672,
+          28.149999618530273,
+          -213.99998474121094
+        ],
+        [
+          143.0800018310547,
+          29.850000381469727,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_CAB": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        1.4500000476837158,
+        0.0,
+        1.9199999570846558
+      ],
+      "cn_bounds": [
+        [
+          141.2200164794922,
+          28.200000762939453,
+          -215.07498168945312
+        ],
+        [
+          142.62001037597656,
+          29.799999237060547,
+          -213.82498168945312
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_GLASS": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        1.600000023841858,
+        0.0,
+        2.1500000953674316
+      ],
+      "cn_bounds": [
+        [
+          141.9250030517578,
+          28.184999465942383,
+          -215.09999084472656
+        ],
+        [
+          142.37501525878906,
+          29.815000534057617,
+          -214.09999084472656
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_WHEEL-1.3-0.91": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -1.2999999523162842,
+        -0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          27.969999313354492,
+          -212.0999755859375
+        ],
+        [
+          141.5,
+          28.21000099182129,
+          -211.29998779296875
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_WHEEL-1.30.91": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -1.2999999523162842,
+        0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          29.78999900817871,
+          -212.0999755859375
+        ],
+        [
+          141.5,
+          30.030000686645508,
+          -211.29998779296875
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_WHEEL1.5-0.91": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        1.5,
+        -0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          27.969999313354492,
+          -214.8999786376953
+        ],
+        [
+          141.5,
+          28.21000099182129,
+          -214.09999084472656
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_WHEEL1.50.91": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        1.5,
+        0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          29.78999900817871,
+          -214.8999786376953
+        ],
+        [
+          141.5,
+          30.030000686645508,
+          -214.09999084472656
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_DOOR_L": {
+      "type": "EMPTY",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -2.0,
+        0.9300000071525574,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          142.25,
+          29.93000030517578,
+          -210.99998474121094
+        ],
+        [
+          142.25,
+          29.93000030517578,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_DOOR_R": {
+      "type": "EMPTY",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -2.0,
+        -0.9300000071525574,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          142.25,
+          28.06999969482422,
+          -210.99998474121094
+        ],
+        [
+          142.25,
+          28.06999969482422,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_LEFT_LEAF": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY_DOOR_L",
+      "local_location": [
+        0.0,
+        -0.4650000035762787,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.5,
+          29.880001068115234,
+          -211.9299774169922
+        ],
+        [
+          143.0,
+          29.979999542236328,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_RIGHT_LEAF": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY_DOOR_R",
+      "local_location": [
+        0.0,
+        0.4650000035762787,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.5,
+          28.020000457763672,
+          -211.9299774169922
+        ],
+        [
+          143.0,
+          28.119998931884766,
+          -210.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        124.42071533203125,
+        35.0,
+        96.45458984375
+      ],
+      "cn_bounds": [
+        [
+          140.00001525878906,
+          35.0,
+          -212.0
+        ],
+        [
+          140.00001525878906,
+          35.0,
+          -212.0
+        ]
+      ],
+      "props": {
+        "asset_id": "A-05",
+        "instance_id": "A05_SECONDARY",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_FLOOR": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -0.20000000298023224,
+        0.0,
+        1.4500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.36001586914062,
+          34.17499923706055,
+          -213.60000610351562
+        ],
+        [
+          141.54000854492188,
+          35.82500076293945,
+          -210.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_CARGO_SHELL": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -0.5,
+        -0.800000011920929,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          141.50001525878906,
+          34.13999938964844,
+          -213.0
+        ],
+        [
+          143.00001525878906,
+          34.26000213623047,
+          -210.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_CARGO_SHELL.001": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -0.5,
+        0.800000011920929,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          141.50001525878906,
+          35.73999786376953,
+          -213.0
+        ],
+        [
+          143.00001525878906,
+          35.86000061035156,
+          -210.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_CARGO_SHELL.002": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -0.5,
+        0.0,
+        3.0199999809265137
+      ],
+      "cn_bounds": [
+        [
+          142.96002197265625,
+          34.150001525878906,
+          -212.99998474121094
+        ],
+        [
+          143.08001708984375,
+          35.849998474121094,
+          -209.99998474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_CAB": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        1.4500000476837158,
+        0.0,
+        1.9199999570846558
+      ],
+      "cn_bounds": [
+        [
+          141.2200164794922,
+          34.20000076293945,
+          -214.0749969482422
+        ],
+        [
+          142.62001037597656,
+          35.79999923706055,
+          -212.8249969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_GLASS": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        1.600000023841858,
+        0.0,
+        2.1500000953674316
+      ],
+      "cn_bounds": [
+        [
+          141.92501831054688,
+          34.185001373291016,
+          -214.10000610351562
+        ],
+        [
+          142.37503051757812,
+          35.814998626708984,
+          -213.10000610351562
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_WHEEL-1.3-0.91": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -1.2999999523162842,
+        -0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          33.970001220703125,
+          -211.09999084472656
+        ],
+        [
+          141.5,
+          34.209999084472656,
+          -210.3000030517578
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_WHEEL-1.30.91": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -1.2999999523162842,
+        0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          35.790000915527344,
+          -211.09999084472656
+        ],
+        [
+          141.5,
+          36.029998779296875,
+          -210.3000030517578
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_WHEEL1.5-0.91": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        1.5,
+        -0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          33.970001220703125,
+          -213.89999389648438
+        ],
+        [
+          141.5,
+          34.209999084472656,
+          -213.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_WHEEL1.50.91": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        1.5,
+        0.9100000262260437,
+        1.100000023841858
+      ],
+      "cn_bounds": [
+        [
+          140.70001220703125,
+          35.790000915527344,
+          -213.89999389648438
+        ],
+        [
+          141.5,
+          36.029998779296875,
+          -213.10000610351562
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_DOOR_L": {
+      "type": "EMPTY",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -2.0,
+        0.9300000071525574,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          142.25001525878906,
+          35.93000030517578,
+          -210.0
+        ],
+        [
+          142.25001525878906,
+          35.93000030517578,
+          -210.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_DOOR_R": {
+      "type": "EMPTY",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -2.0,
+        -0.9300000071525574,
+        2.25
+      ],
+      "cn_bounds": [
+        [
+          142.25001525878906,
+          34.06999969482422,
+          -210.0
+        ],
+        [
+          142.25001525878906,
+          34.06999969482422,
+          -210.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_LEFT_LEAF": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY_DOOR_L",
+      "local_location": [
+        0.0,
+        -0.4650000035762787,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.50001525878906,
+          35.0,
+          -210.0500030517578
+        ],
+        [
+          143.00001525878906,
+          35.93000030517578,
+          -209.9499969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_RIGHT_LEAF": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY_DOOR_R",
+      "local_location": [
+        0.0,
+        0.4650000035762787,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.50001525878906,
+          34.06999969482422,
+          -210.0500030517578
+        ],
+        [
+          143.00001525878906,
+          35.0,
+          -209.9499969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E09_MANEUVER_YARD": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        27.0,
+        29.0,
+        0.7200000286102295
+      ],
+      "cn_bounds": [
+        [
+          140.67999267578125,
+          26.0,
+          -179.0
+        ],
+        [
+          140.760009765625,
+          32.0,
+          -155.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-09",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E08_WAREHOUSE": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          140.0,
+          0.0,
+          -140.0
+        ],
+        [
+          140.0,
+          0.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "instance_id": "E08_WAREHOUSE",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_FLOOR": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        52.0,
+        32.0,
+        1.2699999809265137
+      ],
+      "cn_bounds": [
+        [
+          140.6800079345703,
+          25.0,
+          -208.0
+        ],
+        [
+          141.86000061035156,
+          39.0,
+          -176.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_BACK_WALL": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        52.0,
+        39.0,
+        4.349999904632568
+      ],
+      "cn_bounds": [
+        [
+          141.85000610351562,
+          38.875,
+          -208.0
+        ],
+        [
+          146.85000610351562,
+          39.125,
+          -176.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_PARTIAL_ROOF": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        52.0,
+        37.599998474121094,
+        6.949999809265137
+      ],
+      "cn_bounds": [
+        [
+          146.8400115966797,
+          36.099998474121094,
+          -208.0
+        ],
+        [
+          147.0600128173828,
+          39.099998474121094,
+          -176.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_COLUMN_36": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        36.0,
+        38.599998474121094,
+        4.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          141.79998779296875,
+          38.474998474121094,
+          -176.125
+        ],
+        [
+          146.79998779296875,
+          38.724998474121094,
+          -175.875
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_COLUMN_44": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        44.0,
+        38.599998474121094,
+        4.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          141.8000030517578,
+          38.474998474121094,
+          -184.12498474121094
+        ],
+        [
+          146.8000030517578,
+          38.724998474121094,
+          -183.87498474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_COLUMN_52": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        52.0,
+        38.599998474121094,
+        4.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          141.8000030517578,
+          38.474998474121094,
+          -192.12498474121094
+        ],
+        [
+          146.8000030517578,
+          38.724998474121094,
+          -191.87498474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_COLUMN_60": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        60.0,
+        38.599998474121094,
+        4.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          141.8000030517578,
+          38.474998474121094,
+          -200.125
+        ],
+        [
+          146.8000030517578,
+          38.724998474121094,
+          -199.875
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "WAREHOUSE_COLUMN_68": {
+      "type": "MESH",
+      "parent": "E08_WAREHOUSE",
+      "local_location": [
+        68.0,
+        38.599998474121094,
+        4.300000190734863
+      ],
+      "cn_bounds": [
+        [
+          141.8000030517578,
+          38.474998474121094,
+          -208.125
+        ],
+        [
+          146.8000030517578,
+          38.724998474121094,
+          -207.875
+        ]
+      ],
+      "props": {
+        "asset_id": "E-08",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "DOCK_TARGET": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        36.0,
+        29.0,
+        1.7999999523162842
+      ],
+      "cn_bounds": [
+        [
+          141.8000030517578,
+          29.0,
+          -176.0
+        ],
+        [
+          141.8000030517578,
+          29.0,
+          -176.0
+        ]
+      ],
+      "props": {
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "DOCK_BRIDGE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        35.97999954223633,
+        29.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.8400115966797,
+          28.329999923706055,
+          -176.06997680664062
+        ],
+        [
+          141.9199981689453,
+          29.670000076293945,
+          -175.88998413085938
+        ]
+      ],
+      "props": {
+        "asset_id": "E-09",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E10_OUTBOUND_YARD": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        75.0,
+        30.0,
+        0.7200000286102295
+      ],
+      "cn_bounds": [
+        [
+          140.6800079345703,
+          23.0,
+          -222.0
+        ],
+        [
+          140.75999450683594,
+          37.0,
+          -208.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-10",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "E10_LOADING_BRIDGE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.54000854492188,
+          27.200000762939453,
+          -211.0
+        ],
+        [
+          141.86000061035156,
+          30.399999618530273,
+          -208.0
+        ]
+      ],
+      "props": {
+        "asset_id": "E-10",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "INBOUND_WAIT_ZONE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        40.0,
+        29.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.86500549316406,
+          27.0,
+          -181.99998474121094
+        ],
+        [
+          141.89500427246094,
+          31.0,
+          -177.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-10",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "STORAGE_ZONE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.0,
+        34.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.86502075195312,
+          30.5,
+          -188.49998474121094
+        ],
+        [
+          141.89501953125,
+          37.5,
+          -181.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PICKING_ZONE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        29.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.86500549316406,
+          27.5,
+          -192.0
+        ],
+        [
+          141.89500427246094,
+          30.5,
+          -188.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-05",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACKING_ZONE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        57.0,
+        29.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.86502075195312,
+          27.0,
+          -199.5
+        ],
+        [
+          141.89501953125,
+          31.0,
+          -194.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "OUTBOUND_WAIT_ZONE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        64.0,
+        29.0,
+        1.8799999952316284
+      ],
+      "cn_bounds": [
+        [
+          141.86500549316406,
+          27.0,
+          -205.99998474121094
+        ],
+        [
+          141.89500427246094,
+          31.0,
+          -201.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-10",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_32.5_-1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        42.599998474121094,
+        31.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          31.690000534057617,
+          -182.6599884033203
+        ],
+        [
+          145.52500915527344,
+          31.809999465942383,
+          -182.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_32.5_-1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        42.599998474121094,
+        33.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          33.189998626708984,
+          -182.6599884033203
+        ],
+        [
+          145.52500915527344,
+          33.310001373291016,
+          -182.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_32.5_1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.400001525878906,
+        31.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          31.690000534057617,
+          -185.45999145507812
+        ],
+        [
+          145.52499389648438,
+          31.809999465942383,
+          -185.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_32.5_1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.400001525878906,
+        33.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          33.189998626708984,
+          -185.45999145507812
+        ],
+        [
+          145.52499389648438,
+          33.310001373291016,
+          -185.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_32.5_2.1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        32.5,
+        2.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.02999877929688,
+          31.649999618530273,
+          -185.49998474121094
+        ],
+        [
+          142.17001342773438,
+          33.349998474121094,
+          -182.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_32.5_3.65": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        32.5,
+        3.6500000953674316
+      ],
+      "cn_bounds": [
+        [
+          143.57998657226562,
+          31.649999618530273,
+          -185.5
+        ],
+        [
+          143.72000122070312,
+          33.349998474121094,
+          -182.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_32.5_5.25": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        32.5,
+        5.25
+      ],
+      "cn_bounds": [
+        [
+          145.17999267578125,
+          31.649999618530273,
+          -185.5
+        ],
+        [
+          145.32000732421875,
+          33.349998474121094,
+          -182.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_36.5_-1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        42.599998474121094,
+        35.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          35.689998626708984,
+          -182.6599884033203
+        ],
+        [
+          145.52500915527344,
+          35.810001373291016,
+          -182.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_36.5_-1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        42.599998474121094,
+        37.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          37.189998626708984,
+          -182.6599884033203
+        ],
+        [
+          145.52500915527344,
+          37.310001373291016,
+          -182.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_36.5_1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.400001525878906,
+        35.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          35.689998626708984,
+          -185.45999145507812
+        ],
+        [
+          145.52499389648438,
+          35.810001373291016,
+          -185.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_44_36.5_1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.400001525878906,
+        37.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          37.189998626708984,
+          -185.45999145507812
+        ],
+        [
+          145.52499389648438,
+          37.310001373291016,
+          -185.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_36.5_2.1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        2.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.02999877929688,
+          35.650001525878906,
+          -185.49998474121094
+        ],
+        [
+          142.17001342773438,
+          37.349998474121094,
+          -182.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_36.5_3.65": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        3.6500000953674316
+      ],
+      "cn_bounds": [
+        [
+          143.57998657226562,
+          35.650001525878906,
+          -185.5
+        ],
+        [
+          143.72000122070312,
+          37.349998474121094,
+          -182.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_44_36.5_5.25": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        5.25
+      ],
+      "cn_bounds": [
+        [
+          145.17999267578125,
+          35.650001525878906,
+          -185.5
+        ],
+        [
+          145.32000732421875,
+          37.349998474121094,
+          -182.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_32.5_-1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        46.599998474121094,
+        31.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          31.690000534057617,
+          -186.6599884033203
+        ],
+        [
+          145.52499389648438,
+          31.809999465942383,
+          -186.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_32.5_-1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        46.599998474121094,
+        33.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          33.189998626708984,
+          -186.6599884033203
+        ],
+        [
+          145.52499389648438,
+          33.310001373291016,
+          -186.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_32.5_1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        49.400001525878906,
+        31.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          31.690000534057617,
+          -189.45999145507812
+        ],
+        [
+          145.52500915527344,
+          31.809999465942383,
+          -189.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_32.5_1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        49.400001525878906,
+        33.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          33.189998626708984,
+          -189.45999145507812
+        ],
+        [
+          145.52500915527344,
+          33.310001373291016,
+          -189.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_32.5_2.1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        2.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.02999877929688,
+          31.649999618530273,
+          -189.5
+        ],
+        [
+          142.17001342773438,
+          33.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_32.5_3.65": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        3.6500000953674316
+      ],
+      "cn_bounds": [
+        [
+          143.5800018310547,
+          31.649999618530273,
+          -189.5
+        ],
+        [
+          143.7200164794922,
+          33.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_32.5_5.25": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        5.25
+      ],
+      "cn_bounds": [
+        [
+          145.17999267578125,
+          31.649999618530273,
+          -189.5
+        ],
+        [
+          145.32000732421875,
+          33.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_36.5_-1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        46.599998474121094,
+        35.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          35.689998626708984,
+          -186.6599884033203
+        ],
+        [
+          145.52499389648438,
+          35.810001373291016,
+          -186.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_36.5_-1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        46.599998474121094,
+        37.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.875,
+          37.189998626708984,
+          -186.6599884033203
+        ],
+        [
+          145.52499389648438,
+          37.310001373291016,
+          -186.5399932861328
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_36.5_1.4_-0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        49.400001525878906,
+        35.75,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          35.689998626708984,
+          -189.45999145507812
+        ],
+        [
+          145.52500915527344,
+          35.810001373291016,
+          -189.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_POST_48_36.5_1.4_0.75": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        49.400001525878906,
+        37.25,
+        3.700000047683716
+      ],
+      "cn_bounds": [
+        [
+          141.87501525878906,
+          37.189998626708984,
+          -189.45999145507812
+        ],
+        [
+          145.52500915527344,
+          37.310001373291016,
+          -189.33999633789062
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_36.5_2.1": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        2.0999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.02999877929688,
+          35.650001525878906,
+          -189.5
+        ],
+        [
+          142.17001342773438,
+          37.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_36.5_3.65": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        3.6500000953674316
+      ],
+      "cn_bounds": [
+        [
+          143.5800018310547,
+          35.650001525878906,
+          -189.5
+        ],
+        [
+          143.7200164794922,
+          37.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_SHELF_48_36.5_5.25": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        5.25
+      ],
+      "cn_bounds": [
+        [
+          145.17999267578125,
+          35.650001525878906,
+          -189.5
+        ],
+        [
+          145.32000732421875,
+          37.349998474121094,
+          -186.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W04_PICK_BIN_SUPPORT": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        32.0,
+        2.2899999618530273
+      ],
+      "cn_bounds": [
+        [
+          142.23001098632812,
+          31.600000381469727,
+          -190.4499969482422
+        ],
+        [
+          142.35000610351562,
+          32.400001525878906,
+          -189.5500030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W04_BIN_STAND_31.7": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        31.700000762939453,
+        2.0450000762939453
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          31.650001525878906,
+          -190.32498168945312
+        ],
+        [
+          142.23001098632812,
+          31.75,
+          -189.67498779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W04_BIN_STAND_32.3": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        32.29999923706055,
+        2.0450000762939453
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          32.25,
+          -190.32498168945312
+        ],
+        [
+          142.23001098632812,
+          32.349998474121094,
+          -189.67498779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-03",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W06_PACK_TABLE": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        57.0,
+        30.0,
+        2.9000000953674316
+      ],
+      "cn_bounds": [
+        [
+          142.8000030517578,
+          29.200000762939453,
+          -198.5
+        ],
+        [
+          143.00001525878906,
+          30.799999237060547,
+          -195.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TABLE_LEG_55.8": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        55.79999923706055,
+        30.0,
+        2.3499999046325684
+      ],
+      "cn_bounds": [
+        [
+          141.85000610351562,
+          29.450000762939453,
+          -195.88499450683594
+        ],
+        [
+          142.85000610351562,
+          30.549999237060547,
+          -195.71498107910156
+        ]
+      ],
+      "props": {
+        "asset_id": "W-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "TABLE_LEG_58.2": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        58.20000076293945,
+        30.0,
+        2.3499999046325684
+      ],
+      "cn_bounds": [
+        [
+          141.8500213623047,
+          29.450000762939453,
+          -198.28500366210938
+        ],
+        [
+          142.8500213623047,
+          30.549999237060547,
+          -198.114990234375
+        ]
+      ],
+      "props": {
+        "asset_id": "W-06",
+        "environment": true,
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_3.65_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        43.150001525878906,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          31.975000381469727,
+          -183.5
+        ],
+        [
+          144.60000610351562,
+          33.025001525878906,
+          -182.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_3.65_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          31.975000381469727,
+          -184.35000610351562
+        ],
+        [
+          144.60000610351562,
+          33.025001525878906,
+          -183.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_3.65_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.849998474121094,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          31.975000381469727,
+          -185.1999969482422
+        ],
+        [
+          144.60000610351562,
+          33.025001525878906,
+          -184.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_5.25_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        43.150001525878906,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -183.5
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -182.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_5.25_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -184.35000610351562
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -183.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_32.5_5.25_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.849998474121094,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -185.1999969482422
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -184.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_2.1_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        43.150001525878906,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          35.974998474121094,
+          -183.5
+        ],
+        [
+          143.0500030517578,
+          37.025001525878906,
+          -182.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_2.1_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          35.974998474121094,
+          -184.35000610351562
+        ],
+        [
+          143.0500030517578,
+          37.025001525878906,
+          -183.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_2.1_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.849998474121094,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          35.974998474121094,
+          -185.1999969482422
+        ],
+        [
+          143.0500030517578,
+          37.025001525878906,
+          -184.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_3.65_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        43.150001525878906,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          35.974998474121094,
+          -183.5
+        ],
+        [
+          144.60000610351562,
+          37.025001525878906,
+          -182.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_3.65_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          35.974998474121094,
+          -184.35000610351562
+        ],
+        [
+          144.60000610351562,
+          37.025001525878906,
+          -183.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_3.65_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.849998474121094,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          35.974998474121094,
+          -185.1999969482422
+        ],
+        [
+          144.60000610351562,
+          37.025001525878906,
+          -184.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_5.25_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        43.150001525878906,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -183.5
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -182.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_5.25_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.0,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -184.35000610351562
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -183.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_44_36.5_5.25_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        44.849998474121094,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -185.1999969482422
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -184.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_2.1_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        32.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.1500244140625,
+          31.975000381469727,
+          -187.5
+        ],
+        [
+          143.05001831054688,
+          33.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_2.1_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          31.975000381469727,
+          -188.35000610351562
+        ],
+        [
+          143.0500030517578,
+          33.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_2.1_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        32.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          31.975000381469727,
+          -189.1999969482422
+        ],
+        [
+          143.0500030517578,
+          33.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_3.65_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.6999969482422,
+          31.975000381469727,
+          -187.5
+        ],
+        [
+          144.59999084472656,
+          33.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_3.65_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          31.975000381469727,
+          -188.35000610351562
+        ],
+        [
+          144.60000610351562,
+          33.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_3.65_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        32.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.6999969482422,
+          31.975000381469727,
+          -189.1999969482422
+        ],
+        [
+          144.59999084472656,
+          33.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_5.25_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -187.5
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_5.25_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -188.35000610351562
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_32.5_5.25_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        32.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          31.975000381469727,
+          -189.1999969482422
+        ],
+        [
+          146.1999969482422,
+          33.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_2.1_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.1500244140625,
+          35.974998474121094,
+          -187.5
+        ],
+        [
+          143.05001831054688,
+          37.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_2.1_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          35.974998474121094,
+          -188.35000610351562
+        ],
+        [
+          143.0500030517578,
+          37.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_2.1_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        36.5,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          35.974998474121094,
+          -189.1999969482422
+        ],
+        [
+          143.0500030517578,
+          37.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_3.65_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.6999969482422,
+          35.974998474121094,
+          -187.5
+        ],
+        [
+          144.59999084472656,
+          37.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_3.65_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.70001220703125,
+          35.974998474121094,
+          -188.35000610351562
+        ],
+        [
+          144.60000610351562,
+          37.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_3.65_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        36.5,
+        4.150000095367432
+      ],
+      "cn_bounds": [
+        [
+          143.6999969482422,
+          35.974998474121094,
+          -189.1999969482422
+        ],
+        [
+          144.59999084472656,
+          37.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_5.25_-0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        47.150001525878906,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -187.5
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -186.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_5.25_0": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.0,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -188.35000610351562
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -187.64999389648438
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "RACK_CARGO_48_36.5_5.25_0.85": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        48.849998474121094,
+        36.5,
+        5.75
+      ],
+      "cn_bounds": [
+        [
+          145.3000030517578,
+          35.974998474121094,
+          -189.1999969482422
+        ],
+        [
+          146.1999969482422,
+          37.025001525878906,
+          -188.49998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -129.18516540527344,
+        -1.25,
+        60.40553283691406
+      ],
+      "cn_bounds": [
+        [
+          0.14999771118164062,
+          -1.25,
+          2.6100082397460938
+        ],
+        [
+          0.14999771118164062,
+          -1.25,
+          2.6100082397460938
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "instance_id": "W01_NEW_PALLET",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET_BASE": {
+      "type": "MESH",
+      "parent": "W01_NEW_PALLET",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          -0.40000230073928833,
+          -1.725000023841858,
+          2.5500082969665527
+        ],
+        [
+          0.6999977231025696,
+          -0.7749999761581421,
+          2.6700081825256348
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET_BOX_-0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_NEW_PALLET",
+      "local_location": [
+        -0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          -0.3699989318847656,
+          -1.6700000762939453,
+          2.675004720687866
+        ],
+        [
+          0.13000108301639557,
+          -1.2699999809265137,
+          3.4050047397613525
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET_BOX_-0.270.22": {
+      "type": "MESH",
+      "parent": "W01_NEW_PALLET",
+      "local_location": [
+        -0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          -0.3699989318847656,
+          -1.2300000190734863,
+          2.675004720687866
+        ],
+        [
+          0.13000108301639557,
+          -0.8299999833106995,
+          3.4050047397613525
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET_BOX_0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_NEW_PALLET",
+      "local_location": [
+        0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          0.1699981540441513,
+          -1.6700000762939453,
+          2.6750009059906006
+        ],
+        [
+          0.6699981689453125,
+          -1.2699999809265137,
+          3.405000925064087
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_NEW_PALLET_BOX_0.270.22": {
+      "type": "MESH",
+      "parent": "W01_NEW_PALLET",
+      "local_location": [
+        0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          0.1699981540441513,
+          -1.2300000190734863,
+          2.6750009059906006
+        ],
+        [
+          0.6699981689453125,
+          -0.8299999833106995,
+          3.405000925064087
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        100.01611328125,
+        29.0,
+        110.37240600585938
+      ],
+      "cn_bounds": [
+        [
+          142.3000030517578,
+          29.0,
+          -184.0
+        ],
+        [
+          142.3000030517578,
+          29.0,
+          -184.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "instance_id": "W01_STORED_PALLET",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET_BASE": {
+      "type": "MESH",
+      "parent": "W01_STORED_PALLET",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          142.24000549316406,
+          28.450000762939453,
+          -184.47500610351562
+        ],
+        [
+          142.36000061035156,
+          29.549999237060547,
+          -183.52499389648438
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET_BOX_-0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_STORED_PALLET",
+      "local_location": [
+        -0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          142.364990234375,
+          28.479999542236328,
+          -184.4199981689453
+        ],
+        [
+          143.09500122070312,
+          28.979999542236328,
+          -184.02000427246094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET_BOX_-0.270.22": {
+      "type": "MESH",
+      "parent": "W01_STORED_PALLET",
+      "local_location": [
+        -0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          142.36500549316406,
+          28.479999542236328,
+          -183.97999572753906
+        ],
+        [
+          143.0950164794922,
+          28.979999542236328,
+          -183.5800018310547
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET_BOX_0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_STORED_PALLET",
+      "local_location": [
+        0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          142.364990234375,
+          29.020000457763672,
+          -184.4199981689453
+        ],
+        [
+          143.09500122070312,
+          29.520000457763672,
+          -184.02000427246094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_STORED_PALLET_BOX_0.270.22": {
+      "type": "MESH",
+      "parent": "W01_STORED_PALLET",
+      "local_location": [
+        0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          142.36500549316406,
+          29.020000457763672,
+          -183.97999572753906
+        ],
+        [
+          143.0950164794922,
+          29.520000457763672,
+          -183.5800018310547
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO": {
+      "type": "EMPTY",
+      "parent": "A01_CONTAINER",
+      "local_location": [
+        0.6499999761581421,
+        0.0,
+        -0.5099999904632568
+      ],
+      "cn_bounds": [
+        [
+          1.4500045776367188,
+          -1.25,
+          2.5900001525878906
+        ],
+        [
+          1.4500045776367188,
+          -1.25,
+          2.5900001525878906
+        ]
+      ],
+      "props": {
+        "asset_id": "W-01",
+        "instance_id": "W01_REMAINING_CONTAINER_CARGO",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BASE": {
+      "type": "MESH",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          0.9000045657157898,
+          -1.725000023841858,
+          2.5300002098083496
+        ],
+        [
+          2.000004529953003,
+          -0.7749999761581421,
+          2.6500000953674316
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "local_location": [
+        -0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          0.9300079345703125,
+          -1.6700000762939453,
+          2.654996633529663
+        ],
+        [
+          1.4300079345703125,
+          -1.2699999809265137,
+          3.3849966526031494
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22": {
+      "type": "MESH",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "local_location": [
+        -0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          0.9300079345703125,
+          -1.2300000190734863,
+          2.654996633529663
+        ],
+        [
+          1.4300079345703125,
+          -0.8299999833106995,
+          3.3849966526031494
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22": {
+      "type": "MESH",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "local_location": [
+        0.27000001072883606,
+        -0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          1.470001220703125,
+          -1.6700000762939453,
+          2.6550004482269287
+        ],
+        [
+          1.970001220703125,
+          -1.2699999809265137,
+          3.385000467300415
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22": {
+      "type": "MESH",
+      "parent": "W01_REMAINING_CONTAINER_CARGO",
+      "local_location": [
+        0.27000001072883606,
+        0.2199999988079071,
+        0.4300000071525574
+      ],
+      "cn_bounds": [
+        [
+          1.470001220703125,
+          -1.2300000190734863,
+          2.6550004482269287
+        ],
+        [
+          1.970001220703125,
+          -0.8299999833106995,
+          3.385000467300415
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_INBOUND_JACK": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        94.41344451904297,
+        29.0,
+        112.55464935302734
+      ],
+      "cn_bounds": [
+        [
+          141.91000366210938,
+          29.0,
+          -178.0
+        ],
+        [
+          141.91000366210938,
+          29.0,
+          -178.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-02",
+        "instance_id": "W02_INBOUND_JACK",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_STORAGE_JACK": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        99.95272064208984,
+        29.0,
+        110.23645782470703
+      ],
+      "cn_bounds": [
+        [
+          142.15000915527344,
+          29.0,
+          -184.0
+        ],
+        [
+          142.15000915527344,
+          29.0,
+          -184.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-02",
+        "instance_id": "W02_STORAGE_JACK",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_INBOUND_JACK_FORKS": {
+      "type": "MESH",
+      "parent": "W02_INBOUND_JACK",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          28.5,
+          -178.64999389648438
+        ],
+        [
+          141.9600067138672,
+          29.5,
+          -177.35000610351562
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_INBOUND_JACK_HANDLE": {
+      "type": "MESH",
+      "parent": "W02_INBOUND_JACK",
+      "local_location": [
+        0.7200000286102295,
+        0.0,
+        0.6000000238418579
+      ],
+      "cn_bounds": [
+        [
+          141.91000366210938,
+          28.940000534057617,
+          -177.33999633789062
+        ],
+        [
+          143.11001586914062,
+          29.059999465942383,
+          -177.22000122070312
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_STORAGE_JACK_FORKS": {
+      "type": "MESH",
+      "parent": "W02_STORAGE_JACK",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          142.10000610351562,
+          28.350000381469727,
+          -184.5
+        ],
+        [
+          142.20001220703125,
+          29.649999618530273,
+          -183.5
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W02_STORAGE_JACK_HANDLE": {
+      "type": "MESH",
+      "parent": "W02_STORAGE_JACK",
+      "local_location": [
+        0.7200000286102295,
+        0.0,
+        0.6000000238418579
+      ],
+      "cn_bounds": [
+        [
+          142.14999389648438,
+          29.65999984741211,
+          -184.0599822998047
+        ],
+        [
+          143.35000610351562,
+          29.779998779296875,
+          -183.9399871826172
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        105.26800537109375,
+        28.0,
+        107.43791961669922
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          28.0,
+          -189.99998474121094
+        ],
+        [
+          141.86000061035156,
+          28.0,
+          -189.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "W-05",
+        "instance_id": "W05_PICK_CART",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        114.33108520507812,
+        28.0,
+        103.21173858642578
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          28.0,
+          -200.0
+        ],
+        [
+          141.86000061035156,
+          28.0,
+          -200.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-09",
+        "instance_id": "W09_OUT_CART",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART_TRAY": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "cn_bounds": [
+        [
+          142.29000854492188,
+          27.524999618530273,
+          -190.62498474121094
+        ],
+        [
+          142.43002319335938,
+          28.475000381469727,
+          -189.37498474121094
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART_CASTER-0.46-0.36": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        -0.46000000834465027,
+        -0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          27.579999923706055,
+          -189.6599884033203
+        ],
+        [
+          142.10000610351562,
+          27.69999885559082,
+          -189.4199981689453
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART_CASTER-0.460.36": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        -0.46000000834465027,
+        0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          28.30000114440918,
+          -189.6599884033203
+        ],
+        [
+          142.10000610351562,
+          28.420000076293945,
+          -189.4199981689453
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART_CASTER0.46-0.36": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        0.46000000834465027,
+        -0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          27.579999923706055,
+          -190.57998657226562
+        ],
+        [
+          142.10000610351562,
+          27.69999885559082,
+          -190.33999633789062
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W05_PICK_CART_CASTER0.460.36": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        0.46000000834465027,
+        0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          28.30000114440918,
+          -190.57998657226562
+        ],
+        [
+          142.10000610351562,
+          28.420000076293945,
+          -190.33999633789062
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART_TRAY": {
+      "type": "MESH",
+      "parent": "W09_OUT_CART",
+      "local_location": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "cn_bounds": [
+        [
+          142.29000854492188,
+          27.524999618530273,
+          -200.625
+        ],
+        [
+          142.43002319335938,
+          28.475000381469727,
+          -199.375
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART_CASTER-0.46-0.36": {
+      "type": "MESH",
+      "parent": "W09_OUT_CART",
+      "local_location": [
+        -0.46000000834465027,
+        -0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          27.579999923706055,
+          -199.6599884033203
+        ],
+        [
+          142.10000610351562,
+          27.69999885559082,
+          -199.4199981689453
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART_CASTER-0.460.36": {
+      "type": "MESH",
+      "parent": "W09_OUT_CART",
+      "local_location": [
+        -0.46000000834465027,
+        0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          28.30000114440918,
+          -199.6599884033203
+        ],
+        [
+          142.10000610351562,
+          28.420000076293945,
+          -199.4199981689453
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART_CASTER0.46-0.36": {
+      "type": "MESH",
+      "parent": "W09_OUT_CART",
+      "local_location": [
+        0.46000000834465027,
+        -0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          27.579999923706055,
+          -200.57998657226562
+        ],
+        [
+          142.10000610351562,
+          27.69999885559082,
+          -200.33999633789062
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W09_OUT_CART_CASTER0.460.36": {
+      "type": "MESH",
+      "parent": "W09_OUT_CART",
+      "local_location": [
+        0.46000000834465027,
+        0.36000001430511475,
+        0.11999999731779099
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          28.30000114440918,
+          -200.57998657226562
+        ],
+        [
+          142.10000610351562,
+          28.420000076293945,
+          -200.33999633789062
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W04_PICK_BIN_PRODUCT": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        32.0,
+        2.5999999046325684
+      ],
+      "cn_bounds": [
+        [
+          142.3500213623047,
+          31.725000381469727,
+          -190.3249969482422
+        ],
+        [
+          142.8500213623047,
+          32.275001525878906,
+          -189.6750030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "W-04",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W04_CART_ORDER_ALREADY_PICKED": {
+      "type": "MESH",
+      "parent": "W05_PICK_CART",
+      "local_location": [
+        0.0,
+        0.0,
+        0.8600000143051147
+      ],
+      "cn_bounds": [
+        [
+          142.4199981689453,
+          27.700000762939453,
+          -190.29998779296875
+        ],
+        [
+          143.02000427246094,
+          28.299999237060547,
+          -189.69998168945312
+        ]
+      ],
+      "props": {
+        "asset_id": "W-04",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W07_OPEN_PACK": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        56.5,
+        30.0,
+        3.049999952316284
+      ],
+      "cn_bounds": [
+        [
+          143.05001831054688,
+          30.0,
+          -196.5
+        ],
+        [
+          143.05001831054688,
+          30.0,
+          -196.5
+        ]
+      ],
+      "props": {
+        "asset_id": "W-07",
+        "instance_id": "W07_OPEN_PACK",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_BOTTOM": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          143.01002502441406,
+          29.600000381469727,
+          -197.0
+        ],
+        [
+          143.0900115966797,
+          30.399999618530273,
+          -196.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_WALL": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        -0.47999998927116394,
+        0.0,
+        0.2800000011920929
+      ],
+      "cn_bounds": [
+        [
+          143.05001831054688,
+          29.600000381469727,
+          -196.04998779296875
+        ],
+        [
+          143.61001586914062,
+          30.399999618530273,
+          -195.989990234375
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_WALL.001": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        0.47999998927116394,
+        0.0,
+        0.2800000011920929
+      ],
+      "cn_bounds": [
+        [
+          143.05001831054688,
+          29.600000381469727,
+          -197.00999450683594
+        ],
+        [
+          143.61001586914062,
+          30.399999618530273,
+          -196.9499969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_WALL.002": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        0.0,
+        -0.3799999952316284,
+        0.2800000011920929
+      ],
+      "cn_bounds": [
+        [
+          143.05001831054688,
+          29.59000015258789,
+          -197.0
+        ],
+        [
+          143.61001586914062,
+          29.650001525878906,
+          -196.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_WALL.003": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        0.0,
+        0.3799999952316284,
+        0.2800000011920929
+      ],
+      "cn_bounds": [
+        [
+          143.05001831054688,
+          30.349998474121094,
+          -197.0
+        ],
+        [
+          143.61001586914062,
+          30.40999984741211,
+          -196.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACK_BOX_CONTENT": {
+      "type": "MESH",
+      "parent": "W07_OPEN_PACK",
+      "local_location": [
+        0.0,
+        0.0,
+        0.20000000298023224
+      ],
+      "cn_bounds": [
+        [
+          143.10000610351562,
+          29.774999618530273,
+          -196.77499389648438
+        ],
+        [
+          143.39999389648438,
+          30.225000381469727,
+          -196.22500610351562
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W08_SEALED_READY": {
+      "type": "MESH",
+      "parent": "US_FRAME",
+      "local_location": [
+        58.20000076293945,
+        30.0,
+        3.3399999141693115
+      ],
+      "cn_bounds": [
+        [
+          143.00999450683594,
+          29.600000381469727,
+          -198.64999389648438
+        ],
+        [
+          143.6699981689453,
+          30.399999618530273,
+          -197.75
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "W08_LAST_LOAD": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        114.68819427490234,
+        28.0,
+        103.97756958007812
+      ],
+      "cn_bounds": [
+        [
+          142.70501708984375,
+          28.0,
+          -200.0
+        ],
+        [
+          142.70501708984375,
+          28.0,
+          -200.0
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "instance_id": "W08_LAST_LOAD",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "LAST_BOX_BODY": {
+      "type": "MESH",
+      "parent": "W08_LAST_LOAD",
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          142.43002319335938,
+          27.674999237060547,
+          -200.3000030517578
+        ],
+        [
+          142.98001098632812,
+          28.325000762939453,
+          -199.6999969482422
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PICKER": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        30.700000762939453,
+        1.8600000143051147
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          30.700000762939453,
+          -189.99998474121094
+        ],
+        [
+          141.86001586914062,
+          30.700000762939453,
+          -189.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "CH-01",
+        "instance_id": "CH_PICKER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PICKER_TORSO": {
+      "type": "MESH",
+      "parent": "CH_PICKER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.949999988079071
+      ],
+      "cn_bounds": [
+        [
+          142.45001220703125,
+          30.46000099182129,
+          -190.239990234375
+        ],
+        [
+          143.17001342773438,
+          30.940000534057617,
+          -189.75997924804688
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PICKER_HEAD": {
+      "type": "MESH",
+      "parent": "CH_PICKER",
+      "local_location": [
+        0.0,
+        0.0,
+        1.5499999523162842
+      ],
+      "cn_bounds": [
+        [
+          143.20001220703125,
+          30.490001678466797,
+          -190.20999145507812
+        ],
+        [
+          143.62002563476562,
+          30.90999984741211,
+          -189.78997802734375
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PICKER_LEG-0.12": {
+      "type": "MESH",
+      "parent": "CH_PICKER",
+      "local_location": [
+        0.0,
+        -0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          30.4950008392334,
+          -190.08999633789062
+        ],
+        [
+          142.5600128173828,
+          30.66499900817871,
+          -189.91000366210938
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PICKER_LEG0.12": {
+      "type": "MESH",
+      "parent": "CH_PICKER",
+      "local_location": [
+        0.0,
+        0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          30.735002517700195,
+          -190.08999633789062
+        ],
+        [
+          142.5600128173828,
+          30.905000686645508,
+          -189.91000366210938
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PACKER": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        57.0,
+        31.399999618530273,
+        1.8600000143051147
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          31.399999618530273,
+          -197.0
+        ],
+        [
+          141.86001586914062,
+          31.399999618530273,
+          -197.0
+        ]
+      ],
+      "props": {
+        "asset_id": "CH-01",
+        "instance_id": "CH_PACKER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PACKER_TORSO": {
+      "type": "MESH",
+      "parent": "CH_PACKER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.949999988079071
+      ],
+      "cn_bounds": [
+        [
+          142.45001220703125,
+          31.15999984741211,
+          -197.239990234375
+        ],
+        [
+          143.17001342773438,
+          31.639999389648438,
+          -196.75997924804688
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PACKER_HEAD": {
+      "type": "MESH",
+      "parent": "CH_PACKER",
+      "local_location": [
+        0.0,
+        0.0,
+        1.5499999523162842
+      ],
+      "cn_bounds": [
+        [
+          143.1999969482422,
+          31.190000534057617,
+          -197.20999145507812
+        ],
+        [
+          143.62001037597656,
+          31.60999870300293,
+          -196.78997802734375
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PACKER_LEG-0.12": {
+      "type": "MESH",
+      "parent": "CH_PACKER",
+      "local_location": [
+        0.0,
+        -0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          31.19499969482422,
+          -197.08998107910156
+        ],
+        [
+          142.5600128173828,
+          31.36499786376953,
+          -196.9099884033203
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_PACKER_LEG0.12": {
+      "type": "MESH",
+      "parent": "CH_PACKER",
+      "local_location": [
+        0.0,
+        0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          31.435001373291016,
+          -197.08998107910156
+        ],
+        [
+          142.5600128173828,
+          31.604999542236328,
+          -196.9099884033203
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOADER": {
+      "type": "EMPTY",
+      "parent": "US_FRAME",
+      "local_location": [
+        66.0,
+        27.049999237060547,
+        1.8600000143051147
+      ],
+      "cn_bounds": [
+        [
+          141.86001586914062,
+          27.049999237060547,
+          -205.99998474121094
+        ],
+        [
+          141.86001586914062,
+          27.049999237060547,
+          -205.99998474121094
+        ]
+      ],
+      "props": {
+        "asset_id": "CH-01",
+        "instance_id": "CH_LOADER",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOADER_TORSO": {
+      "type": "MESH",
+      "parent": "CH_LOADER",
+      "local_location": [
+        0.0,
+        0.0,
+        0.949999988079071
+      ],
+      "cn_bounds": [
+        [
+          142.4499969482422,
+          26.809999465942383,
+          -206.24000549316406
+        ],
+        [
+          143.1699981689453,
+          27.28999900817871,
+          -205.75999450683594
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOADER_HEAD": {
+      "type": "MESH",
+      "parent": "CH_LOADER",
+      "local_location": [
+        0.0,
+        0.0,
+        1.5499999523162842
+      ],
+      "cn_bounds": [
+        [
+          143.20001220703125,
+          26.84000015258789,
+          -206.2100067138672
+        ],
+        [
+          143.62002563476562,
+          27.259998321533203,
+          -205.7899932861328
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOADER_LEG-0.12": {
+      "type": "MESH",
+      "parent": "CH_LOADER",
+      "local_location": [
+        0.0,
+        -0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          26.844999313354492,
+          -206.08999633789062
+        ],
+        [
+          142.5600128173828,
+          27.014997482299805,
+          -205.91000366210938
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOADER_LEG0.12": {
+      "type": "MESH",
+      "parent": "CH_LOADER",
+      "local_location": [
+        0.0,
+        0.11999999731779099,
+        0.3499999940395355
+      ],
+      "cn_bounds": [
+        [
+          141.86000061035156,
+          27.08500099182129,
+          -206.08999633789062
+        ],
+        [
+          142.5600128173828,
+          27.2549991607666,
+          -205.91000366210938
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOAD_SUPPORT": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        120.06476593017578,
+        27.5,
+        101.31044006347656
+      ],
+      "cn_bounds": [
+        [
+          142.52999877929688,
+          27.174999237060547,
+          -206.3000030517578
+        ],
+        [
+          142.58999633789062,
+          27.825000762939453,
+          -205.6999969482422
+        ]
+      ],
+      "props": {
+        "asset_id": "CH-01",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOAD_ARM_0": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        119.9468994140625,
+        27.274999618530273,
+        101.53091430664062
+      ],
+      "cn_bounds": [
+        [
+          142.4976043701172,
+          27.00839614868164,
+          -205.87498474121094
+        ],
+        [
+          142.9224090576172,
+          27.541603088378906,
+          -205.72499084472656
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CH_LOAD_ARM_1": {
+      "type": "MESH",
+      "parent": null,
+      "local_location": [
+        120.30941772460938,
+        27.274999618530273,
+        101.36186981201172
+      ],
+      "cn_bounds": [
+        [
+          142.4976043701172,
+          27.00839614868164,
+          -206.27499389648438
+        ],
+        [
+          142.9224090576172,
+          27.541603088378906,
+          -206.125
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_PRELOADED-0.8": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        -0.800000011920929,
+        0.0,
+        1.9500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.55001831054688,
+          28.549999237060547,
+          -212.5999755859375
+        ],
+        [
+          142.35000610351562,
+          29.450000762939453,
+          -211.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A04_PRIMARY_PRELOADED0.2": {
+      "type": "MESH",
+      "parent": "A04_PRIMARY",
+      "local_location": [
+        0.20000000298023224,
+        0.0,
+        1.9500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.55001831054688,
+          28.549999237060547,
+          -213.5999755859375
+        ],
+        [
+          142.35000610351562,
+          29.450000762939453,
+          -212.79998779296875
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_PRELOADED-0.8": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        -0.800000011920929,
+        0.0,
+        1.9500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.55001831054688,
+          34.54999923706055,
+          -211.59999084472656
+        ],
+        [
+          142.35000610351562,
+          35.45000076293945,
+          -210.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "A05_SECONDARY_PRELOADED0.2": {
+      "type": "MESH",
+      "parent": "A05_SECONDARY",
+      "local_location": [
+        0.20000000298023224,
+        0.0,
+        1.9500000476837158
+      ],
+      "cn_bounds": [
+        [
+          141.55001831054688,
+          34.54999923706055,
+          -212.59999084472656
+        ],
+        [
+          142.35000610351562,
+          35.45000076293945,
+          -211.8000030517578
+        ]
+      ],
+      "props": {
+        "asset_id": "W-08",
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CAM_MASTER": {
+      "type": "CAMERA",
+      "parent": null,
+      "local_location": [
+        -130.872314453125,
+        -9.800000190734863,
+        65.99195861816406
+      ],
+      "cn_bounds": [
+        [
+          4.5,
+          -9.800000190734863,
+          6.500009536743164
+        ],
+        [
+          4.5,
+          -9.800000190734863,
+          6.500009536743164
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CAM_LOOK_TARGET": {
+      "type": "EMPTY",
+      "parent": null,
+      "local_location": [
+        -129.3092498779297,
+        -1.25,
+        61.18058776855469
+      ],
+      "cn_bounds": [
+        [
+          0.7999954223632812,
+          -1.25,
+          3.050016403198242
+        ],
+        [
+          0.7999954223632812,
+          -1.25,
+          3.050016403198242
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "INBOUND_WAIT_REVIEW_LABEL": {
+      "type": "FONT",
+      "parent": "US_FRAME",
+      "local_location": [
+        40.0,
+        24.0,
+        1.899999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.89999389648438,
+          24.0,
+          -180.0
+        ],
+        [
+          141.89999389648438,
+          24.0,
+          -180.0
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "STORAGE_REVIEW_LABEL": {
+      "type": "FONT",
+      "parent": "US_FRAME",
+      "local_location": [
+        45.0,
+        24.0,
+        1.899999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.89999389648438,
+          24.0,
+          -185.0
+        ],
+        [
+          141.89999389648438,
+          24.0,
+          -185.0
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PICKING_REVIEW_LABEL": {
+      "type": "FONT",
+      "parent": "US_FRAME",
+      "local_location": [
+        50.0,
+        24.0,
+        1.899999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.89999389648438,
+          24.0,
+          -190.0
+        ],
+        [
+          141.89999389648438,
+          24.0,
+          -190.0
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "PACKING_REVIEW_LABEL": {
+      "type": "FONT",
+      "parent": "US_FRAME",
+      "local_location": [
+        57.0,
+        24.0,
+        1.899999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.89999389648438,
+          24.0,
+          -197.0
+        ],
+        [
+          141.89999389648438,
+          24.0,
+          -197.0
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "OUTBOUND_WAIT_REVIEW_LABEL": {
+      "type": "FONT",
+      "parent": "US_FRAME",
+      "local_location": [
+        64.0,
+        24.0,
+        1.899999976158142
+      ],
+      "cn_bounds": [
+        [
+          141.89999389648438,
+          24.0,
+          -204.0
+        ],
+        [
+          141.89999389648438,
+          24.0,
+          -204.0
+        ]
+      ],
+      "props": {},
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CAMERA_PATH": {
+      "type": "CURVE",
+      "parent": null,
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          0.0,
+          0.0,
+          -140.0
+        ],
+        [
+          0.0,
+          0.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        true
+      ]
+    },
+    "SHIP_ROUTE": {
+      "type": "CURVE",
+      "parent": null,
+      "local_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cn_bounds": [
+        [
+          0.0,
+          0.0,
+          -140.0
+        ],
+        [
+          0.0,
+          0.0,
+          -140.0
+        ]
+      ],
+      "props": {
+        "representation": "proxy"
+      },
+      "hidden": [
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "camera_samples": {
+    "0": {
+      "camera_cn": [
+        3.5999984741210938,
+        -8.800000190734863,
+        4.618947982788086
+      ],
+      "target_cn": [
+        0.7999954223632812,
+        -1.25,
+        7.568975448608398
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        0.0,
+        0.0,
+        5.7220458984375e-06
+      ]
+    },
+    "84": {
+      "camera_cn": [
+        4.382575988769531,
+        -9.577219009399414,
+        6.069011688232422
+      ],
+      "target_cn": [
+        0.7999954223632812,
+        -1.25,
+        3.0694103240966797
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        0.0,
+        0.0,
+        5.7220458984375e-06
+      ]
+    },
+    "96": {
+      "camera_cn": [
+        4.5,
+        -9.800000190734863,
+        6.500009536743164
+      ],
+      "target_cn": [
+        0.7999954223632812,
+        -1.25,
+        3.050016403198242
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        0.0,
+        0.0,
+        5.7220458984375e-06
+      ]
+    },
+    "124": {
+      "camera_cn": [
+        4.000003814697266,
+        -10.800000190734863,
+        7.000003814697266
+      ],
+      "target_cn": [
+        0.5999984741210938,
+        -0.699999988079071,
+        3.6000022888183594
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        0.0,
+        0.0,
+        5.7220458984375e-06
+      ]
+    },
+    "148": {
+      "camera_cn": [
+        2.005229949951172,
+        -13.0,
+        7.999927520751953
+      ],
+      "target_cn": [
+        0.105072021484375,
+        0.0,
+        3.699993133544922
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        0.004947662353515625,
+        0.0,
+        -1.9073486328125e-06
+      ]
+    },
+    "180": {
+      "camera_cn": [
+        -6.348209381103516,
+        -13.0,
+        8.57977294921875
+      ],
+      "target_cn": [
+        2.587848663330078,
+        0.0,
+        2.7800559997558594
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        1.5567779541015625,
+        0.0,
+        -0.008655548095703125
+      ]
+    },
+    "216": {
+      "camera_cn": [
+        -5.855293273925781,
+        -10.0,
+        8.858043670654297
+      ],
+      "target_cn": [
+        9.046234130859375,
+        0.0,
+        0.31670570373535156
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        10.497028350830078,
+        0.0,
+        -0.39407920837402344
+      ]
+    },
+    "278": {
+      "camera_cn": [
+        33.4975471496582,
+        -27.0,
+        33.573944091796875
+      ],
+      "target_cn": [
+        47.3345947265625,
+        0.0,
+        -2.9436721801757812
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        45.702362060546875,
+        0.0,
+        -7.669757843017578
+      ]
+    },
+    "330": {
+      "camera_cn": [
+        86.32711791992188,
+        -27.0,
+        14.264812469482422
+      ],
+      "target_cn": [
+        87.99234008789062,
+        0.0,
+        -24.750919342041016
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        84.95811462402344,
+        0.0,
+        -28.725025177001953
+      ]
+    },
+    "450": {
+      "camera_cn": [
+        155.3965606689453,
+        -19.016555786132812,
+        -131.67327880859375
+      ],
+      "target_cn": [
+        139.16268920898438,
+        0.15957102179527283,
+        -116.68885803222656
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        138.1021728515625,
+        0.0,
+        -117.02630615234375
+      ]
+    },
+    "456": {
+      "camera_cn": [
+        156.91485595703125,
+        -17.374204635620117,
+        -137.2142791748047
+      ],
+      "target_cn": [
+        139.88623046875,
+        0.4011809229850769,
+        -119.90656280517578
+      ],
+      "lens": 40.0,
+      "ship_cn": [
+        138.63754272460938,
+        0.0,
+        -120.51576232910156
+      ]
+    },
+    "480": {
+      "camera_cn": [
+        156.0,
+        -25.0,
+        -140.0
+      ],
+      "target_cn": [
+        142.0,
+        2.0,
+        -136.0
+      ],
+      "lens": 38.0,
+      "ship_cn": [
+        139.8162841796875,
+        0.0,
+        -132.83030700683594
+      ]
+    }
+  }
+}

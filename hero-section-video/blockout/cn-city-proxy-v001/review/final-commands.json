@@ -1,0 +1,79 @@
+[
+  {
+    "name": "guards",
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\tests\\test_guards.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "review/logs/final-guards.log"
+  },
+  {
+    "name": "baseline-missing-proxy",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "-b",
+      "--factory-startup",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\inputs\\base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\tests\\test_proxy.py"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "log": "review/logs/final-baseline-missing-proxy.log"
+  },
+  {
+    "name": "proxy-and-master",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "-b",
+      "--factory-startup",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\master-cn-city-proxy-v001.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\tests\\test_proxy.py",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\regression.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "review/logs/final-proxy-and-master.log"
+  },
+  {
+    "name": "original-behavior",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "-b",
+      "--factory-startup",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\inputs\\base.blend",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\inspect_scene.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "review/logs/final-original-behavior.log"
+  },
+  {
+    "name": "reproduction-structure",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "-b",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\check_reproduced_structure.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "review/logs/final-reproduction-structure.log"
+  }
+]

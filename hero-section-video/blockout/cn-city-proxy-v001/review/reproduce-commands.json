@@ -1,0 +1,105 @@
+[
+  {
+    "name": "reproduce-build",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\build_proxy.py",
+      "--",
+      "--base",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\inputs\\base.blend",
+      "--output",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reproduced.blend",
+      "--config",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\proxy-config.json"
+    ],
+    "exit_code": 0,
+    "expected_success": true
+  },
+  {
+    "name": "overwrite-refused",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\build_proxy.py",
+      "--",
+      "--base",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\inputs\\base.blend",
+      "--output",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reproduced.blend",
+      "--config",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\proxy-config.json"
+    ],
+    "exit_code": 1,
+    "expected_success": false
+  },
+  {
+    "name": "duplicate-refused",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\build_proxy.py",
+      "--",
+      "--base",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reproduced.blend",
+      "--output",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\duplicate-must-not-exist.blend",
+      "--config",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\duplicate-test-config.json"
+    ],
+    "exit_code": 1,
+    "expected_success": false
+  },
+  {
+    "name": "reproduced-render",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reproduced.blend",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\render.py",
+      "--",
+      "--output",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reproduced-render",
+      "--frames",
+      "96,148,216,278,456"
+    ],
+    "exit_code": 0,
+    "expected_success": true
+  },
+  {
+    "name": "reopened-render",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\master-cn-city-proxy-v001.blend",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\scripts\\render.py",
+      "--",
+      "--output",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\reopened-render",
+      "--frames",
+      "96,148,216,278,456"
+    ],
+    "exit_code": 0,
+    "expected_success": true
+  }
+]

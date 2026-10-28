@@ -1,0 +1,20 @@
+{
+  "master_sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "source_unchanged": true,
+  "evidence_hashes_match_master": true,
+  "tests": {
+    "guards": 5,
+    "proxy": 6,
+    "original_behavior": 24
+  },
+  "technical_checks": "PASS",
+  "overall_acceptance": "REWORK_REQUIRED_CAMERA_REDESIGN",
+  "AC1": "FAIL",
+  "AC2": "PASS_PROXY_ONLY",
+  "AC3": "PASS",
+  "AC4": "PASS",
+  "AC5": "PASS_SAMPLED",
+  "AC6": "PASS",
+  "AC7": "PASS_EVIDENCE_AND_REPORT_PRESENT"
+}

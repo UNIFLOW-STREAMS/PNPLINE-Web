@@ -1,0 +1,9 @@
+{
+  "same_names": true,
+  "all_object_mesh_material_action_scene_signatures_equal": true,
+  "sampled_states_equal": true,
+  "static_errors": [],
+  "master_sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "reproduced_sha256": "287d4d0c019bb03927bfbfe227d4e91ab36318e60c26eb801eda0bcc3f7ef823",
+  "semantic_digest": "4c7ff079837906c8f5995626673856eb6990bfb884b547473d4e5f04ab10eaf2"
+}

@@ -1,0 +1,16 @@
+{
+ "url":"http://127.0.0.1:8772/review.html",
+ "candidate_sha256":"dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+ "slow_start_utc":"2026-10-28T07:48:54.594Z",
+ "slow_start_video_time":4.666666,
+ "playback_rate":0.5,
+ "observed_during_playback":{"before":21.5946,"after":21.5702,"paused":false},
+ "seek148_utc":"2026-10-28T07:49:45.543Z",
+ "seek148_video_time":5.333333,
+ "played_before_seek":{"before":[[4.666666,30.0638]],"after":[[4.666666,30.0394]]},
+ "dropped_frames_at_seek":{"before":2,"after":4},
+ "seek216_utc":"2026-10-28T07:50:01.108Z",
+ "seek216_video_time":11,
+ "errors":null,
+ "visual_observations":"Upper landmark features cropped at f148; most city left view at f216. Slow playback is a separate inspection from complete1x playback in playback-normal.json."
+}

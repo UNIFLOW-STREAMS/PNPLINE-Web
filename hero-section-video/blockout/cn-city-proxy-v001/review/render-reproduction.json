@@ -1,0 +1,16 @@
+{
+  "pixel_equal": {
+    "reproduced-96": true,
+    "reopened-96": true,
+    "reproduced-148": true,
+    "reopened-148": true,
+    "reproduced-216": true,
+    "reopened-216": true,
+    "reproduced-278": true,
+    "reopened-278": true,
+    "reproduced-456": true,
+    "reopened-456": true
+  },
+  "reproduced_sha256": "287d4d0c019bb03927bfbfe227d4e91ab36318e60c26eb801eda0bcc3f7ef823",
+  "master_sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb"
+}

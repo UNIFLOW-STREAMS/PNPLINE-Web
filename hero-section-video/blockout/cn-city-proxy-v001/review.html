@@ -1,0 +1,16 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>중국 도시 프록시 v001 검토</title>
+<style>body{font:16px system-ui;background:#171d22;color:#edf2f4;margin:24px;max-width:1500px}h1{font-size:26px}.row{display:flex;gap:16px}.row>div{width:50%}video,img{max-width:100%}button{font:inherit;padding:10px;margin:5px;background:#edf2f4;border:0;border-radius:4px;cursor:pointer}p{line-height:1.6}pre{white-space:pre-wrap;font:12px monospace}a{color:#8bd0e9}</style>
+<h1>중국 도시·항구 프록시 v001</h1><p>기존 12fps 통합본의 카메라와 동작을 유지했습니다. 현재 S2 구도에서는 주요 타워의 상부가 잘려 도시 공개 조건에 미달합니다. 조감도는 형상 검토용입니다.</p>
+<button id="normal">전후 연결 영상 정상 재생 (12fps · 33.08초)</button><button id="slow">S2 출항 구간 느리게 (0.5배)</button><button id="back">f148로 이동</button><button id="forward">f216으로 이동</button>
+<div class="row"><div><p>보강 전 · f84–480</p><video id="before" controls preload="auto" src="preview/before-connection.mp4"></video></div><div><p>보강 후 · 같은 카메라</p><video id="after" controls preload="auto" src="preview/after-connection.mp4"></video></div></div>
+<p id="state">대기</p><pre id="audit"></pre>
+<h2>형상 및 지형 진단용 조감도</h2><img src="review/diagnostic/overview.png" alt="네 랜드마크와 고층, 수변 중층, 저층 지붕군을 배치한 중국 항구 진단뷰">
+<p><a href="review/comparison.jpg">본편 대표 프레임 전후 비교</a> · <a href="review/diagnostic/top.png">탑뷰</a> · <a href="review/diagnostic/shore.png">지형 연결</a> · <a href="report.md">검증 보고서</a></p>
+<script>
+const videos=[document.querySelector('#before'),document.querySelector('#after')];let mode='idle',records=[];
+function capture(event){const row={event,mode,at:new Date().toISOString(),videos:videos.map(v=>({id:v.id,time:v.currentTime,duration:v.duration,rate:v.playbackRate,ended:v.ended,error:v.error?.message??null,played:Array.from({length:v.played.length},(_,i)=>[v.played.start(i),v.played.end(i)]),quality:v.getVideoPlaybackQuality().totalVideoFrames,dropped:v.getVideoPlaybackQuality().droppedVideoFrames}))};records.push(row);document.querySelector('#audit').textContent=JSON.stringify(records,null,2)}
+document.querySelector('#normal').onclick=async()=>{mode='normal';for(const v of videos){v.currentTime=0;v.playbackRate=1;await v.play()}document.querySelector('#state').textContent='정상 속도 전후 재생 중';capture('start')};
+for(const v of videos)v.addEventListener('ended',()=>{if(videos.every(x=>x.ended)){document.querySelector('#state').textContent='정상 재생 완료';capture('ended')}});
+document.querySelector('#slow').onclick=async()=>{mode='slow';for(const v of videos){v.currentTime=(140-84)/12;v.playbackRate=.5;await v.play()}document.querySelector('#state').textContent='0.5배속 출항 구간 검토';capture('slow-start')};
+for(const [id,frame] of [['back',148],['forward',216]])document.querySelector('#'+id).onclick=()=>{mode='seek';for(const v of videos){v.pause();v.currentTime=(frame-84)/12}document.querySelector('#state').textContent='정지 비교 f'+frame;setTimeout(()=>capture('seek-'+frame),200)};
+</script></html>

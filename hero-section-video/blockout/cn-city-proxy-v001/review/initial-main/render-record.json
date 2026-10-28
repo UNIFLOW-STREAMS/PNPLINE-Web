@@ -1,0 +1,18 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\review\\layout-initial.blend",
+  "sha256": "e0882059c8f54d3fd242b6fb0e075149a671e33da92987aa4aa66873fe9fea4a",
+  "width": 960,
+  "fps": 12,
+  "diagnostic": false,
+  "images": {
+    "96": "e0f6d7d829bfffca4bfa12f31fa09fb8c8e16e462b3cb241e452823e4d9ab0fc",
+    "124": "9f35f6bc286c5459a6daf1597b89cdc51ad370c7797cace4478cde75bd39ec2a",
+    "148": "c5d3ce8f2bd19e8adeca1da945e3c7112d6fb187b245d4792f68478f8d0f998d",
+    "180": "06d540b09a0148e580263fae826b44efe4f1f00111d952604a23facb3bd9c141",
+    "216": "5eaef85925c44212edae0cabcd7afe2c38ae0fc0098be58306dd5616b183faa6",
+    "278": "6f8108c5cc67d3beebc25cf072b919ef2101fde5e95586b713f50686467a087a",
+    "330": "40287dd1c27847d32aebf8798825c6614560cf5057c4f49e1f890221fad4f920",
+    "450": "bcd94f6cef9bdacdbc254e6a3f2066bc1e8e35e51b5ed37ade39af6c3ff93ab8",
+    "456": "68494e4b1796d053039b30295db364daec13a44356cab351ec11a760b2e2af3e"
+  }
+}

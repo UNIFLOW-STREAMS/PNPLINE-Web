@@ -1,0 +1,170 @@
+[
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-frames\\%04d.png",
+      "-frames:v",
+      "397",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "fast",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-connection.mp4"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/before-connection-encode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-connection.mp4",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/before-connection-decode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-framerate",
+      "12",
+      "-start_number",
+      "96",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-frames\\%04d.png",
+      "-frames:v",
+      "121",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "fast",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-s2.mp4"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/before-s2-encode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\before-s2.mp4",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/before-s2-decode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-framerate",
+      "12",
+      "-start_number",
+      "84",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-frames\\%04d.png",
+      "-frames:v",
+      "397",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "fast",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-connection.mp4"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/after-connection-encode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-connection.mp4",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/after-connection-decode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-framerate",
+      "12",
+      "-start_number",
+      "96",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-frames\\%04d.png",
+      "-frames:v",
+      "121",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "fast",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-s2.mp4"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/after-s2-encode.log"
+  },
+  {
+    "command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-i",
+      "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\preview\\after-s2.mp4",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit_code": 0,
+    "log": "review/logs/after-s2-decode.log"
+  }
+]

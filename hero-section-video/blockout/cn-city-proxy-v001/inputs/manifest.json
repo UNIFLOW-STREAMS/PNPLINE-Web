@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "branch": "main",
+  "head": "4993e2f5ce299e7e119eb7b57a4098d7922a7c1f",
+  "source_path": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\master-s5-integration-v001.blend",
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "reference_sha256": "857c767f34e8a06975aad8d33ca2f823c2a213397e2e09f906a08edfc0e55586",
+  "spec_sha256": "e418276f15a46bbc1eb37f14c061bf2a52e4c0ec6cc959ed1fc74de191635dbd",
+  "model_selector": "unknown",
+  "reasoning_setting": "unknown",
+  "environment": "Windows-11-10.0.26200-SP0",
+  "blender": "5.1.0 adfe2921d5f3",
+  "output": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-proxy-v001\\master-cn-city-proxy-v001.blend",
+  "output_sha256": "dc5e44237ba4eba2022096f078f6c39c5d162538dc954542f927a5a2dc69f7eb",
+  "source_unchanged": true
+}

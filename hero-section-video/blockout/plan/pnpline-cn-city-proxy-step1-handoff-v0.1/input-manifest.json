@@ -1,0 +1,35 @@
+{
+  "version": "v0.1",
+  "prepared_on": "2026-10-28",
+  "repo_commit": "4993e2f5ce299e7e119eb7b57a4098d7922a7c1f",
+  "execution_status": "instructions_only_not_executed",
+  "contains_blender_scene": false,
+  "contains_generated_proxy": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1514,
+      "sha256": "3b149be41d7ccc94b34bd604312a5abb121ec8c5e79607b7de41673312f56d39"
+    },
+    {
+      "path": "references/china-shanghai-miniature.png",
+      "bytes": 5797316,
+      "sha256": "857c767f34e8a06975aad8d33ca2f823c2a213397e2e09f906a08edfc0e55586",
+      "dimensions_px": [
+        2048,
+        1156
+      ],
+      "role": "user-supplied concept art; geometry reference only; not an approved scene layout"
+    },
+    {
+      "path": "source-notes.md",
+      "bytes": 3069,
+      "sha256": "42896bd3141e950c76ac0e110976555a64a2af108efb66e3cb29906a1e2c4d72"
+    },
+    {
+      "path": "task-spec.md",
+      "bytes": 28036,
+      "sha256": "e418276f15a46bbc1eb37f14c061bf2a52e4c0ec6cc959ed1fc74de191635dbd"
+    }
+  ]
+}

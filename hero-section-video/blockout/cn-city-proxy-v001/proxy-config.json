@@ -1,0 +1,282 @@
+{
+  "version": "v001",
+  "base_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "owner": "cn-city-proxy-v001",
+  "region": "CN_FRAME",
+  "support": {
+    "object": "CN_LAND_TERRACE",
+    "z": 0.68,
+    "foundation_top": 0.82,
+    "allowed_xy": [
+      -25,
+      24,
+      5,
+      36
+    ]
+  },
+  "hide_original": [
+    "CN_CITY_0",
+    "CN_CITY_1",
+    "CN_CITY_2",
+    "CN_CITY_3",
+    "CN_CITY_4"
+  ],
+  "assumptions": "Scene proxy metres, not measured real-world dimensions. Tallest tower 16.8 versus 14m proxy ship and 12m crane. All bases on existing CN terrace, no new water or floating site. CN local +Z is up; never world Z.",
+  "landmarks": [
+    {
+      "name": "CN_LM_SPHERE_TOWER",
+      "kind": "sphere",
+      "xy": [
+        -13,
+        29.3
+      ],
+      "height": 12.2,
+      "width": 2.8
+    },
+    {
+      "name": "CN_LM_OPEN_TOP_TOWER",
+      "kind": "open",
+      "xy": [
+        -5.5,
+        31.3
+      ],
+      "height": 14.2,
+      "width": 2.7
+    },
+    {
+      "name": "CN_LM_TAPERED_TOWER",
+      "kind": "taper",
+      "xy": [
+        1.0,
+        32.3
+      ],
+      "height": 16.8,
+      "width": 3.1
+    },
+    {
+      "name": "CN_LM_STEPPED_TOWER",
+      "kind": "step",
+      "xy": [
+        7.8,
+        28.3
+      ],
+      "height": 12.4,
+      "width": 2.8
+    }
+  ],
+  "highrises": [
+    [
+      -20,
+      31,
+      5.0,
+      2.8,
+      2.8
+    ],
+    [
+      -16.5,
+      33,
+      6.7,
+      2.6,
+      2.6
+    ],
+    [
+      -10,
+      32.5,
+      7.2,
+      2.3,
+      2.5
+    ],
+    [
+      -7.5,
+      26.2,
+      5.3,
+      2.2,
+      2.3
+    ],
+    [
+      -2.6,
+      26.8,
+      7.2,
+      2.3,
+      2.5
+    ],
+    [
+      3.3,
+      26.0,
+      5.4,
+      2.4,
+      2.3
+    ],
+    [
+      6.3,
+      33,
+      8.1,
+      2.5,
+      2.6
+    ],
+    [
+      12.2,
+      32.5,
+      6.3,
+      2.7,
+      2.6
+    ],
+    [
+      16.4,
+      29.8,
+      4.8,
+      2.7,
+      2.5
+    ],
+    [
+      20.6,
+      33.0,
+      7.0,
+      2.5,
+      2.7
+    ]
+  ],
+  "waterfront": [
+    [
+      -20.0,
+      24.8,
+      3.1,
+      3.4,
+      2.6
+    ],
+    [
+      -16.0,
+      23.8,
+      3.4,
+      3.4,
+      2.6
+    ],
+    [
+      -9.2,
+      22.9,
+      2.5,
+      3.4,
+      2.3
+    ],
+    [
+      -4.6,
+      23.0,
+      2.8,
+      3.4,
+      2.3
+    ],
+    [
+      0,
+      23,
+      2.6,
+      3.4,
+      2.3
+    ],
+    [
+      11.8,
+      23.2,
+      3.1,
+      3.2,
+      2.5
+    ],
+    [
+      16.5,
+      23.2,
+      2.7,
+      3.2,
+      2.5
+    ]
+  ],
+  "lowrise": [
+    [
+      -22,
+      11,
+      1.6
+    ],
+    [
+      -22,
+      15,
+      1.8
+    ],
+    [
+      -22,
+      19,
+      1.5
+    ],
+    [
+      20.4,
+      12.5,
+      1.6
+    ],
+    [
+      20.4,
+      16.5,
+      1.8
+    ],
+    [
+      20.4,
+      24.0,
+      1.7
+    ],
+    [
+      20.4,
+      28,
+      1.5
+    ]
+  ],
+  "pavilion": [
+    -17.0,
+    17.3
+  ],
+  "materials": {
+    "glass": [
+      0.16,
+      0.31,
+      0.38,
+      1
+    ],
+    "glass_light": [
+      0.29,
+      0.44,
+      0.48,
+      1
+    ],
+    "stone": [
+      0.69,
+      0.66,
+      0.56,
+      1
+    ],
+    "trim": [
+      0.82,
+      0.78,
+      0.66,
+      1
+    ],
+    "roof": [
+      0.14,
+      0.2,
+      0.23,
+      1
+    ],
+    "sphere": [
+      0.56,
+      0.25,
+      0.32,
+      1
+    ],
+    "stem": [
+      0.65,
+      0.65,
+      0.6,
+      1
+    ],
+    "base": [
+      0.38,
+      0.43,
+      0.39,
+      1
+    ]
+  },
+  "layout_revision": "sphere moved inland 3.8m and left 0.5m, height unchanged; all other placements fixed"
+}
