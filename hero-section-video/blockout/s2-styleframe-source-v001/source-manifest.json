@@ -1,0 +1,132 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+  "source_sha256_before": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "source_sha256_after": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "source_unchanged": true,
+  "branch": "main",
+  "commit": "bc5ca681908440864104f2f8459a7cf8e83c8de8",
+  "scene_metadata": {
+    "scene": "PNPLINE_MASTER_v005",
+    "camera": "CAM_MASTER",
+    "frame": 156,
+    "fps": 12,
+    "fps_base": 1.0,
+    "lens_mm": 40.0,
+    "frame_range": [
+      0,
+      1392
+    ],
+    "camera_matrix": [
+      [
+        0.395266056060791,
+        -0.8723450899124146,
+        -0.28771334886550903,
+        -154.7876434326172
+      ],
+      [
+        -0.3539097011089325,
+        0.14441165328025818,
+        -0.924063503742218,
+        -53.836490631103516
+      ],
+      [
+        0.8476513624191284,
+        0.46707552671432495,
+        -0.2516503930091858,
+        43.57161331176758
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "blender": "5.1.0"
+  },
+  "engine": "BLENDER_WORKBENCH",
+  "lighting": "STUDIO / MATERIAL / shadows and cavity / WORLD(.18,.18,.18), reused previous render.py",
+  "final_png": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\S2_city_CHINA_f0156_1920x1080.png",
+  "size": [
+    1920,
+    1080
+  ],
+  "mode": "RGB",
+  "sha256": "c30ab0a79c00bdc129bd84c59ddd9d9a582293c435ad53d5e5f2dda4d3c1b2e7",
+  "commands": [
+    {
+      "argv": [
+        "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+        "--background",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\scripts\\render_source.py",
+        "--",
+        "--output",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\verification\\full",
+        "--frames",
+        "156",
+        "--width",
+        "1920"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+        "--background",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\scripts\\render_source.py",
+        "--",
+        "--output",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\verification\\qa",
+        "--frames",
+        "156",
+        "--width",
+        "960"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+        "--background",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\scripts\\render_source.py",
+        "--",
+        "--output",
+        "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-source-v001\\verification\\repeat",
+        "--frames",
+        "156",
+        "--width",
+        "1920"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "qa_960_rgb_exact": true,
+  "repeat_1920_rgb_exact": true,
+  "gui": "Existing source GUI has unsaved asterisk; preserved without saving/closing. Explicitly specified on-disk hash used. Unsaved GUI content not compared.",
+  "model_effort": "Not changed or independently verified this task",
+  "visual_review": "PASS: final PNG reopened and inspected: CHINA, landmark upper features, waterfront, crane/quay and container ship visible; no UI/guides, crop, stretch or added styling.",
+  "git_status_after": "M hero-section-video/blockout/cn-city-proxy-v001/master-cn-city-proxy-v001.blend\n M hero-section-video/blockout/s4-s5-boundary-v001/master-s4-s5-boundary-v001.blend\n M hero-section-video/blockout/s5-integration-v001/master-s5-integration-v001.blend\n?? concep-design/hero-section/china-beijng-miniature.png\n?? concep-design/hero-section/china-guangzhou-miniature.png\n?? concep-design/hero-section/china-shanghai-miniature.png\n?? concep-design/hero-section/usa-miniature.png\n?? hero-section-video/blockout/cn-city-proxy-v001/preview/after-frames/\n?? hero-section-video/blockout/full-layout-master-v001/\n?? hero-section-video/blockout/plan/pnpline-stage2-s5-integration-codex-handoff-v01.md\n?? hero-section-video/blockout/plan/pnpline-stage3-s5-storyboard-sync-codex-handoff-v01.md\n?? hero-section-video/blockout/previz-motion-polish-v001/\n?? hero-section-video/blockout/previz-s1-s7-2x-v001/frames/\n?? hero-section-video/blockout/previz-s1-s7-3p5x-v001/\n?? hero-section-video/blockout/previz-s1-s7-4x-v001/\n?? hero-section-video/blockout/s2-city-reveal-china-v001/preview/\n?? hero-section-video/blockout/s2-styleframe-source-v001/\n?? hero-section-video/storyboard/s5-sync-v001/\n?? hero-section-video/storyboard/s5-sync-v002/",
+  "acceptance": {
+    "AC-1": "PASS for specified saved source",
+    "AC-2": "PASS for specified saved source",
+    "AC-3": "PASS for specified saved source",
+    "AC-4": "PASS for specified saved source",
+    "AC-5": "PASS for specified saved source",
+    "AC-6": "PASS for specified saved source"
+  },
+  "unverified": [
+    "Unsaved GUI content; existing window preserved."
+  ]
+}
