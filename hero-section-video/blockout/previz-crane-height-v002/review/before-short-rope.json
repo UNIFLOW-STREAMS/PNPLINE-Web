@@ -1,0 +1,15 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\inputs\\base.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "checks": {
+    "four_short_start_ropes": false,
+    "container_start_above_7_94": false
+  },
+  "lengths_m": {
+    "CR_WORKING_CABLE": 0.7000370025634766,
+    "CR_WORKING_CABLE.001": 0.7000370025634766,
+    "CR_WORKING_CABLE.002": 0.7000370025634766,
+    "CR_WORKING_CABLE.003": 0.7000370025634766
+  },
+  "container_height": 7.449968338012695
+}

@@ -1,0 +1,12 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "adopted_on": "2026-10-29",
+  "choice": "City rotation with raised crane and corrected internal payload",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\delivery.json",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\verification-summary.json",
+  "known_issues": [
+    "Pre-existing S4-S7 warehouse contact geometry preserved; see scoped audit"
+  ],
+  "status": "Adopted; crane-height and payload gates passed"
+}

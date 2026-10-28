@@ -1,0 +1,17 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\master-previz-crane-height-v002.blend",
+  "sha256": "61a08f1be06c6239ba40fcb40ee35628457fb2f4328432e945eb6316156225e6",
+  "source_sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "pass": true,
+  "checks": {
+    "after-short-rope.json": true,
+    "master-previz-crane-height-v002-lift.json": true,
+    "connections.json": true,
+    "scope.json": true,
+    "master-previz-crane-height-v002-dense.json": true,
+    "master-previz-crane-height-v002-internal.json": true
+  },
+  "visual_review": "Compared f0 and lowering sequence: rope nearly reeled in, container visibly higher with camera unchanged; f72 landing identical.",
+  "baseline_regression_failed": true,
+  "limits": "Dense sampled BVH tests exclude intended attached bearing/rail/twistlock contact; unrelated S4-S7 contact geometry unchanged."
+}

@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\master-previz-crane-height-v002.blend",
+  "sha256": "61a08f1be06c6239ba40fcb40ee35628457fb2f4328432e945eb6316156225e6",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\inputs\\base.blend",
+  "source_sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "additional_start_lift_m": 0.5,
+  "landing_frame": 72,
+  "status": "Verified and adopted",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\verification-summary.json",
+  "review_url": "http://127.0.0.1:18779/review.html",
+  "initial_rope_length_m": 0.200037,
+  "previous_rope_length_m": 0.700037,
+  "camera": "unchanged"
+}

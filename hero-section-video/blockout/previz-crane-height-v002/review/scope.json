@@ -1,0 +1,24 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\master-previz-crane-height-v002.blend",
+  "sha256": "61a08f1be06c6239ba40fcb40ee35628457fb2f4328432e945eb6316156225e6",
+  "checks": {
+    "all_objects_geometry_and_f156_transforms_unchanged": true,
+    "only_approved_animated_roots_changed": true,
+    "action_links_exact": true,
+    "all_f72_plus_curves_exact_at_eighth_frames": true,
+    "visibility_exact": true,
+    "timeline_exact": true,
+    "source_hash_intact": true
+  },
+  "changed_actions": [
+    "CR_WORKING_CABLEAction.001",
+    "CR_WORKING_CABLE.003Action.001",
+    "CR_WORKING_CABLE.002Action.001",
+    "CR_WORKING_CABLE.001Action.001",
+    "P01_SPREADERAction",
+    "A01_CONTAINERAction.001",
+    "W01_NEW_PALLETAction.001"
+  ],
+  "max_after_landing_error": 0.0,
+  "camera_note": "Both camera and target excluded from allowed changed actions; therefore camera unchanged for entire animation."
+}
