@@ -1,0 +1,35 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "checks": {
+    "raised_supports_clear_static_environment": true,
+    "four_feet_remain_supported": true
+  },
+  "static_crossings": {},
+  "feet": {
+    "CR_FOOT_00": [
+      1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07
+    ],
+    "CR_FOOT_01": [
+      1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07
+    ],
+    "CR_FOOT_10": [
+      -1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      3.5762786865234375e-07,
+      1.1920928955078125e-07
+    ],
+    "CR_FOOT_11": [
+      -1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07,
+      1.1920928955078125e-07
+    ]
+  }
+}

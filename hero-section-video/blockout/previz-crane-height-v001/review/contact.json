@@ -1,0 +1,15 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "frames": 1393,
+  "ship_cargo_scan": [
+    0,
+    672
+  ],
+  "cab_scan": [
+    0,
+    1392
+  ],
+  "crossings": {},
+  "pass": true
+}

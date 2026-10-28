@@ -1,0 +1,30 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\inputs\\base.blend",
+  "source_sha256": "64a206b9104e6c8f0cd0f4c2232bcac8789df47bd2e06cc3207743a87d70ce98",
+  "crane_upper_raise_m": 3,
+  "container_initial_raise_m": 2.5,
+  "landing_frame": 72,
+  "changed_static_geometry": [
+    "CR_FIXED_PORTAL_CAP",
+    "CR_FIXED_PORTAL_CAP.001",
+    "CR_FIXED_SLEW_SEAT",
+    "CR_LEG_00",
+    "CR_LEG_01",
+    "CR_LEG_10",
+    "CR_LEG_11",
+    "CR_LOWER_CROSS",
+    "CR_LOWER_CROSS.001",
+    "CR_PORTAL_BRACE",
+    "CR_PORTAL_BRACE.001",
+    "CR_PORTAL_BRACE.002",
+    "CR_PORTAL_BRACE.003",
+    "CR_PORTAL_TIE",
+    "CR_PORTAL_TIE.001"
+  ],
+  "status": "Verified and adopted",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\verification-summary.json",
+  "review_url": "http://127.0.0.1:18778/review.html",
+  "preserved_source": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-city-rotation-fix-v001\\master-previz-city-rotation-fix-v002.blend"
+}

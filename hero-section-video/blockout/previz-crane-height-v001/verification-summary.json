@@ -1,0 +1,28 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "source_sha256": "64a206b9104e6c8f0cd0f4c2232bcac8789df47bd2e06cc3207743a87d70ce98",
+  "pass": true,
+  "checks": {
+    "green-lift.json": true,
+    "scope.json": true,
+    "support.json": true,
+    "contact.json": true,
+    "master-previz-crane-height-v001-dense.json": true,
+    "master-previz-crane-height-v001-internal.json": true,
+    "reviewer-fractional.json": true
+  },
+  "baseline_regression_failed": true,
+  "visual_review": "Before/after f0,24,48,72,100,138 inspected; clean container roof and unchanged landing. Raised crane remains visible in later overview.",
+  "preview": {
+    "range": [
+      0,
+      156
+    ],
+    "sample_step": 2,
+    "source_fps": 12,
+    "video_fps": 24,
+    "duration_s": 13.083333333333334
+  },
+  "limitations": "BVH geometry checks use scoped collision pairs and sampled frames; intentional attached mechanical contacts excluded. Original unrelated S4-S7 contact geometry remains unchanged."
+}

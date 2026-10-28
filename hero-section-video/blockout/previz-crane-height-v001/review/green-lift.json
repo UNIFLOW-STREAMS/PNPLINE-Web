@@ -1,0 +1,16 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v001\\master-previz-crane-height-v001.blend",
+  "sha256": "c21292bb055930d745ad37e9a3f4f732743043d5528429c030b9f366ff6e1942",
+  "checks": {
+    "payload_inside_container_all_289_samples": true,
+    "payload_relative_pose_constant_during_lowering": true,
+    "raised_start_height": true,
+    "raised_crane_height": true
+  },
+  "payload_outside_count": 0,
+  "outside_examples": [],
+  "max_relative_drift": 1.52587890625e-05,
+  "payload_top_relative_z": 0.3050119876861572,
+  "container_start_height": 7.449968338012695,
+  "boom_height": 9.499984741210938
+}
