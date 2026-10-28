@@ -1,0 +1,453 @@
+{
+  "variant": "B",
+  "pass_all": false,
+  "errors": [
+    [
+      "wheel lateral/rotation drift",
+      704.0625,
+      "A03_TRACTOR_WHEEL_0-0.85",
+      0.0,
+      [
+        -0.0003748785820789635,
+        0.0,
+        0.0010205622529610991
+      ]
+    ],
+    [
+      "wheel lateral/rotation drift",
+      704.0625,
+      "A03_TRACTOR_WHEEL_00.85",
+      0.0,
+      [
+        -0.0003748785820789635,
+        0.0,
+        0.0010205622529610991
+      ]
+    ],
+    [
+      "wheel lateral/rotation drift",
+      704.0991761629364,
+      "A03_TRACTOR_WHEEL_0-0.85",
+      1.8715858459472656e-05,
+      [
+        -0.0005267560482025146,
+        0.0,
+        0.09552714973688126
+      ]
+    ],
+    [
+      "wheel lateral/rotation drift",
+      704.0991761629364,
+      "A03_TRACTOR_WHEEL_00.85",
+      1.8715858459472656e-05,
+      [
+        -0.0005267560482025146,
+        0.0,
+        0.09552714973688126
+      ]
+    ],
+    [
+      "wheel lateral/rotation drift",
+      707.2786643890552,
+      "A03_TRAILER_WHEEL_0.25-0.85",
+      9.669363498687744e-05,
+      [
+        -0.00046899355947971344,
+        0.0,
+        0.07415526360273361
+      ]
+    ],
+    [
+      "wheel lateral/rotation drift",
+      707.2786643890552,
+      "A03_TRAILER_WHEEL_0.250.85",
+      9.669363498687744e-05,
+      [
+        -0.00046899355947971344,
+        0.0,
+        0.07415526360273361
+      ]
+    ],
+    [
+      "max_wheel_ground_error_m",
+      0.002643585205078125,
+      0.002
+    ]
+  ],
+  "samples": 11103,
+  "original_geometry_equal": true,
+  "approved_geometry_additions": [
+    "MP_CONTINUOUS_ROAD"
+  ],
+  "approved_pose_scope": "wheel US-space Z only; all other actors and wheel XY/rotation checked against source",
+  "fps": 24,
+  "output_end": 1305,
+  "metrics": {
+    "max_actor_matrix_delta": 0.00014495849609375,
+    "max_storyboard_matrix_delta": 0.0,
+    "max_storyboard_lens_delta": 0.0,
+    "max_wheel_ground_error_m": 0.002643585205078125,
+    "max_hitch_error_m": 0.0004401968913803606,
+    "max_door_body_penetration_m": 0.0,
+    "max_cargo_hand_support_error_m": 1.4901161193847656e-05,
+    "max_container_support_translation_error_m": 0.000583661926966947,
+    "max_camera_patch_displacement_m": 3.3789267539978027,
+    "camera_min_clearance_m": 6.101215660572052,
+    "ship_keel_max_above_radius_m": -0.48416621330298426,
+    "ship_deck_min_above_radius_m": 0.799009527710723,
+    "max_camera_step_m": 2.5477196508143503,
+    "max_camera_rotation_deg": 4.591199609182416,
+    "max_camera_accel_m_per_frame2": 0.2498463651272429
+  },
+  "camera_joins": [
+    {
+      "source": 96,
+      "output": 96,
+      "speeds": [
+        0.03671276381070359,
+        0.03662938659868033
+      ],
+      "velocity_delta": 0.0004805913009040412,
+      "rotation_deg_per_frame": [
+        0.06989578186565334,
+        0.07045745180250723
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 216,
+      "output": 207.79743605305595,
+      "speeds": [
+        0.2989867957270173,
+        0.30194562480736353
+      ],
+      "velocity_delta": 0.0040665817960322224,
+      "rotation_deg_per_frame": [
+        0.3317897638785438,
+        0.33372359852165884
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 456,
+      "output": 405.06471964586757,
+      "speeds": [
+        0.4333450768462074,
+        0.4237685798971557
+      ],
+      "velocity_delta": 0.016321948003286124,
+      "rotation_deg_per_frame": [
+        0.7410256412222317,
+        0.7812286334082786
+      ],
+      "lens_rates": [
+        -0.0521240234375,
+        -0.0538330078125
+      ]
+    },
+    {
+      "source": 648,
+      "output": 594,
+      "speeds": [
+        0.18554965318306504,
+        0.1833742559454618
+      ],
+      "velocity_delta": 0.0024062607202972298,
+      "rotation_deg_per_frame": [
+        0.7238768073922517,
+        0.7192664825057108
+      ],
+      "lens_rates": [
+        -0.0238037109375,
+        -0.0235595703125
+      ]
+    },
+    {
+      "source": 900,
+      "output": 836,
+      "speeds": [
+        0.12348932991889405,
+        0.12250524571831906
+      ],
+      "velocity_delta": 0.0017334011239044434,
+      "rotation_deg_per_frame": [
+        0.22247174659690425,
+        0.2101949702308509
+      ],
+      "lens_rates": [
+        0.04632568359375,
+        0.046234130859375
+      ]
+    },
+    {
+      "source": 1200,
+      "output": 1133,
+      "speeds": [
+        0.10187810795268915,
+        0.10221194928643863
+      ],
+      "velocity_delta": 0.0006401421192444773,
+      "rotation_deg_per_frame": [
+        0.015725121164965668,
+        0.015669894817349084
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "events": [
+    {
+      "source_frame": 1.0,
+      "output_frame": 1.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 72.0,
+      "output_frame": 72.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 145.0,
+      "output_frame": 145.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 510.0,
+      "output_frame": 456.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 532.0,
+      "output_frame": 478.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 555.0,
+      "output_frame": 501.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 599.0,
+      "output_frame": 545.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 632.0,
+      "output_frame": 578.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 649.0,
+      "output_frame": 595.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 810.0,
+      "output_frame": 746.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 811.0,
+      "output_frame": 747.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 842.0,
+      "output_frame": 778.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 849.0,
+      "output_frame": 785.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 890.0,
+      "output_frame": 826.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 900.0,
+      "output_frame": 836.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 908.0,
+      "output_frame": 844.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 966.0,
+      "output_frame": 902.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 985.0,
+      "output_frame": 919.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1026.0,
+      "output_frame": 960.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1030.0,
+      "output_frame": 964.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1074.0,
+      "output_frame": 1008.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1090.0,
+      "output_frame": 1023.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1150.0,
+      "output_frame": 1082.292226263485,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1166.0,
+      "output_frame": 1099.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1168.0,
+      "output_frame": 1101.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1193.0,
+      "output_frame": 1126.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1200.0,
+      "output_frame": 1133.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1201.0,
+      "output_frame": 1134.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1261.0,
+      "output_frame": 1196.3357866977049,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1392.0,
+      "output_frame": 1305.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    }
+  ],
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "blend_sha256": "83aaffbc504bd83b363e1de7bd24fcba397bdeb5ec14e7917bd574df966cd153",
+  "script_sha256": "7371437dba9d7f7c3e893d0f6977860e4d7d288828149f94981ea80c7dbd0af6",
+  "config_sha256": "96c533febaab98844248fe5fa4cc1aa194b356d3ef91822b53402adfa7583a53",
+  "scope": "All actors matched at source quarter-frames, all output integer frames, S5 1/16-frame contact samples and event +/-2 source frames at 1/16. Direct truck wheel ray support, hitch, door/body SAT, container support, ship water, hand support. Camera box bounds exclude globe surfaces."
+}

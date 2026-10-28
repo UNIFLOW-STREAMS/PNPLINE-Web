@@ -1,0 +1,10 @@
+{
+  "pass": false,
+  "worst_ground_error": [
+    0.08824986219406128,
+    707.3125,
+    "A03_TRACTOR_WHEEL_1.65-0.85"
+  ],
+  "invalid_drivers": [],
+  "blend_sha256": "b9ae3c2dfc0187a3d2f85ae63d468eb41b9622a34a8fa8fd38bbe144e3023850"
+}

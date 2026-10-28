@@ -1,0 +1,12 @@
+{
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "fps": 24,
+  "source_end": 1392,
+  "camera_patches": [[88,96,112],[204,216,228],[444,456,480],[488,510,532],[588,610,632],[632,648,672],[888,900,916],[936,948,960],[1188,1200,1212]],
+  "easing": [[1,72,0.14],[145,510,0.05],[532,555,0.08],[555,599,0.06],[599,632,0.05],[649,810,0.07],[811,842,0.15],[849,890,0.12],[908,966,0.10],[985,1026,0.10],[1030,1074,0.08],[1090,1166,0.08],[1168,1193,0.08],[1201,1392,0.06]],
+  "compression_B": [[150,216,10],[236,440,40],[466,510,4],[672,732,10],[966,985,2],[1074,1090,1],[1268,1392,20]],
+  "storyboard_source_frames": [672,720,732,766,842,900],
+  "events": {"lowering_start":1,"lowering_end":72,"ship_departure":145,"ship_docked":510,"unload_lift":532,"lift_end":555,"quay_transfer_end":599,"container_landed":632,"truck_departure":649,"aligned":810,"door_open_start":811,"door_open_end":842,"reverse_start":849,"dock_stop":890,"S6_entry":900,"inbound_start":908,"inbound_settled":966,"storage_start":985,"storage_end":1026,"pick_transfer_start":1030,"pick_transfer_end":1074,"outbound_cart_start":1090,"loading_start":1150,"loading_end":1166,"door_close_start":1168,"door_close_end":1193,"S7_entry":1200,"van_departure":1201,"secondary_departure":1261,"end":1392},
+  "sample_step": 0.125,
+  "resolution": [960,540]
+}

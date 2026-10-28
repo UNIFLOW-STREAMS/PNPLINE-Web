@@ -1,0 +1,108 @@
+{
+  "A": {
+    "blend_sha256": "c7ff4e0938804a7f5d5979a62423ac9eab666b6e9c6076934f9bf076398eb1b2",
+    "panels": [
+      {
+        "panel": "S5-01",
+        "source_frame": 672,
+        "exact_output_frame": 672.5280000286605,
+        "nearest_video_frame": 673,
+        "output_second": 28.022000001194186,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-02",
+        "source_frame": 720,
+        "exact_output_frame": 721.2555857702149,
+        "nearest_video_frame": 721,
+        "output_second": 30.052316073758956,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-03",
+        "source_frame": 732,
+        "exact_output_frame": 731.6513859324459,
+        "nearest_video_frame": 732,
+        "output_second": 30.485474413851914,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-04",
+        "source_frame": 766,
+        "exact_output_frame": 763.96672969578,
+        "nearest_video_frame": 764,
+        "output_second": 31.831947070657503,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-05",
+        "source_frame": 842,
+        "exact_output_frame": 842,
+        "nearest_video_frame": 842,
+        "output_second": 35.083333333333336,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-06",
+        "source_frame": 900,
+        "exact_output_frame": 900,
+        "nearest_video_frame": 900,
+        "output_second": 37.5,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      }
+    ]
+  },
+  "B": {
+    "blend_sha256": "34ea2951504696fe087f76ba67d06be2e15ae1d83e91c6c46070ee51ebd8aa63",
+    "panels": [
+      {
+        "panel": "S5-01",
+        "source_frame": 672,
+        "exact_output_frame": 618.5280000286605,
+        "nearest_video_frame": 619,
+        "output_second": 25.772000001194186,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-02",
+        "source_frame": 720,
+        "exact_output_frame": 657.7419323129336,
+        "nearest_video_frame": 658,
+        "output_second": 27.405913846372233,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-03",
+        "source_frame": 732,
+        "exact_output_frame": 667.6513859324459,
+        "nearest_video_frame": 668,
+        "output_second": 27.818807747185247,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-04",
+        "source_frame": 766,
+        "exact_output_frame": 699.96672969578,
+        "nearest_video_frame": 700,
+        "output_second": 29.165280403990835,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-05",
+        "source_frame": 842,
+        "exact_output_frame": 778,
+        "nearest_video_frame": 778,
+        "output_second": 32.416666666666664,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      },
+      {
+        "panel": "S5-06",
+        "source_frame": 900,
+        "exact_output_frame": 836,
+        "nearest_video_frame": 836,
+        "output_second": 34.833333333333336,
+        "note": "Exact composition comparison uses fractional output frame; integer video sample is nearest."
+      }
+    ]
+  }
+}

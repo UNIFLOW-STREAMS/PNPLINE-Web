@@ -1,0 +1,13 @@
+ M hero-section-video/blockout/s4-s5-boundary-v001/master-s4-s5-boundary-v001.blend
+ M hero-section-video/blockout/s5-integration-v001/master-s5-integration-v001.blend
+?? concep-design/hero-section/hf_20261008_160407_6194916e-03cb-4bc3-8141-97d8b789573b.png
+?? concep-design/hero-section/hf_20261008_160408_541bbc01-c5e6-415c-8ceb-c0e00a7c260e.png
+?? concep-design/hero-section/hf_20261008_161709_6230c2da-68c6-41fc-9bb5-1af9fc4257c2.png
+?? concep-design/hero-section/hf_20261008_162614_1e86fbe7-979e-493e-9161-5710af506186.png
+?? hero-section-video/blockout/full-layout-master-v001/
+?? hero-section-video/blockout/plan/pnpline-stage2-s5-integration-codex-handoff-v01.md
+?? hero-section-video/blockout/plan/pnpline-stage3-s5-storyboard-sync-codex-handoff-v01.md
+?? hero-section-video/blockout/previz-motion-polish-v001/
+?? hero-section-video/blockout/previz-s1-s7-2x-v001/frames/
+?? hero-section-video/storyboard/s5-sync-v001/
+?? hero-section-video/storyboard/s5-sync-v002/

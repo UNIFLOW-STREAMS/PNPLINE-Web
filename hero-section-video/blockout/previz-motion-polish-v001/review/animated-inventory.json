@@ -1,0 +1,3506 @@
+{
+  "A02_SHIP": {
+    "action": "A02_SHIPAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "WAKE_RIBBON_0": {
+    "action": "WAKE_RIBBON_0Action",
+    "curves": [
+      {
+        "path": "hide_render",
+        "index": 0,
+        "count": 6,
+        "keys": [
+          [
+            1.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            145.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            180.0,
+            0.0,
+            "LINEAR"
+          ],
+          [
+            490.0,
+            0.0,
+            "LINEAR"
+          ],
+          [
+            510.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            1392.0,
+            1.0,
+            "LINEAR"
+          ]
+        ]
+      }
+    ]
+  },
+  "WAKE_RIBBON_1": {
+    "action": "WAKE_RIBBON_1Action",
+    "curves": [
+      {
+        "path": "hide_render",
+        "index": 0,
+        "count": 6,
+        "keys": [
+          [
+            1.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            145.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            180.0,
+            0.0,
+            "LINEAR"
+          ],
+          [
+            490.0,
+            0.0,
+            "LINEAR"
+          ],
+          [
+            510.0,
+            1.0,
+            "LINEAR"
+          ],
+          [
+            1392.0,
+            1.0,
+            "LINEAR"
+          ]
+        ]
+      }
+    ]
+  },
+  "A01_CONTAINER": {
+    "action": "A01_CONTAINERAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A01_DOOR_L": {
+    "action": "A01_DOOR_LAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A01_DOOR_R": {
+    "action": "A01_DOOR_RAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRAILER": {
+    "action": "A03_TRAILERAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRACTOR": {
+    "action": "A03_TRACTORAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3624,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRAILER_WHEEL_-0.25-0.85": {
+    "action": "A03_TRAILER_WHEEL_-0.25-0.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3778,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRAILER_WHEEL_-0.250.85": {
+    "action": "A03_TRAILER_WHEEL_-0.250.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3778,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRAILER_WHEEL_0.25-0.85": {
+    "action": "A03_TRAILER_WHEEL_0.25-0.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3781,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRAILER_WHEEL_0.250.85": {
+    "action": "A03_TRAILER_WHEEL_0.250.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3781,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRACTOR_WHEEL_0-0.85": {
+    "action": "A03_TRACTOR_WHEEL_0-0.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3781,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRACTOR_WHEEL_00.85": {
+    "action": "A03_TRACTOR_WHEEL_00.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3781,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRACTOR_WHEEL_1.65-0.85": {
+    "action": "A03_TRACTOR_WHEEL_1.65-0.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3777,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A03_TRACTOR_WHEEL_1.650.85": {
+    "action": "A03_TRACTOR_WHEEL_1.650.85Action.001",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 3441,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 3776,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_SPREADER": {
+    "action": "P01_SPREADERAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_CABLE_0": {
+    "action": "P01_CABLE_0Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_CABLE_1": {
+    "action": "P01_CABLE_1Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_CABLE_2": {
+    "action": "P01_CABLE_2Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_CABLE_3": {
+    "action": "P01_CABLE_3Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P01_TROLLEY": {
+    "action": "P01_TROLLEYAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_SPREADER": {
+    "action": "P02_SPREADERAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_CABLE_0": {
+    "action": "P02_CABLE_0Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_CABLE_1": {
+    "action": "P02_CABLE_1Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_CABLE_2": {
+    "action": "P02_CABLE_2Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_CABLE_3": {
+    "action": "P02_CABLE_3Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1566,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "P02_TROLLEY": {
+    "action": "P02_TROLLEYAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A04_PRIMARY": {
+    "action": "A04_PRIMARYAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A04_PRIMARY_DOOR_L": {
+    "action": "A04_PRIMARY_DOOR_LAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A04_PRIMARY_DOOR_R": {
+    "action": "A04_PRIMARY_DOOR_RAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A05_SECONDARY": {
+    "action": "A05_SECONDARYAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A05_SECONDARY_DOOR_L": {
+    "action": "A05_SECONDARY_DOOR_LAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "A05_SECONDARY_DOOR_R": {
+    "action": "A05_SECONDARY_DOOR_RAction",
+    "curves": [
+      {
+        "path": "rotation_euler",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_euler",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W01_NEW_PALLET": {
+    "action": "W01_NEW_PALLETAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 4278,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W01_STORED_PALLET": {
+    "action": "W01_STORED_PALLETAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W02_INBOUND_JACK": {
+    "action": "W02_INBOUND_JACKAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W02_STORAGE_JACK": {
+    "action": "W02_STORAGE_JACKAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W05_PICK_CART": {
+    "action": "W05_PICK_CARTAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W09_OUT_CART": {
+    "action": "W09_OUT_CARTAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "W08_LAST_LOAD": {
+    "action": "W08_LAST_LOADAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CH_LOADER": {
+    "action": "CH_LOADERAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CH_LOAD_SUPPORT": {
+    "action": "CH_LOAD_SUPPORTAction",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CH_LOAD_ARM_0": {
+    "action": "CH_LOAD_ARM_0Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CH_LOAD_ARM_1": {
+    "action": "CH_LOAD_ARM_1Action",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 0,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 1,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "scale",
+        "index": 2,
+        "count": 1392,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CAM_MASTER": {
+    "action": "CAM_MASTERAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "lens",
+        "index": 0,
+        "count": 1908,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "CAM_LOOK_TARGET": {
+    "action": "CAM_LOOK_TARGETAction.001",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 2413,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  },
+  "MASTER_LENS": {
+    "action": "CAM_MASTERAction.002",
+    "curves": [
+      {
+        "path": "location",
+        "index": 0,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 1,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "location",
+        "index": 2,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 0,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 1,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 2,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "rotation_quaternion",
+        "index": 3,
+        "count": 1909,
+        "keys": [
+          [
+            0.0,
+            1392.0
+          ]
+        ]
+      },
+      {
+        "path": "lens",
+        "index": 0,
+        "count": 2412,
+        "keys": [
+          [
+            1.0,
+            1392.0
+          ]
+        ]
+      }
+    ]
+  }
+}

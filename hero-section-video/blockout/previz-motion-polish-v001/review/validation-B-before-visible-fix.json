@@ -1,0 +1,725 @@
+{
+  "variant": "B",
+  "pass_all": true,
+  "errors": [],
+  "samples": 11103,
+  "original_geometry_equal": true,
+  "approved_geometry_additions": [
+    "MP_CONTINUOUS_ROAD"
+  ],
+  "approved_pose_scope": "wheel US-space Z only; all other actors and wheel XY/rotation checked against source",
+  "fps": 24,
+  "output_end": 1305,
+  "metrics": {
+    "max_actor_matrix_delta": 0.00014495849609375,
+    "max_storyboard_matrix_delta": 0.0,
+    "max_storyboard_lens_delta": 0.0,
+    "max_wheel_ground_error_m": 2.378225326538086e-05,
+    "max_hitch_error_m": 0.0004401968913803606,
+    "max_door_body_penetration_m": 0.0,
+    "max_cargo_hand_support_error_m": 1.4901161193847656e-05,
+    "max_container_support_translation_error_m": 0.000583661926966947,
+    "max_camera_patch_displacement_m": 3.3789267539978027,
+    "camera_min_clearance_m": 6.101215660572052,
+    "legacy_center_ray_error_m": 0.008452415466308594,
+    "max_tyre_penetration_m": 2.378225326538086e-05,
+    "max_tyre_support_gap_m": 1.7762184143066406e-05,
+    "max_wheel_xy_drift_m": 3.72567810700275e-05,
+    "ship_keel_max_above_radius_m": -0.48416621330298426,
+    "ship_deck_min_above_radius_m": 0.799009527710723,
+    "max_camera_step_m": 2.5477196508143503,
+    "max_camera_rotation_deg": 4.591199609182416,
+    "max_camera_accel_m_per_frame2": 0.2498463651272429
+  },
+  "camera_joins": [
+    {
+      "source": 88,
+      "output": 88,
+      "speeds": [
+        0.0397739772149799,
+        0.04037767660658742
+      ],
+      "velocity_delta": 0.0006510068963620556,
+      "rotation_deg_per_frame": [
+        0.16519501730083327,
+        0.16818568196203398
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 96,
+      "output": 96,
+      "speeds": [
+        0.03671276381070359,
+        0.03662938659868033
+      ],
+      "velocity_delta": 0.0004805913009040412,
+      "rotation_deg_per_frame": [
+        0.06989578186565334,
+        0.07045745180250723
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 112,
+      "output": 112,
+      "speeds": [
+        0.039123752373198005,
+        0.04040158534433106
+      ],
+      "velocity_delta": 0.0014972480237957805,
+      "rotation_deg_per_frame": [
+        0.27405526639821126,
+        0.28083414727926165
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 204,
+      "output": 195.53779989802567,
+      "speeds": [
+        0.1205003488785889,
+        0.1258707119306974
+      ],
+      "velocity_delta": 0.011655360378553196,
+      "rotation_deg_per_frame": [
+        0.6128056766814227,
+        0.5980834909905272
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 216,
+      "output": 207.79743605305595,
+      "speeds": [
+        0.2989867957270173,
+        0.30194562480736353
+      ],
+      "velocity_delta": 0.0040665817960322224,
+      "rotation_deg_per_frame": [
+        0.3317897638785438,
+        0.33372359852165884
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 228,
+      "output": 220.46835997442722,
+      "speeds": [
+        0.6133140931780796,
+        0.6290178999508717
+      ],
+      "velocity_delta": 0.017508288574895368,
+      "rotation_deg_per_frame": [
+        0.6967738904671039,
+        0.7088897212614568
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 444,
+      "output": 392.4748948147391,
+      "speeds": [
+        1.2064594701498559,
+        1.1935230211599461
+      ],
+      "velocity_delta": 0.02587725076238634,
+      "rotation_deg_per_frame": [
+        1.2249440254521196,
+        1.1878084309667545
+      ],
+      "lens_rates": [
+        0.0,
+        0.00054931640625
+      ]
+    },
+    {
+      "source": 456,
+      "output": 405.06471964586757,
+      "speeds": [
+        0.4333450768462074,
+        0.4237685798971557
+      ],
+      "velocity_delta": 0.016321948003286124,
+      "rotation_deg_per_frame": [
+        0.7410256412222317,
+        0.7812286334082786
+      ],
+      "lens_rates": [
+        -0.0521240234375,
+        -0.0538330078125
+      ]
+    },
+    {
+      "source": 480,
+      "output": 429.1193263099437,
+      "speeds": [
+        0.3902020453424876,
+        0.38424056675741725
+      ],
+      "velocity_delta": 0.008456081685063767,
+      "rotation_deg_per_frame": [
+        1.6931784521345246,
+        1.6653621539180663
+      ],
+      "lens_rates": [
+        -0.020843505859375,
+        -0.027069091796875
+      ]
+    },
+    {
+      "source": 488,
+      "output": 435.92390541047826,
+      "speeds": [
+        0.5570398471805509,
+        0.5336035039186175
+      ],
+      "velocity_delta": 0.02484033849823068,
+      "rotation_deg_per_frame": [
+        1.8457940048357642,
+        1.7497937063840978
+      ],
+      "lens_rates": [
+        -0.272979736328125,
+        -0.27362060546875
+      ]
+    },
+    {
+      "source": 510,
+      "output": 456,
+      "speeds": [
+        0.519226343269857,
+        0.5195270767617941
+      ],
+      "velocity_delta": 0.003284717952415446,
+      "rotation_deg_per_frame": [
+        1.1913458253151654,
+        1.2055389142045296
+      ],
+      "lens_rates": [
+        0.0723876953125,
+        0.072784423828125
+      ]
+    },
+    {
+      "source": 532,
+      "output": 478,
+      "speeds": [
+        0.1427965515985405,
+        0.13502173689733785
+      ],
+      "velocity_delta": 0.020969906821937546,
+      "rotation_deg_per_frame": [
+        0.4444002989939262,
+        0.3792077895898028
+      ],
+      "lens_rates": [
+        0.00164794921875,
+        0.0
+      ]
+    },
+    {
+      "source": 588,
+      "output": 533.5798309502374,
+      "speeds": [
+        0.8542437295731009,
+        0.8689218738744753
+      ],
+      "velocity_delta": 0.017060418000195775,
+      "rotation_deg_per_frame": [
+        2.070146970189686,
+        2.125554242179614
+      ],
+      "lens_rates": [
+        -0.10888671875,
+        -0.115234375
+      ]
+    },
+    {
+      "source": 610,
+      "output": 556.3411347540423,
+      "speeds": [
+        0.7353496070217764,
+        0.7404128289825412
+      ],
+      "velocity_delta": 0.01275022259277159,
+      "rotation_deg_per_frame": [
+        3.055006800181386,
+        3.0816835291557907
+      ],
+      "lens_rates": [
+        -0.172821044921875,
+        -0.175079345703125
+      ]
+    },
+    {
+      "source": 632,
+      "output": 578,
+      "speeds": [
+        1.0285596143426265,
+        1.0205702256094782
+      ],
+      "velocity_delta": 0.009778681609811705,
+      "rotation_deg_per_frame": [
+        3.7881376015588932,
+        3.757187821885957
+      ],
+      "lens_rates": [
+        -0.133453369140625,
+        -0.1312255859375
+      ]
+    },
+    {
+      "source": 648,
+      "output": 594,
+      "speeds": [
+        0.18554965318306504,
+        0.1833742559454618
+      ],
+      "velocity_delta": 0.0024062607202972298,
+      "rotation_deg_per_frame": [
+        0.7238768073922517,
+        0.7192664825057108
+      ],
+      "lens_rates": [
+        -0.0238037109375,
+        -0.0235595703125
+      ]
+    },
+    {
+      "source": 672,
+      "output": 618.5280000286605,
+      "speeds": [
+        0.2877352956735888,
+        0.29272880901158893
+      ],
+      "velocity_delta": 0.005243126195684527,
+      "rotation_deg_per_frame": [
+        0.6554757746444317,
+        0.6623284508028876
+      ],
+      "lens_rates": [
+        0.0001068115234375,
+        0.0
+      ]
+    },
+    {
+      "source": 888,
+      "output": 823.9889894317025,
+      "speeds": [
+        0.14277088512638847,
+        0.14371282032565064
+      ],
+      "velocity_delta": 0.001125536108759157,
+      "rotation_deg_per_frame": [
+        0.08212098537021847,
+        0.09345139307559697
+      ],
+      "lens_rates": [
+        0.05523681640625,
+        0.0552978515625
+      ]
+    },
+    {
+      "source": 900,
+      "output": 836,
+      "speeds": [
+        0.12348932991889405,
+        0.12250524571831906
+      ],
+      "velocity_delta": 0.0017334011239044434,
+      "rotation_deg_per_frame": [
+        0.22247174659690425,
+        0.2101949702308509
+      ],
+      "lens_rates": [
+        0.04632568359375,
+        0.046234130859375
+      ]
+    },
+    {
+      "source": 916,
+      "output": 852.2480816541554,
+      "speeds": [
+        0.09182771332146919,
+        0.09162922016666857
+      ],
+      "velocity_delta": 0.0003401717652833245,
+      "rotation_deg_per_frame": [
+        0.07060629340133973,
+        0.06962493959030436
+      ],
+      "lens_rates": [
+        0.03240966796875,
+        0.032196044921875
+      ]
+    },
+    {
+      "source": 936,
+      "output": 872.1990239858185,
+      "speeds": [
+        0.11344288524870585,
+        0.11366764405658185
+      ],
+      "velocity_delta": 0.00022477599888086295,
+      "rotation_deg_per_frame": [
+        0.07799195814254335,
+        0.07504867425341469
+      ],
+      "lens_rates": [
+        0.018157958984375,
+        0.017791748046875
+      ]
+    },
+    {
+      "source": 948,
+      "output": 882.8250555976477,
+      "speeds": [
+        0.09507719997059458,
+        0.0948977741994906
+      ],
+      "velocity_delta": 0.0003112194527339346,
+      "rotation_deg_per_frame": [
+        0.11210154561655972,
+        0.11715056376900508
+      ],
+      "lens_rates": [
+        0.003570556640625,
+        0.00347900390625
+      ]
+    },
+    {
+      "source": 960,
+      "output": 895.8860903451312,
+      "speeds": [
+        0.09985906030608008,
+        0.10012009648254316
+      ],
+      "velocity_delta": 0.00035359589313526817,
+      "rotation_deg_per_frame": [
+        0.34062068364507136,
+        0.3385952420243478
+      ],
+      "lens_rates": [
+        -3.0517578125e-05,
+        0.0
+      ]
+    },
+    {
+      "source": 1188,
+      "output": 1120.7908182369226,
+      "speeds": [
+        0.08606836936824759,
+        0.08576710562662386
+      ],
+      "velocity_delta": 0.0004827664800890007,
+      "rotation_deg_per_frame": [
+        0.026573850723424827,
+        0.026975325544397494
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 1200,
+      "output": 1133,
+      "speeds": [
+        0.10187810795268915,
+        0.10221194928643863
+      ],
+      "velocity_delta": 0.0006401421192444773,
+      "rotation_deg_per_frame": [
+        0.015725121164965668,
+        0.015669894817349084
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 1212,
+      "output": 1145.0418146616926,
+      "speeds": [
+        0.1218726617943386,
+        0.12028483287112599
+      ],
+      "velocity_delta": 0.002049057099499726,
+      "rotation_deg_per_frame": [
+        0.12558911364446657,
+        0.1421075563643969
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "events": [
+    {
+      "source_frame": 1.0,
+      "output_frame": 1.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 72.0,
+      "output_frame": 72.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 145.0,
+      "output_frame": 145.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 510.0,
+      "output_frame": 456.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 532.0,
+      "output_frame": 478.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 555.0,
+      "output_frame": 501.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 599.0,
+      "output_frame": 545.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 632.0,
+      "output_frame": 578.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 649.0,
+      "output_frame": 595.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 810.0,
+      "output_frame": 746.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 811.0,
+      "output_frame": 747.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 842.0,
+      "output_frame": 778.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 849.0,
+      "output_frame": 785.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 890.0,
+      "output_frame": 826.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 900.0,
+      "output_frame": 836.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 908.0,
+      "output_frame": 844.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 966.0,
+      "output_frame": 902.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 985.0,
+      "output_frame": 919.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1026.0,
+      "output_frame": 960.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1030.0,
+      "output_frame": 964.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1074.0,
+      "output_frame": 1008.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1090.0,
+      "output_frame": 1023.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1150.0,
+      "output_frame": 1082.292226263485,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1166.0,
+      "output_frame": 1099.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1168.0,
+      "output_frame": 1101.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1193.0,
+      "output_frame": 1126.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1200.0,
+      "output_frame": 1133.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1201.0,
+      "output_frame": 1134.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1261.0,
+      "output_frame": 1196.3357866977049,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1392.0,
+      "output_frame": 1305.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    }
+  ],
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "blend_sha256": "6906e3eb49252999bd5043913390bf08b4f082ae0d2cef5373c94a8d0be0ffa5",
+  "script_sha256": "2804bbcf0f68721a27e120195710bc2568fb480d49687ac14ae0fb6ce3b13c1e",
+  "config_sha256": "96c533febaab98844248fe5fa4cc1aa194b356d3ef91822b53402adfa7583a53",
+  "scope": "All actors matched at source quarter-frames, all output integer frames, S5 1/16-frame contact samples and event +/-2 source frames at 1/16. Direct truck wheel ray support, hitch, door/body SAT, container support, ship water, hand support. Camera box bounds exclude globe surfaces."
+}

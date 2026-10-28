@@ -1,0 +1,38 @@
+{
+  "status": "proposal only; not adopted",
+  "ramps": [
+    [
+      "PROPOSAL_QUAY_ROAD_RAMP",
+      [
+        17,
+        19,
+        7.75,
+        10.25,
+        0.899996,
+        0.73499
+      ],
+      "x"
+    ],
+    [
+      "PROPOSAL_ROAD_YARD_RAMP",
+      [
+        29,
+        38,
+        25.5,
+        26,
+        0.73499,
+        0.759997
+      ],
+      "y"
+    ]
+  ],
+  "road_width_before": 2.5,
+  "road_width_proposed": 5.0,
+  "wheel_ground_error": [
+    0.0040662288665771484,
+    710.9446473993914,
+    "A03_TRAILER_WHEEL_-0.25-0.85"
+  ],
+  "geometry_scope": "continuous road overlay width5m and two transition strips; original meshes retained, truck roots, camera, S5 route and doors unchanged",
+  "blend_sha256": "3d7b984664c1132c69ee8fe29547341815a78d9f3ce85a33ec2f24297ee06289"
+}

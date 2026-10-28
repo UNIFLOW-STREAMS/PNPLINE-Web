@@ -1,0 +1,50 @@
+[
+  {
+    "wheel": "A03_TRAILER_WHEEL_-0.25-0.85",
+    "max_delta": 0.11318457126617432,
+    "output": 711.640625,
+    "source": 709.48074155479
+  },
+  {
+    "wheel": "A03_TRAILER_WHEEL_-0.250.85",
+    "max_delta": 0.11318457126617432,
+    "output": 711.640625,
+    "source": 709.48074155479
+  },
+  {
+    "wheel": "A03_TRAILER_WHEEL_0.25-0.85",
+    "max_delta": 0.07507896423339844,
+    "output": 709.53125,
+    "source": 707.2786643890552
+  },
+  {
+    "wheel": "A03_TRAILER_WHEEL_0.250.85",
+    "max_delta": 0.07507848739624023,
+    "output": 709.53125,
+    "source": 707.2786643890552
+  },
+  {
+    "wheel": "A03_TRACTOR_WHEEL_0-0.85",
+    "max_delta": 0.09926652908325195,
+    "output": 706.421875,
+    "source": 704.0991761629364
+  },
+  {
+    "wheel": "A03_TRACTOR_WHEEL_00.85",
+    "max_delta": 0.09926652908325195,
+    "output": 706.421875,
+    "source": 704.0991761629364
+  },
+  {
+    "wheel": "A03_TRACTOR_WHEEL_1.65-0.85",
+    "max_delta": 0.12283718585968018,
+    "output": 702.859375,
+    "source": 700.5450141107419
+  },
+  {
+    "wheel": "A03_TRACTOR_WHEEL_1.650.85",
+    "max_delta": 0.12283706665039062,
+    "output": 702.859375,
+    "source": 700.5450141107419
+  }
+]

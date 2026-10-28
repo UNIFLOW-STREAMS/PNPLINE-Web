@@ -1,0 +1,36 @@
+{
+  "status": "proposal only; not adopted",
+  "ramps": [
+    [
+      "PROPOSAL_QUAY_ROAD_RAMP",
+      [
+        17,
+        19,
+        7.75,
+        10.25,
+        0.899996,
+        0.73499
+      ],
+      "x"
+    ],
+    [
+      "PROPOSAL_ROAD_YARD_RAMP",
+      [
+        29,
+        38,
+        25.5,
+        26,
+        0.73499,
+        0.759997
+      ],
+      "y"
+    ]
+  ],
+  "wheel_ground_error": [
+    0.05490916967391968,
+    729.9375,
+    "A03_TRACTOR_WHEEL_1.65-0.85"
+  ],
+  "geometry_scope": "two added transition strips; original meshes, truck roots, camera, S5 route and doors unchanged",
+  "blend_sha256": "d1f998f3c12180c087effb97409892770e1cb98295919e8605737e563427d900"
+}

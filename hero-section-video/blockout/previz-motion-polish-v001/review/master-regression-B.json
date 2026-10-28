@@ -1,0 +1,10 @@
+{
+  "variant": "B",
+  "test_source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s5-integration-v001\\tests\\master_regression.py",
+  "test_source_sha256": "286842e20c1cbcfac59662c575ebe75b6a4095ac1aed698256e8cfd60eaba0b5",
+  "blend_sha256": "34ea2951504696fe087f76ba67d06be2e15ae1d83e91c6c46070ee51ebd8aa63",
+  "tests": 24,
+  "failures": [],
+  "errors": [],
+  "adapter": "Only scene.frame_set(source) maps to candidate output time; all original assertions unchanged"
+}

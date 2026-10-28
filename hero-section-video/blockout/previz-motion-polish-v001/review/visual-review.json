@@ -1,0 +1,43 @@
+{
+  "full_1x_playback_pass": true,
+  "method": "Codex in-app browser, watch.html buttons; full played range and ended flag read from visible DOM status. Representative live screenshots plus final rendered S5/boundary/contact stills inspected. Not a claim of human inspection of every video frame.",
+  "page": "http://127.0.0.1:8770/watch.html",
+  "A": {
+    "duration": 58.041667,
+    "time": 58.041667,
+    "rate": 1,
+    "ended": true,
+    "paused": true,
+    "played": [
+      [
+        0,
+        58.041667
+      ]
+    ],
+    "error": null,
+    "video_sha256": "5d5ce6d96e51e384c17c515082fe17db0c1c47eb768fbe4425be9cd8f064e4d1",
+    "blend_sha256": "c7ff4e0938804a7f5d5979a62423ac9eab666b6e9c6076934f9bf076398eb1b2"
+  },
+  "B": {
+    "duration": 54.416667,
+    "time": 54.416667,
+    "rate": 1,
+    "ended": true,
+    "paused": true,
+    "played": [
+      [
+        0,
+        54.416667
+      ]
+    ],
+    "error": null,
+    "video_sha256": "4b027da7a35f7389ddfdd274f91fa3f6dd1a14d64d277346d1e666ed0625e4c6",
+    "blend_sha256": "34ea2951504696fe087f76ba67d06be2e15ae1d83e91c6c46070ee51ebd8aa63"
+  },
+  "notes": [
+    "Final actual quay/yard stills show no introduced coplanar stripes.",
+    "S5 six selected compositions preserved apart from approved road and tyre-height contact correction.",
+    "Source inherited crane-column foreground occlusion and unfinished hand/packing proxy detail remain.",
+    "User rhythm selection between A and B remains pending; no final public scroll experience approval implied."
+  ]
+}

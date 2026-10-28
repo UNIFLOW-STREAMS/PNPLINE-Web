@@ -1,0 +1,383 @@
+{
+  "variant": "A",
+  "pass_all": false,
+  "errors": [
+    [
+      "max_wheel_ground_error_m",
+      0.003100574016571045,
+      0.002
+    ]
+  ],
+  "samples": 11186,
+  "geometry_equal": true,
+  "fps": 24,
+  "output_end": 1392,
+  "metrics": {
+    "max_actor_matrix_delta": 7.511675357818604e-05,
+    "max_storyboard_matrix_delta": 0.0,
+    "max_storyboard_lens_delta": 0.0,
+    "max_wheel_ground_error_m": 0.003100574016571045,
+    "max_hitch_error_m": 0.0004401968913803606,
+    "max_door_body_penetration_m": 0.0,
+    "max_cargo_hand_support_error_m": 1.4901161193847656e-05,
+    "max_container_support_translation_error_m": 0.000583661926966947,
+    "max_camera_patch_displacement_m": 3.3789267539978027,
+    "camera_min_clearance_m": 6.101215660572052,
+    "ship_keel_max_above_radius_m": -0.48416621330298426,
+    "ship_deck_min_above_radius_m": 0.799009527710723,
+    "max_camera_step_m": 1.6013028280731354,
+    "max_camera_rotation_deg": 5.582940292791272,
+    "max_camera_accel_m_per_frame2": 0.19669260704239605
+  },
+  "camera_joins": [
+    {
+      "source": 96,
+      "output": 96,
+      "speeds": [
+        0.03671276381070359,
+        0.03662938659868033
+      ],
+      "velocity_delta": 0.0004805913009040412,
+      "rotation_deg_per_frame": [
+        0.06989578186565334,
+        0.07045745180250723
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 216,
+      "output": 218.5164104742783,
+      "speeds": [
+        0.2928556096638278,
+        0.2957176704432384
+      ],
+      "velocity_delta": 0.003972680751008555,
+      "rotation_deg_per_frame": [
+        0.32489817305466817,
+        0.3268163708856149
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": 456,
+      "output": 454.69060750421454,
+      "speeds": [
+        0.42605830723956195,
+        0.41665400297073574
+      ],
+      "velocity_delta": 0.016049489992199868,
+      "rotation_deg_per_frame": [
+        0.7286439508820894,
+        0.7681876429952182
+      ],
+      "lens_rates": [
+        -0.051239013671875,
+        -0.05291748046875
+      ]
+    },
+    {
+      "source": 648,
+      "output": 648,
+      "speeds": [
+        0.18554965318306504,
+        0.1833742559454618
+      ],
+      "velocity_delta": 0.0024062607202972298,
+      "rotation_deg_per_frame": [
+        0.7238768073922517,
+        0.7192664825057108
+      ],
+      "lens_rates": [
+        -0.0238037109375,
+        -0.0235595703125
+      ]
+    },
+    {
+      "source": 900,
+      "output": 900,
+      "speeds": [
+        0.12348932991889405,
+        0.12250524571831906
+      ],
+      "velocity_delta": 0.0017334011239044434,
+      "rotation_deg_per_frame": [
+        0.22247174659690425,
+        0.2101949702308509
+      ],
+      "lens_rates": [
+        0.04632568359375,
+        0.046234130859375
+      ]
+    },
+    {
+      "source": 1200,
+      "output": 1200,
+      "speeds": [
+        0.10187810795268915,
+        0.10221194928643863
+      ],
+      "velocity_delta": 0.0006401421192444773,
+      "rotation_deg_per_frame": [
+        0.015725121164965668,
+        0.015669894817349084
+      ],
+      "lens_rates": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "events": [
+    {
+      "source_frame": 1.0,
+      "output_frame": 1.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 72.0,
+      "output_frame": 72.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 145.0,
+      "output_frame": 145.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 510.0,
+      "output_frame": 510.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 532.0,
+      "output_frame": 532.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 555.0,
+      "output_frame": 555.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 599.0,
+      "output_frame": 599.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 632.0,
+      "output_frame": 632.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 649.0,
+      "output_frame": 649.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 810.0,
+      "output_frame": 810.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 811.0,
+      "output_frame": 811.0,
+      "doors": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "source_frame": 842.0,
+      "output_frame": 842.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 849.0,
+      "output_frame": 849.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 890.0,
+      "output_frame": 890.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 900.0,
+      "output_frame": 900.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 908.0,
+      "output_frame": 908.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 966.0,
+      "output_frame": 966.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 985.0,
+      "output_frame": 985.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1026.0,
+      "output_frame": 1026.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1030.0,
+      "output_frame": 1030.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1074.0,
+      "output_frame": 1074.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1090.0,
+      "output_frame": 1090.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1150.0,
+      "output_frame": 1149.292226263485,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1166.0,
+      "output_frame": 1166.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1168.0,
+      "output_frame": 1168.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1193.0,
+      "output_frame": 1193.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1200.0,
+      "output_frame": 1200.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1201.0,
+      "output_frame": 1201.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1261.0,
+      "output_frame": 1263.3357866977049,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    },
+    {
+      "source_frame": 1392.0,
+      "output_frame": 1392.0,
+      "doors": [
+        -4.71238899230957,
+        4.71238899230957
+      ]
+    }
+  ],
+  "source_sha256": "8cf66b7713b85fbe175229ab87456d40b420b866d222b28d8a712d60e4511412",
+  "blend_sha256": "49cf94236d80c798627f2f17049ea7f1bf0dc3f696733193b66471e0a23caae4",
+  "script_sha256": "3f85dbc57ae4d0c551f77b529dced0022aab2c6f91a51305db726002dea71348",
+  "config_sha256": "17fc26ead79f7036c4bc2084bcc5ca8d3514fc7803f2f4b51efded3e84208812",
+  "scope": "All actors matched at source quarter-frames, all output integer frames, S5 1/16-frame contact samples and event +/-2 source frames at 1/16. Direct truck wheel ray support, hitch, door/body SAT, container support, ship water, hand support. Camera box bounds exclude globe surfaces."
+}
