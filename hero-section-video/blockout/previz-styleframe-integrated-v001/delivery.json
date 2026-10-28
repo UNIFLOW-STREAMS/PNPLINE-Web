@@ -1,0 +1,92 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-styleframe-integrated-v001\\master-previz-styleframe-v001.blend",
+  "sha256": "86e780182702e410da1a7993ee4919c81e1d41361ab15c423c0fef0408ef95e8",
+  "checks": {
+    "v032_all_objects_identical": true,
+    "v032_all_actions_identical": true,
+    "v032_all_evaluated_motion_identical": true,
+    "v032_collections_identical": true,
+    "full_S1_S7_timeline_preserved": true,
+    "base_nonapproved_actions_preserved": true,
+    "base_protected_actors_and_camera_ranges_preserved": true,
+    "S1_S7_all_markers_present": true
+  },
+  "source": {
+    "adopted_source": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-styleframe-match-v001\\review\\layout-proposal-v032.blend",
+    "source_sha256": "045c50249b2fae54a02d59151193c274e5c47845f5c719357db9081d8d1f03f7",
+    "base_master": "F:\\pnpline-landing\\hero-section-video\\blockout\\s2-city-reveal-china-v001\\master-s2-city-reveal-china-v001.blend",
+    "base_sha256": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+    "output": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-styleframe-integrated-v001\\master-previz-styleframe-v001.blend",
+    "output_sha256": "86e780182702e410da1a7993ee4919c81e1d41361ab15c423c0fef0408ef95e8",
+    "method": "Promote the full-scene v032 descendant of the latest base master. No object append/duplicate and no time retiming.",
+    "markers": [
+      [
+        "S1",
+        0
+      ],
+      [
+        "B12",
+        96
+      ],
+      [
+        "S2",
+        96
+      ],
+      [
+        "B23",
+        216
+      ],
+      [
+        "S3",
+        216
+      ],
+      [
+        "B34",
+        456
+      ],
+      [
+        "S4",
+        456
+      ],
+      [
+        "B45",
+        648
+      ],
+      [
+        "S5",
+        648
+      ],
+      [
+        "B56",
+        900
+      ],
+      [
+        "S6",
+        900
+      ],
+      [
+        "B67",
+        1200
+      ],
+      [
+        "S7",
+        1200
+      ],
+      [
+        "DETAIL_DEFERRED_PICK_HAND",
+        1020
+      ],
+      [
+        "DETAIL_DEFERRED_PACK_FOLD_TAPE",
+        1090
+      ],
+      [
+        "DETAIL_DEFERRED_LOADING_HAND",
+        1158
+      ]
+    ]
+  },
+  "stills": 28,
+  "continuous_video_rendered": false,
+  "known_visual_issue": "Inherited v032 S2-S3 f216 foreground crane/building obstruction; camera unchanged."
+}

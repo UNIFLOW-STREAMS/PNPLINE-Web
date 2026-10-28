@@ -1,0 +1,11 @@
+{
+  "blend": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-styleframe-integrated-v001\\master-previz-styleframe-v001.blend",
+  "sha256": "86e780182702e410da1a7993ee4919c81e1d41361ab15c423c0fef0408ef95e8",
+  "engine": "Cycles CPU",
+  "samples": 24,
+  "frame": 156,
+  "camera": "CAM_MASTER",
+  "lens": 40.0,
+  "color": "AgX",
+  "purpose": "design proposal render, not accepted final"
+}
