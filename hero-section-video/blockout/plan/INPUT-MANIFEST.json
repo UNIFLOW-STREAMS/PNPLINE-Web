@@ -1,0 +1,29 @@
+{
+  "version": "0.2",
+  "prepared_on": "2026-10-28",
+  "task": "TASK.md",
+  "status": "handoff_prepared_not_executed",
+  "repository": "UNIFLOW-STREAMS/PNPLINE-Web",
+  "observed_branch": "main",
+  "observed_commit": "2426c437c105ceb32c34c32edded828a471c1ac1",
+  "source_blend_candidate": "hero-section-video/blockout/s2-city-reveal-china-v001/master-s2-city-reveal-china-v001.blend",
+  "source_blend_sha256_reported": "b043cfbbc048cfeb90d16808852424ddaaf5c16c1dd60057fe98d73cf18132d2",
+  "source_blend_hash_independently_verified": false,
+  "reference": {
+    "path": "references/s2-styleframe-001.png",
+    "sha256": "f6aace142f0a3473b57e8408b22e316292d0734c25566a26b9bfbea877584aff",
+    "dimensions": [
+      2048,
+      1156
+    ],
+    "modified": false,
+    "role": "locked visual design target"
+  },
+  "approval_scope": "Design preservation; no automatic changes to source image, camera, motion paths, timeline, production or paid services.",
+  "exclusions": [
+    "No .blend file included",
+    "No implementation executed",
+    "No font files included",
+    "No repository changes"
+  ]
+}
