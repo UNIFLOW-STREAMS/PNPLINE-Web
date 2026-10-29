@@ -1,0 +1,28 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-concept-v001\\review\\layout-v001.blend",
+  "sha256": "e83f80c53273cc65146fbbb15f2fc4e686e5c438d23d0f0223b33cf575dc5911",
+  "frames": 1513,
+  "new_mesh_surface_intersections": {},
+  "camera_near_new_surface": [],
+  "groups": [
+    "A02_SHIP",
+    "A01_CONTAINER",
+    "A03_TRACTOR",
+    "A03_TRAILER",
+    "A04_PRIMARY",
+    "A05_SECONDARY",
+    "P02_SPREADER",
+    "W01_NEW_PALLET",
+    "W01_STORED_PALLET",
+    "W02_INBOUND_JACK",
+    "W02_STORAGE_JACK",
+    "W05_PICK_CART",
+    "W09_OUT_CART",
+    "P02_MOVING"
+  ],
+  "limitations": [
+    "Surface BVH detects crossings, not all full containment cases. Broad-phase world bounds precede narrow phase.",
+    "No artistic occlusion pass is implied.",
+    "Original warehouse contacts are preserved by data/evaluation comparison, separately recorded as baseline defects."
+  ]
+}

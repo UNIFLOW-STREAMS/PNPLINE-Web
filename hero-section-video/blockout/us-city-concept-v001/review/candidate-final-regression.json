@@ -1,0 +1,10 @@
+{
+  "tests": 24,
+  "failures": [
+    [
+      "test_crane_cables_have_overhead_trolley_support (builtins.MasterTests.test_crane_cables_have_overhead_trolley_support)",
+      "Traceback (most recent call last):\n  File \"inherited-test-class\", line 205, in test_crane_cables_have_overhead_trolley_support\nAssertionError: False is not true : P01 cable 0 unsupported\n"
+    ]
+  ],
+  "errors": []
+}

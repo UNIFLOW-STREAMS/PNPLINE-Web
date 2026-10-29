@@ -1,0 +1,13 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-concept-v001\\candidate-us-city-concept-v004.blend",
+  "sha256": "72fe0a1bdacc40329baf1a1d2c4351bc3965c36085d3a341a448454c8f19f2fd",
+  "first": 300,
+  "last": 720,
+  "stride": 1,
+  "fps": 12.0,
+  "duration": 35.083333333333336,
+  "width": 640,
+  "elapsed": 551.0057582855225,
+  "camera": "CAM_MASTER",
+  "engine": "BLENDER_WORKBENCH"
+}

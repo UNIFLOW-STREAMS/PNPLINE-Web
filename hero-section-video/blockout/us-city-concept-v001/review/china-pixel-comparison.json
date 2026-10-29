@@ -1,0 +1,9 @@
+{
+  "frame": 0,
+  "pixels_equal": false,
+  "mean_abs_8bit": 1.286008230452675e-06,
+  "max_abs_8bit": 1,
+  "changed_pixels": 2,
+  "total_pixels": 518400,
+  "interpretation": "Data/action/world signatures exact. Images visually compared; pixel differences are disclosed, not assumed zero."
+}

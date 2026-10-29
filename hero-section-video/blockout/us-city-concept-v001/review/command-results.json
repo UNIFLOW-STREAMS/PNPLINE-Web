@@ -1,0 +1,145 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-normal",
+      "chunk_id": "d3a811",
+      "wall_time_seconds": 0.000007,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-preservation",
+      "chunk_id": "38e4ec",
+      "wall_time_seconds": 0.000006,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-collisions",
+      "chunk_id": "dfe3da",
+      "wall_time_seconds": 0.0000055,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "reproduction-build",
+      "chunk_id": "b6e78a",
+      "wall_time_seconds": 0.0000056,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-reopened",
+      "chunk_id": "463b70",
+      "wall_time_seconds": 0.0000041,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "visibility-options",
+      "chunk_id": "1aec5c",
+      "wall_time_seconds": 0.0000067,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "statue-scale-first",
+      "chunk_id": "59f8ac",
+      "wall_time_seconds": 0.0000053,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "reproduction-compare-render",
+      "chunk_id": "1a43f8",
+      "wall_time_seconds": 0.0000053,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-presentation",
+      "chunk_id": "5ee3d0",
+      "wall_time_seconds": 0.0000045,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-material",
+      "chunk_id": "0d8591",
+      "wall_time_seconds": 0.0000054,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "final-inherited-regression",
+      "chunk_id": "8a2271",
+      "wall_time_seconds": 0.0000041,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "baseline-protected",
+      "chunk_id": "f122bd",
+      "wall_time_seconds": 0.0000051,
+      "exit_code": 0,
+      "original_token_count": 20,
+      "output": "Blender 5.1.0 (hash adfe2921d5f3 built 2026-03-17 01:37:32)\r\n\r\nBlender quit\r\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "statue-scale-final",
+      "chunk_id": "35a505",
+      "wall_time_seconds": 0.0000045,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  }
+]

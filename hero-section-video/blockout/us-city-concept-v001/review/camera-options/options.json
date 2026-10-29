@@ -1,0 +1,78 @@
+{
+  "options": [
+    {
+      "frame": 390,
+      "ratio": 1.0,
+      "original_lens": 40.0,
+      "diagnostic_lens": 40.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 390,
+      "ratio": 0.7,
+      "original_lens": 40.0,
+      "diagnostic_lens": 28.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 390,
+      "ratio": 0.55,
+      "original_lens": 40.0,
+      "diagnostic_lens": 22.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 421,
+      "ratio": 1.0,
+      "original_lens": 40.0,
+      "diagnostic_lens": 40.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 421,
+      "ratio": 0.7,
+      "original_lens": 40.0,
+      "diagnostic_lens": 28.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 421,
+      "ratio": 0.55,
+      "original_lens": 40.0,
+      "diagnostic_lens": 22.0,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 495,
+      "ratio": 1.0,
+      "original_lens": 35.3429069519043,
+      "diagnostic_lens": 35.3429069519043,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 495,
+      "ratio": 0.7,
+      "original_lens": 35.3429069519043,
+      "diagnostic_lens": 24.740034866333005,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    },
+    {
+      "frame": 495,
+      "ratio": 0.55,
+      "original_lens": 35.3429069519043,
+      "diagnostic_lens": 19.438598823547366,
+      "camera_position_and_orientation": "unchanged",
+      "applied_to_candidate": false
+    }
+  ],
+  "saved_blend": false,
+  "status": "Diagnostic alternatives requiring user approval; no camera edits in candidate"
+}

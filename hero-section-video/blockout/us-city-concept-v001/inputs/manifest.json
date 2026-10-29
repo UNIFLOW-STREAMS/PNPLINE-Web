@@ -1,0 +1,45 @@
+{
+  "head": "b9353e1c99d046d78df4e7d1dc9db2bbad940515",
+  "branch": "main",
+  "remote_main_verified_via_github_connector": "b9353e1c99d046d78df4e7d1dc9db2bbad940515",
+  "original_path": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\master-previz-crane-height-v002.blend",
+  "source_git_blob": "a291b3ff7fd3aad16ef74ee7f575dce4f4ddc1cd",
+  "source_save_commit": "f3e0aacbb1c08e60cb6644df57c02823605179a9",
+  "source_sha256": "e29fe506211d1b7f647f3eee01e066e49319aaae29dffebc6e4ed82aca371af3",
+  "old_manifest_sha256": "61a08f1be06c6239ba40fcb40ee35628457fb2f4328432e945eb6316156225e6",
+  "hash_difference_explanation": "Saved again by f3e0aacb; current disk blob matches checked HEAD. No rollback.",
+  "files": {
+    "base.blend": {
+      "bytes": 7731516,
+      "sha256": "e29fe506211d1b7f647f3eee01e066e49319aaae29dffebc6e4ed82aca371af3"
+    },
+    "git-status-before.txt": {
+      "bytes": 327554,
+      "sha256": "60295248b6d60218d3faec685e744eb5eb8552092e8c05b1119b71c63385c7ac"
+    },
+    "task-spec.md": {
+      "bytes": 26717,
+      "sha256": "a0e7df8a58150464003c0584d4f223562ba7b593e2956caeb606e5e9afb13b3f"
+    },
+    "usa-miniature.png": {
+      "bytes": 5781136,
+      "sha256": "e5d78ae9f9c53c064da1e5ac8f225cbe8feb4ee59da20955c42cc99fa975a9a1"
+    }
+  },
+  "blender": "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+  "version": "5.1.0 adfe2921d5f3",
+  "startup": "--background --factory-startup",
+  "gui": "No Blender window/process at initial inventory; no GUI state touched",
+  "runtime_model": "unknown",
+  "reasoning_effort": "unknown",
+  "timeline": [
+    0,
+    1392,
+    12
+  ],
+  "camera": "CAM_MASTER",
+  "reference_priority": "User attachment; repo same-name image differs",
+  "set_dressing": "Survey 7262 objects and all surveyed object records match base; not merged or promoted",
+  "tracked_modifications_before": false,
+  "untracked_before": "inputs/git-status-before.txt"
+}

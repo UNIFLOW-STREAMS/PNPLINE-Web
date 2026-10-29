@@ -1,0 +1,1622 @@
+{
+  "before": {
+    "debug": {
+      "CAM_MASTER": {
+        "type": "CAMERA",
+        "parent": null,
+        "basis": [
+          [
+            0.40422478318214417,
+            -0.7808066010475159,
+            -0.47638586163520813,
+            -165.18255615234375
+          ],
+          [
+            -0.2918066084384918,
+            0.38352835178375244,
+            -0.8762162923812866,
+            -46.999996185302734
+          ],
+          [
+            0.866862952709198,
+            0.49320095777511597,
+            -0.07281288504600525,
+            52.75156021118164
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "MASTER_LENS",
+        "constraints": [],
+        "modifiers": [],
+        "action": "CAM_MASTERAction.002",
+        "visibility": [
+          false,
+          false,
+          false
+        ],
+        "material_slots": [],
+        "camera": {
+          "name": "MASTER_LENS",
+          "name_full": "MASTER_LENS",
+          "id_type": "CAMERA",
+          "session_uid": 38728,
+          "is_evaluated": false,
+          "original": "MASTER_LENS",
+          "users": 1,
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_embedded_data": false,
+          "is_linked_packed": false,
+          "is_missing": false,
+          "is_runtime_data": false,
+          "is_editable": true,
+          "tag": false,
+          "is_library_indirect": false,
+          "library": null,
+          "library_weak_reference": null,
+          "asset_data": null,
+          "override_library": null,
+          "preview": null,
+          "type": "PERSP",
+          "sensor_fit": "AUTO",
+          "passepartout_alpha": 0.5,
+          "angle_x": 0.8457078337669373,
+          "angle_y": 0.5829136371612549,
+          "angle": 0.8457078337669373,
+          "clip_start": 0.07999999821186066,
+          "clip_end": 1500.0,
+          "lens": 40.0,
+          "sensor_width": 36.0,
+          "sensor_height": 24.0,
+          "ortho_scale": 6.0,
+          "display_size": 1.0,
+          "shift_x": 0.0,
+          "shift_y": 0.0,
+          "stereo": "<bpy_struct, CameraStereoData at 0x000001AF162D3CA8>",
+          "show_limits": false,
+          "show_mist": false,
+          "show_passepartout": true,
+          "show_safe_areas": false,
+          "show_safe_center": false,
+          "show_name": false,
+          "show_sensor": false,
+          "show_background_images": false,
+          "lens_unit": "MILLIMETERS",
+          "composition_guide_color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "show_composition_center": false,
+          "show_composition_center_diagonal": false,
+          "show_composition_thirds": false,
+          "show_composition_golden": false,
+          "show_composition_golden_tria_a": false,
+          "show_composition_golden_tria_b": false,
+          "show_composition_harmony_tri_a": false,
+          "show_composition_harmony_tri_b": false,
+          "panorama_type": "FISHEYE_EQUISOLID",
+          "fisheye_fov": 3.1415927410125732,
+          "fisheye_lens": 10.5,
+          "latitude_min": -1.5707963705062866,
+          "latitude_max": 1.5707963705062866,
+          "longitude_min": -3.1415927410125732,
+          "longitude_max": 3.1415927410125732,
+          "fisheye_polynomial_k0": -1.1735143743862864e-05,
+          "fisheye_polynomial_k1": -0.019988736137747765,
+          "fisheye_polynomial_k2": -3.3525323033245513e-06,
+          "fisheye_polynomial_k3": 3.0992753181635635e-06,
+          "fisheye_polynomial_k4": -2.60646473293491e-08,
+          "central_cylindrical_range_u_min": -3.1415927410125732,
+          "central_cylindrical_range_u_max": 3.1415927410125732,
+          "central_cylindrical_range_v_min": -1.0,
+          "central_cylindrical_range_v_max": 1.0,
+          "central_cylindrical_radius": 1.0,
+          "custom_filepath": "",
+          "custom_shader": null,
+          "custom_mode": "INTERNAL",
+          "custom_bytecode": "",
+          "custom_bytecode_hash": "",
+          "dof": "<bpy_struct, CameraDOFSettings at 0x000001AF162D3C38>",
+          "animation_data": "<bpy_struct, AnimData at 0x000001AF7CE90120>",
+          "cycles_custom": "<bpy_struct, CyclesCustomCameraSettings(\"\") at 0x000001AF1F01B658>"
+        }
+      },
+      "SF_BRIDGE_POST_1_18": {
+        "type": "CURVE",
+        "parent": "SF_ARCH_BRIDGE",
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "SF_BRIDGE_POST_1_18",
+        "constraints": [],
+        "modifiers": [],
+        "action": null,
+        "visibility": [
+          true,
+          false,
+          true
+        ],
+        "material_slots": [
+          "SF_cream"
+        ],
+        "curve": {
+          "props": {
+            "name": "SF_BRIDGE_POST_1_18",
+            "name_full": "SF_BRIDGE_POST_1_18",
+            "id_type": "CURVE",
+            "session_uid": 40194,
+            "is_evaluated": false,
+            "original": "SF_BRIDGE_POST_1_18",
+            "users": 1,
+            "use_fake_user": false,
+            "use_extra_user": false,
+            "is_embedded_data": false,
+            "is_linked_packed": false,
+            "is_missing": false,
+            "is_runtime_data": false,
+            "is_editable": true,
+            "tag": false,
+            "is_library_indirect": false,
+            "library": null,
+            "library_weak_reference": null,
+            "asset_data": null,
+            "override_library": null,
+            "preview": null,
+            "shape_keys": null,
+            "path_duration": 100,
+            "use_path": false,
+            "use_path_follow": false,
+            "use_path_clamp": false,
+            "use_stretch": false,
+            "use_deform_bounds": false,
+            "use_radius": true,
+            "bevel_mode": "ROUND",
+            "bevel_profile": null,
+            "bevel_resolution": 2,
+            "offset": 0.0,
+            "extrude": 0.0,
+            "bevel_depth": 0.03500000014901161,
+            "resolution_u": 2,
+            "resolution_v": 12,
+            "render_resolution_u": 0,
+            "render_resolution_v": 0,
+            "eval_time": 0.0,
+            "bevel_object": null,
+            "taper_object": null,
+            "dimensions": "3D",
+            "fill_mode": "FULL",
+            "fill_solver": "SWEEP_LINE",
+            "fill_rule": "EVEN_ODD",
+            "twist_mode": "MINIMUM",
+            "taper_radius_mode": "OVERRIDE",
+            "bevel_factor_mapping_start": "RESOLUTION",
+            "bevel_factor_mapping_end": "RESOLUTION",
+            "twist_smooth": 0.0,
+            "use_fill_caps": false,
+            "use_map_taper": false,
+            "use_auto_texspace": true,
+            "texspace_location": [
+              -15.844131469726562,
+              14.941105842590332,
+              2.091040849685669
+            ],
+            "texspace_size": [
+              1.0,
+              1.0,
+              1.2400000095367432
+            ],
+            "bevel_factor_start": 0.0,
+            "bevel_factor_end": 1.0,
+            "is_editmode": false,
+            "animation_data": null,
+            "cycles": "<bpy_struct, CyclesMeshSettings(\"\") at 0x000001AF1F00AD58>"
+          },
+          "splines": [
+            [
+              [
+                [
+                  -15.844131469726562,
+                  14.941105842590332,
+                  1.8510408401489258,
+                  1.0
+                ],
+                [
+                  -15.844131469726562,
+                  14.941105842590332,
+                  2.331040859222412,
+                  1.0
+                ]
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      "navy": {
+        "props": {
+          "name": "navy",
+          "name_full": "navy",
+          "id_type": "MATERIAL",
+          "session_uid": 45699,
+          "is_evaluated": false,
+          "original": "navy",
+          "users": 12,
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_embedded_data": false,
+          "is_linked_packed": false,
+          "is_missing": false,
+          "is_runtime_data": false,
+          "is_editable": true,
+          "tag": false,
+          "is_library_indirect": false,
+          "library": null,
+          "library_weak_reference": null,
+          "asset_data": null,
+          "override_library": null,
+          "preview": null,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "node_tree": "Shader Nodetree",
+          "use_nodes": true,
+          "animation_data": null,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.03999999910593033,
+            0.15000000596046448,
+            0.23999999463558197,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.4000000059604645,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0,
+          "grease_pencil": null,
+          "is_grease_pencil": false,
+          "lineart": "<bpy_struct, MaterialLineArt at 0x000001AF1A92EE60>",
+          "cycles": "<bpy_struct, CyclesMaterialSettings(\"\") at 0x000001AF1EDC6098>"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED",
+            {
+              "type": "BSDF_PRINCIPLED",
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "dimensions": [
+                0.0,
+                0.0
+              ],
+              "name": "Principled BSDF",
+              "label": "",
+              "parent": null,
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "color_tag": "SHADER",
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_static_type": "BSDF_PRINCIPLED",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            [
+              [
+                "Base Color",
+                [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              ],
+              [
+                "Metallic",
+                0.0
+              ],
+              [
+                "Roughness",
+                0.5
+              ],
+              [
+                "IOR",
+                1.5
+              ],
+              [
+                "Alpha",
+                1.0
+              ],
+              [
+                "Normal",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Weight",
+                0.0
+              ],
+              [
+                "Diffuse Roughness",
+                0.0
+              ],
+              [
+                "Subsurface Weight",
+                0.0
+              ],
+              [
+                "Subsurface Radius",
+                [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              ],
+              [
+                "Subsurface Scale",
+                0.05000000074505806
+              ],
+              [
+                "Subsurface IOR",
+                1.399999976158142
+              ],
+              [
+                "Subsurface Anisotropy",
+                0.0
+              ],
+              [
+                "Specular IOR Level",
+                0.5
+              ],
+              [
+                "Specular Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Anisotropic",
+                0.0
+              ],
+              [
+                "Anisotropic Rotation",
+                0.0
+              ],
+              [
+                "Tangent",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Transmission Weight",
+                0.0
+              ],
+              [
+                "Coat Weight",
+                0.0
+              ],
+              [
+                "Coat Roughness",
+                0.029999999329447746
+              ],
+              [
+                "Coat IOR",
+                1.5
+              ],
+              [
+                "Coat Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Coat Normal",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Sheen Weight",
+                0.0
+              ],
+              [
+                "Sheen Roughness",
+                0.5
+              ],
+              [
+                "Sheen Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Emission Color",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Emission Strength",
+                0.0
+              ],
+              [
+                "Thin Film Thickness",
+                0.0
+              ],
+              [
+                "Thin Film IOR",
+                1.3300000429153442
+              ]
+            ]
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL",
+            {
+              "type": "OUTPUT_MATERIAL",
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "dimensions": [
+                0.0,
+                0.0
+              ],
+              "name": "Material Output",
+              "label": "",
+              "parent": null,
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "color_tag": "OUTPUT",
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_static_type": "OUTPUT_MATERIAL",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            [
+              [
+                "Displacement",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Thickness",
+                0.0
+              ]
+            ]
+          ]
+        ],
+        "links": [
+          [
+            "Principled BSDF",
+            "BSDF",
+            "Material Output",
+            "Surface"
+          ]
+        ]
+      }
+    },
+    "render": {
+      "image_settings": "<bpy_struct, ImageFormatSettings at 0x000001AF1390C300>",
+      "resolution_x": 1280,
+      "resolution_y": 720,
+      "resolution_percentage": 100,
+      "preview_pixel_size": "AUTO",
+      "pixel_aspect_x": 1.0,
+      "pixel_aspect_y": 1.0,
+      "ppm_factor": 72.0,
+      "ppm_base": 0.02539999969303608,
+      "ffmpeg": "<bpy_struct, FFmpegSettings at 0x000001AF1390C458>",
+      "fps": 12,
+      "fps_base": 1.0,
+      "frame_map_old": 100,
+      "frame_map_new": 100,
+      "dither_intensity": 1.0,
+      "filter_size": 1.5,
+      "film_transparent": false,
+      "use_freestyle": false,
+      "threads": 24,
+      "threads_mode": "AUTO",
+      "use_motion_blur": false,
+      "motion_blur_shutter": 0.5,
+      "motion_blur_position": "CENTER",
+      "motion_blur_shutter_curve": "<bpy_struct, CurveMapping at 0x000001AF1390D268>",
+      "hair_type": "STRAND",
+      "hair_subdiv": 0,
+      "use_high_quality_normals": false,
+      "use_border": false,
+      "border_min_x": 0.0,
+      "border_min_y": 0.0,
+      "border_max_x": 1.0,
+      "border_max_y": 1.0,
+      "use_crop_to_border": false,
+      "use_placeholder": false,
+      "use_overwrite": true,
+      "use_compositing": true,
+      "use_sequencer": true,
+      "use_file_extension": true,
+      "file_extension": ".png",
+      "is_movie_format": false,
+      "use_lock_interface": false,
+      "use_render_cache": false,
+      "use_stamp_time": true,
+      "use_stamp_date": true,
+      "use_stamp_frame": true,
+      "use_stamp_frame_range": false,
+      "use_stamp_camera": true,
+      "use_stamp_lens": false,
+      "use_stamp_scene": true,
+      "use_stamp_note": false,
+      "use_stamp_marker": false,
+      "use_stamp_filename": true,
+      "use_stamp_sequencer_strip": false,
+      "use_stamp_render_time": true,
+      "stamp_note_text": "",
+      "use_stamp": false,
+      "use_stamp_labels": true,
+      "metadata_input": "SCENE",
+      "use_stamp_memory": false,
+      "use_stamp_hostname": false,
+      "stamp_font_size": 12,
+      "stamp_foreground": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "stamp_background": [
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "sequencer_gl_preview": "SOLID",
+      "use_sequencer_override_scene_strip": false,
+      "use_single_layer": false,
+      "use_multiview": false,
+      "views_format": "STEREO_3D",
+      "engine": "CYCLES",
+      "has_multiple_engines": true,
+      "use_spherical_stereo": true,
+      "use_simplify": false,
+      "simplify_subdivision": 6,
+      "simplify_child_particles": 1.0,
+      "simplify_subdivision_render": 6,
+      "simplify_child_particles_render": 1.0,
+      "simplify_volumes": 1.0,
+      "use_simplify_normals": false,
+      "simplify_gpencil": false,
+      "simplify_gpencil_onplay": false,
+      "simplify_gpencil_antialiasing": true,
+      "simplify_gpencil_view_fill": true,
+      "simplify_gpencil_modifier": true,
+      "simplify_gpencil_shader_fx": true,
+      "simplify_gpencil_tint": true,
+      "use_persistent_data": false,
+      "line_thickness_mode": "ABSOLUTE",
+      "line_thickness": 1.0,
+      "bake": "<bpy_struct, BakeSettings at 0x000001AF1390CCB8>",
+      "compositor_device": "CPU",
+      "compositor_precision": "AUTO",
+      "compositor_denoise_device": "AUTO",
+      "compositor_denoise_preview_quality": "BALANCED",
+      "compositor_denoise_final_quality": "HIGH"
+    },
+    "color": {
+      "look": "Medium Contrast",
+      "view_transform": "Filmic",
+      "exposure": 0.0,
+      "gamma": 1.0,
+      "curve_mapping": "<bpy_struct, CurveMapping at 0x000001AF1387BE20>",
+      "use_curve_mapping": false,
+      "use_white_balance": false,
+      "white_balance_temperature": 6500.0,
+      "white_balance_tint": 10.0,
+      "white_balance_whitepoint": [
+        0.9993047714233398,
+        1.0003489255905151,
+        0.9985780119895935
+      ],
+      "is_hdr": false,
+      "support_emulation": true
+    }
+  },
+  "after": {
+    "debug": {
+      "CAM_MASTER": {
+        "type": "CAMERA",
+        "parent": null,
+        "basis": [
+          [
+            0.40422478318214417,
+            -0.7808066010475159,
+            -0.47638586163520813,
+            -165.18255615234375
+          ],
+          [
+            -0.2918066084384918,
+            0.38352835178375244,
+            -0.8762162923812866,
+            -46.999996185302734
+          ],
+          [
+            0.866862952709198,
+            0.49320095777511597,
+            -0.07281288504600525,
+            52.75156021118164
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "MASTER_LENS",
+        "constraints": [],
+        "modifiers": [],
+        "action": "CAM_MASTERAction.002",
+        "visibility": [
+          false,
+          false,
+          false
+        ],
+        "material_slots": [],
+        "camera": {
+          "name": "MASTER_LENS",
+          "name_full": "MASTER_LENS",
+          "id_type": "CAMERA",
+          "session_uid": 8764,
+          "is_evaluated": false,
+          "original": "MASTER_LENS",
+          "users": 1,
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_embedded_data": false,
+          "is_linked_packed": false,
+          "is_missing": false,
+          "is_runtime_data": false,
+          "is_editable": true,
+          "tag": false,
+          "is_library_indirect": false,
+          "library": null,
+          "library_weak_reference": null,
+          "asset_data": null,
+          "override_library": null,
+          "preview": null,
+          "type": "PERSP",
+          "sensor_fit": "AUTO",
+          "passepartout_alpha": 0.5,
+          "angle_x": 0.8457078337669373,
+          "angle_y": 0.5829136371612549,
+          "angle": 0.8457078337669373,
+          "clip_start": 0.07999999821186066,
+          "clip_end": 1500.0,
+          "lens": 40.0,
+          "sensor_width": 36.0,
+          "sensor_height": 24.0,
+          "ortho_scale": 6.0,
+          "display_size": 1.0,
+          "shift_x": 0.0,
+          "shift_y": 0.0,
+          "stereo": "<bpy_struct, CameraStereoData at 0x000001AF65C43228>",
+          "show_limits": false,
+          "show_mist": false,
+          "show_passepartout": true,
+          "show_safe_areas": false,
+          "show_safe_center": false,
+          "show_name": false,
+          "show_sensor": false,
+          "show_background_images": false,
+          "lens_unit": "MILLIMETERS",
+          "composition_guide_color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "show_composition_center": false,
+          "show_composition_center_diagonal": false,
+          "show_composition_thirds": false,
+          "show_composition_golden": false,
+          "show_composition_golden_tria_a": false,
+          "show_composition_golden_tria_b": false,
+          "show_composition_harmony_tri_a": false,
+          "show_composition_harmony_tri_b": false,
+          "panorama_type": "FISHEYE_EQUISOLID",
+          "fisheye_fov": 3.1415927410125732,
+          "fisheye_lens": 10.5,
+          "latitude_min": -1.5707963705062866,
+          "latitude_max": 1.5707963705062866,
+          "longitude_min": -3.1415927410125732,
+          "longitude_max": 3.1415927410125732,
+          "fisheye_polynomial_k0": -1.1735143743862864e-05,
+          "fisheye_polynomial_k1": -0.019988736137747765,
+          "fisheye_polynomial_k2": -3.3525323033245513e-06,
+          "fisheye_polynomial_k3": 3.0992753181635635e-06,
+          "fisheye_polynomial_k4": -2.60646473293491e-08,
+          "central_cylindrical_range_u_min": -3.1415927410125732,
+          "central_cylindrical_range_u_max": 3.1415927410125732,
+          "central_cylindrical_range_v_min": -1.0,
+          "central_cylindrical_range_v_max": 1.0,
+          "central_cylindrical_radius": 1.0,
+          "custom_filepath": "",
+          "custom_shader": null,
+          "custom_mode": "INTERNAL",
+          "custom_bytecode": "",
+          "custom_bytecode_hash": "",
+          "dof": "<bpy_struct, CameraDOFSettings at 0x000001AF65C431B8>",
+          "animation_data": "<bpy_struct, AnimData at 0x000001AF67E17720>",
+          "cycles_custom": "<bpy_struct, CyclesCustomCameraSettings(\"\") at 0x000001AF0FAFEB18>"
+        }
+      },
+      "SF_BRIDGE_POST_1_18": {
+        "type": "CURVE",
+        "parent": "SF_ARCH_BRIDGE",
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "SF_BRIDGE_POST_1_18",
+        "constraints": [],
+        "modifiers": [],
+        "action": null,
+        "visibility": [
+          true,
+          false,
+          true
+        ],
+        "material_slots": [
+          "SF_cream"
+        ],
+        "curve": {
+          "props": {
+            "name": "SF_BRIDGE_POST_1_18",
+            "name_full": "SF_BRIDGE_POST_1_18",
+            "id_type": "CURVE",
+            "session_uid": 10230,
+            "is_evaluated": false,
+            "original": "SF_BRIDGE_POST_1_18",
+            "users": 1,
+            "use_fake_user": false,
+            "use_extra_user": false,
+            "is_embedded_data": false,
+            "is_linked_packed": false,
+            "is_missing": false,
+            "is_runtime_data": false,
+            "is_editable": true,
+            "tag": false,
+            "is_library_indirect": false,
+            "library": null,
+            "library_weak_reference": null,
+            "asset_data": null,
+            "override_library": null,
+            "preview": null,
+            "shape_keys": null,
+            "path_duration": 100,
+            "use_path": false,
+            "use_path_follow": false,
+            "use_path_clamp": false,
+            "use_stretch": false,
+            "use_deform_bounds": false,
+            "use_radius": true,
+            "bevel_mode": "ROUND",
+            "bevel_profile": null,
+            "bevel_resolution": 2,
+            "offset": 0.0,
+            "extrude": 0.0,
+            "bevel_depth": 0.03500000014901161,
+            "resolution_u": 2,
+            "resolution_v": 12,
+            "render_resolution_u": 0,
+            "render_resolution_v": 0,
+            "eval_time": 0.0,
+            "bevel_object": null,
+            "taper_object": null,
+            "dimensions": "3D",
+            "fill_mode": "FULL",
+            "fill_solver": "SWEEP_LINE",
+            "fill_rule": "EVEN_ODD",
+            "twist_mode": "MINIMUM",
+            "taper_radius_mode": "OVERRIDE",
+            "bevel_factor_mapping_start": "RESOLUTION",
+            "bevel_factor_mapping_end": "RESOLUTION",
+            "twist_smooth": 0.0,
+            "use_fill_caps": false,
+            "use_map_taper": false,
+            "use_auto_texspace": true,
+            "texspace_location": [
+              -15.844131469726562,
+              14.941105842590332,
+              2.091040849685669
+            ],
+            "texspace_size": [
+              1.0,
+              1.0,
+              1.2400000095367432
+            ],
+            "bevel_factor_start": 0.0,
+            "bevel_factor_end": 1.0,
+            "is_editmode": false,
+            "animation_data": null,
+            "cycles": "<bpy_struct, CyclesMeshSettings(\"\") at 0x000001AF0FA322D8>"
+          },
+          "splines": [
+            [
+              [
+                [
+                  -15.844131469726562,
+                  14.941105842590332,
+                  1.8510408401489258,
+                  1.0
+                ],
+                [
+                  -15.844131469726562,
+                  14.941105842590332,
+                  2.331040859222412,
+                  1.0
+                ]
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      "navy": {
+        "props": {
+          "name": "navy",
+          "name_full": "navy",
+          "id_type": "MATERIAL",
+          "session_uid": 17047,
+          "is_evaluated": false,
+          "original": "navy",
+          "users": 12,
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_embedded_data": false,
+          "is_linked_packed": false,
+          "is_missing": false,
+          "is_runtime_data": false,
+          "is_editable": true,
+          "tag": false,
+          "is_library_indirect": false,
+          "library": null,
+          "library_weak_reference": null,
+          "asset_data": null,
+          "override_library": null,
+          "preview": null,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "node_tree": "Shader Nodetree",
+          "use_nodes": true,
+          "animation_data": null,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.03999999910593033,
+            0.15000000596046448,
+            0.23999999463558197,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.4000000059604645,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0,
+          "grease_pencil": null,
+          "is_grease_pencil": false,
+          "lineart": "<bpy_struct, MaterialLineArt at 0x000001AF6D4EB360>",
+          "cycles": "<bpy_struct, CyclesMaterialSettings(\"\") at 0x000001AF0F755618>"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED",
+            {
+              "type": "BSDF_PRINCIPLED",
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "dimensions": [
+                0.0,
+                0.0
+              ],
+              "name": "Principled BSDF",
+              "label": "",
+              "parent": null,
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "color_tag": "SHADER",
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_static_type": "BSDF_PRINCIPLED",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            [
+              [
+                "Base Color",
+                [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              ],
+              [
+                "Metallic",
+                0.0
+              ],
+              [
+                "Roughness",
+                0.5
+              ],
+              [
+                "IOR",
+                1.5
+              ],
+              [
+                "Alpha",
+                1.0
+              ],
+              [
+                "Normal",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Weight",
+                0.0
+              ],
+              [
+                "Diffuse Roughness",
+                0.0
+              ],
+              [
+                "Subsurface Weight",
+                0.0
+              ],
+              [
+                "Subsurface Radius",
+                [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              ],
+              [
+                "Subsurface Scale",
+                0.05000000074505806
+              ],
+              [
+                "Subsurface IOR",
+                1.399999976158142
+              ],
+              [
+                "Subsurface Anisotropy",
+                0.0
+              ],
+              [
+                "Specular IOR Level",
+                0.5
+              ],
+              [
+                "Specular Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Anisotropic",
+                0.0
+              ],
+              [
+                "Anisotropic Rotation",
+                0.0
+              ],
+              [
+                "Tangent",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Transmission Weight",
+                0.0
+              ],
+              [
+                "Coat Weight",
+                0.0
+              ],
+              [
+                "Coat Roughness",
+                0.029999999329447746
+              ],
+              [
+                "Coat IOR",
+                1.5
+              ],
+              [
+                "Coat Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Coat Normal",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Sheen Weight",
+                0.0
+              ],
+              [
+                "Sheen Roughness",
+                0.5
+              ],
+              [
+                "Sheen Tint",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Emission Color",
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                "Emission Strength",
+                0.0
+              ],
+              [
+                "Thin Film Thickness",
+                0.0
+              ],
+              [
+                "Thin Film IOR",
+                1.3300000429153442
+              ]
+            ]
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL",
+            {
+              "type": "OUTPUT_MATERIAL",
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "dimensions": [
+                0.0,
+                0.0
+              ],
+              "name": "Material Output",
+              "label": "",
+              "parent": null,
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "color_tag": "OUTPUT",
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_static_type": "OUTPUT_MATERIAL",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            [
+              [
+                "Displacement",
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              [
+                "Thickness",
+                0.0
+              ]
+            ]
+          ]
+        ],
+        "links": [
+          [
+            "Principled BSDF",
+            "BSDF",
+            "Material Output",
+            "Surface"
+          ]
+        ]
+      }
+    },
+    "render": {
+      "image_settings": "<bpy_struct, ImageFormatSettings at 0x000001AF65C862C0>",
+      "resolution_x": 1280,
+      "resolution_y": 720,
+      "resolution_percentage": 100,
+      "preview_pixel_size": "AUTO",
+      "pixel_aspect_x": 1.0,
+      "pixel_aspect_y": 1.0,
+      "ppm_factor": 72.0,
+      "ppm_base": 0.02539999969303608,
+      "ffmpeg": "<bpy_struct, FFmpegSettings at 0x000001AF65C86418>",
+      "fps": 12,
+      "fps_base": 1.0,
+      "frame_map_old": 100,
+      "frame_map_new": 100,
+      "dither_intensity": 1.0,
+      "filter_size": 1.5,
+      "film_transparent": false,
+      "use_freestyle": false,
+      "threads": 24,
+      "threads_mode": "AUTO",
+      "use_motion_blur": false,
+      "motion_blur_shutter": 0.5,
+      "motion_blur_position": "CENTER",
+      "motion_blur_shutter_curve": "<bpy_struct, CurveMapping at 0x000001AF65C87228>",
+      "hair_type": "STRAND",
+      "hair_subdiv": 0,
+      "use_high_quality_normals": false,
+      "use_border": false,
+      "border_min_x": 0.0,
+      "border_min_y": 0.0,
+      "border_max_x": 1.0,
+      "border_max_y": 1.0,
+      "use_crop_to_border": false,
+      "use_placeholder": false,
+      "use_overwrite": true,
+      "use_compositing": true,
+      "use_sequencer": true,
+      "use_file_extension": true,
+      "file_extension": ".png",
+      "is_movie_format": false,
+      "use_lock_interface": false,
+      "use_render_cache": false,
+      "use_stamp_time": true,
+      "use_stamp_date": true,
+      "use_stamp_frame": true,
+      "use_stamp_frame_range": false,
+      "use_stamp_camera": true,
+      "use_stamp_lens": false,
+      "use_stamp_scene": true,
+      "use_stamp_note": false,
+      "use_stamp_marker": false,
+      "use_stamp_filename": true,
+      "use_stamp_sequencer_strip": false,
+      "use_stamp_render_time": true,
+      "stamp_note_text": "",
+      "use_stamp": false,
+      "use_stamp_labels": true,
+      "metadata_input": "SCENE",
+      "use_stamp_memory": false,
+      "use_stamp_hostname": false,
+      "stamp_font_size": 12,
+      "stamp_foreground": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "stamp_background": [
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "sequencer_gl_preview": "SOLID",
+      "use_sequencer_override_scene_strip": false,
+      "use_single_layer": false,
+      "use_multiview": false,
+      "views_format": "STEREO_3D",
+      "engine": "CYCLES",
+      "has_multiple_engines": true,
+      "use_spherical_stereo": true,
+      "use_simplify": false,
+      "simplify_subdivision": 6,
+      "simplify_child_particles": 1.0,
+      "simplify_subdivision_render": 6,
+      "simplify_child_particles_render": 1.0,
+      "simplify_volumes": 1.0,
+      "use_simplify_normals": false,
+      "simplify_gpencil": false,
+      "simplify_gpencil_onplay": false,
+      "simplify_gpencil_antialiasing": true,
+      "simplify_gpencil_view_fill": true,
+      "simplify_gpencil_modifier": true,
+      "simplify_gpencil_shader_fx": true,
+      "simplify_gpencil_tint": true,
+      "use_persistent_data": false,
+      "line_thickness_mode": "ABSOLUTE",
+      "line_thickness": 1.0,
+      "bake": "<bpy_struct, BakeSettings at 0x000001AF65C86C78>",
+      "compositor_device": "CPU",
+      "compositor_precision": "AUTO",
+      "compositor_denoise_device": "AUTO",
+      "compositor_denoise_preview_quality": "BALANCED",
+      "compositor_denoise_final_quality": "HIGH"
+    },
+    "color": {
+      "look": "Medium Contrast",
+      "view_transform": "Filmic",
+      "exposure": 0.0,
+      "gamma": 1.0,
+      "curve_mapping": "<bpy_struct, CurveMapping at 0x000001AF65C18E20>",
+      "use_curve_mapping": false,
+      "use_white_balance": false,
+      "white_balance_temperature": 6500.0,
+      "white_balance_tint": 10.0,
+      "white_balance_whitepoint": [
+        0.9993047714233398,
+        1.0003489255905151,
+        0.9985780119895935
+      ],
+      "is_hdr": false,
+      "support_emulation": true
+    }
+  }
+}

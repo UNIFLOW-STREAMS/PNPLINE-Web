@@ -1,0 +1,39 @@
+{
+  "reference_sha256": "e5d78ae9f9c53c064da1e5ac8f225cbe8feb4ee59da20955c42cc99fa975a9a1",
+  "mapping": {
+    "D01": {
+      "implementation": "UC_LETTER_U/S/A: actual mesh, silver expanded contour and navy inset, beveled thickness",
+      "difference": "Arial Black outline approximation. Reference U/S widths and curves are not exact. No external font dependency in saved display geometry."
+    },
+    "D02": {
+      "implementation": "UC_STAR_L_1..5 and UC_STAR_R_1..5, individual relief meshes",
+      "difference": "World fixed; full pair recognition in main camera is unresolved."
+    },
+    "D03": {
+      "implementation": "Folded patinated robe, raised arm, torch flame, seven crown rays, modeled face, tablet, pedestal, island",
+      "ratio": "148/344 image pixels = .43023 of central tower; reference body 7.74; chosen body 10.836 (1.4x). Initial assumption, not user-approved scale.",
+      "difference": "Procedural sculpt approximation; entire landmark clips in actual arrival camera."
+    },
+    "D04": {
+      "implementation": "Dense six-row grid with varied blocks, central stepped stone tower, tapered glass spire tower",
+      "difference": "Facade modules simplified; skyline proportions and density require artistic revision, not accepted solely by object count."
+    },
+    "D05": {
+      "implementation": "Dome, ribs, lantern, wings, colonnade, stairs/lawn; red suspension bridge outside arrival corridor",
+      "difference": "Civic forecourt compressed to protect functional warehouse. Bridge aligned to existing shoreline, not reference image coordinates."
+    },
+    "D06": {
+      "implementation": "Front masonry blocks with window/cornice meshes, yellow taxis, rail wagons, rear facade dressing of existing warehouse",
+      "difference": "Existing warehouse remains open cutaway; not replaced with closed concept warehouse. Only safe background rail/transport representation."
+    },
+    "D07": {
+      "implementation": "Existing PNPLINE ship and working P02 untouched; two blue-white static gantries, container stacks",
+      "difference": "Working gantry retains baseline gold material and simplified rig; reference crane appearance is not fully matched. Decorative booms remain landward to avoid approach."
+    },
+    "D08": {
+      "implementation": "All city objects parented within US_FRAME; existing continuous ocean and land terrace unchanged; new island and bridge foundations descend into spherical water",
+      "difference": "Existing steep terrace/coast retained. No separate sea plate, studio floor or cloud backdrop."
+    }
+  },
+  "status": "Implementation candidate; not artistic acceptance"
+}

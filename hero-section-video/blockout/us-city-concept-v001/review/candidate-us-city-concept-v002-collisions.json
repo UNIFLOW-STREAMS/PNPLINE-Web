@@ -1,0 +1,42 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-concept-v001\\candidate-us-city-concept-v002.blend",
+  "sha256": "997f61ecc9f44fb8245a79fb4f8b2303de3650f2a9ad644c95d11e51bbb5fa22",
+  "frames": 1513,
+  "new_mesh_surface_intersections": {
+    "WAREHOUSE_FLOOR | UC_CIVIC_PLAZA": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1513
+    }
+  },
+  "camera_near_new_surface": [],
+  "groups": [
+    "A02_SHIP",
+    "A01_CONTAINER",
+    "A03_TRACTOR",
+    "A03_TRAILER",
+    "A04_PRIMARY",
+    "A05_SECONDARY",
+    "P02_SPREADER",
+    "W01_NEW_PALLET",
+    "W01_STORED_PALLET",
+    "W02_INBOUND_JACK",
+    "W02_STORAGE_JACK",
+    "W05_PICK_CART",
+    "W09_OUT_CART",
+    "W08_LAST_LOAD",
+    "W07_OPEN_PACK",
+    "W04_PICK_BIN_PRODUCT",
+    "CH_PICKER",
+    "CH_PACKER",
+    "CH_LOADER",
+    "P02_MOVING",
+    "P02_FIXED",
+    "WAREHOUSE_FIXED"
+  ],
+  "limitations": [
+    "Surface BVH detects crossings, not all full containment cases. Broad-phase world bounds precede narrow phase.",
+    "No artistic occlusion pass is implied.",
+    "Original warehouse contacts are preserved by data/evaluation comparison, separately recorded as baseline defects."
+  ]
+}

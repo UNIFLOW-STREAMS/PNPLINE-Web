@@ -1,0 +1,7 @@
+{
+ "original_objects": {"US_CITY_0":["hide_render","hide_viewport"],"US_CITY_1":["hide_render","hide_viewport"],"US_CITY_2":["hide_render","hide_viewport"],"US_CITY_3":["hide_render","hide_viewport"],"US_CITY_4":["hide_render","hide_viewport"]},
+ "new_objects": {"prefix":"UC_", "owner":"us-city-concept-v001", "static":true, "ultimate_parent":"US_FRAME"},
+ "protected": "All other original objects, meshes, materials, constraints, animation, cameras, scene render settings, lighting, world, timeline and data",
+ "replacement": "Only the five individually surveyed background boxes are hidden. Existing warehouse, quay, cranes, cargo, trucks and ship remain intact.",
+ "functional_exclusion_local": {"ship":"actual evaluated hull over entire route plus clearance","crane":[[-3,-7,0],[5,15,14]],"inbound":"E07 road and A03 actual swept meshes","warehouse":[[35,23,0],[83,40,12]],"camera":"actual evaluated CAM_MASTER path"}
+}

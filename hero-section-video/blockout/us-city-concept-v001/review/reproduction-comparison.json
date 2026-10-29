@@ -1,0 +1,12 @@
+{
+  "candidate_sha256": "72fe0a1bdacc40329baf1a1d2c4351bc3965c36085d3a341a448454c8f19f2fd",
+  "reproduction_sha256": "429e14ef2c8c983b07151724442a8bccde410dae31dc0ea89d88a293a6574d50",
+  "owned_count": [
+    1315,
+    1315
+  ],
+  "different": [],
+  "pass": true,
+  "binary_equality_required": false,
+  "reason": "Blend save metadata/path may differ; geometry, materials assignments and world matrices must reproduce exactly."
+}

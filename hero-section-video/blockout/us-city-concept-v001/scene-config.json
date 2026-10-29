@@ -1,0 +1,14 @@
+{
+  "owner": "us-city-concept-v001",
+  "base_sha256": "e29fe506211d1b7f647f3eee01e066e49319aaae29dffebc6e4ed82aca371af3",
+  "seed": 29026,
+  "city_translation": [0, 0, 0],
+  "city_yaw_degrees": 0,
+  "liberty_position": [-39, -10, -6.0],
+  "liberty_yaw_degrees": -25,
+  "liberty_reference_body_height": 7.74,
+  "liberty_body_scale": 1.4,
+  "reference_ratio": {"statue_body_pixels": 148, "central_tower_pixels": 344, "body_to_tower": 0.43023, "scene_central_tower_height": 18.0, "uncertainty": "Perspective estimate from attached image; not physical meters or approved artistic threshold"},
+  "font_path": "C:/Windows/Fonts/ariblk.ttf",
+  "hidden_proxies": ["US_CITY_0", "US_CITY_1", "US_CITY_2", "US_CITY_3", "US_CITY_4"]
+}

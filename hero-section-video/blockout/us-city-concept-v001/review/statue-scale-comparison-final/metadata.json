@@ -1,0 +1,10 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-concept-v001\\candidate-us-city-concept-v004.blend",
+  "comparison": "Same camera position/lens/frame and pedestal/island; only statue body scale differs",
+  "reference_body_height": 7.74,
+  "selected_body_height": 10.836,
+  "factor": 1.4,
+  "saved_scene_modified": false,
+  "artistic_status": "Both same-camera variants still clip. Diagnostic closeup is shape/scale evidence only.",
+  "source_sha256": "72fe0a1bdacc40329baf1a1d2c4351bc3965c36085d3a341a448454c8f19f2fd"
+}
