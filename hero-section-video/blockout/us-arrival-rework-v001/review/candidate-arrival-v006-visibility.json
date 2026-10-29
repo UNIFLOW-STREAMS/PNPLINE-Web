@@ -1,0 +1,1939 @@
+{
+  "sha256": "8767208310d79754c878a197953fee0b669a8f69e52b4b33c0144945fe1337ff",
+  "intervals": [
+    {
+      "first": 408,
+      "middle": 439,
+      "last": 471,
+      "seconds": 5.333333333333333
+    },
+    {
+      "first": 473,
+      "middle": 477,
+      "last": 482,
+      "seconds": 0.8333333333333334
+    }
+  ],
+  "rows": [
+    {
+      "f": 390,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 391,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 392,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 393,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 394,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 395,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 396,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 397,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 398,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 399,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 400,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 401,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 402,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 403,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 404,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 405,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 406,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 407,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": false,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 408,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8333333333333334
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 409,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 410,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 411,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 412,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 413,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 414,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 415,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 416,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 417,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 418,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 419,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 420,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 421,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 422,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 423,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 424,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 425,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 426,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 427,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 428,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 429,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 430,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 431,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 432,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 433,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7333333333333333,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 434,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 435,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 436,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 437,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 438,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.8
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 439,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 440,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 441,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 442,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 443,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8666666666666667,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 444,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 445,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 446,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 447,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 448,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 5
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 449,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9333333333333333,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 450,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 451,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 452,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 453,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 454,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 455,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 456,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 457,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 458,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 459,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 460,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 461,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 462,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 463,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 464,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 465,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 466,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.8666666666666667,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 467,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 468,
+      "letters": {
+        "UC_LETTER_U": 0.7666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 469,
+      "letters": {
+        "UC_LETTER_U": 0.7666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 470,
+      "letters": {
+        "UC_LETTER_U": 0.7333333333333333,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 471,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 472,
+      "letters": {
+        "UC_LETTER_U": 0.6666666666666666,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 473,
+      "letters": {
+        "UC_LETTER_U": 0.7666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 474,
+      "letters": {
+        "UC_LETTER_U": 0.7666666666666667,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 475,
+      "letters": {
+        "UC_LETTER_U": 0.8333333333333334,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 476,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 477,
+      "letters": {
+        "UC_LETTER_U": 0.7666666666666667,
+        "UC_LETTER_S": 0.9333333333333333,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 478,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.9333333333333333,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 479,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.9333333333333333,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 480,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.9333333333333333,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 481,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.9,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 482,
+      "letters": {
+        "UC_LETTER_U": 0.9,
+        "UC_LETTER_S": 0.8666666666666667,
+        "UC_LETTER_A": 0.7
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": true
+    },
+    {
+      "f": 483,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.8333333333333334,
+        "UC_LETTER_A": 0.6333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 484,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7666666666666667,
+        "UC_LETTER_A": 0.6
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 485,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.7,
+        "UC_LETTER_A": 0.5666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 486,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.6,
+        "UC_LETTER_A": 0.5666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 5,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 487,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.5333333333333333,
+        "UC_LETTER_A": 0.6
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 4,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 488,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.4666666666666667,
+        "UC_LETTER_A": 0.6
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 3,
+        "R": 4
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 489,
+      "letters": {
+        "UC_LETTER_U": 0.8666666666666667,
+        "UC_LETTER_S": 0.43333333333333335,
+        "UC_LETTER_A": 0.6333333333333333
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 3,
+        "R": 3
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    },
+    {
+      "f": 490,
+      "letters": {
+        "UC_LETTER_U": 0.8,
+        "UC_LETTER_S": 0.36666666666666664,
+        "UC_LETTER_A": 0.4666666666666667
+      },
+      "statue": {
+        "UC_LIBERTY_FLAME": true,
+        "UC_LIBERTY_CROWN": true,
+        "UC_LIBERTY_ROBE": true
+      },
+      "visible_stars": {
+        "L": 2,
+        "R": 1
+      },
+      "ship_bridge_visible": true,
+      "technical_co_visibility": false
+    }
+  ],
+  "limitations": "30 navy surface samples per letter; statue keypoint first-surface rays; >=3 stars each side. Continuous technical visibility is necessary but not sufficient artistic evidence."
+}

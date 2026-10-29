@@ -1,0 +1,19 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-arrival-rework-v001\\candidate-arrival-v001.blend",
+  "sha256": "f2e7b11fba7e68333fe47578a5cae2be203d48a5cf7e7fe908cafa668c7e5cda",
+  "camera": "CAM_MASTER (overview diagnostic only)",
+  "frames": [
+    300,
+    360,
+    408,
+    420,
+    432,
+    450,
+    468,
+    480,
+    510,
+    528
+  ],
+  "fps": 12,
+  "engine": "BLENDER_WORKBENCH"
+}

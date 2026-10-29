@@ -1,0 +1,8 @@
+{
+ "preservation_v006":{"session_id":17104,"log":"review/preservation-v006.log","exit_code":0},
+ "collisions_v006":{"session_id":37080,"log":"review/collisions-v006.log","exit_code":0},
+ "visibility_v006":{"session_id":87970,"log":"review/visibility-v006.log"},
+ "preview_v006":{"session_id":77075,"log":"review/sequence-v006.log","frames":[288,720]},
+ "http_review":{"session_id":52448,"url":"http://127.0.0.1:18784/review.html"},
+ "note":"Handles are checkpoints, not proof processes remain live. Poll same handles and inspect authoritative outputs before retrying. Baseline session 56184 completed."
+}

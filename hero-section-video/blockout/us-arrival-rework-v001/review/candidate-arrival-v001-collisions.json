@@ -1,0 +1,558 @@
+{
+  "candidate": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-arrival-rework-v001\\candidate-arrival-v001.blend",
+  "sha256": "f2e7b11fba7e68333fe47578a5cae2be203d48a5cf7e7fe908cafa668c7e5cda",
+  "frames": 1513,
+  "new_mesh_surface_intersections": {
+    "WAREHOUSE_FLOOR | UC_CIVIC_PLAZA": {
+      "first": 0,
+      "last": 1392,
+      "samples": 1513
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | UC_CIVIC_WING.002": {
+      "first": 761,
+      "last": 772,
+      "samples": 12
+    },
+    "TRACTOR_CHASSIS | UC_CIVIC_WING.002": {
+      "first": 762,
+      "last": 777,
+      "samples": 22
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | UC_CIVIC_PLAZA": {
+      "first": 762,
+      "last": 1392,
+      "samples": 691
+    },
+    "TRACTOR_CAB | UC_CIVIC_WING.002": {
+      "first": 762,
+      "last": 774,
+      "samples": 13
+    },
+    "TRACTOR_GLASS | UC_CIVIC_WING.002": {
+      "first": 762,
+      "last": 773,
+      "samples": 12
+    },
+    "A03_TRACTOR_WHEEL_00.85 | UC_CIVIC_WING.002": {
+      "first": 764,
+      "last": 777,
+      "samples": 20
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | UC_CIVIC_WING.002": {
+      "first": 764,
+      "last": 766,
+      "samples": 3
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | UC_CIVIC_PLAZA": {
+      "first": 765,
+      "last": 1392,
+      "samples": 688
+    },
+    "A01_FLOOR | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 789,
+      "samples": 30
+    },
+    "A01_FRONT | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 776.75,
+      "samples": 14
+    },
+    "A01_SIDE_L | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 789,
+      "samples": 23
+    },
+    "A01_ROOF | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 789,
+      "samples": 30
+    },
+    "A03_TRACTOR_WHEEL_00.85 | UC_CIVIC_PLAZA": {
+      "first": 766,
+      "last": 1392,
+      "samples": 687
+    },
+    "TRAILER_CHASSIS | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 789,
+      "samples": 30
+    },
+    "TRAILER_COUPLING_TONGUE | UC_CIVIC_WING.002": {
+      "first": 766,
+      "last": 775,
+      "samples": 6
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | UC_CIVIC_WING.002": {
+      "first": 767,
+      "last": 770,
+      "samples": 4
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | UC_CIVIC_WING.002": {
+      "first": 767,
+      "last": 781,
+      "samples": 21
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22 | UC_CIVIC_WING.002": {
+      "first": 768,
+      "last": 779,
+      "samples": 12
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BASE | UC_CIVIC_WING.002": {
+      "first": 768,
+      "last": 781,
+      "samples": 18
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22 | UC_CIVIC_WING.002": {
+      "first": 769,
+      "last": 781,
+      "samples": 8
+    },
+    "A01_SIDE_R | UC_CIVIC_WING.002": {
+      "first": 769,
+      "last": 778,
+      "samples": 16
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22 | UC_CIVIC_WING.002": {
+      "first": 769,
+      "last": 776.25,
+      "samples": 8
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | UC_CIVIC_PLAZA": {
+      "first": 769,
+      "last": 1392,
+      "samples": 684
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | UC_CIVIC_PLAZA": {
+      "first": 769,
+      "last": 1392,
+      "samples": 684
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22 | UC_CIVIC_WING.002": {
+      "first": 770,
+      "last": 777,
+      "samples": 11
+    },
+    "TRACTOR_CAB | UC_TREE_CROWN.007": {
+      "first": 770,
+      "last": 772,
+      "samples": 3
+    },
+    "TRACTOR_GLASS | UC_TREE_CROWN.007": {
+      "first": 770,
+      "last": 772,
+      "samples": 3
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | UC_TREE_CROWN.007": {
+      "first": 770,
+      "last": 770,
+      "samples": 1
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | UC_CIVIC_WING.002": {
+      "first": 770,
+      "last": 774,
+      "samples": 5
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | UC_CIVIC_WING.002": {
+      "first": 770,
+      "last": 786,
+      "samples": 23
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | UC_CIVIC_PLAZA": {
+      "first": 771,
+      "last": 1392,
+      "samples": 682
+    },
+    "W01_NEW_PALLET_BOX_0.270.22 | UC_CIVIC_WING.002": {
+      "first": 771,
+      "last": 784,
+      "samples": 8
+    },
+    "W01_NEW_PALLET_BASE | UC_CIVIC_WING.002": {
+      "first": 771,
+      "last": 785,
+      "samples": 16
+    },
+    "A03_TRACTOR_WHEEL_1.650.85 | UC_CIVIC_WING.001": {
+      "first": 772,
+      "last": 1392,
+      "samples": 672
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | UC_CIVIC_PLAZA": {
+      "first": 772,
+      "last": 1392,
+      "samples": 681
+    },
+    "W01_NEW_PALLET_BOX_-0.270.22 | UC_CIVIC_WING.002": {
+      "first": 772,
+      "last": 784,
+      "samples": 6
+    },
+    "W01_NEW_PALLET_BOX_0.27-0.22 | UC_CIVIC_WING.002": {
+      "first": 772,
+      "last": 779,
+      "samples": 5
+    },
+    "A03_TRAILER_WHEEL_-0.25-0.85 | UC_CIVIC_WING.002": {
+      "first": 773,
+      "last": 776.75,
+      "samples": 10
+    },
+    "W01_NEW_PALLET_BOX_-0.27-0.22 | UC_CIVIC_WING.002": {
+      "first": 773,
+      "last": 780,
+      "samples": 5
+    },
+    "A01_DOOR_LEFT_LEAF | UC_CIVIC_WING.002": {
+      "first": 774,
+      "last": 790,
+      "samples": 10
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | UC_TREE_CROWN.007": {
+      "first": 774,
+      "last": 774,
+      "samples": 1
+    },
+    "A03_TRAILER_WHEEL_-0.25-0.85 | UC_CIVIC_PLAZA": {
+      "first": 774,
+      "last": 1392,
+      "samples": 679
+    },
+    "A01_DOOR_RIGHT_LEAF | UC_CIVIC_WING.002": {
+      "first": 775,
+      "last": 781,
+      "samples": 9
+    },
+    "A03_TRACTOR_WHEEL_00.85 | UC_CIVIC_WING.001": {
+      "first": 776,
+      "last": 882,
+      "samples": 116
+    },
+    "A01_SIDE_L | UC_CIVIC_WING.001": {
+      "first": 778,
+      "last": 876,
+      "samples": 35
+    },
+    "A01_FLOOR | UC_CIVIC_WING.001": {
+      "first": 778,
+      "last": 876,
+      "samples": 105
+    },
+    "A01_ROOF | UC_CIVIC_WING.001": {
+      "first": 778,
+      "last": 876,
+      "samples": 105
+    },
+    "A01_FRONT | UC_CIVIC_WING.001": {
+      "first": 778,
+      "last": 876,
+      "samples": 26
+    },
+    "TRAILER_CHASSIS | UC_CIVIC_WING.001": {
+      "first": 778,
+      "last": 876,
+      "samples": 105
+    },
+    "TRACTOR_CHASSIS | UC_CIVIC_WING.001": {
+      "first": 780,
+      "last": 1392,
+      "samples": 647
+    },
+    "TRACTOR_CAB | UC_CIVIC_WING.001": {
+      "first": 780,
+      "last": 1392,
+      "samples": 639
+    },
+    "TRACTOR_GLASS | UC_CIVIC_WING.001": {
+      "first": 780,
+      "last": 1392,
+      "samples": 638
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | UC_CIVIC_WING.001": {
+      "first": 780,
+      "last": 872,
+      "samples": 99
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BASE | UC_CIVIC_WING.001": {
+      "first": 781,
+      "last": 872,
+      "samples": 30
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22 | UC_CIVIC_WING.001": {
+      "first": 782,
+      "last": 872,
+      "samples": 11
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22 | UC_CIVIC_WING.001": {
+      "first": 782,
+      "last": 869,
+      "samples": 14
+    },
+    "A01_SIDE_R | UC_TREE_CROWN.007": {
+      "first": 782,
+      "last": 784,
+      "samples": 3
+    },
+    "A01_DOOR_RIGHT_LEAF | UC_TREE_CROWN.007": {
+      "first": 782,
+      "last": 784,
+      "samples": 3
+    },
+    "A01_FLOOR | UC_TREE_CROWN.007": {
+      "first": 783,
+      "last": 1392,
+      "samples": 572
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | UC_CIVIC_WING.001": {
+      "first": 783,
+      "last": 877,
+      "samples": 101
+    },
+    "TRAILER_CHASSIS | UC_TREE_CROWN.007": {
+      "first": 783,
+      "last": 1392,
+      "samples": 571
+    },
+    "TRAILER_COUPLING_TONGUE | UC_CIVIC_WING.001": {
+      "first": 784,
+      "last": 875,
+      "samples": 10
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | UC_CIVIC_WING.001": {
+      "first": 785,
+      "last": 867,
+      "samples": 89
+    },
+    "W01_NEW_PALLET_BOX_0.270.22 | UC_CIVIC_WING.001": {
+      "first": 785,
+      "last": 865,
+      "samples": 17
+    },
+    "W01_NEW_PALLET_BASE | UC_CIVIC_WING.001": {
+      "first": 785,
+      "last": 865,
+      "samples": 87
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22 | UC_CIVIC_WING.001": {
+      "first": 787,
+      "last": 868,
+      "samples": 10
+    },
+    "A03_TRACTOR_WHEEL_0-0.85 | UC_CIVIC_WING.001": {
+      "first": 787,
+      "last": 868,
+      "samples": 88
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22 | UC_CIVIC_WING.001": {
+      "first": 788,
+      "last": 865,
+      "samples": 14
+    },
+    "W01_NEW_PALLET_BOX_-0.270.22 | UC_CIVIC_WING.001": {
+      "first": 789,
+      "last": 862,
+      "samples": 23
+    },
+    "A01_SIDE_R | UC_CIVIC_WING.001": {
+      "first": 790,
+      "last": 864,
+      "samples": 81
+    },
+    "W01_NEW_PALLET_BOX_0.27-0.22 | UC_CIVIC_WING.001": {
+      "first": 792,
+      "last": 861,
+      "samples": 76
+    },
+    "A03_TRAILER_WHEEL_0.25-0.85 | UC_CIVIC_WING.001": {
+      "first": 793,
+      "last": 860,
+      "samples": 74
+    },
+    "A01_DOOR_LEFT_LEAF | UC_CIVIC_WING.001": {
+      "first": 794,
+      "last": 863,
+      "samples": 42
+    },
+    "W01_NEW_PALLET_BOX_-0.27-0.22 | UC_CIVIC_WING.001": {
+      "first": 796,
+      "last": 857,
+      "samples": 68
+    },
+    "A03_TRACTOR_WHEEL_1.65-0.85 | UC_CIVIC_WING": {
+      "first": 806,
+      "last": 850,
+      "samples": 51
+    },
+    "A01_DOOR_LEFT_LEAF | UC_TREE_CROWN.007": {
+      "first": 870,
+      "last": 882,
+      "samples": 13
+    },
+    "A01_SIDE_L | UC_TREE_CROWN.007": {
+      "first": 871,
+      "last": 1392,
+      "samples": 570
+    },
+    "W01_NEW_PALLET_BASE | UC_TREE_CROWN.007": {
+      "first": 872,
+      "last": 914,
+      "samples": 55
+    },
+    "A01_ROOF | UC_TREE_CROWN.007": {
+      "first": 873,
+      "last": 1392,
+      "samples": 568
+    },
+    "A01_FLOOR | UC_TREE_TRUNK.007": {
+      "first": 873,
+      "last": 1392,
+      "samples": 568
+    },
+    "TRAILER_CHASSIS | UC_TREE_TRUNK.007": {
+      "first": 873,
+      "last": 1392,
+      "samples": 568
+    },
+    "W01_NEW_PALLET_BOX_-0.270.22 | UC_TREE_CROWN.007": {
+      "first": 873,
+      "last": 884,
+      "samples": 12
+    },
+    "W01_NEW_PALLET_BOX_-0.27-0.22 | UC_TREE_CROWN.007": {
+      "first": 874,
+      "last": 881,
+      "samples": 8
+    },
+    "W01_NEW_PALLET_BOX_0.270.22 | UC_TREE_CROWN.007": {
+      "first": 876,
+      "last": 913,
+      "samples": 50
+    },
+    "A03_TRAILER_WHEEL_-0.250.85 | UC_TREE_CROWN.007": {
+      "first": 877,
+      "last": 885,
+      "samples": 9
+    },
+    "W01_NEW_PALLET_BOX_0.27-0.22 | UC_TREE_CROWN.007": {
+      "first": 877,
+      "last": 887,
+      "samples": 11
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BASE | UC_TREE_CROWN.007": {
+      "first": 880,
+      "last": 1392,
+      "samples": 561
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22 | UC_TREE_CROWN.007": {
+      "first": 880,
+      "last": 1392,
+      "samples": 561
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22 | UC_TREE_CROWN.007": {
+      "first": 882,
+      "last": 1392,
+      "samples": 559
+    },
+    "A03_TRAILER_WHEEL_0.250.85 | UC_TREE_CROWN.007": {
+      "first": 884,
+      "last": 1392,
+      "samples": 557
+    },
+    "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22 | UC_TREE_CROWN.007": {
+      "first": 885,
+      "last": 1392,
+      "samples": 556
+    },
+    "W02_INBOUND_JACK_HANDLE | UC_TREE_CROWN.007": {
+      "first": 907,
+      "last": 914,
+      "samples": 8
+    },
+    "W02_INBOUND_JACK_FORKS | UC_TREE_CROWN.007": {
+      "first": 907,
+      "last": 915,
+      "samples": 9
+    }
+  },
+  "camera_near_new_surface": [
+    {
+      "f": 726,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.001079095876775682
+    },
+    {
+      "f": 727,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.11402934789657593
+    },
+    {
+      "f": 744,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.21486979722976685
+    },
+    {
+      "f": 745,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.2391071319580078
+    },
+    {
+      "f": 746,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.3037564158439636
+    },
+    {
+      "f": 757,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.2323075830936432
+    },
+    {
+      "f": 758,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.013707421720027924
+    },
+    {
+      "f": 759,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.09040998667478561
+    },
+    {
+      "f": 760,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.09383684396743774
+    },
+    {
+      "f": 761,
+      "zone": "HARBOR_DRESSING",
+      "distance": 0.2916375994682312
+    }
+  ],
+  "groups": [
+    "A02_SHIP",
+    "A01_CONTAINER",
+    "A03_TRACTOR",
+    "A03_TRAILER",
+    "A04_PRIMARY",
+    "A05_SECONDARY",
+    "P02_SPREADER",
+    "W01_NEW_PALLET",
+    "W01_STORED_PALLET",
+    "W02_INBOUND_JACK",
+    "W02_STORAGE_JACK",
+    "W05_PICK_CART",
+    "W09_OUT_CART",
+    "W08_LAST_LOAD",
+    "W07_OPEN_PACK",
+    "W04_PICK_BIN_PRODUCT",
+    "CH_PICKER",
+    "CH_PACKER",
+    "CH_LOADER",
+    "P02_MOVING",
+    "P02_FIXED",
+    "WAREHOUSE_FIXED"
+  ],
+  "limitations": [
+    "Surface BVH detects crossings, not all full containment cases. Broad-phase world bounds precede narrow phase.",
+    "No artistic occlusion pass is implied.",
+    "Original warehouse contacts are preserved by data/evaluation comparison, separately recorded as baseline defects."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "candidate_sha256": "7a6003331e0e265be0515ad0797c8172b84bc6920cab051e44e754b47bcab7b8",
+  "base_sha256": "f74c7284ccda0498a1ad0b4eb60421758a6ecdca13cc75fe037bb51957054c42",
+  "differences": {
+    "objects": [],
+    "actions": [],
+    "materials": [],
+    "world": [],
+    "timeline": false,
+    "render": [],
+    "color": []
+  },
+  "evaluation_errors": [],
+  "maximum_evaluation_error": 2.384185791015625e-07,
+  "frames": 1561,
+  "camera_exception_open_interval": [
+    300,
+    528
+  ],
+  "camera_all_outside_and_all_protected_roots_checked": true
+}

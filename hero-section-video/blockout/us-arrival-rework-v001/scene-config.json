@@ -1,0 +1,20 @@
+{
+ "input":"inputs/current-v004.blend",
+ "input_sha256":"f74c7284ccda0498a1ad0b4eb60421758a6ecdca13cc75fe037bb51957054c42",
+ "camera_interval":[300,528],
+ "hero_interval":[420,468],
+ "hero_lens_mm":32,
+ "camera_height":12,
+ "camera_local_at_450":[-62,-28,-3],
+ "camera_tracking_factor":0.45,
+ "look_local":[-8,18,10],
+ "city_pivot":[0,38,0],
+ "city_yaw":-32,
+ "statue_location":[-34,10,-4.7],
+ "statue_yaw":-48,
+ "letter_raise":10,
+ "letter_arc_depth":3,
+ "letter_yaws":[-14,0,14],
+ "star_raise":12,
+ "decorative_crane_shift":[35,14,0]
+}
