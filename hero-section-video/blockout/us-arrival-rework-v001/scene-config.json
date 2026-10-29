@@ -16,5 +16,8 @@
  "letter_arc_depth":3,
  "letter_yaws":[-14,0,14],
  "star_raise":12,
- "decorative_crane_shift":[35,14,0]
+ "decorative_crane_shift":[35,14,0],
+ "civic_anchor":[-31,24,-1.6],
+ "civic_scale":0.72,
+ "front_row_shift":[0,-8,-1.6]
 }

@@ -32,16 +32,22 @@ def samples():
   values[str(f)]={o.name:[float(v) for row in o.matrix_world for v in row]+([o.data.lens] if o.type=='CAMERA' else []) for o in roots if o.name not in ['CAM_MASTER','CAM_LOOK_TARGET'] or not start<f<end}
   c=s.objects['CAM_MASTER'];camera.append({'frame':f,'p':list(c.matrix_world.translation),'q':list(c.matrix_world.to_quaternion()),'lens':c.data.lens})
  return values,camera
-file=Path(bpy.data.filepath);after=snap();av,ac=samples();bpy.ops.wm.open_mainfile(filepath=str(R/cfg['input']));before=snap();bv,bc=samples()
-diff={k:([n for n in before[k].keys()|after[k].keys() if before[k].get(n)!=after[k].get(n)] if isinstance(before[k],dict) else before[k]!=after[k]) for k in before}
-errors=[];maximum=0
-for f,rs in bv.items():
- for n,vals in rs.items():
-  other=av[f].get(n)
-  err=max(abs(x-y) for x,y in zip(vals,other)) if other else 999
-  maximum=max(maximum,err)
-  if err>2e-5:errors.append({'f':f,'object':n,'error':err})
-report={'candidate_sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'base_sha256':hashlib.sha256((R/cfg['input']).read_bytes()).hexdigest(),'differences':diff,'evaluation_errors':errors,'maximum_evaluation_error':maximum,'frames':len(bv),'camera_exception_open_interval':[start,end],'camera_all_outside_and_all_protected_roots_checked':True}
-(R/'review'/f'{file.stem}-preservation.json').write_text(json.dumps(report,indent=2));(R/'review'/f'{file.stem}-camera-samples.json').write_text(json.dumps({'before':bc,'after':ac}))
-print('DIFF',json.dumps(diff),'EVAL_ERRORS',len(errors),'MAX',maximum)
-assert not any(bool(v) for v in diff.values()) and not errors
+def compare_snapshots(before,after):
+ return {k:([n for n in before[k].keys()|after[k].keys() if before[k].get(n)!=after[k].get(n)] if isinstance(before[k],dict) else before[k]!=after[k]) for k in before}
+def compare_evaluations(bv,av):
+ errors=[];maximum=0
+ for f,rs in bv.items():
+  for n,vals in rs.items():
+   other=av.get(f,{}).get(n)
+   err=max(abs(x-y) for x,y in zip(vals,other)) if other and len(vals)==len(other) else 999
+   maximum=max(maximum,err)
+   if err>2e-5:errors.append({'f':f,'object':n,'error':err})
+ return errors,maximum
+def main():
+ file=Path(bpy.data.filepath);after=snap();av,ac=samples();bpy.ops.wm.open_mainfile(filepath=str(R/cfg['input']));before=snap();bv,bc=samples()
+ diff=compare_snapshots(before,after);errors,maximum=compare_evaluations(bv,av)
+ report={'candidate_sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'base_sha256':hashlib.sha256((R/cfg['input']).read_bytes()).hexdigest(),'differences':diff,'evaluation_errors':errors,'maximum_evaluation_error':maximum,'frames':len(bv),'camera_exception_open_interval':[start,end],'camera_all_outside_and_all_protected_roots_checked':True}
+ (R/'review'/f'{file.stem}-preservation.json').write_text(json.dumps(report,indent=2));(R/'review'/f'{file.stem}-camera-samples.json').write_text(json.dumps({'before':bc,'after':ac}))
+ print('DIFF',json.dumps(diff),'EVAL_ERRORS',len(errors),'MAX',maximum)
+ assert not any(bool(v) for v in diff.values()) and not errors
+if __name__=='__main__':main()

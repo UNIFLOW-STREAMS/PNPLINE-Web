@@ -80,6 +80,9 @@ blue=bpy.data.materials['UC_HARBOR_BLUE'];white=bpy.data.materials['UC_WHITE']
 for o in s.objects:
  if o.name.startswith(('P02_LEG','P02_BOOM')) or o.name in ['P02_TROLLEY','P02_SPREADER_FRAME']:
   o.data=o.data.copy();o.data.name='AR_'+o.name+'_MESH';o.data.materials.clear();o.data.materials.append(white if o.name.startswith('P02_LEG') else blue)
+sys.path.insert(0,str(R/'scripts'))
+from design_details import apply
+apply(cfg,solid)
 # Copy existing Actions; remove interior keys only, leaving original data and exterior intact.
 for obj in [cam,target,cam.data]:
  obj.animation_data.action.use_fake_user=True

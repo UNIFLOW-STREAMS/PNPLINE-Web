@@ -1,0 +1,13 @@
+{
+ "input":"inputs/arrival-v010.blend",
+ "input_sha256":"df309cc6e277b880363a9a92a94bb17036c6f444adf8bef87ef0e02c9cef0345",
+ "brand_cyan":"00ABE1",
+ "brand_gray":"787879",
+ "shell_bounds":[36,68,25,39,1.86,11.5],
+ "rack_x_back":[44,48,52,56,60,64],
+ "rack_x_front":[44,48],
+ "rack_tiers":[2.1,3.9,5.7,7.5],
+ "conveyor":{"left":43,"right":62,"cy":27,"radius":1,"width":0.9,"top":2.65,"period_frames":300},
+ "operations":{"inbound":[900,966],"storage":[985,1026],"picking":[1030,1074],"packing":[1074,1090],"outbound_cart":[1090,1150],"loading":[1150,1166],"withdraw":[1168,1195],"departure":1201},
+ "camera_policy":"Preserve all CAM_MASTER and CAM_LOOK_TARGET actions. Additional static review camera only."
+}

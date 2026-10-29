@@ -8,11 +8,14 @@ class CivicReadability(unittest.TestCase):
   for f in [432,450,468]:
    s.frame_set(f);dg=bpy.context.evaluated_depsgraph_get()
    for name in ['UC_CIVIC_DOME','UC_CIVIC_LANTERN']:
-    o=s.objects[name];p=o.matrix_world@(sum((Vector(v) for v in o.bound_box),Vector())/8)
+    o=s.objects[name];local=sum((Vector(v) for v in o.bound_box),Vector())/8
+    # The hemisphere equator sits inside the drum by construction. Probe its exposed cap.
+    if name=='UC_CIVIC_DOME':local.z+=(max(v[2] for v in o.bound_box)-min(v[2] for v in o.bound_box))*.25
+    p=o.matrix_world@local
     screen=world_to_camera_view(s,s.camera,p)
     self.assertTrue(.03<screen.x<.97 and .03<screen.y<.97 and screen.z>0,(f,name,list(screen)))
     origin=s.camera.matrix_world.translation;d=p-origin
     hit,loc,n,i,ob,m=s.ray_cast(dg,origin,d.normalized(),distance=d.length+.1)
-    self.assertTrue(hit and ob.name.startswith('UC_CIVIC'),(f,name,ob.name if hit else 'miss'))
+    self.assertTrue(hit and ob.name.startswith(('UC_CIVIC_DOME','UC_CIVIC_LANTERN')),(f,name,ob.name if hit else 'miss'))
 r=unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromTestCase(CivicReadability))
 if not r.wasSuccessful():raise SystemExit(1)
