@@ -1,0 +1,4 @@
+{
+  "prompt": "SOURCED ASSET ORIGIN (not an AI generation prompt):\r\n{\r\n  \"source\": \"output/landing-design-comparison-v1/assets/hero-scrub.mp4\",\r\n  \"originalSource\": \"hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4\",\r\n  \"extractionTime\": 24.1,\r\n  \"sourceFrame\": 723,\r\n  \"operation\": \"ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change\",\r\n  \"dimensions\": [\r\n    1400,\r\n    788\r\n  ],\r\n  \"description\": \"Storage racks, cartons and picking trolley within the miniature warehouse.\",\r\n  \"classification\": \"Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection\",\r\n  \"sha256\": \"510ca77906771e982592b2d9ee3811367cbde68559e47a0d13ed39fc2e29e4e6\"\r\n}",
+  "createdAt": "2026-10-31T13:29:43.137Z"
+}

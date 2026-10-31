@@ -1,0 +1,8 @@
+{
+  "source": "same project work video",
+  "operation": "ffmpeg frame extraction at 3.5 seconds; source origin embedded",
+  "sha256": "8a7394d17a352a8e9ccd9e5ad5fb2b4723e05942867ac7e608d224f5d51e2343",
+  "copiedFrom": "output/landing-design-comparison-v1/assets/hero-poster.jpg",
+  "extractionTime": 3.5,
+  "classification": "Illustrative Blender miniature from the same work-in-progress video; not real facility evidence"
+}

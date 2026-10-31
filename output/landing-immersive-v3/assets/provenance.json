@@ -1,0 +1,112 @@
+{
+  "hero-scrub.mp4": {
+    "source": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "operation": "ffmpeg libx264 crf23 g6 keyint_min6 no audio faststart; same 33-second work sequence",
+    "sha256": "a436db251082e8297767c813990db41361ac312fd24a64361082bc2592ae2f12",
+    "copiedFrom": "output/landing-immersive-v2/assets/hero-scrub.mp4",
+    "classification": "33-second work-in-progress scroll-scrub video; not final media selection",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "v3Operation": "Copied byte-for-byte; no modification",
+    "v3ReviewScope": "Video quality excluded by user instruction; only scroll-time behavior and surrounding UI reviewed"
+  },
+  "hero-poster.jpg": {
+    "source": "same project work video",
+    "operation": "ffmpeg frame extraction at 3.5 seconds; source origin embedded",
+    "sha256": "8a7394d17a352a8e9ccd9e5ad5fb2b4723e05942867ac7e608d224f5d51e2343",
+    "copiedFrom": "output/landing-immersive-v2/assets/hero-poster.jpg",
+    "extractionTime": 3.5,
+    "classification": "Illustrative Blender miniature from the same work-in-progress video; not real facility evidence",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/hero-poster.jpg",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "PNP-LINE.webp": {
+    "source": "resources/logo/PNP-LINE.webp",
+    "operation": "copied without visual change; origin sidecar",
+    "sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+    "copiedFrom": "output/landing-immersive-v2/assets/PNP-LINE.webp",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/PNP-LINE.webp",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "font.css": {
+    "source": "Google Fonts CSS API, Noto Sans SC, text subset of Chinese V4, weights 400/500/600/700",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "1a2de05394f248ba5c9b2be033efbab8e1d29f558597c06c4d975d035f91583e",
+    "copiedFrom": "output/landing-immersive-v2/assets/font.css",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/font.css",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "noto-sans-sc-0.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 400,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "cf6ff9496eb172bf2d0837faa645ce5b182a2e4c46df3ca6b76c870c45755ad0",
+    "copiedFrom": "output/landing-immersive-v2/assets/noto-sans-sc-0.ttf",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-0.ttf",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "noto-sans-sc-1.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 500,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "88fb00d7c57ee2738a926a530b6be9226404208d95ace199e294e8939fd184fa",
+    "copiedFrom": "output/landing-immersive-v2/assets/noto-sans-sc-1.ttf",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-1.ttf",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "noto-sans-sc-2.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 600,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "7d4ea705c2b992fcc5cb87b55bca3fe1a74a624c81fdf93dd5f7bfb8a1abcc0e",
+    "copiedFrom": "output/landing-immersive-v2/assets/noto-sans-sc-2.ttf",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-2.ttf",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "noto-sans-sc-3.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 700,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "c841d53422177ceca67f99db71eb8da191ba6d9064efebd2b6f57bd36f552046",
+    "copiedFrom": "output/landing-immersive-v2/assets/noto-sans-sc-3.ttf",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-3.ttf",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "Noto-Sans-SC-OFL.txt": {
+    "source": "Google Fonts Noto Sans SC SIL Open Font License 1.1",
+    "operation": "copied without changes",
+    "copiedFrom": "output/landing-immersive-v2/assets/Noto-Sans-SC-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "priorCopiedFrom": "output/landing-design-comparison-v1/assets/Noto-Sans-SC-OFL.txt",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "warehouse-miniature.png": {
+    "source": "Native image_gen.imagegen, new image generation",
+    "promptFile": "warehouse-miniature.prompt.txt",
+    "promptEmbedded": true,
+    "transparentBackground": false,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "classification": "AI-generated conceptual miniature warehouse cutaway; not a photograph or evidence of an actual PNPLINE facility",
+    "sha256": "13edc9468075637fded2eefba88182d6c0c4d3c87f6ff397d38eef7bd78ad0be",
+    "copiedFrom": "output/landing-immersive-v2/assets/warehouse-miniature.png",
+    "v3Operation": "Copied byte-for-byte; no modification"
+  },
+  "port-miniature.png": {
+    "source": "Native image_gen.imagegen, new image generation supplied by parent agent",
+    "promptFile": "port-miniature.prompt.txt",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "transparentBackground": false,
+    "classification": "AI-generated conceptual miniature port and container ship; not evidence of an actual PNPLINE facility or asset",
+    "v3Operation": "Original generation retained unchanged; CSS crops distinguish freight and IOR service choices",
+    "sha256": "8d2128622d97431dd2cc95c17b314cd157198d7aa33cb37c38ba86b3e52c1bce"
+  }
+}

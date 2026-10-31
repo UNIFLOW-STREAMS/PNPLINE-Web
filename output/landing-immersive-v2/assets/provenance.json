@@ -1,0 +1,135 @@
+{
+  "hero-scrub.mp4": {
+    "source": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "operation": "ffmpeg libx264 crf23 g6 keyint_min6 no audio faststart; same 33-second work sequence",
+    "sha256": "a436db251082e8297767c813990db41361ac312fd24a64361082bc2592ae2f12",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "classification": "33-second work-in-progress scroll-scrub video; not final media selection"
+  },
+  "hero-poster.jpg": {
+    "source": "same project work video",
+    "operation": "ffmpeg frame extraction at 3.5 seconds; source origin embedded",
+    "sha256": "8a7394d17a352a8e9ccd9e5ad5fb2b4723e05942867ac7e608d224f5d51e2343",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/hero-poster.jpg",
+    "extractionTime": 3.5,
+    "classification": "Illustrative Blender miniature from the same work-in-progress video; not real facility evidence"
+  },
+  "PNP-LINE.webp": {
+    "source": "resources/logo/PNP-LINE.webp",
+    "operation": "copied without visual change; origin sidecar",
+    "sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/PNP-LINE.webp"
+  },
+  "font.css": {
+    "source": "Google Fonts CSS API, Noto Sans SC, text subset of Chinese V4, weights 400/500/600/700",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "1a2de05394f248ba5c9b2be033efbab8e1d29f558597c06c4d975d035f91583e",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/font.css"
+  },
+  "noto-sans-sc-0.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 400,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "cf6ff9496eb172bf2d0837faa645ce5b182a2e4c46df3ca6b76c870c45755ad0",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-0.ttf"
+  },
+  "noto-sans-sc-1.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 500,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "88fb00d7c57ee2738a926a530b6be9226404208d95ace199e294e8939fd184fa",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-1.ttf"
+  },
+  "noto-sans-sc-2.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 600,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "7d4ea705c2b992fcc5cb87b55bca3fe1a74a624c81fdf93dd5f7bfb8a1abcc0e",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-2.ttf"
+  },
+  "noto-sans-sc-3.ttf": {
+    "source": "Google Fonts Noto Sans SC text subset",
+    "weight": 700,
+    "format": "TrueType",
+    "license": "Noto-Sans-SC-OFL.txt",
+    "sha256": "c841d53422177ceca67f99db71eb8da191ba6d9064efebd2b6f57bd36f552046",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/noto-sans-sc-3.ttf"
+  },
+  "Noto-Sans-SC-OFL.txt": {
+    "source": "Google Fonts Noto Sans SC SIL Open Font License 1.1",
+    "operation": "copied without changes",
+    "copiedFrom": "output/landing-design-comparison-v1/assets/Noto-Sans-SC-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  "warehouse.webp": {
+    "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "extractionTime": 25.5,
+    "sourceFrame": 765,
+    "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "description": "Packing tables, conveyor and storage racks within the miniature warehouse.",
+    "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+    "sha256": "3ed649758d42c3b74b4ecde5b382f14c5aedb256a8d7f1b1082728d722bcd1e3"
+  },
+  "inventory.webp": {
+    "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "extractionTime": 24.1,
+    "sourceFrame": 723,
+    "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "description": "Storage racks, cartons and picking trolley within the miniature warehouse.",
+    "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+    "sha256": "510ca77906771e982592b2d9ee3811367cbde68559e47a0d13ed39fc2e29e4e6"
+  },
+  "freight.webp": {
+    "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "extractionTime": 7.0,
+    "sourceFrame": 210,
+    "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "description": "Container ship sailing across the miniature globe.",
+    "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+    "sha256": "3b9ef3979e2271a443f1e86fb436027d0f045bcb3b4cc7be70c4e7874785f161"
+  },
+  "import.webp": {
+    "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+    "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "extractionTime": 12.4,
+    "sourceFrame": 372,
+    "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "description": "Container unloading at the miniature US port.",
+    "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+    "sha256": "2b0eb8a5fb3743801f128c318c7f5f3bdbb07d3b0115d071baf96219ce036b45"
+  },
+  "warehouse-miniature.png": {
+    "source": "Native image_gen.imagegen, new image generation",
+    "promptFile": "warehouse-miniature.prompt.txt",
+    "promptEmbedded": true,
+    "transparentBackground": false,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "classification": "AI-generated conceptual miniature warehouse cutaway; not a photograph or evidence of an actual PNPLINE facility",
+    "sha256": "13edc9468075637fded2eefba88182d6c0c4d3c87f6ff397d38eef7bd78ad0be"
+  }
+}

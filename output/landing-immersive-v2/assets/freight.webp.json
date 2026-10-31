@@ -1,0 +1,4 @@
+{
+  "prompt": "SOURCED ASSET ORIGIN (not an AI generation prompt):\r\n{\r\n  \"source\": \"output/landing-design-comparison-v1/assets/hero-scrub.mp4\",\r\n  \"originalSource\": \"hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4\",\r\n  \"extractionTime\": 7.0,\r\n  \"sourceFrame\": 210,\r\n  \"operation\": \"ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change\",\r\n  \"dimensions\": [\r\n    1400,\r\n    788\r\n  ],\r\n  \"description\": \"Container ship sailing across the miniature globe.\",\r\n  \"classification\": \"Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection\",\r\n  \"sha256\": \"3b9ef3979e2271a443f1e86fb436027d0f045bcb3b4cc7be70c4e7874785f161\"\r\n}",
+  "createdAt": "2026-10-31T13:29:43.021Z"
+}

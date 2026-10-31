@@ -1,0 +1,7 @@
+SOURCED ASSET ORIGIN (not an AI generation prompt):
+{
+  "source": "resources/logo/PNP-LINE.webp",
+  "operation": "copied without visual change; origin sidecar",
+  "sha256": "051a5181409ba202f6cbfe7d967582016413d57cf9c2b1a9665eaffe1a2a843c",
+  "copiedFrom": "output/landing-design-comparison-v1/assets/PNP-LINE.webp"
+}

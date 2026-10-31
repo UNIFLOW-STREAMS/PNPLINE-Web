@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="了解PNPLINE美国自营海外仓，围绕一件代发、FBA中转补货、中国至美国运输与进口清关咨询，确认服务范围、作业条件和费用构成，提交您的物流询价需求。">
+  <title>PNPLINE美国自营海外仓｜仓储履约与物流询价</title>
+  <link rel="stylesheet" href="assets/font.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#services">查看服务范围</a>
+  <header class="site-header">
+    <a class="brand" href="#journey" aria-label="PNPLINE"><img src="assets/PNP-LINE.webp" alt="PNPLINE" width="1500" height="400"></a>
+    <nav aria-label="主导航">
+      <a class="nav-service" href="#services">服务范围</a>
+      <a class="nav-quote" href="#quote">获取物流报价 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="journey" id="journey" aria-labelledby="hero-title">
+      <div class="hero-pin">
+        <div class="hero-media">
+          <img class="hero-poster" src="assets/hero-poster.jpg" alt="" width="1280" height="720" fetchpriority="high">
+          <video class="hero-video" src="assets/hero-scrub.mp4" poster="assets/hero-poster.jpg" muted playsinline preload="auto" aria-label="物流旅程画面"></video>
+        </div>
+        <div class="hero-intro">
+          <div class="hero-intro-layout wrap">
+            <div class="hero-heading">
+              <h1 id="hero-title"><span>美国自营海外仓，</span><span>衔接出货与订单履约</span></h1>
+              <p class="hero-signature">PNPLINE · 跨境物流服务</p>
+            </div>
+            <div class="hero-copy">
+              <p>依托PNPLINE直接运营的美国仓库，围绕您的商品、货量与销售渠道，衔接中国出货、美国仓储、订单出库与配送需求。</p>
+              <p>从一件代发、FBA补货到批量交付，先明确需要的服务，再确认作业条件与费用。</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#quote">获取物流报价 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+                <a class="text-link" href="#services">查看服务范围 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services" aria-labelledby="services-title" tabindex="-1">
+      <div class="wrap">
+        <div class="section-intro">
+          <h2 id="services-title"><span>按需要的环节，</span><span>组合您的物流服务</span></h2>
+          <p>您可以从运输、仓储、履约或进口资料咨询中的一个环节开始。具体承接范围与交接责任，在方案确认时明确。</p>
+        </div>
+
+        <div class="service-tabs" role="tablist" aria-label="服务范围" aria-orientation="horizontal">
+          <h3 class="service-choice">
+            <button class="service-tab" id="tab-warehouse" type="button" role="tab" aria-selected="true" aria-controls="service-detail" tabindex="0" data-service="warehouse">
+              <span class="service-art service-art-warehouse"><img src="assets/warehouse-miniature.png" alt="" width="1448" height="1086" loading="lazy"></span>
+              <span class="service-tab-label"><span>仓储与订单履约</span></span>
+            </button>
+          </h3>
+          <h3 class="service-choice">
+            <button class="service-tab" id="tab-freight" type="button" role="tab" aria-selected="false" aria-controls="service-detail" tabindex="-1" data-service="freight">
+              <span class="service-art service-art-freight"><img src="assets/port-miniature.png" alt="" width="1448" height="1086" loading="lazy"></span>
+              <span class="service-tab-label"><span><span class="service-name-line">中国出货</span><span class="service-name-line">与美国境内运输</span></span></span>
+            </button>
+          </h3>
+          <h3 class="service-choice">
+            <button class="service-tab" id="tab-import" type="button" role="tab" aria-selected="false" aria-controls="service-detail" tabindex="-1" data-service="import">
+              <span class="service-art service-art-import"><img src="assets/port-miniature.png" alt="" width="1448" height="1086" loading="lazy"></span>
+              <span class="service-tab-label"><span>IOR与进口清关咨询</span></span>
+            </button>
+          </h3>
+          <h3 class="service-choice">
+            <button class="service-tab" id="tab-inventory" type="button" role="tab" aria-selected="false" aria-controls="service-detail" tabindex="-1" data-service="inventory">
+              <span class="service-art service-art-inventory"><img src="assets/warehouse-miniature.png" alt="" width="1448" height="1086" loading="lazy"></span>
+              <span class="service-tab-label"><span>库存与系统对接</span></span>
+            </button>
+          </h3>
+        </div>
+
+        <div class="service-detail" id="service-detail" role="tabpanel" aria-labelledby="tab-warehouse" tabindex="0">
+          <h3 class="service-detail-title">仓储与订单履约</h3>
+          <div class="service-content warehouse-content" data-content="warehouse">
+            <p class="service-description">围绕入库验收、库存准备、拣货包装与出库安排，确认适合您的仓内作业。</p>
+            <dl class="warehouse-operations">
+              <div><dt>一件代发：</dt><dd>从美国仓按订单拣货、包装并安排向买家出库。</dd></div>
+              <div><dt>FBA中转补货：</dt><dd>按补货计划确认暂存、标签处理与分批出库要求。</dd></div>
+              <div><dt>库存与保管：</dt><dd>确认货物尺寸、存储方式、库存管理与存储周期。</dd></div>
+              <div><dt>退货与B2B：</dt><dd>按需确认退货检品、换标、重新入库，或批量交付所需的包装、标签与预约条件。</dd></div>
+            </dl>
+          </div>
+          <div class="service-content" data-content="freight" hidden>
+            <p class="service-description">根据货量、起运地、目的地与时效需求，评估海运整柜（FCL）、拼箱（LCL）或空运，并衔接到仓或美国境内配送。路线、受理条件与交付范围需逐项确认。</p>
+          </div>
+          <div class="service-content" data-content="import" hidden>
+            <p class="service-description">从商品与交易资料出发，确认IOR需求、申报文件及各方责任。涉及HS归类、FDA或FCC等问题时，先说明商品情况，再核实适用要求与可提供的支持范围。</p>
+          </div>
+          <div class="service-content" data-content="inventory" hidden>
+            <p class="service-description">围绕库存查询、入库记录、订单与出库进度，确认需要的管理功能。已有平台、ERP或API对接需求时，可一并提出，核对实际支持范围。</p>
+          </div>
+          <a class="text-link service-quote" href="#quote">获取物流报价 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote section" id="quote" aria-labelledby="quote-title" tabindex="-1">
+      <div class="quote-layout wrap">
+        <div class="quote-intro">
+          <h2 id="quote-title"><span>告诉我们您的</span><span>商品与出货计划</span></h2>
+          <p>填写以下信息，便于确认所需服务、作业条件与报价范围。暂不清楚的项目可以注明“未定”或“不清楚”。</p>
+        </div>
+        <form class="quote-form" method="dialog" novalidate>
+          <div class="form-fields">
+            <div class="field"><label for="product">产品类目</label><input id="product" name="product" placeholder="商品名称或所属类目。" autocomplete="off"></div>
+            <div class="field"><label for="shipping">发货方式</label><select id="shipping" name="shipping"><option>未定</option><option>海运整柜（FCL）</option><option>海运拼箱（LCL）</option><option>空运</option></select></div>
+            <div class="field"><label for="volume">月出货量</label><input id="volume" name="volume" placeholder="未定" aria-describedby="volume-hint"><p class="field-hint" id="volume-hint">预计货量并注明单位，例如体积、重量或订单数；也可填写“未定”。</p></div>
+            <div class="field"><label for="destination">目的地</label><select id="destination" name="destination"><option>未定</option><option>FBA仓</option><option>PNPLINE美国自营仓</option><option>最终消费者</option><option>美国企业或零售收货点</option></select></div>
+            <div class="field"><label for="ior">是否需要IOR服务</label><select id="ior" name="ior"><option>不清楚</option><option>需要</option><option>不需要</option></select></div>
+            <div class="field"><label for="email">联系邮箱</label><input id="email" name="email" type="email" autocomplete="email" placeholder="用于本次询价联系的邮箱。" aria-describedby="email-error"><p class="field-error" id="email-error" hidden>请填写有效的联系邮箱。</p></div>
+          </div>
+          <label class="consent"><input type="checkbox" name="consent"><span>我已阅读<a href="privacy/">《隐私政策》</a>，同意为处理本次询价使用所填信息。</span></label>
+          <div class="form-submit"><button class="button button-primary" type="submit">提交询价需求 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button><p>报价与执行条件将在资料及服务范围确认后沟通。</p></div>
+          <p class="form-status" role="status" aria-live="polite">设计预览：信息未发送。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#journey" class="footer-logo" aria-label="PNPLINE"><img src="assets/PNP-LINE.webp" alt="PNPLINE" width="1500" height="400" loading="lazy"></a>
+    <p>美国自营海外仓与跨境物流服务</p>
+    <a href="privacy/">隐私政策</a>
+  </footer>
+</body>
+</html>

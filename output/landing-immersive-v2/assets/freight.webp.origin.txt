@@ -1,0 +1,15 @@
+SOURCED ASSET ORIGIN (not an AI generation prompt):
+{
+  "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+  "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+  "extractionTime": 7.0,
+  "sourceFrame": 210,
+  "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+  "dimensions": [
+    1400,
+    788
+  ],
+  "description": "Container ship sailing across the miniature globe.",
+  "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+  "sha256": "3b9ef3979e2271a443f1e86fb436027d0f045bcb3b4cc7be70c4e7874785f161"
+}

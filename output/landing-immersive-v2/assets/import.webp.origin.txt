@@ -1,0 +1,15 @@
+SOURCED ASSET ORIGIN (not an AI generation prompt):
+{
+  "source": "output/landing-design-comparison-v1/assets/hero-scrub.mp4",
+  "originalSource": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+  "extractionTime": 12.4,
+  "sourceFrame": 372,
+  "operation": "ffmpeg exact-time frame extraction; Lanczos scaling from 1280x720 to 1400x788; libwebp quality 90; no visual retouching or content change",
+  "dimensions": [
+    1400,
+    788
+  ],
+  "description": "Container unloading at the miniature US port.",
+  "classification": "Illustrative Blender miniature from a work-in-progress video; not real facility evidence and not final media selection",
+  "sha256": "2b0eb8a5fb3743801f128c318c7f5f3bdbb07d3b0115d071baf96219ce036b45"
+}
