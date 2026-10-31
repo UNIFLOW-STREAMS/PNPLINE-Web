@@ -1,0 +1,305 @@
+{
+  "decision_id": "MVP-2PAGE-20261031",
+  "decision_date": "2026-10-31",
+  "status": "user-approved-scope",
+  "source": "docs/pnpline-cn-page-ia.md",
+  "public_content_routes": [
+    "/",
+    "/privacy/"
+  ],
+  "counts": {
+    "keep": 2,
+    "integrate": 26,
+    "defer": 4
+  },
+  "pages": [
+    {
+      "id": 1,
+      "source_title": "首页",
+      "source_path": "/",
+      "disposition": "keep",
+      "target": "/",
+      "mvp_summary": "브랜드·제공 범위·Scroll World·서비스·증빙·비용·FAQ·견적",
+      "deferred_detail": "서비스별 전문·별도 검색 랜딩"
+    },
+    {
+      "id": 2,
+      "source_title": "美国海外仓",
+      "source_path": "/warehouse/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "창고 서비스 분류·대상 고객·입출고 범위",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 3,
+      "source_title": "一件代发",
+      "source_path": "/warehouse/dropship/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "단건 주문의 입고·피킹·포장·출고와 적용 조건",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 4,
+      "source_title": "FBA中转·贴标",
+      "source_path": "/warehouse/fba/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "중간 보관·라벨링·박스 작업·분할 보충의 확인된 범위",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 5,
+      "source_title": "退货换标·检品",
+      "source_path": "/warehouse/returns/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "반품 회수·검품·재포장·재입고 선택과 승인 조건",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 6,
+      "source_title": "B2B分销配送",
+      "source_path": "/warehouse/b2b/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "팔레트/카톤 납품·라벨·예약 등 확인된 B2B 대응 범위",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 7,
+      "source_title": "仓储与库存",
+      "source_path": "/warehouse/storage/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "보관 단위·제한 품목·재고 관리·과금 조건",
+      "deferred_detail": "작업별 상세 절차·전체 요율표·개별 서비스 전문"
+    },
+    {
+      "id": 8,
+      "source_title": "头程运输",
+      "source_path": "/freight/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "국제운송 선택 기준과 통관·창고·배송의 연결 범위",
+      "deferred_detail": "노선별 상세·운임표·방식별 독립 랜딩"
+    },
+    {
+      "id": 9,
+      "source_title": "海运整柜",
+      "source_path": "/freight/fcl/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "FCL에 적합한 물량·준비 정보·비용 구성",
+      "deferred_detail": "노선별 상세·운임표·방식별 독립 랜딩"
+    },
+    {
+      "id": 10,
+      "source_title": "海运拼箱",
+      "source_path": "/freight/lcl/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "LCL 이용 조건·혼재 화물 준비·비용 구성",
+      "deferred_detail": "노선별 상세·운임표·방식별 독립 랜딩"
+    },
+    {
+      "id": 11,
+      "source_title": "空运·快船",
+      "source_path": "/freight/air/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "항공/쾌선의 선택 조건과 확인된 지원 범위",
+      "deferred_detail": "노선별 상세·운임표·방식별 독립 랜딩"
+    },
+    {
+      "id": 12,
+      "source_title": "美国卡派·尾程",
+      "source_path": "/freight/trucking/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "미국 내 트럭·최종 배송의 대상 화물과 적용 조건",
+      "deferred_detail": "노선별 상세·운임표·방식별 독립 랜딩"
+    },
+    {
+      "id": 13,
+      "source_title": "清关与合规",
+      "source_path": "/customs/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "통관 지원 범위·필요 정보·책임 주체·제외 조건",
+      "deferred_detail": "법규 해설 전문·미검증 자격·보유/처리 보장"
+    },
+    {
+      "id": 14,
+      "source_title": "IOR进口商服务",
+      "source_path": "/customs/ior/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "IOR 역할·책임·지원 범위와 상담 전 필요 정보",
+      "deferred_detail": "법규 해설 전문·미검증 자격·보유/처리 보장"
+    },
+    {
+      "id": 15,
+      "source_title": "关税与HS归类",
+      "source_path": "/customs/tariff/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "HS 정보·관세 견적에 필요한 자료와 별도 확인 조건",
+      "deferred_detail": "법규 해설 전문·미검증 자격·보유/처리 보장"
+    },
+    {
+      "id": 16,
+      "source_title": "FDA·FCC注册",
+      "source_path": "/customs/fda-fcc/",
+      "disposition": "integrate",
+      "target": "/#services",
+      "mvp_summary": "품목별 등록/규제 확인·지원 범위와 전문 검토 조건",
+      "deferred_detail": "법규 해설 전문·미검증 자격·보유/처리 보장"
+    },
+    {
+      "id": 17,
+      "source_title": "亚马逊",
+      "source_path": "/solutions/amazon/",
+      "disposition": "integrate",
+      "target": "/#customers",
+      "mvp_summary": "Amazon FBA/FBM·중전·반품의 확인된 서비스 조합",
+      "deferred_detail": "플랫폼별 독립 랜딩·전체 기능표·미확인 공식 제휴"
+    },
+    {
+      "id": 18,
+      "source_title": "TikTok Shop美区",
+      "source_path": "/solutions/tiktok/",
+      "disposition": "integrate",
+      "target": "/#customers",
+      "mvp_summary": "TikTok 판매자의 단건 출고·반품·주문 연동 요구",
+      "deferred_detail": "플랫폼별 독립 랜딩·전체 기능표·미확인 공식 제휴"
+    },
+    {
+      "id": 19,
+      "source_title": "Shopify独立站",
+      "source_path": "/solutions/shopify/",
+      "disposition": "integrate",
+      "target": "/#customers",
+      "mvp_summary": "독립몰 판매자의 주문·재고·출고 연동 요구",
+      "deferred_detail": "플랫폼별 독립 랜딩·전체 기능표·미확인 공식 제휴"
+    },
+    {
+      "id": 20,
+      "source_title": "沃尔玛",
+      "source_path": "/solutions/walmart/",
+      "disposition": "integrate",
+      "target": "/#customers",
+      "mvp_summary": "Walmart 관련 B2B 납품·라벨·예약의 확인된 대응 범위",
+      "deferred_detail": "플랫폼별 독립 랜딩·전체 기능표·미확인 공식 제휴"
+    },
+    {
+      "id": 21,
+      "source_title": "WMS库存系统",
+      "source_path": "/system/wms/",
+      "disposition": "integrate",
+      "target": "/#evidence",
+      "mvp_summary": "실제 WMS 화면·확인된 주문/재고 가시성 기능",
+      "deferred_detail": "API 인증·오류·테스트 전문 및 기술 문서"
+    },
+    {
+      "id": 22,
+      "source_title": "API·ERP对接",
+      "source_path": "/system/api/",
+      "disposition": "integrate",
+      "target": "/#evidence",
+      "mvp_summary": "실제로 지원하는 API/ERP 연동과 책임·상담 조건",
+      "deferred_detail": "API 인증·오류·테스트 전문 및 기술 문서"
+    },
+    {
+      "id": 23,
+      "source_title": "价格与报价",
+      "source_path": "/pricing/",
+      "disposition": "integrate",
+      "target": "/#pricing",
+      "mvp_summary": "운송·입고·보관·작업·배송 비용 항목, 견적에 필요한 조건",
+      "deferred_detail": "미승인 요율·예시 수치·서비스별 가격 전문"
+    },
+    {
+      "id": 24,
+      "source_title": "关于我们",
+      "source_path": "/about/",
+      "disposition": "integrate",
+      "target": "/#evidence",
+      "mvp_summary": "회사 소개와 미국 직영 운영의 확인된 사실",
+      "deferred_detail": "회사 연혁 전문·시설별 상세·미검증 면적/실적/자격"
+    },
+    {
+      "id": 25,
+      "source_title": "自营仓库实景",
+      "source_path": "/about/facilities/",
+      "disposition": "integrate",
+      "target": "/#evidence",
+      "mvp_summary": "실제 창고 사진·공개 승인된 주소/시설·출처",
+      "deferred_detail": "회사 연혁 전문·시설별 상세·미검증 면적/실적/자격"
+    },
+    {
+      "id": 26,
+      "source_title": "资质与合规",
+      "source_path": "/about/compliance/",
+      "disposition": "integrate",
+      "target": "/#evidence",
+      "mvp_summary": "확인된 자격·보험·법인의 공개 범위와 증빙",
+      "deferred_detail": "회사 연혁 전문·시설별 상세·미검증 면적/실적/자격"
+    },
+    {
+      "id": 27,
+      "source_title": "资讯",
+      "source_path": "/news/",
+      "disposition": "defer",
+      "target": null,
+      "mvp_summary": "MVP 게시 없음",
+      "deferred_detail": "허브·정책 해설 전문, 작성자·검수자·게시/수정일·출처 관리"
+    },
+    {
+      "id": 28,
+      "source_title": "2026 IOR新规解读",
+      "source_path": "/news/ior-2026/",
+      "disposition": "defer",
+      "target": null,
+      "mvp_summary": "MVP 게시 없음",
+      "deferred_detail": "허브·정책 해설 전문, 작성자·검수자·게시/수정일·출처 관리"
+    },
+    {
+      "id": 29,
+      "source_title": "T86与De Minimis政策解读",
+      "source_path": "/news/de-minimis/",
+      "disposition": "defer",
+      "target": null,
+      "mvp_summary": "MVP 게시 없음",
+      "deferred_detail": "허브·정책 해설 전문, 작성자·검수자·게시/수정일·출처 관리"
+    },
+    {
+      "id": 30,
+      "source_title": "联系我们",
+      "source_path": "/contact/",
+      "disposition": "integrate",
+      "target": "/#quote",
+      "mvp_summary": "하나의 견적 폼·승인된 연락 채널·동의와 개인정보 링크",
+      "deferred_detail": "별도 연락 페이지·미확정 WeChat/SLA"
+    },
+    {
+      "id": 31,
+      "source_title": "合作伙伴",
+      "source_path": "/partner/",
+      "disposition": "defer",
+      "target": null,
+      "mvp_summary": "MVP 모집·제휴 약속 없음",
+      "deferred_detail": "파트너 대상 제안·모집 조건·전용 문의 동선"
+    },
+    {
+      "id": 32,
+      "source_title": "隐私政策",
+      "source_path": "/privacy/",
+      "disposition": "keep",
+      "target": "/privacy/",
+      "mvp_summary": "실제 수집·이용·보관·삭제·이전·쿠키·권리·연락처·시행일",
+      "deferred_detail": "없음: 독립 페이지로 검수"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # 기술 전달 구조
 
+> 2026-10-31: [2페이지 MVP 기준](../../mvp-single-page-scope.md)이 현행 범위다. 하단의 레포 구조 조사 결과는 당시 관찰이며 현재 앱 구현 여부를 증명하지 않는다. 도메인은 GitHub 현행 결정 pnpline.cn에 맞췄다.
+
 ## Type
 
 `wayfinder:research`
@@ -14,7 +16,7 @@ In progress
 
 ## Question
 
-32개 중국어 페이지와 scroll-world, CMS 필드, 견적 폼을 어떤 기술 구조로 구현할 것인가?
+메인 랜딩과 개인정보의 2개 콘텐츠 경로, scroll-world, 운영 데이터와 견적 폼을 어떤 기술 구조로 구현할 것인가?
 
 ## Recommendation
 
@@ -22,7 +24,7 @@ In progress
 
 ## Decision so far
 
-Next.js와 TypeScript를 사용한다. 32개 라우트의 SEO와 메타데이터, scroll-world 인터랙션, 견적 폼과 운영 데이터 필드를 하나의 프로젝트 안에서 관리한다. 운영 데이터는 JSON을 단일 기준으로 사용하고, 페이지 카피와 SEO는 Markdown 또는 코드로 관리한다.
+Next.js와 TypeScript를 사용한다. `/`와 `/privacy/` 두 콘텐츠 경로의 SEO·메타데이터와 홈 앵커, scroll-world 인터랙션, 견적 폼과 운영 데이터 필드를 하나의 프로젝트 안에서 관리한다. 운영 데이터는 JSON을 단일 기준으로 사용하고, 페이지 카피와 SEO는 Markdown 또는 코드로 관리한다.
 
 ## Decision
 
@@ -46,7 +48,7 @@ Next.js 서버리스 API로 폼 제출을 처리하고, 관리형 데이터베�
 
 ## Chinese domain decision
 
-중국어판의 대표 주소는 https://syndy.cn이다. URL에는 /cn/ 경로를 추가하지 않는다. https://www.syndy.cn으로 접속하면 https://syndy.cn으로 301 리디렉션한다. 두 도메인 모두 SSL 인증서를 적용하고, 검색엔진 등록, sitemap, canonical, Open Graph URL과 공유 URL은 대표 주소인 https://syndy.cn을 기준으로 생성한다. 리디렉션은 Aliyun DNS, CDN 또는 웹 서버 중 실제 배포 위치에서 설정한다.
+중국어판의 대표 주소는 https://pnpline.cn이다. URL에는 /cn/ 경로를 추가하지 않는다. https://www.pnpline.cn으로 접속하면 https://pnpline.cn으로 301 리디렉션한다. 두 도메인 모두 SSL 인증서를 적용하고, 검색엔진 등록, sitemap, canonical, Open Graph URL과 공유 URL은 대표 주소인 https://pnpline.cn을 기준으로 생성한다. 리디렉션은 Aliyun DNS, CDN 또는 웹 서버 중 실제 배포 위치에서 설정한다.
 
 ## Indexing decision
 
@@ -54,11 +56,11 @@ Next.js 서버리스 API로 폼 제출을 처리하고, 관리형 데이터베�
 
 ## Sitemap and robots decision
 
-Next.js에서 공개 상태와 canonical을 기준으로 sitemap과 robots.txt를 자동 생성한다. noindex 페이지, 숨김 페이지, 운영 데이터가 확정되지 않아 공개하지 않는 경로는 sitemap에서 제외한다. 대표 주소는 https://syndy.cn을 사용한다.
+Next.js에서 공개 상태와 canonical을 기준으로 sitemap과 robots.txt를 자동 생성한다. noindex 페이지, 숨김 페이지, 운영 데이터가 확정되지 않아 공개하지 않는 경로는 sitemap에서 제외한다. 대표 주소는 https://pnpline.cn을 사용한다.
 
 ## Launch QA decision
 
-운영 공개 전 종합 체크리스트를 통과해야 한다. 32개 라우트, 데스크톱·모바일, scroll-world와 정적 fallback, 폼·이메일·리드 저장, 개인정보 동의, 실제 자료·AI 재구성 라벨, canonical·sitemap·robots.txt, 성능·접근성·주요 브라우저를 모두 확인한다.
+운영 공개 전 종합 체크리스트를 통과해야 한다. 두 콘텐츠 경로·앵커·보류 경로 비노출, 데스크톱·모바일, scroll-world와 정적 fallback, 폼·이메일·리드 저장, 개인정보 동의, 실제 자료·AI 재구성 라벨, canonical·sitemap·robots.txt, 성능·접근성·주요 브라우저를 모두 확인한다.
 
 ## Hosting decision
 
