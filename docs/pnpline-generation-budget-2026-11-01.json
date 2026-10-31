@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-01",
+  "scope": "New asset generation under the user's USD 1 / 10 images instruction, beginning 2026-11-01. Carry forward across subsequent turns and tools; do not reset automatically.",
+  "currency": "USD",
+  "historicalProjectTotals": {
+    "costUsd": null,
+    "generatedImages": null,
+    "status": "Not reconciled; historical work is not represented as free or zero images."
+  },
+  "limitsWithoutFurtherConfirmation": {
+    "cumulativeCostUsd": 1,
+    "cumulativeGeneratedImages": 10,
+    "comparison": "Require user confirmation BEFORE a call whose projected total exceeds either limit."
+  },
+  "rules": {
+    "showEstimateBeforeEveryPaidGeneration": true,
+    "includePendingReservations": true,
+    "includeChargeableFailuresAndRetries": true,
+    "includePaidVideoEditingAndUpscaling": true,
+    "countFreeGeneratedImages": true,
+    "countAllReturnedImageVariants": true,
+    "confirmIfMaximumCostOrImageCountCannotBeBounded": true
+  },
+  "totals": {
+    "spentUsd": 0,
+    "reservedMaxUsd": null,
+    "generatedImages": 0,
+    "reservedMaxImages": 8
+  },
+  "currentPlan": {
+    "newGenerationRequired": true,
+    "estimatedAdditionalCostUsd": null,
+    "estimatedAdditionalGeneratedImages": 8,
+    "reuseExistingMedia": true,
+    "fabricateOperationalEvidence": false,
+    "approval": "User explicitly approved these eight concept images with cost unknown, 2026-11-01; no additional variants authorized."
+  },
+  "entries": [
+    {
+      "id": "concept-1920-v1",
+      "timestamp": "2026-11-01",
+      "tool": "image_gen.imagegen",
+      "purpose": "Eight separate PNPLINE section concepts",
+      "pricingSource": "Built-in tool supplies no preflight USD estimate",
+      "maxCostUsd": null,
+      "maxReturnedImages": 8,
+      "userConfirmationIfRequired": "이번 콘셉트 8장 생성 허용",
+      "status": "approved-reserved",
+      "actualCostUsd": null,
+      "actualGeneratedImages": 0,
+      "outputPaths": []
+    }
+  ],
+  "entryFieldsForFutureCalls": [
+    "id",
+    "timestamp",
+    "tool",
+    "model",
+    "purpose",
+    "parameters",
+    "pricingSource",
+    "unitPriceUsd",
+    "maxCostUsd",
+    "maxReturnedImages",
+    "projectedCumulativeCostUsd",
+    "projectedCumulativeImages",
+    "userConfirmationIfRequired",
+    "status",
+    "actualCostUsd",
+    "actualGeneratedImages",
+    "outputPaths"
+  ]
+}
