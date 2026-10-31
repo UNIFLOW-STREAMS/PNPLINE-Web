@@ -1,0 +1,43 @@
+[
+  {
+    "case": "quote then 0%",
+    "selected": [
+      {
+        "active": true,
+        "pressed": "true",
+        "section": "journey"
+      },
+      {
+        "active": false,
+        "pressed": "false",
+        "section": "services"
+      },
+      {
+        "active": false,
+        "pressed": "false",
+        "section": "quote"
+      }
+    ]
+  },
+  {
+    "case": "services then overview",
+    "selected": [
+      {
+        "active": true,
+        "pressed": "true",
+        "section": "journey"
+      },
+      {
+        "active": false,
+        "pressed": "false",
+        "section": "services"
+      },
+      {
+        "active": false,
+        "pressed": "false",
+        "section": "quote"
+      }
+    ],
+    "tracking": "-1.26px"
+  }
+]

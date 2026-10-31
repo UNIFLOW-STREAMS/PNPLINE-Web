@@ -1,0 +1,114 @@
+[
+  {
+    "requested": "0%",
+    "frame": "A안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 0
+  },
+  {
+    "requested": "0%",
+    "frame": "B안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 0
+  },
+  {
+    "requested": "0%",
+    "frame": "A안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 0
+  },
+  {
+    "requested": "0%",
+    "frame": "B안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 0
+  },
+  {
+    "requested": "50%",
+    "frame": "A안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504415
+  },
+  {
+    "requested": "50%",
+    "frame": "B안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504415
+  },
+  {
+    "requested": "50%",
+    "frame": "A안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504763
+  },
+  {
+    "requested": "50%",
+    "frame": "B안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504763
+  },
+  {
+    "requested": "100%",
+    "frame": "A안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 32.999
+  },
+  {
+    "requested": "100%",
+    "frame": "B안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 32.999
+  },
+  {
+    "requested": "100%",
+    "frame": "A안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 32.999
+  },
+  {
+    "requested": "100%",
+    "frame": "B안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 32.999
+  },
+  {
+    "requested": "50%",
+    "frame": "A안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504415
+  },
+  {
+    "requested": "50%",
+    "frame": "B안 데스크톱",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504415
+  },
+  {
+    "requested": "50%",
+    "frame": "A안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504763
+  },
+  {
+    "requested": "50%",
+    "frame": "B안 모바일",
+    "duration": 33,
+    "paused": true,
+    "time": 16.504763
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "desktop": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "forward": {
+      "paused": true,
+      "progress": "0.5319",
+      "target": "17.5527",
+      "time": 17.552659,
+      "y": 900
+    },
+    "stopped": {
+      "paused": true,
+      "time": 17.552659,
+      "y": 900
+    },
+    "reverse": {
+      "paused": true,
+      "progress": "0.2660",
+      "time": 8.776329,
+      "y": 450
+    },
+    "end": {
+      "duration": 33,
+      "progress": "1.0000",
+      "time": 32.999,
+      "y": 1800
+    }
+  },
+  "mobileReduced": {
+    "ctaBottom": 602.6354598999023,
+    "heroHeight": 780,
+    "mode": "reduced",
+    "overflow": false,
+    "pinPosition": "relative",
+    "reason": "user",
+    "systemReduced": false,
+    "videoSrc": null,
+    "viewportHeight": 844
+  },
+  "evidenceImages": {
+    "focus": "evidence",
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/placeholder-evidence.svg"
+      },
+      {
+        "loaded": true,
+        "src": "assets/placeholder-system.svg"
+      }
+    ],
+    "overflow": false
+  },
+  "console": []
+}

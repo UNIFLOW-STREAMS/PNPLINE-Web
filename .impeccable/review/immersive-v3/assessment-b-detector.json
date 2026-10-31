@@ -1,0 +1,113 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "1.6:1 (need 4.5:1) — text #f3f7f8 on #c4c4c4"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "1.6:1 (need 4.5:1) — text #f3f7f8 on #c4c4c4"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "<div> \"hero-pin\": children flush against bg on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "<section> \"quote\": children flush against bg on right/left (no inset)"
+  },
+  {
+    "antipattern": "design-system-font",
+    "name": "Font outside DESIGN.md",
+    "description": "A font is used that is not declared in DESIGN.md typography. Use the documented type system or update DESIGN.md if this is an intentional brand addition.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "a \"查看服务范围\" uses sans sc\",sans-serif; not declared in DESIGN.md typography",
+    "ignoreValue": "sans sc\",sans-serif"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "border-top rgb(206, 215, 217) on details \"一件代发： 从美国仓按订单拣货、包装并安排向买家出库。\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(206, 215, 217)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "text color rgb(73, 84, 90) on button \"IOR与进口清关咨询\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(73, 84, 90)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "text color rgb(8, 119, 153) on a \"获取物流报价\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(8, 119, 153)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "text color rgb(93, 109, 116) on p \"预计货量并注明单位，例如体积、重量或订单数；也可填写“未定”。\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(93, 109, 116)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "F:\\pnpline-landing\\output\\landing-immersive-v2\\index.html",
+    "line": 0,
+    "snippet": "text color rgb(89, 107, 114) on p \"报价与执行条件将在资料及服务范围确认后沟通。\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(89, 107, 114)"
+  }
+]

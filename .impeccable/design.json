@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T14:07:09.410066Z",
+  "title": "Design System: PNPLINE 몰입형 V3",
+  "extensions": {
+    "scope": {
+      "artifact": "output/landing-immersive-v3/",
+      "status": "implemented-three-region-prototype-reviewed",
+      "buildMode": "code-first",
+      "direction": "Selected immersive direction and Emons reference; V2 visual implementation rejected and superseded.",
+      "productionRelease": false,
+      "wholeMvpComplete": false,
+      "newUserVisualApproval": false,
+      "regions": [
+        "hero",
+        "services",
+        "quote"
+      ],
+      "sourceRegionCount": 8,
+      "unimplementedSourceRegions": [
+        "customers",
+        "evidence",
+        "process",
+        "pricing",
+        "faq"
+      ],
+      "unimplementedSourceRegionLabels": [
+        "고객 유형",
+        "창고와 시스템",
+        "진행 절차",
+        "비용 설명",
+        "FAQ"
+      ],
+      "remainingProductWork": [
+        "정식 개인정보 정책",
+        "실제 폼 접수와 운영 검증"
+      ],
+      "ancillaryRoute": "privacy/",
+      "finishReview": {
+        "status": "complete",
+        "initialDisposition": "fix",
+        "report": ".impeccable/review/immersive-v3/finish-review.md",
+        "confirmation": ".impeccable/review/immersive-v3/final-verdict.md",
+        "finalDisposition": "ship",
+        "fixes": [
+          {
+            "name": "Mobile service activation reveals selected shared detail",
+            "status": "resolved"
+          },
+          {
+            "name": "Freight service name wraps in semantic mobile lines",
+            "status": "resolved"
+          }
+        ],
+        "remaining": "clear",
+        "observedFixRegression": false,
+        "scope": "Confirmation of two scored fixes only, based on supplied recaptures and changed source; not a new full-surface review, production release, complete MVP, or new user visual approval. Video rendering quality excluded."
+      },
+      "sourceFiles": [
+        "index.html",
+        "style.css",
+        "script.js",
+        "privacy/index.html",
+        "assets/font.css",
+        "assets/provenance.json"
+      ],
+      "productSource": "PRODUCT.md",
+      "copySource": "docs/pnpline-china-source-content/pnpline-landing-mvp-copy-v4.zh-CN.md",
+      "directionContract": ".impeccable/surfaces/output-landing-immersive-v3-index-html.md",
+      "history": [
+        {
+          "artifact": "output/landing-immersive-v2/",
+          "status": "rejected-visual-implementation",
+          "normative": false,
+          "note": "Former finish disposition applies only to its historical fix review; not V3 approval."
+        },
+        {
+          "artifact": "output/landing-design-comparison-v1/",
+          "status": "superseded-comparison",
+          "normative": false
+        }
+      ],
+      "sourceDrift": {
+        "file": "PRODUCT.md",
+        "note": "Pre-selection wording remains as historical drift. Latest user choices and V3 surface contract govern the current direction."
+      }
+    },
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "PNPLINE 청록",
+        "tonalRamp": [
+          "oklch(15% 0.0627 229.87)",
+          "oklch(26% 0.1007 229.87)",
+          "oklch(38% 0.1284 229.87)",
+          "oklch(50% 0.1381 229.87)",
+          "oklch(62% 0.1284 229.87)",
+          "oklch(74% 0.1007 229.87)",
+          "oklch(85% 0.0627 229.87)",
+          "oklch(95% 0.0216 229.87)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "행동 hover 청록",
+        "tonalRamp": [
+          "oklch(15% 0.0612 226.02)",
+          "oklch(26% 0.0982 226.02)",
+          "oklch(38% 0.1253 226.02)",
+          "oklch(50% 0.1348 226.02)",
+          "oklch(62% 0.1253 226.02)",
+          "oklch(74% 0.0982 226.02)",
+          "oklch(85% 0.0612 226.02)",
+          "oklch(95% 0.0211 226.02)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "primary-active": {
+        "role": "primary",
+        "displayName": "행동 active 청록",
+        "tonalRamp": [
+          "oklch(15% 0.0570 229.94)",
+          "oklch(26% 0.0915 229.94)",
+          "oklch(38% 0.1167 229.94)",
+          "oklch(50% 0.1255 229.94)",
+          "oklch(62% 0.1167 229.94)",
+          "oklch(74% 0.0915 229.94)",
+          "oklch(85% 0.0570 229.94)",
+          "oklch(95% 0.0196 229.94)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "읽기 잉크",
+        "tonalRamp": [
+          "oklch(15% 0.0088 207.11)",
+          "oklch(26% 0.0142 207.11)",
+          "oklch(38% 0.0181 207.11)",
+          "oklch(50% 0.0194 207.11)",
+          "oklch(62% 0.0181 207.11)",
+          "oklch(74% 0.0142 207.11)",
+          "oklch(85% 0.0088 207.11)",
+          "oklch(95% 0.0030 207.11)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "보조 잉크",
+        "tonalRamp": [
+          "oklch(15% 0.0083 216.85)",
+          "oklch(26% 0.0134 216.85)",
+          "oklch(38% 0.0171 216.85)",
+          "oklch(50% 0.0184 216.85)",
+          "oklch(62% 0.0171 216.85)",
+          "oklch(74% 0.0134 216.85)",
+          "oklch(85% 0.0083 216.85)",
+          "oklch(95% 0.0029 216.85)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "옅은 중성 면",
+        "tonalRamp": [
+          "oklch(15% 0.0011 165.08)",
+          "oklch(26% 0.0018 165.08)",
+          "oklch(38% 0.0023 165.08)",
+          "oklch(50% 0.0025 165.08)",
+          "oklch(62% 0.0023 165.08)",
+          "oklch(74% 0.0018 165.08)",
+          "oklch(85% 0.0011 165.08)",
+          "oklch(95% 0.0004 165.08)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "서비스 구분선",
+        "tonalRamp": [
+          "oklch(15% 0.0030 185.26)",
+          "oklch(26% 0.0048 185.26)",
+          "oklch(38% 0.0061 185.26)",
+          "oklch(50% 0.0066 185.26)",
+          "oklch(62% 0.0061 185.26)",
+          "oklch(74% 0.0048 185.26)",
+          "oklch(85% 0.0030 185.26)",
+          "oklch(95% 0.0010 185.26)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "필드 경계",
+        "tonalRamp": [
+          "oklch(15% 0.0091 218.50)",
+          "oklch(26% 0.0146 218.50)",
+          "oklch(38% 0.0186 218.50)",
+          "oklch(50% 0.0200 218.50)",
+          "oklch(62% 0.0186 218.50)",
+          "oklch(74% 0.0146 218.50)",
+          "oklch(85% 0.0091 218.50)",
+          "oklch(95% 0.0031 218.50)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "field-line-hover": {
+        "role": "neutral",
+        "displayName": "필드 hover 경계",
+        "tonalRamp": [
+          "oklch(15% 0.0174 215.56)",
+          "oklch(26% 0.0279 215.56)",
+          "oklch(38% 0.0356 215.56)",
+          "oklch(50% 0.0383 215.56)",
+          "oklch(62% 0.0356 215.56)",
+          "oklch(74% 0.0279 215.56)",
+          "oklch(85% 0.0174 215.56)",
+          "oklch(95% 0.0060 215.56)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "집중 청록",
+        "tonalRamp": [
+          "oklch(15% 0.0482 228.92)",
+          "oklch(26% 0.0773 228.92)",
+          "oklch(38% 0.0986 228.92)",
+          "oklch(50% 0.1061 228.92)",
+          "oklch(62% 0.0986 228.92)",
+          "oklch(74% 0.0773 228.92)",
+          "oklch(85% 0.0482 228.92)",
+          "oklch(95% 0.0166 228.92)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "이메일 오류",
+        "tonalRamp": [
+          "oklch(15% 0.0636 29.67)",
+          "oklch(26% 0.1021 29.67)",
+          "oklch(38% 0.1302 29.67)",
+          "oklch(50% 0.1400 29.67)",
+          "oklch(62% 0.1302 29.67)",
+          "oklch(74% 0.1021 29.67)",
+          "oklch(85% 0.0636 29.67)",
+          "oklch(95% 0.0219 29.67)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "흰 면",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(85% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "행동 잉크",
+        "tonalRamp": [
+          "oklch(15% 0.0211 223.39)",
+          "oklch(26% 0.0339 223.39)",
+          "oklch(38% 0.0432 223.39)",
+          "oklch(50% 0.0465 223.39)",
+          "oklch(62% 0.0432 223.39)",
+          "oklch(74% 0.0339 223.39)",
+          "oklch(85% 0.0211 223.39)",
+          "oklch(95% 0.0073 223.39)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "입력 자리표시자",
+        "tonalRamp": [
+          "oklch(15% 0.0072 219.78)",
+          "oklch(26% 0.0116 219.78)",
+          "oklch(38% 0.0148 219.78)",
+          "oklch(50% 0.0159 219.78)",
+          "oklch(62% 0.0148 219.78)",
+          "oklch(74% 0.0116 219.78)",
+          "oklch(85% 0.0072 219.78)",
+          "oklch(95% 0.0025 219.78)"
+        ],
+        "rampSource": "Synthesized OKLCH visualization only; not an implemented color scale."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "display",
+        "purpose": "Desktop hero heading; responsive overrides documented in DESIGN.md."
+      },
+      "display-mobile": {
+        "displayName": "display-mobile",
+        "purpose": "Hero at widths 361–480px."
+      },
+      "headline": {
+        "displayName": "headline",
+        "purpose": "Desktop service heading."
+      },
+      "quote-headline": {
+        "displayName": "quote-headline",
+        "purpose": "Desktop quotation heading."
+      },
+      "service-title": {
+        "displayName": "service-title",
+        "purpose": "Desktop service-choice h3; button inherits tracking."
+      },
+      "service-panel-title": {
+        "displayName": "모바일 서비스 상세 제목",
+        "purpose": "Selected service name above the shared result at <=760px; hidden on desktop."
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "Default body text."
+      },
+      "body-intro": {
+        "displayName": "body-intro",
+        "purpose": "Hero prose and other compact introductory copy."
+      },
+      "body-detail": {
+        "displayName": "body-detail",
+        "purpose": "Selected service description."
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "Form labels."
+      },
+      "action": {
+        "displayName": "action",
+        "purpose": "Primary buttons."
+      },
+      "field": {
+        "displayName": "field",
+        "purpose": "Inputs and selects at all viewport sizes."
+      },
+      "helper": {
+        "displayName": "helper",
+        "purpose": "Field hints and email errors."
+      }
+    },
+    "fonts": {
+      "stylesheet": "output/landing-immersive-v3/assets/font.css",
+      "usedWeights": [
+        400,
+        500
+      ],
+      "bundledWeights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "display": "swap",
+      "synthesis": "none",
+      "coverage": "Chinese V4 text subset; verify additional glyphs before copy extensions.",
+      "license": "output/landing-immersive-v3/assets/Noto-Sans-SC-OFL.txt"
+    },
+    "shadows": [],
+    "depth": {
+      "approach": "Opaque white and neutral surfaces, image area and thin borders.",
+      "boxShadow": "none",
+      "translucentIntroPanel": false,
+      "gradientScrim": false,
+      "nestedQuotationCard": false
+    },
+    "focus": {
+      "global": "outline: 3px solid var(--focus); outline-offset: 5px",
+      "field": "border-color: var(--focus); outline: 2px solid var(--focus); outline-offset: 2px",
+      "serviceTabOffset": "7px",
+      "servicePanelOffset": "14px"
+    },
+    "motion": [
+      {
+        "name": "scroll-time",
+        "value": "currentTime = progress * max(0, duration - 0.001)",
+        "purpose": "Original linear paused seek, forward and reverse; video quality excluded."
+      },
+      {
+        "name": "intro-expansion",
+        "value": "introProgress = min(1, progress / 0.18)",
+        "purpose": "Translate intro by -height * introProgress; opacity 1 - introProgress; media top height * (1 - introProgress)."
+      },
+      {
+        "name": "intro-inert",
+        "value": "introProgress >= 0.97",
+        "purpose": "Remove offscreen CTA from keyboard focus just before full disappearance; restore below threshold on reverse scrolling."
+      },
+      {
+        "name": "scheduling",
+        "value": "requestAnimationFrame + seeked latest target; 0.012-second target-change threshold",
+        "purpose": "Coalesce scroll events and serialize seeking; no autoplay."
+      },
+      {
+        "name": "state-transitions",
+        "value": "none",
+        "purpose": "No CSS state transition or animation in current stylesheet."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "normal document flow; media height 52svh, minimum 280px; video hidden",
+        "purpose": "Keep poster, text and quotation path without sticky scrub."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-adjust",
+        "value": "1190px"
+      },
+      {
+        "name": "medium-adjust",
+        "value": "1000px"
+      },
+      {
+        "name": "stacked",
+        "value": "760px"
+      },
+      {
+        "name": "single-column-fields",
+        "value": "480px"
+      },
+      {
+        "name": "narrow",
+        "value": "360px"
+      }
+    ],
+    "layout": {
+      "containerMax": "1360px",
+      "quotationMax": "1120px",
+      "quotationDesktopColumns": "300px minmax(0, 680px)",
+      "quotationMobileMax": "680px",
+      "heroIntro": "Desktop 1.03fr 1fr; stacked at <=760px. Measured content height replaces CSS initial 360px/500px.",
+      "heroJourney": "340svh; 320svh at <=760px",
+      "heroMinimum": "650px; 740px at <=760px; 760px at <=360px",
+      "headerHeight": "76px; 64px at <=760px",
+      "gutterOverrides": {
+        "760px": "24px",
+        "480px": "22px",
+        "360px": "18px"
+      },
+      "serviceSelector": "4 columns; 2 columns at <=760px",
+      "warehouseOperations": "2 columns; 1 column at <=480px",
+      "fields": "2 columns; 1 column at <=480px",
+      "anchorOffset": "scroll-padding-top:0; scroll-margin-top:0; section top padding keeps content below fixed header",
+      "servicePanelMobileOffset": "scroll-margin-top: calc(var(--header-height) + 24px) at <=760px"
+    },
+    "interactions": {
+      "serviceTabs": {
+        "count": 4,
+        "panelCount": 1,
+        "pattern": "tablist/tab/tabpanel; roving tabindex; hidden inactive content; aria-labelledby follows selected tab",
+        "default": "warehouse",
+        "ariaOrientation": "horizontal",
+        "keys": "Left/Right one item; Up/Down one item desktop and two items <=760px; Home/End first/last",
+        "warehouse": "Four dl operations all readable; no details/summary",
+        "selection": "2px cyan bottom border; no tab chevrons",
+        "activation": "At <=760px, native click (including Enter/Space) scrolls shared panel instantly to start and focuses it with preventScroll. Desktop click retains current scroll.",
+        "keyboardNavigation": "Arrow/Home/End update selection and tab focus without forced panel scrolling.",
+        "mobilePanelHeading": "Existing selected service name, 20px/400/1.5, -0.008em tracking, 14px bottom margin; hidden on desktop.",
+        "freightLabelWrap": "At <=760px, two nowrap blocks: 中国出货 / 与美国境内运输. Desktop inline; original combined text unchanged."
+      },
+      "form": {
+        "fieldCount": 6,
+        "consentCheckbox": true,
+        "submission": "method=dialog + preventDefault; no outbound data",
+        "status": "设计预览：信息未发送。",
+        "validation": "Only non-empty invalid email is flagged; production required fields and consent enforcement remain undecided.",
+        "privacy": "Separate preview route, not formal policy."
+      },
+      "hero": {
+        "paused": true,
+        "autoplay": false,
+        "loop": false,
+        "controls": false,
+        "byteIdenticalToV2": true,
+        "renderQualityEvaluated": false
+      }
+    },
+    "assets": {
+      "manifest": "output/landing-immersive-v3/assets/provenance.json",
+      "rasterCount": 4,
+      "provenanceMissingReported": 0,
+      "logo": "Official PNP-LINE.webp, unchanged",
+      "video": "Original 33-second work sequence; same g6/faststart derivative byte-for-byte in V3",
+      "poster": "Frame at 3.5 seconds, unchanged",
+      "serviceImages": [
+        {
+          "file": "warehouse-miniature.png",
+          "dimensions": [
+            1448,
+            1086
+          ],
+          "role": "Warehouse and inventory artwork, reused generated illustration",
+          "actualFacilityEvidence": false
+        },
+        {
+          "file": "port-miniature.png",
+          "dimensions": [
+            1448,
+            1086
+          ],
+          "role": "Freight and IOR artwork, new generated illustration with CSS crops",
+          "actualFacilityEvidence": false
+        }
+      ],
+      "promptEvidence": "Exact prompts in assets/*.prompt.txt and PNG metadata."
+    },
+    "validation": {
+      "qaReport": ".impeccable/review/immersive-v3/qa.md",
+      "detectorReport": ".impeccable/review/immersive-v3/final-detector.json",
+      "captureFolder": ".impeccable/review/immersive-v3/",
+      "documentationInspectedCaptures": [
+        "desktop-hero.jpg",
+        "desktop-services.jpg",
+        "desktop-quote.jpg",
+        "mobile-hero.jpg",
+        "mobile-services.jpg",
+        "mobile-quote.jpg",
+        "user-hero.jpg",
+        "mobile-detail.jpg",
+        "mobile-320-services.jpg",
+        "mobile-detail-second-row.jpg"
+      ],
+      "reportedBrowserViewports": [
+        [
+          1440,
+          900
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          320,
+          568
+        ],
+        [
+          1280,
+          720
+        ]
+      ],
+      "reportedChecks": [
+        "forward/reverse paused seek",
+        "intro inert and restoration",
+        "mobile two-by-two tab keyboard selection",
+        "320px horizontal overflow",
+        "invalid email and non-transmitting preview",
+        "anchor positioning",
+        "mobile first-row click and second-row Enter activate visible shared panel and focus it below header",
+        "freight label two semantic lines at 390px and 320px; no horizontal overflow"
+      ],
+      "sourceOnlyChecks": [
+        "reduced-motion path",
+        "video-error fallback"
+      ],
+      "notPerformedByDocumenter": [
+        "browser automation",
+        "detector rerun",
+        "OS motion setting change",
+        "forced media request failure"
+      ],
+      "detectorFindings": {
+        "crampedPaddingWarnings": 5,
+        "fieldLineColorAdvisories": 1,
+        "context": "Initial detector retained without rerun. Finish reviewer did not adopt padding findings as visual failures because label, wrap and section spacing are present. Field-line color advisory reflected mismatch with superseded V2 documentation; current token describes source and visible boundaries, not a detector rerun."
+      },
+      "reinspectedCaptures": [
+        "mobile-services.jpg"
+      ],
+      "fixBatch": {
+        "status": "independently-confirmed-resolved",
+        "items": [
+          "Mobile tab activation reveals and focuses shared detail panel; active service title shown.",
+          "Freight service label uses semantic mobile line breaks without changing text."
+        ],
+        "sourceChanged": [
+          "index.html",
+          "style.css",
+          "script.js"
+        ],
+        "detectorRerun": false,
+        "videoChanged": false,
+        "confirmation": ".impeccable/review/immersive-v3/final-verdict.md",
+        "disposition": "ship",
+        "reviewScope": "Two material fixes only; no observed regressions in supplied recaptures and changed source."
+      }
+    },
+    "notCanonized": [
+      "Video rendering quality or final media selection.",
+      "Production submission, required fields, enforced consent and formal privacy policy.",
+      "New user visual approval of V3.",
+      "Completion of the five V4 regions outside this prototype.",
+      "PRODUCT.md stale pre-selection wording.",
+      "A detector rerun, a new full-surface review or production approval beyond the two-fix confirmation."
+    ]
+  },
+  "components": [
+    {
+      "name": "주 행동",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "히어로의 견적 CTA. 제출 CTA는 별도 높이·간격 조정을 적용한다.",
+      "html": "<button class=\"ds-primary\" type=\"button\">获取物流报价 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:48px;padding:11px 20px;border:0;border-radius:0;font-family:'Noto Sans SC', sans-serif;font-size:14px;font-weight:500;line-height:1.7;background:var(--cyan,#00abe1);color:#092f3b;cursor:pointer}.ds-primary:hover{background:var(--cyan-hover,#1db8e8)}.ds-primary:active{background:var(--cyan-active,#0096c6)}.ds-primary:disabled{cursor:default;background:#c5dcdf;color:#4c6368}.ds-primary:focus-visible,.ds-link:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--focus,#00799f);outline-offset:5px;}.ds-primary svg{width:22px;height:22px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "텍스트 문의 링크",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "서비스 설명에서 견적 영역으로 이동하는 밑줄 링크.",
+      "html": "<a class=\"ds-link\" href=\"#quote\">获取物流报价 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;font-family:'Noto Sans SC', sans-serif;font-size:14px;font-weight:500;line-height:1.6;color:var(--ink,#192729);text-decoration:underline;text-underline-offset:5px}.ds-link:hover{text-decoration:underline}.ds-link svg{color:var(--focus,#00799f)}.ds-primary:focus-visible,.ds-link:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--focus,#00799f);outline-offset:5px;}.ds-link svg{width:22px;height:22px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "헤더 내비게이션",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "서비스 링크와 지속 노출되는 견적 CTA. 로고는 별도 공식 자산으로 배치한다.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主导航\"><a class=\"ds-nav-service\" href=\"#services\">服务范围</a><a class=\"ds-nav-quote\" href=\"#quote\">获取物流报价 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:30px;min-height:76px;background:#fff;font-family:'Noto Sans SC', sans-serif;color:var(--ink,#192729);line-height:1.8}.ds-nav a{color:inherit;text-decoration:none;text-underline-offset:5px}.ds-nav .ds-nav-service{font-size:14px;padding-block:10px}.ds-nav .ds-nav-service:hover{text-decoration:underline}.ds-nav .ds-nav-quote{display:inline-flex;align-items:center;justify-content:center;gap:21px;min-height:42px;padding:9px 16px;font-size:13px;background:var(--cyan,#00abe1);color:#092f3b}.ds-nav .ds-nav-quote:hover{background:var(--cyan-hover,#1db8e8)}.ds-nav .ds-nav-quote:active{background:var(--cyan-active,#0096c6)}.ds-primary:focus-visible,.ds-link:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--focus,#00799f);outline-offset:5px;}.ds-nav svg{width:22px;height:22px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}.ds-nav svg{width:18px;height:18px}@media(max-width:760px){.ds-nav{min-height:64px;gap:18px}.ds-nav .ds-nav-service{font-size:13px}.ds-nav .ds-nav-quote{gap:12px;min-height:40px;padding:8px 12px;font-size:12px}}@media(max-width:480px){.ds-nav-service{display:none}}"
+    },
+    {
+      "name": "텍스트 입력",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "밝은 견적 배경에서 선명한 전체 경계와 16px 입력 글자를 유지한다.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-product\">产品类目</label><input id=\"ds-product\" placeholder=\"商品名称或所属类目。\"></div>",
+      "css": ".ds-field{font-family:'Noto Sans SC', sans-serif;color:var(--ink,#192729)}.ds-field label{display:block;margin-bottom:8px;font-size:14px;font-weight:500;line-height:1.6}.ds-field input{width:100%;min-width:0;height:52px;padding:12px 13px;border:1px solid var(--field-line,#7b8b90);border-radius:0;background:#fff;font-family:'Noto Sans SC', sans-serif;font-size:16px;font-weight:400;line-height:1.6;color:var(--ink,#192729);caret-color:var(--focus,#00799f)}.ds-field input::placeholder{color:#5e6a6e;opacity:1}.ds-field input:hover{border-color:#45646c}.ds-field input:focus{border-color:var(--focus,#00799f);outline:2px solid var(--focus,#00799f);outline-offset:2px}.ds-field input[aria-invalid=\"true\"]{border-color:var(--error,#a33024)}"
+    },
+    {
+      "name": "선택 입력",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "미정 옵션을 유지하는 네이티브 select.",
+      "html": "<div class=\"ds-select\"><label for=\"ds-shipping\">发货方式</label><select id=\"ds-shipping\"><option>未定</option><option>海运整柜（FCL）</option><option>海运拼箱（LCL）</option><option>空运</option></select></div>",
+      "css": ".ds-select{font-family:'Noto Sans SC', sans-serif;color:var(--ink,#192729)}.ds-select label{display:block;margin-bottom:8px;font-size:14px;font-weight:500;line-height:1.6}.ds-select select{width:100%;min-width:0;height:52px;padding:12px 38px 12px 13px;border:1px solid var(--field-line,#7b8b90);border-radius:0;appearance:none;background:#fff url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='m5 8 5 5 5-5' fill='none' stroke='%23192729' stroke-width='1.5'/%3E%3C/svg%3E\") right 12px center/20px no-repeat;font-family:'Noto Sans SC', sans-serif;font-size:16px;font-weight:400;line-height:1.6;color:var(--ink,#192729)}.ds-select select:hover{border-color:#45646c}.ds-select select:focus{border-color:var(--focus,#00799f);outline:2px solid var(--focus,#00799f);outline-offset:2px}"
+    },
+    {
+      "name": "창고 작업 목록",
+      "kind": "custom",
+      "description": "기본 선택된 창고의 네 작업을 접지 않고 보여 주는 공유 panel 내부 패턴.",
+      "html": "<dl class=\"ds-operations\"><div><dt>一件代发：</dt><dd>从美国仓按订单拣货、包装并安排向买家出库。</dd></div><div><dt>FBA中转补货：</dt><dd>按补货计划确认暂存、标签处理与分批出库要求。</dd></div><div><dt>库存与保管：</dt><dd>确认货物尺寸、存储方式、库存管理与存储周期。</dd></div><div><dt>退货与B2B：</dt><dd>按需确认退货检品、换标、重新入库，或批量交付所需的包装、标签与预约条件。</dd></div></dl>",
+      "css": ".ds-operations{display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;margin:0;font-family:'Noto Sans SC', sans-serif;color:var(--ink,#192729)}.ds-operations dt{margin-bottom:8px;font-size:16px;font-weight:500;line-height:1.8}.ds-operations dd{margin:0;font-size:15px;line-height:1.85;color:var(--muted,#536165)}@media(max-width:760px){.ds-operations{gap:25px 28px}.ds-operations dt{margin-bottom:5px;font-size:15px}.ds-operations dd{font-size:14px}}@media(max-width:480px){.ds-operations{grid-template-columns:1fr;gap:21px}.ds-operations dd{font-size:15px;max-width:38em}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "읽는 소개 면에서 확장되는 물류 장면",
+    "overview": "이 문서는 `output/landing-immersive-v3/`의 현재 코드와 캡처에서 확인한 UI를 기록한다. 사용자가 선택한 몰입형 방향과 Emons 참고는 유지하되, 두 번 거부된 시각 구현을 대신하는 V3 시안이다. 흰 소개 면의 제목·본문·행동을 먼저 읽고, 스크롤하면 영상이 그 공간으로 확장된다. 위 North Star는 구현을 설명하는 이름이며 새 사용자 승인을 받은 브랜드 은유가 아니다.\n\n공식 PNPLINE 로고, 기존 청록색, 간체 중국어의 정확성은 지속되는 브랜드 기준이다. 서비스는 네 개의 큰 이미지 선택자와 한 개의 공유 설명 영역으로 연결하고, 견적은 옅은 중성 면에 별도 외곽 카드 없이 배치한다. 미니어처 이미지는 서비스 설명용 삽화다. 실제 시설·소유 자산·운영 실적의 증빙으로 취급하지 않는다.\n\n현재 범위는 중문 V4 전체 8영역 중 히어로·서비스·견적의 3영역과 독립 개인정보 접근 경로다. 고객 유형·창고와 시스템·진행 절차·비용 설명·FAQ의 다른 5영역, 정식 개인정보 정책, 실제 폼 접수는 남아 있다. productionRelease와 wholeMvpComplete는 false이며 V3의 사용자 시각 승인은 아직 없다. 독립 마감 리뷰에서 모바일 서비스 상세 접근과 운송명 줄바꿈 2건을 수정했고, 두 수정의 확인 판정은 resolved·remaining clear·disposition ship이다. 이 판정은 두 수정 확인에 한정되며 전체 surface 재검토·운영 공개·사용자 시각 승인을 뜻하지 않는다. 사용자 지시에 따라 작업 중인 영상의 렌더 품질은 이번 디자인 평가에서 제외한다.",
+    "keyCharacteristics": [
+      "흰 소개 면과 영상 영역을 공간적으로 분리하고 스크롤에 따라 영상 면을 확장한다.",
+      "청록색은 주 행동과 서비스 선택에, 중성 잉크는 중국어 본문과 제목에 사용한다.",
+      "로컬 Noto Sans SC 400 제목과 500 행동·필드 이름을 사용하고 제목 자간은 느슨하게 유지한다.",
+      "네 서비스는 하나의 선택 패턴을 공유하며 창고의 네 작업은 선택 영역 안에서 모두 읽힌다.",
+      "견적은 여섯 필드와 동의를 유지하며 명확한 필드 경계와 비전송 상태를 제공한다."
+    ],
+    "rules": [
+      {
+        "name": "The Retained Identity Rule",
+        "body": "공식 PNPLINE 로고와 기존 청록색을 유지한다. 참고 사이트의 자산·빨강·상업적 주장은 복제하지 않는다.",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Chinese Rule",
+        "body": "중국어 제목은 Noto Sans SC 400과 현재의 완만한 자간을 사용한다. 제목의 크기와 본문·행동의 간격으로 위계를 만든다.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Surface Rule",
+        "body": "현재 시안의 깊이는 흰색과 중성 면, 이미지 크기, 구분선으로 표현한다. 큰 반투명 소개 패널과 견적 외곽 카드를 다시 추가하지 않는다.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 공식 로고·청록색·로컬 Noto Sans SC와 정확한 간체 중국어 원고를 유지한다.",
+      "**Do** 소개 문구와 영상의 공간 분리, 네 서비스의 동일한 선택 방식, 견적의 명확한 필드 경계를 보존한다.",
+      "**Do** 키보드 포커스, 선택 상태, 역방향 스크롤 복원, 모션 감소와 미디어 실패 경로를 유지한다.",
+      "**Do** 최종 CSS cascade와 실제 캡처를 근거로 토큰·반응형·상태 문서를 갱신한다.",
+      "**Do** 작업 영상과 생성 미니어처의 출처, 검토 시안 범위와 실제 운영 범위를 구분한다."
+    ],
+    "donts": [
+      "**Don't** 거부된 V2의 반투명 히어로 패널·좁은 제목 자간·창고 펼침과 별도 3탭·큰 흰 견적 카드를 현재 규칙으로 복원한다.",
+      "**Don't** 사용자 작업 중인 영상의 렌더 품질을 이번 UI 개선의 평가·완료 근거로 삼는다.",
+      "**Don't** 미니어처 삽화를 실제 PNPLINE 시설 사진이나 검증된 운영 증거로 표현한다.",
+      "**Don't** 삭제된 스크롤 안내·콘셉트 표식·S1~S7 장면 해설표를 공개 원고에 다시 넣는다.",
+      "**Don't** 비전송 시안을 실제 문의 접수로, 검토용 개인정보 안내를 정식 정책으로, 3영역 시안을 전체 MVP 완성으로 표현한다."
+    ]
+  }
+}

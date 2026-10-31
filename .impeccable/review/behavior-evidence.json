@@ -1,0 +1,29 @@
+[
+  {
+    "event": "A wheel down",
+    "paused": true,
+    "time": 6.635187
+  },
+  {
+    "event": "A wheel up",
+    "paused": true,
+    "time": 3.322508
+  },
+  {
+    "client": 310,
+    "ctaBottom": 553,
+    "scroll": 310,
+    "variant": "/a.html",
+    "width": 320
+  },
+  {
+    "client": 310,
+    "ctaBottom": 552,
+    "scroll": 310,
+    "variant": "/b.html",
+    "width": 320
+  },
+  {
+    "form": "设计预览：信息未发送。"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "method": "Seeded random color SVG; no image-generation service",
+  "paidGenerationCalls": 0,
+  "costUsd": 0,
+  "assets": [
+    {
+      "file": "assets\\placeholder-warehouse.svg",
+      "background": "#abaed2",
+      "type": "local-placeholder",
+      "depictsRealOperations": false
+    },
+    {
+      "file": "assets\\placeholder-freight.svg",
+      "background": "#a7a5a6",
+      "type": "local-placeholder",
+      "depictsRealOperations": false
+    },
+    {
+      "file": "assets\\placeholder-evidence.svg",
+      "background": "#bcc3ca",
+      "type": "local-placeholder",
+      "depictsRealOperations": false
+    },
+    {
+      "file": "assets\\placeholder-system.svg",
+      "background": "#b0b2d9",
+      "type": "local-placeholder",
+      "depictsRealOperations": false
+    }
+  ]
+}

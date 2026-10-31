@@ -1,0 +1,22 @@
+{
+  "prompt": "Edit this PNPLINE website comp. Preserve its scene-led composition, image positioning, typography hierarchy and visual finish. Correct ONLY navigation and unapproved service copy. Navigation must contain the existing official PNPLINE logo, 服务范围, and the cyan 获取物流报价 button, with ample empty space between logo and the two links. REMOVE 首页, 关于我们, 联系我们, dropdown carets, search icons and any other navigation. Keep the existing exact hero heading and two CTA labels. In the bottom service area replace the warehouse description with exactly 围绕入库验收、库存准备、拣货包装与出库安排，确认适合您的仓内作业。 Replace the transport description with exactly 根据货量、起运地、目的地与时效需求，评估海运整柜（FCL）、拼箱（LCL）或空运，并衔接到仓或美国境内配送。 Do not invent claims. Keep the original service headings. All navigation refers to sections in ONE landing page. The media artwork is merely a composition placeholder, outside video quality assessment; do not further alter its rendering. Same 1536×1024 frame, crisp Chinese, edge-to-edge.",
+  "approved": true,
+  "approvalSource": "Impeccable serve-question 573a7eba returned optionId comp-a on 2026-10-31",
+  "tool": "native image_gen",
+  "type": "ui-mockup",
+  "sourcePath": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a18cbc-0ed4-78e2-95d6-03f5512ef106/exec-e9b6606e-1606-4601-b351-e2f5b862731f.png",
+  "initialPrompt": "Create a high-fidelity desktop landing-page design comp for PNPLINE, edge-to-edge, landscape 1536×1024, crisp readable Simplified Chinese, no browser frame or device. It serves Chinese sellers arranging USA warehousing, fulfillment and logistics; the next action is 获取物流报价. Reference 1 is Emons: take its confident spatial composition, restrained navigation and tangible logistics context, never its red branding, copy or layout. Reference 2 is the SAME unfinished PNPLINE video still used only as the media placeholder: preserve that scene, do not redesign, beautify or substitute it; video quality is outside evaluation. Reference 3 is the official PNPLINE logo. Keep PNPLINE cyan #00ABE1, white and deep charcoal, lucid modern Chinese sans typography. The media is scroll-scrubbed, never an autoplay/explainer/player: no play button or scene labels. This is a real website with navigation, clear inquiry action and the beginning of service content, not a poster. Composition A is scene-led: one uninterrupted broad film canvas dominates the opening. A compact opaque editorial base at the foot of the scene holds the complete headline 美国自营海外仓，衔接出货与订单履约, the supporting line 依托PNPLINE直接运营的美国仓库，围绕您的商品、货量与销售渠道，衔接中国出货、美国仓储、订单出库与配送需求。, and 获取物流报价 / 查看服务范围. Keep the scenery unobstructed by floating copy cards. Frame with the official logo, 服务范围 and 获取物流报价 navigation. At the lower edge begin a genuinely new section titled 按需要的环节，组合您的物流服务, with the start of readable service rows: 仓储与订单履约 and 中国出货与美国境内运输. Maintain spacious but deliberate reading rhythm; no equal card grid, fabricated metrics, badges or extra claims.",
+  "initialReferences": [
+    "F:/pnpline-landing/.impeccable/references/emons/desktop-hero.jpg",
+    "F:/pnpline-landing/output/landing-immersive-v3/assets/hero-poster.jpg",
+    "F:/pnpline-landing/resources/logo/PNP-LINE.webp"
+  ],
+  "editReference": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a18cbc-0ed4-78e2-95d6-03f5512ef106/exec-7c5941ff-5515-43da-83a1-ba4b00cc142f.png",
+  "width": 1536,
+  "height": 1024,
+  "scope": "Desktop first viewport plus beginning of service content; composition exploration only",
+  "videoQualityExcluded": true,
+  "videoArtwork": "Generated representation of the provided work-in-progress still; not replacement media, not fidelity approval",
+  "pendingSemanticCorrections": [],
+  "created": "2026-10-31"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "client": 1440,
+    "ctaBottom": 872.0000457763672,
+    "h1Rect": {
+      "bottom": 251,
+      "height": 147,
+      "left": 57.59375,
+      "right": 1382.40625,
+      "top": 104,
+      "width": 1324.8125,
+      "x": 57.59375,
+      "y": 104
+    },
+    "headlineColor": "rgb(17, 45, 59)",
+    "quoteColor": "rgb(237, 248, 251)",
+    "quotePadding": "1280px",
+    "scroll": 1440,
+    "url": "/a.html",
+    "width": 1440
+  },
+  {
+    "client": 1440,
+    "ctaBottom": 843.8958587646484,
+    "h1Rect": {
+      "bottom": 417.7604370117187,
+      "height": 183.58334350585935,
+      "left": 72,
+      "right": 1108,
+      "top": 234.17709350585935,
+      "width": 1036,
+      "x": 72,
+      "y": 234.17709350585935
+    },
+    "headlineColor": "rgb(255, 255, 255)",
+    "quoteColor": "rgb(16, 47, 64)",
+    "quotePadding": "1000px",
+    "scroll": 1440,
+    "url": "/b.html",
+    "width": 1440
+  },
+  {
+    "client": 390,
+    "ctaBottom": 822,
+    "h1Rect": {
+      "bottom": 164.8541717529297,
+      "height": 81.85417175292969,
+      "left": 20,
+      "right": 370,
+      "top": 83,
+      "width": 350,
+      "x": 20,
+      "y": 83
+    },
+    "headlineColor": "rgb(17, 45, 59)",
+    "quoteColor": "rgb(237, 248, 251)",
+    "quotePadding": "350px",
+    "scroll": 390,
+    "url": "/a.html",
+    "width": 390
+  },
+  {
+    "client": 390,
+    "ctaBottom": 818,
+    "h1Rect": {
+      "bottom": 605.7916717529297,
+      "height": 86.16667175292969,
+      "left": 20,
+      "right": 370,
+      "top": 519.625,
+      "width": 350,
+      "x": 20,
+      "y": 519.625
+    },
+    "headlineColor": "rgb(255, 255, 255)",
+    "quoteColor": "rgb(16, 47, 64)",
+    "quotePadding": "350px",
+    "scroll": 390,
+    "url": "/b.html",
+    "width": 390
+  }
+]
