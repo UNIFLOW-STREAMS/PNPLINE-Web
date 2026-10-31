@@ -1,0 +1,6137 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\pnpline-us-title-curve-v001.blend",
+  "sha256": "0967a10052bbff1a9ce323710ac7710e6c50695ebba1c746d07553ce6be0ebda",
+  "blender": "5.1.0",
+  "devices": [
+    [
+      "NVIDIA GeForce RTX 4070",
+      "CUDA",
+      true
+    ],
+    [
+      "AMD Ryzen 9 7900X 12-Core Processor",
+      "CPU",
+      false
+    ],
+    [
+      "NVIDIA GeForce RTX 4070",
+      "OPTIX",
+      true
+    ]
+  ],
+  "objects": 23847,
+  "meshes": 19387,
+  "shared_meshes": 6,
+  "uv_meshes": 229,
+  "materials": [
+    {
+      "name": "BJ_CCTV_Deep_Blue_Glass",
+      "color": [
+        0.27000001072883606,
+        0.3799999952316284,
+        0.44999998807907104,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_CCTV_bj_cctv_shadow"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.27000001072883606,
+            0.3799999952316284,
+            0.44999998807907104,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.3199999928474426,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_CCTV_Silver_Blue_Glass",
+      "color": [
+        0.4300000071525574,
+        0.5400000214576721,
+        0.6000000238418579,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_CCTV_bj_cctv_glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.4300000071525574,
+            0.5400000214576721,
+            0.6000000238418579,
+            1.0
+          ],
+          "Metallic": 0.4300000071525574,
+          "Roughness": 0.30000001192092896,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Deep_Blue_Mullion",
+      "color": [
+        0.07500000298023224,
+        0.1599999964237213,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CNX_BJ_CCTV_bj_mullion",
+        "CNX_BJ_ZUN_bj_mullion"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.07500000298023224,
+            0.1599999964237213,
+            0.20000000298023224,
+            1.0
+          ],
+          "Metallic": 0.3799999952316284,
+          "Roughness": 0.3799999952316284,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Imperial_Vermilion",
+      "color": [
+        0.4699999988079071,
+        0.03799999877810478,
+        0.026000000536441803,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CNX_BJ_PALACE_bj_red",
+        "CNX_BJ_HEAVEN_bj_red"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.4699999988079071,
+            0.03799999877810478,
+            0.026000000536441803,
+            1.0
+          ],
+          "Metallic": 0.05999999865889549,
+          "Roughness": 0.49000000953674316,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Palace_Glazed_Ochre",
+      "color": [
+        0.8299999833106995,
+        0.4300000071525574,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_PALACE_bj_gold"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8299999833106995,
+            0.4300000071525574,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.18000000715255737,
+          "Roughness": 0.3400000035762787,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Palace_Ridge_Gold",
+      "color": [
+        0.9800000190734863,
+        0.6399999856948853,
+        0.1899999976158142,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CNX_BJ_PALACE_bj_gold_edge",
+        "CNX_BJ_HEAVEN_bj_gold_edge"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9800000190734863,
+            0.6399999856948853,
+            0.1899999976158142,
+            1.0
+          ],
+          "Metallic": 0.30000001192092896,
+          "Roughness": 0.3199999928474426,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Silver_Lattice",
+      "color": [
+        0.5899999737739563,
+        0.6399999856948853,
+        0.6800000071525574,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "CNX_BJ_CCTV_bj_lattice",
+        "CNX_BJ_ZUN_bj_lattice",
+        "CNX_BJ_STADIUM_bj_lattice"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5899999737739563,
+            0.6399999856948853,
+            0.6800000071525574,
+            1.0
+          ],
+          "Metallic": 0.47999998927116394,
+          "Roughness": 0.3499999940395355,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Stadium_Inner_Red",
+      "color": [
+        0.30000001192092896,
+        0.04500000178813934,
+        0.032999999821186066,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_STADIUM_bj_stadium"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.30000001192092896,
+            0.04500000178813934,
+            0.032999999821186066,
+            1.0
+          ],
+          "Metallic": 0.07999999821186066,
+          "Roughness": 0.6399999856948853,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Temple_Ceramic_Ridges",
+      "color": [
+        0.04500000178813934,
+        0.23999999463558197,
+        0.4399999976158142,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_HEAVEN_bj_blue_edge"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.04500000178813934,
+            0.23999999463558197,
+            0.4399999976158142,
+            1.0
+          ],
+          "Metallic": 0.2800000011920929,
+          "Roughness": 0.3100000023841858,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Temple_Glazed_Cobalt",
+      "color": [
+        0.017999999225139618,
+        0.11999999731779099,
+        0.28999999165534973,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_HEAVEN_bj_blue"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.017999999225139618,
+            0.11999999731779099,
+            0.28999999165534973,
+            1.0
+          ],
+          "Metallic": 0.2199999988079071,
+          "Roughness": 0.3100000023841858,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Wall_Grey_Brick",
+      "color": [
+        0.3799999952316284,
+        0.38999998569488525,
+        0.3700000047683716,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_GREAT_WALL_bj_brick"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.3799999952316284,
+            0.38999998569488525,
+            0.3700000047683716,
+            1.0
+          ],
+          "Metallic": 0.019999999552965164,
+          "Roughness": 0.800000011920929,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Wall_Mortar",
+      "color": [
+        0.5400000214576721,
+        0.5299999713897705,
+        0.4699999988079071,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_BJ_GREAT_WALL_bj_mortar"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5400000214576721,
+            0.5299999713897705,
+            0.4699999988079071,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BJ_Warm_Marble",
+      "color": [
+        0.7699999809265137,
+        0.7599999904632568,
+        0.6800000071525574,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CNX_BJ_PALACE_bj_marble",
+        "CNX_BJ_HEAVEN_bj_marble"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7699999809265137,
+            0.7599999904632568,
+            0.6800000071525574,
+            1.0
+          ],
+          "Metallic": 0.029999999329447746,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "blue",
+      "color": [
+        0.02500000037252903,
+        0.30000001192092896,
+        0.6600000262260437,
+        1.0
+      ],
+      "users": 13,
+      "examples": [
+        "A01_FLOOR",
+        "A01_ROOF",
+        "A01_SIDE_L",
+        "A01_SIDE_R",
+        "A01_FRONT",
+        "A01_DOOR_LEFT_LEAF",
+        "A01_DOOR_RIGHT_LEAF"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "cargo",
+      "color": [
+        0.6600000262260437,
+        0.5099999904632568,
+        0.3199999928474426,
+        1.0
+      ],
+      "users": 12,
+      "examples": [
+        "W01_REMAINING_CONTAINER_CARGO_BASE",
+        "PACK_BOX_BOTTOM",
+        "PACK_BOX_WALL",
+        "PACK_BOX_WALL.001",
+        "PACK_BOX_WALL.002",
+        "PACK_BOX_WALL.003",
+        "W08_SEALED_READY"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_bark",
+      "color": [
+        0.20000000298023224,
+        0.12999999523162842,
+        0.07999999821186066,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_STREET_FURNITURE_bark"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.20000000298023224,
+            0.12999999523162842,
+            0.07999999821186066,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_brick",
+      "color": [
+        0.41999998688697815,
+        0.25999999046325684,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 129,
+      "examples": [
+        "CE_NY_DENSE_00__brick",
+        "CE_NY_DENSE_02__brick",
+        "CE_NY_DENSE_03__brick",
+        "CE_NY_DENSE_04__brick",
+        "CE_NY_DENSE_06__brick",
+        "CE_NY_DENSE_08__brick",
+        "CE_NY_DENSE_09__brick"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.41999998688697815,
+            0.25999999046325684,
+            0.20000000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_cyan",
+      "color": [
+        0.004999999888241291,
+        0.49000000953674316,
+        0.6800000071525574,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_STREET_FURNITURE_cyan"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.004999999888241291,
+            0.49000000953674316,
+            0.6800000071525574,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_dark",
+      "color": [
+        0.02500000037252903,
+        0.054999999701976776,
+        0.07100000232458115,
+        1.0
+      ],
+      "users": 183,
+      "examples": [
+        "CE_CHRYSLER__dark",
+        "CE_TRANSAMERICA__dark",
+        "CE_NY_DENSE_00__dark",
+        "CE_NY_DENSE_01__dark",
+        "CE_NY_DENSE_02__dark",
+        "CE_NY_DENSE_03__dark",
+        "CE_NY_DENSE_04__dark"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.054999999701976776,
+            0.07100000232458115,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_glass",
+      "color": [
+        0.10000000149011612,
+        0.23000000417232513,
+        0.2800000011920929,
+        1.0
+      ],
+      "users": 183,
+      "examples": [
+        "CE_CHRYSLER__glass",
+        "CE_TRANSAMERICA__glass",
+        "CE_NY_DENSE_00__glass",
+        "CE_NY_DENSE_01__glass",
+        "CE_NY_DENSE_02__glass",
+        "CE_NY_DENSE_03__glass",
+        "CE_NY_DENSE_04__glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.10000000149011612,
+            0.23000000417232513,
+            0.2800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_ivory",
+      "color": [
+        0.8299999833106995,
+        0.8199999928474426,
+        0.7300000190734863,
+        1.0
+      ],
+      "users": 183,
+      "examples": [
+        "CE_CHRYSLER__ivory",
+        "CE_TRANSAMERICA__ivory",
+        "CE_NY_DENSE_00__ivory",
+        "CE_NY_DENSE_01__ivory",
+        "CE_NY_DENSE_02__ivory",
+        "CE_NY_DENSE_03__ivory",
+        "CE_NY_DENSE_04__ivory"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8299999833106995,
+            0.8199999928474426,
+            0.7300000190734863,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_lawn",
+      "color": [
+        0.25,
+        0.3400000035762787,
+        0.18000000715255737,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_SF_REDWOOD_PARK"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.25,
+            0.3400000035762787,
+            0.18000000715255737,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_leaf",
+      "color": [
+        0.12999999523162842,
+        0.28999999165534973,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_STREET_FURNITURE_leaf"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.12999999523162842,
+            0.28999999165534973,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_metal",
+      "color": [
+        0.6600000262260437,
+        0.7300000190734863,
+        0.7699999809265137,
+        1.0
+      ],
+      "users": 184,
+      "examples": [
+        "CE_CHRYSLER__metal",
+        "CE_TRANSAMERICA__metal",
+        "CE_NY_DENSE_00__metal",
+        "CE_NY_DENSE_01__metal",
+        "CE_NY_DENSE_02__metal",
+        "CE_NY_DENSE_03__metal",
+        "CE_NY_DENSE_04__metal"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6600000262260437,
+            0.7300000190734863,
+            0.7699999809265137,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_paving",
+      "color": [
+        0.5899999737739563,
+        0.6200000047683716,
+        0.6000000238418579,
+        1.0
+      ],
+      "users": 15,
+      "examples": [
+        "CE_NY_BROADWAY_SIDEWALK",
+        "CE_NY_MAINLAND_LINK_SIDEWALK",
+        "CE_SF_BRIDGE_BOULEVARD_SIDEWALK",
+        "CE_SF_MARKET_STREET_SIDEWALK",
+        "CE_CHI_LAKE_SHORE_DRIVE_SIDEWALK",
+        "CE_CHI_WACKER_DRIVE_SIDEWALK",
+        "CE_NY_COAST_PROMENADE"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5899999737739563,
+            0.6200000047683716,
+            0.6000000238418579,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_pine",
+      "color": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.1599999964237213,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_STREET_FURNITURE_pine"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.10000000149011612,
+            0.23999999463558197,
+            0.1599999964237213,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_red",
+      "color": [
+        0.5699999928474426,
+        0.10000000149011612,
+        0.054999999701976776,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CE_BRIDGE_STRUCTURE_red"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5699999928474426,
+            0.10000000149011612,
+            0.054999999701976776,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_road",
+      "color": [
+        0.1599999964237213,
+        0.1899999976158142,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 7,
+      "examples": [
+        "CE_NY_BROADWAY_ASPHALT",
+        "CE_NY_MAINLAND_LINK_ASPHALT",
+        "CE_SF_BRIDGE_BOULEVARD_ASPHALT",
+        "CE_SF_MARKET_STREET_ASPHALT",
+        "CE_CHI_LAKE_SHORE_DRIVE_ASPHALT",
+        "CE_CHI_WACKER_DRIVE_ASPHALT",
+        "CE_BRIDGE_ROAD"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.1599999964237213,
+            0.1899999976158142,
+            0.20000000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_roof",
+      "color": [
+        0.14000000059604645,
+        0.18000000715255737,
+        0.1899999976158142,
+        1.0
+      ],
+      "users": 178,
+      "examples": [
+        "CE_NY_DENSE_00__roof",
+        "CE_NY_DENSE_01__roof",
+        "CE_NY_DENSE_02__roof",
+        "CE_NY_DENSE_03__roof",
+        "CE_NY_DENSE_04__roof",
+        "CE_NY_DENSE_05__roof",
+        "CE_NY_DENSE_06__roof"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.14000000059604645,
+            0.18000000715255737,
+            0.1899999976158142,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_stone",
+      "color": [
+        0.5899999737739563,
+        0.5699999928474426,
+        0.5099999904632568,
+        1.0
+      ],
+      "users": 364,
+      "examples": [
+        "CE_CHRYSLER_FOUNDATION",
+        "CE_CHRYSLER__stone",
+        "CE_TRANSAMERICA_FOUNDATION",
+        "CE_TRANSAMERICA__stone",
+        "CE_NY_DENSE_00_FOUNDATION",
+        "CE_NY_DENSE_00__stone",
+        "CE_NY_DENSE_01_FOUNDATION"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5899999737739563,
+            0.5699999928474426,
+            0.5099999904632568,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CE_yellow",
+      "color": [
+        0.8899999856948853,
+        0.6299999952316284,
+        0.12999999523162842,
+        1.0
+      ],
+      "users": 7,
+      "examples": [
+        "CE_NY_BROADWAY_MARKS_yellow",
+        "CE_NY_MAINLAND_LINK_MARKS_yellow",
+        "CE_SF_BRIDGE_BOULEVARD_MARKS_yellow",
+        "CE_SF_MARKET_STREET_MARKS_yellow",
+        "CE_CHI_LAKE_SHORE_DRIVE_MARKS_yellow",
+        "CE_CHI_WACKER_DRIVE_MARKS_yellow",
+        "CE_BRIDGE_STRUCTURE_yellow"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8899999856948853,
+            0.6299999952316284,
+            0.12999999523162842,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_base",
+      "color": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "users": 29,
+      "examples": [
+        "CN_SITE_BASE_CN_LM_SPHERE_TOWER",
+        "CN_SITE_BASE_CN_LM_OPEN_TOP_TOWER",
+        "CN_SITE_BASE_CN_LM_TAPERED_TOWER",
+        "CN_SITE_BASE_CN_LM_STEPPED_TOWER",
+        "CN_SITE_BASE_HIGH_0",
+        "CN_SITE_BASE_HIGH_1",
+        "CN_SITE_BASE_HIGH_2"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.38999998569488525,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_glass",
+      "color": [
+        0.1599999964237213,
+        0.3100000023841858,
+        0.3799999952316284,
+        1.0
+      ],
+      "users": 14,
+      "examples": [
+        "CN_LM_OPEN_TOP_TOWER_body",
+        "CN_LM_OPEN_TOP_TOWER_pylon-1",
+        "CN_LM_OPEN_TOP_TOWER_pylon1",
+        "CN_LM_TAPERED_TOWER_band1",
+        "CN_LM_TAPERED_TOWER_band2",
+        "CN_LM_TAPERED_TOWER_band3",
+        "CN_LM_TAPERED_TOWER_band4"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.1599999964237213,
+            0.3100000023841858,
+            0.3799999952316284,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_glass_light",
+      "color": [
+        0.28999999165534973,
+        0.4399999976158142,
+        0.47999998927116394,
+        1.0
+      ],
+      "users": 11,
+      "examples": [
+        "CN_LM_OPEN_TOP_TOWER_lintel",
+        "CN_LM_TAPERED_TOWER_body",
+        "CN_LM_STEPPED_TOWER_tier1",
+        "CN_LM_STEPPED_TOWER_tier3",
+        "CN_LM_STEPPED_TOWER_tier5",
+        "CN_HIGH_1",
+        "CN_HIGH_2"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.28999999165534973,
+            0.4399999976158142,
+            0.47999998927116394,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_roof",
+      "color": [
+        0.14000000059604645,
+        0.20000000298023224,
+        0.23000000417232513,
+        1.0
+      ],
+      "users": 10,
+      "examples": [
+        "CN_WATER_DOME",
+        "CN_WATER_SPIRE",
+        "CN_LOW_ROOF_0",
+        "CN_LOW_ROOF_1",
+        "CN_LOW_ROOF_2",
+        "CN_LOW_ROOF_3",
+        "CN_LOW_ROOF_4"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.14000000059604645,
+            0.20000000298023224,
+            0.23000000417232513,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_sphere",
+      "color": [
+        0.5600000023841858,
+        0.25,
+        0.3199999928474426,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "CN_LM_SPHERE_TOWER_lower_sphere",
+        "CN_LM_SPHERE_TOWER_upper_sphere",
+        "CN_LM_SPHERE_TOWER_tip_sphere"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5600000023841858,
+            0.25,
+            0.3199999928474426,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_stem",
+      "color": [
+        0.6499999761581421,
+        0.6499999761581421,
+        0.6000000238418579,
+        1.0
+      ],
+      "users": 16,
+      "examples": [
+        "CN_LM_SPHERE_TOWER_stem",
+        "CN_LM_SPHERE_TOWER_leg0",
+        "CN_LM_SPHERE_TOWER_leg1",
+        "CN_LM_SPHERE_TOWER_leg2",
+        "CN_LM_SPHERE_TOWER_spire",
+        "CN_LM_STEPPED_TOWER_crown",
+        "CN_HIGH_CAP_0"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6000000238418579,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_stone",
+      "color": [
+        0.6899999976158142,
+        0.6600000262260437,
+        0.5600000023841858,
+        1.0
+      ],
+      "users": 19,
+      "examples": [
+        "CN_WATER_0",
+        "CN_WATER_1",
+        "CN_WATER_2",
+        "CN_WATER_3",
+        "CN_WATER_CLOCK_MASS",
+        "CN_WATER_4",
+        "CN_WATER_5"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6899999976158142,
+            0.6600000262260437,
+            0.5600000023841858,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CN_PROXY_MAT_trim",
+      "color": [
+        0.8199999928474426,
+        0.7799999713897705,
+        0.6600000262260437,
+        1.0
+      ],
+      "users": 23,
+      "examples": [
+        "CN_LM_SPHERE_TOWER_belt3.1719999999999997",
+        "CN_LM_SPHERE_TOWER_belt8.174",
+        "CN_WATER_CORNICE_0_0.3",
+        "CN_WATER_CORNICE_0_0.65",
+        "CN_WATER_CORNICE_0_1",
+        "CN_WATER_CORNICE_1_0.3",
+        "CN_WATER_CORNICE_1_0.65"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8199999928474426,
+            0.7799999713897705,
+            0.6600000262260437,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8500000238418579,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNC_UNIFIED_GROUND_Edge",
+      "color": [
+        0.7300000190734863,
+        0.7400000095367432,
+        0.6899999976158142,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNC_UNIFIED_GROUND"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7300000190734863,
+            0.7400000095367432,
+            0.6899999976158142,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6600000262260437,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNC_UNIFIED_GROUND_Paving",
+      "color": [
+        0.6399999856948853,
+        0.6399999856948853,
+        0.5799999833106995,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNC_UNIFIED_GROUND"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6399999856948853,
+            0.6399999856948853,
+            0.5799999833106995,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6600000262260437,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_dark",
+      "color": [
+        0.02500000037252903,
+        0.03999999910593033,
+        0.04500000178813934,
+        1.0
+      ],
+      "users": 178,
+      "examples": [
+        "CNX_BJ_PALACE_dark",
+        "CNX_BJ_CCTV_dark",
+        "CNX_BJ_ZUN_dark",
+        "CNX_BJ_GREAT_WALL_dark",
+        "CNX_GZ_LINGNAN__dark.001",
+        "CNX_GZ_PAGODA__dark.001",
+        "CNX_GZ_IFC__dark.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.03999999910593033,
+            0.04500000178813934,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_dark_glass",
+      "color": [
+        0.04500000178813934,
+        0.11999999731779099,
+        0.17000000178813934,
+        1.0
+      ],
+      "users": 109,
+      "examples": [
+        "CNX_BJ_HEAVEN_dark_glass",
+        "CNX_BJ_CCTV_dark_glass",
+        "CNX_BJ_ZUN_dark_glass",
+        "CNX_BJ_STADIUM_dark_glass",
+        "CNX_GZ_CANTON__dark_glass.001",
+        "CNX_GZ_IFC__dark_glass.001",
+        "CNX_GZ_FACETED__dark_glass.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.04500000178813934,
+            0.11999999731779099,
+            0.17000000178813934,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_glass",
+      "color": [
+        0.11999999731779099,
+        0.28999999165534973,
+        0.36000001430511475,
+        1.0
+      ],
+      "users": 17,
+      "examples": [
+        "CNX_BJ_ZUN_glass",
+        "CNX_GZ_CANTON__glass.001",
+        "CNX_GZ_IFC__glass.001",
+        "CNX_GZ_CTF__glass.001",
+        "CNX_GZ_FACETED__glass.001",
+        "CNX_LINK_MIDRISE_028_glass",
+        "CNX_LINK_MIDRISE_034_glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.28999999165534973,
+            0.36000001430511475,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_gold",
+      "color": [
+        0.8999999761581421,
+        0.5199999809265137,
+        0.09000000357627869,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CNX_GZ_PAGODA__gold.001",
+        "CNX_GZ_CANTON__gold.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8999999761581421,
+            0.5199999809265137,
+            0.09000000357627869,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_green",
+      "color": [
+        0.17000000178813934,
+        0.3100000023841858,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 27,
+      "examples": [
+        "CNX_BJ_STADIUM_green",
+        "CNX_BJ_WALL_HILLS_green",
+        "CNX_BJ_WALL_FOREST_green",
+        "CNX_BJ_HUTONG_000_green",
+        "CNX_BJ_HUTONG_001_green",
+        "CNX_BJ_HUTONG_002_green",
+        "CNX_BJ_HUTONG_003_green"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.17000000178813934,
+            0.3100000023841858,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_ivory",
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.6899999976158142,
+        1.0
+      ],
+      "users": 122,
+      "examples": [
+        "CNX_OUTER_PROMENADE",
+        "CNX_BJ_PALACE_ivory",
+        "CNX_BJ_HEAVEN_ivory",
+        "CNX_BJ_CCTV_ivory",
+        "CNX_BJ_ZUN_ivory",
+        "CNX_BJ_STADIUM_ivory",
+        "CNX_GZ_LINGNAN__ivory.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8199999928474426,
+            0.800000011920929,
+            0.6899999976158142,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_metal",
+      "color": [
+        0.5899999737739563,
+        0.6800000071525574,
+        0.699999988079071,
+        1.0
+      ],
+      "users": 110,
+      "examples": [
+        "CNX_BJ_CCTV_metal",
+        "CNX_BJ_ZUN_metal",
+        "CNX_GZ_CANTON__metal.001",
+        "CNX_GZ_IFC__metal.001",
+        "CNX_GZ_CTF__metal.001",
+        "CNX_GZ_FACETED__metal.001",
+        "CNX_GZ_SHELLS__metal.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5899999737739563,
+            0.6800000071525574,
+            0.699999988079071,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_paving",
+      "color": [
+        0.6399999856948853,
+        0.6399999856948853,
+        0.5799999833106995,
+        1.0
+      ],
+      "users": 29,
+      "examples": [
+        "CNX_BJ_PALACE_paving",
+        "CNX_BJ_CCTV_paving",
+        "CNX_BJ_ZUN_paving",
+        "CNX_BJ_STADIUM_paving",
+        "CNX_GZ_LINGNAN__paving.001",
+        "CNX_GZ_SHELLS__paving.001",
+        "CNX_BJ_HUTONG_000_paving"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6399999856948853,
+            0.6399999856948853,
+            0.5799999833106995,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_red",
+      "color": [
+        0.550000011920929,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "users": 20,
+      "examples": [
+        "CNX_GZ_LINGNAN__red.001",
+        "CNX_GZ_PAGODA__red.001",
+        "CNX_GZ_CANTON__red.001",
+        "CNX_BJ_HUTONG_000_red",
+        "CNX_BJ_HUTONG_004_red",
+        "CNX_BJ_HUTONG_008_red",
+        "CNX_BJ_HUTONG_012_red"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.550000011920929,
+            0.07500000298023224,
+            0.04500000178813934,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_road",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "users": 7,
+      "examples": [
+        "CNX_BEIJING_AXIS",
+        "CNX_PALACE_STREET",
+        "CNX_BJ_CROSS",
+        "CNX_REAR_CROSS",
+        "CNX_NORTH_STREET",
+        "CNX_GZ_BOULEVARD",
+        "CNX_GZ_OUTER"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.2199999988079071,
+            0.25,
+            0.23999999463558197,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_roof",
+      "color": [
+        0.09000000357627869,
+        0.12999999523162842,
+        0.15000000596046448,
+        1.0
+      ],
+      "users": 200,
+      "examples": [
+        "CNX_GZ_LINGNAN__roof.001",
+        "CNX_GZ_PAGODA__roof.001",
+        "CNX_BJ_HUTONG_000_roof",
+        "CNX_BJ_HUTONG_001_roof",
+        "CNX_BJ_HUTONG_002_roof",
+        "CNX_BJ_HUTONG_003_roof",
+        "CNX_BJ_HUTONG_004_roof"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.09000000357627869,
+            0.12999999523162842,
+            0.15000000596046448,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_stone",
+      "color": [
+        0.5799999833106995,
+        0.5699999928474426,
+        0.5099999904632568,
+        1.0
+      ],
+      "users": 432,
+      "examples": [
+        "CNC_SUPPORT_DT_PAVILION",
+        "CNC_SUPPORT_DT_TRADITIONAL",
+        "CNC_SUPPORT_NA_HALL_REAR",
+        "CNC_SUPPORT_NA_HALL_FRONT",
+        "CNC_SUPPORT_port_shed_PORT_SERVICE_SHED",
+        "CNC_SUPPORT_port_shed_PORT_SERVICE_SHED.001",
+        "CNC_SUPPORT_port_shed_PORT_SERVICE_SHED.002"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5799999833106995,
+            0.5699999928474426,
+            0.5099999904632568,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_water",
+      "color": [
+        0.05999999865889549,
+        0.23999999463558197,
+        0.2800000011920929,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "CNX_GZ_REFLECTING_CANAL"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.05999999865889549,
+            0.23999999463558197,
+            0.2800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_white",
+      "color": [
+        0.8799999952316284,
+        0.8799999952316284,
+        0.8100000023841858,
+        1.0
+      ],
+      "users": 115,
+      "examples": [
+        "CNX_BEIJING_AXIS_MARKS_white",
+        "CNX_PALACE_STREET_MARKS_white",
+        "CNX_BJ_CROSS_MARKS_white",
+        "CNX_REAR_CROSS_MARKS_white",
+        "CNX_NORTH_STREET_MARKS_white",
+        "CNX_GZ_BOULEVARD_MARKS_white",
+        "CNX_GZ_OUTER_MARKS_white"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8799999952316284,
+            0.8799999952316284,
+            0.8100000023841858,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CNX_wood",
+      "color": [
+        0.27000001072883606,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 100,
+      "examples": [
+        "CNX_BJ_WALL_FOREST_wood",
+        "CNX_GZ_PAGODA__wood.001",
+        "CNX_BJ_HUTONG_000_wood",
+        "CNX_BJ_HUTONG_001_wood",
+        "CNX_BJ_HUTONG_002_wood",
+        "CNX_BJ_HUTONG_003_wood",
+        "CNX_BJ_HUTONG_004_wood"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.27000001072883606,
+            0.14000000059604645,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "concrete",
+      "color": [
+        0.6800000071525574,
+        0.699999988079071,
+        0.6899999976158142,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "US_QUAY",
+        "E09_MANEUVER_YARD",
+        "E10_OUTBOUND_YARD"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_CHARCOAL_TILE",
+      "color": [
+        0.02500000037252903,
+        0.03700000047683716,
+        0.03999999910593033,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "DT_PAVILION_ROOF_LOWER",
+        "DT_PAVILION_ROOF_UPPER",
+        "DT_TRADITIONAL_LOWER_ROOF",
+        "DT_TRADITIONAL_UPPER_ROOF",
+        "DT_TRADITIONAL_REAR_ROOF"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.03700000047683716,
+            0.03999999910593033,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_FOLIAGE_0",
+      "color": [
+        0.11999999731779099,
+        0.2199999988079071,
+        0.054999999701976776,
+        1.0
+      ],
+      "users": 36,
+      "examples": [
+        "DT_TREE_CROWN",
+        "DT_TREE_CROWN.004",
+        "DT_TREE_CROWN.008",
+        "DT_TREE_CROWN.012",
+        "DT_TREE_CROWN.016",
+        "DT_TREE_CROWN.020",
+        "DT_TREE_CROWN.024"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.2199999988079071,
+            0.054999999701976776,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_FOLIAGE_1",
+      "color": [
+        0.20000000298023224,
+        0.2800000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "users": 42,
+      "examples": [
+        "DT_TREE_CROWN.001",
+        "DT_TREE_CROWN.005",
+        "DT_TREE_CROWN.009",
+        "DT_TREE_CROWN.013",
+        "DT_TREE_CROWN.017",
+        "DT_TREE_CROWN.021",
+        "DT_TREE_CROWN.025"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.20000000298023224,
+            0.2800000011920929,
+            0.08500000089406967,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_FOLIAGE_2",
+      "color": [
+        0.07500000298023224,
+        0.1599999964237213,
+        0.029999999329447746,
+        1.0
+      ],
+      "users": 40,
+      "examples": [
+        "DT_TREE_CROWN.002",
+        "DT_TREE_CROWN.006",
+        "DT_TREE_CROWN.010",
+        "DT_TREE_CROWN.014",
+        "DT_TREE_CROWN.018",
+        "DT_TREE_CROWN.022",
+        "DT_TREE_CROWN.026"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.07500000298023224,
+            0.1599999964237213,
+            0.029999999329447746,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_FOLIAGE_3",
+      "color": [
+        0.2800000011920929,
+        0.3100000023841858,
+        0.10000000149011612,
+        1.0
+      ],
+      "users": 33,
+      "examples": [
+        "DT_TREE_CROWN.003",
+        "DT_TREE_CROWN.007",
+        "DT_TREE_CROWN.011",
+        "DT_TREE_CROWN.015",
+        "DT_TREE_CROWN.019",
+        "DT_TREE_CROWN.023",
+        "DT_TREE_CROWN.027"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.2800000011920929,
+            0.3100000023841858,
+            0.10000000149011612,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_GLASS",
+      "color": [
+        0.03500000014901161,
+        0.10000000149011612,
+        0.11500000208616257,
+        1.0
+      ],
+      "users": 220,
+      "examples": [
+        "DT_LEFT_WINDOW",
+        "DT_LEFT_WINDOW.001",
+        "DT_LEFT_WINDOW.002",
+        "DT_LEFT_WINDOW.003",
+        "DT_LEFT_WINDOW.004",
+        "DT_LEFT_WINDOW.005",
+        "DT_LEFT_WINDOW.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.10000000149011612,
+            0.11500000208616257,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.25,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_GRASS",
+      "color": [
+        0.12999999523162842,
+        0.2199999988079071,
+        0.06499999761581421,
+        1.0
+      ],
+      "users": 4,
+      "examples": [
+        "DT_GARDEN_LAWN",
+        "DT_GARDEN_LAWN.001",
+        "DT_GARDEN_LAWN.002",
+        "DT_GARDEN_LAWN.003"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.12999999523162842,
+            0.2199999988079071,
+            0.06499999761581421,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_PAVING",
+      "color": [
+        0.5299999713897705,
+        0.5299999713897705,
+        0.44999998807907104,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "DT_GARDEN_PATH",
+        "DT_GARDEN_PATH_BRANCH",
+        "DT_GARDEN_PATH_BRANCH.001",
+        "DT_GARDEN_PATH_BRANCH.002",
+        "DT_WATERFRONT_WALK"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5299999713897705,
+            0.5299999713897705,
+            0.44999998807907104,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DT_ROCK",
+      "color": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.28999999165534973,
+        1.0
+      ],
+      "users": 21,
+      "examples": [
+        "DT_GARDEN_ROCK",
+        "DT_GARDEN_ROCK.001",
+        "DT_GARDEN_ROCK.002",
+        "DT_GARDEN_ROCK.003",
+        "DT_GARDEN_ROCK.004",
+        "DT_GARDEN_ROCK.005",
+        "DT_GARDEN_ROCK.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.36000001430511475,
+            0.36000001430511475,
+            0.28999999165534973,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.7200000286102295,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "land",
+      "color": [
+        0.6499999761581421,
+        0.7400000095367432,
+        0.6399999856948853,
+        1.0
+      ],
+      "users": 11,
+      "examples": [
+        "CN_LAND_TERRACE",
+        "US_LAND_TERRACE",
+        "CV_SUPPORT_E07_INBOUND_ROAD",
+        "CV_SUPPORT_E11_ROUTE_1",
+        "CV_SUPPORT_E11_ROUTE_-1",
+        "CV_SUPPORT_A05_WAIT_MERGE",
+        "CV_SUPPORT_US_YARD_ROAD"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_CHARCOAL_TILES",
+      "color": [
+        0.04500000178813934,
+        0.052000001072883606,
+        0.05000000074505806,
+        1.0
+      ],
+      "users": 28,
+      "examples": [
+        "NA_HALL_REAR_ROOF",
+        "NA_HALL_FRONT_ROOF",
+        "NA_HOUSE_00_ROOF",
+        "NA_HOUSE_01_ROOF",
+        "NA_HOUSE_02_ROOF",
+        "NA_HOUSE_03_ROOF",
+        "NA_HOUSE_05_ROOF"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.04500000178813934,
+            0.052000001072883606,
+            0.05000000074505806,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_DARK_WINDOWS",
+      "color": [
+        0.03200000151991844,
+        0.07500000298023224,
+        0.07199999690055847,
+        1.0
+      ],
+      "users": 201,
+      "examples": [
+        "NA_HALL_REAR_GLASS",
+        "NA_HALL_REAR_GLASS.001",
+        "NA_HALL_REAR_GLASS.002",
+        "NA_HALL_REAR_GLASS.003",
+        "NA_HALL_REAR_GLASS.004",
+        "NA_HALL_REAR_GLASS.005",
+        "NA_HALL_REAR_GLASS.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03200000151991844,
+            0.07500000298023224,
+            0.07199999690055847,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.30000001192092896,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_GREY_BRICK",
+      "color": [
+        0.36000001430511475,
+        0.3799999952316284,
+        0.3499999940395355,
+        1.0
+      ],
+      "users": 6,
+      "examples": [
+        "NA_HOUSE_00_WALL",
+        "NA_HOUSE_05_WALL",
+        "NA_HOUSE_06_WALL",
+        "NA_HOUSE_07_WALL",
+        "NA_HOUSE_14_WALL",
+        "NA_HOUSE_25_WALL"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.36000001430511475,
+            0.3799999952316284,
+            0.3499999940395355,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_LEAVES_0",
+      "color": [
+        0.11999999731779099,
+        0.2199999988079071,
+        0.03999999910593033,
+        1.0
+      ],
+      "users": 20,
+      "examples": [
+        "NA_TREE_CROWN",
+        "NA_TREE_CROWN.001",
+        "NA_TREE_CROWN.002",
+        "NA_TREE_CROWN.003",
+        "NA_TREE_CROWN.004",
+        "NA_TREE_CROWN.005",
+        "NA_TREE_CROWN.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.2199999988079071,
+            0.03999999910593033,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_LEAVES_1",
+      "color": [
+        0.2199999988079071,
+        0.30000001192092896,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 36,
+      "examples": [
+        "NA_TREE_CROWN.008",
+        "NA_TREE_CROWN.009",
+        "NA_TREE_CROWN.010",
+        "NA_TREE_CROWN.011",
+        "NA_TREE_CROWN.032",
+        "NA_TREE_CROWN.033",
+        "NA_TREE_CROWN.034"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.2199999988079071,
+            0.30000001192092896,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_LEAVES_2",
+      "color": [
+        0.07999999821186066,
+        0.15000000596046448,
+        0.02500000037252903,
+        1.0
+      ],
+      "users": 20,
+      "examples": [
+        "NA_TREE_CROWN.012",
+        "NA_TREE_CROWN.013",
+        "NA_TREE_CROWN.014",
+        "NA_TREE_CROWN.015",
+        "NA_TREE_CROWN.016",
+        "NA_TREE_CROWN.017",
+        "NA_TREE_CROWN.018"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.07999999821186066,
+            0.15000000596046448,
+            0.02500000037252903,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_PLASTER_IVORY",
+      "color": [
+        0.6600000262260437,
+        0.6200000047683716,
+        0.5,
+        1.0
+      ],
+      "users": 9,
+      "examples": [
+        "NA_HOUSE_11_WALL",
+        "NA_HOUSE_12_WALL",
+        "NA_HOUSE_15_WALL",
+        "NA_HOUSE_18_WALL",
+        "NA_HOUSE_19_WALL",
+        "NA_HOUSE_21_WALL",
+        "NA_HOUSE_23_WALL"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6600000262260437,
+            0.6200000047683716,
+            0.5,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_PLASTER_PALE",
+      "color": [
+        0.7599999904632568,
+        0.7200000286102295,
+        0.6200000047683716,
+        1.0
+      ],
+      "users": 65,
+      "examples": [
+        "NA_HOUSE_00_GABLE",
+        "NA_HOUSE_00_GABLE.001",
+        "NA_HOUSE_01_WALL",
+        "NA_HOUSE_01_GABLE",
+        "NA_HOUSE_01_GABLE.001",
+        "NA_HOUSE_02_WALL",
+        "NA_HOUSE_02_GABLE"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7599999904632568,
+            0.7200000286102295,
+            0.6200000047683716,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_PLASTER_WARM",
+      "color": [
+        0.5699999928474426,
+        0.49000000953674316,
+        0.3700000047683716,
+        1.0
+      ],
+      "users": 18,
+      "examples": [
+        "NA_HALL_REAR_WALL",
+        "NA_HALL_FRONT_WALL",
+        "NA_HOUSE_03_WALL",
+        "NA_HOUSE_04_WALL",
+        "NA_HOUSE_04_PARAPET",
+        "NA_HOUSE_04_PARAPET.001",
+        "NA_HOUSE_04_PARAPET.002"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5699999928474426,
+            0.49000000953674316,
+            0.3700000047683716,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_TILE_EDGES",
+      "color": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ],
+      "users": 652,
+      "examples": [
+        "NA_HALL_REAR_TILE",
+        "NA_HALL_REAR_TILE.001",
+        "NA_HALL_REAR_TILE.002",
+        "NA_HALL_REAR_TILE.003",
+        "NA_HALL_REAR_TILE.004",
+        "NA_HALL_REAR_TILE.005",
+        "NA_HALL_REAR_TILE.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NA_TIMBER",
+      "color": [
+        0.2199999988079071,
+        0.06499999761581421,
+        0.027000000700354576,
+        1.0
+      ],
+      "users": 1294,
+      "examples": [
+        "NA_HALL_REAR_FRAME",
+        "NA_HALL_REAR_FRAME.001",
+        "NA_HALL_REAR_FRAME.002",
+        "NA_HALL_REAR_FRAME.003",
+        "NA_HALL_REAR_FRAME.004",
+        "NA_HALL_REAR_FRAME.005",
+        "NA_HALL_REAR_FRAME.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.2199999988079071,
+            0.06499999761581421,
+            0.027000000700354576,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.699999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "navy",
+      "color": [
+        0.03999999910593033,
+        0.15000000596046448,
+        0.23999999463558197,
+        1.0
+      ],
+      "users": 7,
+      "examples": [
+        "TRACTOR_CHASSIS",
+        "CH_PICKER_LEG-0.12",
+        "CH_PICKER_LEG0.12",
+        "CH_PACKER_LEG-0.12",
+        "CH_PACKER_LEG0.12",
+        "CH_LOADER_LEG-0.12",
+        "CH_LOADER_LEG0.12"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "newcargo",
+      "color": [
+        0.20000000298023224,
+        0.6000000238418579,
+        0.5699999928474426,
+        1.0
+      ],
+      "users": 4,
+      "examples": [
+        "W01_REMAINING_CONTAINER_CARGO_BOX_-0.27-0.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_-0.270.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_0.27-0.22",
+        "W01_REMAINING_CONTAINER_CARGO_BOX_0.270.22"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "orange",
+      "color": [
+        0.9300000071525574,
+        0.47999998927116394,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 4,
+      "examples": [
+        "W04_PICK_BIN_PRODUCT",
+        "W04_CART_ORDER_ALREADY_PICKED",
+        "PACK_BOX_CONTENT",
+        "CAMERA_PATH"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "pale",
+      "color": [
+        0.7400000095367432,
+        0.8100000023841858,
+        0.8100000023841858,
+        1.0
+      ],
+      "users": 26,
+      "examples": [
+        "CN_YARD_STACK_0",
+        "CN_YARD_STACK_1",
+        "CN_YARD_STACK_2",
+        "CN_YARD_STACK_3",
+        "CN_CITY_0",
+        "CN_CITY_1",
+        "CN_CITY_2"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT blue",
+      "color": [
+        0.014999999664723873,
+        0.25,
+        0.38999998569488525,
+        1.0
+      ],
+      "users": 1518,
+      "examples": [
+        "PORT_CONTAINER_BODY.001",
+        "PORT_CONTAINER_BODY.003",
+        "PORT_CONTAINER_BODY.008",
+        "PORT_CONTAINER_BODY.009",
+        "PORT_CONTAINER_BODY.015",
+        "PORT_CONTAINER_BODY.016",
+        "PORT_CONTAINER_BODY.020"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.014999999664723873,
+            0.25,
+            0.38999998569488525,
+            1.0
+          ],
+          "Metallic": 0.15000000596046448,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT concrete",
+      "color": [
+        0.6200000047683716,
+        0.6499999761581421,
+        0.6399999856948853,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "CN_QUAY",
+        "PORT_APRON"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6200000047683716,
+            0.6499999761581421,
+            0.6399999856948853,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT cyan",
+      "color": [
+        0.02500000037252903,
+        0.46000000834465027,
+        0.6399999856948853,
+        1.0
+      ],
+      "users": 1625,
+      "examples": [
+        "PORT_BOOM_TIE",
+        "PORT_BOOM_TIE.001",
+        "PORT_BOOM_TIE.002",
+        "PORT_BOOM_TIE.003",
+        "PORT_BOOM_TIE.004",
+        "PORT_BOOM_TIE.005",
+        "PORT_BOOM_TIE.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.46000000834465027,
+            0.6399999856948853,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT edge",
+      "color": [
+        0.7799999713897705,
+        0.800000011920929,
+        0.7599999904632568,
+        1.0
+      ],
+      "users": 573,
+      "examples": [
+        "PORT_APRON_JOINT",
+        "PORT_APRON_JOINT.001",
+        "PORT_APRON_JOINT.002",
+        "PORT_APRON_JOINT.003",
+        "PORT_APRON_JOINT.004",
+        "PORT_APRON_JOINT.005",
+        "PORT_APRON_JOINT.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7799999713897705,
+            0.800000011920929,
+            0.7599999904632568,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT glazing",
+      "color": [
+        0.03999999910593033,
+        0.1599999964237213,
+        0.20999999344348907,
+        1.0
+      ],
+      "users": 37,
+      "examples": [
+        "PORT_CAB_WINDOW",
+        "PORT_CAB_WINDOW.001",
+        "PORT_OFFICE_DOOR",
+        "PORT_OFFICE_WINDOW",
+        "PORT_OFFICE_WINDOW.001",
+        "PORT_OFFICE_WINDOW.002",
+        "PORT_SHED_WINDOW"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03999999910593033,
+            0.1599999964237213,
+            0.20999999344348907,
+            1.0
+          ],
+          "Metallic": 0.20000000298023224,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT ivory",
+      "color": [
+        0.8299999833106995,
+        0.8500000238418579,
+        0.8100000023841858,
+        1.0
+      ],
+      "users": 1727,
+      "examples": [
+        "PORT_CONTAINER_BODY.002",
+        "PORT_CONTAINER_BODY.004",
+        "PORT_CONTAINER_BODY.005",
+        "PORT_CONTAINER_BODY.010",
+        "PORT_CONTAINER_BODY.012",
+        "PORT_CONTAINER_BODY.017",
+        "PORT_CONTAINER_BODY.018"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8299999833106995,
+            0.8500000238418579,
+            0.8100000023841858,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT rail",
+      "color": [
+        0.23999999463558197,
+        0.3100000023841858,
+        0.3199999928474426,
+        1.0
+      ],
+      "users": 262,
+      "examples": [
+        "PORT_CRANE_RAIL",
+        "PORT_CRANE_RAIL.001",
+        "PORT_DOOR_BAR",
+        "PORT_DOOR_BAR.001",
+        "PORT_DOOR_BAR.002",
+        "PORT_DOOR_BAR.003",
+        "PORT_DOOR_BAR.004"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.23999999463558197,
+            0.3100000023841858,
+            0.3199999928474426,
+            1.0
+          ],
+          "Metallic": 0.5,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT road",
+      "color": [
+        0.2800000011920929,
+        0.33000001311302185,
+        0.3499999940395355,
+        1.0
+      ],
+      "users": 7,
+      "examples": [
+        "PORT_ACCESS_ROAD",
+        "PORT_ACCESS_ROAD.001",
+        "PORT_YARD_CROSS_LANE",
+        "PORT_YARD_CROSS_LANE.001",
+        "PORT_YARD_CROSS_LANE.002",
+        "PORT_YARD_CROSS_LANE.003",
+        "PORT_YARD_CROSS_LANE.004"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.2800000011920929,
+            0.33000001311302185,
+            0.3499999940395355,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT rubber",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.03799999877810478,
+        1.0
+      ],
+      "users": 284,
+      "examples": [
+        "PORT_BOLLARD",
+        "PORT_BOLLARD.001",
+        "PORT_BOLLARD.002",
+        "PORT_BOLLARD.003",
+        "PORT_BOLLARD.004",
+        "PORT_BOLLARD.005",
+        "PORT_BOLLARD.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.03500000014901161,
+            0.03799999877810478,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PORT safety",
+      "color": [
+        0.9800000190734863,
+        0.6499999761581421,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 61,
+      "examples": [
+        "PORT_BAY_LINE",
+        "PORT_BAY_LINE.001",
+        "PORT_BAY_LINE.002",
+        "PORT_BAY_LINE.003",
+        "PORT_BAY_LINE.004",
+        "PORT_BAY_LINE.005",
+        "PORT_BAY_LINE.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9800000190734863,
+            0.6499999761581421,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.4300000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_blue",
+      "color": [
+        0.017999999225139618,
+        0.25,
+        0.3700000047683716,
+        1.0
+      ],
+      "users": 11,
+      "examples": [
+        "PT_STACK_003_L2_blue",
+        "PT_STACK_006_L1_blue",
+        "PT_STACK_008_L3_blue",
+        "PT_STACK_011_L2_blue",
+        "PT_STACK_014_L1_blue",
+        "PT_STACK_016_L3_blue",
+        "PT_STACK_019_L2_blue"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.017999999225139618,
+            0.25,
+            0.3700000047683716,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_concrete",
+      "color": [
+        0.4300000071525574,
+        0.4699999988079071,
+        0.4699999988079071,
+        1.0
+      ],
+      "users": 28,
+      "examples": [
+        "PT_STACK_000_PAD",
+        "PT_STACK_001_PAD",
+        "PT_STACK_002_PAD",
+        "PT_STACK_003_PAD",
+        "PT_STACK_004_PAD",
+        "PT_STACK_005_PAD",
+        "PT_STACK_006_PAD"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.4300000071525574,
+            0.4699999988079071,
+            0.4699999988079071,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_cyan",
+      "color": [
+        0.006000000052154064,
+        0.47999998927116394,
+        0.6700000166893005,
+        1.0
+      ],
+      "users": 35,
+      "examples": [
+        "PT_STACK_000_L1_cyan",
+        "PT_STACK_001_L1_cyan",
+        "PT_STACK_002_L1_cyan",
+        "PT_STACK_002_L3_cyan",
+        "PT_STACK_003_L3_cyan",
+        "PT_STACK_004_L3_cyan",
+        "PT_STACK_005_L2_cyan"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.006000000052154064,
+            0.47999998927116394,
+            0.6700000166893005,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_dark",
+      "color": [
+        0.03500000014901161,
+        0.04699999839067459,
+        0.052000001072883606,
+        1.0
+      ],
+      "users": 92,
+      "examples": [
+        "PT_STACK_000_L1_dark",
+        "PT_STACK_000_L2_dark",
+        "PT_STACK_001_L1_dark",
+        "PT_STACK_001_L2_dark",
+        "PT_STACK_001_L3_dark",
+        "PT_STACK_002_L1_dark",
+        "PT_STACK_002_L2_dark"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.04699999839067459,
+            0.052000001072883606,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_glass",
+      "color": [
+        0.05999999865889549,
+        0.17000000178813934,
+        0.2199999988079071,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "PT_CRANE_WEST_glass",
+        "PT_CRANE_EAST_glass",
+        "PT_CRANE_MAIN_DETAILS_glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.05999999865889549,
+            0.17000000178813934,
+            0.2199999988079071,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_gray",
+      "color": [
+        0.41999998688697815,
+        0.49000000953674316,
+        0.5199999809265137,
+        1.0
+      ],
+      "users": 12,
+      "examples": [
+        "PT_STACK_001_L3_gray",
+        "PT_STACK_004_L2_gray",
+        "PT_STACK_007_L1_gray",
+        "PT_STACK_009_L3_gray",
+        "PT_STACK_012_L2_gray",
+        "PT_STACK_015_L1_gray",
+        "PT_STACK_017_L3_gray"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.41999998688697815,
+            0.49000000953674316,
+            0.5199999809265137,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_navy",
+      "color": [
+        0.03500000014901161,
+        0.09000000357627869,
+        0.14000000059604645,
+        1.0
+      ],
+      "users": 48,
+      "examples": [
+        "PT_STACK_000_L2_navy",
+        "PT_STACK_001_L2_navy",
+        "PT_STACK_001_L3_navy",
+        "PT_STACK_002_L2_navy",
+        "PT_STACK_003_L1_navy",
+        "PT_STACK_004_L1_navy",
+        "PT_STACK_004_L2_navy"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.09000000357627869,
+            0.14000000059604645,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_steel",
+      "color": [
+        0.47999998927116394,
+        0.5699999928474426,
+        0.6000000238418579,
+        1.0
+      ],
+      "users": 92,
+      "examples": [
+        "PT_STACK_000_L1_steel",
+        "PT_STACK_000_L2_steel",
+        "PT_STACK_001_L1_steel",
+        "PT_STACK_001_L2_steel",
+        "PT_STACK_001_L3_steel",
+        "PT_STACK_002_L1_steel",
+        "PT_STACK_002_L2_steel"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.47999998927116394,
+            0.5699999928474426,
+            0.6000000238418579,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_white",
+      "color": [
+        0.7900000214576721,
+        0.8199999928474426,
+        0.8100000023841858,
+        1.0
+      ],
+      "users": 81,
+      "examples": [
+        "PT_STACK_000_L1_white",
+        "PT_STACK_000_L2_white",
+        "PT_STACK_001_L1_white",
+        "PT_STACK_001_L2_white",
+        "PT_STACK_002_L1_white",
+        "PT_STACK_002_L2_white",
+        "PT_STACK_002_L3_white"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7900000214576721,
+            0.8199999928474426,
+            0.8100000023841858,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PT_yellow",
+      "color": [
+        0.9599999785423279,
+        0.6499999761581421,
+        0.09000000357627869,
+        1.0
+      ],
+      "users": 2,
+      "examples": [
+        "PT_QUAY_FURNITURE_yellow",
+        "PT_APRON_MARKS_yellow"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9599999785423279,
+            0.6499999761581421,
+            0.09000000357627869,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6499999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "color": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.41999998688697815,
+        1.0
+      ],
+      "users": 6,
+      "examples": [
+        "CN_YARD_ROAD",
+        "US_YARD_ROAD",
+        "E07_INBOUND_ROAD",
+        "E11_ROUTE_1",
+        "E11_ROUTE_-1",
+        "A05_WAIT_MERGE"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "rubber",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 24,
+      "examples": [
+        "A03_TRAILER_WHEEL_-0.25-0.85",
+        "A03_TRAILER_WHEEL_-0.250.85",
+        "A03_TRAILER_WHEEL_0.25-0.85",
+        "A03_TRAILER_WHEEL_0.250.85",
+        "A03_TRACTOR_WHEEL_0-0.85",
+        "A03_TRACTOR_WHEEL_00.85",
+        "A03_TRACTOR_WHEEL_1.65-0.85"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "S2_CHINA_base",
+      "color": [
+        0.33000001311302185,
+        0.3499999940395355,
+        0.30000001192092896,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "CHINA_base_0",
+        "CHINA_base_1",
+        "CHINA_base_2",
+        "CHINA_base_3",
+        "CHINA_base_4"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "S2_CHINA_gold",
+      "color": [
+        0.6800000071525574,
+        0.4300000071525574,
+        0.10000000149011612,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "CHINA_0_C",
+        "CHINA_1_H",
+        "CHINA_2_I",
+        "CHINA_3_N",
+        "CHINA_4_A"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "S2_CHINA_red",
+      "color": [
+        0.6200000047683716,
+        0.03500000014901161,
+        0.02500000037252903,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "CHINA_0_C",
+        "CHINA_1_H",
+        "CHINA_2_I",
+        "CHINA_3_N",
+        "CHINA_4_A"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_bark",
+      "color": [
+        0.12999999523162842,
+        0.05999999865889549,
+        0.02500000037252903,
+        1.0
+      ],
+      "users": 140,
+      "examples": [
+        "SF_TREE_TRUNK",
+        "SF_TREE_TRUNK.001",
+        "SF_TREE_TRUNK.002",
+        "SF_TREE_TRUNK.003",
+        "SF_TREE_TRUNK.004",
+        "SF_TREE_TRUNK.005",
+        "SF_TREE_TRUNK.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.12999999523162842,
+            0.05999999865889549,
+            0.02500000037252903,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8999999761581421,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_blue",
+      "color": [
+        0.012000000104308128,
+        0.3400000035762787,
+        0.5799999833106995,
+        1.0
+      ],
+      "users": 87,
+      "examples": [
+        "P03_UPPER_0.8_0.65",
+        "P03_UPPER_4.2_0.65",
+        "SF_SMALL_VEHICLE_0",
+        "SF_SMALL_VEHICLE_1",
+        "SF_SMALL_VEHICLE_2",
+        "SF_CRANE_BASE",
+        "SF_CRANE_BASE.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.012000000104308128,
+            0.3400000035762787,
+            0.5799999833106995,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.2800000011920929,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_cloud",
+      "color": [
+        0.8999999761581421,
+        0.8799999952316284,
+        0.7900000214576721,
+        1.0
+      ],
+      "users": 14,
+      "examples": [
+        "SF_CLOUD_BODY_LEFT0",
+        "SF_CLOUD_BODY_LEFT1",
+        "SF_CLOUD_BODY_LEFT2",
+        "SF_CLOUD_BODY_LEFT3",
+        "SF_CLOUD_BODY_LEFT4",
+        "SF_CLOUD_BODY_LEFT5",
+        "SF_CLOUD_BODY_LEFT6"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8999999761581421,
+            0.8799999952316284,
+            0.7900000214576721,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.41999998688697815,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_cream",
+      "color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6499999761581421,
+        1.0
+      ],
+      "users": 1213,
+      "examples": [
+        "SF_FRONT_LAND",
+        "SF_ISLAND_TOP",
+        "SF_BRIDGE_POST_-1_0",
+        "SF_BRIDGE_POST_-1_1",
+        "SF_BRIDGE_POST_-1_2",
+        "SF_BRIDGE_POST_-1_3",
+        "SF_BRIDGE_POST_-1_4"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8999999761581421,
+            0.8199999928474426,
+            0.6499999761581421,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_glass",
+      "color": [
+        0.05999999865889549,
+        0.20000000298023224,
+        0.25,
+        1.0
+      ],
+      "users": 14,
+      "examples": [
+        "SHIP_BRIDGE_GLASS",
+        "SF_OPEN_TOWER_lower",
+        "SF_OPEN_TOWER_pillar",
+        "SF_OPEN_TOWER_pillar.001",
+        "SF_TALLEST_TOWER_body",
+        "SF_HIGHRISE_0_body",
+        "SF_HIGHRISE_1_body"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.05999999865889549,
+            0.20000000298023224,
+            0.25,
+            1.0
+          ],
+          "Metallic": 0.6499999761581421,
+          "Roughness": 0.23000000417232513,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_gold",
+      "color": [
+        0.8500000238418579,
+        0.47999998927116394,
+        0.0949999988079071,
+        1.0
+      ],
+      "users": 16,
+      "examples": [
+        "SF_CHINA_GOLD_C",
+        "SF_CHINA_GOLD_H",
+        "SF_CHINA_GOLD_I",
+        "SF_CHINA_GOLD_N",
+        "SF_CHINA_GOLD_A",
+        "CR_REVIEW_HOOK_BLOCK",
+        "CR_REVIEW_HOOK"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8500000238418579,
+            0.47999998927116394,
+            0.0949999988079071,
+            1.0
+          ],
+          "Metallic": 0.699999988079071,
+          "Roughness": 0.2199999988079071,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_green",
+      "color": [
+        0.09000000357627869,
+        0.1599999964237213,
+        0.03500000014901161,
+        1.0
+      ],
+      "users": 105,
+      "examples": [
+        "SF_TREE_CROWN",
+        "SF_TREE_CROWN.001",
+        "SF_TREE_CROWN.002",
+        "SF_TREE_CROWN.003",
+        "SF_TREE_CROWN.004",
+        "SF_TREE_CROWN.005",
+        "SF_TREE_CROWN.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.09000000357627869,
+            0.1599999964237213,
+            0.03500000014901161,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.800000011920929,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_navy",
+      "color": [
+        0.00800000037997961,
+        0.18000000715255737,
+        0.30000001192092896,
+        1.0
+      ],
+      "users": 9,
+      "examples": [
+        "SHIP_HULL",
+        "SF_BRIDGE_WINDOWS_0",
+        "SF_BRIDGE_WINDOWS_1",
+        "SF_BRIDGE_WINDOWS_2",
+        "SF_BRIDGE_WINDOWS_3",
+        "DT_TRUCK_0_CHASSIS",
+        "DT_TRUCK_1_CHASSIS"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.00800000037997961,
+            0.18000000715255737,
+            0.30000001192092896,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.25,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_pink",
+      "color": [
+        0.4399999976158142,
+        0.06499999761581421,
+        0.14000000059604645,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "SF_SPHERE_TOWER_sphere",
+        "SF_SPHERE_TOWER_sphere.001",
+        "SF_SPHERE_TOWER_sphere.002"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.4399999976158142,
+            0.06499999761581421,
+            0.14000000059604645,
+            1.0
+          ],
+          "Metallic": 0.5,
+          "Roughness": 0.28999999165534973,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_red",
+      "color": [
+        0.5799999833106995,
+        0.017999999225139618,
+        0.012000000104308128,
+        1.0
+      ],
+      "users": 41,
+      "examples": [
+        "SF_CHINA_RED_C",
+        "SF_CHINA_RED_H",
+        "SF_CHINA_RED_I",
+        "SF_CHINA_RED_N",
+        "SF_CHINA_RED_A",
+        "SF_GARDEN_PAVILION_column",
+        "SF_GARDEN_PAVILION_column.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5799999833106995,
+            0.017999999225139618,
+            0.012000000104308128,
+            1.0
+          ],
+          "Metallic": 0.3499999940395355,
+          "Roughness": 0.2800000011920929,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_REGIONAL_OCEAN",
+      "color": [
+        0.3799999952316284,
+        0.5799999833106995,
+        0.6499999761581421,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "EARTH_CONTINUOUS_OCEAN"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.25,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_roof",
+      "color": [
+        0.03500000014901161,
+        0.054999999701976776,
+        0.05999999865889549,
+        1.0
+      ],
+      "users": 538,
+      "examples": [
+        "SF_STONE_LEFT_window",
+        "SF_STONE_LEFT_window.001",
+        "SF_STONE_LEFT_window.002",
+        "SF_STONE_LEFT_window.003",
+        "SF_STONE_LEFT_window.004",
+        "SF_STONE_LEFT_window.005",
+        "SF_STONE_LEFT_window.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.054999999701976776,
+            0.05999999865889549,
+            1.0
+          ],
+          "Metallic": 0.15000000596046448,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_silver",
+      "color": [
+        0.36000001430511475,
+        0.46000000834465027,
+        0.47999998927116394,
+        1.0
+      ],
+      "users": 1012,
+      "examples": [
+        "SF_SPHERE_TOWER_mast",
+        "SF_SPHERE_TOWER_sphere_band",
+        "SF_SPHERE_TOWER_sphere_band.001",
+        "SF_SPHERE_TOWER_sphere_band.002",
+        "SF_SPHERE_TOWER_sphere_band.003",
+        "SF_SPHERE_TOWER_sphere_band.004",
+        "SF_SPHERE_TOWER_sphere_band.005"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.36000001430511475,
+            0.46000000834465027,
+            0.47999998927116394,
+            1.0
+          ],
+          "Metallic": 0.6000000238418579,
+          "Roughness": 0.2800000011920929,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_stone",
+      "color": [
+        0.7200000286102295,
+        0.6399999856948853,
+        0.47999998927116394,
+        1.0
+      ],
+      "users": 455,
+      "examples": [
+        "SF_ARCH_SPAN",
+        "SF_BRIDGE_PIER_0",
+        "SF_BRIDGE_PIER_1",
+        "SF_HIGHRISE_12_body",
+        "SF_STONE_LEFT_body",
+        "SF_STONE_LEFT_REAR_body",
+        "SF_STONE_CENTER_body"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7200000286102295,
+            0.6399999856948853,
+            0.47999998927116394,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.6800000071525574,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_water",
+      "color": [
+        0.00800000037997961,
+        0.054999999701976776,
+        0.07000000029802322,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "SF_BASIN_WATER_SURFACE"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.00800000037997961,
+            0.054999999701976776,
+            0.07000000029802322,
+            1.0
+          ],
+          "Metallic": 0.550000011920929,
+          "Roughness": 0.17000000178813934,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_wave",
+      "color": [
+        0.12999999523162842,
+        0.44999998807907104,
+        0.49000000953674316,
+        1.0
+      ],
+      "users": 32,
+      "examples": [
+        "SF_OCEAN_WAVE",
+        "SF_OCEAN_WAVE.001",
+        "SF_OCEAN_WAVE.002",
+        "SF_OCEAN_WAVE.003",
+        "SF_OCEAN_WAVE.004",
+        "SF_OCEAN_WAVE.005",
+        "SF_OCEAN_WAVE.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.12999999523162842,
+            0.44999998807907104,
+            0.49000000953674316,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.23000000417232513,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SF_white",
+      "color": [
+        0.9100000262260437,
+        0.9100000262260437,
+        0.8299999833106995,
+        1.0
+      ],
+      "users": 205,
+      "examples": [
+        "SHIP_DECK",
+        "SHIP_BRIDGE",
+        "P03_DECK_-2.6_-1.25",
+        "P03_UPPER_-2.6_-1.25",
+        "P03_DECK_-2.6_0.65",
+        "P03_UPPER_-2.6_0.65",
+        "P03_DECK_0.8_-1.25"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9100000262260437,
+            0.9100000262260437,
+            0.8299999833106995,
+            1.0
+          ],
+          "Metallic": 0.05000000074505806,
+          "Roughness": 0.3799999952316284,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_dark",
+      "color": [
+        0.03500000014901161,
+        0.04699999839067459,
+        0.05000000074505806,
+        1.0
+      ],
+      "users": 93,
+      "examples": [
+        "SHD_BUND_HERITAGE_019__dark",
+        "SHD_BUND_HERITAGE_020__dark",
+        "SHD_BUND_HERITAGE_021__dark",
+        "SHD_BUND_HERITAGE_022__dark",
+        "SHD_BUND_HERITAGE_023__dark",
+        "SHD_BUND_HERITAGE_024__dark",
+        "SHD_BUND_HERITAGE_025__dark"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.04699999839067459,
+            0.05000000074505806,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_dark_glass",
+      "color": [
+        0.03999999910593033,
+        0.11999999731779099,
+        0.17000000178813934,
+        1.0
+      ],
+      "users": 126,
+      "examples": [
+        "SHD_ISLAND_TOWER_001__dark_glass",
+        "SHD_ISLAND_TOWER_002__dark_glass",
+        "SHD_ISLAND_TOWER_003__dark_glass",
+        "SHD_ISLAND_TOWER_004__dark_glass",
+        "SHD_ISLAND_TOWER_005__dark_glass",
+        "SHD_ISLAND_TOWER_006__dark_glass",
+        "SHD_ISLAND_TOWER_007__dark_glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03999999910593033,
+            0.11999999731779099,
+            0.17000000178813934,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_glass",
+      "color": [
+        0.11999999731779099,
+        0.30000001192092896,
+        0.38999998569488525,
+        1.0
+      ],
+      "users": 20,
+      "examples": [
+        "SHD_ISLAND_CULTURAL_000__glass",
+        "SHD_ISLAND_TOWER_002__glass",
+        "SHD_ISLAND_TOWER_003__glass",
+        "SHD_ISLAND_TOWER_005__glass",
+        "SHD_ISLAND_TOWER_006__glass",
+        "SHD_ISLAND_TOWER_008__glass",
+        "SHD_ISLAND_TOWER_011__glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.30000001192092896,
+            0.38999998569488525,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_gold",
+      "color": [
+        0.8799999952316284,
+        0.550000011920929,
+        0.1599999964237213,
+        1.0
+      ],
+      "users": 8,
+      "examples": [
+        "SHD_ISLAND_TOWER_001__gold",
+        "SHD_ISLAND_TOWER_004__gold",
+        "SHD_ISLAND_TOWER_010__gold",
+        "SHD_ISLAND_TOWER_013__gold",
+        "SHD_ISLAND_TOWER_015__gold",
+        "SHD_BUND_HERITAGE_019__gold",
+        "SHD_BUND_HERITAGE_022__gold"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8799999952316284,
+            0.550000011920929,
+            0.1599999964237213,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_green",
+      "color": [
+        0.17000000178813934,
+        0.33000001311302185,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 322,
+      "examples": [
+        "SHD_ISLAND_TOWER_002__green",
+        "SHD_ISLAND_TOWER_005__green",
+        "SHD_ISLAND_TOWER_016__green",
+        "SHD_ISLAND_TOWER_018__green",
+        "SHD_ISLAND_TOWER_087__green",
+        "SHD_ISLAND_TOWER_096__green",
+        "SHD_GAP_TREE_000_green"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.17000000178813934,
+            0.33000001311302185,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_ivory",
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.699999988079071,
+        1.0
+      ],
+      "users": 127,
+      "examples": [
+        "SHD_ISLAND_CULTURAL_000__ivory",
+        "SHD_ISLAND_TOWER_001__ivory",
+        "SHD_ISLAND_TOWER_002__ivory",
+        "SHD_ISLAND_TOWER_003__ivory",
+        "SHD_ISLAND_TOWER_004__ivory",
+        "SHD_ISLAND_TOWER_005__ivory",
+        "SHD_ISLAND_TOWER_006__ivory"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8199999928474426,
+            0.800000011920929,
+            0.699999988079071,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_leaf_deep",
+      "color": [
+        0.10000000149011612,
+        0.25,
+        0.10000000149011612,
+        1.0
+      ],
+      "users": 316,
+      "examples": [
+        "SHD_GAP_TREE_000_leaf_deep",
+        "SHD_GAP_TREE_001_leaf_deep",
+        "SHD_GAP_TREE_003_leaf_deep",
+        "SHD_GAP_TREE_004_leaf_deep",
+        "SHD_GAP_TREE_005_leaf_deep",
+        "SHD_GAP_TREE_006_leaf_deep",
+        "SHD_GAP_TREE_007_leaf_deep"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.10000000149011612,
+            0.25,
+            0.10000000149011612,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_leaf_light",
+      "color": [
+        0.25,
+        0.4000000059604645,
+        0.15000000596046448,
+        1.0
+      ],
+      "users": 316,
+      "examples": [
+        "SHD_GAP_TREE_000_leaf_light",
+        "SHD_GAP_TREE_001_leaf_light",
+        "SHD_GAP_TREE_003_leaf_light",
+        "SHD_GAP_TREE_004_leaf_light",
+        "SHD_GAP_TREE_005_leaf_light",
+        "SHD_GAP_TREE_006_leaf_light",
+        "SHD_GAP_TREE_007_leaf_light"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.25,
+            0.4000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_metal",
+      "color": [
+        0.5799999833106995,
+        0.6700000166893005,
+        0.6899999976158142,
+        1.0
+      ],
+      "users": 33,
+      "examples": [
+        "SHD_ISLAND_TOWER_001__metal",
+        "SHD_ISLAND_TOWER_002__metal",
+        "SHD_ISLAND_TOWER_003__metal",
+        "SHD_ISLAND_TOWER_004__metal",
+        "SHD_ISLAND_TOWER_005__metal",
+        "SHD_ISLAND_TOWER_006__metal",
+        "SHD_ISLAND_TOWER_007__metal"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5799999833106995,
+            0.6700000166893005,
+            0.6899999976158142,
+            1.0
+          ],
+          "Metallic": 0.25,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_roof",
+      "color": [
+        0.0949999988079071,
+        0.12999999523162842,
+        0.15000000596046448,
+        1.0
+      ],
+      "users": 110,
+      "examples": [
+        "SHD_ISLAND_CULTURAL_000__roof",
+        "SHD_ISLAND_TOWER_002__roof",
+        "SHD_ISLAND_TOWER_003__roof",
+        "SHD_ISLAND_TOWER_005__roof",
+        "SHD_ISLAND_TOWER_007__roof",
+        "SHD_ISLAND_TOWER_008__roof",
+        "SHD_ISLAND_TOWER_011__roof"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.0949999988079071,
+            0.12999999523162842,
+            0.15000000596046448,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_stone",
+      "color": [
+        0.6100000143051147,
+        0.5899999737739563,
+        0.5299999713897705,
+        1.0
+      ],
+      "users": 257,
+      "examples": [
+        "SHD_SF_OPEN_TOWER_SUPPORT",
+        "SHD_SF_STEP_TOWER_SUPPORT",
+        "SHD_SF_TALLEST_TOWER_SUPPORT",
+        "SHD_ISLAND_CULTURAL_000__stone",
+        "SHD_ISLAND_CULTURAL_000_SUPPORT",
+        "SHD_ISLAND_TOWER_001__stone",
+        "SHD_ISLAND_TOWER_001_SUPPORT"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6100000143051147,
+            0.5899999737739563,
+            0.5299999713897705,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_white",
+      "color": [
+        0.8799999952316284,
+        0.8700000047683716,
+        0.800000011920929,
+        1.0
+      ],
+      "users": 53,
+      "examples": [
+        "SHD_ISLAND_CULTURAL_000__white",
+        "SHD_ISLAND_TOWER_001__white",
+        "SHD_ISLAND_TOWER_002__white",
+        "SHD_ISLAND_TOWER_003__white",
+        "SHD_ISLAND_TOWER_004__white",
+        "SHD_ISLAND_TOWER_005__white",
+        "SHD_ISLAND_TOWER_006__white"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8799999952316284,
+            0.8700000047683716,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SHD_wood",
+      "color": [
+        0.23999999463558197,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 390,
+      "examples": [
+        "SHD_OLDTOWN_SHIKUMEN_026__wood",
+        "SHD_OLDTOWN_SHIKUMEN_027__wood",
+        "SHD_OLDTOWN_SHIKUMEN_028__wood",
+        "SHD_OLDTOWN_SHIKUMEN_029__wood",
+        "SHD_OLDTOWN_SHIKUMEN_030__wood",
+        "SHD_OLDTOWN_SHIKUMEN_031__wood",
+        "SHD_OLDTOWN_SHIKUMEN_032__wood"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.23999999463558197,
+            0.12999999523162842,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5799999833106995,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "steel",
+      "color": [
+        0.4300000071525574,
+        0.5199999809265137,
+        0.5699999928474426,
+        1.0
+      ],
+      "users": 24,
+      "examples": [
+        "TRAILER_CHASSIS",
+        "TRAILER_COUPLING_TONGUE",
+        "TRACTOR_GLASS",
+        "P01_CABLE_0",
+        "P01_CABLE_1",
+        "P01_CABLE_2",
+        "P01_CABLE_3"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_ASPHALT",
+      "color": [
+        0.08500000089406967,
+        0.10999999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 66,
+      "examples": [
+        "UC_BLOCK_02_00_ROOF",
+        "UC_BLOCK_02_01_ROOF",
+        "UC_BLOCK_02_02_ROOF",
+        "UC_BLOCK_02_03_ROOF",
+        "UC_BLOCK_02_06_ROOF",
+        "UC_BLOCK_02_07_ROOF",
+        "UC_BLOCK_02_08_ROOF"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.08500000089406967,
+            0.10999999940395355,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_BARK",
+      "color": [
+        0.20000000298023224,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 53,
+      "examples": [
+        "UC_RAIL_SLEEPER",
+        "UC_RAIL_SLEEPER.001",
+        "UC_RAIL_SLEEPER.002",
+        "UC_RAIL_SLEEPER.003",
+        "UC_RAIL_SLEEPER.004",
+        "UC_RAIL_SLEEPER.005",
+        "UC_RAIL_SLEEPER.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.20000000298023224,
+            0.12999999523162842,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_BRICK",
+      "color": [
+        0.3499999940395355,
+        0.25,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 18,
+      "examples": [
+        "UC_BLOCK_00_01",
+        "UC_BLOCK_00_01_ROOFTOP",
+        "UC_BLOCK_00_04",
+        "UC_BLOCK_00_04_ROOFTOP",
+        "UC_BLOCK_00_07",
+        "UC_BLOCK_00_07_ROOFTOP",
+        "UC_BLOCK_01_02"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.3499999940395355,
+            0.25,
+            0.20000000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_BRIDGE_RED",
+      "color": [
+        0.5699999928474426,
+        0.07500000298023224,
+        0.03500000014901161,
+        1.0
+      ],
+      "users": 0,
+      "examples": [],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5699999928474426,
+            0.07500000298023224,
+            0.03500000014901161,
+            1.0
+          ],
+          "Metallic": 0.44999998807907104,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_CONTAINER_TEAL",
+      "color": [
+        0.03999999910593033,
+        0.3400000035762787,
+        0.36000001430511475,
+        1.0
+      ],
+      "users": 11,
+      "examples": [
+        "UC_CONTAINER",
+        "UC_CONTAINER.004",
+        "UC_CONTAINER.005",
+        "UC_CONTAINER.006",
+        "UC_CONTAINER.009",
+        "UC_CONTAINER.011",
+        "UC_CONTAINER.015"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03999999910593033,
+            0.3400000035762787,
+            0.36000001430511475,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_GLASS",
+      "color": [
+        0.07500000298023224,
+        0.18000000715255737,
+        0.23000000417232513,
+        1.0
+      ],
+      "users": 25,
+      "examples": [
+        "UC_BLOCK_02_00",
+        "UC_BLOCK_02_00_ROOFTOP",
+        "UC_BLOCK_02_02",
+        "UC_BLOCK_02_02_ROOFTOP",
+        "UC_BLOCK_02_08",
+        "UC_BLOCK_02_08_ROOFTOP",
+        "UC_BLOCK_03_06"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.07500000298023224,
+            0.18000000715255737,
+            0.23000000417232513,
+            1.0
+          ],
+          "Metallic": 0.550000011920929,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_HARBOR_BLUE",
+      "color": [
+        0.014999999664723873,
+        0.41999998688697815,
+        0.6299999952316284,
+        1.0
+      ],
+      "users": 37,
+      "examples": [
+        "P02_BOOM_-2",
+        "P02_BOOM_3.5",
+        "P02_SPREADER_FRAME",
+        "P02_TROLLEY",
+        "UC_WAREHOUSE_REAR_PANEL",
+        "UC_WAREHOUSE_REAR_PANEL.001",
+        "UC_WAREHOUSE_REAR_PANEL.002"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.014999999664723873,
+            0.41999998688697815,
+            0.6299999952316284,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_IVORY",
+      "color": [
+        0.8299999833106995,
+        0.8100000023841858,
+        0.7099999785423279,
+        1.0
+      ],
+      "users": 244,
+      "examples": [
+        "UC_LIBERTY_ISLAND_CAP",
+        "UC_LIBERTY_CORNICE",
+        "UC_LIBERTY_CORNICE.001",
+        "UC_LIBERTY_CORNICE.002",
+        "UC_LIBERTY_CORNICE.003",
+        "UC_BLOCK_02_00_CORNICE",
+        "UC_BLOCK_02_00_CORNICE.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8299999833106995,
+            0.8100000023841858,
+            0.7099999785423279,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_LAWN",
+      "color": [
+        0.1599999964237213,
+        0.27000001072883606,
+        0.10000000149011612,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "UC_LIBERTY_GARDEN",
+        "UC_CIVIC_LAWN",
+        "UC_SHORE_HILL",
+        "UC_SHORE_HILL.001",
+        "UC_SHORE_HILL.002"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.1599999964237213,
+            0.27000001072883606,
+            0.10000000149011612,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_LIMESTONE",
+      "color": [
+        0.6600000262260437,
+        0.6100000143051147,
+        0.49000000953674316,
+        1.0
+      ],
+      "users": 230,
+      "examples": [
+        "UC_LIBERTY_ISLAND",
+        "UC_LIBERTY_PEDESTAL",
+        "UC_BLOCK_02_01",
+        "UC_BLOCK_02_01_ROOFTOP",
+        "UC_BLOCK_02_07",
+        "UC_BLOCK_02_07_ROOFTOP",
+        "UC_BLOCK_03_03"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6600000262260437,
+            0.6100000143051147,
+            0.49000000953674316,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_NAVY",
+      "color": [
+        0.008999999612569809,
+        0.04699999839067459,
+        0.10499999672174454,
+        1.0
+      ],
+      "users": 6,
+      "examples": [
+        "UC_LETTER_U",
+        "UC_LETTER_S",
+        "UC_LETTER_A",
+        "UST_LETTER_U",
+        "UST_LETTER_S",
+        "UST_LETTER_A"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.008999999612569809,
+            0.04699999839067459,
+            0.10499999672174454,
+            1.0
+          ],
+          "Metallic": 0.3499999940395355,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_PATINA_EDGE",
+      "color": [
+        0.18000000715255737,
+        0.47999998927116394,
+        0.38999998569488525,
+        1.0
+      ],
+      "users": 31,
+      "examples": [
+        "UC_LIBERTY_DRAPE",
+        "UC_LIBERTY_DRAPE.001",
+        "UC_LIBERTY_DRAPE.002",
+        "UC_LIBERTY_DRAPE.003",
+        "UC_LIBERTY_DRAPE.004",
+        "UC_LIBERTY_DRAPE.005",
+        "UC_LIBERTY_DRAPE.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.18000000715255737,
+            0.47999998927116394,
+            0.38999998569488525,
+            1.0
+          ],
+          "Metallic": 0.3499999940395355,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_SILVER",
+      "color": [
+        0.7699999809265137,
+        0.8299999833106995,
+        0.8500000238418579,
+        1.0
+      ],
+      "users": 562,
+      "examples": [
+        "UC_LETTER_U",
+        "UC_LETTER_S",
+        "UC_LETTER_A",
+        "UC_STAR_L_1",
+        "UC_STAR_L_2",
+        "UC_STAR_L_3",
+        "UC_STAR_L_4"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7699999809265137,
+            0.8299999833106995,
+            0.8500000238418579,
+            1.0
+          ],
+          "Metallic": 0.6499999761581421,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_TAXI",
+      "color": [
+        0.9599999785423279,
+        0.6000000238418579,
+        0.03500000014901161,
+        1.0
+      ],
+      "users": 4,
+      "examples": [
+        "UC_TAXI",
+        "UC_TAXI.001",
+        "UC_TAXI.002",
+        "UC_TAXI.003"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9599999785423279,
+            0.6000000238418579,
+            0.03500000014901161,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_TORCH_GOLD",
+      "color": [
+        0.9200000166893005,
+        0.5,
+        0.03500000014901161,
+        1.0
+      ],
+      "users": 3,
+      "examples": [
+        "UC_LIBERTY_TORCH",
+        "UC_LIBERTY_TORCH_BOWL",
+        "UC_LIBERTY_FLAME"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9200000166893005,
+            0.5,
+            0.03500000014901161,
+            1.0
+          ],
+          "Metallic": 0.6000000238418579,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_TREES",
+      "color": [
+        0.09000000357627869,
+        0.23000000417232513,
+        0.07999999821186066,
+        1.0
+      ],
+      "users": 29,
+      "examples": [
+        "UC_TREE_CROWN",
+        "UC_TREE_CROWN.001",
+        "UC_TREE_CROWN.002",
+        "UC_TREE_CROWN.003",
+        "UC_TREE_CROWN.004",
+        "UC_TREE_CROWN.005",
+        "UC_TREE_CROWN.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.09000000357627869,
+            0.23000000417232513,
+            0.07999999821186066,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_VERDIGRIS",
+      "color": [
+        0.10000000149011612,
+        0.3799999952316284,
+        0.3100000023841858,
+        1.0
+      ],
+      "users": 14,
+      "examples": [
+        "UC_LIBERTY_ROBE",
+        "UC_LIBERTY_NECK",
+        "UC_LIBERTY_HEAD",
+        "UC_LIBERTY_HAIR",
+        "UC_LIBERTY_RAISED_ARM",
+        "UC_LIBERTY_FOREARM",
+        "UC_LIBERTY_HAND"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.10000000149011612,
+            0.3799999952316284,
+            0.3100000023841858,
+            1.0
+          ],
+          "Metallic": 0.44999998807907104,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_WHITE",
+      "color": [
+        0.8500000238418579,
+        0.8799999952316284,
+        0.8700000047683716,
+        1.0
+      ],
+      "users": 53,
+      "examples": [
+        "P02_LEG_-25",
+        "P02_LEG_-212",
+        "P02_LEG_3.55",
+        "P02_LEG_3.512",
+        "UC_CIVIC_ENTABLATURE",
+        "UC_CIVIC_COLUMN",
+        "UC_CIVIC_COLUMN.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8500000238418579,
+            0.8799999952316284,
+            0.8700000047683716,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "UC_WINDOWS",
+      "color": [
+        0.03500000014901161,
+        0.07000000029802322,
+        0.09000000357627869,
+        1.0
+      ],
+      "users": 153,
+      "examples": [
+        "UC_LIBERTY_PEDESTAL_RECESS",
+        "UC_LIBERTY_PEDESTAL_RECESS.001",
+        "UC_LIBERTY_PEDESTAL_RECESS.002",
+        "UC_LIBERTY_PEDESTAL_RECESS.003",
+        "UC_LIBERTY_PEDESTAL_RECESS.004",
+        "UC_LIBERTY_PEDESTAL_RECESS.005",
+        "UC_LIBERTY_PEDESTAL_RECESS.006"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.07000000029802322,
+            0.09000000357627869,
+            1.0
+          ],
+          "Metallic": 0.3499999940395355,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_dark",
+      "color": [
+        0.02500000037252903,
+        0.041999999433755875,
+        0.05000000074505806,
+        1.0
+      ],
+      "users": 45,
+      "examples": [
+        "USD_ONEWTC__dark",
+        "USD_REFINED_FRONTAGE_00__dark",
+        "USD_REFINED_FRONTAGE_01__dark",
+        "USD_REFINED_FRONTAGE_02__dark",
+        "USD_REFINED_FRONTAGE_03__dark",
+        "USD_REFINED_FRONTAGE_04__dark",
+        "USD_REFINED_FRONTAGE_05__dark"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.02500000037252903,
+            0.041999999433755875,
+            0.05000000074505806,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_dark_glass",
+      "color": [
+        0.03500000014901161,
+        0.10499999672174454,
+        0.15000000596046448,
+        1.0
+      ],
+      "users": 46,
+      "examples": [
+        "USD_EMPIRE__dark_glass",
+        "USD_ONEWTC__dark_glass",
+        "USD_REFINED_FRONTAGE_00__dark_glass",
+        "USD_REFINED_FRONTAGE_01__dark_glass",
+        "USD_REFINED_FRONTAGE_02__dark_glass",
+        "USD_REFINED_FRONTAGE_03__dark_glass",
+        "USD_REFINED_FRONTAGE_04__dark_glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.03500000014901161,
+            0.10499999672174454,
+            0.15000000596046448,
+            1.0
+          ],
+          "Metallic": 0.3199999928474426,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_glass",
+      "color": [
+        0.10000000149011612,
+        0.25999999046325684,
+        0.3400000035762787,
+        1.0
+      ],
+      "users": 5,
+      "examples": [
+        "USD_ONEWTC__glass",
+        "USD_CORE_GLASS_020__glass",
+        "USD_CORE_GLASS_021__glass",
+        "USD_CORE_GLASS_026__glass",
+        "USD_CORE_GLASS_029__glass"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.10000000149011612,
+            0.25999999046325684,
+            0.3400000035762787,
+            1.0
+          ],
+          "Metallic": 0.3199999928474426,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_gold",
+      "color": [
+        0.6299999952316284,
+        0.4399999976158142,
+        0.1899999976158142,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "USD_EMPIRE__gold"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6299999952316284,
+            0.4399999976158142,
+            0.1899999976158142,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_green",
+      "color": [
+        0.11999999731779099,
+        0.2800000011920929,
+        0.07999999821186066,
+        1.0
+      ],
+      "users": 140,
+      "examples": [
+        "USD_GAP_TREE_000_green",
+        "USD_GAP_TREE_001_green",
+        "USD_GAP_TREE_002_green",
+        "USD_GAP_TREE_003_green",
+        "USD_GAP_TREE_004_green",
+        "USD_GAP_TREE_005_green",
+        "USD_GAP_TREE_006_green"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.2800000011920929,
+            0.07999999821186066,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_ivory",
+      "color": [
+        0.8199999928474426,
+        0.7900000214576721,
+        0.6899999976158142,
+        1.0
+      ],
+      "users": 45,
+      "examples": [
+        "USD_EMPIRE__ivory",
+        "USD_REFINED_FRONTAGE_00__ivory",
+        "USD_REFINED_FRONTAGE_01__ivory",
+        "USD_REFINED_FRONTAGE_02__ivory",
+        "USD_REFINED_FRONTAGE_03__ivory",
+        "USD_REFINED_FRONTAGE_04__ivory",
+        "USD_REFINED_FRONTAGE_05__ivory"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8199999928474426,
+            0.7900000214576721,
+            0.6899999976158142,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_leaf_deep",
+      "color": [
+        0.07500000298023224,
+        0.20000000298023224,
+        0.07500000298023224,
+        1.0
+      ],
+      "users": 140,
+      "examples": [
+        "USD_GAP_TREE_000_leaf_deep",
+        "USD_GAP_TREE_001_leaf_deep",
+        "USD_GAP_TREE_002_leaf_deep",
+        "USD_GAP_TREE_003_leaf_deep",
+        "USD_GAP_TREE_004_leaf_deep",
+        "USD_GAP_TREE_005_leaf_deep",
+        "USD_GAP_TREE_006_leaf_deep"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.07500000298023224,
+            0.20000000298023224,
+            0.07500000298023224,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_leaf_light",
+      "color": [
+        0.23000000417232513,
+        0.3700000047683716,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 140,
+      "examples": [
+        "USD_GAP_TREE_000_leaf_light",
+        "USD_GAP_TREE_001_leaf_light",
+        "USD_GAP_TREE_002_leaf_light",
+        "USD_GAP_TREE_003_leaf_light",
+        "USD_GAP_TREE_004_leaf_light",
+        "USD_GAP_TREE_005_leaf_light",
+        "USD_GAP_TREE_006_leaf_light"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.23000000417232513,
+            0.3700000047683716,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_metal",
+      "color": [
+        0.5699999928474426,
+        0.6499999761581421,
+        0.6800000071525574,
+        1.0
+      ],
+      "users": 46,
+      "examples": [
+        "USD_EMPIRE__metal",
+        "USD_ONEWTC__metal",
+        "USD_REFINED_FRONTAGE_00__metal",
+        "USD_REFINED_FRONTAGE_01__metal",
+        "USD_REFINED_FRONTAGE_02__metal",
+        "USD_REFINED_FRONTAGE_03__metal",
+        "USD_REFINED_FRONTAGE_04__metal"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.5699999928474426,
+            0.6499999761581421,
+            0.6800000071525574,
+            1.0
+          ],
+          "Metallic": 0.3199999928474426,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_red",
+      "color": [
+        0.3400000035762787,
+        0.18000000715255737,
+        0.11999999731779099,
+        1.0
+      ],
+      "users": 8,
+      "examples": [
+        "USD_EMPIRE__red",
+        "USD_REFINED_FRONTAGE_01__red",
+        "USD_REFINED_FRONTAGE_07__red",
+        "USD_CORE_MASONRY_000__red",
+        "USD_CORE_MASONRY_004__red",
+        "USD_CORE_MASONRY_008__red",
+        "USD_CORE_MASONRY_011__red"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.3400000035762787,
+            0.18000000715255737,
+            0.11999999731779099,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_roof",
+      "color": [
+        0.11999999731779099,
+        0.15000000596046448,
+        0.1599999964237213,
+        1.0
+      ],
+      "users": 46,
+      "examples": [
+        "USD_EMPIRE__roof",
+        "USD_ONEWTC__roof",
+        "USD_REFINED_FRONTAGE_00__roof",
+        "USD_REFINED_FRONTAGE_01__roof",
+        "USD_REFINED_FRONTAGE_02__roof",
+        "USD_REFINED_FRONTAGE_03__roof",
+        "USD_REFINED_FRONTAGE_04__roof"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.11999999731779099,
+            0.15000000596046448,
+            0.1599999964237213,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_stone",
+      "color": [
+        0.6000000238418579,
+        0.5699999928474426,
+        0.49000000953674316,
+        1.0
+      ],
+      "users": 93,
+      "examples": [
+        "USD_EMPIRE__blue_roof",
+        "USD_EMPIRE__stone",
+        "USD_EMPIRE_FOUNDATION",
+        "USD_ONEWTC__stone",
+        "USD_ONEWTC_FOUNDATION",
+        "USD_REFINED_FRONTAGE_00__stone",
+        "USD_REFINED_FRONTAGE_00_FOUNDATION"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_white",
+      "color": [
+        0.8600000143051147,
+        0.8600000143051147,
+        0.800000011920929,
+        1.0
+      ],
+      "users": 39,
+      "examples": [
+        "USD_EMPIRE__white",
+        "USD_ONEWTC__white",
+        "USD_REFINED_FRONTAGE_00__white",
+        "USD_REFINED_FRONTAGE_01__white",
+        "USD_REFINED_FRONTAGE_02__white",
+        "USD_REFINED_FRONTAGE_03__white",
+        "USD_REFINED_FRONTAGE_04__white"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8600000143051147,
+            0.8600000143051147,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "USD_wood",
+      "color": [
+        0.20000000298023224,
+        0.11999999731779099,
+        0.07000000029802322,
+        1.0
+      ],
+      "users": 157,
+      "examples": [
+        "USD_REFINED_FRONTAGE_00__wood",
+        "USD_REFINED_FRONTAGE_02__wood",
+        "USD_REFINED_FRONTAGE_04__wood",
+        "USD_REFINED_FRONTAGE_06__wood",
+        "USD_REFINED_FRONTAGE_08__wood",
+        "USD_REFINED_FRONTAGE_10__wood",
+        "USD_REFINED_FRONTAGE_12__wood"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.20000000298023224,
+            0.11999999731779099,
+            0.07000000029802322,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.47999998927116394,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_cardboard",
+      "color": [
+        0.6784313917160034,
+        0.545098066329956,
+        0.3607843220233917,
+        1.0
+      ],
+      "users": 127,
+      "examples": [
+        "W01_NEW_PALLET_BOX_-0.27-0.22",
+        "W01_NEW_PALLET_BOX_-0.270.22",
+        "W01_NEW_PALLET_BOX_0.27-0.22",
+        "W01_NEW_PALLET_BOX_0.270.22",
+        "W01_STORED_PALLET_BOX_-0.27-0.22",
+        "W01_STORED_PALLET_BOX_-0.270.22",
+        "W01_STORED_PALLET_BOX_0.27-0.22"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.41788506507873535,
+            0.2581828534603119,
+            0.10702310502529144,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_cyan",
+      "color": [
+        0.0,
+        0.6705882549285889,
+        0.8823529481887817,
+        1.0
+      ],
+      "users": 82,
+      "examples": [
+        "CH_PICKER_TORSO",
+        "CH_PACKER_TORSO",
+        "CH_LOADER_TORSO",
+        "CH_LOAD_ARM_0",
+        "CH_LOAD_ARM_1",
+        "WH_DOCK_LINTEL_36",
+        "WH_DOCK_LINTEL_68"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.0,
+            0.40724021196365356,
+            0.7529422044754028,
+            1.0
+          ],
+          "Metallic": 0.11999999731779099,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_floor",
+      "color": [
+        0.6431372761726379,
+        0.6745098233222961,
+        0.6823529601097107,
+        1.0
+      ],
+      "users": 1,
+      "examples": [
+        "WAREHOUSE_FLOOR"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.37123769521713257,
+            0.4125426113605499,
+            0.423267662525177,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_gray",
+      "color": [
+        0.47058823704719543,
+        0.47058823704719543,
+        0.4745098054409027,
+        1.0
+      ],
+      "users": 40,
+      "examples": [
+        "W02_INBOUND_JACK_HANDLE",
+        "W02_STORAGE_JACK_HANDLE",
+        "WH_FASCIA_SEAM_37",
+        "WH_FASCIA_SEAM_38",
+        "WH_FASCIA_SEAM_39",
+        "WH_FASCIA_SEAM_40",
+        "WH_FASCIA_SEAM_41"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.18782077729701996,
+            0.18782077729701996,
+            0.19120168685913086,
+            1.0
+          ],
+          "Metallic": 0.20000000298023224,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_light",
+      "color": [
+        0.9019607901573181,
+        0.9647058844566345,
+        1.0,
+        1.0
+      ],
+      "users": 18,
+      "examples": [
+        "WH_LED_36.4_31.5",
+        "WH_LED_36.4_35.8",
+        "WH_LED_40_31.5",
+        "WH_LED_40_35.8",
+        "WH_LED_44_31.5",
+        "WH_LED_44_35.8",
+        "WH_LED_48_31.5"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7912979125976562,
+            0.9215818643569946,
+            1.0,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.30000001192092896,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 3.0
+        }
+      ]
+    },
+    {
+      "name": "WH_navy",
+      "color": [
+        0.09803921729326248,
+        0.18431372940540314,
+        0.24705882370471954,
+        1.0
+      ],
+      "users": 66,
+      "examples": [
+        "WH_FACADE_HEADER",
+        "WH_INBOUND_REAR_PIER",
+        "WH_INBOUND_OVERHEAD_BRACE",
+        "WH_SIDE_REAR_36",
+        "WH_END_HEADER_36",
+        "WH_FRONT_PIER_68",
+        "WH_SIDE_FRONT_68"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.009721217676997185,
+            0.028426039963960648,
+            0.04970656707882881,
+            1.0
+          ],
+          "Metallic": 0.4000000059604645,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_paper",
+      "color": [
+        0.9333333373069763,
+        0.9098039269447327,
+        0.8313725590705872,
+        1.0
+      ],
+      "users": 107,
+      "examples": [
+        "WH_STOCK_LABEL_44_32.5_1_0",
+        "WH_STOCK_LABEL_44_32.5_1_1",
+        "WH_STOCK_LABEL_44_32.5_1_2",
+        "WH_STOCK_LABEL_44_32.5_2_0",
+        "WH_STOCK_LABEL_44_32.5_2_1",
+        "WH_STOCK_LABEL_44_32.5_2_2",
+        "WH_STOCK_LABEL_44_32.5_3_0"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.8549926280975342,
+            0.8069522380828857,
+            0.6583748459815979,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_rubber",
+      "color": [
+        0.10980392247438431,
+        0.13725490868091583,
+        0.15294118225574493,
+        1.0
+      ],
+      "users": 12,
+      "examples": [
+        "WH_DOCK_BUMPER_36_26.9",
+        "WH_DOCK_BUMPER_36_31.1",
+        "WH_DOCK_BUMPER_68_26.9",
+        "WH_DOCK_BUMPER_68_31.1",
+        "WH_W02_INBOUND_JACK_WHEEL_-0.25_-0.22",
+        "WH_W02_INBOUND_JACK_WHEEL_-0.25_0.22",
+        "WH_W02_INBOUND_JACK_WHEEL_0.25_-0.22"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.011612244881689548,
+            0.016807375475764275,
+            0.020288562402129173,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_steel",
+      "color": [
+        0.572549045085907,
+        0.6313725709915161,
+        0.6549019813537598,
+        1.0
+      ],
+      "users": 247,
+      "examples": [
+        "WH_SHUTTER_36_5.98",
+        "WH_SHUTTER_36_6.2",
+        "WH_SHUTTER_36_6.42",
+        "WH_SHUTTER_68_5.98",
+        "WH_SHUTTER_68_6.2",
+        "WH_SHUTTER_68_6.42",
+        "WH_REAR_PANEL_37"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.28744083642959595,
+            0.35640013217926025,
+            0.38642942905426025,
+            1.0
+          ],
+          "Metallic": 0.6499999761581421,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_tape",
+      "color": [
+        0.8549019694328308,
+        0.7647058963775635,
+        0.5921568870544434,
+        1.0
+      ],
+      "users": 388,
+      "examples": [
+        "WH_STOCK_PALLET_44_32.5_1_0_-0.47",
+        "WH_STOCK_PALLET_44_32.5_1_0_0",
+        "WH_STOCK_PALLET_44_32.5_1_0_0.47",
+        "WH_STOCK_TAPE_44_32.5_1_0",
+        "WH_STOCK_PALLET_44_32.5_1_1_-0.47",
+        "WH_STOCK_PALLET_44_32.5_1_1_0",
+        "WH_STOCK_PALLET_44_32.5_1_1_0.47"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7011018991470337,
+            0.5457244515419006,
+            0.30946892499923706,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_white",
+      "color": [
+        0.8980392217636108,
+        0.9215686321258545,
+        0.9215686321258545,
+        1.0
+      ],
+      "users": 68,
+      "examples": [
+        "W06_PACK_TABLE",
+        "WH_DOCK_JAMB_36_26.9",
+        "WH_DOCK_JAMB_36_31.1",
+        "WH_DOCK_JAMB_68_26.9",
+        "WH_DOCK_JAMB_68_31.1",
+        "WH_PARTIAL_ROOF",
+        "WH_LOGO_BACKPLATE"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.7835378050804138,
+            0.8307698965072632,
+            0.8307698965072632,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WH_yellow",
+      "color": [
+        0.95686274766922,
+        0.7372549176216125,
+        0.20000000298023224,
+        1.0
+      ],
+      "users": 36,
+      "examples": [
+        "WH_DOCK_GUARD_36_26.65",
+        "WH_DOCK_GUARD_36_31.4",
+        "WH_DOCK_GUARD_68_26.65",
+        "WH_DOCK_GUARD_68_31.4",
+        "WH_RACK_GUARD_44_32.5_-1.6_-0.85",
+        "WH_RACK_GUARD_44_32.5_-1.6_0.85",
+        "WH_RACK_GUARD_44_32.5_1.6_-0.85"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.9046611785888672,
+            0.5028864741325378,
+            0.03310476616024971,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.44999998807907104,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "white",
+      "color": [
+        0.9100000262260437,
+        0.9300000071525574,
+        0.9100000262260437,
+        1.0
+      ],
+      "users": 11,
+      "examples": [
+        "WAKE_RIBBON_0",
+        "WAKE_RIBBON_1",
+        "PNPLINE_BRAND_SIDE_-0.776",
+        "PNPLINE_BRAND_SIDE_0.776",
+        "TRACTOR_CAB",
+        "A05_SECONDARY_CARGO_SHELL",
+        "A05_SECONDARY_CARGO_SHELL.001"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    },
+    {
+      "name": "yellow",
+      "color": [
+        0.9599999785423279,
+        0.7400000095367432,
+        0.2800000011920929,
+        1.0
+      ],
+      "users": 9,
+      "examples": [
+        "P01_LEG_-25",
+        "P01_LEG_-212",
+        "P01_BOOM_-2",
+        "P01_LEG_3.55",
+        "P01_LEG_3.512",
+        "P01_BOOM_3.5",
+        "P01_SPREADER_FRAME"
+      ],
+      "nodes": [
+        {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.5,
+          "Transmission Weight": 0.0,
+          "Emission Strength": 0.0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "path": "",
+      "packed": false,
+      "colorspace": ""
+    },
+    {
+      "name": "Viewer Node",
+      "path": "",
+      "packed": false,
+      "colorspace": ""
+    }
+  ],
+  "lights": [
+    {
+      "name": "SF_COMPARISON_KEY",
+      "type": "AREA",
+      "energy": 80000.0,
+      "location": [
+        -193.9401092529297,
+        -5.400003910064697,
+        57.33441925048828
+      ]
+    },
+    {
+      "name": "WH_INTERIOR_42",
+      "type": "AREA",
+      "energy": 130.0,
+      "location": [
+        98.68487548828125,
+        34.40639114379883,
+        106.84225463867188
+      ]
+    },
+    {
+      "name": "WH_INTERIOR_50",
+      "type": "AREA",
+      "energy": 130.0,
+      "location": [
+        104.22673034667969,
+        34.072147369384766,
+        101.08238983154297
+      ]
+    },
+    {
+      "name": "WH_INTERIOR_58",
+      "type": "AREA",
+      "energy": 130.0,
+      "location": [
+        109.76858520507812,
+        33.7379035949707,
+        95.32251739501953
+      ]
+    },
+    {
+      "name": "WH_INTERIOR_65",
+      "type": "AREA",
+      "energy": 130.0,
+      "location": [
+        114.61772155761719,
+        33.44544219970703,
+        90.28263092041016
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "frame": 0,
+      "position": [
+        -122.33397674560547,
+        -22.454648971557617,
+        76.91241455078125
+      ],
+      "rotation": [
+        0.5466554164886475,
+        0.6626492142677307,
+        -0.14192761480808258,
+        0.49185407161712646
+      ]
+    },
+    {
+      "frame": 45,
+      "position": [
+        -122.1789779663086,
+        -22.84674072265625,
+        77.4370346069336
+      ],
+      "rotation": [
+        0.709558367729187,
+        0.47929370403289795,
+        -0.25755923986434937,
+        0.44773638248443604
+      ]
+    },
+    {
+      "frame": 110,
+      "position": [
+        -171.4983367919922,
+        -68.85527801513672,
+        56.45683288574219
+      ],
+      "rotation": [
+        0.6670587062835693,
+        0.5424174070358276,
+        -0.4815674126148224,
+        0.17002591490745544
+      ]
+    },
+    {
+      "frame": 200,
+      "position": [
+        -130.3281707763672,
+        -41.360206604003906,
+        94.62275695800781
+      ],
+      "rotation": [
+        0.6674431562423706,
+        0.5628383755683899,
+        -0.48632484674453735,
+        -0.03493856266140938
+      ]
+    },
+    {
+      "frame": 315,
+      "position": [
+        20.805307388305664,
+        -32.79820251464844,
+        152.50674438476562
+      ],
+      "rotation": [
+        0.7460823655128479,
+        0.5704016089439392,
+        -0.09569600224494934,
+        -0.32991722226142883
+      ]
+    },
+    {
+      "frame": 390,
+      "position": [
+        47.11091232299805,
+        -2.1728439331054688,
+        145.9600830078125
+      ],
+      "rotation": [
+        0.6617860794067383,
+        0.5224762558937073,
+        -0.2336515635251999,
+        -0.48421549797058105
+      ]
+    },
+    {
+      "frame": 530,
+      "position": [
+        84.61581420898438,
+        18.21664810180664,
+        123.21016693115234
+      ],
+      "rotation": [
+        0.7988560795783997,
+        0.1763274222612381,
+        -0.09526535123586655,
+        -0.5671526193618774
+      ]
+    },
+    {
+      "frame": 720,
+      "position": [
+        104.53821563720703,
+        22.492956161499023,
+        102.43673706054688
+      ],
+      "rotation": [
+        0.7459442615509033,
+        0.4808427095413208,
+        0.4581916332244873,
+        -0.04917200282216072
+      ]
+    },
+    {
+      "frame": 820,
+      "position": [
+        117.41024017333984,
+        20.676681518554688,
+        89.85009765625
+      ],
+      "rotation": [
+        0.8026511073112488,
+        0.4080004394054413,
+        0.43067407608032227,
+        -0.06169828772544861
+      ]
+    },
+    {
+      "frame": 900,
+      "position": [
+        128.43309020996094,
+        16.469087600708008,
+        82.5845947265625
+      ],
+      "rotation": [
+        0.837198793888092,
+        0.3692251145839691,
+        0.38185757398605347,
+        -0.13021434843540192
+      ]
+    },
+    {
+      "frame": 989,
+      "position": [
+        191.631591796875,
+        -26.950611114501953,
+        112.33135986328125
+      ],
+      "rotation": [
+        0.8124256730079651,
+        0.3572952151298523,
+        0.4601637125015259,
+        0.02353713847696781
+      ]
+    }
+  ],
+  "world": "World.001",
+  "engine": "BLENDER_WORKBENCH",
+  "view": "Filmic",
+  "exposure": 0.0
+}

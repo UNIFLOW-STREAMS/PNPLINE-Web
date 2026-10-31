@@ -1,0 +1,15 @@
+{
+  "render_source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd",
+  "render_source_archive": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\inputs\\render-source-unpacked.blend",
+  "packed_file_sha256": "d70225854020d360ae681db663da692bb6ad67f06212c9b1b877c64f4e644369",
+  "changes": "Only embed byte-identical existing Arial Bold font; no shader, geometry, lighting, camera or animation edit.",
+  "fonts": [
+    {
+      "name": "Arial Bold",
+      "original_path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+      "packed_bytes": 989780,
+      "origin": "Font already referenced by the accepted source blend"
+    }
+  ]
+}

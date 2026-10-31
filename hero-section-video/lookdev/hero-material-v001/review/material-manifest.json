@@ -1,0 +1,5187 @@
+{
+  "materials": [
+    {
+      "name": "BJ_CCTV_Deep_Blue_Glass",
+      "family": "glass",
+      "color": [
+        0.18900000751018523,
+        0.26599999666213986,
+        0.3149999916553497,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "BJ_CCTV_Silver_Blue_Glass",
+      "family": "glass",
+      "color": [
+        0.30100000500679014,
+        0.37800001502037045,
+        0.42000001668930054,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "BJ_Deep_Blue_Mullion",
+      "family": "metal",
+      "color": [
+        0.07500000298023224,
+        0.1599999964237213,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "BJ_Imperial_Vermilion",
+      "family": "paint",
+      "color": [
+        0.4699999988079071,
+        0.03799999877810478,
+        0.026000000536441803,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "BJ_Palace_Glazed_Ochre",
+      "family": "ceramic",
+      "color": [
+        0.8299999833106995,
+        0.4300000071525574,
+        0.07500000298023224,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "BJ_Palace_Ridge_Gold",
+      "family": "metal",
+      "color": [
+        0.9800000190734863,
+        0.6399999856948853,
+        0.1899999976158142,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "BJ_Silver_Lattice",
+      "family": "metal",
+      "color": [
+        0.5899999737739563,
+        0.6399999856948853,
+        0.6800000071525574,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "BJ_Stadium_Inner_Red",
+      "family": "paint",
+      "color": [
+        0.30000001192092896,
+        0.04500000178813934,
+        0.032999999821186066,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "BJ_Temple_Ceramic_Ridges",
+      "family": "ceramic",
+      "color": [
+        0.04500000178813934,
+        0.23999999463558197,
+        0.4399999976158142,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "BJ_Temple_Glazed_Cobalt",
+      "family": "ceramic",
+      "color": [
+        0.017999999225139618,
+        0.11999999731779099,
+        0.28999999165534973,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "BJ_Wall_Grey_Brick",
+      "family": "brick",
+      "color": [
+        0.3799999952316284,
+        0.38999998569488525,
+        0.3700000047683716,
+        1.0
+      ],
+      "roughness": 0.77,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "BJ_Wall_Mortar",
+      "family": "paint",
+      "color": [
+        0.5400000214576721,
+        0.5299999713897705,
+        0.4699999988079071,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "BJ_Warm_Marble",
+      "family": "stone",
+      "color": [
+        0.7699999809265137,
+        0.7599999904632568,
+        0.6800000071525574,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "blue",
+      "family": "paint",
+      "color": [
+        0.02500000037252903,
+        0.30000001192092896,
+        0.6600000262260437,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "cargo",
+      "family": "paper",
+      "color": [
+        0.6600000262260437,
+        0.5099999904632568,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.78,
+      "metallic": 0,
+      "noise_scale": 12,
+      "bump_distance": 0.001
+    },
+    {
+      "name": "CE_bark",
+      "family": "wood",
+      "color": [
+        0.20000000298023224,
+        0.12999999523162842,
+        0.07999999821186066,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "CE_brick",
+      "family": "brick",
+      "color": [
+        0.41999998688697815,
+        0.25999999046325684,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.77,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CE_cyan",
+      "family": "paint",
+      "color": [
+        0.004999999888241291,
+        0.49000000953674316,
+        0.6800000071525574,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CE_dark",
+      "family": "paint",
+      "color": [
+        0.02500000037252903,
+        0.054999999701976776,
+        0.07100000232458115,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CE_glass",
+      "family": "glass",
+      "color": [
+        0.07000000104308128,
+        0.16100000292062758,
+        0.196000000834465,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "CE_ivory",
+      "family": "stone",
+      "color": [
+        0.8299999833106995,
+        0.8199999928474426,
+        0.7300000190734863,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CE_lawn",
+      "family": "grass",
+      "color": [
+        0.25,
+        0.3400000035762787,
+        0.18000000715255737,
+        1.0
+      ],
+      "roughness": 0.88,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.008
+    },
+    {
+      "name": "CE_leaf",
+      "family": "foliage",
+      "color": [
+        0.0987999963760376,
+        0.22039999365806578,
+        0.09119999796152115,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "CE_metal",
+      "family": "metal",
+      "color": [
+        0.6600000262260437,
+        0.7300000190734863,
+        0.7699999809265137,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "CE_paving",
+      "family": "concrete",
+      "color": [
+        0.5899999737739563,
+        0.6200000047683716,
+        0.6000000238418579,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CE_pine",
+      "family": "foliage",
+      "color": [
+        0.07600000113248825,
+        0.1823999959230423,
+        0.1215999972820282,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "CE_red",
+      "family": "paint",
+      "color": [
+        0.5699999928474426,
+        0.10000000149011612,
+        0.054999999701976776,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CE_road",
+      "family": "asphalt",
+      "color": [
+        0.1599999964237213,
+        0.1899999976158142,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "CE_roof",
+      "family": "ceramic",
+      "color": [
+        0.14000000059604645,
+        0.18000000715255737,
+        0.1899999976158142,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CE_stone",
+      "family": "stone",
+      "color": [
+        0.5899999737739563,
+        0.5699999928474426,
+        0.5099999904632568,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CE_yellow",
+      "family": "paint",
+      "color": [
+        0.8899999856948853,
+        0.6299999952316284,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CN_PROXY_MAT_base",
+      "family": "concrete",
+      "color": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CN_PROXY_MAT_glass",
+      "family": "glass",
+      "color": [
+        0.11199999749660491,
+        0.21700000166893005,
+        0.26599999666213986,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "CN_PROXY_MAT_glass_light",
+      "family": "glass",
+      "color": [
+        0.2029999941587448,
+        0.30799999833106995,
+        0.3359999924898147,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "CN_PROXY_MAT_roof",
+      "family": "ceramic",
+      "color": [
+        0.14000000059604645,
+        0.20000000298023224,
+        0.23000000417232513,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CN_PROXY_MAT_sphere",
+      "family": "paint",
+      "color": [
+        0.5600000023841858,
+        0.25,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CN_PROXY_MAT_stem",
+      "family": "paint",
+      "color": [
+        0.6499999761581421,
+        0.6499999761581421,
+        0.6000000238418579,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CN_PROXY_MAT_stone",
+      "family": "stone",
+      "color": [
+        0.6899999976158142,
+        0.6600000262260437,
+        0.5600000023841858,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CN_PROXY_MAT_trim",
+      "family": "paint",
+      "color": [
+        0.8199999928474426,
+        0.7799999713897705,
+        0.6600000262260437,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CNC_UNIFIED_GROUND_Edge",
+      "family": "concrete",
+      "color": [
+        0.7300000190734863,
+        0.7400000095367432,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CNC_UNIFIED_GROUND_Paving",
+      "family": "concrete",
+      "color": [
+        0.6399999856948853,
+        0.6399999856948853,
+        0.5799999833106995,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CNX_dark",
+      "family": "paint",
+      "color": [
+        0.02500000037252903,
+        0.03999999910593033,
+        0.04500000178813934,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CNX_dark_glass",
+      "family": "glass",
+      "color": [
+        0.03150000125169754,
+        0.08399999812245368,
+        0.11900000125169753,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "CNX_glass",
+      "family": "glass",
+      "color": [
+        0.08399999812245368,
+        0.2029999941587448,
+        0.2520000100135803,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "CNX_gold",
+      "family": "metal",
+      "color": [
+        0.8999999761581421,
+        0.5199999809265137,
+        0.09000000357627869,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "CNX_green",
+      "family": "foliage",
+      "color": [
+        0.1292000013589859,
+        0.2356000018119812,
+        0.09119999796152115,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "CNX_ivory",
+      "family": "stone",
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CNX_metal",
+      "family": "metal",
+      "color": [
+        0.5899999737739563,
+        0.6800000071525574,
+        0.699999988079071,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "CNX_paving",
+      "family": "concrete",
+      "color": [
+        0.6399999856948853,
+        0.6399999856948853,
+        0.5799999833106995,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "CNX_red",
+      "family": "paint",
+      "color": [
+        0.550000011920929,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CNX_road",
+      "family": "asphalt",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "CNX_roof",
+      "family": "ceramic",
+      "color": [
+        0.09000000357627869,
+        0.12999999523162842,
+        0.15000000596046448,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CNX_stone",
+      "family": "stone",
+      "color": [
+        0.5799999833106995,
+        0.5699999928474426,
+        0.5099999904632568,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "CNX_water",
+      "family": "water",
+      "color": [
+        0.012,
+        0.052,
+        0.066,
+        1
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "noise_scale": 1.8,
+      "bump_distance": 0.07
+    },
+    {
+      "name": "CNX_white",
+      "family": "paint",
+      "color": [
+        0.8799999952316284,
+        0.8799999952316284,
+        0.8100000023841858,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "CNX_wood",
+      "family": "wood",
+      "color": [
+        0.27000001072883606,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "concrete",
+      "family": "concrete",
+      "color": [
+        0.6800000071525574,
+        0.699999988079071,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "DT_CHARCOAL_TILE",
+      "family": "ceramic",
+      "color": [
+        0.02500000037252903,
+        0.03700000047683716,
+        0.03999999910593033,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "DT_FOLIAGE_0",
+      "family": "foliage",
+      "color": [
+        0.09119999796152115,
+        0.1671999990940094,
+        0.04179999977350235,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "DT_FOLIAGE_1",
+      "family": "foliage",
+      "color": [
+        0.1520000022649765,
+        0.2128000009059906,
+        0.06460000067949295,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "DT_FOLIAGE_2",
+      "family": "foliage",
+      "color": [
+        0.0570000022649765,
+        0.1215999972820282,
+        0.022799999490380286,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "DT_FOLIAGE_3",
+      "family": "foliage",
+      "color": [
+        0.2128000009059906,
+        0.2356000018119812,
+        0.07600000113248825,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "DT_GLASS",
+      "family": "glass",
+      "color": [
+        0.024500000104308126,
+        0.07000000104308128,
+        0.08050000146031379,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "DT_GRASS",
+      "family": "grass",
+      "color": [
+        0.12999999523162842,
+        0.2199999988079071,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.88,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.008
+    },
+    {
+      "name": "DT_PAVING",
+      "family": "concrete",
+      "color": [
+        0.5299999713897705,
+        0.5299999713897705,
+        0.44999998807907104,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "DT_ROCK",
+      "family": "stone",
+      "color": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.28999999165534973,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "land",
+      "family": "concrete",
+      "color": [
+        0.6499999761581421,
+        0.7400000095367432,
+        0.6399999856948853,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "NA_CHARCOAL_TILES",
+      "family": "ceramic",
+      "color": [
+        0.04500000178813934,
+        0.052000001072883606,
+        0.05000000074505806,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "NA_DARK_WINDOWS",
+      "family": "glass",
+      "color": [
+        0.02240000106394291,
+        0.05250000208616257,
+        0.050399997830390925,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "NA_GREY_BRICK",
+      "family": "brick",
+      "color": [
+        0.36000001430511475,
+        0.3799999952316284,
+        0.3499999940395355,
+        1.0
+      ],
+      "roughness": 0.77,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "NA_LEAVES_0",
+      "family": "foliage",
+      "color": [
+        0.09119999796152115,
+        0.1671999990940094,
+        0.03039999932050705,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "NA_LEAVES_1",
+      "family": "foliage",
+      "color": [
+        0.1671999990940094,
+        0.228000009059906,
+        0.0570000022649765,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "NA_LEAVES_2",
+      "family": "foliage",
+      "color": [
+        0.0607999986410141,
+        0.114000004529953,
+        0.019000000283122064,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "NA_PLASTER_IVORY",
+      "family": "stone",
+      "color": [
+        0.6600000262260437,
+        0.6200000047683716,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "NA_PLASTER_PALE",
+      "family": "stone",
+      "color": [
+        0.7599999904632568,
+        0.7200000286102295,
+        0.6200000047683716,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "NA_PLASTER_WARM",
+      "family": "stone",
+      "color": [
+        0.5699999928474426,
+        0.49000000953674316,
+        0.3700000047683716,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "NA_TILE_EDGES",
+      "family": "ceramic",
+      "color": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "NA_TIMBER",
+      "family": "wood",
+      "color": [
+        0.2199999988079071,
+        0.06499999761581421,
+        0.027000000700354576,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "navy",
+      "family": "paint",
+      "color": [
+        0.03999999910593033,
+        0.15000000596046448,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "newcargo",
+      "family": "paper",
+      "color": [
+        0.20000000298023224,
+        0.6000000238418579,
+        0.5699999928474426,
+        1.0
+      ],
+      "roughness": 0.78,
+      "metallic": 0,
+      "noise_scale": 12,
+      "bump_distance": 0.001
+    },
+    {
+      "name": "orange",
+      "family": "paint",
+      "color": [
+        0.9300000071525574,
+        0.47999998927116394,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "pale",
+      "family": "paint",
+      "color": [
+        0.7400000095367432,
+        0.8100000023841858,
+        0.8100000023841858,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PORT blue",
+      "family": "paint",
+      "color": [
+        0.014999999664723873,
+        0.25,
+        0.38999998569488525,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PORT concrete",
+      "family": "concrete",
+      "color": [
+        0.6200000047683716,
+        0.6499999761581421,
+        0.6399999856948853,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "PORT cyan",
+      "family": "paint",
+      "color": [
+        0.02500000037252903,
+        0.46000000834465027,
+        0.6399999856948853,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PORT edge",
+      "family": "concrete",
+      "color": [
+        0.7799999713897705,
+        0.800000011920929,
+        0.7599999904632568,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "PORT glazing",
+      "family": "glass",
+      "color": [
+        0.02799999937415123,
+        0.11199999749660491,
+        0.14699999541044234,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "PORT ivory",
+      "family": "paint",
+      "color": [
+        0.8299999833106995,
+        0.8500000238418579,
+        0.8100000023841858,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PORT rail",
+      "family": "metal",
+      "color": [
+        0.23999999463558197,
+        0.3100000023841858,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "PORT road",
+      "family": "asphalt",
+      "color": [
+        0.2800000011920929,
+        0.33000001311302185,
+        0.3499999940395355,
+        1.0
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "PORT rubber",
+      "family": "rubber",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.03799999877810478,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "PORT safety",
+      "family": "paint",
+      "color": [
+        0.9800000190734863,
+        0.6499999761581421,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_blue",
+      "family": "paint",
+      "color": [
+        0.017999999225139618,
+        0.25,
+        0.3700000047683716,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_concrete",
+      "family": "concrete",
+      "color": [
+        0.4300000071525574,
+        0.4699999988079071,
+        0.4699999988079071,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "PT_cyan",
+      "family": "paint",
+      "color": [
+        0.006000000052154064,
+        0.47999998927116394,
+        0.6700000166893005,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_dark",
+      "family": "paint",
+      "color": [
+        0.03500000014901161,
+        0.04699999839067459,
+        0.052000001072883606,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_glass",
+      "family": "glass",
+      "color": [
+        0.04199999906122684,
+        0.11900000125169753,
+        0.15399999916553497,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "PT_gray",
+      "family": "paint",
+      "color": [
+        0.41999998688697815,
+        0.49000000953674316,
+        0.5199999809265137,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_navy",
+      "family": "paint",
+      "color": [
+        0.03500000014901161,
+        0.09000000357627869,
+        0.14000000059604645,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_steel",
+      "family": "metal",
+      "color": [
+        0.47999998927116394,
+        0.5699999928474426,
+        0.6000000238418579,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "PT_white",
+      "family": "paint",
+      "color": [
+        0.7900000214576721,
+        0.8199999928474426,
+        0.8100000023841858,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "PT_yellow",
+      "family": "paint",
+      "color": [
+        0.9599999785423279,
+        0.6499999761581421,
+        0.09000000357627869,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "road",
+      "family": "asphalt",
+      "color": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.41999998688697815,
+        1.0
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "rubber",
+      "family": "rubber",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "S2_CHINA_base",
+      "family": "concrete",
+      "color": [
+        0.33000001311302185,
+        0.3499999940395355,
+        0.30000001192092896,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "S2_CHINA_gold",
+      "family": "metal",
+      "color": [
+        0.6800000071525574,
+        0.4300000071525574,
+        0.10000000149011612,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "S2_CHINA_red",
+      "family": "paint",
+      "color": [
+        0.6200000047683716,
+        0.03500000014901161,
+        0.02500000037252903,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_bark",
+      "family": "wood",
+      "color": [
+        0.12999999523162842,
+        0.05999999865889549,
+        0.02500000037252903,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "SF_blue",
+      "family": "paint",
+      "color": [
+        0.012000000104308128,
+        0.3400000035762787,
+        0.5799999833106995,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_cloud",
+      "family": "paint",
+      "color": [
+        0.8999999761581421,
+        0.8799999952316284,
+        0.7900000214576721,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_cream",
+      "family": "stone",
+      "color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6499999761581421,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SF_glass",
+      "family": "glass",
+      "color": [
+        0.04199999906122684,
+        0.14000000208616256,
+        0.175,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "SF_gold",
+      "family": "metal",
+      "color": [
+        0.8500000238418579,
+        0.47999998927116394,
+        0.0949999988079071,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "SF_green",
+      "family": "foliage",
+      "color": [
+        0.06840000271797181,
+        0.1215999972820282,
+        0.026600000113248826,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "SF_navy",
+      "family": "paint",
+      "color": [
+        0.00800000037997961,
+        0.18000000715255737,
+        0.30000001192092896,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_pink",
+      "family": "paint",
+      "color": [
+        0.4399999976158142,
+        0.06499999761581421,
+        0.14000000059604645,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_red",
+      "family": "paint",
+      "color": [
+        0.5799999833106995,
+        0.017999999225139618,
+        0.012000000104308128,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SF_REGIONAL_OCEAN",
+      "family": "water",
+      "color": [
+        0.016,
+        0.08,
+        0.115,
+        1
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "noise_scale": 1.8,
+      "bump_distance": 0.07
+    },
+    {
+      "name": "SF_roof",
+      "family": "ceramic",
+      "color": [
+        0.03500000014901161,
+        0.054999999701976776,
+        0.05999999865889549,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SF_silver",
+      "family": "metal",
+      "color": [
+        0.36000001430511475,
+        0.46000000834465027,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "SF_stone",
+      "family": "stone",
+      "color": [
+        0.7200000286102295,
+        0.6399999856948853,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SF_water",
+      "family": "water",
+      "color": [
+        0.012,
+        0.052,
+        0.066,
+        1
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "noise_scale": 1.8,
+      "bump_distance": 0.07
+    },
+    {
+      "name": "SF_wave",
+      "family": "water",
+      "color": [
+        0.012,
+        0.052,
+        0.066,
+        1
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "noise_scale": 1.8,
+      "bump_distance": 0.07
+    },
+    {
+      "name": "SF_white",
+      "family": "paint",
+      "color": [
+        0.9100000262260437,
+        0.9100000262260437,
+        0.8299999833106995,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SHD_dark",
+      "family": "paint",
+      "color": [
+        0.03500000014901161,
+        0.04699999839067459,
+        0.05000000074505806,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SHD_dark_glass",
+      "family": "glass",
+      "color": [
+        0.02799999937415123,
+        0.08399999812245368,
+        0.11900000125169753,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "SHD_glass",
+      "family": "glass",
+      "color": [
+        0.08399999812245368,
+        0.21000000834465027,
+        0.27299998998641967,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "SHD_gold",
+      "family": "metal",
+      "color": [
+        0.8799999952316284,
+        0.550000011920929,
+        0.1599999964237213,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "SHD_green",
+      "family": "foliage",
+      "color": [
+        0.1292000013589859,
+        0.25080000996589663,
+        0.09119999796152115,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "SHD_ivory",
+      "family": "stone",
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.699999988079071,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SHD_leaf_deep",
+      "family": "foliage",
+      "color": [
+        0.07600000113248825,
+        0.19,
+        0.07600000113248825,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "SHD_leaf_light",
+      "family": "foliage",
+      "color": [
+        0.19,
+        0.304000004529953,
+        0.114000004529953,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "SHD_metal",
+      "family": "metal",
+      "color": [
+        0.5799999833106995,
+        0.6700000166893005,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "SHD_roof",
+      "family": "ceramic",
+      "color": [
+        0.0949999988079071,
+        0.12999999523162842,
+        0.15000000596046448,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SHD_stone",
+      "family": "stone",
+      "color": [
+        0.6100000143051147,
+        0.5899999737739563,
+        0.5299999713897705,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "SHD_white",
+      "family": "paint",
+      "color": [
+        0.8799999952316284,
+        0.8700000047683716,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "SHD_wood",
+      "family": "wood",
+      "color": [
+        0.23999999463558197,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "steel",
+      "family": "metal",
+      "color": [
+        0.4300000071525574,
+        0.5199999809265137,
+        0.5699999928474426,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "UC_ASPHALT",
+      "family": "asphalt",
+      "color": [
+        0.08500000089406967,
+        0.10999999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "UC_BARK",
+      "family": "wood",
+      "color": [
+        0.20000000298023224,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "UC_BRICK",
+      "family": "brick",
+      "color": [
+        0.3499999940395355,
+        0.25,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.77,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "UC_BRIDGE_RED",
+      "family": "paint",
+      "color": [
+        0.5699999928474426,
+        0.07500000298023224,
+        0.03500000014901161,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_CONTAINER_TEAL",
+      "family": "paint",
+      "color": [
+        0.03999999910593033,
+        0.3400000035762787,
+        0.36000001430511475,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_GLASS",
+      "family": "glass",
+      "color": [
+        0.05250000208616257,
+        0.12600000500679015,
+        0.16100000292062758,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "UC_HARBOR_BLUE",
+      "family": "paint",
+      "color": [
+        0.014999999664723873,
+        0.41999998688697815,
+        0.6299999952316284,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_IVORY",
+      "family": "stone",
+      "color": [
+        0.8299999833106995,
+        0.8100000023841858,
+        0.7099999785423279,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "UC_LAWN",
+      "family": "grass",
+      "color": [
+        0.1599999964237213,
+        0.27000001072883606,
+        0.10000000149011612,
+        1.0
+      ],
+      "roughness": 0.88,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.008
+    },
+    {
+      "name": "UC_LIMESTONE",
+      "family": "stone",
+      "color": [
+        0.6600000262260437,
+        0.6100000143051147,
+        0.49000000953674316,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "UC_NAVY",
+      "family": "paint",
+      "color": [
+        0.009,
+        0.035,
+        0.065,
+        1
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_PATINA_EDGE",
+      "family": "concrete",
+      "color": [
+        0.18000000715255737,
+        0.47999998927116394,
+        0.38999998569488525,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "UC_SILVER",
+      "family": "metal",
+      "color": [
+        0.7699999809265137,
+        0.8299999833106995,
+        0.8500000238418579,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "UC_TAXI",
+      "family": "paint",
+      "color": [
+        0.9599999785423279,
+        0.6000000238418579,
+        0.03500000014901161,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_TORCH_GOLD",
+      "family": "metal",
+      "color": [
+        0.9200000166893005,
+        0.5,
+        0.03500000014901161,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "UC_TREES",
+      "family": "foliage",
+      "color": [
+        0.06840000271797181,
+        0.1748000031709671,
+        0.0607999986410141,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "UC_VERDIGRIS",
+      "family": "paint",
+      "color": [
+        0.10000000149011612,
+        0.3799999952316284,
+        0.3100000023841858,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_WHITE",
+      "family": "paint",
+      "color": [
+        0.8500000238418579,
+        0.8799999952316284,
+        0.8700000047683716,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "UC_WINDOWS",
+      "family": "glass",
+      "color": [
+        0.024500000104308126,
+        0.04900000020861625,
+        0.06300000250339508,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "USD_dark",
+      "family": "paint",
+      "color": [
+        0.02500000037252903,
+        0.041999999433755875,
+        0.05000000074505806,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "USD_dark_glass",
+      "family": "glass",
+      "color": [
+        0.024500000104308126,
+        0.07349999770522117,
+        0.10500000417232513,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "USD_glass",
+      "family": "glass",
+      "color": [
+        0.07000000104308128,
+        0.18199999332427977,
+        0.23800000250339506,
+        1
+      ],
+      "roughness": 0.24,
+      "metallic": 0,
+      "noise_scale": 1.5,
+      "bump_distance": 0
+    },
+    {
+      "name": "USD_gold",
+      "family": "metal",
+      "color": [
+        0.6299999952316284,
+        0.4399999976158142,
+        0.1899999976158142,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "USD_green",
+      "family": "foliage",
+      "color": [
+        0.09119999796152115,
+        0.2128000009059906,
+        0.0607999986410141,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "USD_ivory",
+      "family": "stone",
+      "color": [
+        0.8199999928474426,
+        0.7900000214576721,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "USD_leaf_deep",
+      "family": "foliage",
+      "color": [
+        0.0570000022649765,
+        0.1520000022649765,
+        0.0570000022649765,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "USD_leaf_light",
+      "family": "foliage",
+      "color": [
+        0.1748000031709671,
+        0.2812000036239624,
+        0.09119999796152115,
+        1
+      ],
+      "roughness": 0.66,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.014
+    },
+    {
+      "name": "USD_metal",
+      "family": "metal",
+      "color": [
+        0.5699999928474426,
+        0.6499999761581421,
+        0.6800000071525574,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "USD_red",
+      "family": "paint",
+      "color": [
+        0.3400000035762787,
+        0.18000000715255737,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "USD_roof",
+      "family": "ceramic",
+      "color": [
+        0.11999999731779099,
+        0.15000000596046448,
+        0.1599999964237213,
+        1.0
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "noise_scale": 6,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "USD_stone",
+      "family": "stone",
+      "color": [
+        0.6000000238418579,
+        0.5699999928474426,
+        0.49000000953674316,
+        1.0
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.002
+    },
+    {
+      "name": "USD_white",
+      "family": "paint",
+      "color": [
+        0.8600000143051147,
+        0.8600000143051147,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "USD_wood",
+      "family": "wood",
+      "color": [
+        0.20000000298023224,
+        0.11999999731779099,
+        0.07000000029802322,
+        1.0
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "noise_scale": 5,
+      "bump_distance": 0.005
+    },
+    {
+      "name": "WH_cardboard",
+      "family": "paper",
+      "color": [
+        0.41788506507873535,
+        0.2581828534603119,
+        0.10702310502529144,
+        1.0
+      ],
+      "roughness": 0.78,
+      "metallic": 0,
+      "noise_scale": 12,
+      "bump_distance": 0.001
+    },
+    {
+      "name": "WH_cyan",
+      "family": "paint",
+      "color": [
+        0.0,
+        0.40724021196365356,
+        0.7529422044754028,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "WH_floor",
+      "family": "concrete",
+      "color": [
+        0.37123769521713257,
+        0.4125426113605499,
+        0.423267662525177,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "noise_scale": 4,
+      "bump_distance": 0.003
+    },
+    {
+      "name": "WH_gray",
+      "family": "paint",
+      "color": [
+        0.18782077729701996,
+        0.18782077729701996,
+        0.19120168685913086,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "WH_light",
+      "family": "light",
+      "color": [
+        0.7912979125976562,
+        0.9215818643569946,
+        1.0,
+        1.0
+      ],
+      "roughness": 0.4,
+      "metallic": 0,
+      "noise_scale": 2,
+      "bump_distance": 0
+    },
+    {
+      "name": "WH_navy",
+      "family": "paint",
+      "color": [
+        0.009721217676997185,
+        0.028426039963960648,
+        0.04970656707882881,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "WH_paper",
+      "family": "paper",
+      "color": [
+        0.8549926280975342,
+        0.8069522380828857,
+        0.6583748459815979,
+        1.0
+      ],
+      "roughness": 0.78,
+      "metallic": 0,
+      "noise_scale": 12,
+      "bump_distance": 0.001
+    },
+    {
+      "name": "WH_rubber",
+      "family": "rubber",
+      "color": [
+        0.011612244881689548,
+        0.016807375475764275,
+        0.020288562402129173,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metallic": 0,
+      "noise_scale": 8,
+      "bump_distance": 0.004
+    },
+    {
+      "name": "WH_steel",
+      "family": "metal",
+      "color": [
+        0.28744083642959595,
+        0.35640013217926025,
+        0.38642942905426025,
+        1.0
+      ],
+      "roughness": 0.29,
+      "metallic": 0.9,
+      "noise_scale": 3,
+      "bump_distance": 0.0004
+    },
+    {
+      "name": "WH_tape",
+      "family": "paint",
+      "color": [
+        0.7011018991470337,
+        0.5457244515419006,
+        0.30946892499923706,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "WH_white",
+      "family": "paint",
+      "color": [
+        0.7835378050804138,
+        0.8307698965072632,
+        0.8307698965072632,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "WH_yellow",
+      "family": "paint",
+      "color": [
+        0.9046611785888672,
+        0.5028864741325378,
+        0.03310476616024971,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "white",
+      "family": "paint",
+      "color": [
+        0.9100000262260437,
+        0.9300000071525574,
+        0.9100000262260437,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    },
+    {
+      "name": "yellow",
+      "family": "paint",
+      "color": [
+        0.9599999785423279,
+        0.7400000095367432,
+        0.2800000011920929,
+        1.0
+      ],
+      "roughness": 0.34,
+      "metallic": 0,
+      "noise_scale": 3,
+      "bump_distance": 0.0007
+    }
+  ],
+  "slot_overrides": [
+    [
+      "SF_STONE_LEFT_window",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.001",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.002",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.003",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.004",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.005",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.006",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.007",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.008",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.009",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.010",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.011",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.012",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.013",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.014",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.015",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.016",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.017",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.018",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.019",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.020",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.021",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.022",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.023",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.024",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.025",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.026",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.027",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.028",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.029",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.030",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.031",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.032",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.033",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.034",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.035",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.036",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.037",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.038",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.039",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.040",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.041",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.042",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.043",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.044",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.045",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.046",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.047",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.048",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.049",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.050",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.051",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.052",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_window.053",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.001",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.002",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.003",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.004",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.005",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.006",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.007",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.008",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.009",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.010",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.011",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.012",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.013",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.014",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.015",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.016",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.017",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.018",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.019",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.020",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.021",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.022",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.023",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_LEFT_REAR_window.024",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.001",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.002",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.003",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.004",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.005",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.006",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.007",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.008",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.009",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.010",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.011",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.012",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.013",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.014",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.015",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.016",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.017",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.018",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.019",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.020",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.021",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.022",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.023",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.024",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.025",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.026",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.027",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.028",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.029",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.030",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.031",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.032",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.033",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.034",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.035",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.036",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.037",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.038",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.039",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.040",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.041",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.042",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.043",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.044",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.045",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.046",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.047",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.048",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.049",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.050",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.051",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.052",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.053",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.054",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.055",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.056",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.057",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.058",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.059",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.060",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.061",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_CENTER_window.062",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.001",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.002",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.003",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.004",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.005",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.006",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.007",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.008",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.009",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.010",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.011",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.012",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.013",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.014",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.015",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.016",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.017",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.018",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.019",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.020",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.021",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.022",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.023",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.024",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.025",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.026",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.027",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.028",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.029",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.030",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.031",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.032",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.033",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.034",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.035",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.036",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.037",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.038",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.039",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.040",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.041",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.042",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.043",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.044",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.045",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.046",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.047",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.048",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_FACADE_window.049",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.001",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.002",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.003",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.004",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.005",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.006",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.007",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.008",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.009",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.010",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.011",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.012",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.013",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.014",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.015",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.016",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.017",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.018",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.019",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.020",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.021",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.022",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "SF_STONE_RIGHT_window.023",
+      "SF_roof",
+      "SF_glass"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_32.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_32.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_44_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_48_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_52_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_56_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_60_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_0_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_1_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_2_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_0_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_0_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_0_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_1_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_1_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_1_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_2_-0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_2_0",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_STOCK_PALLET_64_36.5_3_2_0.47",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_W01_NEW_PALLET_DECK",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "WH_W01_STORED_PALLET_DECK",
+      "WH_tape",
+      "USD_wood"
+    ],
+    [
+      "CN_YARD_STACK_0",
+      "pale",
+      "LD_CORRUGATED_pale"
+    ],
+    [
+      "CN_YARD_STACK_1",
+      "pale",
+      "LD_CORRUGATED_pale"
+    ],
+    [
+      "CN_YARD_STACK_2",
+      "pale",
+      "LD_CORRUGATED_pale"
+    ],
+    [
+      "CN_YARD_STACK_3",
+      "pale",
+      "LD_CORRUGATED_pale"
+    ],
+    [
+      "P03_DECK_-2.6_-1.25",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_UPPER_-2.6_-1.25",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_DECK_-2.6_0.65",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_UPPER_-2.6_0.65",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_DECK_0.8_-1.25",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_DECK_0.8_0.65",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_UPPER_0.8_0.65",
+      "SF_blue",
+      "LD_CORRUGATED_SF_blue"
+    ],
+    [
+      "P03_DECK_4.2_-1.25",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_UPPER_4.2_-1.25",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_DECK_4.2_0.65",
+      "SF_white",
+      "LD_CORRUGATED_SF_white"
+    ],
+    [
+      "P03_UPPER_4.2_0.65",
+      "SF_blue",
+      "LD_CORRUGATED_SF_blue"
+    ],
+    [
+      "A01_SIDE_L",
+      "blue",
+      "LD_CORRUGATED_blue"
+    ],
+    [
+      "A01_SIDE_R",
+      "blue",
+      "LD_CORRUGATED_blue"
+    ],
+    [
+      "A01_FRONT",
+      "blue",
+      "LD_CORRUGATED_blue"
+    ],
+    [
+      "A01_DOOR_LEFT_LEAF",
+      "blue",
+      "LD_CORRUGATED_blue"
+    ],
+    [
+      "A01_DOOR_RIGHT_LEAF",
+      "blue",
+      "LD_CORRUGATED_blue"
+    ]
+  ],
+  "external_assets": [],
+  "notes": [
+    "Architectural glazing is opaque reflective backed glass for existing solid building massing.",
+    "Ocean is opaque layered Fresnel water; no geometry displacement or new water animation.",
+    "Procedural color values are scene-linear; scalar roughness and normal are non-color data."
+  ]
+}

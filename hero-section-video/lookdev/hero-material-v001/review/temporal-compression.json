@@ -1,0 +1,194 @@
+[
+  {
+    "label": "water-glass",
+    "title": "중국 항만 · 유리와 수면",
+    "start": 105,
+    "end": 134,
+    "frames": 30,
+    "fps": 30,
+    "duration": 1.0,
+    "web_crf": 24,
+    "web_bytes": 554425,
+    "ssim_vs_png": 0.97942,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "duration": "1.000000",
+          "nb_frames": "30"
+        }
+      ]
+    },
+    "mean_luma": [
+      154.60909336419752,
+      154.55079089506174,
+      154.50073881172838,
+      154.42421440972223,
+      154.3221976273148,
+      154.20934027777778,
+      154.11587962962963,
+      153.9675424382716,
+      153.86302662037036,
+      153.79170235339507,
+      153.65870177469137,
+      153.5368504050926,
+      153.43722270447532,
+      153.31215615354938,
+      153.15014660493827,
+      153.0482417052469,
+      152.96235387731483,
+      152.79297453703703,
+      152.75903308256173,
+      152.63418354552468,
+      152.48090567129628,
+      152.3890909529321,
+      152.259932966821,
+      152.11770640432098,
+      151.9600925925926,
+      151.89355565200617,
+      151.7881283757716,
+      151.6780256558642,
+      151.5722511574074,
+      151.46206645447532
+    ],
+    "max_adjacent_global_luma_step": 0.16937934027779988,
+    "median_adjacent_global_luma_step": 0.10577449845678188,
+    "highlight_fraction_range": [
+      0.0,
+      0.0
+    ],
+    "temporal_note": "Global luminance is a diagnostic only: camera motion changes the image. Consecutive-frame crops were inspected; real-time playback review remains pending because Computer Use could not verify the Windows browser URL."
+  },
+  {
+    "label": "us-port",
+    "title": "미국 항만 이동",
+    "start": 330,
+    "end": 359,
+    "frames": 30,
+    "fps": 30,
+    "duration": 1.0,
+    "web_crf": 24,
+    "web_bytes": 962955,
+    "ssim_vs_png": 0.975918,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "duration": "1.000000",
+          "nb_frames": "30"
+        }
+      ]
+    },
+    "mean_luma": [
+      158.0251668595679,
+      157.23262201003087,
+      156.5846667631173,
+      156.2327483603395,
+      155.8185691550926,
+      155.4651702353395,
+      155.09870129243828,
+      155.03219762731482,
+      154.79194444444445,
+      154.51822241512346,
+      154.39291666666668,
+      154.05756221064814,
+      153.6841936728395,
+      153.20796296296297,
+      152.71577160493828,
+      152.0117896412037,
+      151.36408468364198,
+      150.66361014660495,
+      149.86049913194444,
+      149.2869386574074,
+      148.75901861496914,
+      148.1151707175926,
+      147.674235628858,
+      147.09151668595678,
+      146.8227917631173,
+      146.3860373263889,
+      145.92974681712963,
+      145.65536361882715,
+      145.37793354552468,
+      145.24458285108025
+    ],
+    "max_adjacent_global_luma_step": 0.8031110146605158,
+    "median_adjacent_global_luma_step": 0.43675443672839265,
+    "highlight_fraction_range": [
+      0.0,
+      0.0
+    ],
+    "temporal_note": "Global luminance is a diagnostic only: camera motion changes the image. Consecutive-frame crops were inspected; real-time playback review remains pending because Computer Use could not verify the Windows browser URL."
+  },
+  {
+    "label": "warehouse",
+    "title": "창고 내부",
+    "start": 710,
+    "end": 739,
+    "frames": 30,
+    "fps": 30,
+    "duration": 1.0,
+    "web_crf": 24,
+    "web_bytes": 532163,
+    "ssim_vs_png": 0.986674,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "duration": "1.000000",
+          "nb_frames": "30"
+        }
+      ]
+    },
+    "mean_luma": [
+      100.01413532021606,
+      98.49297550154321,
+      97.79278742283951,
+      97.53493296682099,
+      97.54276716820988,
+      97.82911940586419,
+      98.17971161265432,
+      98.46524980709877,
+      98.68068479938272,
+      99.06352527006173,
+      99.19276138117284,
+      99.33658275462963,
+      99.78237798996913,
+      100.37237316743827,
+      101.19778935185185,
+      102.47436197916667,
+      103.91995273919753,
+      105.23837721836419,
+      105.89584394290124,
+      106.69499565972222,
+      107.58688368055556,
+      108.25255208333333,
+      108.68737654320988,
+      109.12741512345679,
+      109.51318431712963,
+      109.93052420910495,
+      110.58915557484568,
+      111.69970244984567,
+      112.65848910108025,
+      113.99040943287036
+    ],
+    "max_adjacent_global_luma_step": 1.5211598186728423,
+    "median_adjacent_global_luma_step": 0.5899951774691345,
+    "highlight_fraction_range": [
+      0.0,
+      0.0
+    ],
+    "temporal_note": "Global luminance is a diagnostic only: camera motion changes the image. Consecutive-frame crops were inspected; real-time playback review remains pending because Computer Use could not verify the Windows browser URL."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "profile": "RTX4070 OptiX, 1920x1080, 128 max samples, adaptive .02/min32, OIDN, six CPU threads",
+  "measured_images": 98,
+  "mean_seconds": 11.547722421427927,
+  "median_seconds": 11.291394850006327,
+  "groups": {
+    "after": {
+      "frames": 8,
+      "mean_seconds": 9.736209599999711,
+      "min_seconds": 7.821281499986071,
+      "max_seconds": 13.326342399988789,
+      "first_frame_seconds": 17.32634140001028
+    },
+    "water-glass": {
+      "frames": 30,
+      "mean_seconds": 8.5248241068982,
+      "min_seconds": 8.072203699994134,
+      "max_seconds": 10.16878429998178,
+      "first_frame_seconds": 17.74177610001061
+    },
+    "us-port": {
+      "frames": 30,
+      "mean_seconds": 11.406188399996608,
+      "min_seconds": 8.688157099997625,
+      "max_seconds": 20.341279999993276,
+      "first_frame_seconds": 19.860759000002872
+    },
+    "warehouse": {
+      "frames": 30,
+      "mean_seconds": 14.04946242068826,
+      "min_seconds": 12.210250900010578,
+      "max_seconds": 17.51235989999259,
+      "first_frame_seconds": 23.160680700006196
+    }
+  },
+  "peak_process_rss_gib": 5.573207855224609,
+  "peak_whole_gpu_mib": 9818,
+  "whole_gpu_note": "Includes other running applications; not isolated renderer VRAM.",
+  "estimated_990_frames_hours": 3.17562366589268,
+  "estimated_range_hours": [
+    2.344326629397005,
+    3.8636021656892714
+  ],
+  "estimate_note": "Extrapolation from sampled scenes, not a measured full render. Rendering PNG16 or using saved adaptive .015 may take longer. GPU contention and thermal behavior also affect time."
+}

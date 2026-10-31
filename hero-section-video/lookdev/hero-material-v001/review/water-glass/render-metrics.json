@@ -1,0 +1,302 @@
+[
+  {
+    "frame": 105,
+    "seconds": 17.74177610001061,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0105.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 106,
+    "seconds": 9.925731399998767,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0106.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 107,
+    "seconds": 8.49937870001304,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0107.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 108,
+    "seconds": 8.525840799993603,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0108.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 109,
+    "seconds": 8.115247599984286,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0109.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 110,
+    "seconds": 8.383754299982684,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0110.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 111,
+    "seconds": 8.072203699994134,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0111.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 112,
+    "seconds": 8.45614170000772,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0112.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 113,
+    "seconds": 8.69778019998921,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0113.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 114,
+    "seconds": 8.133280599984573,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0114.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 115,
+    "seconds": 8.391170299990335,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0115.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 116,
+    "seconds": 8.072866900009103,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0116.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 117,
+    "seconds": 8.15631360001862,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0117.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 118,
+    "seconds": 8.387282699986827,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0118.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 119,
+    "seconds": 8.094962500006659,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0119.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 120,
+    "seconds": 8.25463770001079,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0120.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 121,
+    "seconds": 8.189333999995142,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0121.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 122,
+    "seconds": 8.286300100007793,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0122.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 123,
+    "seconds": 8.37353000001167,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0123.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 124,
+    "seconds": 8.472515700006625,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0124.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 125,
+    "seconds": 8.780938800016884,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0125.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 126,
+    "seconds": 10.16878429998178,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0126.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 127,
+    "seconds": 8.437724300019909,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0127.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 128,
+    "seconds": 8.313116300007096,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0128.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 129,
+    "seconds": 8.82408900000155,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0129.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 130,
+    "seconds": 8.770672899991041,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0130.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 131,
+    "seconds": 8.816798799991375,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0131.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 132,
+    "seconds": 8.667551500024274,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0132.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 133,
+    "seconds": 8.41457750002155,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0133.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 134,
+    "seconds": 8.53737320000073,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\water-glass\\f0134.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "status": "Concept proposal for modeling; not implemented in Blender",
+  "generator": "Built-in image_gen; exact model ID not exposed",
+  "skill": "imagegen",
+  "final_images": [
+    "01-dispatch-district-concept.png",
+    "02-modeling-design-board.png"
+  ],
+  "superseded_study": "overview-study-v001.png",
+  "sources": [
+    "Notion S7 fetched via connector; response document timestamp 2026-10-01T09:05:20.156Z",
+    "Local S5/S6 source snapshots",
+    "Master blockout requirements E10-E12/S7",
+    "Local art-direction decision",
+    "User attached blockout layout",
+    "usa-miniature.png style reference"
+  ],
+  "files": [
+    {
+      "file": "01-dispatch-district-concept.png",
+      "bytes": 3719418,
+      "sha256": "1b9b3c1584752ebe14f63359ad2d5c67d44c3fd6b60d280003544a58169466d4",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "file": "02-modeling-design-board.png",
+      "bytes": 3165489,
+      "sha256": "bfe71d92b958781b7df23e52b1e5a91bb31b34c006f835f5bcb925d8e6884695",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "inputs\\blockout-reference.png",
+      "bytes": 962844,
+      "sha256": "dfeaf3c18f240b5e6d7d7400e1db7adcee94b0ab96c4452ef5d022e60f46e33a",
+      "size": [
+        1600,
+        1291
+      ]
+    },
+    {
+      "file": "inputs\\notion-s5-local-snapshot.md",
+      "bytes": 12790,
+      "sha256": "a667343a01c870840d8e700f28e98747858aae7639380f8556108655a4f7ecb8"
+    },
+    {
+      "file": "inputs\\notion-s6-local-snapshot.md",
+      "bytes": 14918,
+      "sha256": "cf4f67afdd02aea6912d7a2cfcaa520d017575625d0a6d185315eb685fc6ff6a"
+    },
+    {
+      "file": "inputs\\notion-s7.md",
+      "bytes": 15556,
+      "sha256": "70f35614414df776acab53104c277fc7ce046260ae1fe68f11b0997c8f5971ef"
+    },
+    {
+      "file": "overview-study-v001.png",
+      "bytes": 3684146,
+      "sha256": "f96340f905a0f7f79d1ecd8a45dca47ba064b176d7f5069cf1e69d104c532188",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "file": "prompt-modeling-board.txt",
+      "bytes": 3171,
+      "sha256": "05fbe574940387ee152a404f46360e4a95ac76a01aa8c3b65d06504ae10bbedf"
+    },
+    {
+      "file": "prompt-overview-revision.txt",
+      "bytes": 1080,
+      "sha256": "c63a3ca228264004d3e22006a6fe81b65e9d97574458f6f3c0b5372fafe4c373"
+    },
+    {
+      "file": "prompt-overview.txt",
+      "bytes": 3576,
+      "sha256": "175b8213733e88ba81a3badd9cb60cbd03391270ad9d9a24031b82ad08df035e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8843,
+      "sha256": "14f629a30b4f1fe40fd5eafdd7162ae3ac3a57c65bb3e4c8c6d992cf19fb5dbd"
+    }
+  ]
+}

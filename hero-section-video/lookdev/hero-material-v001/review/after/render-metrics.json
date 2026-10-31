@@ -1,0 +1,82 @@
+[
+  {
+    "frame": 45,
+    "seconds": 17.32634140001028,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0045.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 110,
+    "seconds": 8.06792349999887,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0110.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 200,
+    "seconds": 7.821281499986071,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0200.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 315,
+    "seconds": 8.090347699995618,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0315.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 390,
+    "seconds": 10.06227100000251,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0390.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 530,
+    "seconds": 9.495468900015112,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0530.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 720,
+    "seconds": 13.326342399988789,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0720.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  },
+  {
+    "frame": 820,
+    "seconds": 11.289832200011006,
+    "width": 1920,
+    "samples": 128,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\after\\f0820.png",
+    "source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd"
+  }
+]

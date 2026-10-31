@@ -1,0 +1,32 @@
+[
+  {
+    "frame": 45,
+    "seconds": 12.80081259997678,
+    "width": 960,
+    "samples": 32,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\draft\\f0045.png",
+    "source_sha256": "8175957a8e96a06e08e4631fe302d4bc3b8682e37949ed764770d5bd87f0595d"
+  },
+  {
+    "frame": 315,
+    "seconds": 2.926367999985814,
+    "width": 960,
+    "samples": 32,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\draft\\f0315.png",
+    "source_sha256": "8175957a8e96a06e08e4631fe302d4bc3b8682e37949ed764770d5bd87f0595d"
+  },
+  {
+    "frame": 720,
+    "seconds": 3.1450020000047516,
+    "width": 960,
+    "samples": 32,
+    "engine": "CYCLES",
+    "device": "OPTIX",
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\draft\\f0720.png",
+    "source_sha256": "8175957a8e96a06e08e4631fe302d4bc3b8682e37949ed764770d5bd87f0595d"
+  }
+]

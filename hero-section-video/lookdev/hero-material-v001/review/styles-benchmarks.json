@@ -1,0 +1,32 @@
+[
+  {
+    "label": "after",
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+      "-t",
+      "6",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\scripts\\render.py",
+      "--",
+      "--frames",
+      "45,110,200,315,390,530,720,820",
+      "--width",
+      "1920",
+      "--samples",
+      "128",
+      "--label",
+      "after"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 94.24715971946716,
+    "peak_process_rss_gib": 5.570438385009766,
+    "system_gpu_memory_mib_min": 6823,
+    "system_gpu_memory_mib_peak": 8478,
+    "gpu_note": "Whole GPU usage including other applications, not isolated Blender VRAM"
+  }
+]

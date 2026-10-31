@@ -1,0 +1,27 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "sha256": "d70225854020d360ae681db663da692bb6ad67f06212c9b1b877c64f4e644369",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\pnpline-us-title-curve-v001.blend",
+  "source_sha256": "0967a10052bbff1a9ce323710ac7710e6c50695ebba1c746d07553ce6be0ebda",
+  "render_source_sha256": "4a986137f3ce54e18d34af3a72ddad8a00ffc4bf96bb218dfc20d72f0fe157dd",
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review.html",
+  "preservation": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\preservation-verification.json",
+  "materials": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\material-manifest.json",
+  "settings": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\review\\render-settings.json",
+  "timing": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\time-map.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "completed": [
+    "Blender material/light/color edits",
+    "8 matched 1080p Cycles before/after frames",
+    "3 x 30-frame 1080p Cycles sequences and H264 compression comparisons",
+    "990-frame camera/motion comparison",
+    "Embedded existing font; no external texture or library dependencies"
+  ],
+  "pending": [
+    "Real-time UI playback review: Computer Use ended because current Windows browser URL could not be verified.",
+    "Live website hero composite review: configured target output/scroll-world-concept-v1/index.html is missing. 1440px and 390px image-size checks delivered."
+  ],
+  "status": "Lookdev files and production-render evidence delivered; real-time UI playback review pending"
+}
