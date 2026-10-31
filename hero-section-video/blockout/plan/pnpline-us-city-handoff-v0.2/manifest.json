@@ -1,0 +1,15 @@
+{
+  "repo": "UNIFLOW-STREAMS/PNPLINE-Web",
+  "checked_head": "b9353e1c99d046d78df4e7d1dc9db2bbad940515",
+  "scope": "Codex task and user reference only; no Blender modification/execution, no .blend or fonts bundled.",
+  "files": {
+    "TASK.md": {
+      "bytes": 26717,
+      "sha256": "a0e7df8a58150464003c0584d4f223562ba7b593e2956caeb606e5e9afb13b3f"
+    },
+    "references/usa-miniature.png": {
+      "bytes": 5781136,
+      "sha256": "e5d78ae9f9c53c064da1e5ac8f225cbe8feb4ee59da20955c42cc99fa975a9a1"
+    }
+  }
+}
