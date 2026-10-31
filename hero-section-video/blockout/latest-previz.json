@@ -1,12 +1,23 @@
 {
-  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\master-previz-crane-height-v002.blend",
-  "sha256": "61a08f1be06c6239ba40fcb40ee35628457fb2f4328432e945eb6316156225e6",
-  "adopted_on": "2026-10-29",
-  "choice": "Raised crane with tighter initial hoist ropes",
-  "delivery": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\delivery.json",
-  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\previz-crane-height-v002\\verification-summary.json",
-  "known_issues": [
-    "Pre-existing S4-S7 warehouse contact geometry preserved; see scoped audit"
-  ],
-  "status": "Adopted; initial rope and collision checks passed"
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\pnpline-us-title-curve-v001.blend",
+  "sha256": "0967a10052bbff1a9ce323710ac7710e6c50695ebba1c746d07553ce6be0ebda",
+  "adopted_on": "2026-11-01",
+  "choice": "USA lettering with reference proportions, no tall plinths, continuous city-wrapping curvature",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\delivery.json",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\review\\verification-summary.json",
+  "review": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\review.html",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "duration_seconds": 33,
+  "source_files_preserved": {
+    "us": "F:\\pnpline-landing\\hero-section-video\\blockout\\port-densification-v001\\pnpline-port-densification-v001.blend",
+    "cn": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-port-camera-v001\\master-cn-port-camera-v001.blend",
+    "integrated_base": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-us-integrated-v001\\pnpline-cn-us-integrated-v001.blend",
+    "city_expansion": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\pnpline-cn-city-expansion-v001.blend",
+    "unified_curvature": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-unified-curvature-v001\\pnpline-cn-unified-curvature-v001.blend",
+    "shanghai_density": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-shanghai-density-v001\\pnpline-cn-shanghai-density-v001.blend",
+    "us_city_density": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-density-v001\\pnpline-us-city-density-v001.blend"
+  },
+  "status": "Current working master; USA title proportions and curved placement verified"
 }

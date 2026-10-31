@@ -1,8 +1,10 @@
 {
- "preservation_v006":{"session_id":17104,"log":"review/preservation-v006.log","exit_code":0},
- "collisions_v006":{"session_id":37080,"log":"review/collisions-v006.log","exit_code":0},
- "visibility_v006":{"session_id":87970,"log":"review/visibility-v006.log"},
- "preview_v006":{"session_id":77075,"log":"review/sequence-v006.log","frames":[288,720]},
- "http_review":{"session_id":52448,"url":"http://127.0.0.1:18784/review.html"},
- "note":"Handles are checkpoints, not proof processes remain live. Poll same handles and inspect authoritative outputs before retrying. Baseline session 56184 completed."
+ "preservation_v010":{"session_id":25894,"log":"review/preservation-v010.log","exit_code":0},
+ "collisions_v010":{"session_id":61404,"log":"review/collisions-v010.log","exit_code":0},
+ "visibility_v010":{"session_id":60187,"log":"review/visibility-v010.log","exit_code":0},
+ "preview_v010":{"session_id":81573,"log":"review/sequence-v010.log","frames":[288,720],"exit_code":0},
+ "reproduction_v010":{"session_id":97650,"log":"review/reproduction-v010.log","exit_code":0},
+ "regression_motion_v010":{"session_id":99799,"log":"review/regression-motion-v010.log","exit_code":0,"inherited_exit_code":1,"inherited_failure":"P01 cable 0 unsupported, same as baseline"},
+ "http_review":{"session_id":52448,"url":"http://127.0.0.1:18784/review-v010.html","observed":"Browser successfully served both full videos and page"},
+ "note":"All rendering/build/validation jobs above were polled terminal. Only the localhost preview server is intentionally retained. Handles are historical evidence, not proof of current liveness."
 }
