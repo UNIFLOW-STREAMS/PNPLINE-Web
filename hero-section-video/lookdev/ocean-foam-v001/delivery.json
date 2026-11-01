@@ -1,0 +1,32 @@
+{
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\pnpline-ocean-foam-v001.blend",
+  "sha256": "91c672bf53357dbba2dd5ca8dc22cf35789865818152fd2a8bf86771221dda8d",
+  "checks": {
+    "motion_sha": "ecafb062e0c23592bf44c1eeb66f7f5283d96bda9d34d2b9c475258e637c8068",
+    "wash": {
+      "0": 0.0,
+      "130": 0.2564494013786316,
+      "201": 1.0,
+      "225": 1.0,
+      "245": 1.0,
+      "340": 0.794633686542511,
+      "410": 0.0,
+      "989": 0.0
+    },
+    "packed_maps": 4
+  },
+  "review": [
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\review\\ocean-201.png",
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\review\\ocean-225.png",
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\review\\ocean-245.png",
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\review\\crossing-30fps.mp4"
+  ],
+  "maps": [
+    "Shelf - coastal falloff.png",
+    "Swell - broken brush crests.png",
+    "Voyage - stern track metres.exr",
+    "Wake - foam and aeration.png"
+  ],
+  "coordinates": "Spherical metre chart. Linear packed data textures; no external runtime dependencies for the new material.",
+  "wake": "R aerated water, G foam lace, B crest height. Track EXR encodes stern distance, lateral coordinate and steering. Baked progress keys must be regenerated if vessel motion changes."
+}

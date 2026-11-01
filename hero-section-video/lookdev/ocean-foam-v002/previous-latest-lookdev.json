@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\pnpline-ocean-foam-v001.blend",
+  "sha256": "91c672bf53357dbba2dd5ca8dc22cf35789865818152fd2a8bf86771221dda8d",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\pacific-islands-v001\\pnpline-pacific-islands-v001.blend",
+  "source_sha256": "d8e5ca5a37b593cff337834367d75bad40ee71c521296952416d953cf98bc7eb",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\review\\ocean-225.png",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\delivery.json",
+  "status": "Stylized Pacific water with island shelves, travelling ripples, speed-driven foam and a continuous grazing-angle sky reflection."
+}
