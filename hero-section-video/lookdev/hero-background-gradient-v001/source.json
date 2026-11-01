@@ -1,0 +1,482 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-lighting-daylight-v002\\pnpline-hero-lighting-daylight-v002.blend",
+  "sha256": "646ecb7e11370ec16cd0f4b54de0ce59f80f4abe85ba05fb2e46ea35455eee88",
+  "invariant": {
+    "scene": {
+      "objects": {
+        "count": 26690,
+        "sha256": "cb4ae1bde4386b23e810f2ebcfc6d4fd6ca399b519788f1e5f45862b86cbbc82"
+      },
+      "meshes": {
+        "count": 20718,
+        "sha256": "f7ce5e493789eba74080c45307fec2f9d91c686ebcc79668d77994d1cf685d6f"
+      },
+      "materials": {
+        "count": 295,
+        "sha256": "1f7ac079d7423d4a549f0f2eea52ecef2c92c87ebeecac218365fd6e875d45ad"
+      },
+      "actions": {
+        "count": 144,
+        "sha256": "67d7819744dea3160c5e47c8f4ffca30b0fc4f0e5aa302da7bb8b4f6751280ed"
+      },
+      "cameras": {
+        "count": 1,
+        "sha256": "c0b608c544e4dd2c06772b1a461f09571617e5bdb1ec9ee4d7bb6b53a5032043"
+      },
+      "scene": {
+        "camera": "CAM_MASTER",
+        "start": 0,
+        "end": 989,
+        "fps": 30,
+        "markers": [
+          [
+            "S1",
+            0
+          ],
+          [
+            "B12",
+            75
+          ],
+          [
+            "S2",
+            75
+          ],
+          [
+            "B23",
+            165
+          ],
+          [
+            "S3",
+            165
+          ],
+          [
+            "B34",
+            315
+          ],
+          [
+            "S4",
+            315
+          ],
+          [
+            "B45",
+            465
+          ],
+          [
+            "S5",
+            465
+          ],
+          [
+            "B56",
+            660
+          ],
+          [
+            "S6",
+            660
+          ],
+          [
+            "B67",
+            870
+          ],
+          [
+            "S7",
+            870
+          ],
+          [
+            "DETAIL_DEFERRED_PICK_HAND",
+            741
+          ],
+          [
+            "DETAIL_DEFERRED_PACK_FOLD_TAPE",
+            801
+          ],
+          [
+            "DETAIL_DEFERRED_LOADING_HAND",
+            841
+          ]
+        ],
+        "color": [
+          "AgX",
+          "AgX - Medium High Contrast",
+          0.30000001192092896,
+          1.0
+        ]
+      }
+    },
+    "lights": [
+      {
+        "name": "SF_COMPARISON_KEY",
+        "power": 0.0,
+        "shape": "DISK",
+        "size": 35.0,
+        "size_y": 0.25,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "location": [
+          -193.9401093,
+          -5.4000039,
+          57.3344193
+        ],
+        "parent": "SF_CN_LAYOUT"
+      },
+      {
+        "name": "WH_INTERIOR_42",
+        "power": 220.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          1.0,
+          0.97,
+          0.92
+        ],
+        "location": [
+          97.9786911,
+          34.2755547,
+          106.8941498
+        ],
+        "parent": "CV_WH_US_FRAME"
+      },
+      {
+        "name": "WH_INTERIOR_50",
+        "power": 220.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          1.0,
+          0.97,
+          0.92
+        ],
+        "location": [
+          104.0623169,
+          34.0593414,
+          101.0544052
+        ],
+        "parent": "CV_WH_US_FRAME"
+      },
+      {
+        "name": "WH_INTERIOR_58",
+        "power": 220.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          1.0,
+          0.97,
+          0.92
+        ],
+        "location": [
+          109.8019333,
+          33.8065567,
+          94.8770447
+        ],
+        "parent": "CV_WH_US_FRAME"
+      },
+      {
+        "name": "WH_INTERIOR_65",
+        "power": 220.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          1.0,
+          0.97,
+          0.92
+        ],
+        "location": [
+          114.5270691,
+          33.5557709,
+          89.2107391
+        ],
+        "parent": "CV_WH_US_FRAME"
+      },
+      {
+        "name": "LD_CN_KEY",
+        "power": 420000.0,
+        "shape": "DISK",
+        "size": 45.0,
+        "size_y": 0.25,
+        "color": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "location": [
+          -200.0,
+          -110.0,
+          135.0
+        ],
+        "parent": null
+      },
+      {
+        "name": "LD_CN_FILL",
+        "power": 18000.0,
+        "shape": "RECTANGLE",
+        "size": 115.0,
+        "size_y": 51.75,
+        "color": [
+          0.9,
+          0.95,
+          1.0
+        ],
+        "location": [
+          -140.0,
+          90.0,
+          155.0
+        ],
+        "parent": null
+      },
+      {
+        "name": "LD_US_KEY",
+        "power": 520000.0,
+        "shape": "DISK",
+        "size": 50.0,
+        "size_y": 0.25,
+        "color": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "location": [
+          -10.0,
+          -80.0,
+          205.0
+        ],
+        "parent": null
+      },
+      {
+        "name": "LD_US_RIM",
+        "power": 55000.0,
+        "shape": "RECTANGLE",
+        "size": 80.0,
+        "size_y": 36.0,
+        "color": [
+          0.9,
+          0.95,
+          1.0
+        ],
+        "location": [
+          180.0,
+          100.0,
+          215.0
+        ],
+        "parent": null
+      },
+      {
+        "name": "WHE | Packing aisle light 39.2",
+        "power": 260.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "location": [
+          96.2924652,
+          29.304575,
+          109.7686081
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "WHE | Packing aisle light 46.4",
+        "power": 260.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "location": [
+          101.898735,
+          29.1500111,
+          104.6282501
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "WHE | Packing aisle light 54.0",
+        "power": 260.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "location": [
+          107.5211258,
+          28.9593258,
+          98.8974686
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "WHE | Packing aisle light 61.5",
+        "power": 260.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "location": [
+          112.7562637,
+          28.7437496,
+          92.9514313
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "WHE | Packing aisle light 66.2",
+        "power": 260.0,
+        "shape": "RECTANGLE",
+        "size": 4.5,
+        "size_y": 1.2000000476837158,
+        "color": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "location": [
+          115.8715286,
+          28.5949478,
+          89.0857086
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "LD_TASK_Pick",
+        "power": 450.0,
+        "shape": "RECTANGLE",
+        "size": 3.200000047683716,
+        "size_y": 1.5,
+        "color": [
+          1.0,
+          0.98,
+          0.95
+        ],
+        "location": [
+          103.0529633,
+          33.4156151,
+          100.0986099
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "LD_TASK_Pack",
+        "power": 550.0,
+        "shape": "RECTANGLE",
+        "size": 3.200000047683716,
+        "size_y": 1.5,
+        "color": [
+          1.0,
+          0.98,
+          0.95
+        ],
+        "location": [
+          107.348053,
+          33.2329636,
+          95.5417023
+        ],
+        "parent": "US_FRAME"
+      },
+      {
+        "name": "LD_TASK_Dispatch",
+        "power": 320.0,
+        "shape": "RECTANGLE",
+        "size": 3.200000047683716,
+        "size_y": 1.5,
+        "color": [
+          1.0,
+          0.98,
+          0.95
+        ],
+        "location": [
+          113.0698547,
+          30.5794144,
+          89.6457291
+        ],
+        "parent": "US_FRAME"
+      }
+    ],
+    "world": [
+      [
+        "Background",
+        "ShaderNodeBackground",
+        [
+          [
+            "Color",
+            [
+              0.82,
+              0.86,
+              0.9,
+              1.0
+            ]
+          ],
+          [
+            "Strength",
+            0.12
+          ],
+          [
+            "Weight",
+            0.0
+          ]
+        ]
+      ],
+      [
+        "World Output",
+        "ShaderNodeOutputWorld",
+        []
+      ],
+      [
+        "Background.001",
+        "ShaderNodeBackground",
+        [
+          [
+            "Color",
+            [
+              0.88,
+              0.91,
+              0.94,
+              1.0
+            ]
+          ],
+          [
+            "Strength",
+            1.0
+          ],
+          [
+            "Weight",
+            0.0
+          ]
+        ]
+      ],
+      [
+        "Light Path",
+        "ShaderNodeLightPath",
+        []
+      ],
+      [
+        "Mix Shader",
+        "ShaderNodeMixShader",
+        [
+          [
+            "Fac",
+            0.5
+          ]
+        ]
+      ]
+    ]
+  }
+}

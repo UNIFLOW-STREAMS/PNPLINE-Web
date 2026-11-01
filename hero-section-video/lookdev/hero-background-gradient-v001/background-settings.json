@@ -1,0 +1,11 @@
+{
+  "top_srgb": "#DFEAF3",
+  "bottom_srgb": "#F3F6F8",
+  "mapping": "Screen coordinates, smoothstep vertical, render-size scaling",
+  "environment": "unchanged from daylight-v002",
+  "packed_image": "BG | Screen gradient - DFEAF3 to F3F6F8",
+  "packed": true,
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.30000001192092896
+}

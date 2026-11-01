@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "source_unchanged": true,
+    "scene_lights_world_preserved": true,
+    "gradient_packed": true,
+    "compositor_present": true,
+    "transparent_film": true
+  },
+  "passed": true,
+  "file": "C:\\tmp\\pnpline-background-gradient-v001\\pnpline-hero-background-gradient-v001.blend",
+  "sha256": "919be9e34a44e8def0bd4fd2bc6ec417f984ac493989f6614b92aaf1960f151c"
+}
