@@ -1,0 +1,82 @@
+{
+  "A": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-A.blend",
+    "sha256": "682972ad03b72c5e894d0f25cc2da07a29767af7ead2030c10aaa09b384b8603",
+    "checks": {
+      "objects": true,
+      "geometry": true,
+      "non_dof_actions": true,
+      "slots": true,
+      "materials": true,
+      "camera_990": true,
+      "timing": true,
+      "dof_990_exact": true,
+      "lighting_world_gradient_color_exact": true,
+      "packed_gradient": true
+    },
+    "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
+    "material_source_sha256": "033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070",
+    "presentation_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-focus-v006\\pnpline-hero-focus-v006.blend",
+    "presentation_source_sha256": "e4e880b1c1358ac6c2ee8f77c033f930583204d699acd230b4310a57513b0a4a",
+    "camera_990_hash": "89b17f34cca303fddad8313eabe6952d37dd1fd72c5809218d2d27fea4709d17",
+    "dof_990_hash": "3f70f8177f7fa9f66ea2338b25a772380839356eddc846167cc72848d8d462d3",
+    "presentation_hash": "48fd7bb05a1b050b41a83b8a38f704a3dbe5134f5dd3b055cce6ff79bf9d0bef",
+    "frame_start": 0,
+    "frame_end": 989,
+    "fps": 30,
+    "production_render": {
+      "engine": "CYCLES",
+      "width": 1920,
+      "height": 1080,
+      "percentage": 100,
+      "samples": 128
+    },
+    "packed_images": [
+      "BG | Screen gradient - DFEAF3 to F3F6F8",
+      "Liberty | isolated lithograph inks (sRGB)",
+      "Shelf - coastal falloff",
+      "Wake - restrained cargo shoulders"
+    ],
+    "missing_images": []
+  },
+  "B": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-B.blend",
+    "sha256": "e15843f3fb67f91fdfe3aba2169e4e4919109d56bc650e7f0b98ddca43a30eee",
+    "checks": {
+      "objects": true,
+      "geometry": true,
+      "non_dof_actions": true,
+      "slots": true,
+      "materials": true,
+      "camera_990": true,
+      "timing": true,
+      "dof_990_exact": true,
+      "lighting_world_gradient_color_exact": true,
+      "packed_gradient": true
+    },
+    "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v005\\pnpline-white-cyan-study-v005.blend",
+    "material_source_sha256": "3d9862a74cf90fd358641a8161608c63faba7748ad31593b02b4b7e31ca3f9c3",
+    "presentation_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-focus-v006\\pnpline-hero-focus-v006.blend",
+    "presentation_source_sha256": "e4e880b1c1358ac6c2ee8f77c033f930583204d699acd230b4310a57513b0a4a",
+    "camera_990_hash": "89b17f34cca303fddad8313eabe6952d37dd1fd72c5809218d2d27fea4709d17",
+    "dof_990_hash": "3f70f8177f7fa9f66ea2338b25a772380839356eddc846167cc72848d8d462d3",
+    "presentation_hash": "48fd7bb05a1b050b41a83b8a38f704a3dbe5134f5dd3b055cce6ff79bf9d0bef",
+    "frame_start": 0,
+    "frame_end": 989,
+    "fps": 30,
+    "production_render": {
+      "engine": "CYCLES",
+      "width": 1920,
+      "height": 1080,
+      "percentage": 100,
+      "samples": 128
+    },
+    "packed_images": [
+      "BG | Screen gradient - DFEAF3 to F3F6F8",
+      "Liberty | isolated lithograph inks (sRGB)",
+      "Shelf - coastal falloff",
+      "Wake - restrained cargo shoulders"
+    ],
+    "missing_images": []
+  }
+}

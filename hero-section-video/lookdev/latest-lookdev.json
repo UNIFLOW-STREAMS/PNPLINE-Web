@@ -1,14 +1,32 @@
 {
-  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
-  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
-  "sha256": "033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070",
-  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\pnpline-ocean-foam-v002.blend",
-  "source_sha256": "3a987444339dd16cfb50ea249c8d103cf1f0c022dd3c6913b6b5567ebf17fef5",
-  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\previous-latest-lookdev.json",
+  "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-A.blend",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-A.blend",
+  "sha256": "682972ad03b72c5e894d0f25cc2da07a29767af7ead2030c10aaa09b384b8603",
+  "variants": {
+    "A": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-A.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-A.blend",
+      "sha256": "682972ad03b72c5e894d0f25cc2da07a29767af7ead2030c10aaa09b384b8603",
+      "description": "Original architectural colors",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\audit\\final-A-verification.json"
+    },
+    "B": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-B.blend",
+      "sha256": "e15843f3fb67f91fdfe3aba2169e4e4919109d56bc650e7f0b98ddca43a30eee",
+      "description": "White and gray architectural materials with cyan brand landmarks and crane heads",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v005\\pnpline-white-cyan-study-v005.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\audit\\final-B-verification.json"
+    }
+  },
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
+  "source_sha256": "033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070",
+  "presentation_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-focus-v006\\pnpline-hero-focus-v006.blend",
   "fps": 30,
   "frame_start": 0,
   "frame_end": 989,
-  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\review\\after-skyline.png",
-  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\delivery.json",
-  "status": "Shanghai SWFC and Jin Mao rebuilt with integrated facades. Oriental Pearl enlarged 35 percent. Reviewed in Cycles, existing camera and animation preserved."
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\delivery.json",
+  "review": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\review\\index.html",
+  "status": "Adopted Hero Section A (color) and B (white/cyan), both with final lighting, DOF and gradient. Default file is A; select variants.B for white/cyan."
 }

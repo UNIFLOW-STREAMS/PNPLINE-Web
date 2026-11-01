@@ -1,4 +1,4 @@
-> **현재 대표 파일:** 미국 창고의 지붕과 외벽을 완성하고 양쪽 하역 출입구를 열어 두었으며, 작업자 프록시 3개를 PNPLINE 인물 모델로 교체했습니다. 현재 SHA-256: `257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f`. 기존 액션 131개와 카메라·애니메이션 대상 130개의 0–989프레임 보존 및 창고 외피 검증 결과는 [창고 외피 납품 기록](../warehouse-envelope-crew-v001/delivery.json)을, 현재 파일 정보는 [최신 납품 기록](../latest-lookdev.json)을 참고하세요. 아래 재질·조명 작업 기록과 해시는 당시 버전의 이력입니다.
+> **현재 채택본:** 원래 건축 색상의 [Hero Section A](../../hero-section-A.blend)와 흰색·청록색 배색의 [Hero Section B](../../hero-section-B.blend)를 사용합니다. 공통 조명·피사계 심도·배경과 현재 파일 해시는 [최신 장면 기록](../../latest-hero-section.json) 및 [최신 납품 기록](../latest-lookdev.json)을 참고하세요. 이 폴더의 pnpline-hero-material-v001.blend는 상하이 랜드마크 수정 단계의 보존본이며 SHA-256은 `033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070`입니다. 아래 재질·조명 설명과 해시는 당시 작업 이력입니다.
 
 # PNPLINE Hero material v001
 
