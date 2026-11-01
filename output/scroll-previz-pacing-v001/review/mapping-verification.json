@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "totalVh": 13,
+  "scrollPxAt1080": 14040,
+  "samples": 20001,
+  "minScrollPerFrame": 0.007472621194523778,
+  "maxBoundarySlopeJump": 5.9244860770718555e-8,
+  "maxInverseError": 1.3969686518677804e-11,
+  "firstFrame": 0,
+  "lastFrame": 989
+}

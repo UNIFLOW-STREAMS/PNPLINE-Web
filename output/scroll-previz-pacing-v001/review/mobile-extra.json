@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "emulated": true,
+  "cpuThrottle": 4,
+  "touchGestures": 4,
+  "stopped": {
+    "mode": "paced",
+    "progress": 0.11702515493984689,
+    "targetFrame": 95,
+    "displayFrame": 95,
+    "ready": true,
+    "painted": true,
+    "failed": false,
+    "usesRVFC": true,
+    "range": 10972,
+    "vh": 844,
+    "currentTime": 3.169333,
+    "seeking": false,
+    "lastPaintAt": 4628.5,
+    "loadMs": 312.09999999403954,
+    "timeSinceMountMs": 4771.9000000059605,
+    "seekable": 33
+  },
+  "navBottomAfterHeightResize": 726,
+  "runtimeReducedMotionToggle": true
+}

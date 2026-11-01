@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "anchor": null,
+      "objects": 17883,
+      "vertices": 2703473
+    },
+    {
+      "anchor": "A01_CONTAINER",
+      "objects": 26,
+      "vertices": 30920
+    },
+    {
+      "anchor": "A04_PRIMARY",
+      "objects": 30,
+      "vertices": 52304
+    },
+    {
+      "anchor": "A05_SECONDARY",
+      "objects": 30,
+      "vertices": 52304
+    },
+    {
+      "anchor": "W01_NEW_PALLET",
+      "objects": 11,
+      "vertices": 88
+    },
+    {
+      "anchor": "W01_STORED_PALLET",
+      "objects": 11,
+      "vertices": 88
+    },
+    {
+      "anchor": "CR_SLEW_JIB",
+      "objects": 28,
+      "vertices": 360
+    },
+    {
+      "anchor": "A02_SHIP",
+      "objects": 52,
+      "vertices": 50418
+    }
+  ],
+  "excluded_dynamic": 46,
+  "policy": "In-memory rigid mesh consolidation only. Original file never saved."
+}

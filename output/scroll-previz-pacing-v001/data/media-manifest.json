@@ -1,0 +1,131 @@
+{
+  "source_blend": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "source_sha256": "033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070",
+  "source_sha256_after": "033d58217379348e4462d5882b0449974cb9242e3bea4f83b1d26c5598613070",
+  "source_unchanged": true,
+  "camera": "CAM_MASTER",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "frame_count": 990,
+  "duration_seconds": 33,
+  "last_frame_timestamp": 32.96666666666667,
+  "renderer": "BLENDER_WORKBENCH",
+  "resolution": [
+    1280,
+    720
+  ],
+  "render_aa": 8,
+  "render_proxy": "In-memory consolidation of static rigid meshes, evaluated modifiers and object material slots. Animated parents retained. No blend saved.",
+  "limitations": [
+    "Not a Cycles lookdev/final render: shader nodes, transparency, water response, DOF and production lighting not represented.",
+    "Rigid mesh consolidation can change shading normals; visual timing and camera review only.",
+    "Landscape 16:9 full frame shown on phones; no new portrait film."
+  ],
+  "render_seconds_first_to_last": 917.6452525999921,
+  "median_interframe_render_seconds": 0.7800654000020586,
+  "videos": [
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\previz-source.mp4",
+      "relative": "assets/previz-source.mp4",
+      "sha256": "716c7fe02b573121d5018bd4c58a434f4994224cb01535c6abbd96667ea56acf",
+      "bytes": 59522466,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "duration": "33.000000",
+            "nb_frames": "990",
+            "nb_read_frames": "990"
+          }
+        ],
+        "format": {
+          "duration": "33.000000",
+          "size": "59522466"
+        }
+      },
+      "gop": 60,
+      "crf": 16,
+      "pixel_format": "yuv420p",
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\previz-scrub.mp4",
+      "relative": "assets/previz-scrub.mp4",
+      "sha256": "6e6938769c128b9571832f2a8a9ef52d78f5cbdcb0963ac52bb5382ade3a8bd1",
+      "bytes": 40758004,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "duration": "33.000000",
+            "nb_frames": "990",
+            "nb_read_frames": "990"
+          }
+        ],
+        "format": {
+          "duration": "33.000000",
+          "size": "40758004"
+        }
+      },
+      "gop": 8,
+      "crf": 20,
+      "pixel_format": "yuv420p",
+      "audio": false,
+      "faststart": true
+    }
+  ],
+  "posters": [
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s1.jpg",
+      "frame": 0,
+      "sha256": "159ad9339de92f3825b7cc85c56d5c039f9b31aa1998b6d4000e84e70213b395"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s2.jpg",
+      "frame": 110,
+      "sha256": "8a7e1103bcd4b52b7e89cf3e1e4f0da45325b1975a8f55bc8975b8201260dc31"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s3.jpg",
+      "frame": 240,
+      "sha256": "721b5e6ed2f186dc0e3454d028905526168aa858a35e773a6018118cabb12d57"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s4.jpg",
+      "frame": 390,
+      "sha256": "d5b3dffd8aa8a7a2e071ea317376a630ed1da758dca49b74ee743ac7ef96202c"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s5.jpg",
+      "frame": 570,
+      "sha256": "2ac720ea790c47ebc9d8cbd350969dd0c7def1f9d659c1725c9efd7fee495509"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s6.jpg",
+      "frame": 740,
+      "sha256": "ca6fa0990a833511f6d48ae758416ff9db195732377383b18a7d293651b3155c"
+    },
+    {
+      "path": "F:\\pnpline-landing\\output\\scroll-previz-pacing-v001\\assets\\s7.jpg",
+      "frame": 920,
+      "sha256": "8ce1d26961a60d09a371ee190d2fccab209b15f1b60226180ca6ceca9d2dd7eb"
+    }
+  ],
+  "old_24fps_map_reused": false,
+  "new_ai_media": false,
+  "external_services_used": false
+}
