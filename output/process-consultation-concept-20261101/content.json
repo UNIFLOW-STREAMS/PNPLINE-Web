@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Share requirements",
+    "summary": "Product, shipping method, volume, destination and IOR needs.",
+    "label": "YOUR REQUIREMENTS",
+    "heading": "Start with what you know.",
+    "detail": "Share the shipment information available. Mark undecided items as not sure.",
+    "items": [
+      [
+        "Product & volume",
+        "Describe your goods and expected quantity, with units."
+      ],
+      [
+        "Shipping method",
+        "FCL, LCL, air freight or not sure."
+      ],
+      [
+        "Destination",
+        "Tell us where the shipment needs to go."
+      ],
+      [
+        "IOR needs",
+        "Indicate whether IOR support is needed or unclear."
+      ]
+    ]
+  },
+  {
+    "title": "Review conditions",
+    "summary": "Acceptance, documents, handling, delivery and responsibilities.",
+    "label": "CONDITIONS REVIEW",
+    "heading": "Agree the scope and handovers.",
+    "detail": "Confirm the acceptance conditions and each party’s responsibilities.",
+    "items": [
+      [
+        "Acceptance & documents",
+        "Confirm the cargo scope and information required."
+      ],
+      [
+        "Warehouse handling",
+        "Review receiving, storage, picking and packing needs."
+      ],
+      [
+        "Delivery requirements",
+        "Confirm the destination and receiving conditions."
+      ],
+      [
+        "Responsibilities",
+        "Identify who handles each part and handover."
+      ]
+    ]
+  },
+  {
+    "title": "Confirm the quote",
+    "summary": "Billing units, included items, additional charges and execution conditions.",
+    "label": "QUOTE REVIEW",
+    "heading": "Know what the quote includes.",
+    "detail": "Confirm these items before arranging the next steps.",
+    "items": [
+      [
+        "Billing units",
+        "How the shipment is calculated and what units are used."
+      ],
+      [
+        "Included services",
+        "Which services, documents and handling are covered."
+      ],
+      [
+        "Additional charges",
+        "Potential extra costs and when they may apply."
+      ],
+      [
+        "Execution conditions",
+        "Confirm the agreed conditions before arranging the next steps."
+      ]
+    ]
+  }
+]

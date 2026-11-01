@@ -1,0 +1,82 @@
+{
+  "preserved": {
+    "title": "Clear scope. A quote built around your operation.",
+    "intro": "Cost depends on your cargo, volume, storage needs and delivery requirements.",
+    "rows": [
+      [
+        "Freight",
+        "Origin, destination and shipment profile",
+        "Shipment"
+      ],
+      [
+        "Receiving",
+        "Inbound format and checking requirements",
+        "Pallet / carton"
+      ],
+      [
+        "Storage",
+        "Inventory size and storage duration",
+        "Space / duration"
+      ],
+      [
+        "Fulfillment",
+        "Order mix, packing and preparation",
+        "Order / item"
+      ],
+      [
+        "Delivery",
+        "Destination, carrier and service needs",
+        "Parcel / shipment"
+      ]
+    ],
+    "scope": "As required",
+    "cta": "Request your quote",
+    "note": "Final scope and charges are confirmed in your quotation."
+  },
+  "supplements": [
+    {
+      "image": "01-import-costs.png",
+      "title": "Make import-related items clear.",
+      "intro": "Confirm the scope, then check how fees and taxes are itemized.",
+      "items": [
+        [
+          "Customs handling",
+          "Confirm the service scope and handling responsibilities."
+        ],
+        [
+          "IOR requirements",
+          "Confirm whether IOR support is needed and what is included."
+        ],
+        [
+          "Service charges",
+          "Ask for the agreed service fees to be listed separately."
+        ],
+        [
+          "Applicable duties & taxes",
+          "Confirm applicable amounts and whether they are included."
+        ]
+      ]
+    },
+    {
+      "image": "02-charging-conditions.png",
+      "title": "Check the conditions behind the quote.",
+      "intro": "Agree when extra charges apply before confirming the plan.",
+      "items": [
+        [
+          "Minimum charges",
+          "Confirm the billing unit and any minimum charge."
+        ],
+        [
+          "Long-term storage",
+          "Confirm the storage period, charging basis and when extra charges begin."
+        ],
+        [
+          "Special handling",
+          "Confirm charges for special packing, labeling, inspection and returns work."
+        ]
+      ],
+      "cta": "Discuss your quote scope",
+      "target": "#quote"
+    }
+  ]
+}
