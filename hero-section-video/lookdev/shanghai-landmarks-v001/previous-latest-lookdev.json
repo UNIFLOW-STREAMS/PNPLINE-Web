@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\pnpline-ocean-foam-v002.blend",
+  "sha256": "3a987444339dd16cfb50ea249c8d103cf1f0c022dd3c6913b6b5567ebf17fef5",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\pnpline-ocean-foam-v001.blend",
+  "source_sha256": "91c672bf53357dbba2dd5ca8dc22cf35789865818152fd2a8bf86771221dda8d",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\review\\ocean-225.png",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\delivery.json",
+  "status": "Restrained cargo ship wake aligned with the animated hull axis. Central foam web, transverse crests and lateral drift removed. Nine-unit feathered tail. Calm low contrast water with broad slow ripples replaces directional white streaks."
+}
