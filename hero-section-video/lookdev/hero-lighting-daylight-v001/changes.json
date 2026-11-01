@@ -1,0 +1,316 @@
+{
+  "lights": [
+    {
+      "name": "SF_COMPARISON_KEY",
+      "power": 0.0,
+      "shape": "DISK",
+      "size": 35.0,
+      "size_y": 0.25,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        -193.9401093,
+        -5.4000039,
+        57.3344193
+      ],
+      "parent": "SF_CN_LAYOUT"
+    },
+    {
+      "name": "WH_INTERIOR_42",
+      "power": 360.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        1.0,
+        0.97,
+        0.92
+      ],
+      "location": [
+        97.9786911,
+        34.2755547,
+        106.8941498
+      ],
+      "parent": "CV_WH_US_FRAME"
+    },
+    {
+      "name": "WH_INTERIOR_50",
+      "power": 360.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        1.0,
+        0.97,
+        0.92
+      ],
+      "location": [
+        104.0623169,
+        34.0593414,
+        101.0544052
+      ],
+      "parent": "CV_WH_US_FRAME"
+    },
+    {
+      "name": "WH_INTERIOR_58",
+      "power": 360.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        1.0,
+        0.97,
+        0.92
+      ],
+      "location": [
+        109.8019333,
+        33.8065567,
+        94.8770447
+      ],
+      "parent": "CV_WH_US_FRAME"
+    },
+    {
+      "name": "WH_INTERIOR_65",
+      "power": 360.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        1.0,
+        0.97,
+        0.92
+      ],
+      "location": [
+        114.5270691,
+        33.5557709,
+        89.2107391
+      ],
+      "parent": "CV_WH_US_FRAME"
+    },
+    {
+      "name": "LD_CN_KEY",
+      "power": 170000.0,
+      "shape": "DISK",
+      "size": 70.0,
+      "size_y": 0.25,
+      "color": [
+        1.0,
+        0.96,
+        0.9
+      ],
+      "location": [
+        -225.0,
+        -55.0,
+        145.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "LD_CN_FILL",
+      "power": 40000.0,
+      "shape": "RECTANGLE",
+      "size": 115.0,
+      "size_y": 51.75,
+      "color": [
+        0.9,
+        0.95,
+        1.0
+      ],
+      "location": [
+        -140.0,
+        90.0,
+        155.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "LD_US_KEY",
+      "power": 200000.0,
+      "shape": "DISK",
+      "size": 75.0,
+      "size_y": 0.25,
+      "color": [
+        1.0,
+        0.96,
+        0.9
+      ],
+      "location": [
+        60.0,
+        -85.0,
+        250.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "LD_US_RIM",
+      "power": 65000.0,
+      "shape": "RECTANGLE",
+      "size": 95.0,
+      "size_y": 42.75,
+      "color": [
+        0.9,
+        0.95,
+        1.0
+      ],
+      "location": [
+        180.0,
+        100.0,
+        215.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "WHE | Packing aisle light 39.2",
+      "power": 440.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        0.96,
+        0.98,
+        1.0
+      ],
+      "location": [
+        96.2924652,
+        29.304575,
+        109.7686081
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "WHE | Packing aisle light 46.4",
+      "power": 440.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        0.96,
+        0.98,
+        1.0
+      ],
+      "location": [
+        101.898735,
+        29.1500111,
+        104.6282501
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "WHE | Packing aisle light 54.0",
+      "power": 440.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        0.96,
+        0.98,
+        1.0
+      ],
+      "location": [
+        107.5211258,
+        28.9593258,
+        98.8974686
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "WHE | Packing aisle light 61.5",
+      "power": 440.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        0.96,
+        0.98,
+        1.0
+      ],
+      "location": [
+        112.7562637,
+        28.7437496,
+        92.9514313
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "WHE | Packing aisle light 66.2",
+      "power": 440.0,
+      "shape": "RECTANGLE",
+      "size": 4.5,
+      "size_y": 1.2000000476837158,
+      "color": [
+        0.96,
+        0.98,
+        1.0
+      ],
+      "location": [
+        115.8715286,
+        28.5949478,
+        89.0857086
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "LD_TASK_Pick",
+      "power": 150.0,
+      "shape": "RECTANGLE",
+      "size": 3.200000047683716,
+      "size_y": 1.5,
+      "color": [
+        1.0,
+        0.98,
+        0.95
+      ],
+      "location": [
+        103.8214951,
+        33.6648178,
+        100.8451157
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "LD_TASK_Pack",
+      "power": 190.0,
+      "shape": "RECTANGLE",
+      "size": 3.200000047683716,
+      "size_y": 1.5,
+      "color": [
+        1.0,
+        0.98,
+        0.95
+      ],
+      "location": [
+        108.148613,
+        33.4808044,
+        96.2542114
+      ],
+      "parent": "US_FRAME"
+    },
+    {
+      "name": "LD_TASK_Dispatch",
+      "power": 120.0,
+      "shape": "RECTANGLE",
+      "size": 3.200000047683716,
+      "size_y": 1.5,
+      "color": [
+        1.0,
+        0.98,
+        0.95
+      ],
+      "location": [
+        113.9130859,
+        30.8074646,
+        90.31427
+      ],
+      "parent": "US_FRAME"
+    }
+  ],
+  "world_strength": 0.28,
+  "world_color": [
+    0.82,
+    0.86,
+    0.9
+  ]
+}

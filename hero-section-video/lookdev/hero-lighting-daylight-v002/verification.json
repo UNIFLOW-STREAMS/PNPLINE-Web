@@ -1,0 +1,124 @@
+{
+  "checks": {
+    "objects": true,
+    "meshes": true,
+    "materials": true,
+    "actions": true,
+    "cameras": true,
+    "scene": true,
+    "source_unchanged": true,
+    "world_strength": true,
+    "LD_CN_KEY": true,
+    "LD_CN_FILL": true,
+    "LD_US_KEY": true,
+    "LD_US_RIM": true
+  },
+  "passed": true,
+  "candidate_sha256": "646ecb7e11370ec16cd0f4b54de0ce59f80f4abe85ba05fb2e46ea35455eee88",
+  "candidate": "C:\\tmp\\pnpline-lighting-daylight-v002\\pnpline-hero-lighting-daylight-v002.blend",
+  "snapshot": {
+    "objects": {
+      "count": 26690,
+      "sha256": "cb4ae1bde4386b23e810f2ebcfc6d4fd6ca399b519788f1e5f45862b86cbbc82"
+    },
+    "meshes": {
+      "count": 20718,
+      "sha256": "f7ce5e493789eba74080c45307fec2f9d91c686ebcc79668d77994d1cf685d6f"
+    },
+    "materials": {
+      "count": 295,
+      "sha256": "1f7ac079d7423d4a549f0f2eea52ecef2c92c87ebeecac218365fd6e875d45ad"
+    },
+    "actions": {
+      "count": 144,
+      "sha256": "67d7819744dea3160c5e47c8f4ffca30b0fc4f0e5aa302da7bb8b4f6751280ed"
+    },
+    "cameras": {
+      "count": 1,
+      "sha256": "c0b608c544e4dd2c06772b1a461f09571617e5bdb1ec9ee4d7bb6b53a5032043"
+    },
+    "scene": {
+      "camera": "CAM_MASTER",
+      "start": 0,
+      "end": 989,
+      "fps": 30,
+      "markers": [
+        [
+          "S1",
+          0
+        ],
+        [
+          "B12",
+          75
+        ],
+        [
+          "S2",
+          75
+        ],
+        [
+          "B23",
+          165
+        ],
+        [
+          "S3",
+          165
+        ],
+        [
+          "B34",
+          315
+        ],
+        [
+          "S4",
+          315
+        ],
+        [
+          "B45",
+          465
+        ],
+        [
+          "S5",
+          465
+        ],
+        [
+          "B56",
+          660
+        ],
+        [
+          "S6",
+          660
+        ],
+        [
+          "B67",
+          870
+        ],
+        [
+          "S7",
+          870
+        ],
+        [
+          "DETAIL_DEFERRED_PICK_HAND",
+          741
+        ],
+        [
+          "DETAIL_DEFERRED_PACK_FOLD_TAPE",
+          801
+        ],
+        [
+          "DETAIL_DEFERRED_LOADING_HAND",
+          841
+        ]
+      ],
+      "color": [
+        "AgX",
+        "AgX - Medium High Contrast",
+        0.30000001192092896,
+        1.0
+      ]
+    }
+  },
+  "added_lights": [
+    "LD_TASK_Pick",
+    "LD_TASK_Pack",
+    "LD_TASK_Dispatch"
+  ]
+}
