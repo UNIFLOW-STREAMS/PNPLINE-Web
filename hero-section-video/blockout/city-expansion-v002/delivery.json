@@ -1,0 +1,199 @@
+{
+  "version": "city-expansion-v002",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\camera-micro-smooth-v001\\pnpline-33s-camera-micro-smooth-v001.blend",
+  "source_sha256": "6b982226d8c8d9581a25bc82105acb8811842a6f4b6f02d0423fc45168b54025",
+  "master_sha256": "61c980107793a30b12a8d6d61f341bd233c864346e247b5c5d90cfb72c19afff",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "33.000000",
+    "nb_read_frames": "990"
+  },
+  "geometry_passed": true,
+  "preservation_passed": true,
+  "protected_original_objects": 10032,
+  "camera_exact_frames": 990,
+  "buildings": 182,
+  "landmarks": 6,
+  "surrounding_buildings": 176,
+  "trees": 66,
+  "new_objects": 1624,
+  "new_vertices": 435139,
+  "new_polygons": 310694,
+  "render_backend": "Blender 5.1 WORKBENCH",
+  "gpu_timing": "not measured",
+  "render_wall_time": {
+    "0-494": {
+      "rendered_frames": 495,
+      "elapsed_seconds": 1240.157
+    },
+    "495-989": {
+      "rendered_frames": 495,
+      "elapsed_seconds": 1258.703
+    }
+  },
+  "files": [
+    {
+      "path": "pnpline-city-expansion-v002.blend",
+      "bytes": 21114935,
+      "sha256": "61c980107793a30b12a8d6d61f341bd233c864346e247b5c5d90cfb72c19afff"
+    },
+    {
+      "path": "preview/pnpline-city-expansion-v002.mp4",
+      "bytes": 20863376,
+      "sha256": "bd5cb697e98ef3ea12d00e3e128635fa8762c46eed33f57134b12f11372a961a"
+    },
+    {
+      "path": "review.html",
+      "bytes": 4493,
+      "sha256": "58af4f02ff1d336e8aac6ad688239e51a72a35b1bfcf605ea6a8fc89f4457996"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5257,
+      "sha256": "fdd8e4aec7ea06767d57f2e749668134d789a6262e0294e704ea166f9f59c0a6"
+    },
+    {
+      "path": "scripts/architecture.py",
+      "bytes": 42821,
+      "sha256": "0e482a7a66297df9f06ba3fc4c999fba21c9bf77be9b7b04834cec07c1655d6a"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 15174,
+      "sha256": "ba24f9224f631d6291adb4c7f6577bb283ce2c6cb068c4e46355518a791c2a91"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 3641,
+      "sha256": "3d4ed80d08f035247dd701afef6cf9555ecb171ae847897a431fccb7d037cfa4"
+    },
+    {
+      "path": "scripts/plan_skyline.py",
+      "bytes": 4576,
+      "sha256": "aa7c3a434f4d2296558a1d6ffbec049a7cb335ac412cbb72a083b4b0511195c6"
+    },
+    {
+      "path": "scripts/render.py",
+      "bytes": 1114,
+      "sha256": "fefc70b7d49d75b429f106cfb92199cfcb25c8962ffa9a2ea7be10aefb90c6fa"
+    },
+    {
+      "path": "scripts/render_views.py",
+      "bytes": 2654,
+      "sha256": "69c322019459704404dcf5122b071aa6ac17415d45a7e3652b1f225c8385cb55"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 2413,
+      "sha256": "3a474bdf57c248720c25a94440e143bfb8a558e139ca59cff62763ec84058323"
+    },
+    {
+      "path": "scripts/verify_geometry.py",
+      "bytes": 11438,
+      "sha256": "6de0bba72477003bd9ca77aba4eb2885348d950ddaf844a166e664ffa2727812"
+    },
+    {
+      "path": "scripts/verify_preservation.py",
+      "bytes": 10175,
+      "sha256": "8f8bded7b017da13c3a67d0257880539f67d9dafe1072ff503c10a1026d99491"
+    },
+    {
+      "path": "scripts/verify_previous_city.py",
+      "bytes": 9342,
+      "sha256": "d62adaba68dfd5b82c0eb75baa4275c93dbcf463cdc7fc7504c50b6860003a25"
+    },
+    {
+      "path": "scripts/dense_layout.json",
+      "bytes": 75370,
+      "sha256": "553e60afe9c647623dd76490c1d28ea9156568a74685e8d3fcf8d2ae0836b37f"
+    },
+    {
+      "path": "scripts/left_skyline_candidates.json",
+      "bytes": 5078,
+      "sha256": "056e3d25b858a7bf89a671de5a6a7fc3a1abdd10967ac3f6113f7129394d103d"
+    },
+    {
+      "path": "preview/arrival-after.png",
+      "bytes": 1162463,
+      "sha256": "e1495ccbb8f2e5161bccf3c52761e03aa1e7ba1089021289b59d349174bd180c"
+    },
+    {
+      "path": "preview/arrival-angle.png",
+      "bytes": 1203973,
+      "sha256": "0ea02f7307c67938660ae8aad045816ab0b4465eda1428bd7762dd1993fecfeb"
+    },
+    {
+      "path": "preview/arrival-before.png",
+      "bytes": 1080169,
+      "sha256": "a88d8857f3810d723274b196121bfded0ad3daa7844da89388ac8944ed9a82d8"
+    },
+    {
+      "path": "preview/bridge-detail.png",
+      "bytes": 2747790,
+      "sha256": "45f7285dd84915c58e1bd352cdc1ddb70e168c12e1ac73c47f44181e39cedc6a"
+    },
+    {
+      "path": "preview/chrysler-detail.png",
+      "bytes": 2450577,
+      "sha256": "67f46c521968df19c74266f0cec03ac2be0811e109b0c863fa7bf5f0a81d94fb"
+    },
+    {
+      "path": "preview/needle-detail.png",
+      "bytes": 2446862,
+      "sha256": "8dabaa5c2063606a5f24837c14152855cd8ef73562ac0783e57550c53cf143ec"
+    },
+    {
+      "path": "preview/overview-oblique.png",
+      "bytes": 2365748,
+      "sha256": "260e036e5307a250fffb2224055ba5235b7f82e486483c7b7202c6d0aaf42e49"
+    },
+    {
+      "path": "preview/overview-top.png",
+      "bytes": 2342916,
+      "sha256": "b4be5d22dbae314a3d64f8dd77e127e5393266bf3f49d0b2323da654f5c65e50"
+    },
+    {
+      "path": "preview/pyramid-detail.png",
+      "bytes": 2811457,
+      "sha256": "233b26c503af65dd57d46ab8f92212489da2c41ca83f15e906bce6661c3f6c3c"
+    },
+    {
+      "path": "preview/rear-district.png",
+      "bytes": 2775490,
+      "sha256": "2f2b7132c15a4216879197ff4da88ac3a205bfe305b645662ae7b04e7cf99dcd"
+    },
+    {
+      "path": "preview/rockefeller-detail.png",
+      "bytes": 2500547,
+      "sha256": "c96ea868d734ac9f8c0c865c58e4425f2e0f69e8d7319766124eadc9bd962b4f"
+    },
+    {
+      "path": "preview/willis-detail.png",
+      "bytes": 2656766,
+      "sha256": "3a73ea69927ca1e076a85ca0faef8ba22aafbf1bdfec0b9c968f9d7db9a7ad95"
+    },
+    {
+      "path": "preview/wtc-detail.png",
+      "bytes": 2580576,
+      "sha256": "72c89aa2ccf3a396dbcc6b1485b12b23c916771c9ce0d2023d7bb69c3be23bd7"
+    }
+  ],
+  "previous_city_preserved": true,
+  "skyline_additions": {
+    "baseline_buildings": 151,
+    "new_buildings": 31,
+    "landmarks": 3,
+    "surrounding_buildings": 28,
+    "coast_buildings": 6,
+    "camera_validation_frames": [
+      300,
+      315,
+      330,
+      349
+    ],
+    "placement_contract": "New skyline frames USA; all accepted building placements and all six roads remain exact."
+  }
+}

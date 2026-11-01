@@ -1,0 +1,4063 @@
+{
+  "schema": "city-expansion-dense-v2",
+  "seed": 83142,
+  "sidewalk_extra": 0.7,
+  "foundation_margin": 0.22,
+  "minimum_building_clearance": 0.5,
+  "roads": [
+    {
+      "name": "CE_NY_BROADWAY",
+      "points": [
+        [
+          -32,
+          52
+        ],
+        [
+          -31,
+          64
+        ],
+        [
+          -22,
+          73
+        ],
+        [
+          -8,
+          81
+        ],
+        [
+          9,
+          80
+        ],
+        [
+          27,
+          73
+        ],
+        [
+          47,
+          64
+        ],
+        [
+          68,
+          53
+        ],
+        [
+          77,
+          48
+        ]
+      ],
+      "width": 2.2,
+      "sidewalk_extra": 0.7
+    },
+    {
+      "name": "CE_NY_MAINLAND_LINK",
+      "points": [
+        [
+          68,
+          53
+        ],
+        [
+          73,
+          46
+        ],
+        [
+          79,
+          43
+        ]
+      ],
+      "width": 2.2,
+      "sidewalk_extra": 0.7
+    },
+    {
+      "name": "CE_SF_BRIDGE_BOULEVARD",
+      "points": [
+        [
+          30,
+          -22
+        ],
+        [
+          30,
+          -29
+        ],
+        [
+          29,
+          -38
+        ],
+        [
+          27,
+          -46
+        ]
+      ],
+      "width": 2.5,
+      "sidewalk_extra": 0.7
+    },
+    {
+      "name": "CE_SF_MARKET_STREET",
+      "points": [
+        [
+          1,
+          -33
+        ],
+        [
+          13,
+          -34
+        ],
+        [
+          29,
+          -38
+        ],
+        [
+          43,
+          -42
+        ],
+        [
+          58,
+          -36
+        ],
+        [
+          64,
+          -29
+        ]
+      ],
+      "width": 2.2,
+      "sidewalk_extra": 0.7
+    },
+    {
+      "name": "CE_CHI_LAKE_SHORE_DRIVE",
+      "points": [
+        [
+          27,
+          -46
+        ],
+        [
+          27.25,
+          -47
+        ],
+        [
+          27.25,
+          -51
+        ],
+        [
+          27,
+          -58
+        ],
+        [
+          30,
+          -63
+        ],
+        [
+          35,
+          -72
+        ],
+        [
+          31,
+          -81
+        ]
+      ],
+      "width": 2.2,
+      "sidewalk_extra": 0.7
+    },
+    {
+      "name": "CE_CHI_WACKER_DRIVE",
+      "points": [
+        [
+          27,
+          -58
+        ],
+        [
+          18,
+          -59
+        ],
+        [
+          8,
+          -62
+        ],
+        [
+          0,
+          -69
+        ],
+        [
+          -1,
+          -78
+        ]
+      ],
+      "width": 2.1,
+      "sidewalk_extra": 0.7
+    }
+  ],
+  "buildings": [
+    {
+      "name": "CE_CHRYSLER",
+      "xy": [
+        30,
+        87
+      ],
+      "size": [
+        5.4,
+        5.4,
+        26
+      ],
+      "yaw": 0,
+      "kind": "masonry",
+      "landmark": "chrysler"
+    },
+    {
+      "name": "CE_TRANSAMERICA",
+      "xy": [
+        43,
+        -33.8
+      ],
+      "size": [
+        6.1,
+        6.1,
+        24
+      ],
+      "yaw": 0,
+      "kind": "masonry",
+      "landmark": "transamerica"
+    },
+    {
+      "name": "CE_NY_DENSE_00",
+      "xy": [
+        52.0415,
+        52.0575
+      ],
+      "size": [
+        4.08,
+        4.37,
+        4.49
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_01",
+      "xy": [
+        37.7258,
+        78.7922
+      ],
+      "size": [
+        3.62,
+        3.69,
+        3.7
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_02",
+      "xy": [
+        71.0042,
+        59.5583
+      ],
+      "size": [
+        3.48,
+        3.7,
+        3.72
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_03",
+      "xy": [
+        -21.7535,
+        80.9294
+      ],
+      "size": [
+        3.2,
+        3.43,
+        6.99
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_04",
+      "xy": [
+        63.6436,
+        49.8042
+      ],
+      "size": [
+        3.87,
+        3.53,
+        5.9
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_05",
+      "xy": [
+        75.4815,
+        54.0178
+      ],
+      "size": [
+        3.75,
+        3.65,
+        5.81
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_06",
+      "xy": [
+        17.3314,
+        86.4768
+      ],
+      "size": [
+        3.71,
+        3.88,
+        4.24
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_07",
+      "xy": [
+        24.5874,
+        69.035
+      ],
+      "size": [
+        3.24,
+        3.22,
+        3.97
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_08",
+      "xy": [
+        2.492,
+        88.849
+      ],
+      "size": [
+        4.15,
+        3.8,
+        4.96
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_09",
+      "xy": [
+        -29.9461,
+        76.6988
+      ],
+      "size": [
+        2.85,
+        3.39,
+        4.87
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_10",
+      "xy": [
+        -8.1242,
+        85.3469
+      ],
+      "size": [
+        3.71,
+        3.05,
+        3.61
+      ],
+      "yaw": -0.31,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_11",
+      "xy": [
+        25.9976,
+        78.9517
+      ],
+      "size": [
+        3.25,
+        3.46,
+        5.57
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_12",
+      "xy": [
+        42.678,
+        71.7926
+      ],
+      "size": [
+        3.3,
+        3.43,
+        3.59
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_13",
+      "xy": [
+        71.6345,
+        66.2476
+      ],
+      "size": [
+        3.69,
+        4.08,
+        5.6
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_14",
+      "xy": [
+        52.8301,
+        70.4513
+      ],
+      "size": [
+        2.89,
+        3.9,
+        5.96
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_15",
+      "xy": [
+        31.4296,
+        58.6658
+      ],
+      "size": [
+        3.01,
+        3.21,
+        3.29
+      ],
+      "yaw": -0.31,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_16",
+      "xy": [
+        -16.705,
+        84.7681
+      ],
+      "size": [
+        4.24,
+        4.19,
+        3.9
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_17",
+      "xy": [
+        33.7957,
+        74.9611
+      ],
+      "size": [
+        3.05,
+        3.3,
+        4.05
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_18",
+      "xy": [
+        9.4625,
+        89.1589
+      ],
+      "size": [
+        3.5,
+        3.92,
+        5.41
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_19",
+      "xy": [
+        63.2093,
+        68.8454
+      ],
+      "size": [
+        3.47,
+        3.67,
+        3.98
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_20",
+      "xy": [
+        46.684,
+        55.0966
+      ],
+      "size": [
+        3.59,
+        3.63,
+        6.16
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_21",
+      "xy": [
+        55.4794,
+        74.4577
+      ],
+      "size": [
+        3.9,
+        3.0,
+        4.98
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_22",
+      "xy": [
+        2.8888,
+        75.8241
+      ],
+      "size": [
+        3.53,
+        4.02,
+        6.92
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_23",
+      "xy": [
+        -3.1108,
+        85.3893
+      ],
+      "size": [
+        3.48,
+        3.91,
+        6.91
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_24",
+      "xy": [
+        47.8428,
+        78.6629
+      ],
+      "size": [
+        3.38,
+        4.21,
+        3.78
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_25",
+      "xy": [
+        56.1979,
+        65.9644
+      ],
+      "size": [
+        3.97,
+        3.81,
+        5.78
+      ],
+      "yaw": -0.31,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_26",
+      "xy": [
+        40.0214,
+        56.9923
+      ],
+      "size": [
+        3.2,
+        3.12,
+        4.42
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_27",
+      "xy": [
+        65.3459,
+        61.7064
+      ],
+      "size": [
+        3.29,
+        3.96,
+        4.57
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_28",
+      "xy": [
+        18.9558,
+        70.6013
+      ],
+      "size": [
+        3.17,
+        3.05,
+        6.19
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_29",
+      "xy": [
+        -7.1115,
+        90.2032
+      ],
+      "size": [
+        3.79,
+        3.84,
+        6.71
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_30",
+      "xy": [
+        57.4179,
+        52.3504
+      ],
+      "size": [
+        3.14,
+        4.21,
+        3.27
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_31",
+      "xy": [
+        -35.0364,
+        67.9422
+      ],
+      "size": [
+        3.78,
+        3.14,
+        6.56
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_32",
+      "xy": [
+        77.099,
+        58.3248
+      ],
+      "size": [
+        3.14,
+        3.17,
+        6.45
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_33",
+      "xy": [
+        47.3119,
+        68.8091
+      ],
+      "size": [
+        3.13,
+        3.06,
+        6.24
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_34",
+      "xy": [
+        41.9163,
+        82.9019
+      ],
+      "size": [
+        3.42,
+        3.23,
+        6.15
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_35",
+      "xy": [
+        22.0342,
+        84.0776
+      ],
+      "size": [
+        3.05,
+        3.67,
+        6.32
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_36",
+      "xy": [
+        -35.9417,
+        58.1893
+      ],
+      "size": [
+        3.82,
+        3.85,
+        5.4
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_37",
+      "xy": [
+        6.9789,
+        84.5182
+      ],
+      "size": [
+        3.75,
+        3.29,
+        4.45
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_38",
+      "xy": [
+        11.2234,
+        72.6731
+      ],
+      "size": [
+        3.32,
+        3.19,
+        4.84
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_39",
+      "xy": [
+        -31.8145,
+        72.6131
+      ],
+      "size": [
+        4.01,
+        3.31,
+        4.31
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_40",
+      "xy": [
+        28.1539,
+        63.6593
+      ],
+      "size": [
+        3.63,
+        3.73,
+        5.46
+      ],
+      "yaw": -0.25,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_41",
+      "xy": [
+        34.7941,
+        63.2735
+      ],
+      "size": [
+        3.98,
+        4.25,
+        5.52
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_42",
+      "xy": [
+        39.5543,
+        61.5823
+      ],
+      "size": [
+        3.81,
+        3.21,
+        3.81
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_43",
+      "xy": [
+        61.2241,
+        63.6478
+      ],
+      "size": [
+        3.65,
+        3.92,
+        4.2
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_44",
+      "xy": [
+        -23.3861,
+        63.6345
+      ],
+      "size": [
+        3.77,
+        3.29,
+        3.34
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_45",
+      "xy": [
+        16.2369,
+        81.6481
+      ],
+      "size": [
+        4.19,
+        3.2,
+        3.85
+      ],
+      "yaw": -0.19,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_46",
+      "xy": [
+        -26.986,
+        81.7896
+      ],
+      "size": [
+        3.86,
+        3.64,
+        4.44
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_47",
+      "xy": [
+        78.7563,
+        62.3699
+      ],
+      "size": [
+        4.04,
+        3.26,
+        3.51
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_48",
+      "xy": [
+        79.9295,
+        52.3347
+      ],
+      "size": [
+        3.07,
+        3.09,
+        3.46
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_49",
+      "xy": [
+        -12.788,
+        88.9388
+      ],
+      "size": [
+        2.97,
+        3.07,
+        4.55
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_50",
+      "xy": [
+        -19.0987,
+        67.7772
+      ],
+      "size": [
+        2.97,
+        3.03,
+        4.33
+      ],
+      "yaw": -0.31,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_51",
+      "xy": [
+        42.4503,
+        77.9988
+      ],
+      "size": [
+        3.06,
+        3.77,
+        6.6
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_52",
+      "xy": [
+        21.8531,
+        90.4374
+      ],
+      "size": [
+        2.87,
+        3.07,
+        3.58
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_53",
+      "xy": [
+        37.9171,
+        84.5362
+      ],
+      "size": [
+        2.98,
+        4.14,
+        3.29
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_54",
+      "xy": [
+        32.9633,
+        79.4987
+      ],
+      "size": [
+        3.2,
+        3.18,
+        3.78
+      ],
+      "yaw": -0.19,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_55",
+      "xy": [
+        35.5037,
+        57.0841
+      ],
+      "size": [
+        3.32,
+        3.28,
+        5.73
+      ],
+      "yaw": -0.19,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_56",
+      "xy": [
+        -26.0628,
+        75.3118
+      ],
+      "size": [
+        3.02,
+        3.58,
+        4.67
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_57",
+      "xy": [
+        51.7734,
+        57.1509
+      ],
+      "size": [
+        3.0,
+        2.8,
+        4.1
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_58",
+      "xy": [
+        -36.8076,
+        63.8364
+      ],
+      "size": [
+        3.17,
+        3.49,
+        3.76
+      ],
+      "yaw": -0.25,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_NY_DENSE_59",
+      "xy": [
+        67.8152,
+        68.4012
+      ],
+      "size": [
+        2.6,
+        3.6,
+        3.22
+      ],
+      "yaw": -0.31,
+      "kind": "masonry",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_00",
+      "xy": [
+        25.52,
+        -31.2594
+      ],
+      "size": [
+        2.92,
+        2.84,
+        3.76
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_01",
+      "xy": [
+        20.6429,
+        -27.5667
+      ],
+      "size": [
+        2.68,
+        3.07,
+        4.9
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_02",
+      "xy": [
+        10.1686,
+        -45.9528
+      ],
+      "size": [
+        3.05,
+        3.29,
+        3.73
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_03",
+      "xy": [
+        48.4041,
+        -45.6232
+      ],
+      "size": [
+        3.15,
+        3.04,
+        3.88
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_04",
+      "xy": [
+        18.5082,
+        -44.9472
+      ],
+      "size": [
+        3.13,
+        3.06,
+        3.34
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_05",
+      "xy": [
+        0.8114,
+        -38.5195
+      ],
+      "size": [
+        2.74,
+        3.21,
+        3.52
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_06",
+      "xy": [
+        12.3033,
+        -28.5723
+      ],
+      "size": [
+        2.67,
+        3.28,
+        4.21
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_07",
+      "xy": [
+        52.5739,
+        -45.1204
+      ],
+      "size": [
+        2.79,
+        3.07,
+        3.39
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_08",
+      "xy": [
+        4.9812,
+        -38.0167
+      ],
+      "size": [
+        3.12,
+        3.07,
+        4.38
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_09",
+      "xy": [
+        35.8947,
+        -47.1316
+      ],
+      "size": [
+        2.73,
+        3.02,
+        3.41
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_10",
+      "xy": [
+        58.8784,
+        -27.2371
+      ],
+      "size": [
+        3.01,
+        2.93,
+        5.48
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_11",
+      "xy": [
+        41.1816,
+        -20.8094
+      ],
+      "size": [
+        3.12,
+        3.28,
+        4.24
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_12",
+      "xy": [
+        31.7249,
+        -47.6344
+      ],
+      "size": [
+        3.12,
+        3.29,
+        3.98
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_13",
+      "xy": [
+        58.171,
+        -23.0416
+      ],
+      "size": [
+        2.98,
+        3.03,
+        4.21
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_14",
+      "xy": [
+        5.6886,
+        -42.2122
+      ],
+      "size": [
+        2.91,
+        2.95,
+        4.0
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_15",
+      "xy": [
+        50.5388,
+        -28.2427
+      ],
+      "size": [
+        3.15,
+        3.12,
+        5.12
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_16",
+      "xy": [
+        40.0645,
+        -46.6288
+      ],
+      "size": [
+        3.16,
+        3.09,
+        3.86
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_17",
+      "xy": [
+        14.3384,
+        -45.45
+      ],
+      "size": [
+        2.86,
+        3.15,
+        4.18
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_18",
+      "xy": [
+        37.322,
+        -25.5555
+      ],
+      "size": [
+        3.04,
+        2.81,
+        5.0
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_19",
+      "xy": [
+        54.7086,
+        -27.7399
+      ],
+      "size": [
+        2.96,
+        3.01,
+        4.71
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_20",
+      "xy": [
+        44.2343,
+        -46.126
+      ],
+      "size": [
+        2.66,
+        2.83,
+        5.24
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_21",
+      "xy": [
+        9.8584,
+        -41.7095
+      ],
+      "size": [
+        2.76,
+        3.29,
+        4.93
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_22",
+      "xy": [
+        50.849,
+        -32.486
+      ],
+      "size": [
+        3.02,
+        3.17,
+        3.39
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_23",
+      "xy": [
+        37.0118,
+        -21.3122
+      ],
+      "size": [
+        3.2,
+        3.22,
+        4.91
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_24",
+      "xy": [
+        14.0282,
+        -41.2067
+      ],
+      "size": [
+        2.8,
+        2.99,
+        4.28
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_25",
+      "xy": [
+        54.0012,
+        -23.5444
+      ],
+      "size": [
+        2.79,
+        2.92,
+        4.37
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_26",
+      "xy": [
+        45.6616,
+        -24.55
+      ],
+      "size": [
+        3.16,
+        2.84,
+        5.18
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_27",
+      "xy": [
+        18.1979,
+        -40.7039
+      ],
+      "size": [
+        3.04,
+        3.15,
+        4.82
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_28",
+      "xy": [
+        16.4731,
+        -28.0695
+      ],
+      "size": [
+        2.78,
+        3.24,
+        5.49
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_29",
+      "xy": [
+        23.3853,
+        -48.64
+      ],
+      "size": [
+        2.69,
+        3.29,
+        3.56
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_30",
+      "xy": [
+        41.4918,
+        -25.0528
+      ],
+      "size": [
+        3.13,
+        3.26,
+        4.39
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_31",
+      "xy": [
+        49.8314,
+        -24.0472
+      ],
+      "size": [
+        3.19,
+        2.98,
+        3.87
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_32",
+      "xy": [
+        22.678,
+        -44.4445
+      ],
+      "size": [
+        2.79,
+        2.89,
+        4.15
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_33",
+      "xy": [
+        55.0188,
+        -31.9833
+      ],
+      "size": [
+        2.93,
+        3.0,
+        5.48
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_34",
+      "xy": [
+        24.8126,
+        -27.0639
+      ],
+      "size": [
+        3.14,
+        3.13,
+        4.86
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_35",
+      "xy": [
+        8.1335,
+        -29.0751
+      ],
+      "size": [
+        2.97,
+        3.2,
+        3.69
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_36",
+      "xy": [
+        2.4098,
+        -28.8247
+      ],
+      "size": [
+        2.77,
+        2.81,
+        4.59
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_37",
+      "xy": [
+        36,
+        -57
+      ],
+      "size": [
+        2.63,
+        3.06,
+        5.33
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_SF_DENSE_38",
+      "xy": [
+        -1.4164,
+        -32.4308
+      ],
+      "size": [
+        2.8,
+        3.05,
+        4.57
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_39",
+      "xy": [
+        56.3584,
+        -42.584
+      ],
+      "size": [
+        2.88,
+        2.88,
+        5.04
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_40",
+      "xy": [
+        9.3307,
+        -37.6913
+      ],
+      "size": [
+        2.87,
+        2.82,
+        5.3
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_41",
+      "xy": [
+        34.1394,
+        -29.7849
+      ],
+      "size": [
+        2.78,
+        2.94,
+        4.87
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_42",
+      "xy": [
+        20.4432,
+        -31.582
+      ],
+      "size": [
+        2.85,
+        2.8,
+        4.61
+      ],
+      "yaw": 0.12,
+      "kind": "office",
+      "landmark": null
+    },
+    {
+      "name": "CE_SF_DENSE_43",
+      "xy": [
+        45.4475,
+        -20.5241
+      ],
+      "size": [
+        2.69,
+        2.88,
+        3.34
+      ],
+      "yaw": 0.12,
+      "kind": "rowhouse",
+      "landmark": null
+    },
+    {
+      "name": "CE_WILLIS",
+      "xy": [
+        18,
+        -70
+      ],
+      "size": [
+        7.2,
+        7.2,
+        28
+      ],
+      "yaw": 0,
+      "kind": "office",
+      "landmark": "willis",
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_00",
+      "xy": [
+        9.8676,
+        -77.685
+      ],
+      "size": [
+        3.43,
+        4.0,
+        5.75
+      ],
+      "yaw": 0.16,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_01",
+      "xy": [
+        10.5073,
+        -83.8739
+      ],
+      "size": [
+        3.21,
+        3.11,
+        4.56
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_02",
+      "xy": [
+        40.2855,
+        -65.7029
+      ],
+      "size": [
+        3.02,
+        3.58,
+        5.99
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_03",
+      "xy": [
+        -6.7738,
+        -64.5739
+      ],
+      "size": [
+        3.75,
+        3.69,
+        4.57
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_04",
+      "xy": [
+        7.4435,
+        -70.0761
+      ],
+      "size": [
+        3.75,
+        4.01,
+        4.81
+      ],
+      "yaw": 0.04,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_05",
+      "xy": [
+        15.9393,
+        -77.6579
+      ],
+      "size": [
+        3.62,
+        4.08,
+        5.06
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_06",
+      "xy": [
+        0.6572,
+        -59.8575
+      ],
+      "size": [
+        3.23,
+        3.85,
+        5.32
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_07",
+      "xy": [
+        -4.3869,
+        -70.6989
+      ],
+      "size": [
+        3.05,
+        3.97,
+        3.87
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_08",
+      "xy": [
+        29.4711,
+        -71.9579
+      ],
+      "size": [
+        3.51,
+        3.39,
+        4.98
+      ],
+      "yaw": 0.04,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_09",
+      "xy": [
+        18.9235,
+        -85.4087
+      ],
+      "size": [
+        3.03,
+        3.81,
+        5.23
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_10",
+      "xy": [
+        -6.5438,
+        -55.5835
+      ],
+      "size": [
+        3.36,
+        3.22,
+        3.99
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_11",
+      "xy": [
+        5.6617,
+        -55.4878
+      ],
+      "size": [
+        3.15,
+        3.42,
+        5.12
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_12",
+      "xy": [
+        23.6164,
+        -78.2378
+      ],
+      "size": [
+        3.87,
+        3.27,
+        5.62
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_13",
+      "xy": [
+        5.5388,
+        -83.3085
+      ],
+      "size": [
+        3.05,
+        3.43,
+        5.69
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_14",
+      "xy": [
+        3.7917,
+        -75.8919
+      ],
+      "size": [
+        3.0,
+        3.93,
+        3.72
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_15",
+      "xy": [
+        41.3345,
+        -60.7299
+      ],
+      "size": [
+        3.72,
+        4.02,
+        5.74
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_16",
+      "xy": [
+        35.1704,
+        -61.8304
+      ],
+      "size": [
+        3.43,
+        3.53,
+        4.59
+      ],
+      "yaw": 0.16,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_17",
+      "xy": [
+        12.0862,
+        -55.767
+      ],
+      "size": [
+        3.79,
+        3.85,
+        4.15
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_18",
+      "xy": [
+        -4.7516,
+        -77.1288
+      ],
+      "size": [
+        3.0,
+        3.28,
+        3.96
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_19",
+      "xy": [
+        -10.9627,
+        -56.049
+      ],
+      "size": [
+        2.86,
+        3.49,
+        4.1
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_20",
+      "xy": [
+        -11.0019,
+        -66.9438
+      ],
+      "size": [
+        2.92,
+        3.37,
+        5.0
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_21",
+      "xy": [
+        23.8944,
+        -85.5681
+      ],
+      "size": [
+        3.02,
+        3.26,
+        4.44
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_22",
+      "xy": [
+        39.8249,
+        -74.5063
+      ],
+      "size": [
+        2.86,
+        3.3,
+        5.98
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_23",
+      "xy": [
+        -1.1364,
+        -80.9436
+      ],
+      "size": [
+        2.97,
+        3.17,
+        5.75
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_24",
+      "xy": [
+        0.768,
+        -54.2314
+      ],
+      "size": [
+        2.95,
+        4.05,
+        5.1
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_25",
+      "xy": [
+        26.2347,
+        -67.3801
+      ],
+      "size": [
+        2.97,
+        3.82,
+        3.41
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_26",
+      "xy": [
+        19.9946,
+        -62.7033
+      ],
+      "size": [
+        3.35,
+        3.02,
+        3.41
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_27",
+      "xy": [
+        28.5989,
+        -83.898
+      ],
+      "size": [
+        3.48,
+        3.27,
+        5.85
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_28",
+      "xy": [
+        42.533,
+        -55.1905
+      ],
+      "size": [
+        3.46,
+        4.05,
+        5.98
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_29",
+      "xy": [
+        -11.957,
+        -61.4256
+      ],
+      "size": [
+        2.82,
+        3.59,
+        3.92
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_30",
+      "xy": [
+        37.4197,
+        -80.1203
+      ],
+      "size": [
+        2.87,
+        3.01,
+        4.42
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_31",
+      "xy": [
+        27.9088,
+        -76.6651
+      ],
+      "size": [
+        2.93,
+        3.0,
+        5.59
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_32",
+      "xy": [
+        31.4422,
+        -56.2837
+      ],
+      "size": [
+        3.65,
+        3.01,
+        4.89
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_33",
+      "xy": [
+        -7.6401,
+        -60.148
+      ],
+      "size": [
+        3.07,
+        3.19,
+        4.2
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_34",
+      "xy": [
+        -8.4874,
+        -71.5711
+      ],
+      "size": [
+        2.88,
+        3.77,
+        4.32
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_35",
+      "xy": [
+        18.5439,
+        -55.1075
+      ],
+      "size": [
+        3.32,
+        3.1,
+        4.06
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_36",
+      "xy": [
+        24.403,
+        -62.338
+      ],
+      "size": [
+        2.87,
+        3.08,
+        3.65
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_37",
+      "xy": [
+        41.7786,
+        -69.9692
+      ],
+      "size": [
+        2.97,
+        3.01,
+        5.4
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_38",
+      "xy": [
+        44.4493,
+        -65.3992
+      ],
+      "size": [
+        2.96,
+        3.05,
+        5.06
+      ],
+      "yaw": 0.16,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_39",
+      "xy": [
+        -2.0449,
+        -64.8683
+      ],
+      "size": [
+        2.6,
+        3.39,
+        5.22
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_40",
+      "xy": [
+        14.7144,
+        -86.3113
+      ],
+      "size": [
+        2.6,
+        2.8,
+        4.39
+      ],
+      "yaw": 0.1,
+      "kind": "office",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_41",
+      "xy": [
+        10.9044,
+        -65.3498
+      ],
+      "size": [
+        2.6,
+        2.84,
+        5.22
+      ],
+      "yaw": 0.1,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_42",
+      "xy": [
+        45.6844,
+        -60.6292
+      ],
+      "size": [
+        2.82,
+        3.04,
+        4.38
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    },
+    {
+      "name": "CE_CHI_BLOCK_43",
+      "xy": [
+        25.4059,
+        -72.2932
+      ],
+      "size": [
+        2.73,
+        3.23,
+        4.16
+      ],
+      "yaw": 0.04,
+      "kind": "masonry",
+      "landmark": null,
+      "district": "CHI"
+    }
+  ],
+  "terrain_polygons": {
+    "left": [
+      [
+        -31.398,
+        40
+      ],
+      [
+        -39,
+        53
+      ],
+      [
+        -40,
+        73
+      ],
+      [
+        -23,
+        91
+      ],
+      [
+        3,
+        95
+      ],
+      [
+        30,
+        92
+      ],
+      [
+        57,
+        79
+      ],
+      [
+        82,
+        64
+      ],
+      [
+        83,
+        60.58
+      ],
+      [
+        -9.438,
+        75.735
+      ],
+      [
+        -23,
+        56
+      ]
+    ],
+    "right": [
+      [
+        -7,
+        -29
+      ],
+      [
+        -3,
+        -43
+      ],
+      [
+        12,
+        -50
+      ],
+      [
+        36,
+        -53
+      ],
+      [
+        58,
+        -46
+      ],
+      [
+        70,
+        -31
+      ],
+      [
+        61,
+        -21
+      ],
+      [
+        45,
+        -18
+      ],
+      [
+        30,
+        -18
+      ],
+      [
+        20,
+        -23
+      ],
+      [
+        10,
+        -24
+      ]
+    ],
+    "chicago": [
+      [
+        -7,
+        -29
+      ],
+      [
+        -14,
+        -45
+      ],
+      [
+        -15,
+        -66
+      ],
+      [
+        -5,
+        -83
+      ],
+      [
+        18,
+        -91
+      ],
+      [
+        39,
+        -83
+      ],
+      [
+        49,
+        -63
+      ],
+      [
+        45,
+        -50.13636
+      ],
+      [
+        36,
+        -53
+      ],
+      [
+        12,
+        -50
+      ],
+      [
+        -3,
+        -43
+      ]
+    ]
+  },
+  "bridge_endpoints": [
+    [
+      30,
+      8.8
+    ],
+    [
+      30,
+      -22
+    ]
+  ],
+  "bridge_width": 3.8,
+  "allowed_building_regions": {
+    "NY": [
+      [
+        -39,
+        53
+      ],
+      [
+        -40,
+        73
+      ],
+      [
+        -23,
+        91
+      ],
+      [
+        3,
+        95
+      ],
+      [
+        30,
+        92
+      ],
+      [
+        57,
+        79
+      ],
+      [
+        82,
+        64
+      ],
+      [
+        83,
+        47
+      ],
+      [
+        68,
+        44
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        29,
+        57
+      ],
+      [
+        12,
+        70
+      ],
+      [
+        -9,
+        77
+      ],
+      [
+        -24,
+        57
+      ]
+    ],
+    "SF": [
+      [
+        -7,
+        -29
+      ],
+      [
+        -3,
+        -43
+      ],
+      [
+        12,
+        -50
+      ],
+      [
+        36,
+        -53
+      ],
+      [
+        58,
+        -46
+      ],
+      [
+        70,
+        -31
+      ],
+      [
+        61,
+        -21
+      ],
+      [
+        45,
+        -18
+      ],
+      [
+        30,
+        -18
+      ],
+      [
+        20,
+        -23
+      ],
+      [
+        10,
+        -24
+      ]
+    ],
+    "CHI": [
+      [
+        -7,
+        -29
+      ],
+      [
+        -14,
+        -45
+      ],
+      [
+        -15,
+        -66
+      ],
+      [
+        -5,
+        -83
+      ],
+      [
+        18,
+        -91
+      ],
+      [
+        39,
+        -83
+      ],
+      [
+        49,
+        -63
+      ],
+      [
+        45,
+        -50.13636
+      ],
+      [
+        36,
+        -53
+      ],
+      [
+        12,
+        -50
+      ],
+      [
+        -3,
+        -43
+      ]
+    ]
+  },
+  "protected_source_foundations": [
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_02_00",
+      "poly": [
+        [
+          -22.5912,
+          49.7195
+        ],
+        [
+          -22.5911,
+          49.7194
+        ],
+        [
+          -20.2753,
+          48.3137
+        ],
+        [
+          -18.8557,
+          50.5231
+        ],
+        [
+          -20.0133,
+          51.2302
+        ],
+        [
+          -21.172,
+          51.9355
+        ],
+        [
+          -21.8827,
+          50.8281
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_02_01",
+      "poly": [
+        [
+          -19.871,
+          48.0249
+        ],
+        [
+          -17.5629,
+          46.6208
+        ],
+        [
+          -16.1485,
+          48.8265
+        ],
+        [
+          -17.3022,
+          49.5325
+        ],
+        [
+          -18.4571,
+          50.2367
+        ],
+        [
+          -19.1651,
+          49.1314
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_02_02",
+      "poly": [
+        [
+          -15.7422,
+          45.453
+        ],
+        [
+          -13.5433,
+          44.111
+        ],
+        [
+          -12.136,
+          46.3118
+        ],
+        [
+          -12.136,
+          46.3119
+        ],
+        [
+          -13.2354,
+          46.9863
+        ],
+        [
+          -14.3357,
+          47.6592
+        ],
+        [
+          -15.0399,
+          46.5567
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_02_03",
+      "poly": [
+        [
+          -12.6218,
+          43.5091
+        ],
+        [
+          -10.5526,
+          42.2432
+        ],
+        [
+          -9.1504,
+          44.441
+        ],
+        [
+          -10.1851,
+          45.077
+        ],
+        [
+          -11.2206,
+          45.7116
+        ],
+        [
+          -11.922,
+          44.6108
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_03_01",
+      "poly": [
+        [
+          -17.9816,
+          50.5028
+        ],
+        [
+          -16.1689,
+          49.4028
+        ],
+        [
+          -14.7519,
+          51.6076
+        ],
+        [
+          -15.6582,
+          52.1607
+        ],
+        [
+          -16.5653,
+          52.7126
+        ],
+        [
+          -17.2745,
+          51.6083
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_03_03",
+      "poly": [
+        [
+          -10.8599,
+          46.0642
+        ],
+        [
+          -9.0309,
+          44.9474
+        ],
+        [
+          -7.6266,
+          47.1442
+        ],
+        [
+          -8.5413,
+          47.7054
+        ],
+        [
+          -9.4568,
+          48.2653
+        ],
+        [
+          -10.1592,
+          47.1653
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_00",
+      "poly": [
+        [
+          -17.7856,
+          57.0913
+        ],
+        [
+          -15.7619,
+          55.872
+        ],
+        [
+          -15.7618,
+          55.872
+        ],
+        [
+          -14.3343,
+          58.0771
+        ],
+        [
+          -15.3462,
+          58.6907
+        ],
+        [
+          -16.3592,
+          59.3026
+        ],
+        [
+          -17.0735,
+          58.1977
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_01",
+      "poly": [
+        [
+          -15.0303,
+          55.3758
+        ],
+        [
+          -13.0839,
+          54.1999
+        ],
+        [
+          -11.662,
+          56.4016
+        ],
+        [
+          -12.6354,
+          56.9932
+        ],
+        [
+          -13.6098,
+          57.5832
+        ],
+        [
+          -14.3211,
+          56.4802
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_02",
+      "poly": [
+        [
+          -11.0778,
+          52.9108
+        ],
+        [
+          -8.8874,
+          51.5822
+        ],
+        [
+          -7.4736,
+          53.779
+        ],
+        [
+          -8.569,
+          54.4473
+        ],
+        [
+          -9.6657,
+          55.1136
+        ],
+        [
+          -10.3727,
+          54.0128
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_03",
+      "poly": [
+        [
+          -7.9174,
+          50.9432
+        ],
+        [
+          -5.9361,
+          49.7377
+        ],
+        [
+          -4.528,
+          51.9321
+        ],
+        [
+          -5.519,
+          52.5381
+        ],
+        [
+          -6.511,
+          53.1426
+        ],
+        [
+          -7.2151,
+          52.0435
+        ],
+        [
+          -7.9174,
+          50.9433
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_04",
+      "poly": [
+        [
+          -2.1054,
+          47.3185
+        ],
+        [
+          0.1342,
+          45.9479
+        ],
+        [
+          1.5324,
+          48.1378
+        ],
+        [
+          0.4121,
+          48.8266
+        ],
+        [
+          -0.7096,
+          49.5134
+        ],
+        [
+          -1.4082,
+          48.4163
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_05",
+      "poly": [
+        [
+          0.9625,
+          45.4049
+        ],
+        [
+          3.3464,
+          43.9415
+        ],
+        [
+          4.7399,
+          46.1299
+        ],
+        [
+          3.5473,
+          46.8652
+        ],
+        [
+          2.3532,
+          47.5982
+        ],
+        [
+          1.6572,
+          46.5019
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_04_06",
+      "poly": [
+        [
+          4.2026,
+          43.3856
+        ],
+        [
+          6.3865,
+          42.0408
+        ],
+        [
+          7.7754,
+          44.2286
+        ],
+        [
+          7.7754,
+          44.2287
+        ],
+        [
+          6.6827,
+          44.9041
+        ],
+        [
+          5.5887,
+          45.5775
+        ],
+        [
+          4.8952,
+          44.4818
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_00",
+      "poly": [
+        [
+          -16.1572,
+          59.4942
+        ],
+        [
+          -14.3191,
+          58.3895
+        ],
+        [
+          -12.889,
+          60.5933
+        ],
+        [
+          -13.8082,
+          61.1493
+        ],
+        [
+          -14.7283,
+          61.7038
+        ],
+        [
+          -15.4439,
+          60.5997
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_01",
+      "poly": [
+        [
+          -13.5128,
+          57.8453
+        ],
+        [
+          -11.5303,
+          56.6503
+        ],
+        [
+          -10.106,
+          58.8505
+        ],
+        [
+          -11.0975,
+          59.4518
+        ],
+        [
+          -12.0901,
+          60.0514
+        ],
+        [
+          -12.8025,
+          58.949
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_02",
+      "poly": [
+        [
+          -9.4403,
+          55.308
+        ],
+        [
+          -7.4533,
+          54.1051
+        ],
+        [
+          -6.0374,
+          56.3009
+        ],
+        [
+          -7.0312,
+          56.906
+        ],
+        [
+          -8.0261,
+          57.5093
+        ],
+        [
+          -8.7341,
+          56.4093
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_03",
+      "poly": [
+        [
+          -6.3538,
+          53.3852
+        ],
+        [
+          -4.428,
+          52.2156
+        ],
+        [
+          -3.0179,
+          54.4088
+        ],
+        [
+          -3.9813,
+          54.9969
+        ],
+        [
+          -4.9457,
+          55.5834
+        ],
+        [
+          -5.6506,
+          54.4848
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_04",
+      "poly": [
+        [
+          -0.4514,
+          49.7054
+        ],
+        [
+          1.5524,
+          48.4808
+        ],
+        [
+          2.9521,
+          50.67
+        ],
+        [
+          2.9521,
+          50.6701
+        ],
+        [
+          1.9496,
+          51.2855
+        ],
+        [
+          0.9459,
+          51.8992
+        ],
+        [
+          0.2466,
+          50.8027
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_05",
+      "poly": [
+        [
+          2.7312,
+          47.7216
+        ],
+        [
+          4.6504,
+          46.5448
+        ],
+        [
+          6.0451,
+          48.7329
+        ],
+        [
+          6.0451,
+          48.733
+        ],
+        [
+          5.0847,
+          49.3242
+        ],
+        [
+          4.1233,
+          49.9138
+        ],
+        [
+          3.4266,
+          48.818
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_05_06",
+      "poly": [
+        [
+          5.6922,
+          45.873
+        ],
+        [
+          7.9691,
+          44.4725
+        ],
+        [
+          9.3593,
+          46.6594
+        ],
+        [
+          8.22,
+          47.3631
+        ],
+        [
+          7.0792,
+          48.0644
+        ],
+        [
+          6.3852,
+          46.9691
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_01_00",
+      "poly": [
+        [
+          -25.5412,
+          44.9633
+        ],
+        [
+          -23.2553,
+          43.5691
+        ],
+        [
+          -21.8409,
+          45.7817
+        ],
+        [
+          -22.9832,
+          46.4825
+        ],
+        [
+          -24.1265,
+          47.182
+        ],
+        [
+          -24.835,
+          46.0734
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_01_01",
+      "poly": [
+        [
+          -22.7521,
+          43.0373
+        ],
+        [
+          -20.7851,
+          41.8357
+        ],
+        [
+          -20.6779,
+          41.9592
+        ],
+        [
+          -19.2682,
+          44.1681
+        ],
+        [
+          -20.272,
+          44.7848
+        ],
+        [
+          -21.2765,
+          45.4003
+        ],
+        [
+          -21.9824,
+          44.294
+        ],
+        [
+          -22.6863,
+          43.1863
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_03_00",
+      "poly": [
+        [
+          -20.8762,
+          52.3029
+        ],
+        [
+          -18.7074,
+          50.9898
+        ],
+        [
+          -17.285,
+          53.1978
+        ],
+        [
+          -18.3692,
+          53.8583
+        ],
+        [
+          -19.4545,
+          54.5172
+        ],
+        [
+          -20.1665,
+          53.4107
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_BLOCK_03_02",
+      "poly": [
+        [
+          -14.1934,
+          48.1375
+        ],
+        [
+          -11.809,
+          46.6854
+        ],
+        [
+          -10.3993,
+          48.8845
+        ],
+        [
+          -11.5915,
+          49.6146
+        ],
+        [
+          -12.785,
+          50.3427
+        ],
+        [
+          -13.4901,
+          49.2406
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_LETTER_U",
+      "poly": [
+        [
+          -16.8482,
+          56.8885
+        ],
+        [
+          -4.9491,
+          49.7177
+        ],
+        [
+          -4.949,
+          49.7177
+        ],
+        [
+          -0.9614,
+          55.8377
+        ],
+        [
+          -1.7011,
+          56.2987
+        ],
+        [
+          -2.4418,
+          56.759
+        ],
+        [
+          -3.1835,
+          57.2185
+        ],
+        [
+          -3.9261,
+          57.6771
+        ],
+        [
+          -4.6696,
+          58.1349
+        ],
+        [
+          -5.4139,
+          58.5918
+        ],
+        [
+          -6.159,
+          59.0477
+        ],
+        [
+          -6.9047,
+          59.5026
+        ],
+        [
+          -7.6512,
+          59.9566
+        ],
+        [
+          -8.3982,
+          60.4095
+        ],
+        [
+          -9.1458,
+          60.8613
+        ],
+        [
+          -9.8938,
+          61.312
+        ],
+        [
+          -10.6423,
+          61.7615
+        ],
+        [
+          -11.3911,
+          62.2099
+        ],
+        [
+          -12.1403,
+          62.657
+        ],
+        [
+          -12.8897,
+          63.1028
+        ],
+        [
+          -13.3882,
+          62.3286
+        ],
+        [
+          -13.8857,
+          61.5535
+        ],
+        [
+          -14.3822,
+          60.7776
+        ],
+        [
+          -14.8777,
+          60.0009
+        ],
+        [
+          -15.3721,
+          59.2236
+        ],
+        [
+          -15.8653,
+          58.4458
+        ],
+        [
+          -16.3573,
+          57.6674
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_LETTER_S",
+      "poly": [
+        [
+          -1.2732,
+          54.271
+        ],
+        [
+          9.9588,
+          47.4123
+        ],
+        [
+          12.3829,
+          51.1658
+        ],
+        [
+          10.9852,
+          52.0414
+        ],
+        [
+          9.5839,
+          52.9138
+        ],
+        [
+          8.1794,
+          53.7829
+        ],
+        [
+          6.7721,
+          54.6483
+        ],
+        [
+          5.3624,
+          55.51
+        ],
+        [
+          3.9506,
+          56.3676
+        ],
+        [
+          2.5371,
+          57.2208
+        ],
+        [
+          1.1223,
+          58.0695
+        ],
+        [
+          0.5218,
+          57.1209
+        ],
+        [
+          -0.0776,
+          56.1716
+        ],
+        [
+          -0.676,
+          55.2215
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_LETTER_A",
+      "poly": [
+        [
+          8.9319,
+          44.4918
+        ],
+        [
+          22.7459,
+          35.929
+        ],
+        [
+          23.2643,
+          36.741
+        ],
+        [
+          26.8941,
+          42.4274
+        ],
+        [
+          26.0345,
+          42.9768
+        ],
+        [
+          25.1733,
+          43.5252
+        ],
+        [
+          24.3107,
+          44.0724
+        ],
+        [
+          23.4467,
+          44.6184
+        ],
+        [
+          22.5814,
+          45.1632
+        ],
+        [
+          21.7149,
+          45.7067
+        ],
+        [
+          20.8473,
+          46.2488
+        ],
+        [
+          19.9787,
+          46.7895
+        ],
+        [
+          19.1092,
+          47.3287
+        ],
+        [
+          18.2388,
+          47.8664
+        ],
+        [
+          17.3677,
+          48.4025
+        ],
+        [
+          16.4959,
+          48.937
+        ],
+        [
+          15.6235,
+          49.4697
+        ],
+        [
+          14.7507,
+          50.0007
+        ],
+        [
+          13.8775,
+          50.5299
+        ],
+        [
+          13.004,
+          51.0573
+        ],
+        [
+          12.4936,
+          50.2378
+        ],
+        [
+          11.9836,
+          49.4178
+        ],
+        [
+          11.4738,
+          48.5974
+        ],
+        [
+          10.9645,
+          47.7766
+        ],
+        [
+          10.4556,
+          46.9556
+        ],
+        [
+          9.9471,
+          46.1344
+        ],
+        [
+          9.4392,
+          45.3131
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_UC_TAXI.003",
+      "poly": [
+        [
+          -16.656,
+          48.0121
+        ],
+        [
+          -16.6559,
+          48.012
+        ],
+        [
+          -15.4141,
+          47.2548
+        ],
+        [
+          -15.0612,
+          47.8059
+        ],
+        [
+          -15.0612,
+          47.806
+        ],
+        [
+          -16.3031,
+          48.564
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_E12_DESTINATION_0",
+      "poly": [
+        [
+          98.8703,
+          50.2519
+        ],
+        [
+          99.0541,
+          45.9181
+        ],
+        [
+          103.1081,
+          45.7256
+        ],
+        [
+          103.0713,
+          46.8166
+        ],
+        [
+          103.0307,
+          47.9078
+        ],
+        [
+          102.9862,
+          48.999
+        ],
+        [
+          102.9379,
+          50.0903
+        ],
+        [
+          101.9209,
+          50.1336
+        ],
+        [
+          100.904,
+          50.1749
+        ],
+        [
+          99.887,
+          50.2144
+        ]
+      ]
+    },
+    {
+      "name": "CV_FOUNDATION_E12_DESTINATION_1",
+      "poly": [
+        [
+          107.856,
+          51.2995
+        ],
+        [
+          108.0622,
+          46.8925
+        ],
+        [
+          112.1207,
+          46.676
+        ],
+        [
+          112.079,
+          47.7861
+        ],
+        [
+          112.033,
+          48.8964
+        ],
+        [
+          111.9828,
+          50.0069
+        ],
+        [
+          111.9284,
+          51.1174
+        ],
+        [
+          110.9102,
+          51.166
+        ],
+        [
+          109.892,
+          51.2125
+        ],
+        [
+          108.8739,
+          51.257
+        ]
+      ]
+    }
+  ],
+  "reserved_plazas": [
+    {
+      "name": "CHRYSLER_PLAZA",
+      "poly": [
+        [
+          25.5,
+          82.5
+        ],
+        [
+          34.5,
+          82.5
+        ],
+        [
+          34.5,
+          91.5
+        ],
+        [
+          25.5,
+          91.5
+        ]
+      ]
+    },
+    {
+      "name": "SF_REDWOOD_PARK",
+      "poly": [
+        [
+          35,
+          -36
+        ],
+        [
+          38,
+          -38.5
+        ],
+        [
+          48,
+          -38.5
+        ],
+        [
+          49,
+          -35.5
+        ],
+        [
+          48,
+          -28
+        ],
+        [
+          38,
+          -28
+        ]
+      ]
+    },
+    {
+      "name": "NY_POCKET_PARK",
+      "poly": [
+        [
+          -24.25,
+          83.75
+        ],
+        [
+          -19.75,
+          83.75
+        ],
+        [
+          -19.75,
+          88.25
+        ],
+        [
+          -24.25,
+          88.25
+        ]
+      ]
+    },
+    {
+      "name": "WILLIS_PLAZA",
+      "poly": [
+        [
+          13.0,
+          -75.0
+        ],
+        [
+          23.0,
+          -75.0
+        ],
+        [
+          23.0,
+          -65.0
+        ],
+        [
+          13.0,
+          -65.0
+        ]
+      ]
+    }
+  ],
+  "counts": {
+    "NY": 61,
+    "SF": 45,
+    "CHI": 45
+  },
+  "generation_attempts": {
+    "NY": 16534,
+    "SF": 49999,
+    "CHI": 29465
+  },
+  "relocated_existing_buildings": [
+    {
+      "name": "CE_SF_DENSE_37",
+      "from": [
+        27.5178,
+        -49.0096
+      ],
+      "to": [
+        36,
+        -57
+      ],
+      "reason": "Clear direct continuation of bridge boulevard; preserve building dimensions and height."
+    }
+  ],
+  "original_dense_building_count": 106,
+  "original_dense_roads_count": 4
+}

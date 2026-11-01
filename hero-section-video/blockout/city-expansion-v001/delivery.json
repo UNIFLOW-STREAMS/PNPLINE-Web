@@ -1,0 +1,134 @@
+{
+  "version": "city-expansion-v001",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\camera-micro-smooth-v001\\pnpline-33s-camera-micro-smooth-v001.blend",
+  "source_sha256": "6b982226d8c8d9581a25bc82105acb8811842a6f4b6f02d0423fc45168b54025",
+  "master_sha256": "48f6a6f7c99f34b42d1cb7b71930da56f07f52a2324f73ee513045e3c504bbb4",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "33.000000",
+    "nb_read_frames": "990"
+  },
+  "geometry_passed": true,
+  "preservation_passed": true,
+  "protected_original_objects": 10032,
+  "camera_exact_frames": 990,
+  "buildings": 151,
+  "landmarks": 3,
+  "surrounding_buildings": 148,
+  "trees": 70,
+  "new_objects": 1362,
+  "new_vertices": 327113,
+  "new_polygons": 251902,
+  "render_backend": "Blender 5.1 WORKBENCH",
+  "gpu_timing": "not measured",
+  "render_wall_time": {
+    "0-494": {
+      "rendered_frames": 495,
+      "elapsed_seconds": 1139.75
+    },
+    "495-989": {
+      "rendered_frames": 495,
+      "elapsed_seconds": 1132.344
+    }
+  },
+  "files": [
+    {
+      "path": "pnpline-city-expansion-v001.blend",
+      "bytes": 20180269,
+      "sha256": "48f6a6f7c99f34b42d1cb7b71930da56f07f52a2324f73ee513045e3c504bbb4"
+    },
+    {
+      "path": "preview/pnpline-city-expansion-v001.mp4",
+      "bytes": 19668464,
+      "sha256": "b255217df28ba3ee3829ea68311de90984eafbce90e576f762e963d4466ef593"
+    },
+    {
+      "path": "review.html",
+      "bytes": 3626,
+      "sha256": "b6985755e01c550770ddff6a1105ccdddbf51352cecfb73e413aee6a7a89310f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6372,
+      "sha256": "5d6240f0f9915a588c13efe114f1af1867290aba21843992c9987a736d70b7c2"
+    },
+    {
+      "path": "scripts/architecture.py",
+      "bytes": 28581,
+      "sha256": "f80caeeec0675a86f2d676dd63127bd8134d4abe5d9a14208fc4860b4c2f1366"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 14329,
+      "sha256": "d772c60b8a0996834123fc9b4356b3f8a82dec51c0f8fd5e4997e32478c74af6"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 3443,
+      "sha256": "dee49f0adea777fb30fb0ce1bc47bfc67c953e73d14c573978fa0e190121966e"
+    },
+    {
+      "path": "scripts/render.py",
+      "bytes": 1101,
+      "sha256": "0b4207cb798dc02ff7b860a50f309f40a84d9c9f6024c0849521579e75eb0ffd"
+    },
+    {
+      "path": "scripts/render_views.py",
+      "bytes": 2281,
+      "sha256": "2322ff01080afde7827c064a65b255d7ebe529bfecf29a29649acf8be53410f6"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 2365,
+      "sha256": "ab8cbd39dc7334eac4d617574d3a5fbb24c1dbe3fb8bd8938ace76381bee343f"
+    },
+    {
+      "path": "scripts/verify_geometry.py",
+      "bytes": 11114,
+      "sha256": "7b98d7b138925e90e3017882b203cf095272bc23f82ab55fc0b3a8aa7f6fa4bb"
+    },
+    {
+      "path": "scripts/verify_preservation.py",
+      "bytes": 9954,
+      "sha256": "25408168c914036f76a53c3e7e13d5b5617354384d3b63938d71b743c21db5db"
+    },
+    {
+      "path": "scripts/dense_layout.json",
+      "bytes": 64887,
+      "sha256": "62d2bd80b5520decdf5a7e3a915b3fddf36ac92f65de3a4a5d225f9f885535b4"
+    },
+    {
+      "path": "preview/overview-top.png",
+      "bytes": 2288172,
+      "sha256": "243a89e8da3d0e72ad4529c5aa0c83a7c21a6fee071dfaf4475b318707ecf451"
+    },
+    {
+      "path": "preview/overview-oblique.png",
+      "bytes": 2291963,
+      "sha256": "b87873fc74cfa8497b7967c683242676613303b20dc837c5f186b59f2241a9e7"
+    },
+    {
+      "path": "preview/chrysler-detail.png",
+      "bytes": 2412228,
+      "sha256": "2c8a04f6a0f63fea0c57bb1d0eba8f086d3522c9bf2323eda627cfddddfb4ddd"
+    },
+    {
+      "path": "preview/pyramid-detail.png",
+      "bytes": 2759642,
+      "sha256": "95f4c4db5d1a1ae4d5eb96959d0269a3cd231b47317f5f54f879ac94d501519e"
+    },
+    {
+      "path": "preview/willis-detail.png",
+      "bytes": 2656766,
+      "sha256": "88c0b6adf5646d2f7026acf825bb9aea4b7785fb3cefa5fce898174fb4f7f144"
+    },
+    {
+      "path": "preview/bridge-detail.png",
+      "bytes": 2663084,
+      "sha256": "3a1345b295cbeaf36b0d41b0649ddafe7aa381395a8cd886820960dfa0ac71fe"
+    }
+  ]
+}
