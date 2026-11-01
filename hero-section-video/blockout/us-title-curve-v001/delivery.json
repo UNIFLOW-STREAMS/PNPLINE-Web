@@ -1,0 +1,458 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-city-density-v001\\pnpline-us-city-density-v001.blend",
+  "source_sha256": "90cf22b0693b0d3702236f88a3871da371491090c7b9a2d1d70d58047f22da9a",
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\pnpline-us-title-curve-v001.blend",
+  "sha256": "0967a10052bbff1a9ce323710ac7710e6c50695ebba1c746d07553ce6be0ebda",
+  "allowed_original_changes": {
+    "UC_LETTER_U": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "UC_AR_LETTER_PLINTH_U": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CV_FOUNDATION_LETTER_U": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "UC_LETTER_S": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "UC_AR_LETTER_PLINTH_S": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CV_FOUNDATION_LETTER_S": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "UC_LETTER_A": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "UC_AR_LETTER_PLINTH_A": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CV_FOUNDATION_LETTER_A": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CE_NY_DENSE_50_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_NY_DENSE_50__brick": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__dark": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__glass": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__ivory": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__metal": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__roof": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50__stone": [
+      "matrix_world"
+    ],
+    "CE_NY_DENSE_50_FOUNDATION": [
+      "matrix_basis",
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_REAR_SPACE_NEEDLE__dark": [
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE__glass": [
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE__ivory": [
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE__metal": [
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE__stone": [
+      "matrix_world"
+    ],
+    "CE_REAR_SPACE_NEEDLE_FOUNDATION": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CE_REAR_SPACE_NEEDLE_PLAZA": [
+      "hide_render",
+      "hide_viewport"
+    ],
+    "CE_REAR_BLOCK_07_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_REAR_BLOCK_07__brick": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__dark": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__glass": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__ivory": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__metal": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__roof": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07__stone": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_07_FOUNDATION": [
+      "matrix_basis",
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_REAR_BLOCK_11__brick": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__dark": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__glass": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__ivory": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__metal": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__roof": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11__stone": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_11_FOUNDATION": [
+      "matrix_basis",
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_REAR_BLOCK_12__brick": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__dark": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__glass": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__ivory": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__metal": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__roof": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12__stone": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_12_FOUNDATION": [
+      "matrix_basis",
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16_ROOT": [
+      "matrix_basis",
+      "matrix_world",
+      "properties"
+    ],
+    "CE_REAR_BLOCK_16__brick": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__dark": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__glass": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__ivory": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__metal": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__roof": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16__stone": [
+      "matrix_world"
+    ],
+    "CE_REAR_BLOCK_16_FOUNDATION": [
+      "matrix_basis",
+      "matrix_world"
+    ]
+  },
+  "hidden_original_objects": [
+    "UC_LETTER_U",
+    "UC_AR_LETTER_PLINTH_U",
+    "CV_FOUNDATION_LETTER_U",
+    "UC_LETTER_S",
+    "UC_AR_LETTER_PLINTH_S",
+    "CV_FOUNDATION_LETTER_S",
+    "UC_LETTER_A",
+    "UC_AR_LETTER_PLINTH_A",
+    "CV_FOUNDATION_LETTER_A"
+  ],
+  "hidden_original_supports": [
+    "CE_REAR_SPACE_NEEDLE_FOUNDATION",
+    "CE_REAR_SPACE_NEEDLE_PLAZA"
+  ],
+  "replacement_supports": [
+    "UST_NEEDLE_CITY_PAD"
+  ],
+  "letters": [
+    {
+      "letter": "U",
+      "lo": [
+        0.2538769245147705,
+        -2.27048397064209,
+        -1.4719960689544678
+      ],
+      "hi": [
+        13.536423683166504,
+        24.72951889038086,
+        2.4610040187835693
+      ],
+      "width": 18.49717426683204,
+      "height": 23.5,
+      "scale": [
+        1.3925924450281872,
+        0.870370278142617,
+        0.6356470745562098
+      ],
+      "arc_start": -30.263500878675185,
+      "arc_end": -11.766326611843144,
+      "sagitta": 2.744330798987251,
+      "object": "UST_LETTER_U",
+      "vertices": 26448,
+      "triangles": 50376
+    },
+    {
+      "letter": "S",
+      "lo": [
+        -0.4895823895931244,
+        -2.224102258682251,
+        -1.4719960689544678
+      ],
+      "hi": [
+        12.284333229064941,
+        24.775901794433594,
+        2.4610040187835693
+      ],
+      "width": 17.788857598564544,
+      "height": 23.5,
+      "scale": [
+        1.3925923835430276,
+        0.8703702397143922,
+        0.6356470745562098
+      ],
+      "arc_start": -10.566326611843145,
+      "arc_end": 7.222530986721399,
+      "sagitta": 0.01746962850258882,
+      "object": "UST_LETTER_S",
+      "vertices": 33444,
+      "triangles": 62994
+    },
+    {
+      "letter": "A",
+      "lo": [
+        -1.378894329071045,
+        -1.893384575843811,
+        -1.4719960689544678
+      ],
+      "hi": [
+        14.30478286743164,
+        25.106618881225586,
+        2.4610040187835693
+      ],
+      "width": 21.84096989195379,
+      "height": 23.5,
+      "scale": [
+        1.3925924142856068,
+        0.8703702589285042,
+        0.6356470745562098
+      ],
+      "arc_start": 8.422530986721398,
+      "arc_end": 30.26350087867519,
+      "sagitta": 2.32708142724948,
+      "object": "UST_LETTER_A",
+      "vertices": 15783,
+      "triangles": 30634
+    }
+  ],
+  "relocations": [
+    {
+      "root": "CE_NY_DENSE_50_ROOT",
+      "design_xy": [
+        -6,
+        52
+      ],
+      "extras": [
+        "CE_NY_DENSE_50_FOUNDATION"
+      ],
+      "old_anchor": [
+        -19.0987,
+        67.7772,
+        0.96
+      ],
+      "new_anchor": [
+        2.8605034229999973,
+        53.900235427,
+        0.96
+      ]
+    },
+    {
+      "root": "CE_REAR_SPACE_NEEDLE_ROOT",
+      "design_xy": [
+        -24,
+        52
+      ],
+      "extras": [],
+      "old_anchor": [
+        -13.0,
+        67.0,
+        0.96
+      ],
+      "new_anchor": [
+        -12.404362213200002,
+        63.4387822276,
+        0.96
+      ]
+    },
+    {
+      "root": "CE_REAR_BLOCK_07_ROOT",
+      "design_xy": [
+        18,
+        58
+      ],
+      "extras": [
+        "CE_REAR_BLOCK_07_FOUNDATION"
+      ],
+      "old_anchor": [
+        9.8,
+        56.8,
+        0.96
+      ],
+      "new_anchor": [
+        26.3931732048,
+        46.2704615716,
+        0.96
+      ]
+    },
+    {
+      "root": "CE_REAR_BLOCK_11_ROOT",
+      "design_xy": [
+        50,
+        76
+      ],
+      "extras": [
+        "CE_REAR_BLOCK_11_FOUNDATION"
+      ],
+      "old_anchor": [
+        -1.0,
+        62.2,
+        0.96
+      ],
+      "new_anchor": [
+        63.0692589142,
+        44.577910673400005,
+        0.96
+      ]
+    },
+    {
+      "root": "CE_REAR_BLOCK_12_ROOT",
+      "design_xy": [
+        -24,
+        68
+      ],
+      "extras": [
+        "CE_REAR_BLOCK_12_FOUNDATION"
+      ],
+      "old_anchor": [
+        4.4,
+        62.2,
+        0.96
+      ],
+      "new_anchor": [
+        -3.9256539460000006,
+        77.007551682,
+        0.96
+      ]
+    },
+    {
+      "root": "CE_REAR_BLOCK_16_ROOT",
+      "design_xy": [
+        54,
+        78
+      ],
+      "extras": [
+        "CE_REAR_BLOCK_16_FOUNDATION"
+      ],
+      "old_anchor": [
+        -6.4,
+        67.6,
+        0.96
+      ],
+      "new_anchor": [
+        67.5212898112,
+        44.154329788400005,
+        0.96
+      ]
+    }
+  ],
+  "design": {
+    "height": 23.5,
+    "horizontal_to_vertical_scale_ratio": 1.6,
+    "depth": 2.5,
+    "arc_length": 60.52700175735037,
+    "radius": 80.0,
+    "arc_degrees": 43.34927184096367,
+    "center_design_x": -9.5,
+    "center_design_y": 57.0,
+    "baseline_radius": 140.665,
+    "ground_radius": 140.68,
+    "plinths": false,
+    "gap": 1.2
+  },
+  "preservation": "Original meshes retained as hidden alternatives; no actions, cameras, materials or scene settings authored.",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\review\\verification-summary.json",
+  "review": "F:\\pnpline-landing\\hero-section-video\\blockout\\us-title-curve-v001\\review.html",
+  "status": "Verified current working master"
+}

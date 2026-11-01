@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>미국 항구 진입 — v004 / v010 비교</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#121a22;color:#e8edf1;font:15px/1.6 system-ui,sans-serif}main{max-width:1160px;margin:28px auto;padding:0 22px}h1{font-size:27px;margin:0 0 6px}p{color:#b7c5d0;margin:5px 0 18px}button,input{font:inherit}button{background:#263b4b;color:#fff;border:1px solid #4d6678;border-radius:5px;padding:7px 12px;cursor:pointer}button:hover{background:#36566e}button:disabled{opacity:.4;cursor:wait}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}video,img{display:block;width:100%;background:#091119}figcaption{margin:5px 0 10px;color:#bfd0da}h2{font-size:19px;margin:22px 0 10px}a{color:#8bcbdc}.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}code{font-size:12px;overflow-wrap:anywhere}.status{color:#d4b77c}input{width:84px;background:#152735;color:white;border:1px solid #4d6678;padding:6px}@media(max-width:720px){.grid,.stills{grid-template-columns:1fr}}
+</style><main>
+<h1>배 뒤에서 들어가는 미국 항구</h1>
+<p>기준 v004와 수정 v010 · 실제 CAM_MASTER · f288–720 전 프레임 · 12fps / 정상 속도 · 수용 가능 · 검증 완료</p>
+<div class="toolbar"><button id="play">두 영상 처음부터 1× 재생</button><button id="pause">일시 정지</button><label>프레임 <input id="frame" type="number" min="288" max="720" value="440"></label><button id="seek">이동</button><button data-frame="300">진입 접합 300</button><button data-frame="440">동시 가시 440</button><button data-frame="468">출구 접합 468</button><button data-frame="528">하역 연결 528</button></div>
+<p id="status" class="status" role="status">영상을 불러오는 중입니다.</p>
+<div class="grid"><figure><video id="before" controls preload="auto" poster="preview/baseline-v004/f0450.png" src="preview/baseline-v004.mp4"></video><figcaption>기준 v004 — 동일 카메라의 기존 경로</figcaption></figure><figure><video id="after" controls preload="auto" poster="review/evidence-v010/f0450.png" src="preview/candidate-v010.mp4"></video><figcaption>수정 v010 — 낮은 선미 추적과 도시 내부 재배치</figcaption></figure></div>
+<p>카메라 변경 구간 f300–528. 별·도시·동상은 정적 배치입니다. v010에서 제시하는 동시 가시 구간은 f440–471(32프레임, 약 2.67초)이며, 아래 스틸은 같은 결과 파일에서 렌더했습니다.</p>
+<h2>연속 구간의 시작·중간·끝</h2>
+<div class="stills"><figure><img src="review/arrival-v010/f0440.png" alt="f440 선박 뒤 입항 시작"><figcaption>f440 / 시작</figcaption></figure><figure><img src="review/arrival-v010/f0455.png" alt="f455 선박 USA 동상과 도시"><figcaption>f455 / 중간</figcaption></figure><figure><img src="review/arrival-v010/f0471.png" alt="f471 입항 끝"><figcaption>f471 / 끝</figcaption></figure></div>
+<h2>재질과 배치 참고</h2><div class="grid"><figure><img src="review/material-v010/f0450.png" alt="원래 조명을 유지한 Cycles 재질 렌더"><figcaption>원래 조명 유지 · Cycles 16 samples</figcaption></figure><figure><img src="review/evidence-v010/overview.png" alt="도시 군집 배치 진단"><figcaption>배치 진단용 시점 · 실제 입항 판정용 화면이 아닙니다.</figcaption></figure></div>
+<p><a href="report.md">검증 보고서</a> · <a href="candidate-arrival-v010.blend">v010 Blender 파일</a> · <a href="scene-config.json">재현 설정</a><br>결과 SHA256 <code>df309cc6e277b880363a9a92a94bb17036c6f444adf8bef87ef0e02c9cef0345</code></p>
+</main><script>
+const videos=[document.querySelector('#before'),document.querySelector('#after')];
+const status=document.querySelector('#status'),play=document.querySelector('#play');
+// The portable Python preview server does not implement byte ranges. A local Blob
+// keeps the small MP4s fully seekable without adding a server dependency.
+play.disabled=true;
+Promise.all(videos.map(async v=>{const response=await fetch(v.getAttribute('src'));if(!response.ok)throw new Error('Video not ready');v.src=URL.createObjectURL(await response.blob());v.load()})).then(()=>{play.disabled=false}).catch(()=>{status.textContent='영상이 아직 준비되지 않았습니다. 인코딩 후 새로고침해 주세요.'});
+function stamp(){status.textContent=videos.map((v,i)=>`${i?'v010':'v004'} f${Math.min(720,288+Math.floor(v.currentTime*12))} · ${v.currentTime.toFixed(2)}초 · ${v.playbackRate}×${v.ended?' 종료':v.paused?' 정지':' 재생'}`).join(' / ')}
+function seek(f){videos.forEach(v=>{v.pause();v.currentTime=(f-288+.5)/12});stamp()}
+play.onclick=async()=>{videos.forEach(v=>{v.currentTime=0;v.playbackRate=1});try{await Promise.all(videos.map(v=>v.play()));stamp()}catch(e){status.textContent='영상이 아직 준비되지 않았습니다. 렌더와 인코딩 후 새로고침해 주세요.'}};
+document.querySelector('#pause').onclick=()=>{videos.forEach(v=>v.pause());stamp()};
+document.querySelector('#seek').onclick=()=>seek(Math.max(288,Math.min(720,Number(document.querySelector('#frame').value))));
+document.querySelectorAll('[data-frame]').forEach(b=>b.onclick=()=>seek(Number(b.dataset.frame)));
+videos.forEach(v=>{v.addEventListener('timeupdate',stamp);v.addEventListener('loadedmetadata',stamp);v.addEventListener('ended',stamp)});
+</script></html>

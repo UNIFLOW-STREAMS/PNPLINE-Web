@@ -1,0 +1,63 @@
+[
+  {
+    "root": "CE_NY_DENSE_50_ROOT",
+    "design_xy": [
+      -6,
+      52
+    ],
+    "extras": [
+      "CE_NY_DENSE_50_FOUNDATION"
+    ]
+  },
+  {
+    "root": "CE_REAR_SPACE_NEEDLE_ROOT",
+    "design_xy": [
+      50,
+      46
+    ],
+    "extras": [
+      "CE_REAR_SPACE_NEEDLE_FOUNDATION",
+      "CE_REAR_SPACE_NEEDLE_PLAZA"
+    ]
+  },
+  {
+    "root": "CE_REAR_BLOCK_07_ROOT",
+    "design_xy": [
+      18,
+      58
+    ],
+    "extras": [
+      "CE_REAR_BLOCK_07_FOUNDATION"
+    ]
+  },
+  {
+    "root": "CE_REAR_BLOCK_11_ROOT",
+    "design_xy": [
+      50,
+      76
+    ],
+    "extras": [
+      "CE_REAR_BLOCK_11_FOUNDATION"
+    ]
+  },
+  {
+    "root": "CE_REAR_BLOCK_12_ROOT",
+    "design_xy": [
+      -24,
+      68
+    ],
+    "extras": [
+      "CE_REAR_BLOCK_12_FOUNDATION"
+    ]
+  },
+  {
+    "root": "CE_REAR_BLOCK_16_ROOT",
+    "design_xy": [
+      54,
+      78
+    ],
+    "extras": [
+      "CE_REAR_BLOCK_16_FOUNDATION"
+    ]
+  }
+]
