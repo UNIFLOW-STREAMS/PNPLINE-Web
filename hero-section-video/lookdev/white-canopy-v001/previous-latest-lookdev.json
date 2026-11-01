@@ -1,0 +1,93 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "sha256": "e6e08bc82ebfd75c25e241c74f81a8876ae26ba8e5e28748c3da6573ab225ec3",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "status": "The current master was compared with the previous fleet version across scene data and 990 integer animation frames. Intended coastal removals and one unused material removal were identified; full rendered playback and subframe/deformation validation remain pending.",
+  "changes": [
+    "User removed 21 UC_PALM_FROND objects, 3 UC_SHORE_HILL objects, and 3 UC_SHORE_TREE_TRUNK objects."
+  ],
+  "previous_version": {
+    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\pnpline-fleet-trucks-v001.blend",
+    "sha256": "c3c79132bc399902938b9464bd5be40bf7c2c1419efd9da3504a1356a44db66c",
+    "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\delivery.json",
+    "verification": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\review\\verification.json"
+  },
+  "verification": {
+    "method": "Read-only Blender 5.1 comparison against the previous verified fleet version; current and previous file SHA-256 values confirmed before and after the audit.",
+    "scene": {
+      "previous_objects": 25628,
+      "current_objects": 25601,
+      "removed_objects": [
+        "UC_PALM_FROND",
+        "UC_PALM_FROND.001",
+        "UC_PALM_FROND.002",
+        "UC_PALM_FROND.003",
+        "UC_PALM_FROND.004",
+        "UC_PALM_FROND.005",
+        "UC_PALM_FROND.006",
+        "UC_PALM_FROND.007",
+        "UC_PALM_FROND.008",
+        "UC_PALM_FROND.009",
+        "UC_PALM_FROND.010",
+        "UC_PALM_FROND.011",
+        "UC_PALM_FROND.012",
+        "UC_PALM_FROND.013",
+        "UC_PALM_FROND.014",
+        "UC_PALM_FROND.015",
+        "UC_PALM_FROND.016",
+        "UC_PALM_FROND.017",
+        "UC_PALM_FROND.018",
+        "UC_PALM_FROND.019",
+        "UC_PALM_FROND.020",
+        "UC_SHORE_HILL",
+        "UC_SHORE_HILL.001",
+        "UC_SHORE_HILL.002",
+        "UC_SHORE_TREE_TRUNK",
+        "UC_SHORE_TREE_TRUNK.001",
+        "UC_SHORE_TREE_TRUNK.002"
+      ],
+      "added_objects": [],
+      "remaining_object_snapshot_changes": 0,
+      "object_snapshot_scope": "Frame 0 object transforms, mesh/curve geometry fingerprints, hierarchy, material assignments, render and viewport visibility, constraints, modifiers, animation bindings and drivers.",
+      "collection_changes": {
+        "SITE_AND_LANDSCAPE": [
+          "objects"
+        ]
+      },
+      "scene_settings_match": true,
+      "remaining_material_signatures_match": true,
+      "removed_unused_material": {
+        "name": "LD_CORRUGATED_blue",
+        "previous_users": 0,
+        "previous_fake_user": false,
+        "previous_object_slots": 0
+      },
+      "actions_match": true,
+      "action_count": 131,
+      "missing_external_images_fonts_libraries": {
+        "images": [],
+        "fonts": [],
+        "libraries": []
+      }
+    },
+    "animation": {
+      "frame_start": 0,
+      "frame_end": 989,
+      "fps": 30,
+      "integer_frames_checked": 990,
+      "tracked_animated_objects_and_camera": 130,
+      "tracked_names_match": true,
+      "maximum_world_matrix_difference": 0.0,
+      "camera_optics_match": true,
+      "nonfinite_frames": 0,
+      "method": "Evaluated object world matrices and camera optics at every integer frame in a reduced dependency-complete scene; frame 0 was checked against the full scene."
+    },
+    "pending": [
+      "Full rendered playback, visual inspection, and collision/clearance checks for the current master.",
+      "Subframe evaluation and exhaustive evaluated deformation, shader, simulation and particle comparisons.",
+      "Real-time UI playback and live website composite review."
+    ]
+  }
+}

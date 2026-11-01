@@ -1,0 +1,16 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "source_sha256": "03735f39036bdb6cb0df03669328f238b90503f2de11f4652c637e0a451416cd",
+  "versioned_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-canopy-v001\\pnpline-white-canopy-v001.blend",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\green-canopy-v001\\pnpline-green-canopy-v001.blend",
+  "sha256": "c2645f294051719714786fee998812b80c42f1b34fcd16d4877a9e5fa7d264c7",
+  "mesh_material_assignments": {
+    "Broad crown": "DSP_leaf1",
+    "Oval crown": "DSP_leaf2"
+  },
+  "tree_counts": {
+    "Broad crown": 578,
+    "Oval crown": 585
+  },
+  "only_intended_edits": "Two existing canopy mesh material slots reassigned to the original DSP green foliage materials."
+}
