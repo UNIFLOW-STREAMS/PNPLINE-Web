@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-navigation.png",
+    "width": 1915,
+    "height": 821,
+    "sha256": "4b23abe5eef74a577ba7fed867dcdacde4b1b5c7e8f88fb9fbe7a58c6a168a05"
+  },
+  {
+    "file": "02-hero.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b488de906439e55c0cd0738676da8d91a1a7d77bda32a17ab414a71058124b97"
+  },
+  {
+    "file": "03-services.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7de98fcd4e6809d6f1fcab5465f5e348854963e13931d10fbf57f57608c94300"
+  },
+  {
+    "file": "04-customer-types.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5829b01acc4ff68f7f2cc8c3b7ef8130e60f322f0035ba06a876009f2dd45da8"
+  },
+  {
+    "file": "05-warehouse-systems.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "84c2d9ce80bf3679c5146e00f0702f551393f77e840421e35e9a5b17ce03c1ba"
+  },
+  {
+    "file": "06-process.png",
+    "width": 1717,
+    "height": 916,
+    "sha256": "92495fd64b90b5dabf0fe3ba9b2046b838907d6d25c6982cf7fb97ccf520f55e"
+  },
+  {
+    "file": "07-pricing.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "470a580ede513add5005898dd6bdd435ae7b63d6aae6aa0786b40b81d77b23cc"
+  },
+  {
+    "file": "08-faq.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "59d0720bae4f8141d01471a9f8c7fea09011e9c48cf55e257183c374f9808846"
+  },
+  {
+    "file": "09-quote.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5f388ee742902674e16e097fc37e592e0a84491d67eb92477724717116b9a935"
+  },
+  {
+    "file": "10-footer.png",
+    "width": 1915,
+    "height": 821,
+    "sha256": "fef9be756c37b2e4efa92d256c890c79671124af82bf4fb2a030a6f2f87d84c7"
+  }
+]
