@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\pnpline-warehouse-envelope-crew-v001.blend",
+  "sha256": "257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\green-canopy-v001\\pnpline-green-canopy-v001.blend",
+  "source_sha256": "c2645f294051719714786fee998812b80c42f1b34fcd16d4877a9e5fa7d264c7",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\review\\exterior.png",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\delivery.json",
+  "status": "US warehouse fully roofed and enclosed except for both loading portals. All three worker proxies replaced by PNPLINE scale figures."
+}

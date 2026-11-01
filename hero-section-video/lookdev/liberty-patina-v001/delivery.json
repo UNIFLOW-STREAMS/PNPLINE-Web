@@ -1,0 +1,22 @@
+{
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\pnpline-liberty-patina-v001.blend",
+  "sha256": "59f3962e61e885aa2068cc91af4dbbce85aa8f40396b09fe010fbbb401c2baf5",
+  "reference": "User-supplied New York travel poster; the isolated statue ink colours are packed in the scene. Side and rear are reconstructed.",
+  "checks": {
+    "pedestal_island_signature": "52a277065a67a04b98c10ed31975bd0d66d2cf415882b7e5f4f86ada6e4d87c9",
+    "base_objects": 20,
+    "figure_parts": 21,
+    "other_scene_objects": 26768,
+    "camera": "CAM_MASTER",
+    "timing": [
+      0,
+      989,
+      30
+    ],
+    "packed_texture": true
+  },
+  "renders": [
+    "review/front.png",
+    "review/quarter.png"
+  ]
+}
