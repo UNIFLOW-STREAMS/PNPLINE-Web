@@ -1,0 +1,3962 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-us-integrated-v001\\pnpline-cn-us-integrated-v001.blend",
+  "source_sha256": "1aee6c14eb4140614ffa650141eed3ada783c416397fbb938a5105a8df70a7d8",
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\pnpline-cn-city-expansion-v001.blend",
+  "sha256": "c9da20e19f2cf732245df77c178b1fa85dae00753884ea3c586327a63cbe75bb",
+  "source_objects": 18311,
+  "added_objects": 1834,
+  "collections": [
+    "CNX_BEIJING_GUANGZHOU"
+  ],
+  "outer_boundary": [
+    [
+      -28,
+      -10
+    ],
+    [
+      -58,
+      -10
+    ],
+    [
+      -65,
+      5
+    ],
+    [
+      -64,
+      35
+    ],
+    [
+      -62,
+      65
+    ],
+    [
+      -40,
+      73
+    ],
+    [
+      -26,
+      72
+    ],
+    [
+      8,
+      71
+    ],
+    [
+      40,
+      64
+    ],
+    [
+      60,
+      48
+    ],
+    [
+      64,
+      22
+    ],
+    [
+      60,
+      3
+    ],
+    [
+      30,
+      3
+    ]
+  ],
+  "inner_boundary": [
+    [
+      -28,
+      -10
+    ],
+    [
+      -28,
+      3
+    ],
+    [
+      -33,
+      14
+    ],
+    [
+      -29,
+      23
+    ],
+    [
+      -20,
+      29
+    ],
+    [
+      -2,
+      32
+    ],
+    [
+      14,
+      31
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      22,
+      20
+    ],
+    [
+      23,
+      6
+    ],
+    [
+      30,
+      3
+    ]
+  ],
+  "landmark_count": 13,
+  "building_counts": {
+    "hutong_compounds": 12,
+    "hutong_roof_buildings": 48,
+    "lowrise_houses": 82,
+    "qilou": 40,
+    "midrise": 77
+  },
+  "street_trees": 423,
+  "sites": [
+    {
+      "name": "CNX_BJ_PALACE",
+      "kind": "palace",
+      "region": "BJ",
+      "anchor": [
+        -45,
+        1
+      ],
+      "size": [
+        17,
+        11,
+        5.8
+      ],
+      "root": "CNX_BJ_PALACE_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_HEAVEN",
+      "kind": "heaven",
+      "region": "BJ",
+      "anchor": [
+        -46,
+        17
+      ],
+      "size": [
+        10.5,
+        10,
+        7.6
+      ],
+      "root": "CNX_BJ_HEAVEN_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_CCTV",
+      "kind": "cctv",
+      "region": "BJ",
+      "anchor": [
+        -39,
+        38
+      ],
+      "size": [
+        10,
+        7.5,
+        21
+      ],
+      "root": "CNX_BJ_CCTV_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_ZUN",
+      "kind": "zun",
+      "region": "BJ",
+      "anchor": [
+        -51,
+        40
+      ],
+      "size": [
+        5.2,
+        5.0,
+        31
+      ],
+      "root": "CNX_BJ_ZUN_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_STADIUM",
+      "kind": "stadium",
+      "region": "BJ",
+      "anchor": [
+        -29,
+        51
+      ],
+      "size": [
+        12.5,
+        9,
+        5.3
+      ],
+      "root": "CNX_BJ_STADIUM_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_GREAT_WALL",
+      "kind": "great_wall",
+      "region": "BJ",
+      "anchor": [
+        -41,
+        58
+      ],
+      "size": [
+        26,
+        10,
+        6.3
+      ],
+      "root": "CNX_BJ_GREAT_WALL_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_LINGNAN",
+      "kind": "lingnan",
+      "region": "GZ",
+      "anchor": [
+        43,
+        10
+      ],
+      "size": [
+        13,
+        9,
+        5.8
+      ],
+      "root": "CNX_GZ_LINGNAN_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_PAGODA",
+      "kind": "pagoda",
+      "region": "GZ",
+      "anchor": [
+        55,
+        16
+      ],
+      "size": [
+        4.6,
+        4.6,
+        10
+      ],
+      "root": "CNX_GZ_PAGODA_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_CANTON",
+      "kind": "canton",
+      "region": "GZ",
+      "anchor": [
+        45,
+        32
+      ],
+      "size": [
+        6.5,
+        6.5,
+        33
+      ],
+      "root": "CNX_GZ_CANTON_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_IFC",
+      "kind": "ifc",
+      "region": "GZ",
+      "anchor": [
+        34,
+        46
+      ],
+      "size": [
+        5,
+        5,
+        25
+      ],
+      "root": "CNX_GZ_IFC_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_CTF",
+      "kind": "ctf",
+      "region": "GZ",
+      "anchor": [
+        46,
+        49
+      ],
+      "size": [
+        5,
+        4.5,
+        27
+      ],
+      "root": "CNX_GZ_CTF_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_FACETED",
+      "kind": "faceted",
+      "region": "GZ",
+      "anchor": [
+        55,
+        40
+      ],
+      "size": [
+        5.2,
+        5.0,
+        23
+      ],
+      "root": "CNX_GZ_FACETED_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_GZ_SHELLS",
+      "kind": "shells",
+      "region": "GZ",
+      "anchor": [
+        26,
+        39
+      ],
+      "size": [
+        11,
+        8,
+        6
+      ],
+      "root": "CNX_GZ_SHELLS_ROOT",
+      "landmark": true
+    },
+    {
+      "name": "CNX_BJ_HUTONG_000",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -60.89283455356007,
+        3.8318987350936826
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.9844837937693394
+      ],
+      "root": "CNX_BJ_HUTONG_000_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_001",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -60.946981508426134,
+        8.24110130877199
+      ],
+      "size": [
+        3.65,
+        3.3,
+        2.00303009628505
+      ],
+      "root": "CNX_BJ_HUTONG_001_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_002",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -61.00874625997655,
+        12.681865798410271
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.9030021419793541
+      ],
+      "root": "CNX_BJ_HUTONG_002_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_003",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -61.01176519067036,
+        17.005966320534764
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.8779009051310855
+      ],
+      "root": "CNX_BJ_HUTONG_003_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_004",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -60.88492797255147,
+        21.494898446341995
+      ],
+      "size": [
+        3.65,
+        3.3,
+        2.027614208468816
+      ],
+      "root": "CNX_BJ_HUTONG_004_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_005",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -34.68961197900542,
+        21.415608500253704
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.8556669372522263
+      ],
+      "root": "CNX_BJ_HUTONG_005_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_006",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -61.11349549244715,
+        30.081559505944632
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.6725293532434358
+      ],
+      "root": "CNX_BJ_HUTONG_006_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_007",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -52.29810788391492,
+        30.175739341490804
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.9759691231945968
+      ],
+      "root": "CNX_BJ_HUTONG_007_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_008",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -47.69418616078153,
+        30.2408159600915
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.7407845330630336
+      ],
+      "root": "CNX_BJ_HUTONG_008_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_009",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -43.47129203559487,
+        30.30990683872731
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.8955408874800925
+      ],
+      "root": "CNX_BJ_HUTONG_009_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_010",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -39.06833169923535,
+        30.30393073000181
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.846066252273958
+      ],
+      "root": "CNX_BJ_HUTONG_010_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_HUTONG_011",
+      "kind": "hutong",
+      "region": "BJ",
+      "anchor": [
+        -34.54318982444875,
+        30.31952611425856
+      ],
+      "size": [
+        3.65,
+        3.3,
+        1.9057246016086955
+      ],
+      "root": "CNX_BJ_HUTONG_011_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_012",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -29.297775980239095,
+        30.051901532871312
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.0135460115723465
+      ],
+      "root": "CNX_BJ_MIDRISE_012_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_013",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -47.297921388524394,
+        33.68913857636234
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.278882589653914
+      ],
+      "root": "CNX_BJ_MIDRISE_013_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_014",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -29.091899417283333,
+        33.55897099230678
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.129151883374778
+      ],
+      "root": "CNX_BJ_MIDRISE_014_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_015",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -29.177074571952968,
+        40.70856352544084
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.0
+      ],
+      "root": "CNX_BJ_MIDRISE_015_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_016",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -58.0956109879189,
+        44.51374164818171
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.665182434263163
+      ],
+      "root": "CNX_BJ_MIDRISE_016_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_017",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -57.984433238076,
+        47.89475493682896
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.483880015224997
+      ],
+      "root": "CNX_BJ_MIDRISE_017_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_018",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -54.33193127051389,
+        48.0806363434436
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.723014944310345
+      ],
+      "root": "CNX_BJ_MIDRISE_018_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_019",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -47.268584115830265,
+        48.104217256056366
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.4616618431788275
+      ],
+      "root": "CNX_BJ_MIDRISE_019_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_020",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -43.5871008201563,
+        48.08997234050481
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.872284848164158
+      ],
+      "root": "CNX_BJ_MIDRISE_020_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_021",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -39.9981211774824,
+        47.89579237129902
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.0
+      ],
+      "root": "CNX_BJ_MIDRISE_021_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_MIDRISE_022",
+      "kind": "midrise",
+      "region": "BJ",
+      "anchor": [
+        -57.978699989151586,
+        51.48642055825652
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.228585064342741
+      ],
+      "root": "CNX_BJ_MIDRISE_022_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_023",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -21.066280506309052,
+        39.6169996257666
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.0
+      ],
+      "root": "CNX_LINK_MIDRISE_023_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_024",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.85045640325048,
+        39.6658751756309
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.140967961360746
+      ],
+      "root": "CNX_LINK_MIDRISE_024_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_025",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -21.037599504137244,
+        43.104270262046
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.0
+      ],
+      "root": "CNX_LINK_MIDRISE_025_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_026",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -17.503397418870673,
+        43.11049453659689
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.8199228147414033
+      ],
+      "root": "CNX_LINK_MIDRISE_026_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_027",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.79280837711424,
+        43.11484270576148
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.743188505715615
+      ],
+      "root": "CNX_LINK_MIDRISE_027_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_028",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -10.261082040016573,
+        43.24177162687498
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.975457318327379
+      ],
+      "root": "CNX_LINK_MIDRISE_028_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_029",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -6.65258165775434,
+        43.2587672974829
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.166027635860746
+      ],
+      "root": "CNX_LINK_MIDRISE_029_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_030",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -2.9824769383994068,
+        43.30098512497713
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.84046689900587
+      ],
+      "root": "CNX_LINK_MIDRISE_030_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_031",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        0.7143141892984906,
+        43.27766942151269
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.122395490484326
+      ],
+      "root": "CNX_LINK_MIDRISE_031_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_032",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        4.243121746054701,
+        43.10247140510428
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.825336264329955
+      ],
+      "root": "CNX_LINK_MIDRISE_032_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_033",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        7.912651710142513,
+        43.10745297513729
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.7997288893449968
+      ],
+      "root": "CNX_LINK_MIDRISE_033_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_034",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        11.409211431756603,
+        43.17581210468451
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.214586762233283
+      ],
+      "root": "CNX_LINK_MIDRISE_034_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_035",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        14.920058368002817,
+        43.280677897958526
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.709180331914081
+      ],
+      "root": "CNX_LINK_MIDRISE_035_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_036",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -17.462509930292462,
+        46.86500728829633
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.73561932895281
+      ],
+      "root": "CNX_LINK_MIDRISE_036_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_037",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.836230597044993,
+        46.917373148677314
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.204362156834327
+      ],
+      "root": "CNX_LINK_MIDRISE_037_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_038",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -10.101668849485366,
+        46.77829155758653
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.665818476000334
+      ],
+      "root": "CNX_LINK_MIDRISE_038_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_039",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -6.569582301580712,
+        46.8500435210834
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.648292063796228
+      ],
+      "root": "CNX_LINK_MIDRISE_039_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_040",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -2.9457130222574994,
+        46.89062639081061
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.909539990303131
+      ],
+      "root": "CNX_LINK_MIDRISE_040_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_041",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        0.5339464221477134,
+        46.82058772363566
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.19042336724034
+      ],
+      "root": "CNX_LINK_MIDRISE_041_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_042",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        4.248283676000478,
+        46.7185460402804
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.98056195331295
+      ],
+      "root": "CNX_LINK_MIDRISE_042_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_043",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        7.824230732766181,
+        46.6837021646879
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.760404893046033
+      ],
+      "root": "CNX_LINK_MIDRISE_043_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_044",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        11.353118501010973,
+        46.77110070278044
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.237639762664164
+      ],
+      "root": "CNX_LINK_MIDRISE_044_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_045",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        15.074048323925435,
+        46.757906759837894
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.296467859698996
+      ],
+      "root": "CNX_LINK_MIDRISE_045_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_046",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        18.699174428980907,
+        46.77853924120304
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.568466456235416
+      ],
+      "root": "CNX_LINK_MIDRISE_046_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_047",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -17.322234333475937,
+        53.99177408991093
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.4811107195770425
+      ],
+      "root": "CNX_LINK_MIDRISE_047_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_048",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.877878225642359,
+        53.91061140562384
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.9846854245329055
+      ],
+      "root": "CNX_LINK_MIDRISE_048_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_049",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -10.216261107888398,
+        53.88160673606614
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.119679874510318
+      ],
+      "root": "CNX_LINK_MIDRISE_049_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_050",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -6.630905276540834,
+        53.88635118775929
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.938222119111613
+      ],
+      "root": "CNX_LINK_MIDRISE_050_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_051",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -3.073964636189176,
+        53.98164263601105
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.317298614128967
+      ],
+      "root": "CNX_LINK_MIDRISE_051_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_052",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        0.6403304350798616,
+        54.030055025102904
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.74123152126918
+      ],
+      "root": "CNX_LINK_MIDRISE_052_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_053",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        4.115890838369627,
+        54.01006946257432
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.465236186202906
+      ],
+      "root": "CNX_LINK_MIDRISE_053_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_054",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        7.872342328595082,
+        54.11726192361471
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.068497563791426
+      ],
+      "root": "CNX_LINK_MIDRISE_054_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_055",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        11.327610268735924,
+        53.99509336724084
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.522141478411287
+      ],
+      "root": "CNX_LINK_MIDRISE_055_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_056",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        15.099878704887416,
+        54.09189522780792
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.373516083427781
+      ],
+      "root": "CNX_LINK_MIDRISE_056_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_057",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        18.5970106346175,
+        53.893981194632445
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.2212422048773215
+      ],
+      "root": "CNX_LINK_MIDRISE_057_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_058",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -17.42646075842679,
+        57.68247112725683
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.449044432687522
+      ],
+      "root": "CNX_LINK_MIDRISE_058_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_059",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.899717207093508,
+        57.50990389545532
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.8528069297885414
+      ],
+      "root": "CNX_LINK_MIDRISE_059_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_060",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -10.206268875534425,
+        57.60846658985127
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.6817932598177294
+      ],
+      "root": "CNX_LINK_MIDRISE_060_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_061",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -6.650698936915245,
+        57.503408083093184
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.373293189470352
+      ],
+      "root": "CNX_LINK_MIDRISE_061_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_062",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -3.014675384369098,
+        57.67033866340012
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.3497680425528396
+      ],
+      "root": "CNX_LINK_MIDRISE_062_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_063",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        0.500730819551938,
+        57.69311434604761
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.376103157689672
+      ],
+      "root": "CNX_LINK_MIDRISE_063_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_064",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        4.08736777680718,
+        57.616429759214725
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.374211528781747
+      ],
+      "root": "CNX_LINK_MIDRISE_064_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_065",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        7.754812413562799,
+        57.71791753574479
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.709531222469465
+      ],
+      "root": "CNX_LINK_MIDRISE_065_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_066",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        11.461597569642903,
+        57.59585316892914
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.1435739236442934
+      ],
+      "root": "CNX_LINK_MIDRISE_066_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_067",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        15.093182814155012,
+        57.58940172610147
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.532529198676402
+      ],
+      "root": "CNX_LINK_MIDRISE_067_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_068",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -21.02652552474958,
+        64.71926918073736
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.77370558391523
+      ],
+      "root": "CNX_LINK_MIDRISE_068_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_069",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -17.51240075755736,
+        64.70317772890371
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.265820525565248
+      ],
+      "root": "CNX_LINK_MIDRISE_069_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_070",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -13.913414254468803,
+        64.85003470094375
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.110072580628773
+      ],
+      "root": "CNX_LINK_MIDRISE_070_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_071",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -10.17522209470375,
+        64.82924747108166
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.890025052023581
+      ],
+      "root": "CNX_LINK_MIDRISE_071_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_072",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -6.71906006441774,
+        64.69064886520627
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.5091623017221005
+      ],
+      "root": "CNX_LINK_MIDRISE_072_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_073",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        -2.9524885743987483,
+        64.74600772450137
+      ],
+      "size": [
+        2.65,
+        2.55,
+        8.18243187192834
+      ],
+      "root": "CNX_LINK_MIDRISE_073_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_074",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        0.5388037496454545,
+        64.88964090103427
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.059733134250568
+      ],
+      "root": "CNX_LINK_MIDRISE_074_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_075",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        4.185601990642667,
+        64.81804240792393
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.168145050247924
+      ],
+      "root": "CNX_LINK_MIDRISE_075_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_076",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        7.821007172574118,
+        64.73591120525263
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.196851227111466
+      ],
+      "root": "CNX_LINK_MIDRISE_076_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_077",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        11.324392460824974,
+        64.88697974502111
+      ],
+      "size": [
+        2.65,
+        2.55,
+        6.427316672469574
+      ],
+      "root": "CNX_LINK_MIDRISE_077_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_078",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        15.08814912353804,
+        64.71622355459535
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.9438137123118406
+      ],
+      "root": "CNX_LINK_MIDRISE_078_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_MIDRISE_079",
+      "kind": "midrise",
+      "region": "LINK",
+      "anchor": [
+        18.576841476744455,
+        64.80257941614323
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.15546961884394
+      ],
+      "root": "CNX_LINK_MIDRISE_079_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_080",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        31.321138048470505,
+        7.292027029608084
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.1669086813464915
+      ],
+      "root": "CNX_GZ_QILOU_080_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_081",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        54.49388697189117,
+        7.293341999376004
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.5
+      ],
+      "root": "CNX_GZ_QILOU_081_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_082",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        54.415719928036665,
+        10.517057731822172
+      ],
+      "size": [
+        2.65,
+        2.4,
+        3.799172847447492
+      ],
+      "root": "CNX_GZ_QILOU_082_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_083",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        27.99059502997112,
+        13.79382884790202
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.43865975718006
+      ],
+      "root": "CNX_GZ_QILOU_083_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_084",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        27.98805960936233,
+        17.103670531611566
+      ],
+      "size": [
+        2.65,
+        2.4,
+        3.7411977225706505
+      ],
+      "root": "CNX_GZ_QILOU_084_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_085",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        41.17183059302425,
+        20.44669274521232
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.085559807001016
+      ],
+      "root": "CNX_GZ_QILOU_085_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_086",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        44.43276350407564,
+        20.61799135244796
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.211061837047701
+      ],
+      "root": "CNX_GZ_QILOU_086_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_087",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        47.84931733220488,
+        20.513420298708823
+      ],
+      "size": [
+        2.65,
+        2.4,
+        4.4267473536768795
+      ],
+      "root": "CNX_GZ_QILOU_087_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_088",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        27.003159141024263,
+        28.068502270440575
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.159765371414734
+      ],
+      "root": "CNX_GZ_QILOU_088_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_089",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        30.475842822373277,
+        28.028768594075274
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.494200000645721
+      ],
+      "root": "CNX_GZ_QILOU_089_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_090",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.884684682408412,
+        31.603357830237613
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.5
+      ],
+      "root": "CNX_GZ_QILOU_090_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_091",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        30.433291104005306,
+        31.48006016464681
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.473839354503269
+      ],
+      "root": "CNX_GZ_QILOU_091_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_092",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        51.41794106678572,
+        31.612063709291633
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.5
+      ],
+      "root": "CNX_GZ_QILOU_092_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_093",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        55.08588445968664,
+        31.497474136593407
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.5
+      ],
+      "root": "CNX_GZ_QILOU_093_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_094",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        44.54115338838861,
+        38.499641038924864
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.0667335581098065
+      ],
+      "root": "CNX_GZ_MIDRISE_094_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_095",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        47.93441688902058,
+        38.549828132555966
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.599923602087753
+      ],
+      "root": "CNX_GZ_MIDRISE_095_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_096",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        44.555236760607244,
+        41.90542863886022
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.8303644702737496
+      ],
+      "root": "CNX_GZ_MIDRISE_096_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_097",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        47.89884018221627,
+        42.042202103746604
+      ],
+      "size": [
+        2.65,
+        2.55,
+        3.9600010600957702
+      ],
+      "root": "CNX_GZ_MIDRISE_097_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_098",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        26.951832882882368,
+        49.02708748212095
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.50062050649708
+      ],
+      "root": "CNX_GZ_MIDRISE_098_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_099",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        27.038941438258284,
+        52.484442198394056
+      ],
+      "size": [
+        2.65,
+        2.55,
+        5.424142636672474
+      ],
+      "root": "CNX_GZ_MIDRISE_099_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_100",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        30.60803387705417,
+        52.430437997666345
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.549649575009729
+      ],
+      "root": "CNX_GZ_MIDRISE_100_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_101",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        34.09613577821723,
+        52.46168754492994
+      ],
+      "size": [
+        2.65,
+        2.55,
+        4.615314975149254
+      ],
+      "root": "CNX_GZ_MIDRISE_101_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_MIDRISE_102",
+      "kind": "midrise",
+      "region": "GZ",
+      "anchor": [
+        37.415796057964116,
+        52.43263492907998
+      ],
+      "size": [
+        2.65,
+        2.55,
+        7.935954017781622
+      ],
+      "root": "CNX_GZ_MIDRISE_102_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_103",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        -4.7
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6452263022116331
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_103_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_104",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        -4.7
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4665929620914049
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_104_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_105",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        -1.7
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.704636486557247
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_105_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_106",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        -1.7
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5647953129012875
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_106_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_107",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        1.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6240209466031144
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_107_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_108",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        1.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6335526649831367
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_108_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_109",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        4.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4191990983416103
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_109_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_110",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        4.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7248497057544747
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_110_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_111",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        32.33,
+        4.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.3079699098024147
+      ],
+      "root": "CNX_GZ_QILOU_111_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_112",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        53.33,
+        4.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.3739502186756756
+      ],
+      "root": "CNX_GZ_QILOU_112_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_113",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        56.33,
+        4.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.863281129633014
+      ],
+      "root": "CNX_GZ_QILOU_113_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_114",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        7.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4282088291566761
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_114_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_115",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        10.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5800920668963245
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_115_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_116",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -36.67,
+        10.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7155334468497712
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_116_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_117",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        10.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4222655975267344
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_117_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_118",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.33,
+        10.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.8553715789368335
+      ],
+      "root": "CNX_GZ_QILOU_118_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_119",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        32.33,
+        10.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.2348937953799286
+      ],
+      "root": "CNX_GZ_QILOU_119_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_120",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        13.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.609886971486878
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_120_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_121",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -36.67,
+        13.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.717500913500841
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_121_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_122",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        16.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4601553727448542
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_122_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_123",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -36.67,
+        16.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.376020368219209
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_123_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_124",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        19.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5914710709023665
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_124_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_125",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        35.33,
+        19.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.4198338944572892
+      ],
+      "root": "CNX_GZ_QILOU_125_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_126",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        38.33,
+        19.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.368048799629587
+      ],
+      "root": "CNX_GZ_QILOU_126_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_127",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        22.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7842079460993931
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_127_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_128",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        22.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4139449223310316
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_128_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_129",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        56.33,
+        22.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.248442924631683
+      ],
+      "root": "CNX_GZ_QILOU_129_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_130",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        25.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.780042838017815
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_130_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_131",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        28.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6097519976172154
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_131_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_132",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        38.33,
+        28.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.2409229950902367
+      ],
+      "root": "CNX_GZ_QILOU_132_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_133",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        20.33,
+        31.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6165684760402117
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_133_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_134",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        31.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.3548066645922252
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_134_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_135",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        38.33,
+        31.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.881018258395132
+      ],
+      "root": "CNX_GZ_QILOU_135_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_136",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6050024495642072
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_136_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_137",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -54.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4409669779914063
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_137_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_138",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -51.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6415248519250853
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_138_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_139",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5197042774645417
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_139_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_140",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -21.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.3563087606559192
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_140_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_141",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -18.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7952537183004684
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_141_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_142",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -15.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7127092204154382
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_142_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_143",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -12.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7579656047190149
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_143_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_144",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -9.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7154841701837016
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_144_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_145",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -6.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5780129143790056
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_145_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_146",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -3.67,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.727792175003074
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_146_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_147",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -0.6699999999999999,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4726759955838753
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_147_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_148",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        2.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6411557629575986
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_148_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_149",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        5.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5417950558998146
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_149_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_150",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        8.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6545097052702917
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_150_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_151",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        11.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6338394010086863
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_151_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_152",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        14.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7011177206229182
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_152_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_153",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        17.33,
+        34.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.45255912407631
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_153_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_154",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        53.33,
+        34.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.9384158828204976
+      ],
+      "root": "CNX_GZ_QILOU_154_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_155",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        37.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.3557300817852507
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_155_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_156",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        35.33,
+        37.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.9087336410669016
+      ],
+      "root": "CNX_GZ_QILOU_156_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_157",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5488677922666823
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_157_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_158",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7052828388283783
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_158_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_159",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -9.67,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.3669758555862257
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_159_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_160",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -6.67,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5387144107042998
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_160_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_161",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -3.67,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7054979176551914
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_161_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_162",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -0.6699999999999999,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.358879733273667
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_162_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_163",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        2.33,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6308967024818033
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_163_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_164",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        5.33,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.585893232493779
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_164_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_165",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        8.33,
+        40.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4325152381897686
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_165_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_166",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        35.33,
+        40.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.8332621164740117
+      ],
+      "root": "CNX_GZ_QILOU_166_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_167",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        43.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.417001500889463
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_167_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_168",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -27.67,
+        43.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5837517096938598
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_168_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_169",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        43.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.537540113828968
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_169_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_170",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        46.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.771382665094641
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_170_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_171",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.33,
+        46.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.9102255847224225
+      ],
+      "root": "CNX_GZ_QILOU_171_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_172",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        55.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.798747460549449
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_172_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_173",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -57.67,
+        55.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5135187566120463
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_173_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_174",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        55.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6710784756247168
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_174_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_175",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.33,
+        55.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.6828417964999973
+      ],
+      "root": "CNX_GZ_QILOU_175_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_176",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        29.33,
+        55.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.6162771210556985
+      ],
+      "root": "CNX_GZ_QILOU_176_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_177",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        47.33,
+        55.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.824909311286484
+      ],
+      "root": "CNX_GZ_QILOU_177_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_178",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        58.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4949662755233415
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_178_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_179",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -57.67,
+        58.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.681591899765958
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_179_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_180",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        58.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.439583222325526
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_180_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_181",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -21.67,
+        58.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5031001752332178
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_181_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_182",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        38.33,
+        58.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.3387751200671696
+      ],
+      "root": "CNX_GZ_QILOU_182_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_183",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        41.33,
+        58.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.4198451758781383
+      ],
+      "root": "CNX_GZ_QILOU_183_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_184",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -60.67,
+        61.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4288458286245762
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_184_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_185",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -57.67,
+        61.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6190771942369753
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_185_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_186",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        61.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.420251384665292
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_186_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_187",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.33,
+        61.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.31488972261678
+      ],
+      "root": "CNX_GZ_QILOU_187_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_188",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        29.33,
+        61.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.6427649407150087
+      ],
+      "root": "CNX_GZ_QILOU_188_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_189",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        32.33,
+        61.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.9225423618232798
+      ],
+      "root": "CNX_GZ_QILOU_189_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_190",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        35.33,
+        61.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.131263042720238
+      ],
+      "root": "CNX_GZ_QILOU_190_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_191",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        38.33,
+        61.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        3.357305244533031
+      ],
+      "root": "CNX_GZ_QILOU_191_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_192",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -57.67,
+        64.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4370477125048575
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_192_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_193",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        64.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5989804873794078
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_193_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_194",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        23.33,
+        64.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6107986979716862
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_194_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_195",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        26.33,
+        64.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.814656701015519
+      ],
+      "root": "CNX_GZ_QILOU_195_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_GZ_QILOU_196",
+      "kind": "qilou",
+      "region": "GZ",
+      "anchor": [
+        29.33,
+        64.3
+      ],
+      "size": [
+        2.05,
+        1.75,
+        2.670668591745936
+      ],
+      "root": "CNX_GZ_QILOU_196_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_197",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -48.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.616426414853876
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_197_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_198",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -45.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6388654926349315
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_198_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_199",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -42.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4186528163717214
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_199_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_200",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -39.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4662394041150164
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_200_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_201",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -36.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4803784549599244
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_201_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_202",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -33.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7100681592825644
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_202_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_203",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -30.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.48261247922854
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_203_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_BJ_STREET_HOUSE_204",
+      "kind": "street_house",
+      "region": "BJ",
+      "anchor": [
+        -27.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.6386702094843466
+      ],
+      "root": "CNX_BJ_STREET_HOUSE_204_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_205",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -24.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5291982846147913
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_205_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_206",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -21.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.4666852313170422
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_206_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_207",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -18.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5421890035707024
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_207_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_208",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        -6.67,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.5909650176276404
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_208_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_209",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        8.33,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.383146875584357
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_209_ROOT",
+      "landmark": false
+    },
+    {
+      "name": "CNX_LINK_STREET_HOUSE_210",
+      "kind": "street_house",
+      "region": "LINK",
+      "anchor": [
+        14.33,
+        67.3
+      ],
+      "size": [
+        1.85,
+        1.65,
+        1.7823097656965774
+      ],
+      "root": "CNX_LINK_STREET_HOUSE_210_ROOT",
+      "landmark": false
+    }
+  ],
+  "roads": [
+    {
+      "name": "BEIJING_AXIS",
+      "points": [
+        [
+          -58,
+          -6
+        ],
+        [
+          -57,
+          16
+        ],
+        [
+          -57,
+          40
+        ],
+        [
+          -46,
+          54
+        ],
+        [
+          -24,
+          61
+        ],
+        [
+          6,
+          62
+        ],
+        [
+          34,
+          57
+        ],
+        [
+          56,
+          47
+        ]
+      ],
+      "width": 2.0
+    },
+    {
+      "name": "PALACE_STREET",
+      "points": [
+        [
+          -60,
+          -7
+        ],
+        [
+          -38,
+          -7
+        ],
+        [
+          -29,
+          -7
+        ]
+      ],
+      "width": 1.8
+    },
+    {
+      "name": "BJ_CROSS",
+      "points": [
+        [
+          -60,
+          27
+        ],
+        [
+          -44,
+          27
+        ],
+        [
+          -30,
+          27
+        ]
+      ],
+      "width": 1.8
+    },
+    {
+      "name": "REAR_CROSS",
+      "points": [
+        [
+          -34,
+          37
+        ],
+        [
+          -14,
+          37
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          26,
+          39
+        ]
+      ],
+      "width": 1.8
+    },
+    {
+      "name": "NORTH_STREET",
+      "points": [
+        [
+          -24,
+          51
+        ],
+        [
+          4,
+          51
+        ],
+        [
+          25,
+          51
+        ]
+      ],
+      "width": 1.6
+    },
+    {
+      "name": "GZ_BOULEVARD",
+      "points": [
+        [
+          27,
+          5
+        ],
+        [
+          32,
+          15
+        ],
+        [
+          34,
+          27
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          43,
+          56
+        ]
+      ],
+      "width": 1.9
+    },
+    {
+      "name": "GZ_OUTER",
+      "points": [
+        [
+          59,
+          6
+        ],
+        [
+          59,
+          27
+        ],
+        [
+          57,
+          47
+        ]
+      ],
+      "width": 1.8
+    }
+  ],
+  "original_objects_modified": [
+    "SF_OCEAN_WAVE.001",
+    "SF_OCEAN_WAVE.003",
+    "SF_OCEAN_WAVE.004",
+    "SF_OCEAN_WAVE.009",
+    "SF_OCEAN_WAVE.016",
+    "SF_OCEAN_WAVE.027",
+    "SF_OCEAN_WAVE.029",
+    "SF_OCEAN_WAVE.030",
+    "SF_OCEAN_WAVE.031"
+  ],
+  "original_visibility_exceptions": [
+    "SF_OCEAN_WAVE.001",
+    "SF_OCEAN_WAVE.003",
+    "SF_OCEAN_WAVE.004",
+    "SF_OCEAN_WAVE.009",
+    "SF_OCEAN_WAVE.016",
+    "SF_OCEAN_WAVE.027",
+    "SF_OCEAN_WAVE.029",
+    "SF_OCEAN_WAVE.030",
+    "SF_OCEAN_WAVE.031"
+  ],
+  "camera_modified": false,
+  "timeline": [
+    0,
+    989,
+    30
+  ],
+  "terrain_method": "Actual ocean height +0.9, smooth 18-unit connection shelf to original coastal top; local terrain normals and fitted foundations",
+  "status": "Complete: final visual review and all 16 independent preservation/clearance checks passed",
+  "completed_at_utc": "2026-10-31T14:45:24.218355+00:00",
+  "support_building_count": 247,
+  "total_objects": 20145,
+  "verification": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\review\\verification-summary.json",
+  "review": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\review.html",
+  "preview": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\review\\after-hero-diagnostic\\hero.png",
+  "time_map": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-city-expansion-v001\\time-map.json",
+  "source_file_preserved": true,
+  "original_camera_and_animation_preserved": true,
+  "native_frames_verified": 990,
+  "review_note": "Workbench modeling previews; overview uses a temporary review camera. The saved original animation camera remains unchanged.",
+  "visibility_note": "Nine decorative ocean-wave objects under the new land are hidden; their geometry, transforms and animation remain intact.",
+  "checks": {
+    "source_all_18311_objects_retained": true,
+    "all_original_fields_exact_except_documented_wave_visibility": true,
+    "all_original_actions_exact": true,
+    "all_original_materials_exact": true,
+    "all_original_collections_retained": true,
+    "camera_and_actor_matrices_990_frames_exact": true,
+    "camera_optics_990_frames_exact": true,
+    "scene_timing_camera_exact": true,
+    "all_added_objects_CNX_prefix": true,
+    "new_geometry_clear_camera_sweeps": true,
+    "new_geometry_clear_moving_actors": true,
+    "new_geometry_clear_original_visible_architecture": true,
+    "foundations_contact_terrain": true,
+    "closed_new_components_outward": true,
+    "source_file_unchanged": true,
+    "candidate_file_unchanged": true
+  },
+  "artifact_sha256": {
+    "README.md": "5c177ce86516c49c14e8c1bd4d331d43735497b6ffe5d0ac00d3d13d31824249",
+    "review.html": "6c82f55f4243d86849ca972f668ab26fb6346920e0f5753edb6ed1b5726baaeb",
+    "time-map.json": "ee4dd057df7471297dd9e7d21d4984727495d18facdba6cf62dbddf1b3873d07",
+    "review/verification-summary.json": "9d815744ee5a0286eaf6e374b1bc1a1a9a89fb0407de44b261151d6d3f59b5be",
+    "review/expansion-verification.json": "453a39078817d768b4e27eb4ce5427fcb60cb3f10683bac6df26d0a353080f71",
+    "review/contact-verification.json": "e848c082647130d7e92c9e8667895d1194251cd6c8a642726b3b67a54c2d5333",
+    "review/site-verification.json": "bb34dee8b2c8672244b705d830028e473e496ea48fd7d122a027ca1e0998fe36",
+    "review/render-camera-preservation.json": "78a8d7bee1dcd4f418a1a7dcdb8f6084991bf416e59195e9980f34c4f25bf792",
+    "review/package.json": "fe80a042775e97bff137914c56e8a57fb0131f63a8b14477efbbaf292c6b6ea4",
+    "review/actual-camera-contact.jpg": "b9a6f530a2f4be3962b26e68d0e39fd40131214d27b88b88cd9abc8f5459a381",
+    "review/after-diagnostic/beijing.png": "69dd3ed2b36a5bb17c166b9799b9c738f5ee470292b2d14e4276c45af899051d",
+    "review/after-diagnostic/beijing_rear.png": "35d1f59d7e705f0b180a7fee11fc92fe0085a0c60dc3cc66ac721b7aed297d70",
+    "review/after-diagnostic/guangzhou.png": "4fefe2f7aac01406c047692e551e8c29692ad6ea73a1e63f26bd7152b48df7ae",
+    "review/after-diagnostic/overview.png": "4e5792fd3c98b0e72a4d67ff422afcbe047e4a123698d38fa00144754bc4ec85",
+    "review/after-diagnostic/top.png": "efb3233dd16c09a7c406b471351f6e3e7cb9a1e98499a6d47a2d613e644ca76a",
+    "review/after-diagnostic/metadata.json": "812f60d922cb1685744cacd78119fa3317bef2c99727f16e95e28f2d5c794d3b",
+    "review/after-actual/f0000.png": "e4d03453763d88120bd34ab149925572ddc3fc2753f07db47318c693d8e41752",
+    "review/after-actual/f0057.png": "2851aa3acdb4a2ce92776c8af10c2ffd0d64a93bd3131ac650ebfc75b1a0248d",
+    "review/after-actual/f0096.png": "111596dad838dea543bb80899794d2e54d3bde6decbda1dbc47c5772bee03245",
+    "review/after-actual/f0132.png": "9cb96dd7d65533529ccac2c13080417b63c0f38ff17a8cf00123a99bca70ad0f",
+    "review/after-actual/f0165.png": "6ca86dbd47145a78c10e4d9561d8a90eb9a16a2e1fd8af4113e8976e0c83d731",
+    "review/after-actual/f0185.png": "45044ca7ac7c087d7e1289aef194b83a8c189da06208f98372488711e5c1e6da",
+    "review/after-actual/f0210.png": "e579f78f2bfd9419e0a99267933ee689c78c4259b7fb25f408c165f05ebd70ee",
+    "review/after-actual/f0253.png": "49a62cef638361639322717d29f5dc1285707b4dcccabafc8984e19908e6ee8e",
+    "review/after-actual/f0315.png": "15f7d593dd04474d0ec75da80bc2c927e02a0c2ea54d8b6b0bb05abb0366be06",
+    "review/after-actual/f0390.png": "c30f9d388c7ce30567b33ee9f796e0dd9a3fc77edc09cf28a0743c86f5447a68",
+    "review/after-actual/f0530.png": "01336790ab0960f795f8d7a935437d28558f3c981d520f0abc35634e09e67152",
+    "review/after-actual/f0720.png": "21e22d41bc4583eb25c06807168f85d3d53990dc91e140e9171294694e4905fb",
+    "review/after-actual/f0989.png": "7fba7f9831a8857d7b126f18106e96bb63b7fb4b2f5063d9e3af1b4900274ab9",
+    "review/after-actual/metadata.json": "b464c3d0d1ee22cbe4250c5e5b98bd433002246837e66d68ca5ea9267276030d",
+    "review/after-hero-diagnostic/hero.png": "8b619c71117b2462a77f4febb3be30f6ef869fea85297ebc575321ba05d6acf6",
+    "review/after-hero-diagnostic/metadata.json": "c42c834c190aa9db3d091a1f653dbdcf224bcea60173a4d5a0376ba8f7994b39",
+    "review/before-hero-diagnostic/hero.png": "b8eb1a0a2f4850e39ae4f07577d6d943d1a50b2d27903458813dc18ec9d00767",
+    "review/before-hero-diagnostic/metadata.json": "02d7a096df4408d2c84cae70a477e509fa5cfd7041aab4cc9746b4d2487f6b31"
+  }
+}
