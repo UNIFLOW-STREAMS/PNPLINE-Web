@@ -1,0 +1,174 @@
+{
+  "revision": "ship-camera-continuity-v001",
+  "branch": "main",
+  "source": "../truck-camera-smooth-v001/pnpline-33s-truck-camera-v001.blend",
+  "source_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+  "blend": "pnpline-33s-ship-camera-v001.blend",
+  "blend_sha256": "63ee0d4bcbf2c0bafb93eb087dc6ec0f70775b905f6b9f2a90f1c43ecea7bcc5",
+  "fps": 30,
+  "frame_range": [
+    0,
+    989
+  ],
+  "duration_seconds": 33,
+  "modified_camera_window": [
+    210,
+    350
+  ],
+  "full_ship_follow_window": [
+    235,
+    330
+  ],
+  "camera_model": "single ship-relative mount; continuous offset and view direction; C2 entry/exit blending",
+  "motion_metrics": {
+    "before": {
+      "core_speed_min": 0.27817828312822557,
+      "core_speed_max": 3.6480767879313802,
+      "old_wait_window_speed_min": 0.27817828312822557,
+      "peak_acceleration": 0.23929891731943242,
+      "peak_angular_deg_per_frame": 1.9530152439035509,
+      "peak_roll_deg": 13.18319375369536,
+      "ship_outside_frames": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276
+      ],
+      "ship_bounds": [
+        -0.9652984142303467,
+        -1.3235217332839966,
+        0.6565040946006775,
+        0.5468255281448364
+      ],
+      "longitudinal_relative_range": [
+        -34.219234466552734,
+        -4.399297714233398
+      ]
+    },
+    "after": {
+      "core_speed_min": 1.0025032243642116,
+      "core_speed_max": 2.8939502014782574,
+      "old_wait_window_speed_min": 1.0025032243642116,
+      "peak_acceleration": 0.14610415146896313,
+      "peak_angular_deg_per_frame": 0.9043730721886336,
+      "peak_roll_deg": 1.211325780744878e-05,
+      "ship_outside_frames": [],
+      "ship_bounds": [
+        0.3170759081840515,
+        0.09875448793172836,
+        0.6774130463600159,
+        0.5835543870925903
+      ],
+      "longitudinal_relative_range": [
+        -33.00000762939453,
+        -15.4310302734375
+      ]
+    }
+  },
+  "roll_reference": "moving ship radial up",
+  "preservation": {
+    "source_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+    "output_sha256": "63ee0d4bcbf2c0bafb93eb087dc6ec0f70775b905f6b9f2a90f1c43ecea7bcc5",
+    "source_object_count": 10090,
+    "extra_objects": [
+      "S3_SHIP_FOLLOW_CAMERA"
+    ],
+    "differences": {
+      "protected_objects": [],
+      "source_actions": [],
+      "geometry": false,
+      "materials": false,
+      "physical_transforms": false,
+      "world": false,
+      "timeline": false,
+      "camera": false,
+      "view": false
+    },
+    "outside_camera_frames_checked": 851,
+    "outside_camera_max_error": 0.0,
+    "fps": 30,
+    "frame_count": 990,
+    "passed": true
+  },
+  "videos": [
+    {
+      "file": "preview/pnpline-33s-ship-camera-v001.mp4",
+      "sha256": "e73149e2c6644e77bc88dd12d8be78f2d3e3f80881be3e3353603d2a9be6a09e",
+      "frame_count": 990,
+      "fps": 30,
+      "duration": 33.0,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/before-f200-f360.mp4",
+      "sha256": "61dd8423a2749e393e1871ebe32c9ec84ad5a16db8659a3da7fe412c47b9c58b",
+      "frame_count": 161,
+      "fps": 30,
+      "duration": 5.366667,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/after-f200-f360.mp4",
+      "sha256": "38e8992c1f1f8fe763bbe39e5914303a499e3299b00b9585b96f8747f489fc7f",
+      "frame_count": 161,
+      "fps": 30,
+      "duration": 5.366667,
+      "full_decode_passed": true
+    }
+  ],
+  "render_provenance": {
+    "pacing": [
+      [
+        0,
+        210
+      ],
+      [
+        350,
+        440
+      ],
+      [
+        620,
+        989
+      ]
+    ],
+    "truck_camera": [
+      [
+        441,
+        619
+      ]
+    ]
+  },
+  "rerendered_frames": [
+    211,
+    349
+  ],
+  "camera_acceptance_tests_passed": 6,
+  "frame_map_sha256": "8e86c3c4867c66cd937d7989a24b1ec0988bae4a33e4731c72127fff0d713090"
+}

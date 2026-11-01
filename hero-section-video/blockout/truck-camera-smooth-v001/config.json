@@ -1,0 +1,12 @@
+{
+  "source": "../pacing-33s-v001/pnpline-33s-30fps-v001.blend",
+  "source_sha256": "219e66705dbd04cede0cfc0f18489d8405f997049ef74448a61a7f34d6b68f21",
+  "output": "pnpline-33s-truck-camera-v001.blend",
+  "window": [440, 620],
+  "full_weight": [467, 590],
+  "sigma_frames": 10,
+  "camera_delay_frames": 4,
+  "reference_up_transition": [460, 510],
+  "fps": 30,
+  "frame_count": 990
+}

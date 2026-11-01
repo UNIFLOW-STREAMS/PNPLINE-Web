@@ -1,0 +1,10 @@
+{
+  "source": "../ship-camera-continuity-v001/pnpline-33s-ship-camera-v001.blend",
+  "source_sha256": "63ee0d4bcbf2c0bafb93eb087dc6ec0f70775b905f6b9f2a90f1c43ecea7bcc5",
+  "output": "pnpline-33s-camera-micro-smooth-v001.blend",
+  "window": [330, 366],
+  "blend_frames": 6,
+  "sigma_frames": 2.0,
+  "fps": 30,
+  "frame_count": 990
+}

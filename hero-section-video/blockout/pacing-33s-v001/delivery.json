@@ -1,0 +1,119 @@
+{
+  "version": "33s-30fps-v001",
+  "source_sha256": "99361028c1463fe4fdeb085146e0f00e64df1f9796e5b4b3dfe79bdf0815d6cf",
+  "files": {
+    "pnpline-33s-30fps-v001.blend": "219e66705dbd04cede0cfc0f18489d8405f997049ef74448a61a7f34d6b68f21",
+    "preview/pnpline-33s-30fps-v001.mp4": "bf3e3406e656ddc1664da3266c833d714bb3e02648e802efc9834a2e9de01365",
+    "time-map.json": "f231317bd333b9cd9e4c4209341fc80e181fd6329828aadd46c82318b431bfa1",
+    "frame-map.csv": "8e86c3c4867c66cd937d7989a24b1ec0988bae4a33e4731c72127fff0d713090",
+    "config.json": "87a80bb71994d3cd52826f382056b78d888bf785936a6780ed5c28d9d530122e",
+    "review.html": "99837851110ec0facc47a4e4fe57c8029ebf129522405580218a1099c10ba051"
+  },
+  "fps": 30,
+  "frame_count": 990,
+  "duration_seconds": 33,
+  "resolution": [
+    1280,
+    720
+  ],
+  "source_duration_seconds": 116.08333333333333,
+  "sections": [
+    {
+      "section": "S1",
+      "source_start": 0,
+      "source_end": 96,
+      "output_start": 0,
+      "output_end_exclusive": 75,
+      "duration_seconds": 2.5,
+      "description": "컨테이너 선적"
+    },
+    {
+      "section": "S2",
+      "source_start": 96,
+      "source_end": 216,
+      "output_start": 75,
+      "output_end_exclusive": 165,
+      "duration_seconds": 3.0,
+      "description": "중국 항구 공개·출항"
+    },
+    {
+      "section": "S3",
+      "source_start": 216,
+      "source_end": 456,
+      "output_start": 165,
+      "output_end_exclusive": 315,
+      "duration_seconds": 5.0,
+      "description": "미니어처 지구 항해"
+    },
+    {
+      "section": "S4",
+      "source_start": 456,
+      "source_end": 648,
+      "output_start": 315,
+      "output_end_exclusive": 465,
+      "duration_seconds": 5.0,
+      "description": "미국 입항·하역"
+    },
+    {
+      "section": "S5",
+      "source_start": 648,
+      "source_end": 900,
+      "output_start": 465,
+      "output_end_exclusive": 660,
+      "duration_seconds": 6.5,
+      "description": "트럭 이동·정렬·문 개방·도크 진입"
+    },
+    {
+      "section": "S6",
+      "source_start": 900,
+      "source_end": 1200,
+      "output_start": 660,
+      "output_end_exclusive": 870,
+      "duration_seconds": 7.0,
+      "description": "창고 입고·보관·피킹·포장·상차"
+    },
+    {
+      "section": "S7",
+      "source_start": 1200,
+      "source_end": 1392,
+      "output_start": 870,
+      "output_end_exclusive": 990,
+      "duration_seconds": 4.0,
+      "description": "출고·배송 분기"
+    }
+  ],
+  "verification": {
+    "source_sha256": "99361028c1463fe4fdeb085146e0f00e64df1f9796e5b4b3dfe79bdf0815d6cf",
+    "output_sha256": "219e66705dbd04cede0cfc0f18489d8405f997049ef74448a61a7f34d6b68f21",
+    "objects": 10089,
+    "moving_objects_including_descendants": 464,
+    "static_objects": 9625,
+    "sample_times": 1194,
+    "output_frames_checked": 990,
+    "differences": {
+      "geometry": false,
+      "materials": false,
+      "world": false,
+      "view": false,
+      "camera": false,
+      "static_objects": []
+    },
+    "max_world_matrix_error": 7.43865966796875e-05,
+    "worst_object": "CR_REVEAL_CAM_MASTER",
+    "worst_output_frame": 355.5,
+    "max_lens_and_shift_error": 3.814697265625e-06,
+    "visibility_mismatches": 0,
+    "approach_camera_min_units_per_frame": 0.21994884312152863,
+    "approach_camera_min_units_per_second": 6.598465442657471,
+    "time_map_min_speed": 0.6054732536241414,
+    "time_map_max_speed": 2.5157133126816342
+  },
+  "regression_tests": 17,
+  "timing_tests": 5,
+  "media_full_decode_passed": true,
+  "render_method": "990 unique Blender Workbench frames; no duplicate-frame upconversion, optical flow or video speed filter",
+  "source_preserved": true,
+  "branch": "main",
+  "master_promoted": false,
+  "committed": false
+}

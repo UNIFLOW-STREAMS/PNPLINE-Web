@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PNPLINE · 카메라 미세 떨림 보정</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#111820;color:#e9edf1}body{max-width:1280px;margin:40px auto;padding:0 24px}h1{font-size:28px;margin:8px 0}p{color:#b7c5d0;line-height:1.7}.eyebrow{color:#00add2;font-size:13px;letter-spacing:.12em}video{width:100%;display:block;background:#080c11;border-radius:8px}button,a{font:inherit}button{border:1px solid #526675;background:#1c2a36;color:#e9edf1;padding:10px 16px;border-radius:5px;cursor:pointer}button:hover,button:focus-visible{border-color:#00add2}a{color:#45cbe7}nav{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:30px 0 12px}.label{margin:0 0 8px;color:#e9edf1}.readout{font-variant-numeric:tabular-nums;min-height:24px}footer{margin:30px 0;color:#a8bac7}@media(max-width:760px){.grid{grid-template-columns:1fr}body{padding:0 16px;margin:24px auto}}
+</style>
+<body><div class="eyebrow">PNPLINE / CAMERA REVISION 01</div>
+<h1>해당 구간의 미세한 덜컹거림만 보정</h1>
+<p>f330–f366의 카메라 위치·회전만 미세하게 보정했습니다. 기존 동선과 구도를 유지하며, 나머지 구간은 그대로입니다. 33초 · 30fps입니다.</p>
+<video id="full" controls preload="metadata" playsinline src="preview/pnpline-33s-camera-micro-smooth-v001.mp4" aria-label="수정된 전체 33초 영상"></video>
+<nav><button id="segment">수정 구간 재생 · f330–f366</button><button id="all">처음부터 전체 재생</button><button id="stop">정지</button><a href="preview/pnpline-33s-camera-micro-smooth-v001.mp4" download>MP4 다운로드</a><a href="pnpline-33s-camera-micro-smooth-v001.blend" download>Blender 파일</a></nav>
+<p id="frame" class="readout" aria-live="off">30fps · 990프레임</p>
+<div class="grid"><section><p class="label">수정 전 · f330–f366</p><video id="before" muted playsinline preload="metadata" controls src="preview/before-f330-f366.mp4" aria-label="수정 전 비교 구간"></video></section><section><p class="label">수정 후 · f330–f366</p><video id="after" muted playsinline preload="metadata" controls src="preview/after-f330-f366.mp4" aria-label="수정 후 비교 구간"></video></section></div>
+<nav><button id="compare">전후 함께 재생 · 1×</button><button id="slowCompare">전후 함께 재생 · 0.5×</button><button id="compareStop">비교 정지</button></nav>
+<footer>해당 구간만 보정 · 렌즈와 줌 타이밍 유지 · 물류 애니메이션 유지</footer>
+<script>
+const full=document.getElementById('full'),before=document.getElementById('before'),after=document.getElementById('after');let segment=false;
+document.getElementById('segment').onclick=()=>{segment=true;full.currentTime=330/30;full.play()};
+document.getElementById('all').onclick=()=>{segment=false;full.currentTime=0;full.play()};
+document.getElementById('stop').onclick=()=>full.pause();
+full.addEventListener('timeupdate',()=>{document.getElementById('frame').textContent=`f${Math.min(989,Math.floor(full.currentTime*30))} / f989 · ${full.currentTime.toFixed(2)}초 / 33초`;if(segment&&full.currentTime>=367/30){full.pause();segment=false}});
+function compare(rate){full.pause();before.playbackRate=after.playbackRate=rate;before.currentTime=after.currentTime=0;Promise.all([before.play(),after.play()])}
+document.getElementById('compare').onclick=()=>compare(1);
+document.getElementById('slowCompare').onclick=()=>compare(.5);
+document.getElementById('compareStop').onclick=()=>{before.pause();after.pause()};
+</script></body></html>
+
+

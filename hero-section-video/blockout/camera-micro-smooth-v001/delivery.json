@@ -1,0 +1,112 @@
+{
+  "revision": "camera-micro-smooth-v001",
+  "branch": "main",
+  "source": "../ship-camera-continuity-v001/pnpline-33s-ship-camera-v001.blend",
+  "source_sha256": "63ee0d4bcbf2c0bafb93eb087dc6ec0f70775b905f6b9f2a90f1c43ecea7bcc5",
+  "blend": "pnpline-33s-camera-micro-smooth-v001.blend",
+  "blend_sha256": "6b982226d8c8d9581a25bc82105acb8811842a6f4b6f02d0423fc45168b54025",
+  "fps": 30,
+  "duration_seconds": 33,
+  "frame_range": [
+    0,
+    989
+  ],
+  "strict_window": [
+    330,
+    366
+  ],
+  "changed_integer_frames": [
+    331,
+    365
+  ],
+  "unchanged_integer_frames": [
+    [
+      0,
+      330
+    ],
+    [
+      366,
+      989
+    ]
+  ],
+  "motion_metrics": {
+    "before": {
+      "speed_max": 0.8507476496481715,
+      "acceleration_max": 0.14610415146896313,
+      "translation_jerk_max": 0.10596797926108381,
+      "rotation_speed_max_deg_per_frame": 0.702067149618377,
+      "rotation_jerk_max": 0.0010052491384634685
+    },
+    "after": {
+      "speed_max": 0.8538195760154897,
+      "acceleration_max": 0.10351653930872069,
+      "translation_jerk_max": 0.019766534776821214,
+      "rotation_speed_max_deg_per_frame": 0.6235146781950603,
+      "rotation_jerk_max": 0.0003197114549045614
+    }
+  },
+  "deviation": {
+    "position": 0.23363565279723095,
+    "rotation_deg": 0.21672738050582083,
+    "projection_pixels": 5.915358221194326,
+    "optics_identical": true
+  },
+  "jerk_reduction_percent": {
+    "translation_jerk_max": 81.34669084505194,
+    "rotation_jerk_max": 68.19579916345484
+  },
+  "preservation": {
+    "source_sha256": "63ee0d4bcbf2c0bafb93eb087dc6ec0f70775b905f6b9f2a90f1c43ecea7bcc5",
+    "output_sha256": "6b982226d8c8d9581a25bc82105acb8811842a6f4b6f02d0423fc45168b54025",
+    "source_object_count": 10091,
+    "extra_objects": [
+      "S4_CAMERA_MICRO_SMOOTH"
+    ],
+    "differences": {
+      "protected_objects": [],
+      "source_actions": [],
+      "geometry": false,
+      "materials": false,
+      "physical_transforms": false,
+      "world": false,
+      "timeline": false,
+      "camera": false,
+      "view": false,
+      "camera_data": false,
+      "camera_data_action": false
+    },
+    "outside_camera_frames_checked": 955,
+    "outside_camera_max_error": 0.0,
+    "fps": 30,
+    "frame_count": 990,
+    "passed": true
+  },
+  "videos": [
+    {
+      "file": "preview/pnpline-33s-camera-micro-smooth-v001.mp4",
+      "sha256": "74e8cfe32356a35d7f161b38d49b9e9955b37911931be8ba48e6bffb9abf25c8",
+      "frame_count": 990,
+      "fps": 30,
+      "duration": 33.0,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/before-f330-f366.mp4",
+      "sha256": "af4229cc89febccec4944767534840ba3c1a4174ce7277f02c151c7b3d29c8bc",
+      "frame_count": 37,
+      "fps": 30,
+      "duration": 1.233333,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/after-f330-f366.mp4",
+      "sha256": "30391b08820734871f88d668be28f765ab9b9f20b967e72e95211e6f91e26227",
+      "frame_count": 37,
+      "fps": 30,
+      "duration": 1.233333,
+      "full_decode_passed": true
+    }
+  ],
+  "camera_acceptance_tests_passed": 5,
+  "frame_map_sha256": "8e86c3c4867c66cd937d7989a24b1ec0988bae4a33e4731c72127fff0d713090"
+}

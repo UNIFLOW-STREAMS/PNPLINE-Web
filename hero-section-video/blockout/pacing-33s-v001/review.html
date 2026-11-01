@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNPLINE · 33초 모션 검토</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10191f;color:#eaf2f5;font:15px/1.6 system-ui,sans-serif}main{max-width:1300px;margin:auto;padding:26px 28px 48px}header{display:flex;align-items:baseline;justify-content:space-between;gap:20px}h1{font-size:25px;font-weight:650;margin:0 0 6px}p{color:#acc0cb;margin:0 0 22px}small{color:#acc0cb}video{display:block;width:100%;aspect-ratio:16/9;background:#080d10;border:1px solid #31414b}button,a{font:inherit}button{border:1px solid #3b5361;border-radius:5px;background:#1b2c36;color:#ecf7fc;padding:9px 14px;cursor:pointer}button:hover{background:#294451}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #00acd4;outline-offset:3px}button[aria-current=true]{background:#006b86;border-color:#00acd4}.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:15px 0}#play{background:#0085a5;border-color:#00acd4}#status{margin-left:auto;font-variant-numeric:tabular-nums;color:#acc0cb}.timeline{display:flex;gap:5px;margin:15px 0 22px}.timeline button{flex:var(--duration);padding:10px 5px;white-space:nowrap}.timeline small{display:block;color:inherit}label{display:flex;align-items:center;gap:7px}input{accent-color:#00acd4}a{color:#75d8ed}footer{display:flex;flex-wrap:wrap;gap:20px;margin-top:24px}.notes{border-top:1px solid #31414b;padding-top:18px;max-width:900px;margin-top:12px}.notes p{margin:6px 0}#error{color:#ffcc9a} @media(max-width:700px){main{padding:18px 12px}header{display:block}.timeline{overflow:auto}.timeline button{min-width:80px}#status{width:100%;margin:0}}
+</style>
+<main>
+<header><div><h1>PNPLINE · 33초 모션 검토</h1><p>이동은 경쾌하게, 하역과 창고 작업은 순서가 보이도록.</p></div><small>30 fps · 990 frames · 1280 × 720</small></header>
+<video id="film" controls preload="auto" playsinline src="preview/pnpline-33s-30fps-v001.mp4?revision=uniform-clock" aria-label="PNPLINE 33초 애니메이션"></video>
+<div class="toolbar"><button id="play">처음부터 재생</button><button id="pause">일시정지</button><label><input id="repeat" type="checkbox">선택 구간 반복</label><span id="status">0.00 / 33.00초</span></div>
+<nav class="timeline" aria-label="구간 선택">
+<button data-index="0" style="--duration:2.5">S1<small>선적 · 2.5초</small></button>
+<button data-index="1" style="--duration:3">S2<small>출항 · 3초</small></button>
+<button data-index="2" style="--duration:5">S3<small>항해 · 5초</small></button>
+<button data-index="3" style="--duration:5">S4<small>입항·하역 · 5초</small></button>
+<button data-index="4" style="--duration:6.5">S5<small>이동·도킹 · 6.5초</small></button>
+<button data-index="5" style="--duration:7">S6<small>창고 작업 · 7초</small></button>
+<button data-index="6" style="--duration:4">S7<small>배송 · 4초</small></button>
+</nav>
+<div class="notes"><p>문 개방 1.2초 → 후진 1.5초. 창고에서는 입고·보관·피킹·포장·상차의 순서를 유지했습니다.</p><p>구간 버튼을 누르면 해당 장면부터 재생합니다. 영상 시간과 웹 스크롤 거리는 별도로 조절할 수 있습니다.</p><p id="error" role="status"></p></div>
+<footer><a href="pnpline-33s-30fps-v001.blend" download>Blender 작업본</a><a href="preview/pnpline-33s-30fps-v001.mp4" download>30fps 영상</a><a href="frame-map.csv" download>원본 ↔ 출력 프레임 대응표</a><a href="README.md">작업 기록</a></footer>
+</main>
+<script>
+const video=document.querySelector('#film'),status=document.querySelector('#status'),repeat=document.querySelector('#repeat'),error=document.querySelector('#error');
+const bounds=[0,2.5,5.5,10.5,15.5,22,29,33];let selected=0,frameMap=[];
+fetch('time-map.json').then(r=>r.json()).then(map=>{frameMap=map.output_frames;tick()}).catch(()=>{});
+const buttons=[...document.querySelectorAll('[data-index]')];
+const play=()=>video.play().catch(e=>{error.textContent='재생하지 못했습니다: '+e.message});
+document.querySelector('#play').onclick=()=>{repeat.checked=false;video.currentTime=0;video.playbackRate=1;play()};
+document.querySelector('#pause').onclick=()=>video.pause();
+buttons.forEach((button,i)=>button.onclick=()=>{selected=i;video.currentTime=bounds[i];play()});
+function tick(){if(repeat.checked&&!video.paused&&(video.currentTime>=bounds[selected+1]||video.currentTime<bounds[selected]))video.currentTime=bounds[selected];const i=Math.max(0,bounds.findIndex((end,j)=>j>0&&video.currentTime<end)-1);buttons.forEach((b,j)=>b.setAttribute('aria-current',String(j===(video.ended?6:i))));const f=Math.min(989,Math.floor(video.currentTime*30));status.textContent=`${video.currentTime.toFixed(2)} / 33.00초 · 출력 f${f}`+(frameMap[f]?` · 원본 f${frameMap[f].source_frame.toFixed(1)}`:'')}
+video.addEventListener('timeupdate',tick);video.addEventListener('seeked',tick);video.addEventListener('error',()=>error.textContent='영상 파일을 불러오지 못했습니다. 로컬 서버와 파일을 확인하세요.');
+video.addEventListener('ended',()=>{if(repeat.checked){video.currentTime=bounds[selected];play()}});
+</script>
+</html>

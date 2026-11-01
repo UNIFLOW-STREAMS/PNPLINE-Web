@@ -1,0 +1,148 @@
+{
+  "revision": "truck-camera-smooth-v001",
+  "branch": "main",
+  "source": "../pacing-33s-v001/pnpline-33s-30fps-v001.blend",
+  "source_sha256": "219e66705dbd04cede0cfc0f18489d8405f997049ef74448a61a7f34d6b68f21",
+  "blend": "pnpline-33s-truck-camera-v001.blend",
+  "blend_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+  "fps": 30,
+  "frame_range": [
+    0,
+    989
+  ],
+  "duration_seconds": 33,
+  "modified_camera_window": [
+    440,
+    620
+  ],
+  "requested_frame_range": [
+    467,
+    565
+  ],
+  "median_camera_speed_units_per_frame": {
+    "before": 0.5628002094338851,
+    "after": 0.4601382018662365,
+    "reduction_percent": 18.24128808887887
+  },
+  "motion_metrics": {
+    "before": {
+      "speed_units_per_frame": {
+        "max": 5.083396598603283,
+        "mean": 0.9259728716757103
+      },
+      "acceleration": {
+        "max": 14.697320214191256,
+        "mean": 0.9341964356642953
+      },
+      "jerk": {
+        "max": 30.44731324187428,
+        "mean": 2.577653700355752
+      },
+      "peak_angular_deg_per_frame": 18.39702715713158,
+      "peak_roll_deg": 21.7158783377079,
+      "screen_x_range": [
+        0.44112569093704224,
+        0.866586446762085
+      ],
+      "screen_y_range": [
+        0.04322247952222824,
+        0.670525312423706
+      ]
+    },
+    "after": {
+      "speed_units_per_frame": {
+        "max": 0.8373627759052418,
+        "mean": 0.4906124345998626
+      },
+      "acceleration": {
+        "max": 0.02762818979952112,
+        "mean": 0.017478242393565175
+      },
+      "jerk": {
+        "max": 0.006004488602492524,
+        "mean": 0.0018980312064250501
+      },
+      "peak_angular_deg_per_frame": 2.789818303749083,
+      "peak_roll_deg": 2.3793785397281164e-05,
+      "screen_x_range": [
+        0.29748499393463135,
+        0.7774276733398438
+      ],
+      "screen_y_range": [
+        0.1917620599269867,
+        0.6670854091644287
+      ]
+    }
+  },
+  "roll_reference": "port up smoothly blended to warehouse up over f460..510",
+  "preservation": {
+    "source_sha256": "219e66705dbd04cede0cfc0f18489d8405f997049ef74448a61a7f34d6b68f21",
+    "output_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+    "source_object_count": 10089,
+    "extra_objects": [
+      "S5_SMOOTH_CAMERA"
+    ],
+    "differences": {
+      "protected_objects": [],
+      "source_actions": [],
+      "geometry": false,
+      "materials": false,
+      "physical_transforms": false,
+      "world": false,
+      "timeline": false,
+      "camera": false,
+      "view": false
+    },
+    "outside_camera_frames_checked": 811,
+    "outside_camera_max_error": 0.0,
+    "fps": 30,
+    "frame_count": 990,
+    "passed": true
+  },
+  "videos": [
+    {
+      "file": "preview/pnpline-33s-truck-camera-v001.mp4",
+      "sha256": "2e91121c7f026fc73d6db0c66d27c49871a75f0c494f93460a8be97f7a128cfe",
+      "frame_count": 990,
+      "fps": 30,
+      "duration": 33.0,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/before-f440-f620.mp4",
+      "sha256": "5bcff72dda9de645ed8bf6a3fdaf2b6f968ee30dce4ad78a035a58b7185065ac",
+      "frame_count": 181,
+      "fps": 30,
+      "duration": 6.033333,
+      "full_decode_passed": true
+    },
+    {
+      "file": "preview/after-f440-f620.mp4",
+      "sha256": "f8d4d5d13e49b18f5f5451ee8757bc1fae3d446afab0667a7f252c4e06764136",
+      "frame_count": 181,
+      "fps": 30,
+      "duration": 6.033333,
+      "full_decode_passed": true
+    }
+  ],
+  "render_provenance": {
+    "blend_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+    "rerendered_frames": [
+      441,
+      619
+    ],
+    "verified_reused_frames": [
+      [
+        0,
+        440
+      ],
+      [
+        620,
+        989
+      ]
+    ]
+  },
+  "frame_map_sha256": "8e86c3c4867c66cd937d7989a24b1ec0988bae4a33e4731c72127fff0d713090",
+  "camera_acceptance_tests_passed": 6,
+  "browser_review": "review.html: full-video segment seeking and before/after playback at 1x checked"
+}

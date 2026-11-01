@@ -1,0 +1,10 @@
+{
+  "source": "../truck-camera-smooth-v001/pnpline-33s-truck-camera-v001.blend",
+  "source_sha256": "f3fe32086aad42de67791e106d91ce8e6a57f9612e230f65197c996be7a11f3e",
+  "output": "pnpline-33s-ship-camera-v001.blend",
+  "window": [210, 350],
+  "full_weight": [235, 330],
+  "look_height": 5.0,
+  "fps": 30,
+  "frame_count": 990
+}
