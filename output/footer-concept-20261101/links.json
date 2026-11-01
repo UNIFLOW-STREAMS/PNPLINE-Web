@@ -1,0 +1,74 @@
+{
+  "brand": "PNPLINE",
+  "copy": "Cross-border logistics. Directly operated US warehouses.",
+  "route": "CHINA → UNITED STATES",
+  "groups": [
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Freight coordination",
+          "href": "#services"
+        },
+        {
+          "label": "US warehousing",
+          "href": "#services"
+        },
+        {
+          "label": "Order fulfillment",
+          "href": "#services"
+        },
+        {
+          "label": "US distribution",
+          "href": "#services"
+        }
+      ]
+    },
+    {
+      "title": "Explore",
+      "links": [
+        {
+          "label": "Who we help",
+          "href": "#customers"
+        },
+        {
+          "label": "Warehouse & systems",
+          "href": "#warehouse"
+        },
+        {
+          "label": "How it works",
+          "href": "#process"
+        },
+        {
+          "label": "Pricing & cost details",
+          "href": "#pricing",
+          "new": true
+        },
+        {
+          "label": "FAQ",
+          "href": "#faq"
+        }
+      ]
+    },
+    {
+      "title": "Let’s talk",
+      "links": [
+        {
+          "label": "Contact our team",
+          "href": "#quote"
+        }
+      ],
+      "language": "English"
+    }
+  ],
+  "bottom": [
+    {
+      "label": "Privacy information",
+      "href": "/privacy"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    }
+  ]
+}

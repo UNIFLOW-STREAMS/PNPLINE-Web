@@ -1,0 +1,81 @@
+{
+  "title": "Let’s plan your next move.",
+  "intro": "Tell us about your cargo and US requirements. We’ll help define the scope.",
+  "hint": "Not sure yet? Share what you know.",
+  "formTitle": "Your shipment details",
+  "fields": [
+    {
+      "id": "cargo",
+      "label": "Product / cargo category",
+      "control": "text",
+      "placeholder": "Product name or category"
+    },
+    {
+      "id": "shipping",
+      "label": "Shipping method",
+      "control": "single-choice",
+      "options": [
+        "Ocean FCL",
+        "Ocean LCL",
+        "Air",
+        "Not sure"
+      ]
+    },
+    {
+      "id": "volume",
+      "label": "Monthly volume",
+      "control": "quantity-text-with-unit",
+      "placeholder": "Quantity or Not sure",
+      "units": [
+        "CBM",
+        "kg",
+        "orders",
+        "Other unit"
+      ],
+      "hint": "Use volume, weight or order count. Not sure is welcome."
+    },
+    {
+      "id": "destination",
+      "label": "Destination type",
+      "control": "select",
+      "placeholder": "Select destination or Not sure",
+      "options": [
+        "FBA warehouse",
+        "PNPLINE-operated US warehouse",
+        "Final consumer",
+        "US business or retail receiving point",
+        "Not sure"
+      ]
+    },
+    {
+      "id": "ior",
+      "label": "IOR support",
+      "control": "single-choice",
+      "options": [
+        "Needed",
+        "Not needed",
+        "Not sure"
+      ]
+    },
+    {
+      "id": "email",
+      "label": "Contact email",
+      "control": "email",
+      "placeholder": "you@company.com"
+    }
+  ],
+  "consent": {
+    "default": false,
+    "text": "I have read the Privacy policy and agree to the use of these details for this inquiry.",
+    "link": "/privacy/"
+  },
+  "submit": "Submit inquiry",
+  "note": "Scope, charges and execution conditions are confirmed after review.",
+  "states": {
+    "submitting": "Submitting your inquiry…",
+    "confirmed": "Your inquiry has been received.",
+    "failed": "Your inquiry could not be submitted. Please try again.",
+    "emailError": "Enter a valid contact email.",
+    "consentError": "Read the Privacy policy and confirm your consent before submitting."
+  }
+}
