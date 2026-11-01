@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@theme { --font-sans: "Inter", Arial, sans-serif; }
+:root { color-scheme: light; font-family: "Inter", Arial, sans-serif; color:#080a0b; background:#f3f6f8; }
+*{box-sizing:border-box}body{margin:0}button{cursor:pointer}button,input,select{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #00abe1;outline-offset:4px}
+.hero{width:100%;max-width:1920px;margin-inline:auto;height:max(760px,min(56.25vw,1080px));background:#eef5f9}
+.hero-art img{object-position:center top}
+.hero-container{width:calc(100% - 96px);max-width:1440px}
+.hero-copy{padding-top:clamp(112px,8.3vw,160px)}
+.route{gap:24px;font-size:16px;font-weight:500;letter-spacing:3.8px;text-transform:uppercase;color:#424b59;margin:0 0 36px}
+.route-arrow{width:26px;height:22px;color:#00abe1}
+.hero-heading{font-size:clamp(48px,3.75vw,72px);line-height:1.095;letter-spacing:-0.052em;margin:0;width:max-content;max-width:100%}
+.hero-description{font-size:clamp(21px,1.46vw,28px);line-height:1.4;letter-spacing:-.038em;margin:34px 0 0}
+.hero-actions{gap:40px;margin-top:38px}
+.quote-button{min-height:62px;padding:0 31px;font-size:23px;letter-spacing:-.04em;border:0}
+.services-button{font-size:23px;letter-spacing:-.04em;padding:4px 0;border:0;background:transparent;border-bottom:1px solid #00abe1}
+.hero-bottom{position:absolute;left:0;right:0;bottom:88px;gap:32px}
+.journey{width:1120px;max-width:78%}
+.journey ol{margin:0;padding:0;list-style:none}
+.journey li:not(:last-child)::before{content:"";position:absolute;height:1px;background:#8d98a2;left:10px;right:-10px;top:10px}
+.stage-button{font-size:18px;line-height:1.5;color:#4a5361;background:none;border:0;padding:0;gap:12px;transform:translateX(-50%);margin-left:10px}
+.stage-dot{width:20px;height:20px;border-radius:50%;border:1px solid #677481;background:#f3f6f8;transition:background .2s,border-color .2s}
+.stage-button.is-active{color:#080a0b}.stage-button.is-active .stage-dot{border-color:#00abe1;background:#00abe1}
+.illustration-note{font-size:14px;line-height:1.4;margin:0 0 4px;padding-left:24px;border-left:1px solid #7e8a94;white-space:nowrap}
+.detail-dialog{border:0;padding:0;width:min(680px,calc(100% - 32px));max-height:88svh;margin:auto;background:#fff;color:#1b252b}
+.detail-dialog::backdrop{background:rgb(17 33 45 / .45);backdrop-filter:blur(4px)}
+.dialog-inner{padding:40px;position:relative}.dialog-close{position:absolute;top:16px;right:16px;background:none;border:0;padding:8px}
+.inquiry-form label{display:flex;flex-direction:column;gap:7px;font-size:14px}.inquiry-form input,.inquiry-form select{width:100%;border:1px solid #cbd5e1;border-radius:0;padding:12px;background:white}
+@media(min-width:1920px){.hero-container{width:1440px}}
+@media(min-width:768px) and (max-width:1100px){.hero-container{width:calc(100% - 64px)}.hero-heading{font-size:48px}.hero-description{font-size:22px}.hero-actions{gap:26px}.quote-button,.services-button{font-size:18px}.hero-bottom{bottom:56px}.illustration-note{font-size:11px;padding-left:12px}.journey{max-width:65%}.stage-button{font-size:14px}}
+@media(max-width:767px){
+.hero{height:auto;min-height:max(1000px,177.7vw);max-width:none}
+.hero-art img{object-fit:cover;object-position:center top}
+.hero-container{width:calc(100% - 48px);min-height:inherit}
+.hero-copy{padding-top:48px}
+.route{font-size:10px;letter-spacing:2.2px;gap:12px;margin-bottom:24px}
+.route-arrow{width:20px;height:16px}
+.hero-heading{font-size:clamp(27px,6.8vw,48px);line-height:1.12;letter-spacing:-.05em}
+.hero-description{font-size:16px;line-height:1.5;letter-spacing:-.025em;max-width:300px;margin-top:20px}
+.desktop-break{display:none}
+.hero-actions{gap:22px;margin-top:24px}
+.quote-button{font-size:14px;min-height:44px;padding:0 16px;gap:8px}
+.quote-button svg{width:17px;height:17px}
+.services-button{font-size:14px}
+.hero-bottom{bottom:38px;display:block}
+.journey{max-width:none;width:100%}
+.stage-button{font-size:11px;gap:10px;transform:none;margin-left:0;width:100%}
+.stage-dot{height:14px;width:14px}
+.journey li:not(:last-child)::before{top:7px;left:50%;right:-50%}
+.illustration-note{font-size:10px;margin-top:26px;border:0;padding:0;text-align:right}
+.dialog-inner{padding:38px 24px 24px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+
