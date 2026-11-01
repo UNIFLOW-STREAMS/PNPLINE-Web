@@ -1,0 +1,69 @@
+{
+  "version": "warehouse-envelope-crew-v001",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\green-canopy-v001\\pnpline-green-canopy-v001.blend",
+  "source_sha256": "c2645f294051719714786fee998812b80c42f1b34fcd16d4877a9e5fa7d264c7",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\pnpline-warehouse-envelope-crew-v001.blend",
+  "sha256": "257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f",
+  "render_proofs": [
+    "exterior.png",
+    "receiving.png",
+    "crew-maquettes.png",
+    "cam-760.png",
+    "cam-801.png",
+    "cam-841.png"
+  ],
+  "verification": {
+    "checked_sha256": "257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f",
+    "original_actions": 131,
+    "original_tracked_camera_and_actors": 130,
+    "frames": 990,
+    "frame_range": [
+      0,
+      989
+    ],
+    "fps": 30,
+    "all_original_actions_match": true,
+    "camera_optics_equal": true,
+    "markers_equal": true,
+    "max_world_matrix_difference": 0.0,
+    "maximum_glove_endpoint_error": 4.644697441820496e-05,
+    "envelope": {
+      "roof": {
+        "probes": 2310,
+        "unexpected": 0,
+        "sample_failures": []
+      },
+      "long frontage": {
+        "probes": 1472,
+        "unexpected": 0,
+        "sample_failures": []
+      },
+      "end 36": {
+        "probes": 1811,
+        "unexpected": 0,
+        "sample_failures": []
+      },
+      "dock clear 36": {
+        "probes": 121,
+        "unexpected": 0,
+        "sample_failures": []
+      },
+      "end 68": {
+        "probes": 1811,
+        "unexpected": 0,
+        "sample_failures": []
+      },
+      "dock clear 68": {
+        "probes": 121,
+        "unexpected": 0,
+        "sample_failures": []
+      }
+    }
+  },
+  "people": [
+    "Picking: RF scanner",
+    "Packing: tape dispenser",
+    "Loading: animated carrier contact"
+  ],
+  "envelope": "Radially fit standing seam panels, two sealed daylight bands, graphite cladding, continuous low-iron viewing wall and open receiving / dispatch doorways."
+}
