@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNPLINE · 미국 컨테이너 항만</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#101a23;color:#e6eef1;font:16px/1.6 system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:32px}h1{font-size:30px;line-height:1.3;margin:4px 0 14px}h2{font-size:21px;margin:30px 0 10px}p{color:#b6c5cd;margin:8px 0}small{color:#03b0d8}a{color:#57cce8}video,img{width:100%;display:block;background:#26343d;border-radius:8px}video{margin:18px 0 12px}nav{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}button{border:1px solid #3c5665;color:#d8edf5;background:#1c2c37;padding:9px 15px;border-radius:6px;cursor:pointer}button:hover,button[aria-pressed=true]{background:#086d87}button:focus-visible,a:focus-visible{outline:3px solid #57cce8;outline-offset:3px}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0}figcaption{padding:8px 0;color:#a7bdc8}@media(max-width:800px){main{padding:18px}.gallery{grid-template-columns:1fr}}</style>
+<main><small>PNPLINE · US CONTAINER TERMINAL</small><h1>컨테이너로 채운 미국 항만</h1>
+<p>컨테이너 88개를 더해 2~3단 적재 블록을 만들고, 대형 크레인 두 기와 안벽 시설을 추가했습니다. PNPLINE의 시안·블루와 화이트·그레이를 사용했습니다.</p>
+<h2>같은 구도에서 비교</h2><nav aria-label="항만 수정 전후"><button data-compare="after" aria-pressed="true">수정 후</button><button data-compare="before" aria-pressed="false">수정 전</button></nav>
+<img id="comparison" src="preview/port-after.png" alt="컨테이너 적재 블록과 대형 크레인이 이어지는 미국 항만">
+<h2>전체 영상</h2><video id="movie" controls preload="metadata" poster="review/views/timeline-0315.png" src="preview/pnpline-port-densification-v001.mp4"></video>
+<nav aria-label="영상 구간"><button data-time="9.5">미국 접근</button><button data-time="10.5">항만 전경</button><button data-time="12.4">컨테이너 하역</button><button data-time="15.7">트럭 출발</button><button data-time="17.5">창고 이동</button><button id="rate" aria-pressed="false">0.5배속</button></nav>
+<p>33초 · 30fps · 1280×720　<a href="pnpline-port-densification-v001.blend">Blender 작업본</a>　<a href="README.md">작업 및 검증 기록</a></p>
+<h2>적재 구역과 통로</h2><nav aria-label="항만 배치 보기"><button data-image="port-top-after" aria-pressed="true">위에서 본 배치</button><button data-image="port-detail" aria-pressed="false">적재 디테일</button><button data-image="quay-side" aria-pressed="false">안벽 측면</button></nav>
+<img id="overview" src="preview/port-top-after.png" alt="중앙 하역 구역과 트럭 통로를 확보한 컨테이너 적재 배치">
+<div class="gallery"><figure><img src="review/views/timeline-0315.png" alt="입항 카메라에서 도시와 항만이 함께 보이는 장면"><figcaption>도시와 함께 보이는 항만</figcaption></figure><figure><img src="review/views/timeline-0420.png" alt="중앙 빈 공간에서 트럭으로 이동하는 화물 컨테이너"><figcaption>중앙 하역 구역</figcaption></figure><figure><img src="review/views/timeline-0480.png" alt="컨테이너 적재 통로를 출발하는 트럭"><figcaption>적재 구역 사이의 트럭 통로</figcaption></figure><figure><img src="review/views/timeline-0505.png" alt="항만에서 창고로 이어지는 트럭 이동 장면"><figcaption>창고로 이어지는 동선</figcaption></figure></div>
+</main><script>
+const video=document.querySelector('#movie');
+document.querySelectorAll('[data-time]').forEach(button=>button.onclick=()=>{video.currentTime=+button.dataset.time;video.play()});
+document.querySelector('#rate').onclick=function(){const slow=video.playbackRate===1;video.playbackRate=slow?.5:1;this.textContent=slow?'1배속':'0.5배속';this.setAttribute('aria-pressed',String(slow))};
+document.querySelectorAll('[data-image]').forEach(button=>button.onclick=()=>{document.querySelector('#overview').src='preview/'+button.dataset.image+'.png';document.querySelectorAll('[data-image]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)))});
+document.querySelectorAll('[data-compare]').forEach(button=>button.onclick=()=>{document.querySelector('#comparison').src='preview/port-'+button.dataset.compare+'.png';document.querySelectorAll('[data-compare]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)))});
+</script></html>

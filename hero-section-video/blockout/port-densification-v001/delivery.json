@@ -1,0 +1,231 @@
+{
+  "version": "port-densification-v001",
+  "source": "F:\\pnpline-landing\\hero-section-video\\blockout\\city-expansion-v002\\pnpline-city-expansion-v002.blend",
+  "source_sha256": "61c980107793a30b12a8d6d61f341bd233c864346e247b5c5d90cfb72c19afff",
+  "master_sha256": "3d011d3191df487a44bd96ddce803a436a5ca3f891f91b512550c52f91f001c8",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "33.000000",
+    "nb_read_frames": "990"
+  },
+  "preservation_passed": true,
+  "moving_clearance_passed": true,
+  "static_clearance_passed": true,
+  "camera_passage_passed": true,
+  "protected_original_objects": 11656,
+  "exact_camera_frames": 990,
+  "new_containers": 88,
+  "new_stack_blocks": 26,
+  "additional_cranes": 2,
+  "enhanced_existing_cranes": 1,
+  "new_objects": 404,
+  "new_vertices": 70968,
+  "new_polygons": 52344,
+  "render_backend": "Blender 5.1 WORKBENCH",
+  "gpu_timing": "not measured",
+  "files": [
+    {
+      "path": "pnpline-port-densification-v001.blend",
+      "bytes": 21695105,
+      "sha256": "3d011d3191df487a44bd96ddce803a436a5ca3f891f91b512550c52f91f001c8"
+    },
+    {
+      "path": "preview/pnpline-port-densification-v001.mp4",
+      "bytes": 23614813,
+      "sha256": "de61bad8cea9c6c1d74f9b6f0dc859ab85639f7aa2a622c6f1c22726b14eb123"
+    },
+    {
+      "path": "review.html",
+      "bytes": 4612,
+      "sha256": "f828c6f33dc9bcdbbb3477d23458607cfaf6d94cc8c91c469628a7e07935ec09"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4062,
+      "sha256": "f69b7e061b6d23cf1d558ade3c2b0abaee0c653dfe5436c9a889ba246a645fa3"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 11746,
+      "sha256": "cfde6ae7f78ca26e0716b9ecbb58bb40e1d14da4cee37894208ea8e3d1429f46"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 3069,
+      "sha256": "db780b65aeed0b03b0c769a4c36e84ffa863580d1fb92edb485f30eb31b76493"
+    },
+    {
+      "path": "scripts/render.py",
+      "bytes": 1120,
+      "sha256": "dbcd1de288c58242b31eaba041929e8e6c96780cd9f377ded37c5f0661f23eb0"
+    },
+    {
+      "path": "scripts/render_views.py",
+      "bytes": 1374,
+      "sha256": "7d4ac0316433c913aa5573155464cc6d8c154c0a3a1323f4e32f9634083b55f9"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 2413,
+      "sha256": "3a474bdf57c248720c25a94440e143bfb8a558e139ca59cff62763ec84058323"
+    },
+    {
+      "path": "scripts/survey_ground.py",
+      "bytes": 1695,
+      "sha256": "bf28491cf1e1402ce7c04325a84e29337c9d12abda6a91d4ec4d90c6dafcf152"
+    },
+    {
+      "path": "scripts/survey_port.py",
+      "bytes": 1481,
+      "sha256": "983939b62b56cc568b960fd54c3529907aa02fe5d58ffad9a0162f0001ac9637"
+    },
+    {
+      "path": "scripts/verify_camera_passage.py",
+      "bytes": 1520,
+      "sha256": "8242ae05e76034859bc8f587bd629f27644367595de78a4d69d2087c8648a26a"
+    },
+    {
+      "path": "scripts/verify_clearance.py",
+      "bytes": 2994,
+      "sha256": "5a9f907977d064259155f499de8dfac3dd376d064b4dc1d22fc5b38c15de9035"
+    },
+    {
+      "path": "scripts/verify_preservation.py",
+      "bytes": 10038,
+      "sha256": "ce5472b9ca0543dfd8a011b51971f6dcdd2b3fe709476e3d744e5c86aa70b30a"
+    },
+    {
+      "path": "scripts/verify_static.py",
+      "bytes": 1665,
+      "sha256": "230059a31f299f11a947f28f89852c71f2872a7b7dc2d23ad56d70a3fb2b70d6"
+    },
+    {
+      "path": "preview/port-after.png",
+      "bytes": 2194495,
+      "sha256": "ed59f5b237703278b4e41af2d5d2b625ffd9d55209aec55571ebe6412cbda271"
+    },
+    {
+      "path": "preview/port-before.png",
+      "bytes": 2057600,
+      "sha256": "8a6ac1118db1dcf217fb21022e7d125447d1d34bfa6ca27f25567c5dc9e26864"
+    },
+    {
+      "path": "preview/port-detail.png",
+      "bytes": 2152193,
+      "sha256": "cb5783f07ce39659851eb68d92e183b293d60c65dd761901680ab70441ff86c6"
+    },
+    {
+      "path": "preview/port-top-after.png",
+      "bytes": 1634618,
+      "sha256": "d263ff24057ab99795596bd53aaae6d2cb25f10ec41bf9a2671d5cf183f9c91c"
+    },
+    {
+      "path": "preview/port-top-before.png",
+      "bytes": 1518498,
+      "sha256": "4971bb8882d9df54d067f04a6e489ce13ebc74409d50fe2e04f347a65ed341cd"
+    },
+    {
+      "path": "preview/quay-side.png",
+      "bytes": 1957663,
+      "sha256": "3e41ab35798ae79118e14da8fb30e7c0dc04078a307171d5e32594b4203de501"
+    },
+    {
+      "path": "review/build.json",
+      "bytes": 77050,
+      "sha256": "76a810054a125421f12fb416598d982960f671a035a88ba82aa3e6ac77f2c00c"
+    },
+    {
+      "path": "review/camera-passage.json",
+      "bytes": 268,
+      "sha256": "445ba434c6b7c62b51dea33728caf3fe335b60a80cf777869e26ac0c610f50c6"
+    },
+    {
+      "path": "review/clearance.json",
+      "bytes": 431,
+      "sha256": "06400d78785e063ea79d6d8fbc4825ba879b27daea1d12fbed195d7f243d7210"
+    },
+    {
+      "path": "review/ground-survey.json",
+      "bytes": 31470,
+      "sha256": "83e1baebc7b5455174972f8095db66d7a8a495ba1e2e25652fddd2443118cab2"
+    },
+    {
+      "path": "review/port-survey.json",
+      "bytes": 206029,
+      "sha256": "98829216feb00f2c5ec8497dc2155978accd987676d5c662b8f2215d46dc8b10"
+    },
+    {
+      "path": "review/preservation.json",
+      "bytes": 1567,
+      "sha256": "62ca4deec02ccee09ad338e00e614b1c1931b0c444ae249c244b205017d5e462"
+    },
+    {
+      "path": "review/render-0-494.json",
+      "bytes": 5133,
+      "sha256": "ae7609d370d429674ee68e3d279e1ece7eae61a27f86e2a4db52853e6ea61212"
+    },
+    {
+      "path": "review/render-495-989.json",
+      "bytes": 5243,
+      "sha256": "fc78b647305fb0642d1ba686634fbb75e3fcb4d1e353f4ea03c96cbe615b4eb3"
+    },
+    {
+      "path": "review/static-clearance.json",
+      "bytes": 179,
+      "sha256": "3934b79dd29011723cd6acc493dc5d3adb6825ffa6c9af678bae574fffda5356"
+    },
+    {
+      "path": "review/views.json",
+      "bytes": 144,
+      "sha256": "ed0e73733e53c83b2f9d9353e3a88c78185eb7e0bc4064880760b33ac4f05d23"
+    },
+    {
+      "path": "review/views/timeline-0300.png",
+      "bytes": 1196999,
+      "sha256": "fd6dffee9848dd04992d55e9fff151df347327eb1e054645c3c6919dec0a579b"
+    },
+    {
+      "path": "review/views/timeline-0315.png",
+      "bytes": 1246608,
+      "sha256": "b8f9efe412d37226c5262631815c8176f00a82ffbc20f4ea569f37f6f2ab1789"
+    },
+    {
+      "path": "review/views/timeline-0349.png",
+      "bytes": 1301973,
+      "sha256": "c83af195a732477ae8a51ad180524ff37b94f433cab9adbb99d52c577c2258c8"
+    },
+    {
+      "path": "review/views/timeline-0390.png",
+      "bytes": 1206157,
+      "sha256": "fd71d07c5400d42b2caf62a804d3587ef0b16cf57c34776288195ff92eadba83"
+    },
+    {
+      "path": "review/views/timeline-0420.png",
+      "bytes": 1209906,
+      "sha256": "b279429a289223f98dc6156aadc262a7dd9de21248f31b8f5393275e4aa0f28a"
+    },
+    {
+      "path": "review/views/timeline-0450.png",
+      "bytes": 1195896,
+      "sha256": "a40a46ec6e5a4621ff3e0869a34eea3fb032198fb659c173192f7d1e037231a8"
+    },
+    {
+      "path": "review/views/timeline-0480.png",
+      "bytes": 1224963,
+      "sha256": "36fd097f77cdd1cef8419293e1983c36e990467f5d54e4a62842769b502229ff"
+    },
+    {
+      "path": "review/views/timeline-0505.png",
+      "bytes": 1114896,
+      "sha256": "7c8300f5da1e15f0635384c73432df429f4d03defe0e59b730a3f41e34ce9d0f"
+    },
+    {
+      "path": "review/views/timeline-0530.png",
+      "bytes": 1031973,
+      "sha256": "f36a63261d931a9c9eeb65ebfc8ae3a00fb7b6618a6d046386db4b38cd5d3ff0"
+    }
+  ]
+}
