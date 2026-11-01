@@ -1,0 +1,472 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\blockout\\cn-port-layout-v001\\master-cn-port-layout-v001.blend",
+  "sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174",
+  "source_sha256": "e29fe506211d1b7f647f3eee01e066e49319aaae29dffebc6e4ed82aca371af3",
+  "delta_layout": [
+    14.0,
+    -13.5,
+    0.0
+  ],
+  "container_count": 127,
+  "cranes": 3,
+  "quay_size": [
+    58,
+    16.7
+  ],
+  "relocated_promenade_objects": [
+    "SF_TREE_TRUNK.001",
+    "SF_TREE_CROWN.001",
+    "SF_TREE_TRUNK.003",
+    "SF_TREE_CROWN.003",
+    "SF_TREE_TRUNK.006",
+    "SF_TREE_CROWN.006",
+    "SF_TREE_TRUNK.009",
+    "SF_TREE_CROWN.009",
+    "SF_TREE_TRUNK.011",
+    "SF_TREE_CROWN.011",
+    "SF_TREE_TRUNK.014",
+    "SF_TREE_CROWN.014",
+    "SF_TREE_TRUNK.019",
+    "SF_TREE_CROWN.019",
+    "SF_TREE_TRUNK.022",
+    "SF_TREE_CROWN.022",
+    "SF_TREE_TRUNK.027",
+    "SF_TREE_CROWN.027",
+    "SF_TREE_TRUNK.032",
+    "SF_TREE_CROWN.032",
+    "SF_TREE_TRUNK.035",
+    "SF_TREE_CROWN.035",
+    "SF_TREE_TRUNK.040",
+    "SF_TREE_CROWN.040",
+    "SF_TREE_TRUNK.043",
+    "SF_TREE_CROWN.043",
+    "DT_TRUCK_1",
+    "NA_PARKED_TRUCK",
+    "NA_QUAY_BOLLARD",
+    "NA_QUAY_BOLLARD.001",
+    "NA_QUAY_BOLLARD.002",
+    "NA_QUAY_BOLLARD.003",
+    "NA_QUAY_BOLLARD.004",
+    "DT_GARDEN_ROCK.001",
+    "DT_GARDEN_ROCK.010",
+    "DT_GARDEN_ROCK.011",
+    "DT_GARDEN_ROCK.016",
+    "DT_GARDEN_ROCK.019"
+  ],
+  "water": {
+    "method": "Connected original ocean, locally subdivided and translated-source height field",
+    "source_vertices": 8066,
+    "final_vertices": 55449,
+    "changed_vertices": 25689,
+    "max_raise": 6.823088340237653,
+    "max_lower": 0.0,
+    "nonmanifold_edges": 0,
+    "region_layout_xy": [
+      -34.0,
+      109.38914489746094,
+      -62.10000038146973,
+      39.39999485015869
+    ],
+    "blend_widths": {
+      "lateral_plateau": 8.0,
+      "lateral_falloff": 36.0,
+      "longitudinal_falloff": 40.0
+    },
+    "ship_center_water_samples": [
+      {
+        "frame": 0,
+        "actual_z": -0.02375030517578125,
+        "target_z": -0.016692908564209574,
+        "error": -0.007057396611571676
+      },
+      {
+        "frame": 156,
+        "actual_z": -0.022369384765625,
+        "target_z": -0.015006812372803324,
+        "error": -0.007362572392821676
+      },
+      {
+        "frame": 160,
+        "actual_z": -0.0208587646484375,
+        "target_z": -0.013168128290772074,
+        "error": -0.007690636357665426
+      },
+      {
+        "frame": 164,
+        "actual_z": -0.01861572265625,
+        "target_z": -0.010421546259522074,
+        "error": -0.008194176396727926
+      },
+      {
+        "frame": 168,
+        "actual_z": -0.01554107666015625,
+        "target_z": -0.006583960810303324,
+        "error": -0.008957115849852926
+      },
+      {
+        "frame": 172,
+        "actual_z": -0.01146697998046875,
+        "target_z": -0.0030286629587408243,
+        "error": -0.008438317021727926
+      },
+      {
+        "frame": 176,
+        "actual_z": -0.0203399658203125,
+        "target_z": -0.013229163447022074,
+        "error": -0.007110802373290426
+      },
+      {
+        "frame": 180,
+        "actual_z": -0.03357696533203125,
+        "target_z": -0.025909217157959574,
+        "error": -0.007667748174071676
+      },
+      {
+        "frame": 184,
+        "actual_z": -0.04868316650390625,
+        "target_z": -0.041312964716553324,
+        "error": -0.007370201787352926
+      },
+      {
+        "frame": 188,
+        "actual_z": -0.06744384765625,
+        "target_z": -0.059722693720459574,
+        "error": -0.007721153935790426
+      },
+      {
+        "frame": 192,
+        "actual_z": -0.0890655517578125,
+        "target_z": -0.08139780358374082,
+        "error": -0.007667748174071676
+      },
+      {
+        "frame": 196,
+        "actual_z": -0.1136932373046875,
+        "target_z": -0.10659006432592832,
+        "error": -0.007103172978759176
+      },
+      {
+        "frame": 200,
+        "actual_z": -0.14153289794921875,
+        "target_z": -0.13552835778295957,
+        "error": -0.006004540166259176
+      },
+      {
+        "frame": 204,
+        "actual_z": -0.17270660400390625,
+        "target_z": -0.16850260094702207,
+        "error": -0.004204003056884176
+      },
+      {
+        "frame": 208,
+        "actual_z": -0.20793914794921875,
+        "target_z": -0.20577982262670957,
+        "error": -0.0021593253225091757
+      },
+      {
+        "frame": 212,
+        "actual_z": -0.3142242431640625,
+        "target_z": -0.3122556527048346,
+        "error": -0.0019685904592279257
+      },
+      {
+        "frame": 216,
+        "actual_z": -0.440216064453125,
+        "target_z": -0.4353330452829596,
+        "error": -0.004883019170165426
+      },
+      {
+        "frame": 220,
+        "actual_z": -0.5753555297851562,
+        "target_z": -0.5688016732126471,
+        "error": -0.006553856572509176
+      },
+      {
+        "frame": 224,
+        "actual_z": -0.7165985107421875,
+        "target_z": -0.7098768074899908,
+        "error": -0.006721703252196676
+      },
+      {
+        "frame": 228,
+        "actual_z": -0.9298782348632812,
+        "target_z": -0.9253537972360846,
+        "error": -0.004524437627196676
+      },
+      {
+        "frame": 232,
+        "actual_z": -1.1783599853515625,
+        "target_z": -1.1782605965524908,
+        "error": -9.938879907167575e-05
+      },
+      {
+        "frame": 236,
+        "actual_z": -1.4470138549804688,
+        "target_z": -1.4423520882517096,
+        "error": -0.004661766728759176
+      },
+      {
+        "frame": 240,
+        "actual_z": -1.7580490112304688,
+        "target_z": -1.7514112313181158,
+        "error": -0.006637779912352926
+      },
+      {
+        "frame": 244,
+        "actual_z": -2.1517562866210938,
+        "target_z": -2.1478193123728033,
+        "error": -0.003936974248290426
+      },
+      {
+        "frame": 248,
+        "actual_z": -2.5601043701171875,
+        "target_z": -2.5579526741892096,
+        "error": -0.0021516959279779257
+      },
+      {
+        "frame": 252,
+        "actual_z": -3.02679443359375,
+        "target_z": -3.021102698603272,
+        "error": -0.005691734990477926
+      },
+      {
+        "frame": 256,
+        "actual_z": -3.5854339599609375,
+        "target_z": -3.5810773693416422,
+        "error": -0.004356590619295275
+      },
+      {
+        "frame": 260,
+        "actual_z": -4.159629821777344,
+        "target_z": -4.156074319734159,
+        "error": -0.003555502043184333
+      },
+      {
+        "frame": 264,
+        "actual_z": -4.834480285644531,
+        "target_z": -4.827415744358348,
+        "error": -0.007064541286183612
+      },
+      {
+        "frame": 268,
+        "actual_z": -5.5745849609375,
+        "target_z": -5.566475202296147,
+        "error": -0.008109758641353437
+      },
+      {
+        "frame": 272,
+        "actual_z": -6.3454132080078125,
+        "target_z": -6.333427254771834,
+        "error": -0.011985953235978286
+      },
+      {
+        "frame": 276,
+        "actual_z": -7.2539520263671875,
+        "target_z": -7.247108781867212,
+        "error": -0.006843244499975754
+      },
+      {
+        "frame": 280,
+        "actual_z": -8.1822509765625,
+        "target_z": -8.175475945141272,
+        "error": -0.006775031421227595
+      },
+      {
+        "frame": 284,
+        "actual_z": -9.23089599609375,
+        "target_z": -9.228347679791057,
+        "error": -0.0025483163026933653
+      },
+      {
+        "frame": 288,
+        "actual_z": -10.34442138671875,
+        "target_z": -10.338867124281933,
+        "error": -0.0055542624368172255
+      },
+      {
+        "frame": 292,
+        "actual_z": -11.542770385742188,
+        "target_z": -11.535949921697295,
+        "error": -0.00682046404489256
+      },
+      {
+        "frame": 296,
+        "actual_z": -12.838729858398438,
+        "target_z": -12.834182758361834,
+        "error": -0.004547100036603524
+      },
+      {
+        "frame": 300,
+        "actual_z": -14.1953125,
+        "target_z": -14.190811221695213,
+        "error": -0.004501278304786638
+      },
+      {
+        "frame": 304,
+        "actual_z": -15.703765869140625,
+        "target_z": -15.702560536176946,
+        "error": -0.0012053329636785293
+      },
+      {
+        "frame": 308,
+        "actual_z": -17.307693481445312,
+        "target_z": -17.304992834575927,
+        "error": -0.0027006468693855368
+      },
+      {
+        "frame": 312,
+        "actual_z": -19.097335815429688,
+        "target_z": -19.0960540444282,
+        "error": -0.0012817710014871864
+      },
+      {
+        "frame": 316,
+        "actual_z": -20.986679077148438,
+        "target_z": -20.98825074506621,
+        "error": 0.0015716679177728565
+      },
+      {
+        "frame": 320,
+        "actual_z": -23.047134399414062,
+        "target_z": -23.04545598811812,
+        "error": -0.0016784112959413733
+      },
+      {
+        "frame": 324,
+        "actual_z": -25.232833862304688,
+        "target_z": -25.23619089086486,
+        "error": 0.003357028560174058
+      },
+      {
+        "frame": 328,
+        "actual_z": -27.535476684570312,
+        "target_z": -27.536407541376143,
+        "error": 0.0009308568058301603
+      },
+      {
+        "frame": 332,
+        "actual_z": -30.01983642578125,
+        "target_z": -30.02133176912136,
+        "error": 0.0014953433401103666
+      },
+      {
+        "frame": 336,
+        "actual_z": -32.55790710449219,
+        "target_z": -32.56040955327552,
+        "error": 0.0025024487833320563
+      },
+      {
+        "frame": 340,
+        "actual_z": -35.289947509765625,
+        "target_z": -35.2946014379892,
+        "error": 0.004653928223575576
+      },
+      {
+        "frame": 344,
+        "actual_z": -38.09660339355469,
+        "target_z": -38.09951783448956,
+        "error": 0.0029144409348731415
+      },
+      {
+        "frame": 348,
+        "actual_z": -40.98480224609375,
+        "target_z": -40.98698425622281,
+        "error": 0.0021820101290614957
+      },
+      {
+        "frame": 352,
+        "actual_z": -44.02314758300781,
+        "target_z": -44.022842408473316,
+        "error": -0.0003051745344961887
+      },
+      {
+        "frame": 356,
+        "actual_z": -47.0667724609375,
+        "target_z": -47.06083679189677,
+        "error": -0.005935669040731284
+      },
+      {
+        "frame": 360,
+        "actual_z": -50.235076904296875,
+        "target_z": -50.23504638671875,
+        "error": -3.0517578125e-05
+      }
+    ],
+    "largest_footprint_error": {
+      "frame": 300,
+      "offset_xy": [
+        6,
+        -2
+      ],
+      "error": -1.6658324550625991
+    },
+    "max_center_water_error": 0.011985953235978286
+  },
+  "status": "Harbor layout complete; scoped geometry and lowering checks passed; camera/route direction deferred",
+  "completed_on": "2026-10-31",
+  "timeline": {
+    "fps": 12,
+    "frame_start": 0,
+    "frame_end": 1392
+  },
+  "camera_modified": false,
+  "source_actions_modified": false,
+  "verification_reports": {
+    "verification.json": {
+      "sha256": "0a8a9ce7cd31f69ae1030feb0b55d95667b45db11842cd3cafb95138e07a3b58",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    },
+    "connections.json": {
+      "sha256": "9f3b19914896c9d84f5df86f2438b9669dcdf0869d46f471cc747c317e3dcea5",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    },
+    "master-cn-port-layout-v001-lift.json": {
+      "sha256": "d08a127dd4acae527215c69f6b1a47ea1ffa4e398574add302f7307f148753b9",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    },
+    "master-cn-port-layout-v001-internal.json": {
+      "sha256": "b961a5ec207aa0e282dc6b5d75a399185fe01094e3655cee3b47004adbfb377d",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    },
+    "after-content.json": {
+      "sha256": "e667739954f9b4a056aacde154caf37f74ed95415659ed27c4d1c47c9abfdd56",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    },
+    "static-audit.json": {
+      "sha256": "11f1b3229c59b15d5173219097701c5a21cc48cb85aad6517021126ae3a65a50",
+      "model_sha256": "053f302410863ce487a9fdbd0cf4b4c83dded3577c0a02e38ac7c0a6951f3174"
+    }
+  },
+  "review_media": {
+    "after-overview.png": {
+      "sha256": "2015afee32f07318b137e9f128e29f574f10bf36d07bb6996ff6023d2d03aea4",
+      "bytes": 1983038
+    },
+    "after-port.png": {
+      "sha256": "92968d2d17b053d3298ea884b246ed648d607e5a1d5b1b08619e63a34de034c3",
+      "bytes": 2156418
+    },
+    "after-top.png": {
+      "sha256": "7b5a608f657a32e48de3127ee0a882dc88daa39ee82a3062f250243b786ead7d",
+      "bytes": 1561041
+    },
+    "after-hoist.mp4": {
+      "sha256": "99dad8f14099e55801a9dcaf973b10f831870ab9b9b3b85b240a934e94c8e19d",
+      "bytes": 2361793
+    },
+    "after-hoist-contact-sheet.png": {
+      "sha256": "7603b259bc759e4d1d52ae4f89f05abe3a0a09349a5a2a8dbcce18284dbee0ee",
+      "bytes": 1661285
+    },
+    "review.html": {
+      "sha256": "5b3c7f15564e11a5f50c48e649fa77d3d3450cfa86a589c55629ec30672a00af",
+      "bytes": 5239
+    }
+  },
+  "review_camera": "Temporary diagnostic camera only; not saved in Blender master",
+  "next_task": "Camera motion, angle, and final voyage route. Temporary berth offset holds through f252 and rejoins source at f360.",
+  "known_limitations": [
+    "The provisional departure return can expose part of the bow above the reshaped water before f348; refine water contact with the next route pass. Loading frames f0–156 remain immersed and preserved.",
+    "This continues the interrupted China 12fps scene. Separate US-city/33-second master branches remain separate."
+  ]
+}
