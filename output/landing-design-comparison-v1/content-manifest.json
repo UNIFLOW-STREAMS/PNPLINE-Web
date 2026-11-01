@@ -1,0 +1,20 @@
+{
+  "source": "docs/pnpline-china-source-content/pnpline-landing-mvp-copy-v4.zh-CN.md",
+  "sourceSha256": "644a6959c7949e5f3a5205fd14b26365f6adc0827da9717850f194d41425694a",
+  "variants": [
+    "a.html",
+    "b.html"
+  ],
+  "scope": [
+    "journey",
+    "services",
+    "quote"
+  ],
+  "video": {
+    "source": "hero-section-video/blockout/pacing-33s-v001/preview/pnpline-33s-30fps-v001.mp4",
+    "derived": "assets/hero-scrub.mp4",
+    "duration": 33,
+    "keyframeIntervalFrames": 6
+  },
+  "status": "design-comparison-not-final-selection"
+}
