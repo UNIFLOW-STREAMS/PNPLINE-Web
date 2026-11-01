@@ -1,0 +1,33 @@
+{
+  "source_sha256": "5ffc8e5a514dd74c22c978652004d58f0c874b48611be555e4ccd9f52da97442",
+  "result_sha256": "c3c79132bc399902938b9464bd5be40bf7c2c1419efd9da3504a1356a44db66c",
+  "native_frames": 990,
+  "tracked_objects": 140,
+  "actions": 131,
+  "action_curves_equal": true,
+  "timing_equal": true,
+  "optics_equal": true,
+  "max_world_matrix_delta": 0.0,
+  "max_tire_contact_delta": 0.013618506731292612,
+  "cranes_absent": true,
+  "working_cranes_present": true,
+  "missing_images": [],
+  "relief_glyphs": 42,
+  "nonmanifold_logo_edges": 0,
+  "logo_sides": {
+    "('A01_CONTAINER', -1)": 7,
+    "('A01_CONTAINER', 1)": 7,
+    "('A04_PRIMARY', -1)": 7,
+    "('A04_PRIMARY', 1)": 7,
+    "('A05_SECONDARY', -1)": 7,
+    "('A05_SECONDARY', 1)": 7
+  },
+  "outward_readable": true,
+  "ship_cargo_envelope_intersections": [],
+  "cab_cargo_envelope_intersections": [],
+  "dispatch_new_fittings_parcel_intersections": [],
+  "sampled_times": 1267,
+  "trailer_support_samples": 2625,
+  "trailer_max_gap": 3.886222839355469e-05,
+  "pass": true
+}
