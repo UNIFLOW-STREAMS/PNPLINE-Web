@@ -1,0 +1,17 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "sha256": "5ffc8e5a514dd74c22c978652004d58f0c874b48611be555e4ccd9f52da97442",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\pnpline-container-ship-v001.blend",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\pnpline-us-warehouse-curvature-v001.blend",
+  "source_sha256": "0828ba3d84a7637f07b1d23027c76bdaa15ab276b81f9d3cae0279209abf6dae",
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\review\\after-berth.png",
+  "before_view": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\review\\before-sailing.png",
+  "sailing_view": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\review\\after-sailing.png",
+  "preservation": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\review\\verification.json",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\delivery.json",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\container-ship-v001\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "status": "Detailed container vessel with double-sided relief wordmark. Original cargo handoffs and camera verified."
+}
