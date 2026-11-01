@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>PNPLINE · 1920 콘셉트 리뷰</title>
+  <style>
+    :root{color-scheme:light;--ink:#102a33;--muted:#536165;--line:#dce3e6;--paper:#fcfdfd;--accent:#00abe1;--focus:#00799f}
+    *{box-sizing:border-box}html{scroll-padding-top:150px}body{margin:0;background:#eef2f3;color:var(--ink);font-family:"Segoe UI","Malgun Gothic",sans-serif;font-size:15px;line-height:1.6}button,a,input{font:inherit}a{color:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.skip{position:absolute;left:20px;top:-100px;padding:10px;background:var(--paper);z-index:20}.skip:focus{top:10px}.review-header{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:1px solid var(--line)}.topbar{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:16px 32px 12px}.brandline{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}.brandline strong{font-size:20px;letter-spacing:-.03em}.brandline span{font-size:13px;color:var(--muted)}.controls{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.view-switch{display:flex;border:1px solid #7b8b90}.view-switch button{border:0;background:transparent;padding:8px 13px;color:var(--ink);min-height:40px}.view-switch button+button{border-left:1px solid #7b8b90}.view-switch button[aria-pressed=true]{background:var(--ink);color:white}.guide-switch{display:flex;gap:8px;align-items:center;min-height:40px;cursor:pointer;font-size:13px}.guide-switch input{accent-color:var(--focus);width:17px;height:17px;margin:0}.section-nav{display:flex;gap:24px;overflow:auto;padding:0 32px 12px;scrollbar-width:thin}.section-nav a{white-space:nowrap;text-decoration:none;border-bottom:2px solid transparent;padding:7px 0;min-height:38px;font-size:13px;color:var(--muted)}.section-nav a:hover,.section-nav a[aria-current=true]{color:var(--ink);border-bottom-color:var(--accent)}main{padding:26px 32px 64px}.intro{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin:0 0 28px}.intro h1{font-size:22px;font-weight:600;letter-spacing:-.03em;margin:0 0 6px}.intro p{margin:0;color:var(--muted);max-width:850px;font-size:14px}.intro a{font-size:13px;text-underline-offset:4px;white-space:nowrap}figure{margin:0 0 48px;scroll-margin-top:150px}figcaption{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:12px}.section-title{margin:0;font-size:16px;font-weight:600;letter-spacing:-.02em}.section-title span{font-size:12px;font-weight:400;letter-spacing:.02em;color:var(--muted);margin-right:12px}.section-description{font-size:13px;margin:3px 0 0;color:var(--muted)}.file-links{display:flex;align-items:center;gap:16px;white-space:nowrap;font-size:12px;color:var(--muted)}.file-links a{text-underline-offset:4px}.native-size{font-variant-numeric:tabular-nums}.viewport{overflow:auto;max-width:100%;border:1px solid var(--line);background:white;scrollbar-width:thin;scrollbar-color:#8a9ba1 #edf0f1}.artboard{position:relative;width:100%;background:white}.artboard img{display:block;width:100%;height:auto}.actual-size .artboard{width:1920px;max-width:none}.artboard::before,.artboard::after{content:"";display:none;position:absolute;top:0;bottom:0;width:1px;pointer-events:none;z-index:2;background:repeating-linear-gradient(to bottom,#da3e52 0,#da3e52 5px,transparent 5px,transparent 10px)}.artboard::before{left:12.5%}.artboard::after{right:12.5%}.show-guides figure:not(.full-bleed) .artboard::before,.show-guides figure:not(.full-bleed) .artboard::after{display:block}.pending{display:none;margin:0;padding:80px 24px;text-align:center;color:var(--muted);background:#f3f6f7;font-size:14px}.artboard.is-pending .pending{display:block}.artboard.is-pending img{display:none}.review-footer{font-size:13px;color:var(--muted);border-top:1px solid #cdd7da;padding-top:24px}.review-footer p{margin:0}.review-footer a{text-underline-offset:4px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+    @media(max-width:900px){.topbar{align-items:flex-start;padding:14px 20px 8px;flex-direction:column;gap:8px}.controls{width:100%;justify-content:space-between;gap:12px}.section-nav{padding:0 20px 10px;gap:20px}main{padding:24px 20px 48px}.intro{align-items:flex-start;flex-direction:column;gap:12px}figcaption{align-items:flex-start;gap:10px;flex-direction:column}.file-links{flex-wrap:wrap;gap:12px}html{scroll-padding-top:210px}figure{scroll-margin-top:210px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#hero">콘셉트 이미지로 이동</a>
+  <header class="review-header">
+    <div class="topbar">
+      <div class="brandline"><strong>PNPLINE</strong><span>1920px 콘셉트 리뷰 · 섹션별 8장</span></div>
+      <div class="controls">
+        <div class="view-switch" role="group" aria-label="이미지 표시 크기">
+          <button type="button" id="fit-view" aria-pressed="true">화면에 맞추기</button>
+          <button type="button" id="actual-view" aria-pressed="false">1920px 보기</button>
+        </div>
+        <label class="guide-switch"><input type="checkbox" id="guides">본문 1440px 가이드</label>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="콘셉트 섹션">
+      <a href="#hero">01 히어로</a><a href="#services">02 서비스</a><a href="#customers">03 고객 유형</a><a href="#evidence">04 창고·시스템</a><a href="#process">05 진행 절차</a><a href="#pricing">06 비용 설명</a><a href="#faq">07 FAQ</a><a href="#quote">08 견적 문의</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <div><h1>전체 폭 1920px, 본문 최대 폭 1440px</h1><p>본문은 좌우 240px 여백을 기준으로 합니다. 히어로 영상은 전체 폭을 사용합니다. 아래 결과는 섹션별 정적 콘셉트 이미지이며, 실제 사이트나 스크롤 동작의 검증 화면은 아닙니다.</p></div>
+      <a href="README.md">작업 기준 읽기</a>
+    </div>
+    <figure id="hero" class="full-bleed">
+      <figcaption><div><h2 class="section-title"><span>01 / 08</span>히어로</h2><p class="section-description">영상 한 프레임의 구도. 스크롤에 따른 시점 제어는 실제 구현에서 유지합니다.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/01-hero.png" target="_blank" rel="noopener">원본 보기</a><a href="images/01-hero.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="히어로 콘셉트 이미지 보기"><div class="artboard"><img src="images/01-hero.png" alt="PNPLINE 히어로 콘셉트: 전체 폭 영상 프레임, 중문 제목과 서비스·견적 버튼"><p class="pending">히어로 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="services">
+      <figcaption><div><h2 class="section-title"><span>02 / 08</span>서비스</h2><p class="section-description">네 서비스와 창고 작업의 차이를 펼쳐 보여주는 구성.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/02-services.png" target="_blank" rel="noopener">원본 보기</a><a href="images/02-services.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="서비스 콘셉트 이미지 보기"><div class="artboard"><img src="images/02-services.png" alt="PNPLINE 서비스 콘셉트: 네 가지 물류 서비스와 세부 작업 설명" loading="lazy"><p class="pending">서비스 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="customers">
+      <figcaption><div><h2 class="section-title"><span>03 / 08</span>고객 유형</h2><p class="section-description">판매 방식에 따른 작업 요구를 세 행으로 비교합니다.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/03-customers.png" target="_blank" rel="noopener">원본 보기</a><a href="images/03-customers.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="고객 유형 콘셉트 이미지 보기"><div class="artboard"><img src="images/03-customers.png" alt="PNPLINE 고객 유형 콘셉트: Amazon, 독립몰·TikTok Shop, 공장·무역·B2B 요구 비교" loading="lazy"><p class="pending">고객 유형 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="evidence">
+      <figcaption><div><h2 class="section-title"><span>04 / 08</span>창고와 시스템</h2><p class="section-description">자료가 필요한 곳은 IMAGE로 표시하고 운영 증빙을 만들어 넣지 않습니다.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/04-evidence.png" target="_blank" rel="noopener">원본 보기</a><a href="images/04-evidence.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="창고와 시스템 콘셉트 이미지 보기"><div class="artboard"><img src="images/04-evidence.png" alt="PNPLINE 창고와 시스템 콘셉트: IMAGE 자리표시자와 화물 인계·기록 관리 설명" loading="lazy"><p class="pending">창고와 시스템 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="process">
+      <figcaption><div><h2 class="section-title"><span>05 / 08</span>진행 절차</h2><p class="section-description">요구 설명 → 조건 확인 → 견적 확인의 간결한 세 단계.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/05-process.png" target="_blank" rel="noopener">원본 보기</a><a href="images/05-process.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="진행 절차 콘셉트 이미지 보기"><div class="artboard"><img src="images/05-process.png" alt="PNPLINE 진행 절차 콘셉트: 요구 설명, 조건 확인, 견적 확인" loading="lazy"><p class="pending">진행 절차 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="pricing">
+      <figcaption><div><h2 class="section-title"><span>06 / 08</span>비용 설명</h2><p class="section-description">가격표 대신 다섯 비용 항목의 포함 범위와 확인 조건을 보여줍니다.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/06-pricing.png" target="_blank" rel="noopener">원본 보기</a><a href="images/06-pricing.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="비용 설명 콘셉트 이미지 보기"><div class="artboard"><img src="images/06-pricing.png" alt="PNPLINE 비용 설명 콘셉트: 다섯 비용 항목과 추가 비용 조건" loading="lazy"><p class="pending">비용 설명 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="faq">
+      <figcaption><div><h2 class="section-title"><span>07 / 08</span>FAQ</h2><p class="section-description">여덟 질문을 표시하고 첫 답변을 펼친 기본 상태입니다.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/07-faq.png" target="_blank" rel="noopener">원본 보기</a><a href="images/07-faq.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="FAQ 콘셉트 이미지 보기"><div class="artboard"><img src="images/07-faq.png" alt="PNPLINE FAQ 콘셉트: 여덟 질문과 첫 번째 답변의 펼침 상태" loading="lazy"><p class="pending">FAQ 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <figure id="quote">
+      <figcaption><div><h2 class="section-title"><span>08 / 08</span>견적 문의</h2><p class="section-description">입력 여섯 항목, 개인정보 동의, 하나의 제출 행동과 푸터.</p></div><div class="file-links"><span class="native-size">원본 크기 확인 중</span><a href="images/08-quote.png" target="_blank" rel="noopener">원본 보기</a><a href="images/08-quote.png" download>다운로드</a></div></figcaption>
+      <div class="viewport" tabindex="0" aria-label="견적 문의 콘셉트 이미지 보기"><div class="artboard"><img src="images/08-quote.png" alt="PNPLINE 견적 문의 콘셉트: 여섯 입력 필드, 개인정보 동의와 제출 버튼" loading="lazy"><p class="pending">견적 문의 콘셉트 이미지 준비 중</p></div></div>
+    </figure>
+    <footer class="review-footer"><p>이 갤러리의 제어 요소는 검토 도구입니다. 이미지 속 버튼·FAQ·폼은 작동하지 않습니다. 실제 원본 픽셀 크기는 각 이미지의 로딩 결과로 표시하며, 1920px 보기는 표시 폭입니다.</p></footer>
+    <p class="sr-only" role="status" id="view-status"></p>
+  </main>
+  <script>
+    const fitButton=document.getElementById('fit-view');
+    const actualButton=document.getElementById('actual-view');
+    function setView(actual){document.body.classList.toggle('actual-size',actual);fitButton.setAttribute('aria-pressed',String(!actual));actualButton.setAttribute('aria-pressed',String(actual));document.getElementById('view-status').textContent=actual?'표시 폭 1920픽셀. 좁은 화면에서는 이미지 영역을 가로로 스크롤할 수 있습니다.':'이미지를 화면 폭에 맞춰 표시합니다.';}
+    fitButton.addEventListener('click',()=>setView(false));actualButton.addEventListener('click',()=>setView(true));
+    document.getElementById('guides').addEventListener('change',event=>document.body.classList.toggle('show-guides',event.target.checked));
+    document.querySelectorAll('figure img').forEach(img=>{const board=img.closest('.artboard');const size=img.closest('figure').querySelector('.native-size');function loaded(){if(!img.naturalWidth)return;board.classList.remove('is-pending');size.textContent=`원본 ${img.naturalWidth} × ${img.naturalHeight}px`;}img.addEventListener('load',loaded);img.addEventListener('error',()=>{board.classList.add('is-pending');size.textContent='원본 준비 중';});if(img.complete){if(img.naturalWidth)loaded();else{board.classList.add('is-pending');size.textContent='원본 준비 중';}}});
+    const links=[...document.querySelectorAll('.section-nav a')];
+    const sectionObserver=new IntersectionObserver(entries=>{const visible=entries.filter(entry=>entry.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);if(!visible.length)return;const active=visible[0].target.id;links.forEach(link=>{if(link.getAttribute('href')==='#'+active)link.setAttribute('aria-current','true');else link.removeAttribute('aria-current');});},{rootMargin:'-150px 0px -50% 0px',threshold:0});document.querySelectorAll('figure').forEach(section=>sectionObserver.observe(section));
+  </script>
+</body>
+</html>
