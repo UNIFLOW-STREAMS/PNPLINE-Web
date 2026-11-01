@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Amazon FBA / FBM",
+    "intro": "Two fulfillment routes. Confirm them separately.",
+    "teaser": "Replenishment and individual orders.",
+    "image": "sellers",
+    "cta": "Plan your fulfillment",
+    "rows": [
+      [
+        "warehouse",
+        "FBA replenishment",
+        "Temporary storage, labeling and staged dispatch to Amazon warehouses."
+      ],
+      [
+        "parcel",
+        "FBM orders",
+        "Pick, pack and dispatch from the US warehouse to buyers."
+      ],
+      [
+        "clipboard",
+        "Confirm the handling",
+        "Packing, labels and release requirements."
+      ]
+    ]
+  },
+  {
+    "title": "Shopify / TikTok Shop",
+    "intro": "Plan your inventory, orders and the connections you need.",
+    "teaser": "Orders, returns and system requirements.",
+    "image": "parcel",
+    "cta": "Plan your order operation",
+    "rows": [
+      [
+        "parcel",
+        "Order preparation",
+        "Inventory readiness, picking, packing and US delivery."
+      ],
+      [
+        "return",
+        "Returns handover",
+        "Discuss returns requirements and the handling scope."
+      ],
+      [
+        "connection",
+        "System requirements",
+        "Confirm the platform connections and functions available."
+      ]
+    ]
+  },
+  {
+    "title": "Factories / B2B",
+    "intro": "Align bulk cargo and inventory with the receiving requirements.",
+    "teaser": "Bulk shipments and retail delivery requirements.",
+    "image": "factory",
+    "cta": "Discuss your B2B requirements",
+    "rows": [
+      [
+        "truck",
+        "Bulk shipments & inventory",
+        "Discuss transport, warehouse receiving and stock arrangements."
+      ],
+      [
+        "warehouse",
+        "Business & retail delivery",
+        "Share the destination, including Walmart or other retail channels."
+      ],
+      [
+        "clipboard",
+        "Receiving requirements",
+        "Confirm packaging, labels and delivery appointments."
+      ]
+    ]
+  }
+]
