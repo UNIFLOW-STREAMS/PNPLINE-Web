@@ -1,27 +1,14 @@
 {
   "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
-  "sha256": "e6e08bc82ebfd75c25e241c74f81a8876ae26ba8e5e28748c3da6573ab225ec3",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\pnpline-warehouse-envelope-crew-v001.blend",
+  "sha256": "257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\green-canopy-v001\\pnpline-green-canopy-v001.blend",
+  "source_sha256": "c2645f294051719714786fee998812b80c42f1b34fcd16d4877a9e5fa7d264c7",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\previous-latest-lookdev.json",
   "fps": 30,
   "frame_start": 0,
   "frame_end": 989,
-  "status": "Current master includes the user-directed removal of 27 coastal objects. Prior fleet verification applies only to the previous version; full verification of this master is pending.",
-  "changes": [
-    "User removed 21 UC_PALM_FROND objects, 3 UC_SHORE_HILL objects, and 3 UC_SHORE_TREE_TRUNK objects."
-  ],
-  "previous_version": {
-    "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\pnpline-fleet-trucks-v001.blend",
-    "sha256": "c3c79132bc399902938b9464bd5be40bf7c2c1419efd9da3504a1356a44db66c",
-    "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\delivery.json",
-    "verification": "F:\\pnpline-landing\\hero-section-video\\lookdev\\fleet-trucks-v001\\review\\verification.json"
-  },
-  "verification": {
-    "completed": [
-      "Opened current master in Blender 5.1 and confirmed frame range, fps, camera, object names, and action count.",
-      "Compared object names with the previous fleet version: 27 coastal objects absent and no new object names."
-    ],
-    "pending": [
-      "Full geometry, materials, animation, camera and visual render verification for the current master.",
-      "Real-time UI playback and live website composite review."
-    ]
-  }
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\review\\exterior.png",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\delivery.json",
+  "status": "US warehouse fully roofed and enclosed except for both loading portals. All three worker proxies replaced by PNPLINE scale figures."
 }
