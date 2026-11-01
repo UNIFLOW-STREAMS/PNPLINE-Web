@@ -1,0 +1,17 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "sha256": "0828ba3d84a7637f07b1d23027c76bdaa15ab276b81f9d3cae0279209abf6dae",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\pnpline-us-warehouse-curvature-v001.blend",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\before.blend",
+  "source_sha256": "80be62edae03cbcfdccd2e24f517ffd5336a350e107375fb57c990284a00ecf8",
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\review\\after-frontage.png",
+  "before_view": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\review\\before-frontage.png",
+  "preservation": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\review\\verification.json",
+  "wheel_contacts": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\review\\tire-contact.json",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\delivery.json",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-warehouse-curvature-v001\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "status": "US warehouse, approach, dispatch and rear city seated on spherical grade. Native camera and original actions verified."
+}

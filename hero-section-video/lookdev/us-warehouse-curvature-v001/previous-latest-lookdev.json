@@ -1,0 +1,15 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "sha256": "1d78c5fb52ca5ea80f514e32f30153d8432287ae9e598f8e38a493d12770b800",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\pnpline-us-dispatch-model-v001.blend",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\inputs\\before-dispatch.blend",
+  "source_sha256": "d70225854020d360ae681db663da692bb6ad67f06212c9b1b877c64f4e644369",
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\review.html",
+  "preservation": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\audit\\preservation-verification.json",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\delivery.json",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\us-dispatch-model-v001\\inputs\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "status": "US dispatch district modeling applied; Cycles frames and 990-frame preservation verified"
+}
