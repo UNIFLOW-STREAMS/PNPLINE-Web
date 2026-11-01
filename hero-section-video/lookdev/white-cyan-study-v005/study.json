@@ -1,0 +1,435 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v004\\pnpline-white-cyan-study-v004.blend",
+  "source_sha256": "9a294e875fa3fe3e1f3a4f1eb6603a991f9d7898477c5aab4fa60e2e5994ab00",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v005\\pnpline-white-cyan-study-v005.blend",
+  "output_sha256": "3d9862a74cf90fd358641a8161608c63faba7748ad31593b02b4b7e31ca3f9c3",
+  "cranes": {
+    "PORT_COMPANION_CRANE_0": 16,
+    "PORT_COMPANION_CRANE_1": 16,
+    "CR_SLEW_JIB": 28
+  },
+  "changed_slots": [
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE.004",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_BOOM_TIE.005",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_BACKSTAY",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_BACKSTAY.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_BOOM",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_BOOM.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_CROSS",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_CROSS.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_PYLON",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_PYLON.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_STAY",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_0",
+      "PORT_CRANE_STAY.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.006",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.007",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.008",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.009",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.010",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_BOOM_TIE.011",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_BACKSTAY.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_BACKSTAY.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_BOOM.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_BOOM.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_CROSS.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_CROSS.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_PYLON.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_PYLON.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_STAY.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "PORT_COMPANION_CRANE_1",
+      "PORT_CRANE_STAY.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.004",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.005",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.006",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.007",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.008",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.009",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.010",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_BOOM_WEB.011",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_CAB",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_CROSS_MEMBER",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_CROSS_MEMBER.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_CROSS_MEMBER.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_CROSS_MEMBER.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_HORIZONTAL_BOOM",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_HORIZONTAL_BOOM.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_MACHINERY",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_PYLON",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_PYLON.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_STAY",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_STAY.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_STAY.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_STAY.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_TROLLEY_RAIL",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CR_SLEW_JIB",
+      "CR_TROLLEY_RAIL.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ]
+  ],
+  "geometry_transform_signature": "0283545ed801f369493a2997b140e597556487b79892a98ba19757ebc5b922a6",
+  "scope": "Three China port crane upper booms, pylons, stays and cross ties only; working crane upper machinery/cabin paint included. Lower legs, portal braces, bogies, cables and glazing unchanged. All non-target slots preserved."
+}

@@ -1,0 +1,829 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v002\\pnpline-white-cyan-study-v002.blend",
+  "source_sha256": "8a5ef5987268ef8928d406e4d17af160f69023a4149f9e012ea4b00da1d6f52b",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v003\\pnpline-white-cyan-study-v003.blend",
+  "output_sha256": "3154815a9c0d0228e72daf00821a81ca47fc4bb98e350cb1d271dc0d34e4aca7",
+  "random_seed": 20261102,
+  "selected_landmarks": [
+    "SF_SPHERE_TOWER",
+    "SF_OPEN_TOWER",
+    "CNX_BJ_GREAT_WALL_ROOT",
+    "CNX_BJ_HEAVEN_ROOT",
+    "CNX_BJ_PALACE_ROOT",
+    "CNX_GZ_IFC_ROOT",
+    "CNX_GZ_LINGNAN_ROOT",
+    "CNX_GZ_PAGODA_ROOT",
+    "CNX_GZ_SHELLS_ROOT",
+    "UC_AR_CIVIC_GROUP",
+    "USD_EMPIRE_ROOT"
+  ],
+  "changed_slots": [
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_leg",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_leg.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_leg.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_mast",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.002",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.003",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.004",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.005",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.006",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.007",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_SPHERE_TOWER",
+      "SF_SPHERE_TOWER_sphere_band.008",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_OPEN_TOWER",
+      "SHLM_SWFC_aperture_reveals",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_OPEN_TOWER",
+      "SHLM_SWFC_integrated_trapezoid_crown",
+      1,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_OPEN_TOWER",
+      "SHLM_SWFC_tapered_curtainwall",
+      3,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_GREAT_WALL_ROOT",
+      "CNX_BJ_GREAT_WALL_bj_brick",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_GREAT_WALL_ROOT",
+      "CNX_BJ_GREAT_WALL_bj_mortar",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_GREAT_WALL_ROOT",
+      "CNX_BJ_GREAT_WALL_dark",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_GREAT_WALL_ROOT",
+      "CNX_BJ_WALL_FOREST_green",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_GREAT_WALL_ROOT",
+      "CNX_BJ_WALL_HILLS_green",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_HEAVEN_ROOT",
+      "CNX_BJ_HEAVEN_bj_red",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_HEAVEN_ROOT",
+      "CNX_BJ_HEAVEN_ivory",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_PALACE_ROOT",
+      "CNX_BJ_PALACE_bj_red",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_PALACE_ROOT",
+      "CNX_BJ_PALACE_dark",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_BJ_PALACE_ROOT",
+      "CNX_BJ_PALACE_ivory",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_IFC_ROOT",
+      "CNX_GZ_IFC__dark.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_IFC_ROOT",
+      "CNX_GZ_IFC__metal.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_IFC_ROOT",
+      "CNX_GZ_IFC__stone.001",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_IFC_ROOT",
+      "CNX_GZ_IFC__white.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_LINGNAN_ROOT",
+      "CNX_GZ_LINGNAN__dark.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_LINGNAN_ROOT",
+      "CNX_GZ_LINGNAN__ivory.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_LINGNAN_ROOT",
+      "CNX_GZ_LINGNAN__red.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_LINGNAN_ROOT",
+      "CNX_GZ_LINGNAN__stone.001",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_PAGODA_ROOT",
+      "CNX_GZ_PAGODA__dark.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_PAGODA_ROOT",
+      "CNX_GZ_PAGODA__gold.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_PAGODA_ROOT",
+      "CNX_GZ_PAGODA__ivory.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_PAGODA_ROOT",
+      "CNX_GZ_PAGODA__red.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_PAGODA_ROOT",
+      "CNX_GZ_PAGODA__stone.001",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_SHELLS_ROOT",
+      "CNX_GZ_SHELLS__ivory.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_SHELLS_ROOT",
+      "CNX_GZ_SHELLS__metal.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_SHELLS_ROOT",
+      "CNX_GZ_SHELLS__white.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.004",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.005",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.006",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.007",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.008",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.009",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.010",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.011",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.012",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.013",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.014",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.015",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.016",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.017",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.018",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_DRUM_COLUMN.019",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.004",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.005",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.006",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.007",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.008",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.009",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.010",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.011",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.012",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.013",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.014",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.015",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.016",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.017",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.018",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_AR_CIVIC_SIDE_LINTEL.019",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.002",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.003",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.004",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.005",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.006",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.007",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.008",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.009",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.010",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.011",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.012",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.013",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.014",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.015",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.016",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.017",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.018",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.019",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_COLUMN.020",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "UC_AR_CIVIC_GROUP",
+      "UC_CIVIC_DRUM",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__gold",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__ivory",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__metal",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__red",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__stone",
+      0,
+      "STUDY | limestone",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "USD_EMPIRE_ROOT",
+      "USD_EMPIRE__white",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ]
+  ],
+  "landmark_slot_counts": {
+    "SF_SPHERE_TOWER": 16,
+    "SF_OPEN_TOWER": 3,
+    "CNX_BJ_GREAT_WALL_ROOT": 5,
+    "CNX_BJ_HEAVEN_ROOT": 2,
+    "CNX_BJ_PALACE_ROOT": 3,
+    "CNX_GZ_IFC_ROOT": 4,
+    "CNX_GZ_LINGNAN_ROOT": 4,
+    "CNX_GZ_PAGODA_ROOT": 5,
+    "CNX_GZ_SHELLS_ROOT": 3,
+    "UC_AR_CIVIC_GROUP": 62,
+    "USD_EMPIRE_ROOT": 6
+  },
+  "geometry_transform_signature": "0283545ed801f369493a2997b140e597556487b79892a98ba19757ebc5b922a6",
+  "protected_slots_unchanged": 3059,
+  "note": "Brand cyan on selected opaque landmark surfaces; glass, architectural roofs, industrial roof, water and observation glass preserved. Master and v002 preserved."
+}

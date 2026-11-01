@@ -1,0 +1,542 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v003\\pnpline-white-cyan-study-v003.blend",
+  "source_sha256": "3154815a9c0d0228e72daf00821a81ca47fc4bb98e350cb1d271dc0d34e4aca7",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v004\\pnpline-white-cyan-study-v004.blend",
+  "output_sha256": "9a294e875fa3fe3e1f3a4f1eb6603a991f9d7898477c5aab4fa60e2e5994ab00",
+  "changed_slots": [
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_body",
+      0,
+      "STUDY | glass",
+      "STUDY | landmark cyan glazing"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.002",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.003",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.004",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.005",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.006",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.007",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.008",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.009",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.010",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.011",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.012",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.013",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.014",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.015",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.016",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.017",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.018",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.019",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.020",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.021",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.022",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.023",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.024",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.025",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.026",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.027",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.028",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.029",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.030",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.031",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.032",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.033",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.034",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.035",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.036",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.037",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.038",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.039",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.040",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.041",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.042",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.043",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.044",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.045",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.046",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.047",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.048",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.049",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.050",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.051",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.052",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.053",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.054",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.055",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.056",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.057",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.058",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.059",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.060",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.061",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.062",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.063",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.064",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.065",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.066",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.067",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "SF_TALLEST_TOWER",
+      "SF_TALLEST_TOWER_floor.068",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__dark_glass.001",
+      0,
+      "STUDY | glass",
+      "STUDY | landmark cyan glazing"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__glass.001",
+      0,
+      "STUDY | glass",
+      "STUDY | landmark cyan glazing"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__gold.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__metal.001",
+      0,
+      "STUDY | metal",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__red.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ],
+    [
+      "CNX_GZ_CANTON_ROOT",
+      "CNX_GZ_CANTON__white.001",
+      0,
+      "STUDY | porcelain",
+      "STUDY | landmark brand cyan"
+    ]
+  ],
+  "geometry_transform_signature": "0283545ed801f369493a2997b140e597556487b79892a98ba19757ebc5b922a6",
+  "scope": "Only Shanghai Tower and Canton Tower material slots. Cyan glass keeps v002 glass roughness, metallic and coat. All other material slots unchanged."
+}

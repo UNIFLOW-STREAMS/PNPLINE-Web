@@ -1,0 +1,9633 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v001\\pnpline-white-cyan-study-v001.blend",
+  "source_sha256": "53e472edaf1d98c54161f328801abcfd0bf7971f93e543691f285bb4ff7ec5d4",
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v002\\pnpline-white-cyan-study-v002.blend",
+  "output_sha256": "8a5ef5987268ef8928d406e4d17af160f69023a4149f9e012ea4b00da1d6f52b",
+  "glass_before": {
+    "color": [
+      0.4099999964237213,
+      0.49000000953674316,
+      0.5350000262260437,
+      1.0
+    ],
+    "roughness": 0.25999999046325684,
+    "metallic": 0.23000000417232513
+  },
+  "glass_after": {
+    "color": [
+      0.16,
+      0.235,
+      0.29
+    ],
+    "roughness": 0.24,
+    "metallic": 0.19
+  },
+  "roof_color": [
+    0.32,
+    0.37,
+    0.4
+  ],
+  "industrial_roof_color": [
+    0.51,
+    0.555,
+    0.58
+  ],
+  "roof_slots_changed": [
+    [
+      "A01_ROOF",
+      0,
+      "A01 | pearl grey",
+      "architectural slate"
+    ],
+    [
+      "A01_ROOF",
+      1,
+      "A01 | pearl grey",
+      "architectural slate"
+    ],
+    [
+      "A04_PRIMARY_CARGO_SHELL.002",
+      0,
+      "Fleet \u00b7 Ocean blue roof",
+      "architectural slate"
+    ],
+    [
+      "A05_SECONDARY_CARGO_SHELL.002",
+      0,
+      "Fleet \u00b7 Ocean blue roof",
+      "architectural slate"
+    ],
+    [
+      "CN_WATER_DOME",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_WATER_SPIRE",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_0",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_1",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_2",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_3",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_4",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_5",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_LOW_ROOF_6",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "CN_PAV_ROOF",
+      0,
+      "CN_PROXY_MAT_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_HISTORIC_0_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_HISTORIC_1_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_HISTORIC_2_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_HISTORIC_3_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_GARDEN_PAVILION_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_0_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_1_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_2_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_3_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_4_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_5_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_0_6_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_0_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_1_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_2_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_3_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_4_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_5_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_1_6_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_0_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_1_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_2_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_3_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_4_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_5_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_2_6_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_0_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_1_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_2_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_3_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_4_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_5_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "SF_LOW_ROOFS_3_6_tiles",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER",
+      0,
+      "DT_CHARCOAL_TILE",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.004",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.005",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.006",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.007",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.008",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.009",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.010",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.011",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.012",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.013",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.014",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.015",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.016",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.017",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.018",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.019",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.020",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.021",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.022",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.023",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.024",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.025",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.026",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.027",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.028",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.029",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.030",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.031",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.032",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.033",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.034",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.035",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.036",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.037",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.038",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.039",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.040",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.041",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.042",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.043",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.044",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.045",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.046",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.047",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.048",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.049",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.050",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.051",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.052",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.053",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.054",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.055",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.056",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.057",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.058",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.059",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.060",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.061",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.062",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_LOWER_TILE_SEAM.063",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER",
+      0,
+      "DT_CHARCOAL_TILE",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.004",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.005",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.006",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.007",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.008",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.009",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.010",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.011",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.012",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.013",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.014",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.015",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.016",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.017",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.018",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.019",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.020",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.021",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.022",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.023",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.024",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.025",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.026",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.027",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.028",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.029",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.030",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.031",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.032",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.033",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.034",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.035",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.036",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.037",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.038",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.039",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.040",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.041",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.042",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.043",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.044",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.045",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.046",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.047",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.048",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.049",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.050",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.051",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.052",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.053",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.054",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.055",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.056",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.057",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.058",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.059",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.060",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.061",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.062",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_ROOF_UPPER_TILE_SEAM.063",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_PAVILION_FINIAL",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF",
+      0,
+      "DT_CHARCOAL_TILE",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.004",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.005",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.006",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.007",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.008",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.009",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.010",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.011",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.012",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.013",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.014",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.015",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.016",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.017",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.018",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.019",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.020",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.021",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.022",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.023",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.024",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.025",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.026",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.027",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.028",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.029",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.030",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.031",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.032",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.033",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.034",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.035",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_LOWER_ROOF_TILE.036",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF",
+      0,
+      "DT_CHARCOAL_TILE",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.004",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.005",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.006",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.007",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.008",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.009",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.010",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.011",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.012",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.013",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.014",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.015",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.016",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.017",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.018",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.019",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.020",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.021",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.022",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.023",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.024",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.025",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.026",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.027",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.028",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.029",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.030",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.031",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.032",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.033",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.034",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.035",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_UPPER_ROOF_TILE.036",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_ENTRY",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_ENTRY.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_ENTRY.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF",
+      0,
+      "DT_CHARCOAL_TILE",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.004",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.005",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.006",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.007",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.008",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.009",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.010",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.011",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.012",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.013",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.014",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.015",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.016",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.017",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.018",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.019",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.020",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.021",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.022",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.023",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.024",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.025",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.026",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.027",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.028",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.029",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.030",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.031",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.032",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.033",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.034",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.035",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_TRADITIONAL_REAR_ROOF_TILE.036",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_STREET_LAMP",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "DT_STREET_LAMP.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.018",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.019",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.020",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.021",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.022",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.023",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.024",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.025",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.026",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.027",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.028",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.029",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_EAVE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.030",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.031",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.032",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.033",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.034",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.035",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.036",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.037",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.038",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.039",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.040",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.041",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.042",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.043",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.044",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.045",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.046",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.047",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.048",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.049",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.050",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.051",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.052",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.053",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.054",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.055",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.056",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.057",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.058",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_TILE.059",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_EAVE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_HIP",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_HIP.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_HIP.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_HIP.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_REAR_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.018",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.019",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.020",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.021",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.022",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.023",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.024",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.025",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.026",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.027",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.028",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.029",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.030",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.031",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_EAVE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.032",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.033",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.034",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.035",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.036",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.037",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.038",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.039",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.040",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.041",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.042",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.043",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.044",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.045",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.046",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.047",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.048",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.049",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.050",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.051",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.052",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.053",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.054",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.055",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.056",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.057",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.058",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.059",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.060",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.061",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.062",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_TILE.063",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_EAVE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_HIP",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_HIP.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_HIP.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_HIP.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HALL_FRONT_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_00_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_01_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_02_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_03_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_04_FLAT_ROOF",
+      0,
+      "SF_stone",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_05_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_06_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_07_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_08_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_09_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_10_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_11_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_12_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_13_FLAT_ROOF",
+      0,
+      "SF_stone",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_14_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_15_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_16_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_17_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_18_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_19_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_20_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_TILE.018",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_21_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_22_FLAT_ROOF",
+      0,
+      "SF_stone",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_23_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_24_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_25_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_TILE.017",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_26_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_27_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_ROOF",
+      0,
+      "NA_CHARCOAL_TILES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.002",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.003",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.004",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.005",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.006",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.007",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.008",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.009",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.010",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.011",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.012",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.013",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.014",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.015",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_TILE.016",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_RIDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_GABLE_EDGE",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_HOUSE_28_GABLE_EDGE.001",
+      0,
+      "NA_TILE_EDGES",
+      "architectural slate"
+    ],
+    [
+      "NA_STREET_LAMP",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "NA_STREET_LAMP.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_REVIEW_HOIST",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_REVIEW_HOIST.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_WORKING_CABLE",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_WORKING_CABLE.001",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_WORKING_CABLE.002",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "CR_WORKING_CABLE.003",
+      0,
+      "SF_roof",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_07_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_08_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_02_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_07_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_08_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_04_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_05_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_04_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_04_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_05_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_05_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_04_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_05_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_07_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_08_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_00_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_01_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_03_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_04_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_05_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_06_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_07_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_08_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_09_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_01_10_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_00_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_BLOCK_03_02_ROOF",
+      0,
+      "UC_ASPHALT",
+      "architectural slate"
+    ],
+    [
+      "UC_AR_MANSARD",
+      0,
+      "UC_VERDIGRIS",
+      "architectural slate"
+    ],
+    [
+      "UC_AR_MANSARD.001",
+      0,
+      "UC_WINDOWS",
+      "architectural slate"
+    ],
+    [
+      "UC_AR_MANSARD.002",
+      0,
+      "UC_WINDOWS",
+      "architectural slate"
+    ],
+    [
+      "UC_AR_MANSARD.003",
+      0,
+      "UC_VERDIGRIS",
+      "architectural slate"
+    ],
+    [
+      "WH_PARTIAL_ROOF",
+      0,
+      "WH_white",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_00__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_01__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_02__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_03__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_04__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_05__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_06__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_07__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_08__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_09__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_10__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_11__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_12__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_13__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_14__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_15__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_16__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_17__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_18__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_19__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_20__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_21__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_22__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_23__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_24__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_25__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_26__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_27__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_28__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_29__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_30__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_31__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_32__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_33__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_34__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_35__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_36__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_37__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_38__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_39__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_40__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_41__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_42__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_43__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_44__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_45__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_46__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_47__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_48__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_49__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_50__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_51__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_52__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_53__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_54__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_55__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_56__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_57__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_58__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_NY_DENSE_59__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_00__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_01__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_02__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_03__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_04__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_05__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_06__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_07__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_08__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_09__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_10__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_11__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_12__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_13__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_14__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_15__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_16__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_17__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_18__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_19__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_20__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_21__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_22__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_23__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_24__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_25__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_26__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_27__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_28__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_29__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_30__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_31__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_32__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_33__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_34__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_35__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_36__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_37__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_38__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_39__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_40__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_41__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_42__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_SF_DENSE_43__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_WILLIS__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_00__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_01__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_02__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_03__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_04__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_05__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_06__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_07__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_08__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_09__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_10__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_11__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_12__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_13__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_14__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_15__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_16__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_17__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_18__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_19__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_20__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_21__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_22__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_23__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_24__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_25__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_26__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_27__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_28__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_29__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_30__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_31__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_32__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_33__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_34__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_35__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_36__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_37__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_38__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_39__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_40__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_41__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_42__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_CHI_BLOCK_43__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_ROCKEFELLER__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_00__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_01__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_02__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_03__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_04__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_05__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_06__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_07__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_08__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_09__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_10__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_11__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_12__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_13__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_14__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_15__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_16__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_17__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_18__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_19__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_20__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_BLOCK_21__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_00__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_01__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_02__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_03__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_04__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "CE_REAR_COAST_05__roof",
+      0,
+      "CE_roof",
+      "architectural slate"
+    ],
+    [
+      "PORT_OFFICE_ROOF",
+      0,
+      "PORT edge",
+      "architectural slate"
+    ],
+    [
+      "PORT_SHED_ROOF",
+      0,
+      "PORT edge",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_LINGNAN__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_PAGODA__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_000_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_001_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_002_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_003_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_004_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_005_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_006_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_007_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_008_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_009_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_010_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_011_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_012_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_013_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_014_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_015_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_016_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_017_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_018_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_019_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_020_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_021_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_HUTONG_022_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_MIDRISE_023_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_MIDRISE_024_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_MIDRISE_025_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_MIDRISE_026_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_027_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_028_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_029_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_030_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_031_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_032_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_033_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_034_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_035_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_036_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_037_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_038_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_039_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_040_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_041_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_042_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_043_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_044_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_045_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_046_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_047_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_048_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_049_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_050_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_051_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_052_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_053_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_054_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_055_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_056_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_057_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_058_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_059_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_060_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_061_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_062_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_063_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_064_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_065_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_066_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_067_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_068_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_069_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_070_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_071_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_072_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_073_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_074_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_075_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_076_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_077_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_078_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_079_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_080_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_081_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_082_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_083_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_MIDRISE_084_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_085__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_086__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_087__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_088__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_089__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_090__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_091__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_092__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_093__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_094_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_095_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_096_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_097_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_098_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_099_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_100_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_101_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_102_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_MIDRISE_103_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_104_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_105_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_106_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_107_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_108_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_109_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_110_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_111_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_112_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_113__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_114_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_115__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_116__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_117__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_118__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_119__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_120_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_121_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_122_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_123_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_124_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_125_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_126_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_127_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_128_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_129_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_130_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_131_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_132_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_133_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_134_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_135_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_136_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_137_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_138_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_139_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_140_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_141_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_142__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_143_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_144_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_145_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_146_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_147_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_148_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_149_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_150_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_151_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_152_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_153_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_154_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_155_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_156_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_157_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_158_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_159_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_160_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_161__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_162_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_163_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_164_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_165__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_166__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_167__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_168_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_169_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_170_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_171_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_172__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_173__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_174_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_175_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_176_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_177__roof.001",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_178__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_179__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_180__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_181__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_182_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_183_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_184_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_185__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_GZ_QILOU_186__roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_187_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_188_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_189_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_190_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_191_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_192_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_193_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_BJ_STREET_HOUSE_194_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_195_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_196_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "CNX_LINK_STREET_HOUSE_197_roof",
+      0,
+      "CNX_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_CULTURAL_000__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_002__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_003__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_005__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_007__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_008__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_011__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_014__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_016__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_018__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_019__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_020__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_021__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_022__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_023__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_024__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_025__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_026__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_027__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_028__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_029__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_030__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_031__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_032__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_033__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_034__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_035__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_036__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_037__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_038__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_039__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_040__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_041__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_042__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_043__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_044__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_045__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_046__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_047__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_048__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_049__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_050__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_051__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_052__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_053__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_054__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_055__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_056__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_057__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_058__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_059__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_060__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_061__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_062__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_063__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_064__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_065__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_066__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_067__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_068__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_069__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_070__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_071__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_072__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_073__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_074__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_075__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_076__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_077__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_078__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_079__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_080__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_081__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_082__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_083__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_084__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_085__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_087__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_091__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_095__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_096__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_097__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_099__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_ISLAND_TOWER_100__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_101__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_102__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_103__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_104__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_105__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_106__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_107__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_108__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_109__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_110__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_111__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_BUND_HERITAGE_112__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_113__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_114__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_115__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_116__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_117__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_118__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_119__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_120__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_121__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_122__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_123__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_124__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_125__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "SHD_OLDTOWN_SHIKUMEN_126__roof",
+      0,
+      "SHD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_EMPIRE__blue_roof",
+      0,
+      "USD_stone",
+      "architectural slate"
+    ],
+    [
+      "USD_EMPIRE__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_ONEWTC__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_00__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_01__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_02__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_03__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_04__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_05__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_06__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_07__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_08__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_09__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_10__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_11__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_REFINED_FRONTAGE_12__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_000__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_001__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_002__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_003__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_004__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_005__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_006__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_007__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_008__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_009__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_010__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_011__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_012__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_013__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_014__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_015__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_016__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_BROWNSTONE_017__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_018__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_019__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_020__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_021__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_022__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_023__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_MASONRY_024__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_025__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_026__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_027__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_028__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_029__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "USD_CORE_GLASS_030__roof",
+      0,
+      "USD_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B00_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B01_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B02_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B03_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B04_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B05_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B06_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "DSP_B07_roof",
+      0,
+      "DSP_roof",
+      "architectural slate"
+    ],
+    [
+      "FLT_Dispatch pressed freight body",
+      1,
+      "Fleet \u00b7 Ocean blue roof",
+      "architectural slate"
+    ],
+    [
+      "FLT_Relay pressed freight body",
+      1,
+      "Fleet \u00b7 Ocean blue roof",
+      "architectural slate"
+    ],
+    [
+      "WHE | 01 | Insulated standing seam roof",
+      0,
+      "WH_white",
+      "light industrial roof"
+    ]
+  ],
+  "geometry_transform_signature": "0283545ed801f369493a2997b140e597556487b79892a98ba19757ebc5b922a6",
+  "scope": "Glass surface shading and architectural roof slots only. Water, transparent warehouse observation glass, camera, animation, light and world are unchanged."
+}
