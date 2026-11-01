@@ -1,0 +1,49 @@
+{
+  "title": "Your US operation. Connected at every step.",
+  "intro": "Directly operated US warehouses. Align receiving, inventory and dispatch requirements before launch.",
+  "stages": [
+    {
+      "name": "Receiving",
+      "title": "Start with a clear handover.",
+      "copy": "Align inbound format, receiving checks and shipment documents before your goods arrive."
+    },
+    {
+      "name": "Inventory",
+      "title": "Know what your operation needs.",
+      "copy": "Discuss storage requirements, inventory handling and the information you need to plan your next order."
+    },
+    {
+      "name": "Dispatch",
+      "title": "Prepare the next move.",
+      "copy": "Confirm order preparation, packing and delivery requirements for each outbound flow."
+    }
+  ],
+  "addition": {
+    "title": "Confirm how you use the system.",
+    "items": [
+      {
+        "icon": "person-key",
+        "title": "Access & functions",
+        "copy": "Confirm available functions and who can view or change records."
+      },
+      {
+        "icon": "clock-refresh",
+        "title": "Data updates",
+        "copy": "Confirm update methods and timing for the records you need."
+      },
+      {
+        "icon": "layers-connection",
+        "title": "Platform / ERP scope",
+        "copy": "Share your platform or ERP. Confirm the supported connection scope."
+      }
+    ],
+    "cta": "Discuss system requirements",
+    "target": "#quote"
+  },
+  "revision": {
+    "date": "2026-11-02",
+    "placement": "Keep the warehouse workflow view separate. Place the system requirements in the existing Systems area, consolidating overlapping content rather than repeating it.",
+    "recommendedImage": "system-requirements-separated.png",
+    "previousMergedImage": "warehouse-systems-merged.png"
+  }
+}
