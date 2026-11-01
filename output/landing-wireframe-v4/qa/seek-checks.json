@@ -1,0 +1,44 @@
+[
+  {
+    "requested": "0%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "0%",
+    "time": 0
+  },
+  {
+    "requested": "25%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "25%",
+    "time": 8.25422
+  },
+  {
+    "requested": "50%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "50%",
+    "time": 16.4995
+  },
+  {
+    "requested": "75%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "75%",
+    "time": 24.753721
+  },
+  {
+    "requested": "100%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "100%",
+    "time": 32.999
+  },
+  {
+    "requested": "25%",
+    "paused": true,
+    "pinTop": 120,
+    "progress": "25%",
+    "time": 8.25422
+  }
+]

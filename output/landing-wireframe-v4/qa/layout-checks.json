@@ -1,0 +1,62 @@
+[
+  {
+    "clientWidth": 305,
+    "formColumns": "215.333px",
+    "height": 568,
+    "panelButton": "검토 패널 열기",
+    "panelDisplay": "none",
+    "scrollWidth": 305,
+    "serviceColumns": "256.667px",
+    "width": 320
+  },
+  {
+    "clientWidth": 360,
+    "formColumns": "270.667px",
+    "height": 667,
+    "panelButton": "검토 패널 열기",
+    "panelDisplay": "none",
+    "scrollWidth": 360,
+    "serviceColumns": "312px",
+    "width": 375
+  },
+  {
+    "clientWidth": 375,
+    "formColumns": "285.333px",
+    "height": 844,
+    "panelButton": "검토 패널 열기",
+    "panelDisplay": "none",
+    "scrollWidth": 375,
+    "serviceColumns": "326.667px",
+    "width": 390
+  },
+  {
+    "clientWidth": 753,
+    "formColumns": "289.01px 289.01px",
+    "height": 1024,
+    "panelButton": "검토 패널 열기",
+    "panelDisplay": "none",
+    "scrollWidth": 753,
+    "serviceColumns": "325.177px 325.177px",
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "formColumns": "401.656px 401.656px",
+    "height": 768,
+    "panelButton": "검토 패널 열기",
+    "panelDisplay": "none",
+    "scrollWidth": 1009,
+    "serviceColumns": "437.823px 437.823px",
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "formColumns": "461.49px 461.49px",
+    "height": 900,
+    "panelButton": "검토 패널 숨기기",
+    "panelDisplay": "block",
+    "scrollWidth": 1425,
+    "serviceColumns": "494.656px 494.656px",
+    "width": 1440
+  }
+]
