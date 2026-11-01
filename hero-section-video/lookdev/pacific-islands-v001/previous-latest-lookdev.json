@@ -1,0 +1,14 @@
+{
+  "file": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-material-v001\\pnpline-hero-material-v001.blend",
+  "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\pnpline-liberty-patina-v001.blend",
+  "sha256": "59f3962e61e885aa2068cc91af4dbbce85aa8f40396b09fe010fbbb401c2baf5",
+  "source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\warehouse-envelope-crew-v001\\pnpline-warehouse-envelope-crew-v001.blend",
+  "source_sha256": "257a2c49a13c4ce22c8775e4ebe91e077c643d7afacd51625c282d931c3cd17f",
+  "previous_lookdev_record": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\previous-latest-lookdev.json",
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\review\\front.png",
+  "delivery": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\delivery.json",
+  "status": "Sculpted Liberty in lithographic verdigris. Original pedestal and island retained."
+}

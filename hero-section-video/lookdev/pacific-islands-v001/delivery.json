@@ -1,0 +1,20 @@
+{
+  "output": "F:\\pnpline-landing\\hero-section-video\\lookdev\\pacific-islands-v001\\pnpline-pacific-islands-v001.blend",
+  "sha256": "d8e5ca5a37b593cff337834367d75bad40ee71c521296952416d953cf98bc7eb",
+  "checks": {
+    "frames": [
+      150,
+      317
+    ],
+    "ship_and_master_camera_matrices_identical": true,
+    "minimum_center_to_land": 12.331735610961914,
+    "hull_bounding_radius": 9.565547021338016,
+    "minimum_clearance_lower_bound": 2.766188589623898,
+    "terrain_count": 7
+  },
+  "frames": [
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\pacific-islands-v001\\review\\crossing-201.png",
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\pacific-islands-v001\\review\\crossing-225.png",
+    "F:\\pnpline-landing\\hero-section-video\\lookdev\\pacific-islands-v001\\review\\crossing-245.png"
+  ]
+}
