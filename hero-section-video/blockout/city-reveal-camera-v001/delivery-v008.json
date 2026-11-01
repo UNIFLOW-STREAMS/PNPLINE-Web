@@ -1,0 +1,91 @@
+{
+  "version": "v008",
+  "final_model": "candidate-city-reveal-v008.blend",
+  "comparison": "review-v008.html",
+  "tests_passed": 22,
+  "ship_side_by": 500,
+  "rear_approach_starts": 504,
+  "rear_view_by": 596,
+  "original_rear_tracking_resumes": 648,
+  "pitch_roll_locked_frames": [
+    440,
+    504
+  ],
+  "browser_video_check": {
+    "ended": true,
+    "duration": 22.083333,
+    "error": null
+  },
+  "files": [
+    {
+      "path": "candidate-city-reveal-v008.blend",
+      "sha256": "99f3ba32b84e864fc0162432b7cde09840733bffe09a36e23216bd956f88d030",
+      "bytes": 13314259
+    },
+    {
+      "path": "scripts/build_side_handoff_camera.py",
+      "sha256": "8ee00aaf261757459bd7bd64531b3a5ad5816c4fd88158dd43aecd65e05c43bb",
+      "bytes": 5537
+    },
+    {
+      "path": "scripts/audit_side_handoff.py",
+      "sha256": "35ad06efc299fbedfaba2cff61aeab31210c43d323503425479dd805be44160f",
+      "bytes": 3214
+    },
+    {
+      "path": "scripts/encode_side_preview.py",
+      "sha256": "a97b692380178a80d85bf1aa5eeb052889ba8fda485a8aa38fc4a427acb73d22",
+      "bytes": 1302
+    },
+    {
+      "path": "tests/test_side_handoff.py",
+      "sha256": "5f6d3cae478b1d89ba536bade3a95a857fec36595389e68a0768c8cfb86e9fdc",
+      "bytes": 2798
+    },
+    {
+      "path": "report-v008.md",
+      "sha256": "88aff745c9aacc7263b8fa44e4711493850eb0c91372a88d699ce8dddf9c081f",
+      "bytes": 4596
+    },
+    {
+      "path": "review-v008.html",
+      "sha256": "35b41c988039e071c281845d0f767d758ad4a14f8127420c070772e3cf2e8efe",
+      "bytes": 3702
+    },
+    {
+      "path": "preview/city-reveal-v008.mp4",
+      "sha256": "6b9b351af142d636aea50e684ca089b5bea28114f00e966219579b589d5e36bd",
+      "bytes": 6719188
+    },
+    {
+      "path": "review/video-v008.json",
+      "sha256": "7dc3fbaf129c157bb91b72838e8f6f8c276ef263aea81fee34d2afd863183a8a",
+      "bytes": 2908
+    },
+    {
+      "path": "review/candidate-city-reveal-v008-preservation.json",
+      "sha256": "25310c8147d2a8aa27b5740eea8e3982b7d6ac8aa1d35e118293b7f883f47ffc",
+      "bytes": 467
+    },
+    {
+      "path": "review/candidate-city-reveal-v008-side-audit.json",
+      "sha256": "fe0521c49515e00746903a29b9d0250d48de4e81e89d3f3e37d47a14d64d0801",
+      "bytes": 1056
+    },
+    {
+      "path": "review/tests-v008-full.log",
+      "sha256": "08a5137e14c5eeb7c90d0afca76c04462859c2b73e7924f331f9c88264fb1dc2",
+      "bytes": 5061
+    },
+    {
+      "path": "review/side-v008/f0500.png",
+      "sha256": "71bb3cad1defa3b6dae7152bb96fc8145bc550b458b37f71a0f19dfd27313398",
+      "bytes": 1545263
+    },
+    {
+      "path": "review/side-v008/f0600.png",
+      "sha256": "4b346a77e3c6aafaafc1a5eee26fb4473c49ad245e0a65efba4b72e8c6113dec",
+      "bytes": 1334931
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNPLINE · 끊김 없는 카메라 v013</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101923;color:#e9f0f5;font:16px Arial,'Malgun Gothic',sans-serif}main{max-width:1600px;margin:auto;padding:32px 28px 60px}h1{font-size:32px;margin:8px 0 16px}p{color:#b0c3d0;line-height:1.7}a{color:#42c7ef}nav{display:flex;gap:22px;flex-wrap:wrap;margin:20px 0}.eyebrow{color:#00abe1;font-size:12px;letter-spacing:2px}button{font:inherit;color:#d6f2ff;background:#16374a;border:1px solid #00abe1;padding:10px 18px;border-radius:4px;cursor:pointer;margin:14px 8px 20px 0}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0}figcaption{font-size:16px;color:#d6e5ed;padding:12px 0}video{width:100%;display:block;background:#09111a}h2{font-size:22px;margin:30px 0 14px}.foot{font-size:13px;border-top:1px solid #384b59;padding-top:20px;margin-top:30px}a:focus-visible,button:focus-visible{outline:3px solid #00abe1;outline-offset:4px}@media(max-width:800px){main{padding:24px 16px}.comparison{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+<main><span class="eyebrow">PNPLINE / CAMERA v013</span>
+<h1>도시 진입부터 트럭 추적까지, 멈춤 없이.</h1>
+<p>중간에 속도가 거의 0으로 떨어지던 연결부와 측면 도착 후의 짧은 정지를 없앴습니다. 선박 측면과 트럭 후면 구도, 수평 보정은 이어집니다.</p>
+<nav><a href="candidate-city-reveal-v013.blend" download>최종 Blender 모델</a><a href="report-v013.md">변경·검증 기록</a></nav>
+<button id="play">처음부터 동시 재생</button><button id="pause">모두 일시 정지</button><span id="status" role="status"></span>
+<div class="comparison">
+<figure><figcaption>이전 v011 · 연결부에서 감속·정지</figcaption><video id="before" controls preload="metadata" poster="review/level-v011/f0497.png" src="preview/city-reveal-v011.mp4"></video></figure>
+<figure><figcaption>새 v013 · 이동 속도를 이어서 연결</figcaption><video id="after" controls preload="metadata" poster="preview/v013-sequence-a/f0497.png" src="preview/city-reveal-v013.mp4"></video></figure>
+</div>
+<p>두 영상 모두 f408부터 같은 12fps로 재생합니다. 새 영상은 트럭 추적으로 연결된 뒤까지 확인하도록 f696까지 약 24초를 담았습니다. 이전 영상은 f672에서 끝납니다.</p>
+<p class="foot">f440 진입, f500 측면 도착, f596 후면 도착, f648 출발 연결부에서 계속 이동합니다. 방향 전환부만 작게 둥글게 연결했으며, f672부터 기존 추적 카메라로 이어집니다.</p></main>
+<script>
+const videos=[document.querySelector('#before'),document.querySelector('#after')];
+document.querySelector('#play').addEventListener('click',async()=>{videos.forEach(v=>{v.pause();v.currentTime=0});const results=await Promise.allSettled(videos.map(v=>v.play()));document.querySelector('#status').textContent=results.some(r=>r.status==='rejected')?'영상의 재생 버튼을 눌러주세요.':'같은 시작 프레임에서 재생 중입니다.'});
+document.querySelector('#pause').addEventListener('click',()=>{videos.forEach(v=>v.pause());document.querySelector('#status').textContent='일시 정지했습니다.'});
+</script></html>

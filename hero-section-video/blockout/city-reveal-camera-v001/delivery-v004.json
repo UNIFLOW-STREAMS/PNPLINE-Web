@@ -1,0 +1,78 @@
+{
+  "version": "v004",
+  "final_model": "candidate-city-reveal-v004.blend",
+  "comparison": "review-v004.html",
+  "tests_passed": 22,
+  "files": [
+    {
+      "path": "candidate-city-reveal-v004.blend",
+      "sha256": "f7a7de58087a634678ab2100915c862ce1db61d8a320562def8c318b9c7b45f6",
+      "bytes": 13259099
+    },
+    {
+      "path": "scripts/build_close_camera.py",
+      "sha256": "8f8fe4a7cec063469c5869847a9d6c7487ee3bf00612de299e69110f8798f89c",
+      "bytes": 4587
+    },
+    {
+      "path": "scripts/measure_close_camera.py",
+      "sha256": "09bf5f5991b2985615aeb95099cf50ee9398ec507e25ae16d674ce318af1e3a5",
+      "bytes": 1432
+    },
+    {
+      "path": "scripts/encode_close_preview.py",
+      "sha256": "21012f485a4e3236ec6870852f9151f1652a81145726ed77a2569aa50a2627a9",
+      "bytes": 1298
+    },
+    {
+      "path": "tests/test_close_city.py",
+      "sha256": "267e97a711dd095577f0fbb703940892872e567ccea483be3d10d258f2796961",
+      "bytes": 1381
+    },
+    {
+      "path": "tests/test_city_reveal.py",
+      "sha256": "ad3d09ffd2015227358956270fcace3f56c62b10cc9c89de9a9095939bb3d222",
+      "bytes": 1896
+    },
+    {
+      "path": "report-v004.md",
+      "sha256": "627e853477ab5001dde736ed88ddceb2e72875f3ac0724422bd6eb6e6100ea94",
+      "bytes": 3930
+    },
+    {
+      "path": "review-v004.html",
+      "sha256": "16dd2a6448a2ef6159625c24b31e4f0ed164b8c8136934f6c6f074872c1ba843",
+      "bytes": 3780
+    },
+    {
+      "path": "preview/city-reveal-v004.mp4",
+      "sha256": "4750f096612f639eaeabd75e111559903d509b3a6750700303e49ff9e293a819",
+      "bytes": 5764081
+    },
+    {
+      "path": "review/video-v004.json",
+      "sha256": "3d4a4f65373b0929b57a432e20ea5ce4f5c2bdd7a38dd7af4aaa5c3ff9b1ba32",
+      "bytes": 2908
+    },
+    {
+      "path": "review/candidate-city-reveal-v004-preservation.json",
+      "sha256": "7d1d08457d26b7baa5997c225dcf3ef06ccf5e184cee2c584d8e114eb613a34c",
+      "bytes": 467
+    },
+    {
+      "path": "review/candidate-city-reveal-v004-measurements.json",
+      "sha256": "a619649113f5cf7daf8e185f2004711c439c378633f076ace54e36984f64b926",
+      "bytes": 1378
+    },
+    {
+      "path": "review/tests-v004-curved-suite.log",
+      "sha256": "f400165aa19ee769a1164f77034c0de2d80e82bb3508ff45949814a117cd2c36",
+      "bytes": 4874
+    },
+    {
+      "path": "review/closer-v004/f0509.png",
+      "sha256": "3986912b958609f1eacf64f29854dbf0562be146c3ca0067bce0de88ba58a5f2",
+      "bytes": 1413313
+    }
+  ]
+}

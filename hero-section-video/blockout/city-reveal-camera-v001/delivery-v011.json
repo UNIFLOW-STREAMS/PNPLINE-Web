@@ -1,0 +1,107 @@
+{
+  "version": "v011",
+  "final_model": "candidate-city-reveal-v011.blend",
+  "comparison": "review-v011.html",
+  "tests_passed": 24,
+  "accepted_camera_path_source": "candidate-city-reveal-v008.blend",
+  "quay_level_window": [
+    479,
+    512
+  ],
+  "roll_window": [
+    440,
+    648
+  ],
+  "browser_video_check": {
+    "ended": true,
+    "duration": 22.083333,
+    "error": null
+  },
+  "files": [
+    {
+      "path": "candidate-city-reveal-v011.blend",
+      "sha256": "2de8a9c973e84db01b4bd557820b3ef714ca1ac5baa300cb65d081cfb2c169f2",
+      "bytes": 13465105
+    },
+    {
+      "path": "scripts/build_level_roll_camera.py",
+      "sha256": "a13a80f4ca091bf60f750b8dd99f966ebe5b4e239d8eeb013f17387e9ec8429e",
+      "bytes": 4387
+    },
+    {
+      "path": "scripts/audit_level_camera.py",
+      "sha256": "87424a1939a9ce7fe0b14ead5909dfe992c1e31bf5f353c6f8e91bce3985a65a",
+      "bytes": 2434
+    },
+    {
+      "path": "scripts/verify_level_preservation.py",
+      "sha256": "dce0978e9be95a08b6ca671be8efdf41783d7dedb7e27dbe09c792bbf512a4c3",
+      "bytes": 356
+    },
+    {
+      "path": "scripts/encode_level_preview.py",
+      "sha256": "1943b65eb167c2861b134ba0251034e547131fe79034e8ca9717347e6ab447a5",
+      "bytes": 1304
+    },
+    {
+      "path": "tests/test_port_roll.py",
+      "sha256": "6b9cc5275e5d1af5b2b228a26a9154b85e2f3d95922ee2496654bfee4647f8aa",
+      "bytes": 1824
+    },
+    {
+      "path": "tests/test_level_handoff.py",
+      "sha256": "bc0482485134fc735d7cbe2c52e5207cd0ff98050cf746ef895176d916ecb79f",
+      "bytes": 815
+    },
+    {
+      "path": "report-v011.md",
+      "sha256": "063e371590853d2e7d739f3b957617e9a2709019f75718b50fae8f9bb5b4f0bd",
+      "bytes": 4425
+    },
+    {
+      "path": "review-v011.html",
+      "sha256": "bb98cd44db045f444ad8d8dc1811d4f7ddf10c1664acd25a9dd49d843c56bcb8",
+      "bytes": 3517
+    },
+    {
+      "path": "preview/city-reveal-v011.mp4",
+      "sha256": "481cdcf36fdbc50f842102bc09b5f334c6f0f16c767f5b5c7607f1567f1e0ba1",
+      "bytes": 6215035
+    },
+    {
+      "path": "review/video-v011.json",
+      "sha256": "45c275c96dcb6702d0f4f4d6fab1d802af4705f5f9239d021dc3ef6179d11000",
+      "bytes": 2908
+    },
+    {
+      "path": "review/candidate-city-reveal-v011-build.json",
+      "sha256": "94ab09788ee92ea18fc1b0d8e60fca15cf30898cfd8f6ee1a3ed7e6e98b4cbd3",
+      "bytes": 676
+    },
+    {
+      "path": "review/candidate-city-reveal-v011-preservation.json",
+      "sha256": "138e97432c2efec77f43e8ae3fb5c11139e3747f8735eff398745f061a17632b",
+      "bytes": 467
+    },
+    {
+      "path": "review/candidate-city-reveal-v011-roll-audit.json",
+      "sha256": "f72e114e13d401988f0e39168a4f7ea31db7b4935a91836f18797c773ae1e178",
+      "bytes": 979
+    },
+    {
+      "path": "review/roll-v011-tests.log",
+      "sha256": "b2aa69b0f6cb7f9728312337024443c623b490c863bf32a32de0b8f42c13c0a6",
+      "bytes": 2488
+    },
+    {
+      "path": "review/roll-v011-operations-preservation.log",
+      "sha256": "9099d995a0f0bb5f9aa344efa4c09a44452eab1bcf849adadf0e8eab4a96555d",
+      "bytes": 3925
+    },
+    {
+      "path": "review/level-v011/f0497.png",
+      "sha256": "60318c69fc9e7b88b98510ff2f743f562b29b3dfd6d9efc10f027597519070de",
+      "bytes": 1425488
+    }
+  ]
+}

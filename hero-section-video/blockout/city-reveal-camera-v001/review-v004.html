@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNPLINE · 가까운 도시 전경 v004</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101923;color:#e9f0f5;font:16px Arial,'Malgun Gothic',sans-serif}main{max-width:1440px;margin:auto;padding:32px 28px 60px}h1{font-size:32px;margin:8px 0 16px}p{color:#b0c3d0;line-height:1.7}a{color:#42c7ef}nav{display:flex;gap:22px;margin:20px 0}.eyebrow{color:#00abe1;font-size:12px;letter-spacing:2px}.choices{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 14px}button{font:inherit;color:#c9e1eb;background:#182c3b;border:1px solid #546574;padding:8px 16px;border-radius:4px;cursor:pointer}button[aria-pressed=true]{border-color:#00abe1;color:#50d1f6}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:13px;color:#abc0ce;padding:12px 0}.wide{margin:28px 0}.wide img{width:100%;display:block}video{width:100%;display:block;background:#09111a}h2{font-size:22px;margin:32px 0 14px}.foot{font-size:13px;border-top:1px solid #384b59;padding-top:20px;margin-top:30px}a:focus-visible,button:focus-visible{outline:3px solid #00abe1;outline-offset:4px}@media(max-width:700px){main{padding:24px 16px}.comparison{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+<main><span class="eyebrow">PNPLINE / CITY REVEAL · CAMERA v004</span>
+<h1>도시와 선박을 가까이, 회전은 작게.</h1>
+<p>f455–f521에서 과도하게 물러나던 카메라를 조정했습니다. 미국 상징 미니어처 도시를 충분히 담으면서, 하역 장면으로 이어지는 회전을 줄였습니다.</p>
+<nav><a href="candidate-city-reveal-v004.blend" download>최종 Blender 모델</a><a href="report-v004.md">변경·검증 기록</a></nav>
+<div class="choices" aria-label="비교 프레임"><button data-frame="455" aria-pressed="false">455프레임</button><button data-frame="479" aria-pressed="false">479프레임</button><button data-frame="509" aria-pressed="true">509프레임</button><button data-frame="521" aria-pressed="false">521프레임</button><button data-frame="600" aria-pressed="false">600프레임</button></div>
+<div class="comparison"><figure><img id="before" src="review/final-v003/f0509.png" alt="이전 v003의 먼 카메라 구도"><figcaption>이전 v003 · 과도하게 멀어진 전경</figcaption></figure><figure><img id="after" src="review/closer-v004/f0509.png" alt="새 v004의 가까운 카메라 구도"><figcaption>새 v004 · 도시와 선박을 더 크게 담은 전경</figcaption></figure></div>
+<h2>접근부터 하역까지</h2><p>f408–f672 · 원본과 같은 12fps · 모든 프레임 포함 · 약 22초</p>
+<video controls preload="metadata" poster="review/closer-v004/f0509.png" src="preview/city-reveal-v004.mp4"></video>
+<h2>509프레임의 새 구도</h2><div class="wide"><img src="review/closer-v004/f0509.png" alt="USA 조형물과 자유의 여신상, 곡면 도시와 선박을 가까이 담은 구도"></div>
+<p class="foot">전경 구간의 최대 주시점 거리는 165.1에서 106.3으로, 하역 연결 구간의 회전은 60.9°에서 39.7°로 줄었습니다. 원래의 렌즈 값과 모델·물류 애니메이션은 유지했습니다.</p></main>
+<script>
+document.querySelectorAll('[data-frame]').forEach(b=>b.addEventListener('click',()=>{const f=b.dataset.frame.padStart(4,'0');document.getElementById('before').src=(b.dataset.frame==='521'?'review/before-close-v003/':'review/final-v003/')+'f'+f+'.png';document.getElementById('after').src='review/closer-v004/f'+f+'.png';document.querySelectorAll('[data-frame]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));
+</script></html>

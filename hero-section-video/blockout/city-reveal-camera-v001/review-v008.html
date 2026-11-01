@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNPLINE · 선박 측면 → 트럭 후면 v008</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101923;color:#e9f0f5;font:16px Arial,'Malgun Gothic',sans-serif}main{max-width:1440px;margin:auto;padding:32px 28px 60px}h1{font-size:32px;margin:8px 0 16px}p{color:#b0c3d0;line-height:1.7}a{color:#42c7ef}nav{display:flex;flex-wrap:wrap;gap:22px;margin:20px 0}.eyebrow{color:#00abe1;font-size:12px;letter-spacing:2px}.choices{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 14px}button{font:inherit;color:#c9e1eb;background:#182c3b;border:1px solid #546574;padding:8px 16px;border-radius:4px;cursor:pointer}button[aria-pressed=true]{border-color:#00abe1;color:#50d1f6}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:13px;color:#abc0ce;padding:12px 0}.wide{margin:28px 0}.wide img{width:100%;display:block}video{width:100%;display:block;background:#09111a}h2{font-size:22px;margin:32px 0 14px}.foot{font-size:13px;border-top:1px solid #384b59;padding-top:20px;margin-top:30px}a:focus-visible,button:focus-visible{outline:3px solid #00abe1;outline-offset:4px}@media(max-width:700px){main{padding:24px 16px}.comparison{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+<main><span class="eyebrow">PNPLINE / CAMERA v008</span>
+<h1>선박 측면에서, 트럭 뒤쪽으로.</h1>
+<p>f500까지 선박 측면에 도착합니다. f504부터 직선으로 트럭 뒤쪽에 접근하고, 컨테이너가 내려오는 구간에는 후면 구도를 유지하며 기존 추적 동선으로 연결합니다.</p>
+<nav><a href="candidate-city-reveal-v008.blend" download>최종 Blender 모델</a><a href="report-v008.md">변경·검증 기록</a></nav>
+<div class="choices" aria-label="비교 프레임"><button data-frame="500" aria-pressed="true">500프레임 · 측면 도착</button><button data-frame="504" aria-pressed="false">504프레임 · 후면 접근 시작</button><button data-frame="600" aria-pressed="false">600프레임 · 하강·후면 구도</button></div>
+<div class="comparison"><figure><img id="before" src="review/before-side-v006/f0500.png" alt="이전 v006 카메라"><figcaption>이전 v006 · 도시 전경에 머무는 카메라</figcaption></figure><figure><img id="after" src="review/side-v008/f0500.png" alt="새 v008의 선박 측면과 트럭 후면 구도"><figcaption>새 v008 · 측면 도착을 앞당긴 직선 동선</figcaption></figure></div>
+<h2>접근부터 하역까지</h2><p>f408–f672 · 원본과 같은 12fps · 모든 프레임 포함 · 약 22초</p>
+<video controls preload="metadata" poster="review/side-v008/f0500.png" src="preview/city-reveal-v008.mp4"></video>
+<h2>컨테이너 하강을 보는 트럭 후면 구도</h2><div class="wide"><img src="review/side-v008/f0600.png" alt="600프레임: 트럭 뒤쪽에서 컨테이너 하강을 바라보는 구도"></div>
+<p class="foot">f440–f500 측면 접근 → f500–f504 짧은 유지 → f504–f596 후면 접근 → f596–f648 하강 구도 연결. f648부터 기존 트럭 추적 카메라가 이어집니다. 모델과 물류 동작은 유지했습니다.</p></main>
+<script>
+document.querySelectorAll('[data-frame]').forEach(b=>b.addEventListener('click',()=>{const f=b.dataset.frame.padStart(4,'0');document.getElementById('before').src='review/before-side-v006/f'+f+'.png';document.getElementById('after').src='review/side-v008/f'+f+'.png';document.querySelectorAll('[data-frame]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));
+</script></html>

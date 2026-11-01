@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PNPLINE · 안정된 롤 v011</title><style>
+*{box-sizing:border-box}body{margin:0;background:#101923;color:#e9f0f5;font:16px Arial,'Malgun Gothic',sans-serif}main{max-width:1440px;margin:auto;padding:32px 28px 60px}h1{font-size:32px;margin:8px 0 16px}p{color:#b0c3d0;line-height:1.7}a{color:#42c7ef}nav{display:flex;flex-wrap:wrap;gap:22px;margin:20px 0}.eyebrow{color:#00abe1;font-size:12px;letter-spacing:2px}.choices{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 14px}button{font:inherit;color:#c9e1eb;background:#182c3b;border:1px solid #546574;padding:8px 16px;border-radius:4px;cursor:pointer}button[aria-pressed=true]{border-color:#00abe1;color:#50d1f6}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:13px;color:#abc0ce;padding:12px 0}.wide{margin:28px 0}.wide img{width:100%;display:block}video{width:100%;display:block;background:#09111a}h2{font-size:22px;margin:32px 0 14px}.foot{font-size:13px;border-top:1px solid #384b59;padding-top:20px;margin-top:30px}a:focus-visible,button:focus-visible{outline:3px solid #00abe1;outline-offset:4px}@media(max-width:700px){main{padding:24px 16px}.comparison{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+<main><span class="eyebrow">PNPLINE / CAMERA v011</span>
+<h1>수평에 가까운 선박 측면 구도.</h1>
+<p>f497 전후의 우측 기울기를 바로잡았습니다. 기존 v008의 이동 경로·시선·피치는 유지하고, 측면에서 후면으로 넘어갈 때도 자연스럽게 연결합니다.</p>
+<nav><a href="candidate-city-reveal-v011.blend" download>최종 Blender 모델</a><a href="report-v011.md">변경·검증 기록</a></nav>
+<div class="choices" aria-label="비교 프레임"><button data-frame="497" aria-pressed="true">497프레임 · 측면</button><button data-frame="528" aria-pressed="false">528프레임 · 하역 시작</button><button data-frame="552" aria-pressed="false">552프레임 · 후면 전환</button></div>
+<div class="comparison"><figure><img id="before" src="review/before-roll-v008/f0497.png" alt="이전 v008의 우측으로 기울어진 구도"><figcaption>이전 v008</figcaption></figure><figure><img id="after" src="review/level-v011/f0497.png" alt="새 v011의 수평에 가까운 구도"><figcaption>새 v011 · 롤 보정</figcaption></figure></div>
+<h2>접근부터 하역까지</h2><p>f408–f672 · 원본과 같은 12fps · 모든 프레임 포함 · 약 22초</p>
+<video controls preload="metadata" poster="review/level-v011/f0497.png" src="preview/city-reveal-v011.mp4"></video>
+<h2>497프레임의 새 구도</h2><div class="wide"><img src="review/level-v011/f0497.png" alt="수평에 가까운 부두와 선박, 안정된 도시 배경"></div>
+<p class="foot">선박 측면 도착과 트럭 후면 추적 시점은 v008과 같습니다. 롤은 부두와 항만 방향을 기준으로 보정했으며, f648에서 기존 카메라에 연결됩니다.</p></main>
+<script>document.querySelectorAll('[data-frame]').forEach(b=>b.addEventListener('click',()=>{const f=b.dataset.frame.padStart(4,'0');document.getElementById('before').src='review/before-roll-v008/f'+f+'.png';document.getElementById('after').src='review/level-v011/f'+f+'.png';document.querySelectorAll('[data-frame]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));</script></html>

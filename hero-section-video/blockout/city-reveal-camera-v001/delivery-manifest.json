@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "7986cd4a6aa08b959722a5d2b3e5aff81d69ceb1a3393a436bc8b114f7d01fd3",
+  "tests_passed": 19,
+  "source_fps": 12,
+  "preview_fps": 12,
+  "hold_frames": [
+    479,
+    552
+  ],
+  "affected_frames": [
+    440,
+    648
+  ],
+  "files": {
+    "candidate-city-reveal-v003.blend": "7986cd4a6aa08b959722a5d2b3e5aff81d69ceb1a3393a436bc8b114f7d01fd3",
+    "preview/city-reveal-v003.mp4": "abbe90b617c66441090c4c076e7f4d9186c2f9a0a243d4c7b729214d01be7778",
+    "review.html": "f7964722ef5722a25093ad28f94c5fc566b8ee961a5795c77ce9ff0c88b34b42",
+    "report.md": "a291227dba8fc280321fd1f5eb79848c1bfb5c7497454be991ce39dac5d77168",
+    "review/tests-v003.log": "818a4a69bff0693a74eda775f25c5f8ca56965bfa3aaa8eec76cb4e3aad2a354",
+    "review/candidate-city-reveal-v003-preservation.json": "dbdf6ef1db049fc47707bbf24879fd88e3841b6babea67d7d9a867511ee9cd2c",
+    "scripts/build_camera.py": "3ada5f020bf26918132f0f8fac5506e64629fddceaefd1792d8a032f309e17c1",
+    "scripts/encode_preview.py": "f8287ff98f229c376945a4fdd61011dd9720499e8bfa93ad9c2c51bf07c5a7d4",
+    "scripts/inspect_camera.py": "a584b587edfa5c8c3a3ec69de8da7584a20d1fcc170c01f3f594224f01996875",
+    "scripts/render.py": "922579e5a42de079d346110a5254a5fc911e3676100fb8b5d00e905321945b57",
+    "scripts/verify_preservation.py": "4dbec030b7742cf99d4138771c8389f0836a42dd8385a4f4809c57f595bf9278",
+    "tests/test_city_reveal.py": "ad3d09ffd2015227358956270fcace3f56c62b10cc9c89de9a9095939bb3d222"
+  }
+}
