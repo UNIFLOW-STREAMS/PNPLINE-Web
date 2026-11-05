@@ -1,0 +1,20 @@
+{
+  "source": "F:\\pnpline-landing\\output\\services-extension-concept-20261101\\04-systems-integration.png",
+  "crop": [
+    540,
+    246,
+    1160,
+    666
+  ],
+  "assets": {
+    "warehouse-cutaway.webp": [
+      620,
+      420
+    ],
+    "warehouse-465.webp": [
+      465,
+      315
+    ]
+  },
+  "note": "Raster extracted from supplied concept; baked connector tails outside the warehouse are trimmed for responsive SVG routes. Small cyan connection endpoints remain from the source. UI icons use the installed Lucide icon library; connection paths are interactive diagram geometry."
+}

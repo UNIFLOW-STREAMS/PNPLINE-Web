@@ -1,0 +1,20 @@
+@font-face{font-family:'Noto Sans SC';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/noto-sans-sc-0.ttf') format('truetype')}
+@font-face{font-family:'Noto Sans SC';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/noto-sans-sc-1.ttf') format('truetype')}
+@font-face{font-family:'Noto Sans SC';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/noto-sans-sc-2.ttf') format('truetype')}
+@font-face{font-family:'Noto Sans SC';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/noto-sans-sc-3.ttf') format('truetype')}
+@theme{--font-sans:'Inter','Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif}
+body{font-family:Inter,'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif;line-height:1.8;line-break:strict;word-break:normal;overflow-wrap:break-word}
+h1,h2,h3,h4,.service-row>button{letter-spacing:0!important;line-height:1.4!important}
+.eyebrow,.detail-kicker,.brief-overline,.image-caption,.route-legend,.pricing-table thead th{letter-spacing:.04em}
+.motion-word,.hero h1 .motion-word{max-width:100%;vertical-align:top}
+.hero h1{font-size:clamp(36px,3.2vw,60px)}
+.hero h1 .motion-line{overflow:visible}
+.nav-links{gap:24px}
+.inquiry-volume select{min-width:0}
+.blind-logo span{font-family:Inter,'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif;line-height:1.5}
+.brief-step-actions>span{font-family:inherit}
+.skip-link:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap;padding:0}
+@media(max-width:767px){.hero h1{font-size:clamp(28px,7vw,38px)}.hero h1 .motion-line>span{display:inline}.hero h1 .motion-word{display:inline}.channel-title{line-height:1.5}.journey-label strong{line-height:1.5}.inquiry-segments span{white-space:normal}}
+
+/* Page and section headings share the requested type scale at every viewport. */
+main h1, main h2{font-size:54px!important;font-weight:600!important}

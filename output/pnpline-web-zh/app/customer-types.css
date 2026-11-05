@@ -1,0 +1,68 @@
+.channel-section { background:#00abe1; color:#172126; padding:110px 0 62px; }
+.channel-section>.container>.eyebrow { color:#172126; letter-spacing:0; font-weight:600; margin-bottom:18px; }
+.channel-heading { display:flex; gap:32px; justify-content:space-between; align-items:end; margin-bottom:34px; }
+.channel-heading h2 { font-size:clamp(42px,4.1vw,68px); font-weight:600; letter-spacing:-.05em; white-space:nowrap; }
+.channel-heading>p { font-size:18px; color:#172126; line-height:1.4; max-width:550px; padding-bottom:5px; }
+.channel-panels { display:flex; border:1px solid #fff; }
+.channel-panel { flex:1 1 0; position:relative; min-width:0; height:546px; overflow:hidden; border-right:1px solid white; padding:32px 0 0; }
+.channel-panel:last-child { border-right:0; }
+.channel-panel.is-selected { flex-grow:3; background:white; color:#0c131d; }
+.channel-choice { display:block; position:relative; z-index:2; width:100%; text-align:left; padding:0 32px; }
+.channel-choice:focus-visible { outline:2px solid #172126; outline-offset:-5px; }
+.channel-number { display:block; font-size:14px; font-weight:600; line-height:1.4; margin-bottom:12px; }
+.is-selected .channel-number { color:#007593; }
+.channel-title { display:block; font-size:34px; font-weight:600; letter-spacing:-.035em; line-height:1.1; }
+.is-selected .channel-title { font-size:52px; white-space:nowrap; }
+.channel-teaser { font-size:18px; line-height:1.35; margin:14px 32px 0; color:#172126; }
+.channel-icon { display:block; flex-shrink:0; width:66px; height:66px; }
+.channel-summary-icon { margin:20px 32px 0; width:74px; height:74px; }
+.channel-panel>.reveal-panel { position:relative; z-index:1; }
+.channel-content { padding:0 32px; }
+.channel-intro { font-size:18px; color:#172126; margin-top:8px; line-height:1.4; white-space:normal; }
+.channel-content ul { list-style:none; margin:30px 0 20px; padding:0; width:61%; }
+.channel-content li { display:flex; gap:22px; align-items:start; margin-bottom:24px; }
+.channel-content h3 { font-size:21px; letter-spacing:-.03em; font-weight:600; line-height:1.15; margin-bottom:6px; }
+.channel-content li p { font-size:16px; line-height:1.3; color:#293342; }
+.channel-cta { display:inline-flex; align-items:center; color:#006c8e; font-size:18px; font-weight:600; gap:12px; border-bottom:1px solid currentColor; line-height:1.5; }
+.channel-cta .channel-icon { filter:brightness(0) saturate(100%) invert(51%) sepia(96%) saturate(1935%) hue-rotate(158deg); width:26px; height:26px; }
+.channel-art { position:absolute; z-index:0; bottom:39px; width:100%; height:auto; max-height:235px; object-fit:contain; object-position:bottom; pointer-events:none; }
+.channel-panel.is-selected .channel-art { right:0; bottom:0; width:44%; height:auto; max-height:435px; object-fit:contain; object-position:right bottom; }
+.channel-panel.is-selected .channel-art-0 { width:45%; }
+.channel-expand { position:absolute; z-index:2; right:20px; bottom:10px; width:44px; height:44px; padding:6px; }
+.channel-expand .channel-icon { width:32px; height:32px; }
+.channel-panel:not(.is-selected)>.reveal-panel { pointer-events:none; }
+.is-selected .channel-content .channel-icon[src$="store.svg"],.is-selected .channel-content .channel-icon[src$="pallet-truck.svg"] { filter:brightness(0); }
+.channel-note { color:#172126; font-size:13px; line-height:1.5; text-align:center; margin:36px auto 0; }
+@media(min-width:1024px) and (max-width:1439px) {
+ .channel-heading { display:block; }.channel-heading>p { margin-top:18px; max-width:none; }
+ .channel-choice,.channel-content { padding-inline:24px; }.channel-title { font-size:28px; }.is-selected .channel-title { font-size:38px; }
+ .channel-teaser { margin-inline:24px; font-size:16px; }.channel-summary-icon { margin-left:24px; }
+ .channel-intro { font-size:17px; }.channel-content ul { width:65%; }.channel-content li { gap:14px; }
+ .channel-content .channel-icon { width:50px; height:50px; }.channel-content h3 { font-size:19px; }.channel-content li p { font-size:14px; }
+}
+@media(max-width:1023px) {
+ .channel-section { padding:75px 0 55px; }.channel-heading { display:block; margin-bottom:30px; }.channel-heading h2 { white-space:normal; font-size:46px; }
+ .channel-heading>p { margin-top:20px; font-size:17px; max-width:600px; }
+ .channel-panels { display:block; }.channel-panel { height:auto; min-height:155px; padding:25px 0; border-right:0; border-bottom:1px solid white; }
+ .channel-panel:last-child { border-bottom:0; }.channel-choice { width:75%; padding-inline:25px; }.channel-title,.is-selected .channel-title { font-size:32px; white-space:normal; }
+ .channel-number { font-size:12px; margin-bottom:10px; }.channel-teaser { margin:12px 25px 0; max-width:65%; font-size:16px; }
+ .channel-summary-icon { display:none; }.channel-panel:not(.is-selected) .channel-art { right:15px; bottom:40px; width:20%; max-height:90px; }
+ .channel-content { padding:0 25px; }.channel-intro { font-size:18px; white-space:normal; max-width:90%; }
+ .channel-content ul { margin-top:30px; width:67%; }.channel-content li { gap:18px; }.channel-content h3 { font-size:21px; }
+ .channel-panel.is-selected .channel-art { width:34%; max-height:330px; }.channel-expand { right:12px; bottom:6px; }
+ .channel-note { text-align:left; font-size:12px; margin-top:25px; }
+}
+@media(max-width:600px) {
+ .channel-section { padding:60px 0 45px; }.channel-heading h2 { font-size:38px; }.channel-heading>p { font-size:16px; }
+ .channel-choice,.channel-content { padding-inline:20px; }.channel-title,.is-selected .channel-title { font-size:28px; }
+ .channel-choice { width:100%; }.channel-intro { font-size:17px; }
+ .channel-panel.is-selected .channel-art { position:relative; display:block; margin:0 0 -25px auto; width:65%; max-height:260px; }
+ .channel-content ul { width:100%; }.channel-content .channel-icon { width:48px; height:48px; }.channel-content li { gap:16px; margin-bottom:23px; }
+ .channel-content h3 { font-size:19px; }.channel-content li p { font-size:15px; }.channel-cta { font-size:16px; }
+ .channel-panel:not(.is-selected) .channel-art { display:none; }.channel-teaser { margin-inline:20px; max-width:87%; font-size:15px; }
+ .channel-panel { min-height:152px; }.channel-expand { bottom:4px; }
+}
+
+.channel-quote{display:block;width:fit-content;margin-top:14px;font-size:15px;color:#006c8e;text-decoration:underline;text-underline-offset:4px}
+
+@media(min-width:1024px){.channel-panel{height:auto;min-height:600px;padding-bottom:28px}}
