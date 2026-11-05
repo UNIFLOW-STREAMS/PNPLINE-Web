@@ -1,0 +1,13 @@
+{
+  "version":"scroll-previz-pacing-v001","fps":30,"frameStart":0,"frameEnd":989,
+  "media":"assets/previz-scrub.mp4","poster":"assets/poster.jpg","referenceViewport":[1920,1080],
+  "sections":[
+    {"id":"S1","label":"중국 · 선적","startFrame":0,"endFrame":75,"scrollVh":1.2,"poster":"assets/s1.jpg","reason":"컨테이너와 크레인의 선적 관계를 읽을 시간 확보. 원본의 낮은 카메라 속도를 고려해 감속은 절제.","slowZones":[{"startFrame":28,"endFrame":64,"strength":0.25,"reason":"컨테이너 안착·연결 접점"}]},
+    {"id":"S2","label":"중국 도시 · 출항","startFrame":75,"endFrame":165,"scrollVh":1.6,"poster":"assets/s2.jpg","reason":"확장된 도시와 항만 전경을 인지한 뒤 출항으로 연결.","slowZones":[{"startFrame":94,"endFrame":133,"strength":0.3,"reason":"중국 도시와 항만 전경 공개"}]},
+    {"id":"S3","label":"태평양 · 운송","startFrame":165,"endFrame":315,"scrollVh":1.3,"poster":"assets/s3.jpg","reason":"해상 이동은 짧게 연결하되 미국 도시가 드러나는 끝부분은 살짝 완화.","slowZones":[{"startFrame":272,"endFrame":306,"strength":0.18,"reason":"미국 도착 전 도시 인지"}]},
+    {"id":"S4","label":"미국 항만 · 하역","startFrame":315,"endFrame":465,"scrollVh":1.9,"poster":"assets/s4.jpg","reason":"크레인의 상승·이송·트레일러 안착을 연속 관찰.","slowZones":[{"startFrame":374,"endFrame":402,"strength":0.35,"reason":"하역 리프트"},{"startFrame":425,"endFrame":457,"strength":0.35,"reason":"부두 이송과 트레일러 접점"}]},
+    {"id":"S5","label":"트럭 · 도크 진입","startFrame":465,"endFrame":660,"scrollVh":2.3,"poster":"assets/s5.jpg","reason":"이동은 일정하게, 정렬·문 개방·후진 접점을 더 관찰. 기존 도크 정지 연출을 추가 정지로 늘리지 않음.","slowZones":[{"startFrame":548,"endFrame":575,"strength":0.25,"reason":"트럭 정렬"},{"startFrame":591,"endFrame":621,"strength":0.28,"reason":"문 개방 완료와 후진 시작"}]},
+    {"id":"S6","label":"창고 · 피킹과 포장","startFrame":660,"endFrame":870,"scrollVh":3.0,"poster":"assets/s6.jpg","reason":"입고·보관·피킹·포장·상차가 압축된 구간에 가장 많은 관찰 거리 배정.","slowZones":[{"startFrame":732,"endFrame":780,"strength":0.4,"reason":"피킹 동작과 작업대 연결"},{"startFrame":790,"endFrame":827,"strength":0.4,"reason":"포장과 아웃바운드 이동"},{"startFrame":836,"endFrame":859,"strength":0.25,"reason":"차량 상차 접점"}]},
+    {"id":"S7","label":"출고 · 배송 분기","startFrame":870,"endFrame":989,"scrollVh":1.7,"poster":"assets/s7.jpg","reason":"두 차량의 출고 분기를 읽고 마지막 풀백에서 일반 본문으로 자연스럽게 연결.","slowZones":[{"startFrame":907,"endFrame":944,"strength":0.3,"reason":"두 배송 경로의 분기"}]}
+  ]
+}
