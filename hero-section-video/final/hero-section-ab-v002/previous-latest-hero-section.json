@@ -1,0 +1,44 @@
+{
+  "adopted_on": "2026-11-02",
+  "variants": {
+    "A": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-A.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-A.blend",
+      "sha256": "682972ad03b72c5e894d0f25cc2da07a29767af7ead2030c10aaa09b384b8603",
+      "description": "Original architectural colors",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\audit\\final-A-verification.json"
+    },
+    "B": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\hero-section-B.blend",
+      "sha256": "e15843f3fb67f91fdfe3aba2169e4e4919109d56bc650e7f0b98ddca43a30eee",
+      "description": "White and gray architectural materials with cyan brand landmarks and crane heads",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v005\\pnpline-white-cyan-study-v005.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\audit\\final-B-verification.json"
+    }
+  },
+  "presentation_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-focus-v006\\pnpline-hero-focus-v006.blend",
+  "presentation_sha256": "e4e880b1c1358ac6c2ee8f77c033f930583204d699acd230b4310a57513b0a4a",
+  "lighting": "daylight-v002",
+  "dof": "hero-focus-v006; aperture diameter 40 percent of v004, exact 990-frame animation",
+  "background": {
+    "top_srgb": "#DFEAF3",
+    "bottom_srgb": "#F3F6F8",
+    "screen_space": true,
+    "packed": true
+  },
+  "color_management": {
+    "view": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.3
+  },
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\review\\index.html",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001\\build-verification.json",
+  "archive": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v001",
+  "canonical_default": "A",
+  "status": "Adopted A/B masters; full scene preservation and exact presentation transfer verified on reopen; six actual-camera frames per variant reviewed."
+}

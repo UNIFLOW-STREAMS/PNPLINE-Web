@@ -1,0 +1,20 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+  "source_sha256": "65299a8273754bade3a47cc7dbf4f21e92a8e28ac4d6b0e48747a6e5556c55bb",
+  "animation_unchanged": true,
+  "renderer": "BLENDER_WORKBENCH",
+  "quality": "Scroll timing preview; final Cycles material/light/DOF not represented",
+  "stream": {
+    "width": 960,
+    "height": 540,
+    "r_frame_rate": "30/1",
+    "duration": "33.000000",
+    "nb_frames": "990"
+  },
+  "media": "F:\\pnpline-landing\\output\\hero-section-b-scroll-v001\\assets\\hero-section-b-previz.mp4",
+  "media_sha256": "b7883b2eae54b4c822c4fa1afefeade96c6a778dbffba6949a9d1b1891878dc3",
+  "pacing": "F:\\pnpline-landing\\output\\hero-section-b-scroll-v001\\pacing.json",
+  "total_viewport_heights": 13,
+  "web": "F:\\pnpline-landing\\output\\hero-section-b-scroll-v001",
+  "application": "Scroll maps to currentTime; no animation retime; no double easing"
+}

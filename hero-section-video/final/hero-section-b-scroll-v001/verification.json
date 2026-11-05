@@ -1,0 +1,21 @@
+{
+  "source": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+  "source_sha256": "12c96d5b6e593349b1497561c70f52ab5a3f964074b35a182d82793a81978333",
+  "file": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-b-scroll-v001\\hero-section-B.blend",
+  "sha256": "65299a8273754bade3a47cc7dbf4f21e92a8e28ac4d6b0e48747a6e5556c55bb",
+  "animation_unchanged": true,
+  "action_count": 144,
+  "timing": [
+    0,
+    989,
+    30,
+    1.0
+  ],
+  "camera": "CAM_MASTER",
+  "application": "web-only",
+  "A_unchanged_sha256": "d4740af8c351bc04534754a51f289f99cfc95dd80aba3f9ff008dc679e4dac12",
+  "reopened_verified": true,
+  "all_actions_exact": true,
+  "config_embedded": true,
+  "total_viewport_heights": 13
+}

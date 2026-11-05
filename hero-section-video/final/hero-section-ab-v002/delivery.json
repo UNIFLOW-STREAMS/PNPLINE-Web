@@ -1,0 +1,58 @@
+{
+  "adopted_on": "2026-11-02",
+  "variants": {
+    "A": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-A.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\hero-section-A.blend",
+      "sha256": "d4740af8c351bc04534754a51f289f99cfc95dd80aba3f9ff008dc679e4dac12",
+      "description": "Original architectural colors",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\shanghai-landmarks-v001\\pnpline-shanghai-landmarks-v001.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\A-changes.json"
+    },
+    "B": {
+      "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+      "versioned_copy": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\hero-section-B.blend",
+      "sha256": "12c96d5b6e593349b1497561c70f52ab5a3f964074b35a182d82793a81978333",
+      "description": "White and gray architectural materials with cyan brand landmarks and crane heads",
+      "material_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\white-cyan-study-v005\\pnpline-white-cyan-study-v005.blend",
+      "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\B-changes.json"
+    }
+  },
+  "presentation_source": "F:\\pnpline-landing\\hero-section-video\\lookdev\\hero-focus-v006\\pnpline-hero-focus-v006.blend",
+  "presentation_sha256": "e4e880b1c1358ac6c2ee8f77c033f930583204d699acd230b4310a57513b0a4a",
+  "lighting": "daylight-v002",
+  "dof": "hero-focus-v006; aperture diameter 40 percent of v004, exact 990-frame animation",
+  "background": {
+    "top_srgb": "#DFEAF3",
+    "bottom_srgb": "#F3F6F8",
+    "screen_space": true,
+    "packed": true
+  },
+  "color_management": {
+    "view": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.3
+  },
+  "fps": 30,
+  "frame_start": 0,
+  "frame_end": 989,
+  "review": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\review\\index.html",
+  "verification": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\B-changes.json",
+  "archive": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002",
+  "canonical_default": "A",
+  "status": "Latest adopted A/B; loading motion slowed with coordinated cargo/support/worker/truck timing; crown-only cyan selection. Existing lighting, DOF and gradient retained.",
+  "motion_review": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-ab-v002\\loading-adjusted-30fps.mp4",
+  "revision": "v002",
+  "changes": {
+    "carry_duration_frames": [
+      23,
+      45
+    ],
+    "truck_departure_frames": [
+      870,
+      900
+    ],
+    "foliage_crowns": 395,
+    "foliage_selection": "35 percent fixed hash per tree; crown material slot only"
+  }
+}
