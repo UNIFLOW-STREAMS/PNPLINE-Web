@@ -1,6 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": false,
-  "trailingSlash": false,
-  "rewrites": [{"source":"/","destination":"/output/scroll-world-concept-v1/index.html"}]
-}
