@@ -1,0 +1,31 @@
+html[lang="zh-CN"] .hero h1 {
+  font-size: clamp(46px, 6.4vw, 112px);
+}
+html[lang="zh-CN"] .chapter-heading h2 {
+  letter-spacing: 0;
+}
+html[lang="zh-CN"] :is(.hero h1, .chapter-heading h2, .inquiry-intro h2) {
+  line-break: strict;
+}
+@media (max-width: 800px) {
+  html[lang="zh-CN"] .hero h1 {
+    font-size: clamp(25px, 8.2vw, 66px);
+  }
+  html[lang="zh-CN"] :is(.inquiry-field input:not([type=radio], [type=checkbox]), .inquiry-field select) {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  html[lang="zh-CN"] .nav-shell {
+    gap: 8px;
+    padding-inline: 12px;
+  }
+  html[lang="zh-CN"] .nav-actions .button {
+    gap: 6px;
+    padding-inline: 10px;
+    white-space: nowrap;
+  }
+  html[lang="zh-CN"] .nav-actions .button svg {
+    flex-shrink: 0;
+  }
+}

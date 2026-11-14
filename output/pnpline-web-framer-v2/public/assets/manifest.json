@@ -1,0 +1,119 @@
+[
+  {
+    "asset": "hero",
+    "source": "02-hero.png",
+    "crop": [
+      0,
+      405,
+      1672,
+      838
+    ],
+    "width": 1672,
+    "height": 433,
+    "format": "webp"
+  },
+  {
+    "asset": "freight",
+    "source": "03-services.png",
+    "crop": [
+      0,
+      175,
+      825,
+      858
+    ],
+    "width": 825,
+    "height": 683,
+    "format": "webp"
+  },
+  {
+    "asset": "warehouse",
+    "source": "05-warehouse-systems.png",
+    "crop": [
+      0,
+      345,
+      1672,
+      784
+    ],
+    "width": 1672,
+    "height": 439,
+    "format": "webp"
+  },
+  {
+    "asset": "sellers",
+    "source": "04-customer-types.png",
+    "crop": [
+      165,
+      520,
+      949,
+      740
+    ],
+    "width": 784,
+    "height": 220,
+    "format": "webp"
+  },
+  {
+    "asset": "factory",
+    "source": "06-process.png",
+    "crop": [
+      0,
+      288,
+      408,
+      574
+    ],
+    "width": 408,
+    "height": 286,
+    "format": "webp"
+  },
+  {
+    "asset": "ship",
+    "source": "06-process.png",
+    "crop": [
+      411,
+      288,
+      942,
+      574
+    ],
+    "width": 531,
+    "height": 286,
+    "format": "webp"
+  },
+  {
+    "asset": "storage",
+    "source": "06-process.png",
+    "crop": [
+      950,
+      288,
+      1344,
+      574
+    ],
+    "width": 394,
+    "height": 286,
+    "format": "webp"
+  },
+  {
+    "asset": "delivery",
+    "source": "06-process.png",
+    "crop": [
+      1360,
+      288,
+      1717,
+      574
+    ],
+    "width": 357,
+    "height": 286,
+    "format": "webp"
+  },
+  {
+    "asset": "parcel",
+    "source": "09-quote.png",
+    "crop": [
+      242,
+      485,
+      578,
+      737
+    ],
+    "width": 336,
+    "height": 252,
+    "format": "webp"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "concept": 1,
+    "title": "메인 히어로",
+    "scope": "중국→미국 운송, 창고, 주문 이행, 주요 CTA",
+    "route": "#top",
+    "state": "Hero",
+    "originalSource": "app/landing.tsx"
+  },
+  {
+    "concept": 2,
+    "title": "서비스 범위",
+    "scope": "운송 조율·미국 창고·주문 이행·미국 내 배송",
+    "route": "#services",
+    "state": "Four service cards",
+    "originalSource": "app/service-data.ts"
+  },
+  {
+    "concept": 3,
+    "title": "고객 유형",
+    "scope": "Amazon FBA/FBM, Shopify/TikTok Shop, 제조사/B2B",
+    "route": "#customers",
+    "state": "All three audience cards",
+    "originalSource": "app/customer-types.tsx"
+  },
+  {
+    "concept": 4,
+    "title": "운송 방식 상세",
+    "scope": "FCL·LCL·항공의 적합 조건과 각 준비 항목",
+    "route": "#freight-options",
+    "state": "Freight modes: FCL, LCL, Air freight",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 5,
+    "title": "운송 방식 비교",
+    "scope": "적합 물량·용량 계획·인계·견적 입력 비교",
+    "route": "#freight-options",
+    "state": "Compare all three shipping modes",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 6,
+    "title": "제품·거래·IOR",
+    "scope": "제품·재료·용도·원산지·거래·목적지·기지정 당사자·IOR 펼침",
+    "route": "#import-planning",
+    "state": "Import stage: Share the product; IOR disclosure",
+    "originalSource": "app/import-alternative.tsx"
+  },
+  {
+    "concept": 7,
+    "title": "수입 서류와 제품 요건",
+    "scope": "송장·포장·운송 서류, HS/US HTS, FDA/FCC 확인 항목",
+    "route": "#import-planning",
+    "state": "Import stage: Documents, HS & product rules; all3 topic tabs",
+    "originalSource": "app/import-alternative.tsx"
+  },
+  {
+    "concept": 8,
+    "title": "역할과 인계 책임",
+    "scope": "판매자/제조사·IOR·브로커·PNPLINE의 역할, 문서·관세·예외 인계",
+    "route": "#import-planning",
+    "state": "Import stage: Define responsibilities",
+    "originalSource": "app/import-alternative.tsx"
+  },
+  {
+    "concept": 9,
+    "title": "미국 직영 창고",
+    "scope": "입고·재고·출고의 모든 탭 설명",
+    "route": "#warehouse",
+    "state": "Receiving / Inventory / Dispatch tabs",
+    "originalSource": "app/warehouse-workflow.tsx"
+  },
+  {
+    "concept": 10,
+    "title": "시스템 연결",
+    "scope": "플랫폼·ERP·API 입력, 재고·입고·주문/출고 기록",
+    "route": "#systems",
+    "state": "Connection requirements and records map",
+    "originalSource": "app/system-connections.tsx"
+  },
+  {
+    "concept": 11,
+    "title": "시스템 확인 요건",
+    "scope": "권한/기능·데이터 갱신·지원 연결 범위",
+    "route": "#systems",
+    "state": "Access, data updates and supported connections disclosure",
+    "originalSource": "app/system-requirements.tsx"
+  },
+  {
+    "concept": 12,
+    "title": "개별 주문 이행",
+    "scope": "4단계, 준비할 자료, 기록할 결과",
+    "route": "#fulfillment-options",
+    "state": "Outbound workflow: Single orders",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 13,
+    "title": "FBA 보충 출고",
+    "scope": "4단계, 준비할 자료, 기록할 결과",
+    "route": "#fulfillment-options",
+    "state": "Outbound workflow: FBA replenishment",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 14,
+    "title": "B2B 배송",
+    "scope": "PO·포장·예약·수령 시간·라벨·하역 접근·인수 증빙",
+    "route": "#b2b",
+    "state": "B2B requirements panel",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 15,
+    "title": "반품 처리",
+    "scope": "접수→검사→처분 승인→재입고/분리 및 펼침 상세",
+    "route": "#returns",
+    "state": "Review return handling disclosure",
+    "originalSource": "app/service-details.tsx"
+  },
+  {
+    "concept": 16,
+    "title": "상담 절차",
+    "scope": "요구사항 공유·조건 검토·견적 확인의 모든 세부 항목",
+    "route": "#process",
+    "state": "All three consultation step tabs",
+    "originalSource": "app/consultation-process.tsx"
+  },
+  {
+    "concept": 17,
+    "title": "비용 구성표",
+    "scope": "운송·입고·보관·주문 이행·배송의 확인 사항과 산정 단위",
+    "route": "#pricing",
+    "state": "Cost table",
+    "originalSource": "app/pricing-details.tsx"
+  },
+  {
+    "concept": 18,
+    "title": "수입 비용과 세금",
+    "scope": "통관·IOR·서비스 비용·관세 및 세금",
+    "route": "#pricing",
+    "state": "Import fees and taxes disclosure",
+    "originalSource": "app/pricing-details.tsx"
+  },
+  {
+    "concept": 19,
+    "title": "추가 비용 조건",
+    "scope": "최소 요금·장기 보관·특수 작업·최종 견적 기준",
+    "route": "#pricing",
+    "state": "Conditions behind the quote disclosure",
+    "originalSource": "app/pricing-details.tsx"
+  },
+  {
+    "concept": 20,
+    "title": "FAQ: 서비스와 인계",
+    "scope": "질문 4개와 답변 전체 요지",
+    "route": "#faq",
+    "state": "FAQ Services & handover, all4 answers",
+    "originalSource": "app/faq-data.ts"
+  },
+  {
+    "concept": 21,
+    "title": "FAQ: 견적 준비",
+    "scope": "질문 3개와 답변 전체 요지",
+    "route": "#faq",
+    "state": "FAQ Quote preparation, all3 answers",
+    "originalSource": "app/faq-data.ts"
+  },
+  {
+    "concept": 22,
+    "title": "FAQ: 출고와 시스템",
+    "scope": "질문 2개와 답변 전체 요지",
+    "route": "#faq",
+    "state": "FAQ Dispatch & systems, both answers",
+    "originalSource": "app/faq-data.ts"
+  },
+  {
+    "concept": 23,
+    "title": "전체 문의 양식",
+    "scope": "상품·이메일·운송·물량·단위·기타 단위·목적지·IOR·동의·초기화·확인",
+    "route": "#quote",
+    "state": "All inquiry inputs, validation, draft clear/restore",
+    "originalSource": "app/quote-inquiry.tsx"
+  },
+  {
+    "concept": 24,
+    "title": "푸터",
+    "scope": "4서비스·추가 메뉴·문의·언어·저작권·개인정보·맨 위",
+    "route": "/",
+    "state": "All service and informational links",
+    "originalSource": "app/landing.tsx",
+    "selector": "footer.air-footer"
+  },
+  {
+    "concept": 25,
+    "title": "개인정보 안내",
+    "scope": "전송 미연결, 세션 저장, 삭제, 복귀, 실제 수집 전 정책 확인",
+    "route": "/privacy",
+    "state": "Privacy route",
+    "originalSource": "app/privacy/page.tsx"
+  }
+]

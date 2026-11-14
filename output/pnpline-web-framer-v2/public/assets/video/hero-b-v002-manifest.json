@@ -1,0 +1,68 @@
+{
+  "version": "B-cycles-web-v002",
+  "source": "F:\\pnpline-landing\\hero-section-video\\hero-section-B.blend",
+  "source_sha256": "65299a8273754bade3a47cc7dbf4f21e92a8e28ac4d6b0e48747a6e5556c55bb",
+  "frame_start": 0,
+  "frame_end": 989,
+  "fps": 30,
+  "duration": 33,
+  "animation_retimed": false,
+  "renderer": "Cycles / OptiX / RTX 4070",
+  "samples": 96,
+  "color": {
+    "view": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.3,
+    "web": "BT.709 limited-range 8-bit YUV420 with error-diffusion dithering"
+  },
+  "videos": {
+    "1080p": {
+      "file": "hero-b-v002-1080p.mp4",
+      "bytes": 31910714,
+      "sha256": "84ce9a1007411ad6fee0decbf91eef4dd39d63db82430c99ba640113006f098c",
+      "width": 1920,
+      "height": 1080,
+      "frames": 990,
+      "seconds": 33,
+      "crf": 20.5,
+      "gop": 8,
+      "b_frames": 0,
+      "faststart": true,
+      "encode_seconds": 17.969862300000386,
+      "vmaf": {
+        "min": 93.946121,
+        "max": 100.0,
+        "mean": 99.600948,
+        "harmonic_mean": 99.591419
+      }
+    },
+    "720p": {
+      "file": "hero-b-v002-720p.mp4",
+      "bytes": 12104681,
+      "sha256": "f7a34f03cb4153031bb086f6ec8d2e97a88c7dea628190a5cd2d73b19e98c7dc",
+      "width": 1280,
+      "height": 720,
+      "frames": 990,
+      "seconds": 33,
+      "crf": 26,
+      "gop": 4,
+      "b_frames": 0,
+      "faststart": true,
+      "encode_seconds": 13.78515090000019,
+      "vmaf": {
+        "min": 89.387582,
+        "max": 100.0,
+        "mean": 97.008356,
+        "harmonic_mean": 96.906461
+      }
+    }
+  },
+  "render_seconds": 14181.286913300013,
+  "mean_frame_seconds": 14.324532235656578,
+  "frame_times_count": 990,
+  "source_unchanged": true,
+  "budgets_bytes": {
+    "1080p": 33554432,
+    "720p": 12582912
+  }
+}

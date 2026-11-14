@@ -1,0 +1,65 @@
+{
+  "created": "2026-11-05",
+  "method": "image_gen referenced-image edit, transparent_background=true",
+  "assets": [
+    {
+      "name": "warehouse",
+      "source": "F:/pnpline-landing/output/pnpline-air-full-concept-v1/09.png",
+      "prompt": "Create a standalone transparent PNG illustration asset derived from the warehouse depicted in the reference. Remove ALL page design, headings, body text, numbers, labels, connecting infographic lines, cards, buttons and the blue backdrop. Recreate only a premium, clean, highly detailed 3D miniature warehouse cutaway: natural white warehouse walls and floor slab, cyan steel pallet racks, many natural brown cardboard cartons, white semi trucks with cyan trailers at loading docks, small forklifts and a few green trees. Panoramic 3/4 isometric view, broad horizontal warehouse composition, entire scene completely contained with generous clear margins on all sides. Subject occupies a wide low silhouette, about 2.5:1. Output a wide landscape image at least 1536 pixels wide. Real transparent alpha outside the subject, absolutely no colored background rectangle. Neutral daylight studio lighting, realistic natural materials, crisp object edges. Preserve the approved reference's elegant miniature logistics aesthetic. No global blue tint or color overlay; whites stay white, cartons brown. No text, logos, UI or watermark anywhere.",
+      "generatedFile": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a1ac02-a99a-7cb0-8505-845065e8570f\\exec-1887360c-7703-455a-867a-6cbebb4c349b.png",
+      "outputFile": "C:/tmp/pnpline-air-web-v1/public/assets/air/warehouse.png",
+      "correction": null,
+      "validation": {
+        "width": 1983,
+        "height": 793,
+        "pixelFormat": "Format32bppArgb",
+        "alphaVerified": true,
+        "alphaMethod": "System.Drawing sampled alpha histogram, step 8 pixels; dominant subject alpha 253/255, empty background alpha 0",
+        "visualReview": "Full subject visible; no UI or text; natural whites/cyan/brown preserved",
+        "originalGeneratedFilePreserved": true
+      }
+    },
+    {
+      "name": "freight",
+      "source": "F:/pnpline-landing/output/pnpline-air-full-concept-v1/04.png",
+      "prompt": "Create a standalone transparent PNG illustration asset derived solely from the container ship in the LEFT panel of the reference. Remove ALL page design, text, UI, borders, aircraft, pallet cargo and blue backdrop. Show one complete premium highly detailed 3D miniature container ship, natural white superstructure and mostly white hull with subtle dark lower hull, vivid cyan shipping containers neatly stacked on deck, small realistic ocean water wake hugging the ship with natural white foam. Ship is viewed from front-right elevated 3/4 angle, bow toward lower right, similar orientation to reference. Entire ship including mast, bow, stern and limited water wake must be visible inside frame with generous transparent margin; no clipped objects. Output wide landscape PNG at least 1536 pixels wide. Transparent alpha outside the ship and small wake, no rectangular sea patch, no background, no floor. Neutral bright realistic studio/daylight, white structures remain clean natural white with realistic shadows, no blue overlay or monochrome color grading. No writing, logos, labels, numbers, UI, or watermark.",
+      "generatedFile": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a1ac02-a99a-7cb0-8505-845065e8570f\\exec-f1d03ef6-ff96-467d-85a9-fb89d91bc637.png",
+      "outputFile": "C:/tmp/pnpline-air-web-v1/public/assets/air/freight.png",
+      "correction": {
+        "name": "freight",
+        "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a1ac02-a99a-7cb0-8505-845065e8570f/exec-c63bb1c9-2d7d-4364-af64-d8a4fdeb26fd.png",
+        "prompt": "Correct the framing of this transparent ship asset. Recreate exactly this clean natural-color premium 3D container ship and small ocean wake but zoom out substantially so the ENTIRE tallest mast tip, complete stern, complete bow and all wake are fully visible with 15 percent empty transparent padding on EVERY edge. The current mast tip is cut off at the top: restore the complete mast and leave abundant transparent air ABOVE it. Make the vessel only 70 percent of canvas width and 65 percent of canvas height. Wide landscape image at least 1800 pixels wide. White superstructure, cyan containers, natural dark hull. True transparent background, no floor, no text, no UI, no logos, no blue tint. Preserve fine realistic details. Do not crop the image tightly around the object."
+      },
+      "validation": {
+        "width": 1774,
+        "height": 887,
+        "pixelFormat": "Format32bppArgb",
+        "alphaVerified": true,
+        "alphaMethod": "System.Drawing sampled alpha histogram, step 8 pixels; dominant subject alpha 253/255, empty background alpha 0",
+        "visualReview": "Full subject visible; no UI or text; natural whites/cyan/brown preserved",
+        "originalGeneratedFilePreserved": true
+      }
+    },
+    {
+      "name": "fulfillment",
+      "source": "F:/pnpline-landing/output/pnpline-air-full-concept-v1/12.png",
+      "prompt": "Create a standalone transparent PNG illustration asset derived from the fulfillment machinery in the reference. Remove ALL headings, labels, numbered workflow lines, buttons, cards, text, UI and blue background. Recreate a premium clean highly detailed 3D logistics still life: a cyan-frame silver roller conveyor running diagonally from left foreground toward right rear with several natural brown taped cardboard parcels, beside a natural white packing bench on the right, dark gray monitor, small label printer, white organizer tray with packing tape, white storage bins, stacked brown flat mailers below. Show the ENTIRE conveyor and bench including all legs completely within the frame, no cropped parcels or machinery. Panoramic horizontal composition about 2.5:1 with generous transparent margins. Output landscape transparent PNG at least 1536 pixels wide. Neutral bright studio lighting and realistic natural materials, whites remain white and cartons brown, vivid cyan equipment accents only, no blue color overlay. Transparent alpha background and open gaps beneath equipment, no floor plane or blue backdrop. No readable text, logos, barcode labels, UI, numbers or watermark.",
+      "generatedFile": "C:\\Users\\KIM TAEHYUNG\\.codex\\generated_images\\01a1ac02-a99a-7cb0-8505-845065e8570f\\exec-57ee96bf-39a5-4d8e-a6a4-e40a209d04bf.png",
+      "outputFile": "C:/tmp/pnpline-air-web-v1/public/assets/air/fulfillment.png",
+      "correction": {
+        "name": "fulfillment",
+        "source": "C:/Users/KIM TAEHYUNG/.codex/generated_images/01a1ac02-a99a-7cb0-8505-845065e8570f/exec-17560a4d-892c-4ee4-a0b2-83a157206380.png",
+        "prompt": "Correct the framing of this transparent fulfillment asset. Recreate this clean premium 3D cyan conveyor with brown cardboard parcels and natural white packing bench, dark monitor, printer and supplies, but zoom out substantially so the complete conveyor end at LEFT and entire bench at RIGHT and ALL legs are fully visible with at least 15 percent empty transparent padding at every edge. Current conveyor end touches left edge: restore its full frame and place transparent space BEFORE it. Subject occupies only 70 percent of canvas width, centered in wide landscape canvas at least 1800 pixels wide. True transparent background and transparent holes under equipment, no floor, no text, no UI, no logos, no blue tint. Neutral bright lighting, whites stay white, parcels stay brown. Do not crop tightly around the machinery."
+      },
+      "validation": {
+        "width": 1920,
+        "height": 819,
+        "pixelFormat": "Format32bppArgb",
+        "alphaVerified": true,
+        "alphaMethod": "System.Drawing sampled alpha histogram, step 8 pixels; dominant subject alpha 253/255, empty background alpha 0",
+        "visualReview": "Full subject visible; no UI or text; natural whites/cyan/brown preserved",
+        "originalGeneratedFilePreserved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+/* Services disclosure shared across the landing variants. */
+.air-site .site-nav .service-menu {
+  position: absolute;
+  z-index: 1;
+  inset-block-start: 100%;
+  inset-inline: 0;
+  width: min(62.5rem, 100%);
+  max-block-size: calc(100dvh - var(--header) - 2rem);
+  margin-inline: auto;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: var(--paper, #fffcf7);
+  color: #242826;
+  border: 1px solid rgb(36 40 38 / .12);
+  border-radius: 1.25rem;
+  box-shadow: 0 16px 40px rgb(3 24 47 / .22);
+  text-shadow: none;
+  white-space: normal;
+}
+
+.service-menu-group + .service-menu-group { margin-block-start: 1.25rem; }
+.service-menu-label {
+  margin: 0 .625rem .5rem;
+  color: #006782;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.service-menu-label:lang(en) { text-transform: uppercase; letter-spacing: .05em; }
+.service-menu-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+.air-site .site-nav .service-menu .service-menu-link {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .75rem;
+  min-block-size: 4.75rem;
+  padding: .625rem;
+  border-radius: .875rem;
+  color: #242826;
+  white-space: normal;
+  transition: background-color 160ms ease;
+}
+.service-menu-link strong, .service-menu-link small { display: block; }
+.service-menu-link strong { font-size: 1.125rem; font-weight: 700; line-height: 1.25; }
+.service-menu-link small { margin-block-start: .1875rem; color: #555d59; font-size: .9375rem; line-height: 1.5; }
+.service-menu-icon {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: .625rem;
+  background: #f0ebe3;
+  color: #006782;
+}
+.service-menu-icon::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: currentColor;
+  mask: var(--service-menu-icon) center / contain no-repeat;
+}
+.service-menu-link > svg { color: #006782; }
+.service-menu-support .service-menu-link { background-color: #f4f1ea; }
+.air-site .site-nav .service-menu .service-menu-link:is(:hover, :focus-visible) { background-color: #e7efed; }
+.air-site .site-nav .service-menu a:focus-visible { outline: 2px solid #006782; outline-offset: -2px; }
+.air-site .site-nav .service-menu .service-menu-all {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  min-block-size: 2.75rem;
+  margin-block-start: 1.25rem;
+  padding: .625rem;
+  border-block-start: 1px solid #deded6;
+  color: #006782;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  white-space: normal;
+}
+.service-menu-all:hover { text-decoration: underline; }
+.service-menu-scroll-hint { display: none; }
+
+@media (max-width: 800px) {
+  .air-site .site-nav .nav-links.is-open {
+    justify-content: flex-start;
+    max-block-size: calc(100dvh - var(--header) - 1.5rem);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scroll-padding-block-end: 2.5rem;
+  }
+  .air-site .site-nav .service-menu {
+    position: static;
+    flex: none;
+    max-block-size: none;
+    margin-block: .25rem .5rem;
+    padding: .75rem;
+    overflow: visible;
+    box-shadow: none;
+  }
+  .service-menu-grid { grid-template-columns: minmax(0, 1fr); }
+  .air-site .site-nav .service-menu .service-menu-link { gap: .5rem; min-block-size: 3.75rem; }
+  .service-menu-link strong { font-size: 1rem; }
+  .service-menu-icon { width: 2.25rem; height: 2.25rem; }
+  .service-menu-scroll-hint {
+    position: sticky;
+    inset-block-end: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    min-block-size: 2.25rem;
+    margin-block-start: -2.25rem;
+    background: var(--paper, #fffcf7);
+    border-block-start: 1px solid #deded6;
+    color: #006782;
+    font-size: .8125rem;
+    font-weight: 700;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .service-menu-scroll-hint[data-visible=true] { visibility: visible; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .air-site .site-nav .service-menu .service-menu-link { transition: none; }
+}
+
+/* Keep the disclosure separate from the page and visually joined to the bar. */
+.air-site .services-page-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 69;
+  background: rgb(12 24 28 / .16);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 180ms ease, visibility 180ms;
+}
+.air-site .services-page-backdrop[data-open=true] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.air-site .site-nav[data-services-open=true] {
+  background: var(--nav-surface, #fff6e8);
+  box-shadow: 0 4px 16px rgb(7 35 46 / .14);
+  transition-duration: 180ms;
+}
+.air-site .site-nav .service-menu,
+.air-site .site-nav .service-menu-scroll-hint {
+  background: var(--nav-surface, #fff6e8);
+}
+.air-site .site-nav[data-services-open=true] .brand {
+  background: transparent;
+  box-shadow: none;
+}
+.air-site .site-nav[data-services-open=true] .brand img {
+  filter: none;
+  transition-duration: 180ms;
+}
+.air-site .site-nav[data-services-open=true] .nav-links > :is(a, button) {
+  color: #242826;
+  text-shadow: none;
+  transition-duration: 180ms;
+}
+.air-site .site-nav[data-services-open=true] .nav-links > :is(a, button):is(:hover, [aria-expanded=true]) {
+  color: #006782;
+}
+.air-site .site-nav[data-services-open=true] :focus-visible { outline-color: #006782; }
+@media (min-width: 801px) {
+  .air-site .site-nav .service-menu {
+    inset-block-start: calc(100% + 12px);
+    max-block-size: calc(100dvh - var(--header) - 3rem);
+  }
+  /* Transparent pointer bridge prevents hover dismissal across the gap. */
+  .air-site .site-nav[data-services-open=true]::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    inset-block-start: 100%;
+    block-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .air-site .site-nav[data-services-open=true] .nav-links.is-open {
+    top: calc(100% + 12px);
+    max-block-size: calc(100dvh - var(--header) - 3rem);
+    background: var(--nav-surface, #fff6e8);
+    border-radius: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .air-site .services-page-backdrop,
+  .air-site .site-nav[data-services-open=true],
+  .air-site .site-nav[data-services-open=true] .brand img,
+  .air-site .site-nav[data-services-open=true] .nav-links > :is(a, button) {
+    transition: none;
+  }
+}

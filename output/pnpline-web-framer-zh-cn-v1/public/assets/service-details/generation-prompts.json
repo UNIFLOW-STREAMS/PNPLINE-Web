@@ -1,0 +1,13 @@
+{
+  "tool": "Built-in image_gen",
+  "assets": [
+    {
+      "file": "freight-modes.webp",
+      "prompt": "Use case: stylized-concept. Asset type: wide website logistics illustration, no text. Create a sophisticated miniature 3D studio render on pure #f4f6f7 seamless background. A small white and cyan blue cargo ship with cyan shipping containers on the left, two loose container modules at center (one white closed, one cyan partly loaded), and a white cargo airplane slightly above on right. Three distinct compact subjects arranged in a wide horizontal 2.8:1 composition, ample clean spacing and margins, orthographic isometric perspective, soft ambient shadows, realistic matte white plastic and brushed pale grey metal. Palette white, light gray, charcoal, PNPLINE cyan #00ABE1. Professional global logistics brand aesthetic, precise geometry, daylight studio lighting. No ocean, no landscape, no logos, no letters, no labels, no text. Do not crop any vehicle. Output wide image."
+    },
+    {
+      "file": "fulfillment-workbench.webp",
+      "prompt": "Use case: stylized-concept. Asset type: wide logistics landing website section illustration. Premium isometric miniature 3D render of a US order fulfillment workstation. A white and pale gray small warehouse cutaway on left with two cyan storage rack bays and neatly stacked beige cardboard parcels. Low packing table at center with a single open cardboard carton and two closed cyan/white parcels. On right a small white electric pallet jack holding a neatly shrinkwrapped pallet of cartons. On a seamless very light gray #f4f6f7 studio background, soft shadows, modern matte white plastic, cyan #00ABE1 accents, precise realistic miniature architecture. Wide horizontal composition approximately 2:1, entire scene visible with spacious margins. No lettering, no labels, no logos, no people, no text. Professional restrained architectural visualization, same palette as global logistics white/cyan ship and plane render."
+    }
+  ]
+}

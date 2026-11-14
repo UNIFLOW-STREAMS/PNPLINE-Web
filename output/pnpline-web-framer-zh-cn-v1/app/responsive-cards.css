@@ -1,0 +1,850 @@
+/* Version A Chinese cards for phone and tablet layouts. */
+.import-phone-topics,
+.import-ior-tablet,
+.import-compact-cta,
+.customer-compact-details,
+.systems-compact-group,
+.pricing-phone-rates,
+.freight-preparation-phone,
+.freight-comparison-phone,
+.inquiry-error-summary--phone,
+.fulfillment-detail-phone,
+.distribution-inset-phone {
+  display: none;
+}
+
+.pricing-columns { display: contents; }
+
+.card-disclosure > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-block-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+  list-style: none;
+  cursor: pointer;
+}
+.card-disclosure > summary::-webkit-details-marker { display: none; }
+.card-disclosure > summary:focus-visible { outline-offset: 2px; }
+.card-disclosure-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  margin-inline-start: auto;
+  inline-size: 26px;
+  block-size: 26px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: var(--reading-link);
+}
+.card-disclosure[open] > summary .card-disclosure-icon svg { transform: rotate(45deg); }
+.card-disclosure-body { min-inline-size: 0; padding-block-end: 10px; }
+
+@media (max-width: 1024px),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  #services .service-card { --service-padding: clamp(12px, 3.7vw, 22px); }
+  #services .service-card-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(68px, 33%);
+    align-items: center;
+    gap: 12px;
+    padding: var(--service-padding) var(--service-padding) 0;
+  }
+  #services .service-title h3 { font-size: clamp(1.125rem, .98rem + .6vw, 1.375rem); }
+  #services :lang(zh) .service-card-heading > .service-summary {
+    font-size: .9375rem;
+    line-height: 1.55;
+  }
+  #services .service-card .service-art {
+    block-size: auto;
+    min-block-size: 86px;
+    inline-size: 100%;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--card-inset-surface) 70%, transparent);
+  }
+  #services .service-card .service-art img {
+    inline-size: 100%;
+    block-size: auto;
+    max-block-size: 124px;
+    object-fit: contain;
+  }
+  #services .service-card .service-body {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: baseline;
+    column-gap: 10px;
+    padding-block: 10px 6px;
+  }
+  #services .service-body .service-region,
+  #services .service-scope { font-size: .8125rem; }
+  #services .service-scope { margin: 0; gap: 2px 8px; }
+  #services .service-scope li { gap: 4px; }
+  #services .service-body .arrow-link { grid-column: 1 / -1; margin-block-start: 8px; }
+
+  #customers { --compact-chapter-space: 0px; --compact-toggle: none; --compact-content: block; }
+  #customers .customer-card { padding: clamp(14px, 2.4vw, 20px); }
+  #customers .customer-identity { gap: 10px; margin-block-end: 8px; }
+  #customers .customer-identity img { inline-size: 32px; block-size: 32px; flex-basis: 32px; }
+  #customers .customer-card h3 { font-size: 1.25rem; margin-block-end: 6px; }
+  #customers .customer-card .customer-desktop-details { display: none; }
+  #customers .customer-compact-details { display: block; border-block-start: 1px solid var(--reading-line); margin-block-start: 12px; }
+  #customers .customer-compact-details .plain-list { grid-template-columns: minmax(0, 1fr); gap: 12px; margin: 0; }
+  #customers .customer-card .card-intro { font-size: .9375rem !important; }
+  #customers .customer-card .arrow-link { font-size: .9375rem; }
+
+  #import-planning { --compact-chapter-space: 0px; --compact-toggle: none; --compact-content: block; }
+  #import-planning .import-workspace { padding: clamp(14px, 2.6vw, 22px); }
+  #import-planning .import-workspace-title { font-size: clamp(1.25rem, 2.5vw, 1.5rem); margin-block-end: 16px; }
+  #import-planning .import-stage { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  #import-planning .import-intro h3 { font-size: clamp(1.125rem, 2.5vw, 1.375rem); margin-block-end: 8px; }
+  #import-planning .import-intro > p { max-inline-size: 64ch; margin-block-end: 12px; }
+  #import-planning .import-intro h4 { margin-block-end: 6px; }
+  #import-planning .import-intro .checks { gap: 6px; }
+  #import-planning .import-detail { padding: 12px; border-radius: 12px; }
+  #import-planning .import-ior { border-block-start: 1px solid var(--reading-line); }
+  #import-planning .import-ior p { font-size: .9375rem; line-height: 1.6; }
+  #import-planning .import-desktop-cta { display: none; }
+  #import-planning .import-compact-cta {
+    display: inline-flex;
+    justify-self: start;
+    min-block-size: 44px;
+    margin: 0;
+    font-weight: 700;
+  }
+  #import-planning .workspace-footer { margin-block-start: 12px; padding-block-start: 10px; }
+
+  #warehouse .warehouse-workspace--panorama { padding: clamp(14px, 2.6vw, 22px); }
+  #warehouse .warehouse-workspace .tabs { gap: 6px; margin-block-end: 12px; }
+  #warehouse .warehouse-workspace .tabs button {
+    min-inline-size: 0;
+    min-block-size: 48px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  #warehouse .warehouse-workspace :is(.warehouse-tab-label small, .warehouse-flow, .warehouse-eyebrow) { display: none; }
+  #warehouse .warehouse-tab-icon { inline-size: 20px; block-size: 20px; }
+  #warehouse .warehouse-stage-copy { display: block; margin-block-start: 12px; }
+  #warehouse .warehouse-stage-copy h3 { font-size: clamp(1.125rem, 2.5vw, 1.375rem); margin-block-end: 8px; }
+  #warehouse .warehouse-review { margin-block-start: 10px; }
+  #warehouse .warehouse-stage-copy .arrow-link { margin-block-start: 10px; }
+
+  #pricing .pricing-workspace { padding: clamp(14px, 2.6vw, 22px); }
+  #pricing .pricing-intro { display: block; margin-block-end: 12px; }
+  #pricing .pricing-intro p { margin-block-start: 7px; font-size: .9375rem; }
+  #pricing .pricing-intro h3 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+  #pricing .pricing-reviews { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  #pricing .pricing-review { padding: 4px 12px; }
+  #pricing .pricing-review-icon { display: none; }
+  #pricing .pricing-review summary strong { font-size: .9375rem; }
+  #pricing .pricing-review summary small { font-size: .8125rem; }
+  #pricing .pricing-toggle { inline-size: 26px; block-size: 26px; }
+}
+
+@media (width < 660px) {
+  /* Keep text and artwork stable while the reading surface changes over the film. */
+  .air-site main #services .service-card,
+  .air-site main #services .service-card:is(:hover, :has(:focus-visible), [data-card-in-view]) {
+    isolation: isolate;
+    background-color: transparent;
+    scale: none;
+    z-index: auto;
+  }
+  .air-site main #services .service-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: var(--service-paper);
+    opacity: .7;
+    pointer-events: none;
+  }
+  .air-site main #services .service-card:is(:has(:focus-visible), [data-card-in-view])::after { opacity: 1; }
+  @media (hover: hover) and (pointer: fine) {
+    .air-site main #services .service-card:hover::after { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .air-site main #services .service-card {
+      transition: border-color 150ms cubic-bezier(0.2, 0, 0, 1), box-shadow 150ms cubic-bezier(0.2, 0, 0, 1);
+    }
+    .air-site main #services .service-card::after {
+      transition: opacity var(--card-surface-transition);
+      will-change: opacity;
+    }
+  }
+
+  .air-site .nav-shell .brand { display: flex; align-items: center; min-block-size: 44px; }
+  .air-site .nav-shell .nav-actions .button { min-block-size: 40px; }
+
+  #warehouse .warehouse-review { padding-block: 12px; }
+  #warehouse .warehouse-review > summary { min-block-size: 44px; }
+
+  #quote .inquiry-error-summary--wide { display: none; }
+  #quote .inquiry-error-summary--phone { display: block; padding: 13px 14px; }
+  #quote .inquiry-error-summary--phone button { min-block-size: 44px; inline-size: 100%; line-height: 1.45; }
+  #quote .inquiry-error-summary--phone li + li { border-block-start: 1px solid #edd5ce; }
+
+  #freight-options .freight-comparison-table { display: none; }
+  #freight-options .freight-comparison-phone { display: grid; gap: 8px; }
+  #freight-options .freight-comparison-phone article {
+    padding: 10px 12px;
+    border: 1px solid var(--reading-line);
+    border-radius: 12px;
+    background: var(--card-inset-surface);
+  }
+  #freight-options .freight-comparison-phone h4 {
+    margin: 0 0 6px;
+    color: var(--reading-link);
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  #freight-options .freight-comparison-phone dl { margin: 0; }
+  #freight-options .freight-comparison-phone dl > div {
+    display: grid;
+    grid-template-columns: 6.15em minmax(0, 1fr);
+    gap: 8px;
+    padding-block: 4px;
+    font-size: .875rem;
+    line-height: 1.45;
+  }
+  #freight-options .freight-comparison-phone dl > div + div { border-block-start: 1px solid var(--reading-line); }
+  #freight-options .freight-comparison-phone dt { align-self: start; color: #555b58; }
+  #freight-options .freight-comparison-phone dd { margin: 0; overflow-wrap: anywhere; }
+}
+
+@media (max-width: 659px) {
+  #b2b .distribution-inset-desktop { display: none; }
+  #b2b .distribution-inset-phone { display: block; padding-block: 4px; }
+  #b2b .distribution-inset-phone > summary { min-block-size: 48px; }
+  #b2b .distribution-inset-phone > .card-disclosure-body { padding-block: 4px 12px; }
+
+  #fulfillment-options .fulfillment-details { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  #fulfillment-options .fulfillment-detail-desktop { display: none; }
+  #fulfillment-options .fulfillment-detail-phone { display: block; padding-block: 4px; }
+  #fulfillment-options .fulfillment-detail-phone > summary > svg { color: var(--reading-link); flex: none; }
+  #fulfillment-options .fulfillment-detail-phone .card-disclosure-body { padding-block: 4px 12px; }
+
+  #freight-options .freight-preparation-desktop { display: none; }
+  #freight-options .freight-preparation-phone { display: block; }
+  #freight-options .freight-preparation-phone > summary { min-block-size: 48px; }
+  #freight-options .freight-preparation-phone .card-disclosure-body { padding-block: 4px 0; }
+
+  #systems .systems-map { --systems-gap: 12px; }
+  #systems .systems-group > :is(.systems-group-heading, .systems-list) { display: none; }
+  #systems .systems-compact-group {
+    display: block;
+    padding-inline: 12px;
+    border: 1px solid var(--reading-line);
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--card-inset-surface) 70%, transparent);
+  }
+  #systems .systems-compact-group > summary { min-block-size: 56px; padding-block: 8px; }
+  #systems .systems-compact-group > summary :is(strong, small) { display: block; }
+  #systems .systems-compact-group > summary small { font-size: .8125rem; font-weight: 400; }
+  #systems .systems-compact-group .systems-list { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+
+  #services .service-grid,
+  #customers .customer-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  #import-planning .import-workspace > .tabbed { display: none; }
+  #import-planning .import-phone-topics { display: grid; gap: 8px; }
+  .import-phone-topics > .card-disclosure {
+    border: 1px solid var(--reading-line);
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--card-inset-surface) 70%, transparent);
+  }
+  .import-phone-topics > .card-disclosure[open] {
+    border-color: var(--reading-link);
+    background-color: color-mix(in srgb, var(--card-tab-selected-surface) 70%, transparent);
+  }
+  .import-phone-topics > .card-disclosure > summary,
+  .import-phone-topics > .card-disclosure > .card-disclosure-body { padding-inline: 10px; }
+  .import-phone-topics > .card-disclosure > summary > svg { color: var(--reading-link); flex: none; }
+
+  #pricing .pricing-columns > .cost-table { display: none; }
+  #pricing .pricing-phone-rates { display: block; border-block-start: 1px solid var(--reading-line); }
+  #pricing .pricing-phone-rates > details { border-block-end: 1px solid var(--reading-line); }
+  #pricing .pricing-phone-rates summary {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr) auto 26px;
+    gap: 6px;
+  }
+  #pricing .pricing-phone-rates summary > svg { color: var(--reading-link); inline-size: 20px; }
+  #pricing .pricing-phone-rates .pricing-basis { font-size: .75rem; padding: 2px 4px; }
+  #pricing .pricing-phone-rates .card-disclosure-body { padding-inline-start: 26px; font-size: .9375rem; }
+  #pricing .pricing-reviews { margin-block-start: 10px; }
+}
+
+@media (660px <= width < 1000px) {
+  .air-site main > .chapter > .chapter-heading h2 {
+    font-size: clamp(52px, 8vw, 64px);
+  }
+}
+
+/* Show the reading-state highlight without changing the card's dimensions. */
+@media (width < 660px) and (hover: none) and (pointer: coarse) {
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)[data-card-in-view]::before {
+    inset: -2px;
+    padding: 2px;
+    border-radius: calc(var(--radius) + 2px);
+    clip-path: none;
+    opacity: 1;
+  }
+}
+
+@media (660px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)[data-card-in-view] {
+    border-color: var(--cyan);
+    box-shadow: 0 0 0 var(--card-hover-ring) var(--cyan), var(--card-shadow);
+  }
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)[data-card-in-view]::before {
+    opacity: 1;
+  }
+}
+
+/* Center section title blocks while keeping wrapped lines on one leading edge. */
+@media (max-width: 1024px),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  .air-site main > .chapter > .chapter-heading {
+    align-items: center;
+    min-inline-size: 0;
+  }
+  .air-site main > .chapter > .chapter-heading h2,
+  .air-site main > .chapter > .chapter-heading h2:has(br),
+  .air-site main > :is(#services, #customers, #warehouse) > .chapter-heading h2 {
+    align-self: center;
+    inline-size: max-content;
+    max-inline-size: 100%;
+    margin-inline: auto;
+    text-align: start;
+  }
+  .air-site .hero h1,
+  .air-site #quote .inquiry-intro h2 {
+    inline-size: max-content;
+    max-inline-size: 100%;
+    margin-inline: auto;
+    text-align: start;
+  }
+}
+
+/* Match tabletLayoutQuery in responsive-layout.ts so the tab keys follow the rail. */
+@media (660px <= width <= 1024px),
+       (660px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  #systems .systems-map {
+    --systems-gap: clamp(10px, 1.7vw, 20px);
+    grid-template-columns: minmax(0, 1fr) minmax(96px, .48fr) minmax(0, 1fr);
+  }
+  #systems .systems-list { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  #systems .systems-group-heading { margin-block-end: 8px; }
+  #systems .system-node { gap: 8px; padding: 8px 10px; }
+  #systems .system-node svg { inline-size: 20px; block-size: 20px; }
+  #systems .system-node h5 { margin-block-end: 2px; }
+  #systems .system-node p { font-size: .875rem; overflow-wrap: break-word; }
+  #systems .systems-hub {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 2px;
+    padding: 12px 6px;
+    text-align: center;
+  }
+  #systems .systems-hub img { grid-row: auto; inline-size: 48px; block-size: 48px; }
+  #systems .systems-hub::before, #systems .systems-hub::after {
+    inset-block: 50% auto;
+    inset-inline: auto;
+    inline-size: var(--systems-gap);
+    block-size: 1px;
+  }
+  #systems .systems-hub::before { inset-inline-end: 100%; }
+  #systems .systems-hub::after { inset-inline-start: 100%; }
+
+  #services .service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  #customers .customer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    isolation: isolate;
+  }
+  /* Keep the card layers in place as hover or keyboard focus moves. */
+  #customers .customer-card { z-index: 1; }
+  .air-site main :is(#customers .customer-card, #freight-options .freight-workspace):is(:hover, :has(:focus-visible)) {
+    scale: none;
+  }
+  .air-site main #freight-options .freight-workspace:is(:hover, :has(:focus-visible)) { z-index: auto; }
+  #import-planning .import-workspace > .tabbed {
+    display: grid;
+    grid-template-columns: minmax(128px, 1fr) minmax(0, 3fr);
+    gap: 16px;
+    align-items: start;
+  }
+  #import-planning .import-workspace > .tabbed > .tabs {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin: 0;
+    gap: 8px;
+  }
+  #import-planning .import-workspace > .tabbed > .tabs button {
+    min-block-size: 48px;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    text-align: start;
+  }
+  #import-planning .import-topic-icon { inline-size: 21px; block-size: 21px; }
+  #import-planning .import-topic-label strong { font-size: .9375rem; }
+  #import-planning .import-topic-label small { display: block; }
+  #import-planning .import-topic-number,
+  #import-planning .import-ior-desktop { display: none; }
+  #import-planning .import-ior-tablet { display: block; }
+  #import-planning .tab-panel .import-stage {
+    padding: 14px;
+    border: 1px solid var(--reading-line);
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--card-inset-surface) 35%, transparent);
+  }
+
+  #warehouse .warehouse-workspace > .tabbed {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  #warehouse .warehouse-workspace > .tabbed > .tabs { margin: 0; }
+  #warehouse .warehouse-visual { max-inline-size: none; }
+  #warehouse .warehouse-stage-copy {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 0 20px;
+    max-inline-size: none;
+    margin-block-start: 0;
+  }
+  #warehouse .warehouse-review { margin-block-start: 0; padding-block: 12px; }
+  #warehouse .warehouse-review > summary { min-block-size: 44px; }
+  #warehouse .warehouse-review .checks { grid-template-columns: minmax(0, 1fr); }
+  #warehouse .warehouse-review .checks li span { overflow-wrap: break-word; }
+
+  #pricing .pricing-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+  }
+  #pricing .pricing-reviews { margin-block-start: 0; }
+  #pricing .cost-table :is(th, td) { padding: 8px 5px; font-size: .875rem; overflow-wrap: anywhere; }
+  #pricing .pricing-category { gap: 5px; }
+  #pricing .pricing-category-icon { display: none; }
+  #pricing .pricing-basis { font-size: .8125rem; padding: 2px 4px; white-space: normal; }
+
+  #quote .inquiry-form { container-type: inline-size; }
+  @container (inline-size < 480px) {
+    #quote .inquiry-segments { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+}
+
+
+/* Keep all fields mounted so FormData and draft restoration use the same values at every width. */
+#quote :is(.inquiry-progress, .inquiry-continue) { display: none; }
+
+@media (max-width: 1024px),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  #quote .inquiry-progress {
+    display: block;
+    color: var(--reading-link);
+    font-size: .875rem;
+    font-weight: 700;
+    margin-block-end: -10px;
+  }
+
+  #quote .inquiry-form[data-inquiry-step="1"] [aria-labelledby="inquiry-group-2"],
+  #quote .inquiry-form:not([data-inquiry-step="3"]) :is(.inquiry-contact, .inquiry-final-submit, .inquiry-final-note) {
+    display: none;
+  }
+
+  #quote .inquiry-form[data-inquiry-step="2"] .inquiry-continue {
+    display: flex;
+    margin-block-start: 4px;
+  }
+}
+
+@media (max-width: 1024px) and (prefers-reduced-motion: no-preference),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) and (prefers-reduced-motion: no-preference) {
+  #quote [data-inquiry-reveal] { animation: inquiry-section-reveal 180ms ease-out; }
+}
+
+@keyframes inquiry-section-reveal {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Compact mobile consultation steps. */
+@media (max-width: 640px) {
+  #process .consultation-workspace > .tabbed > .tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    margin-block-end: 16px;
+  }
+  #process .tabs button {
+    justify-content: center;
+    min-block-size: 44px;
+    padding: 6px 4px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #process .tabs button svg,
+  #process .consultation-tab-number { display: none; }
+  #process .consultation-tab-title {
+    display: block;
+    font-size: .875rem;
+    overflow-wrap: anywhere;
+  }
+  #process .consultation-content { gap: 16px; }
+  #process .consultation-context { margin-block-end: 8px; }
+  #process .consultation-intro > p { margin-block-start: 10px; }
+  #process .consultation-intro .arrow-link { margin-block-start: 8px; }
+
+  #process .consultation-checks {
+    gap: 0;
+    padding-inline: 12px;
+    border-radius: 14px;
+    background-color: var(--card-inset-surface);
+  }
+  .air-site main #process .glass:not(:hover):not(:has(:focus-visible)) .consultation-checks {
+    background-color: color-mix(in srgb, var(--card-inset-surface) 70%, transparent);
+  }
+  #process .consultation-checks > div {
+    column-gap: 10px;
+    padding: 10px 0;
+    border-radius: 0;
+  }
+  .air-site main #process .glass .consultation-checks > div,
+  .air-site main #process .glass:not(:hover):not(:has(:focus-visible)) .consultation-checks > div {
+    background-color: transparent;
+  }
+  #process .consultation-checks > div + div { border-block-start: 1px solid var(--reading-line); }
+  #process .consultation-checks svg { inline-size: 20px; block-size: 20px; }
+  #process .consultation-checks dd { margin-block-start: 2px; }
+}
+
+
+/* Compact mobile fulfillment card. */
+@media (max-width: 659px) {
+  #fulfillment-options .fulfillment-topline { margin-block-end: 16px; }
+  #fulfillment-options .fulfillment-workspace > .tabbed > .tabs {
+    gap: 8px;
+    margin-block-end: 16px;
+  }
+  #fulfillment-options .fulfillment-workspace > .tabbed > .tabs button {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-block-size: 52px;
+    padding: 6px 8px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  #fulfillment-options .fulfillment-tab-icon { display: none; }
+  #fulfillment-options .fulfillment-tab-label strong { font-size: .9375rem; }
+  #fulfillment-options .fulfillment-tab-label small { font-size: .8125rem; }
+  #fulfillment-options .fulfillment-body { gap: 14px; }
+  #fulfillment-options .fulfillment-art { inline-size: min(76%, 240px); }
+  #fulfillment-options .fulfillment-copy h3 { margin-block-end: 8px; }
+  #fulfillment-options .fulfillment-copy > p { margin-block-end: 14px; }
+
+  #fulfillment-options .fulfillment-details {
+    gap: 0;
+    border-radius: 14px;
+    background-color: var(--card-inset-surface);
+  }
+  .air-site main #fulfillment-options .glass:not(:hover):not(:has(:focus-visible)) .fulfillment-details {
+    background-color: color-mix(in srgb, var(--card-inset-surface) 70%, transparent);
+  }
+  #fulfillment-options .fulfillment-detail-phone {
+    padding: 0 12px;
+    border-radius: 0;
+  }
+  .air-site main #fulfillment-options .glass .fulfillment-detail-phone,
+  .air-site main #fulfillment-options .glass:not(:hover):not(:has(:focus-visible)) .fulfillment-detail-phone {
+    background-color: transparent;
+  }
+  #fulfillment-options .fulfillment-detail-phone + .fulfillment-detail-desktop + .fulfillment-detail-phone {
+    border-block-start: 1px solid var(--reading-line);
+  }
+  #fulfillment-options .fulfillment-detail-phone > summary { min-block-size: 44px; }
+  #fulfillment-options .fulfillment-process { margin-block-start: 16px; padding-block-start: 14px; }
+  #fulfillment-options .fulfillment-process h4 { margin-block-end: 12px; }
+  #fulfillment-options .fulfillment-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  #fulfillment-options .fulfillment-steps li { grid-template-columns: 28px minmax(0, 1fr); gap: 7px; }
+  #fulfillment-options .fulfillment-step-icon { inline-size: 28px; block-size: 28px; border-radius: 8px; }
+  #fulfillment-options .fulfillment-step-icon svg { inline-size: 18px; block-size: 18px; }
+  #fulfillment-options .fulfillment-steps strong { font-size: .9375rem; overflow-wrap: anywhere; }
+  #fulfillment-options .fulfillment-workspace > .fine-print { margin-block-start: 16px; }
+}
+
+
+/* Compact tablet fulfillment card. */
+@media (660px <= width <= 1024px),
+       (660px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  #fulfillment-options .fulfillment-topline { margin-block-end: 16px; }
+  #fulfillment-options .fulfillment-workspace > .tabbed > .tabs { margin-block-end: 20px; }
+  #fulfillment-options .fulfillment-workspace > .tabbed > .tabs button {
+    min-block-size: 52px;
+    padding: 10px 14px;
+  }
+  #fulfillment-options .fulfillment-body {
+    grid-template-columns: minmax(0, .8fr) minmax(0, 1.25fr);
+    gap: clamp(16px, 2.5vw, 28px);
+  }
+  #fulfillment-options .fulfillment-art { max-inline-size: 460px; }
+  #fulfillment-options .fulfillment-copy h3 { margin-block-end: 8px; }
+  #fulfillment-options .fulfillment-copy > p { margin-block-end: 14px; }
+  #fulfillment-options .fulfillment-details { gap: 10px; }
+  #fulfillment-options .fulfillment-detail-desktop { padding: 12px; }
+  #fulfillment-options .fulfillment-detail h4 { margin-block-end: 8px; }
+  #fulfillment-options .fulfillment-detail ul { gap: 4px; }
+  #fulfillment-options .fulfillment-process { margin-block-start: 20px; padding-block-start: 14px; }
+  #fulfillment-options .fulfillment-process h4 { margin-block-end: 12px; }
+  #fulfillment-options .fulfillment-steps { gap: 12px; }
+  #fulfillment-options .fulfillment-steps li { grid-template-columns: 32px minmax(0, 1fr); gap: 8px; }
+  #fulfillment-options .fulfillment-step-icon { inline-size: 32px; block-size: 32px; }
+  #fulfillment-options .fulfillment-step-icon svg { inline-size: 20px; block-size: 20px; }
+  #fulfillment-options .fulfillment-steps strong { overflow-wrap: anywhere; }
+  #fulfillment-options .fulfillment-workspace > .fine-print { margin-block-start: 16px; }
+}
+
+@media (760px <= width <= 1024px),
+       (760px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  #fulfillment-options .fulfillment-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+
+/* Compact tablet B2B and returns cards. */
+@media (660px <= width <= 1024px),
+       (660px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  #b2b.distribution-chapter {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "intro" "delivery" "returns";
+  }
+  #b2b > .chapter-heading { grid-area: intro; }
+  #b2b > .b2b-panel { grid-area: delivery; }
+  #b2b > .returns-panel { grid-area: returns; }
+
+  #b2b > .distribution-card {
+    display: grid;
+    grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr);
+    grid-template-rows: auto auto 1fr auto;
+    column-gap: clamp(16px, 2.5vw, 28px);
+  }
+  #b2b > .distribution-card > :is(.distribution-label, h3, p) { grid-column: 1; }
+  #b2b > .distribution-card > .distribution-label { grid-row: 1; margin-block-end: 10px; }
+  #b2b > .distribution-card > h3 { grid-row: 2; margin-block-end: 8px; }
+  #b2b > .distribution-card > p { grid-row: 3; margin-block-end: 0; }
+  #b2b > .distribution-card > .distribution-inset-desktop {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    align-self: start;
+    margin-block-end: 0;
+    padding: 12px 14px;
+  }
+  #b2b .distribution-inset-desktop > h4 { margin-block-end: 10px; }
+  #b2b .distribution-inset-desktop .distribution-list { gap: 8px; }
+  #b2b .returns-panel .distribution-inset-desktop .distribution-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #b2b .returns-panel .distribution-inset-desktop .distribution-list li {
+    gap: 6px;
+    overflow-wrap: anywhere;
+  }
+  #b2b .returns-panel .distribution-inset-desktop .distribution-list svg {
+    inline-size: 18px;
+    block-size: 18px;
+  }
+  #b2b .distribution-inset-desktop .disclosure summary { padding-inline-end: 6px; }
+  #b2b > .distribution-card > .arrow-link {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    margin-block-start: 8px;
+  }
+}
+
+
+.pn-footer-nav-mobile { display: none; }
+.pn-footer-registration { flex-basis: 100%; }
+
+/* Compact mobile and tablet footer. */
+@media (max-width: 1024px),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  .air-site .air-footer { padding-block: 24px 28px; }
+  .pn-footer-top { gap: 14px; padding-block-end: 16px; }
+  .pn-footer-kicker, .pn-footer-route { display: none; }
+  .pn-footer-top h2 { font-size: clamp(1.5rem, 3.2vw, 2rem); }
+  .pn-footer-top h2 br { display: none; }
+  .pn-footer-cta { min-height: 44px; padding: 8px 16px; gap: 10px; }
+  .pn-footer-nav {
+    grid-template-columns: minmax(0, 1.25fr) repeat(2, minmax(0, 1fr));
+    gap: 16px 20px;
+    padding-block: 16px;
+  }
+  .pn-footer-brand { grid-column: auto; }
+  .pn-footer-logo { width: 160px; }
+  .pn-footer-brand p { margin-block-start: 6px; font-size: .875rem; }
+  .pn-footer-nav h3 { margin-block: 0 6px; }
+  .pn-footer-utilities { padding-block-start: 8px; padding-inline-end: 36px; gap: 0 14px; }
+  .pn-footer-utilities > p { flex-basis: auto; }
+  .pn-footer-registration { flex-basis: auto; text-align: start; }
+}
+
+@media (max-width: 659px) {
+  .pn-footer-top { align-items: flex-start; flex-direction: column; }
+  .pn-footer-nav { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .pn-footer-brand { margin-block-end: 4px; }
+  .pn-footer-nav nav { border-block-end: 1px solid var(--footer-rule); }
+  .pn-footer-nav-wide { display: none; }
+  .pn-footer-nav-mobile { display: block; }
+  .pn-footer-nav-mobile summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 44px;
+    padding-inline: 4px 8px;
+    font-size: .9375rem;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+  }
+  .pn-footer-nav-mobile summary::-webkit-details-marker { display: none; }
+  .pn-footer-nav-mobile summary:focus-visible { outline: 2px solid var(--action-fill); outline-offset: 2px; }
+  .pn-footer-nav-mobile summary span { color: var(--action-fill); font-size: 1.125rem; }
+  .pn-footer-nav-mobile summary span::before { content: "+"; }
+  .pn-footer-nav-mobile[open] summary span::before { content: "−"; }
+  .pn-footer-nav-mobile ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 12px;
+    padding-block-end: 4px;
+  }
+  .pn-footer-nav-mobile a { overflow-wrap: anywhere; }
+  .pn-footer-utilities > p { flex-basis: 100%; }
+  .pn-footer-registration { margin-inline-start: auto; }
+}
+
+
+.import-subtitle-mobile-break, .warehouse-subtitle-mobile-break, .b2b-subtitle-mobile-break, .pricing-subtitle-mobile-break, .faq-heading-mobile-break, .faq-subtitle-mobile-break { display: none; }
+.tablet-heading-break { display: none; }
+@media (660px <= width <= 1024px),
+       (660px <= width <= 1366px) and (hover: none) and (pointer: coarse) {
+  .tablet-heading-break, .faq-heading-mobile-break { display: initial; }
+  .air-site main > .chapter:not(#services, #customers, #warehouse) > .chapter-heading {
+    inline-size: calc(100% - 2 * var(--chapter-card-inset));
+    margin-inline: auto;
+    inset-inline-start: auto;
+    left: auto;
+    transform: none;
+    align-items: flex-start;
+    text-align: start;
+  }
+  .air-site main > .chapter:not(#services, #customers, #warehouse) > .chapter-heading h2 {
+    align-self: flex-start;
+    margin-inline: 0;
+    text-align: start;
+  }
+  .air-site main > .chapter:not(#services, #customers, #warehouse) > .chapter-heading > p {
+    max-inline-size: 100%;
+    margin-inline: 0;
+    padding-inline: 0;
+    text-align: start;
+  }
+  .air-site main > #services > .chapter-heading > p {
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 659px) {
+  .import-subtitle-mobile-break, .warehouse-subtitle-mobile-break, .b2b-subtitle-mobile-break, .pricing-subtitle-mobile-break, .faq-heading-mobile-break, .faq-subtitle-mobile-break { display: initial; }
+  .air-site main > #import-planning > .chapter-heading > p {
+    padding-inline: 0;
+    font-size: clamp(16px, 4.8vw, 19px);
+  }
+  .air-site main > #warehouse > .chapter-heading > p {
+    font-size: clamp(16px, 4.7vw, 19px);
+  }
+  .air-site main > #b2b > .chapter-heading > p {
+    padding-inline: 0;
+    font-size: clamp(16px, 4.7vw, 19px);
+  }
+  .air-site main > #pricing > .chapter-heading > p {
+    padding-inline: 0;
+  }
+  .air-site main > #faq > .chapter-heading > p {
+    padding-inline: 0;
+  }
+}
+
+@media (width < 660px) and (hover: hover) and (pointer: fine) {
+  /* Keep both hover targets fixed and fade the highlight over their resting surfaces. */
+  .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace),
+  .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace):is(:hover, :has(:focus-visible)) {
+    isolation: isolate;
+    background-color: color-mix(in srgb, var(--card-surface) 65%, transparent);
+    border-color: var(--reading-line);
+    box-shadow: var(--card-shadow);
+    scale: none;
+    z-index: auto;
+  }
+  .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace)::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    z-index: -1;
+    border: 1px solid var(--cyan);
+    border-radius: inherit;
+    background-color: var(--card-surface);
+    box-shadow: 0 0 0 var(--card-hover-ring) var(--cyan);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace):is(:hover, :has(:focus-visible))::after {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace)::before,
+    .air-site main :is(#process .consultation-workspace, #pricing .pricing-workspace)::after {
+      transition: opacity var(--card-surface-transition);
+      will-change: opacity;
+    }
+  }
+}
+
+/* Thin card highlight on mobile and tablet. */
+@media (max-width: 1024px),
+       (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry) {
+    --card-hover-ring: 2px;
+  }
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)::before {
+    --card-frame-depth: 6.5px;
+    inset: calc(-1 * var(--card-frame-depth)) -3.9px calc(-1 * var(--card-frame-depth)) calc(-1 * var(--card-hover-ring));
+    padding: var(--card-frame-depth) 3.9px var(--card-frame-depth) var(--card-hover-ring);
+    border-radius: calc(var(--radius) + var(--card-hover-ring)) calc(var(--radius) + 3.9px) calc(var(--radius) + 3.9px) calc(var(--radius) + var(--card-hover-ring));
+  }
+}
+
+/* On touch screens, use the card's own rounded edge for the reading highlight. */
+@media (hover: none) and (pointer: coarse) and (max-width: 1366px) {
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)[data-card-in-view]::before {
+    opacity: 0;
+  }
+
+  .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry)[data-card-in-view] {
+    border-color: var(--cyan);
+    box-shadow: 0 0 0 2px var(--cyan), var(--card-shadow);
+  }
+}

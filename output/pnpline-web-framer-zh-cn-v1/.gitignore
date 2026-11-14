@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.next-production/
+*.tsbuildinfo
+.env*.local
+.next-full-overlay/

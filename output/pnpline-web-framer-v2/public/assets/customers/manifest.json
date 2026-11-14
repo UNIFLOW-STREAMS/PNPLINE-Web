@@ -1,0 +1,24 @@
+{
+  "source": "F:/pnpline-landing/output/customer-types-concept-20261101/customer-types.png",
+  "images": {
+    "amazon-warehouse-photo.webp": [
+      600,
+      385,
+      955,
+      819
+    ],
+    "shopify-parcels.webp": [
+      974,
+      576,
+      1237,
+      776
+    ],
+    "b2b-pallet.webp": [
+      1251,
+      558,
+      1501,
+      776
+    ]
+  },
+  "note": "Source raster crops; cyan edge-connected backgrounds removed on side images. Concept icons reconstructed as SVG because PNG has no vector layers."
+}
