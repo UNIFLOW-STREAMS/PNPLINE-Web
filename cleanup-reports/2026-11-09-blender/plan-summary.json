@@ -1,0 +1,28 @@
+{
+  "deleteCount": 48247,
+  "deleteGiB": 48.41,
+  "byReason": [
+    {
+      "reason": "blend_autobackup",
+      "count": 61,
+      "GiB": 1.43
+    },
+    {
+      "reason": "obsolete_blend",
+      "count": 302,
+      "GiB": 8.94
+    },
+    {
+      "reason": "obsolete_render_or_review_frame",
+      "count": 47884,
+      "GiB": 38.04
+    }
+  ],
+  "preservedImages": 3231,
+  "preservedBlends": [
+    "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-003.blend",
+    "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-004.blend",
+    "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-007-cream-aqua.blend",
+    "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-010-usa-dusty-blue.blend"
+  ]
+}

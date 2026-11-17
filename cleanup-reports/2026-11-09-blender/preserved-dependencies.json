@@ -1,0 +1,173 @@
+[
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-003.blend",
+    "sha256": "091cf5e60f8e48b2d958300dde7b8a627545ac8c634d2c5325d2c27dd1dfa7f1",
+    "libraries": [],
+    "images": [
+      {
+        "name": "BG | Screen gradient - DFEAF3 to F3F6F8",
+        "source": "FILE",
+        "path": "C:\\tmp\\pnpline-background-gradient-v001\\background-gradient-linear.exr",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Liberty | isolated lithograph inks (sRGB)",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\liberty-ink.png",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Shelf - coastal falloff",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\resources\\Shelf - coastal falloff.png",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Wake - restrained cargo shoulders",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\resources\\Wake - restrained cargo shoulders.png",
+        "packed": true,
+        "users": 1
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Arial Bold",
+        "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+        "packed": true
+      }
+    ],
+    "render_paths": [
+      {
+        "scene": "PNPLINE_MASTER_v005",
+        "output": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-final\\hero-"
+      }
+    ]
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-004.blend",
+    "sha256": "a4bd10dc6d3a083c7d14873c9a3201e5035fd3c133acfd63bdf37c996974df73",
+    "libraries": [],
+    "images": [
+      {
+        "name": "BG | Screen gradient - DFEAF3 to F3F6F8",
+        "source": "FILE",
+        "path": "C:\\tmp\\pnpline-background-gradient-v001\\background-gradient-linear.exr",
+        "packed": true,
+        "users": 1
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Arial Bold",
+        "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+        "packed": true
+      }
+    ],
+    "render_paths": [
+      {
+        "scene": "PNPLINE_ILLUSTRATION_004",
+        "output": "F:\\pnpline-landing\\hero-section-video\\renders\\test-004-toon\\"
+      }
+    ]
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-007-cream-aqua.blend",
+    "sha256": "5a7a163588f268b30bf23f83c1c1fa5dd565794fbdafb9794a88cafffff1970d",
+    "libraries": [],
+    "images": [
+      {
+        "name": "BG | Screen gradient - DFEAF3 to F3F6F8",
+        "source": "FILE",
+        "path": "C:\\tmp\\pnpline-background-gradient-v001\\background-gradient-linear.exr",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "BG | Screen gradient - DFEAF3 to F3F6F8.001",
+        "source": "FILE",
+        "path": "C:\\tmp\\pnpline-background-gradient-v001\\background-gradient-linear.exr",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Shelf - coastal falloff",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\resources\\Shelf - coastal falloff.png",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Wake - restrained cargo shoulders",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\resources\\Wake - restrained cargo shoulders.png",
+        "packed": true,
+        "users": 1
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Arial Bold",
+        "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+        "packed": true
+      }
+    ],
+    "render_paths": [
+      {
+        "scene": "PNPLINE_ILLUSTRATION_005",
+        "output": "F:\\pnpline-landing\\hero-section-video\\renders\\test-005-original-colors\\"
+      }
+    ]
+  },
+  {
+    "file": "F:\\pnpline-landing\\hero-section-video\\hero-section-B-test-010-usa-dusty-blue.blend",
+    "sha256": "e22e5a0d0a90742177b9157f03a79f5d061e8f5ee9251aa4942b4ebfc863b56c",
+    "libraries": [],
+    "images": [
+      {
+        "name": "BG | Screen gradient - DFEAF3 to F3F6F8",
+        "source": "FILE",
+        "path": "C:\\tmp\\pnpline-background-gradient-v001\\background-gradient-linear.exr",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Liberty | isolated lithograph inks (sRGB)",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\liberty-patina-v001\\liberty-ink.png",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Shelf - coastal falloff",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v001\\resources\\Shelf - coastal falloff.png",
+        "packed": true,
+        "users": 1
+      },
+      {
+        "name": "Wake - restrained cargo shoulders",
+        "source": "FILE",
+        "path": "F:\\pnpline-landing\\hero-section-video\\lookdev\\ocean-foam-v002\\resources\\Wake - restrained cargo shoulders.png",
+        "packed": true,
+        "users": 1
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Arial Bold",
+        "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+        "packed": true
+      }
+    ],
+    "render_paths": [
+      {
+        "scene": "PNPLINE_MASTER_v005",
+        "output": "F:\\pnpline-landing\\hero-section-video\\final\\hero-section-final\\hero-"
+      }
+    ]
+  }
+]
