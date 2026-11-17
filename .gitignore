@@ -1,5 +1,5 @@
 design-refs/
-output/source-assets/
+/docs/aliyun-provisioning/
 
 # Generated blockout render and review frames (keep plan/reference artwork).
 /hero-section-video/blockout/*/preview/**/*.png
