@@ -9,6 +9,7 @@ design-refs/
 # Logs, caches, and Blender backup or intermediate files.
 logs/
 *.log
+*.log.mbtree
 __pycache__/
 *.pyc
 *.blend1
