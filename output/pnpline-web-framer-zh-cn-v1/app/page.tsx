@@ -1,8 +1,10 @@
 import Landing from "./air-landing";
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import JsonLd from './json-ld';
 import {homeStructuredData} from './structured-data';
 import {getSiteUrl, siteData} from './site-data';
+
+export const viewport: Viewport = {viewportFit: 'cover'};
 
 export function generateMetadata(): Metadata {
   const base = getSiteUrl();

@@ -30,10 +30,10 @@ function isBuffered(video: HTMLVideoElement, time: number) {
   return false;
 }
 
-function seek(video: HTMLVideoElement, time: number, retargetWhileSeeking = false) {
+function seek(video: HTMLVideoElement, time: number) {
   const distance = Math.abs(video.currentTime - time);
   if (video.readyState >= HTMLMediaElement.HAVE_METADATA &&
-      (video.seeking ? retargetWhileSeeking && distance >= 0.4 : distance >= seekTolerance)) {
+      !video.seeking && distance >= seekTolerance) {
     video.currentTime = time;
   }
 }
@@ -59,11 +59,70 @@ export function mountHeroJourney() {
   const portrait = window.matchMedia("(orientation: portrait)");
   const compact = window.matchMedia("(max-width: 600px)");
   let framing: Framing | undefined;
-  let disposed = false, frozen = false, primed = false, highFailed = false, videoUnavailable = false;
+  let disposed = false, frozen = false, highFailed = false, videoUnavailable = false;
   let targetTime = 0, queued = 0;
   let mediaRequest: AbortController;
   let highAsset = "", workerPlayback = false, localHq = false, highStarted = false;
   let highRetry = 0;
+  let needsResume = false;
+  const primed = new Set<HTMLVideoElement>();
+  const priming = new Map<HTMLVideoElement, number>();
+  const seekTimers = new Map<HTMLVideoElement, number>();
+  const recoveries = new Map<HTMLVideoElement, number>();
+
+  const cancelVideoWork = (video: HTMLVideoElement) => {
+    clearTimeout(priming.get(video));
+    clearTimeout(seekTimers.get(video));
+    priming.delete(video);
+    seekTimers.delete(video);
+    primed.delete(video);
+    video.pause();
+  };
+
+  const primeVideo = (video: HTMLVideoElement) => {
+    if (disposed || frozen || needsResume || document.hidden || videoUnavailable || !video.hasAttribute("src") ||
+        video.error || primed.has(video) || priming.has(video)) return;
+    // Every decoder needs its own activation, including a cached HQ source.
+    // A suspended WebKit play promise can remain pending indefinitely.
+    const timeout = window.setTimeout(() => {
+      priming.delete(video);
+      video.pause();
+      queueSeek();
+    }, 2000);
+    priming.set(video, timeout);
+    video.muted = true;
+    video.playsInline = true;
+    video.play().then(() => {
+      if (priming.get(video) !== timeout) return;
+      clearTimeout(timeout);
+      priming.delete(video);
+      primed.add(video);
+      video.pause();
+      queueSeek();
+    }).catch(() => {
+      if (priming.get(video) !== timeout) return;
+      clearTimeout(timeout);
+      priming.delete(video);
+      queueSeek();
+    });
+  };
+
+  const seekFrame = (video: HTMLVideoElement, time: number) => {
+    if (!video.hasAttribute("src") || video.error) return;
+    if (!priming.has(video)) seek(video, time);
+    if (hasFrame(video, time) || seekTimers.has(video) || (recoveries.get(video) ?? 0) >= 2) return;
+    // Scroll updates must not postpone recovery when seeked never arrives.
+    seekTimers.set(video, window.setTimeout(() => {
+      seekTimers.delete(video);
+      if (disposed || frozen || document.hidden || videoUnavailable) return;
+      keepCurrentFrame();
+      recoveries.set(video, (recoveries.get(video) ?? 0) + 1);
+      cancelVideoWork(video);
+      video.load();
+      primeVideo(video);
+      queueSeek();
+    }, 2000));
+  };
 
   const keepCurrentFrame = () => {
     if (hold.hasAttribute("data-visible") || track.dataset.heroReady !== "true") return;
@@ -85,10 +144,13 @@ export function mountHeroJourney() {
   };
 
   const startLite = () => {
-    if (!lite.hasAttribute("src")) lite.src = `/assets/video/hero-scroll-${framing}-lite-v3.mp4`;
+    if (lite.hasAttribute("src")) return;
+    lite.src = `/assets/video/hero-scroll-${framing}-lite-v3.mp4`;
+    primeVideo(lite);
   };
 
   const startHigh = async (fromStorage: boolean, signal: AbortSignal) => {
+    if (highStarted || signal.aborted) return;
     highStarted = true;
     const controlled = await enableHqWorker(signal).catch(() => false);
     if (signal.aborted) return;
@@ -96,6 +158,7 @@ export function mountHeroJourney() {
     localHq = fromStorage && controlled;
     if (!localHq) startLite();
     high.src = controlled ? `${highAsset}?hero-hq=play` : highAsset;
+    primeVideo(high);
     if (!controlled || localHq) return;
 
     const complete = await fillHqCache(highAsset, signal);
@@ -113,22 +176,22 @@ export function mountHeroJourney() {
   };
 
   const syncFrame = () => {
-    if (disposed || frozen || videoUnavailable || document.hidden) return;
+    if (disposed || frozen || needsResume || videoUnavailable || document.hidden) return;
     const highTime = frameTime(targetTime, config.fps);
-    if (!highFailed && hasFrame(high, highTime)) {
+    if (!highFailed && !priming.has(high) && hasFrame(high, highTime)) {
       showFrame("hq", highTime, config.fps);
-      if (localHq && lite.hasAttribute("src")) unload(lite);
+      clearTimeout(seekTimers.get(high));
+      seekTimers.delete(high);
       return;
     }
-    if (localHq) {
-      if (!isBuffered(high, highTime)) keepCurrentFrame();
-      seek(high, highTime, true);
-      return;
-    }
+    // Cached bytes do not imply a working decoder. Keep Lite available.
+    startLite();
     // Use the matching Lite frame while HQ catches up to the scroll position.
     const liteTime = frameTime(targetTime, liteFps);
-    if (!lite.error && hasFrame(lite, liteTime)) {
+    if (!lite.error && !priming.has(lite) && hasFrame(lite, liteTime)) {
       showFrame("lite", liteTime, liteFps);
+      clearTimeout(seekTimers.get(lite));
+      seekTimers.delete(lite);
 
       // Start loading HQ after the first Lite frame is ready to show.
       if (!connection?.saveData && !highStarted) {
@@ -139,9 +202,9 @@ export function mountHeroJourney() {
         ? !highFailed && isBuffered(high, highTime)
         : !lite.error && isBuffered(lite, liteTime);
       if (!shownFrameBuffered) keepCurrentFrame();
-      if (!lite.error) seek(lite, liteTime);
+      if (!lite.error) seekFrame(lite, liteTime);
     }
-    if (!highFailed) seek(high, highTime, true);
+    if (!highFailed) seekFrame(high, highTime);
   };
 
   const queueSeek = () => {
@@ -166,7 +229,8 @@ export function mountHeroJourney() {
     workerPlayback = localHq = highStarted = false;
     highFailed = false;
     videoUnavailable = false;
-    primed = false;
+    for (const video of [lite, high]) cancelVideoWork(video);
+    recoveries.clear();
     unload(high);
     unload(lite);
     track.dataset.video = "active";
@@ -174,6 +238,7 @@ export function mountHeroJourney() {
     track.dataset.heroQuality = "lite";
     if (!hold.hasAttribute("data-visible")) delete track.dataset.heroReady;
     toggle.hidden = false;
+    startLite();
     void hasStoredHq(highAsset).then(stored => {
       if (signal.aborted) return;
       if (stored) void startHigh(true, signal);
@@ -206,13 +271,20 @@ export function mountHeroJourney() {
     if (frozen) keepCurrentFrame();
     toggle.setAttribute("aria-pressed", String(frozen));
     toggle.setAttribute("title", frozen ? "恢复背景动画" : "暂停背景动画");
-    if (!frozen) renderJourney(journey.progress);
+    if (frozen) {
+      for (const video of [lite, high]) cancelVideoWork(video);
+    } else {
+      resume();
+      prime();
+      renderJourney(journey.progress);
+    }
   };
 
   const fallback = () => {
     videoUnavailable = true;
     mediaRequest.abort();
     clearTimeout(highRetry);
+    for (const video of [lite, high]) cancelVideoWork(video);
     unload(high);
     delete track.dataset.video;
     delete track.dataset.heroReady;
@@ -225,7 +297,9 @@ export function mountHeroJourney() {
     clearTimeout(highRetry);
     if (disposed || videoUnavailable) return;
     highFailed = false;
+    cancelVideoWork(high);
     high.src = workerPlayback ? `${highAsset}?hero-hq=play` : highAsset;
+    primeVideo(high);
     queueSeek();
   };
 
@@ -248,29 +322,65 @@ export function mountHeroJourney() {
   };
 
   const prime = () => {
-    if (primed || disposed || videoUnavailable || frozen || lite.error || track.dataset.heroQuality === "hq") return;
-    primed = true;
-    // User-gesture priming supports later paused seeks on Safari.
-    lite.play()?.then(() => {
-      if (!disposed) {
-        lite.pause();
-        queueSeek();
-      }
-    }).catch(() => { primed = false; });
+    if (disposed || videoUnavailable || frozen || document.hidden) return;
+    primeVideo(lite);
+    primeVideo(high);
+  };
+  const primeMouse = (event: PointerEvent) => {
+    if (event.pointerType === "mouse") prime();
   };
 
-  const mediaEvents = ["loadedmetadata", "loadeddata", "progress", "canplay", "seeked", "suspend"];
+  const suspend = () => {
+    needsResume = true;
+    keepCurrentFrame();
+    cancelAnimationFrame(queued);
+    queued = 0;
+    for (const video of [lite, high]) cancelVideoWork(video);
+  };
+  const resume = () => {
+    if (disposed || frozen || document.hidden || videoUnavailable || !needsResume) return;
+    needsResume = false;
+    highFailed = false;
+    recoveries.clear();
+    for (const video of [lite, high]) {
+      cancelVideoWork(video);
+      // Reset a decoder left in a silent seeking/playing state by iOS.
+      if (video.hasAttribute("src")) video.load();
+    }
+    prime();
+    renderJourney(journey.progress);
+  };
+  const onVisibility = () => {
+    if (document.hidden) suspend();
+    else resume();
+  };
+  const onMediaReady = (event: Event) => {
+    const video = event.target as HTMLVideoElement;
+    if (!video.seeking && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+      clearTimeout(seekTimers.get(video));
+      seekTimers.delete(video);
+    }
+    queueSeek();
+  };
+
+  const mediaEvents = ["loadedmetadata", "loadeddata", "progress", "canplay", "suspend"];
   for (const video of [lite, high]) {
     video.preload = "auto";
     for (const event of mediaEvents) video.addEventListener(event, queueSeek);
+    video.addEventListener("seeked", onMediaReady);
   }
   lite.addEventListener("error", onLiteError);
   high.addEventListener("error", onHighError);
   toggle.addEventListener("click", setFrozen);
-  document.addEventListener("visibilitychange", queueSeek);
+  document.addEventListener("visibilitychange", onVisibility);
+  window.addEventListener("pagehide", suspend);
+  window.addEventListener("pageshow", resume);
+  window.addEventListener("blur", suspend);
+  window.addEventListener("focus", resume);
   connection?.addEventListener("change", queueSeek);
-  window.addEventListener("pointerdown", prime, {passive:true});
-  window.addEventListener("touchstart", prime, {passive:true});
+  window.addEventListener("pointerdown", primeMouse, {passive:true});
+  // WebKit grants touch activation on release.
+  window.addEventListener("touchend", prime, {passive:true});
   portrait.addEventListener("change", selectVideo);
   compact.addEventListener("change", selectVideo);
   selectVideo();
@@ -288,13 +398,19 @@ export function mountHeroJourney() {
     portrait.removeEventListener("change", selectVideo);
     compact.removeEventListener("change", selectVideo);
     hold.removeAttribute("data-visible");
-    document.removeEventListener("visibilitychange", queueSeek);
+    document.removeEventListener("visibilitychange", onVisibility);
+    window.removeEventListener("pagehide", suspend);
+    window.removeEventListener("pageshow", resume);
+    window.removeEventListener("blur", suspend);
+    window.removeEventListener("focus", resume);
     connection?.removeEventListener("change", queueSeek);
-    window.removeEventListener("pointerdown", prime);
-    window.removeEventListener("touchstart", prime);
+    window.removeEventListener("pointerdown", primeMouse);
+    window.removeEventListener("touchend", prime);
     lite.removeEventListener("error", onLiteError);
     high.removeEventListener("error", onHighError);
     for (const video of [lite, high]) {
+      cancelVideoWork(video);
+      video.removeEventListener("seeked", onMediaReady);
       for (const event of mediaEvents) video.removeEventListener(event, queueSeek);
       unload(video);
     }

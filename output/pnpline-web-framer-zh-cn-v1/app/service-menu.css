@@ -37,6 +37,7 @@
   min-block-size: 4.75rem;
   padding: .625rem;
   border-radius: .875rem;
+  background-color: var(--card-inset-surface);
   color: #242826;
   white-space: normal;
   transition: background-color 160ms ease;
@@ -50,7 +51,7 @@
   width: 2.75rem;
   height: 2.75rem;
   border-radius: .625rem;
-  background: #f0ebe3;
+  background: var(--paper);
   color: #006782;
 }
 .service-menu-icon::before {
@@ -61,8 +62,9 @@
   mask: var(--service-menu-icon) center / contain no-repeat;
 }
 .service-menu-link > svg { color: #006782; }
-.service-menu-support .service-menu-link { background-color: #f4f1ea; }
-.air-site .site-nav .service-menu .service-menu-link:is(:hover, :focus-visible) { background-color: #e7efed; }
+.air-site .site-nav .service-menu .service-menu-link:is(:hover, :focus-visible) {
+  background-color: var(--card-tab-hover-surface);
+}
 .air-site .site-nav .service-menu a:focus-visible { outline: 2px solid #006782; outline-offset: -2px; }
 .air-site .site-nav .service-menu .service-menu-all {
   display: flex;
@@ -156,9 +158,9 @@
        (max-width: 1366px) and (hover: none) and (pointer: coarse) {
   .air-site .site-nav {
     --header: 54px;
-    top: 10px;
-    left: 12px;
-    right: 12px;
+    top: calc(10px + env(safe-area-inset-top));
+    left: calc(12px + env(safe-area-inset-left));
+    right: calc(12px + env(safe-area-inset-right));
   }
   .air-site .site-nav .nav-shell {
     display: flex;
@@ -194,7 +196,7 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     align-content: start;
     inset-block-start: calc(100% + .5rem);
-    max-block-size: min(68dvh, calc(100dvh - var(--header) - 3rem - env(safe-area-inset-bottom)));
+    max-block-size: min(68dvh, calc(100dvh - var(--header) - 3rem - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
     gap: .25rem;
     padding: .5rem;
     scroll-padding-block: .5rem;
@@ -283,7 +285,6 @@
     min-block-size: 2.75rem;
     padding: .375rem;
     border-radius: .375rem;
-    background-color: var(--card-inset-surface);
   }
   .service-menu-link strong { font-size: .9375rem; overflow-wrap: anywhere; }
   .service-menu-link small, .service-menu-link > svg { display: none; }

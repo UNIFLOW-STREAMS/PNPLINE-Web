@@ -543,16 +543,16 @@ main > .distribution-chapter > .chapter-heading {
   #warehouse .warehouse-workspace > .art { min-block-size: 0; }
 }
 
-/* Warm reading surfaces and a single accent for primary actions. */
+/* Reading surfaces and a single accent for primary actions. */
 .air-site {
-  --paper: #fffcf7;
-  --cream-surface: #fff6e8;
-  --card-inset-surface: #f3e8d7;
-  --card-detail-surface: #eee0cb;
+  --paper: #ffffff;
+  --card-base-surface: #ffffff;
+  --card-inset-surface: #f1f4f4;
+  --card-detail-surface: #e3eaea;
   --card-tab-hover-surface: var(--card-detail-surface);
-  --card-tab-selected-surface: color-mix(in srgb, var(--cream-surface) 92%, var(--cyan));
-  --ivory: #f4f1ea;
-  --sand: #e8ddce;
+  --card-tab-selected-surface: color-mix(in srgb, var(--card-base-surface) 92%, var(--cyan));
+  --ivory: #f1f4f4;
+  --sand: #e3eaea;
   --graphite: #242826;
   --deep-cyan: #006782;
   --text-on-surface: var(--graphite);
@@ -798,7 +798,7 @@ html[lang="zh-CN"] .pn-footer-top h2 {
 #services .service-grid { gap: var(--card-gap); width: 100%; }
 #services .service-card {
   --service-padding: 32px;
-  --service-paper: var(--cream-surface);
+  --service-paper: var(--card-base-surface);
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -2287,9 +2287,9 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
 
 /* Navigation treatment adapted from the B landing version. */
 .air-site .site-nav {
-  --nav-surface: var(--cream-surface);
+  --nav-surface: var(--card-base-surface);
   --nav-transition-duration: 1s;
-  background: rgb(255 246 232 / 0);
+  background: rgb(255 255 255 / 0);
   border-radius: 14px;
   transition: background-color var(--nav-transition-duration) ease, box-shadow var(--nav-transition-duration) ease;
 }
@@ -2325,7 +2325,7 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
   }
   .air-site .site-nav[data-content-visible] .nav-links > :is(a, button) {
     color: #25211a;
-    text-shadow: 0 1px 2px rgb(255 246 232 / .6);
+    text-shadow: 0 1px 2px rgb(255 255 255 / .6);
   }
   .air-site .site-nav[data-content-visible] .nav-links :is(a, button):hover {
     color: #006485;
@@ -2373,7 +2373,7 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
 
 /* Card surface alpha changes independently of the card content. */
 .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry) {
-  --card-surface: var(--cream-surface);
+  --card-surface: var(--card-base-surface);
   --card-hover-ring: 4px;
   --card-frame-depth: 13px;
   --card-frame-edge: 7.8px;
@@ -2435,7 +2435,9 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
     box-shadow: 0 0 0 var(--card-hover-ring) var(--cyan), var(--card-shadow);
   }
 }
-@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+/* A desktop scale transition recreates the card's paint layer over the video.
+   Keep desktop hover on the existing color and outline transitions. */
+@media (width <= 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   .air-site main :is(#services .service-card, #customers .customer-card, .glass, .quote-inquiry):is(:hover, :has(:focus-visible)) {
     scale: var(--card-hover-scale);
     z-index: 1;
@@ -2446,7 +2448,6 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
     --card-hover-ring: 2.8px;
     --card-frame-depth: 9.1px;
     --card-frame-edge: 5.46px;
-    --card-hover-scale: 1.012;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2498,6 +2499,11 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
 .air-site main :is(#freight-options, #import-planning, #warehouse, #fulfillment-options, #process, #faq) .glass .tabs button[aria-selected=true] {
   background-color: color-mix(in srgb, var(--card-tab-selected-surface) 70%, transparent);
 }
+@media (hover: hover) {
+  .air-site main :is(#freight-options, #import-planning, #warehouse, #fulfillment-options, #process, #faq) .glass .tabs button:hover:not([aria-selected=true]) {
+    background-color: var(--card-tab-hover-surface);
+  }
+}
 
 /* A uniform service-card surface replaces the layered opacity gradient. */
 .air-site main #services .service-card {
@@ -2541,11 +2547,8 @@ html[lang="zh-CN"] #quote .inquiry-intro h2 { letter-spacing: 0; line-height: 1.
 
 @media (width > 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   #customers .customer-grid { isolation: isolate; }
-  /* Keep the same paint order and transform layer while focus moves between cards. */
-  #customers .customer-card {
-    z-index: 1;
-    scale: 1;
-  }
+  /* Keep the same paint order while focus moves between cards. */
+  #customers .customer-card { z-index: 1; }
 }
 
 /* Give the pricing introduction enough room on desktop while allowing responsive wrapping. */
